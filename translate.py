@@ -10,7 +10,7 @@ else:
 
 # api-endpoint
 URL = "https://translation.googleapis.com/language/translate/v2"
-key = 'AIzaSyCjXevfJT2Ovdsw1LLDdystop1vWhd_i2Q'
+from translation_key import *
 
 file = open(filename) #'ertugrul-1-1-en.srt')
 lines = file.read().splitlines()

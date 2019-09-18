@@ -106,3 +106,4 @@ venv.bak/
 other
 *.mp4
 *.m4a
+translation_key.py
