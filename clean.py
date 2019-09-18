@@ -12,7 +12,7 @@ lines = file.read().splitlines()
 for line in lines:
     if not line.strip():
         print
-    elif "-->" in line or len(line) < 4:
+    elif "-->" in line or len(line) < 4 or "color=" in line or "9999" in line:
         x = 0
     else:
         print line
