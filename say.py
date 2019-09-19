@@ -25,6 +25,6 @@ for line in lines:
     else:
         count = count + 1
         print("saying: " + line)
-        subprocess.call(["say", "-v", voice, "-o", "audio/" + "filename + "-" + format(count, '04d') + ".m4a", line])
+        subprocess.call(["say", "-v", voice, "-o", "audio/" + filename.replace('.srt', '') + "-" + format(count, '04d') + ".m4a", line])
 file.close()
 

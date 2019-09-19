@@ -1,5 +1,10 @@
 # importing the requests library
-import sys
+import sys, re
+
+TAG_RE = re.compile(r'<[^>]+>')
+
+def remove_tags(text):
+    return TAG_RE.sub('', text)
 
 if len(sys.argv) > 1:
     filename = sys.argv[1]
@@ -15,6 +20,8 @@ for line in lines:
     elif "-->" in line or len(line) < 4 or "color=" in line or "9999" in line:
         x = 0
     else:
+        line = remove_tags(line)
+        line = line.replace('-','')
         print line
 file.close()
 
