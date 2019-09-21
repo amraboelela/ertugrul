@@ -8,11 +8,14 @@ else:
     print "please provide the file name and the target language"
     exit(-1)
 
+txtFileName = filename.replace('.vtt', '') + ".txt"
+subprocess.call(["python", "clean.py", filename, ">", txtFilename])
+
 # api-endpoint
 URL = "https://translation.googleapis.com/language/translate/v2"
 from translation_key import *
 
-file = open(filename) #'ertugrul-1-1-en.srt')
+file = open(txtFilename)
 lines = file.read().splitlines()
 for line in lines:
     if not line.strip():
