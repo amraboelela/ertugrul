@@ -24,4 +24,3 @@ for line in lines:
         line = line.replace('-','')
         print line
 file.close()
-
