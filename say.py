@@ -7,7 +7,9 @@ else:
     print "please provide the file name and its language"
     exit(-1)
 
+prefix = filename[:len(filename)-7]
 language = filename[len(filename)-6:len(filename)-4]
+#audioFileName = prefix "-" + language
 switcher = {
         "en": "Alex",
         "tr": "Yelda",
@@ -26,8 +28,8 @@ for line in lines:
         count = count + 1
         print(str(count) + ".saying: " + line)
         if language == "en":
-            subprocess.call(["say", "-v", voice, "-o", "audio/" + filename.replace('.srt', '') + "-" + format(count, '04d') + ".m4a", line])
+            subprocess.call(["say", "-v", voice, "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line])
         else:
-            subprocess.call(["say", "-v", voice, "-r", "130", "-o", "audio/" + filename.replace('.srt', '') + "-" + format(count, '04d') + ".m4a", line])
+            subprocess.call(["say", "-v", voice, "-r", "130", "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line])
 file.close()
 

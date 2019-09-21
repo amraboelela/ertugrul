@@ -17,7 +17,7 @@ lines = file.read().splitlines()
 for line in lines:
     if not line.strip():
         print
-    elif "-->" in line or len(line) < 4:
+    elif "-->" in line:
         x = 0
     else:
         PARAMS = {'key':key, 'q':line, 'source':'en', 'target':targetLanguage}
