@@ -9,7 +9,6 @@ else:
 
 prefix = filename[:len(filename)-7]
 language = filename[len(filename)-6:len(filename)-4]
-#audioFileName = prefix "-" + language
 switcher = {
         "en": "Alex",
         "tr": "Yelda",
@@ -28,8 +27,8 @@ for line in lines:
         count = count + 1
         print(str(count) + ".saying: " + line)
         if language == "en":
-            subprocess.call(["say", "-v", voice, "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line])
+            subprocess.call(["say", "-v", voice, "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line + "\n\n"])
         else:
-            subprocess.call(["say", "-v", voice, "-r", "170", "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line])
+            subprocess.call(["say", "-v", voice, "-r", "170", "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line + "\n\n\n"])
 file.close()
 

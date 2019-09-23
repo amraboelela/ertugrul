@@ -13,4 +13,4 @@ for file in files:
     if ".DS_Store" in file:
         x = 1
     else:
-        print file
+        print "file '" + directory + "/" + file + "'"
