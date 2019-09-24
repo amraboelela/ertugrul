@@ -7,15 +7,21 @@ else:
     print "please provide the directory"
     exit(-1)
 
-outputFile = open(directory + ".txt", "w")
+outputFile = open("audioFiles.txt", "w")
 files = os.listdir(directory)
 files.sort()
+print directory
+subprocess.call(["mkdir", directory + "/silence"])
 for file in files:
     if ".DS_Store" in file:
         x = 1
     else:
-        outputFile.write("file '" + directory + "/" + file + "'\n")
+        silenceFile = directory + "/silence/" + file.replace(".m4a", "-silence.m4a")
+        subprocess.call(["ffmpeg", "-f", "lavfi", "-t", "1", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100", "-i", directory + "/" + file, "-filter_complex", """[1:a][0:a]concat=n=2:v=0:a=1""", "-strict", "-2", silenceFile])
+        outputFile.write("file '" + silenceFile + "'\n")
+        if "-en" not in file:
+            outputFile.write("file '" + silenceFile + "'\n")
 
 outputFile.close()
-subprocess.call(["ffmpeg", "-f", "concat", "-fase", "0", "-i", directory + ".txt", "-c", "copy", "output"])
+subprocess.call(["ffmpeg", "-f", "concat", "-safe", "0", "-i", "audioFiles.txt", "-c", "copy", "audioFile.m4a"])
 
