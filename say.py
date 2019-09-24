@@ -29,6 +29,6 @@ for line in lines:
         if language == "en":
             subprocess.call(["say", "-v", voice, "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line + "."])
         else:
-            subprocess.call(["say", "-v", voice, "-r", "180", "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line + "."])
+            subprocess.call(["say", "-v", voice, "-r", "190", "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line + "."])
 file.close()
 
