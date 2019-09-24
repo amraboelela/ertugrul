@@ -23,7 +23,7 @@ for file in files:
         if "-en" not in file:
             #outputFile.write("file '" + directory + "/" + file + "'\n")
             #outputFile.write("file 'silence.m4a'\n")
-            outputFile.write("file 'silence.m4a'\n")
+            outputFile.write("file 'silence1.m4a'\n")
 
 outputFile.close()
 subprocess.call(["ffmpeg", "-f", "concat", "-safe", "0", "-i", "audioFiles.txt", "-c", "copy", directory + ".m4a"])
