@@ -111,3 +111,5 @@ translation_key.py
 *.bac
 *.zip
 audioFiles.txt
+!silence1.m4a
+
