@@ -21,8 +21,8 @@ for file in files:
         outputFile.write("file '" + directory + "/" + file + "'\n")
         outputFile.write("file 'silence.m4a'\n")
         if "-en" not in file:
-            outputFile.write("file '" + directory + "/" + file + "'\n")
-            outputFile.write("file 'silence.m4a'\n")
+            #outputFile.write("file '" + directory + "/" + file + "'\n")
+            #outputFile.write("file 'silence.m4a'\n")
             outputFile.write("file 'silence.m4a'\n")
 
 outputFile.close()
