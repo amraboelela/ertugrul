@@ -19,7 +19,7 @@ for file in files:
         #silenceFile = directory + "/silence/" + file.replace(".m4a", "-silence.m4a")
         #subprocess.call(["ffmpeg", "-f", "lavfi", "-t", "1", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100", "-i", directory + "/" + file, "-filter_complex", """[1:a][0:a]concat=n=2:v=0:a=1""", "-strict", "-2", silenceFile])
         outputFile.write("file '" + directory + "/" + file + "'\n")
-        outputFile.write("file 'silence.m4a'\n")
+        outputFile.write("file 'silence1.m4a'\n")
         if "-en" not in file:
             #outputFile.write("file '" + directory + "/" + file + "'\n")
             #outputFile.write("file 'silence.m4a'\n")
