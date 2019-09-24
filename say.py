@@ -27,8 +27,8 @@ for line in lines:
         count = count + 1
         print(str(count) + ".saying: " + line)
         if language == "en":
-            subprocess.call(["say", "-v", voice, "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line + "\n\n"])
+            subprocess.call(["say", "-v", voice, "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line + "."])
         else:
-            subprocess.call(["say", "-v", voice, "-r", "170", "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line + "\n\n\n"])
+            subprocess.call(["say", "-v", voice, "-r", "170", "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line + "."])
 file.close()
 
