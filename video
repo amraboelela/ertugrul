@@ -1,2 +1,3 @@
-ffmpeg -loop 1 -framerate 2 -i ertugrul-1-01.png -i ertugrul-1-01.m4a -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest ertugrul-1-01.mp4
+fileName = $1
+ffmpeg -loop 1 -i $1.png -i $1.m4a -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest $1.mp4
 
