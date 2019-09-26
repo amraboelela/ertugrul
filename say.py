@@ -17,6 +17,7 @@ switcher = {
 
 voice = switcher.get(language)
 
+subprocess.call(["mkdir", prefix])
 file = open(filename)
 lines = file.read().splitlines()
 count = 0
@@ -29,6 +30,6 @@ for line in lines:
         if language == "en":
             subprocess.call(["say", "-v", voice, "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line])
         else:
-            subprocess.call(["say", "-v", voice, "-r", "130", "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line])
+            subprocess.call(["say", "-v", voice, "-r", "125", "-o", prefix + "/" + prefix + "-" + format(count, '04d') + "-" + language + ".m4a", line])
 file.close()
 
