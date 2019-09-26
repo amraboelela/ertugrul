@@ -7,6 +7,11 @@ Learn Turkish and other languages through Ertugrul TV series
 
 ```
 $ python clean ertugrul-1-01-en.vtt > ertugrul-1-01-en.txt
+```
+
+Then manually inspect the text file and remove some of the lines. Then continue, as following:
+
+```
 $ python translate ertugrul-1-01-en.txt tr 
 $ python say ertugrul-1-01-en.txt
 $ python say ertugrul-1-01-tr.txt
