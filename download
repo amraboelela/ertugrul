@@ -1,3 +1,1 @@
-youtube-dl --all-subs --skip-download https://www.youtube.com/watch?v=$1
-#eR3rI1jlxvM
-
+youtube-dl --all-subs --skip-download $1
