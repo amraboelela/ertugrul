@@ -23,7 +23,7 @@ for line in lines:
         PARAMS = {'key':key, 'q':line, 'source':'en', 'target':targetLanguage}
         r = requests.get(url = URL, params = PARAMS)
         data = r.json()
-        translatedText = data['data']['translations'][0]['translatedText'].replace('-','')
+        translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'")
         try:
             print(translatedText.encode('utf8'))
         except Exception as error:

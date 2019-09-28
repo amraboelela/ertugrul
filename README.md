@@ -19,10 +19,12 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
 $ python clean.py ertugrul-1-01-en.vtt > ertugrul-1-01-en.txt
 $ vim ertugrul-1-01-en.txt
-$ python translate.py ertugrul-1-01-en.txt tr > ertugrul-1-01-tr.txt 
-$ python say.py ertugrul-1-01-en.txt
-$ python say.py ertugrul-1-01-tr.txt
-$ python combine.py ertugrul-1-01
-$ ./video ertugrul-1-01
+$ ./buildAll
 ```
+
+- Title: Learn Turkish from Ertugrul 1 - 1
+
+- Description:
+
+Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Turkish.
 

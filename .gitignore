@@ -108,6 +108,7 @@ other
 *.mp4
 *.m4a
 translation_key.py
+translation_key.pyc
 *.bac
 *.zip
 audioFiles.txt

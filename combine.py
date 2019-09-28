@@ -20,6 +20,5 @@ for file in files:
             outputFile.write("file 'silence1.m4a'\n")
 
 outputFile.close()
-subprocess.call(["ffmpeg", "-f", "concat", "-safe", "0", "-i", "audioFiles.txt", "-c", "copy", directory + ".m4a"])
-#subprocess.call(["ffmpeg", "-loop", "1", "-i", directory + ".png", "-i", directory + ".m4a", "-c:v", "libx264", "-tune", "stillimage", "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p", "-shortest", directory + ".mp4"])
+subprocess.call(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "audioFiles.txt", "-c", "copy", directory + ".m4a"])
 
