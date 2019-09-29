@@ -10,5 +10,8 @@ else:
     exit(-1)
 
 for n in range(a, b+1):
-    prefix = "ertugrul-" + s + "-" + format(n, '02d')
+    if s == "2":
+        prefix = "ertugrul-" + s + "-" + format(n, '03d')
+    else:
+        prefix = "ertugrul-" + s + "-" + format(n, '02d')
     os.system("./buildEpisode " + prefix)
