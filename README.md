@@ -17,7 +17,13 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 - Then do:
 
 ```
-$ ./buildAll
+$ python build.py <season number> <first episdoe number> <last episode number>
+```
+
+- Example:
+
+```
+$ python build.py 1 1 10
 ```
 
 - Title: Learn Turkish from Ertugrul, while you sleep, 1 - 1
