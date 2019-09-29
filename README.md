@@ -17,14 +17,12 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 - Then do:
 
 ```
-$ python clean.py ertugrul-1-01-en.vtt > ertugrul-1-01-en.txt
-$ vim ertugrul-1-01-en.txt
 $ ./buildAll
 ```
 
-- Title: Learn Turkish from Ertugrul 1 - 1
+- Title: Learn Turkish from Ertugrul, while you sleep, 1 - 1
 
 - Description:
 
-Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Turkish.
+Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Turkish. It can help you sleep faster :)
 

@@ -12,8 +12,8 @@ else:
     print "please provide the file name"
     exit(-1)
 
-cleanArray = ["-->", "color=", "9999"]
-cleanArray2 = ["WEBVTT", "Kind: captions", "Language:", "RESURRECTION ERTUGRUL", "THE STORIES AND CHARACTERS DEPICTED", "HERE WERE INSPIRED BY OUR HISTORY", "NO ANIMALS WERE HARMED DURING", "THE FILMING OF THIS PRODUCTION", "Translation:"]
+cleanArray = ["-->", "color=", "9999", "WEBVTT", "Kind: captions", "Language:"]
+cleanArray2 = ["RESURRECTION ERTUGRUL", "THE STORIES AND CHARACTERS DEPICTED", "HERE WERE INSPIRED BY OUR HISTORY", "NO ANIMALS WERE HARMED DURING", "THE FILMING OF THIS PRODUCTION", "Translation:"]
 
 file = open(filename) 
 lines = file.read().splitlines()
