@@ -1,7 +1,1 @@
-python clean.py $1-en.vtt > $1-en.txt
-echo "Translating $1-en.txt"
-python translate.py $1-en.txt tr > $1-tr.txt
-python say.py $1-en.txt
-python say.py $1-tr.txt
-python combine.py $1
-./video $1
+python build.py $1 $2 $3

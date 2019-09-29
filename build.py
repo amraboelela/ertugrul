@@ -11,4 +11,4 @@ else:
 
 for n in range(a, b+1):
     prefix = "ertugrul-" + s + "-" + format(n, '02d')
-    os.system("./build " + prefix)
+    os.system("./buildEpisode " + prefix)
