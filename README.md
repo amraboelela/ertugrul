@@ -17,12 +17,7 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 - Then do:
 
 ```
-$ ./build <season number> <first episode number> <last episode number>
-```
-
-- Example:
-
-```
+$ mv Resurrection\ Ertugrul\ Season\ 1\ Episode\ 1-dnZcS74eg5U.en-GB.vtt ertugrul-1-01-en.vtt
 $ ./build 1 1 10
 ```
 
