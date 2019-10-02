@@ -1,4 +1,4 @@
-if [ $2 !== "en" ]
+if [ $2 == "en" ]
 then
     python clean.py $1-en.vtt > $1-en.txt
     echo "Translating $1-en.txt"
@@ -6,6 +6,5 @@ then
 fi
 python say.py $1-$2.txt
 python say.py $1-$3.txt
-exit()
 python combine.py $1 $2 $3
 ./video $1
