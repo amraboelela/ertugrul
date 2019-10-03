@@ -20,7 +20,12 @@ for line in lines:
         print "prevStartTime: " + prevStartTime
         print "startTime: " + startTime
         if count > 4:
-            subprocess.call(["ffmpeg", "-y", "-i", prefix + "-original.m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, prefix + "/" + prefix + "-" + format(count, '03d') + "-original.m4a"])
+            targetFilePath = prefix + "/" + prefix + "-" + format(count, '03d') + "-original"
+            subprocess.call(["ffmpeg", "-y", "-i", prefix + "-original.m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFilePath + "~.m4a"])
+            #subprocess.call(["ffmpeg", "-y", "-i", prefix + "-original.m4a", "-ss", prevStartTime, "-t", startTime, prefix + "/" + prefix + "-" + format(count, '03d') + "-original.m4a"])
+            subprocess.call(["ffmpeg", "-y", "-i", targetFilePath + "~.m4a", "-filter:a", "volume=4", targetFilePath + ".m4a"])
+            subprocess.call(["rm", targetFilePath + "~.m4a"])
+            #exit(0)
         prevStartTime = startTime
         count = count + 1
 file.close()

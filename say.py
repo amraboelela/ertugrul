@@ -27,10 +27,13 @@ for line in lines:
         if len(paragraph) > 0:
             print str(count) + ".saying: " + paragraph
             if count>4:
+                targetFilePath = prefix + "/" + prefix + "-" + format(count, '03d') + "-" + language
                 if language == "en":
-                    subprocess.call(["say", "-v", voice, "-o", prefix + "/" + prefix + "-" + format(count, '03d') + "-" + language + ".m4a", paragraph])
+                    subprocess.call(["say", "-v", voice, "-o", targetFilePath + ".m4a", paragraph])
+                    subprocess.call(["ffmpeg", "-y", "-i", targetFilePath + ".m4a", "-acodec", "libmp3lame", "-ab", "128k", targetFilePath + ".mp3"])
+                    exit(0)
                 else:
-                    subprocess.call(["say", "-v", voice, "-r", "125", "-o", prefix + "/" + prefix + "-" + format(count, '03d') + "-" + language + ".m4a", paragraph])
+                    subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFilePath + ".m4a", paragraph])
             paragraph = ""
             count = count + 1
     else:
