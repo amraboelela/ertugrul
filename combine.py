@@ -31,10 +31,10 @@ for file in files:
     else:
         if "-" + sourceLanguage in file or "-" + targetLanguage in file:
             outputFile.write("file '" + directory + "/" + file + "'\n")
-            outputFile.write("file 'silence1.m4a'\n")
-        if targetLanguage in file:
-            outputFile.write("file 'silence1.m4a'\n")
+            #outputFile.write("file 'silence1.m4a'\n")
+        #if targetLanguage in file:
+        #    outputFile.write("file 'silence1.m4a'\n")
 
 outputFile.close()
-subprocess.call(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "audioFiles.txt", "-c", "copy", directory + ".m4a"])
+subprocess.call(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "audioFiles.txt", "-c", "copy", directory + "/" + directory + ".m4a"])
 

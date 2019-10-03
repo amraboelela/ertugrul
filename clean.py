@@ -33,8 +33,6 @@ for line in lines:
     if not skipLine:
         if not line.strip():
             print
-        elif "-->" in line or len(line) < 4 or "color=" in line or "9999" in line:
-            x = 0
         else:
             line = remove_tags(line)
             line = line.replace('-','')

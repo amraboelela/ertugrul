@@ -2,7 +2,7 @@
 
 Learn Turkish and other languages through Ertugrul TV series
 
-## Usage
+## Using computer voice
 
 ```
 $ ./download https://www.youtube.com/watch?v=VjC0fS7wYME
@@ -37,4 +37,13 @@ Learn Turkish language by listening to the conversation in Resurrection Ertugrul
 - Description:
 
 Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Arabic. It can help you sleep faster :)
+
+## Using original voice
+
+```
+$ ./download -o https://www.youtube.com/watch?v=5fJXATpIiUQ
+```
+
+$ ffmpeg -i ertugrul-1-01-original.m4a -acodec copy -ss 00:02:12 -to 00:02:15 ertugrul-1-01-original-001.m4a
+$ ffmpeg -i ertugrul-1-01-original.m4a -acodec copy -ss 00:08:47 -to 00:08:50 ertugrul-1-01-original-100.m4a
 

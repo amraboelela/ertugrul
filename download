@@ -1,1 +1,6 @@
-youtube-dl --all-subs --skip-download $1
+
+if [ $1 == "-o" ]; then
+    youtube-dl -f 140 $2
+else
+    youtube-dl --all-subs --skip-download $1
+fi
