@@ -1,14 +1,16 @@
 # importing the requests library
 import sys, subprocess
 
-if len(sys.argv) > 1:
-    filename = sys.argv[1]
+if len(sys.argv) > 2:
+    prefix = sys.argv[1]
+    language = sys.argv[2]
 else:
-    print "please provide the vtt file name"
+    print "please provide the prefix and the language"
     exit(-1)
 
-prefix = filename[:len(filename)-7]
-language = filename[len(filename)-6:len(filename)-4]
+filePath = prefix + "/" + prefix + "-en.vtt"
+#prefix = filename[:len(filename)-7]
+#language = filename[len(filename)-6:len(filename)-4]
 switcher = {
         "en": "Alex",
         "tr": "Yelda",
@@ -17,8 +19,8 @@ switcher = {
 
 voice = switcher.get(language)
 
-subprocess.call(["mkdir", prefix])
-file = open(filename)
+#subprocess.call(["mkdir", prefix])
+file = open(filePath)
 lines = file.read().splitlines()
 count = 0
 paragraph = ""

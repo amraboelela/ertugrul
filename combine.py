@@ -39,16 +39,21 @@ for file in files:
         if targetLanguage == "original":
             if "-" + sourceLanguage in file or "-" + targetLanguage in file:
                 subprocessArray.extend(["-i", directory + "/" + file])
+                subprocessArray.extend(["-i", "silence1.m4a"])
+                concatString = concatString + "[" + str(fileCount) + ":a]"
+                fileCount = fileCount + 1
                 concatString = concatString + "[" + str(fileCount) + ":a]"
                 fileCount = fileCount + 1
             if targetLanguage in file:
                 count = count + 1
-                if count % 100 == 0:
-                    if count / 100 > 0:
-                        subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", filePath + "-" + str(count / 100) + ".m4a"])
+                if count % 50 == 0:
+                    if count / 50 > 0:
+                        subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", filePath + "-" + format(count / 50, "02d") + ".m4a"])
+                        print subprocessArray
                         subprocess.call(subprocessArray)
                         fileCount = 0
                         concatString = ""
+                        #exit(0)
                     subprocessArray = ["ffmpeg", "-y"]
         else:
             if "-" + sourceLanguage in file or "-" + targetLanguage in file:
@@ -63,16 +68,16 @@ outputFile.close()
 #subprocess.call(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "audioFiles.txt", "-c", "copy", directory + "/" + directory + ".m4a"])
 #exit(0)
 if targetLanguage == "original":
-    if count % 100 > 1:
-        n = count / 100 + 1
-        subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", filePath + "-" + str(n) + ".m4a"])
+    if count % 50 > 1:
+        n = count / 50 + 1
+        subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", filePath + "-" + format(n, '02d') + ".m4a"])
         #print subprocessArray
         subprocess.call(subprocessArray)
     #exit(0)
     concatString = ""
     subprocessArray = ["ffmpeg", "-y"]
     for i in range(0, n):
-        subprocessArray.extend(["-i", filePath + "-" + str(i+1) + ".m4a"])
+        subprocessArray.extend(["-i", filePath + "-" + format(i+1, '02d') + ".m4a"])
         concatString = concatString + "[" + str(i) + ":a]"
     subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(n) + ":v=0:a=1", filePath + ".m4a"])
     print subprocessArray
