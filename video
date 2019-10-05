@@ -1,2 +1,2 @@
 prefix = $1
-ffmpeg -y -loop 1 -i $1/$1.jpg -i $1/$1.m4a -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest $1/$1.mp4
+ffmpeg -y -loop 1 -i data/$1.jpg -i data/$1/$1.m4a -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest data/$1.mp4

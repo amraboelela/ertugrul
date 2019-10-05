@@ -113,4 +113,5 @@ translation_key.pyc
 *.zip
 audioFiles.txt
 !silence1.m4a
-
+*.vtt
+*.jpg

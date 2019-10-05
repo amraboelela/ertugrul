@@ -1,0 +1,11 @@
+
+youtube-dl -f 140 $3
+youtube-dl --all-subs --skip-download $3
+youtube-dl --write-thumbnail --skip-download $3
+
+mkdir -p data
+n=`printf %02d $2`
+mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2*.vtt data/ertugrul-$1-n-en.vtt
+mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2*.jpg data/ertugrul-$1-n.jpg
+mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2*.m4a data/ertugrul-$1-n-original.m4a
+

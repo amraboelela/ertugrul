@@ -8,7 +8,7 @@ else:
     print "please provide the prefix and the language"
     exit(-1)
 
-filePath = "output/" + prefix + "/" + prefix + "-en.vtt"
+filePath = "data/" + prefix + "-en.vtt"
 switcher = {
         "en": "Alex",
         "tr": "Yelda",
@@ -26,7 +26,7 @@ for line in lines:
         if len(paragraph) > 0:
             print str(count) + ".saying: " + paragraph
             if count>4:
-                targetFilePath = "output/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + language
+                targetFilePath = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + language
                 if language == "en":
                     subprocess.call(["say", "-v", voice, "-o", targetFilePath + ".m4a", "\n\n" + paragraph + "\n\n"])
                     #subprocess.call(["ffmpeg", "-y", "-i", targetFilePath + ".m4a", "-acodec", "libmp3lame", "-ab", "128k", targetFilePath + ".mp3"])

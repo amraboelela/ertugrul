@@ -1,4 +1,10 @@
-
-youtube-dl -f 140 $1
-youtube-dl --all-subs --skip-download $1
-youtube-dl --write-thumbnail --skip-download $1
+./downloadVideo 1 1 https://www.youtube.com/watch?v=5fJXATpIiUQ&t=301s
+./downloadVideo 1 2 https://www.youtube.com/watch?v=oQaUlvYebLA&t=457s
+./downloadVideo 1 3 https://www.youtube.com/watch?v=eR3rI1jlxvM
+./downloadVideo 1 4 https://www.youtube.com/watch?v=VjC0fS7wYME
+./downloadVideo 1 5 https://www.youtube.com/watch?v=n0urSlRGRbQ
+./downloadVideo 1 6 https://www.youtube.com/watch?v=MzOwXxyagQ8
+./downloadVideo 1 7 https://www.youtube.com/watch?v=llNMOATVdp8
+./downloadVideo 1 8 https://www.youtube.com/watch?v=vZuGxAws-b0
+./downloadVideo 1 9 https://www.youtube.com/watch?v=dnZcS74eg5U
+./downloadVideo 1 10 https://www.youtube.com/watch?v=n0fGW7ATlzE

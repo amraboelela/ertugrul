@@ -8,9 +8,9 @@ if len(sys.argv) > 3:
 else:
     print "please provide the prefix, source language, and target language"
     exit(-1)
-filePath = "output/" + prefix+ "/" + prefix
+filePath = "data/" + prefix+ "/" + prefix
 outputFile = open("audioFiles.txt", "w")
-files = os.listdir("output/" + prefix)
+files = os.listdir("data/" + prefix)
 reverse = False
 if sourceLanguage < targetLanguage:
     reverse = False
@@ -25,9 +25,9 @@ concatString = ""
 for file in files:
     if reverse:
         if "-" + targetLanguage in file:
-            target = "file '" + "output/" + prefix + "/" + file + "'\n"
+            target = "file '" + "data/" + prefix + "/" + file + "'\n"
         if "-" + sourceLanguage in file:
-            outputFile.write("file '" + "output/" + prefix + "/" + file + "'\n")
+            outputFile.write("file '" + "data/" + prefix + "/" + file + "'\n")
             outputFile.write("file 'silence1.m4a'\n")
             outputFile.write(target)
             outputFile.write("file 'silence1.m4a'\n")
@@ -35,7 +35,7 @@ for file in files:
     else:
         if targetLanguage == "original":
             if "-" + sourceLanguage in file or "-" + targetLanguage in file:
-                subprocessArray.extend(["-i", "output/" + prefix + "/" + file])
+                subprocessArray.extend(["-i", "data/" + prefix + "/" + file])
                 subprocessArray.extend(["-i", "silence1.m4a"])
                 concatString = concatString + "[" + str(fileCount) + ":a]"
                 fileCount = fileCount + 1
@@ -46,7 +46,7 @@ for file in files:
                 if count % 50 == 0:
                     if count / 50 > 0:
                         subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", filePath + "-" + format(count / 50, "02d") + ".m4a"])
-                        print subprocessArray
+                        print "subprocessArray: " + str(subprocessArray)
                         subprocess.call(subprocessArray)
                         fileCount = 0
                         concatString = ""
@@ -54,7 +54,7 @@ for file in files:
                     subprocessArray = ["ffmpeg", "-y"]
         else:
             if "-" + sourceLanguage in file or "-" + targetLanguage in file:
-                outputFile.write("file '" + "output/" + prefix + "/" + file + "'\n")
+                outputFile.write("file '" + "data/" + prefix + "/" + file + "'\n")
                 outputFile.write("file 'silence1.m4a'\n")
             if targetLanguage in file:
                 outputFile.write("file 'silence1.m4a'\n")
@@ -64,7 +64,7 @@ if targetLanguage == "original":
     if count % 50 > 1:
         n = count / 50 + 1
         subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", filePath + "-" + format(n, '02d') + ".m4a"])
-        #print subprocessArray
+        print "subprocessArray: " + str(subprocessArray)
         subprocess.call(subprocessArray)
     #exit(0)
     concatString = ""
@@ -76,5 +76,5 @@ if targetLanguage == "original":
     print subprocessArray
     subprocess.call(subprocessArray)
 else:
-    subprocess.call(["ffmpeg", "-y", "-f", "concat", "-i", "audioFiles.txt", "-c", "copy", "output/" + prefix + "/" + prefix + ".m4a"])
+    subprocess.call(["ffmpeg", "-y", "-f", "concat", "-i", "audioFiles.txt", "-c", "copy", "data/" + prefix + "/" + prefix + ".m4a"])
 

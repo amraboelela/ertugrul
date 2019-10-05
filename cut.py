@@ -7,7 +7,7 @@ else:
     print "please provide the prefix"
     exit(-1)
 
-filePath = "output/" + prefix + "/" + prefix + "-en.vtt" 
+filePath = "data/" + prefix + "-en.vtt" 
 file = open(filePath) 
 lines = file.read().splitlines()
 count = 0
@@ -19,8 +19,8 @@ for line in lines:
         print "prevStartTime: " + prevStartTime
         print "startTime: " + startTime
         if count > 4:
-            targetFilePath = "output/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-original"
-            subprocess.call(["ffmpeg", "-y", "-i", "output/" + prefix + "/" + prefix + "-original.m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFilePath + "~.m4a"])
+            targetFilePath = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-original"
+            subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-original.m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFilePath + "~.m4a"])
             subprocess.call(["ffmpeg", "-y", "-i", targetFilePath + "~.m4a", "-filter:a", "volume=5", targetFilePath + ".m4a"])
             subprocess.call(["rm", targetFilePath + "~.m4a"])
             #exit(0)

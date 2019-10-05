@@ -18,9 +18,7 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 - Then do:
 
 ```
-$ mkdir -p output/ertugrul-1-01
-$ mv Resurrection\ Ertugrul\ Season\ 1\ Episode\ 1-dnZcS74eg5U.en-GB.vtt output/ertugrul-1-01/ertugrul-1-01-en.vtt
-$ mv Resurrection Ertugrul Season 1 Episode 2-oQaUlvYebLA.jpg output/ertugrul-1-01/ertugrul-1-01.jpg
+$ ./download
 $ ./build 1 1 1 en tr
 ```
 
@@ -43,8 +41,6 @@ Learn Arabic language by listening to the conversation in Resurrection Ertugrul 
 ## Using original voice
 
 ```
-$ ./download https://www.youtube.com/watch?v=5fJXATpIiUQ
-$ mv Resurrection\ Ertugrul\ Season\ 1\ Episode\ 1-oQaUlvYebLA.m4a output/ertugrul-1-01/ertugrul-1-01-original.m4a
 $ ./build 1 1 1 en original
 ```
 
