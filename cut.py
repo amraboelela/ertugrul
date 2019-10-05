@@ -1,10 +1,11 @@
 # importing the requests library
 import sys, subprocess
 
-if len(sys.argv) > 1:
+if len(sys.argv) > 2:
     prefix = sys.argv[1]
+    targetLanguage = sys.argv[2]
 else:
-    print "please provide the prefix"
+    print "please provide the prefix and the target language"
     exit(-1)
 
 filePath = "data/" + prefix + "-en.vtt" 
@@ -19,9 +20,9 @@ for line in lines:
         print "prevStartTime: " + prevStartTime
         print "startTime: " + startTime
         if count > 4:
-            targetFilePath = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-original"
-            subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-original.m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFilePath + "~.m4a"])
-            subprocess.call(["ffmpeg", "-y", "-i", targetFilePath + "~.m4a", "-filter:a", "volume=5", targetFilePath + ".m4a"])
+            targetFilePath = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + targetLanguage
+            subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFilePath + "~.m4a"])
+            subprocess.call(["ffmpeg", "-y", "-i", targetFilePath + "~.m4a", "-filter:a", "volume=4.5", targetFilePath + ".m4a"])
             subprocess.call(["rm", targetFilePath + "~.m4a"])
             #exit(0)
         prevStartTime = startTime

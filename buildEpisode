@@ -1,14 +1,21 @@
 mkdir -p data/$1
-if [ $3 == "original" ]; then
-    python cut.py $1 $2
-    python say.py $1 $2
-else
-    echo "Translating $1-$2.vtt"
-    python translate.py $1/$1-$2.vtt $3 > $1/$1-$3.vtt
-    python say.py $1 $2
-    python say.py $1 $3
+
+targetLanguage=$3
+
+if [ $3 == "otr" ] || [ $3 == "oar" ]; then
+    #echo ${targetLanguage:1}
+    targetLanguage=`echo ${targetLanguage:1}`
+    #echo "targetLanguage: " $targetLanguage
+    python cut.py $1 $3
 fi
+#exit 0    
+#echo "Translating $1-$2.vtt"
+python translate.py data/$1-$2.vtt $targetLanguage > data/$1-$targetLanguage.vtt
+python say.py $1 $2
+python say.py $1 $targetLanguage
+#exit 0
+
 python combine.py $1 $2 $3
 #exit 0
-./video $1
+./video $1 $targetLanguage
 

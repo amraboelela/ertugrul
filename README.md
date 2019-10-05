@@ -18,7 +18,6 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 - Then do:
 
 ```
-$ ./download
 $ ./build 1 1 1 en tr
 ```
 
@@ -38,10 +37,10 @@ Learn Turkish language by listening to the conversation in Resurrection Ertugrul
 
 Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Arabic. It can help you sleep faster :)
 
-## Using original voice
+## Using original Turkish voice
 
 ```
-$ ./build 1 1 1 en original
+$ ./build 1 1 1 en otr
 ```
 
 - Title: Learn Turkish from Ertugrul, 1 - 1
@@ -49,4 +48,10 @@ $ ./build 1 1 1 en original
 - Description:
 
 Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in original Turkish voice. 
+
+## Using original Arabic voice
+
+```
+$ ./build 1 1 1 en oar
+```
 

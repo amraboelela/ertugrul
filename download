@@ -1,10 +1,21 @@
-./downloadVideo 1 1 https://www.youtube.com/watch?v=5fJXATpIiUQ&t=301s
-./downloadVideo 1 2 https://www.youtube.com/watch?v=oQaUlvYebLA&t=457s
-./downloadVideo 1 3 https://www.youtube.com/watch?v=eR3rI1jlxvM
-./downloadVideo 1 4 https://www.youtube.com/watch?v=VjC0fS7wYME
-./downloadVideo 1 5 https://www.youtube.com/watch?v=n0urSlRGRbQ
-./downloadVideo 1 6 https://www.youtube.com/watch?v=MzOwXxyagQ8
-./downloadVideo 1 7 https://www.youtube.com/watch?v=llNMOATVdp8
-./downloadVideo 1 8 https://www.youtube.com/watch?v=vZuGxAws-b0
-./downloadVideo 1 9 https://www.youtube.com/watch?v=dnZcS74eg5U
-./downloadVideo 1 10 https://www.youtube.com/watch?v=n0fGW7ATlzE
+
+if [ $1 == "otr" ]; then
+    if [ $2 == "1" ]; then
+        ./downloadVideo 1 1 tr https://www.youtube.com/watch?v=5fJXATpIiUQ&t=301s
+        ./downloadVideo 1 2 tr https://www.youtube.com/watch?v=oQaUlvYebLA&t=457s
+        ./downloadVideo 1 3 tr https://www.youtube.com/watch?v=eR3rI1jlxvM
+        ./downloadVideo 1 4 tr https://www.youtube.com/watch?v=VjC0fS7wYME
+        ./downloadVideo 1 5 tr https://www.youtube.com/watch?v=n0urSlRGRbQ
+        ./downloadVideo 1 6 tr https://www.youtube.com/watch?v=MzOwXxyagQ8
+        ./downloadVideo 1 7 tr https://www.youtube.com/watch?v=llNMOATVdp8
+        ./downloadVideo 1 8 tr https://www.youtube.com/watch?v=vZuGxAws-b0
+        ./downloadVideo 1 9 tr https://www.youtube.com/watch?v=dnZcS74eg5U
+        ./downloadVideo 1 10 tr https://www.youtube.com/watch?v=n0fGW7ATlzE
+    elif [ $2 == "11" ]; then
+        echo " == 11"
+    fi
+elif [ $1 == "oar" ]; then
+    if [ $2 == "1" ]; then
+        echo "oar, == 1"
+    fi
+fi

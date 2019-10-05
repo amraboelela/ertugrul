@@ -11,6 +11,8 @@ else:
     print "please enter the season number, first episode number, the last episode numer, the source language, and the target language"
     exit(-1)
 
+os.system("./download " + targetLanguage + " " +str(a))
+#exit(0)
 for n in range(a, b+1):
     if s == "2":
         prefix = "ertugrul-" + s + "-" + format(n, '03d')

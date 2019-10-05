@@ -33,25 +33,25 @@ for file in files:
             outputFile.write("file 'silence1.m4a'\n")
             outputFile.write("file 'silence1.m4a'\n")
     else:
-        if targetLanguage == "original":
-            if "-" + sourceLanguage in file or "-" + targetLanguage in file:
-                subprocessArray.extend(["-i", "data/" + prefix + "/" + file])
-                subprocessArray.extend(["-i", "silence1.m4a"])
-                concatString = concatString + "[" + str(fileCount) + ":a]"
-                fileCount = fileCount + 1
-                concatString = concatString + "[" + str(fileCount) + ":a]"
-                fileCount = fileCount + 1
-            if targetLanguage in file:
-                count = count + 1
-                if count % 50 == 0:
-                    if count / 50 > 0:
-                        subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", filePath + "-" + format(count / 50, "02d") + ".m4a"])
-                        print "subprocessArray: " + str(subprocessArray)
-                        subprocess.call(subprocessArray)
-                        fileCount = 0
-                        concatString = ""
-                        #exit(0)
-                    subprocessArray = ["ffmpeg", "-y"]
+        if targetLanguage == "otr":
+            #if "-" + sourceLanguage in file or "-" + targetLanguage in file:
+            subprocessArray.extend(["-i", "data/" + prefix + "/" + file])
+            subprocessArray.extend(["-i", "silence1.m4a"])
+            concatString = concatString + "[" + str(fileCount) + ":a]"
+            fileCount = fileCount + 1
+            concatString = concatString + "[" + str(fileCount) + ":a]"
+            fileCount = fileCount + 1
+            #if targetLanguage in file:
+            count = count + 1
+            if count % 100 == 0:
+                if count / 100 > 0:
+                    subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", "data/" + prefix + "-" + format(count / 100, "02d") + ".m4a"])
+                    print "subprocessArray: " + str(subprocessArray)
+                    subprocess.call(subprocessArray)
+                    fileCount = 0
+                    concatString = ""
+                    #exit(0)
+                subprocessArray = ["ffmpeg", "-y"]
         else:
             if "-" + sourceLanguage in file or "-" + targetLanguage in file:
                 outputFile.write("file '" + "data/" + prefix + "/" + file + "'\n")
@@ -60,21 +60,21 @@ for file in files:
                 outputFile.write("file 'silence1.m4a'\n")
 outputFile.close()
 #exit(0)
-if targetLanguage == "original":
-    if count % 50 > 1:
-        n = count / 50 + 1
-        subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", filePath + "-" + format(n, '02d') + ".m4a"])
+if targetLanguage == "otr":
+    if count % 100 > 1:
+        n = count / 100 + 1
+        subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", "data/" + prefix + "-" + format(n, '02d') + ".m4a"])
         print "subprocessArray: " + str(subprocessArray)
         subprocess.call(subprocessArray)
     #exit(0)
     concatString = ""
     subprocessArray = ["ffmpeg", "-y"]
     for i in range(0, n):
-        subprocessArray.extend(["-i", filePath + "-" + format(i+1, '02d') + ".m4a"])
+        subprocessArray.extend(["-i", "data/" + prefix + "-" + format(i+1, '02d') + ".m4a"])
         concatString = concatString + "[" + str(i) + ":a]"
-    subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(n) + ":v=0:a=1", filePath + ".m4a"])
+    subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(n) + ":v=0:a=1", "data/" + prefix + ".m4a"])
     print subprocessArray
     subprocess.call(subprocessArray)
 else:
-    subprocess.call(["ffmpeg", "-y", "-f", "concat", "-i", "audioFiles.txt", "-c", "copy", "data/" + prefix + "/" + prefix + ".m4a"])
+    subprocess.call(["ffmpeg", "-y", "-f", "concat", "-i", "audioFiles.txt", "-c", "copy", "data/" + prefix + ".m4a"])
 
