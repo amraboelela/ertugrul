@@ -2,7 +2,7 @@
 
 Learn Turkish and other languages through Ertugrul TV series
 
-## Using computer voice
+## Usage
 
 ```
 $ ./download https://www.youtube.com/watch?v=VjC0fS7wYME
@@ -18,7 +18,7 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 - Then do:
 
 ```
-$ ./build 1 1 1 en tr
+$ ./build ertugrul 1 1 3 en tr
 ```
 
 **Turkish**
@@ -27,7 +27,7 @@ $ ./build 1 1 1 en tr
 
 - Description:
 
-Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Turkish. It can help you sleep faster :)
+Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Turkish. 
 
 **Arabic**
 
@@ -35,23 +35,5 @@ Learn Turkish language by listening to the conversation in Resurrection Ertugrul
 
 - Description:
 
-Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Arabic. It can help you sleep faster :)
-
-## Using original Turkish voice
-
-```
-$ ./build 1 1 1 en otr
-```
-
-- Title: Learn Turkish from Ertugrul, 1 - 1
-
-- Description:
-
-Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in original Turkish voice. 
-
-## Using original Arabic voice
-
-```
-$ ./build 1 1 1 en oar
-```
+Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Arabic. 
 

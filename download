@@ -1,6 +1,6 @@
 
-if [ $1 == "otr" ]; then
-    if [ $2 == "1" ]; then
+if [ $1 == "ertugrul" ]; then
+    if [ $2 == "tr" ]; then
         ./downloadVideo 1 1 tr https://www.youtube.com/watch?v=5fJXATpIiUQ&t=301s
         ./downloadVideo 1 2 tr https://www.youtube.com/watch?v=oQaUlvYebLA&t=457s
         ./downloadVideo 1 3 tr https://www.youtube.com/watch?v=eR3rI1jlxvM
@@ -11,11 +11,9 @@ if [ $1 == "otr" ]; then
         ./downloadVideo 1 8 tr https://www.youtube.com/watch?v=vZuGxAws-b0
         ./downloadVideo 1 9 tr https://www.youtube.com/watch?v=dnZcS74eg5U
         ./downloadVideo 1 10 tr https://www.youtube.com/watch?v=n0fGW7ATlzE
-    elif [ $2 == "11" ]; then
-        echo " == 11"
-    fi
-elif [ $1 == "oar" ]; then
-    if [ $2 == "1" ]; then
-        echo "oar, == 1"
+    elif [ $2 == "ar" ]; then
+        if [ $3 == "1" ]; then
+            echo "ar, == 1"
+        fi
     fi
 fi

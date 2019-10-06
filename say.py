@@ -1,11 +1,13 @@
 # importing the requests library
-import sys, subprocess
+import sys, subprocess, os.path
+from os import path
 
-if len(sys.argv) > 2:
+if len(sys.argv) > 3:
     prefix = sys.argv[1]
-    language = sys.argv[2]
+    order = sys.argv[2]
+    language = sys.argv[3]
 else:
-    print "please provide the prefix and the language"
+    print "please provide the prefix, the language order  and the language"
     exit(-1)
 
 filePath = "data/" + prefix + "-" + language + ".vtt"
@@ -26,11 +28,12 @@ for line in lines:
         if len(paragraph) > 0:
             print str(count) + ".saying: " + paragraph
             if count>4:
-                targetFilePath = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + language
-                if language == "en":
-                    subprocess.call(["say", "-v", voice, "-o", targetFilePath + ".m4a", paragraph])
-                else:
-                    subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFilePath + ".m4a", paragraph])
+                targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".m4a"
+                if not path.exists(targetFile):
+                    if language == "en":
+                        subprocess.call(["say", "-v", voice, "-o", targetFile, paragraph])
+                    else:
+                        subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, paragraph])
             paragraph = ""
             count = count + 1
     else:

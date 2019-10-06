@@ -1,22 +1,23 @@
 # importing the requests library
 import sys, os 
 
-if len(sys.argv) > 5:
-    s = sys.argv[1]
-    a = int(sys.argv[2])
-    b = int(sys.argv[3])
-    sourceLanguage = sys.argv[4]
-    targetLanguage = sys.argv[5]
+if len(sys.argv) > 6:
+    title = sys.argv[1]
+    s = sys.argv[2]
+    a = int(sys.argv[3])
+    b = int(sys.argv[4])
+    sourceLanguage = sys.argv[5]
+    targetLanguage = sys.argv[6]
 else:
-    print "please enter the season number, first episode number, the last episode numer, the source language, and the target language"
+    print "please enter the title, season number, first episode number, last episode numer, source language, and the target language"
     exit(-1)
 
-os.system("./download " + targetLanguage + " " +str(a))
+os.system("./download " + title + " " + targetLanguage)
 #exit(0)
 for n in range(a, b+1):
     if s == "2":
-        prefix = "ertugrul-" + s + "-" + format(n, '03d')
+        prefix = title + "-" + s + "-" + format(n, '03d')
     else:
-        prefix = "ertugrul-" + s + "-" + format(n, '02d')
+        prefix = title + "-" + s + "-" + format(n, '02d')
     os.system("./buildEpisode " + prefix + " " + sourceLanguage + " " + targetLanguage)
 
