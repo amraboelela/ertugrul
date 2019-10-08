@@ -12,8 +12,26 @@ if [ $1 == "ertugrul" ]; then
         ./downloadVideo 1 9 tr https://www.youtube.com/watch?v=dnZcS74eg5U
         ./downloadVideo 1 10 tr https://www.youtube.com/watch?v=n0fGW7ATlzE
     elif [ $2 == "ar" ]; then
-        if [ $3 == "1" ]; then
-            echo "ar, == 1"
-        fi
+        ./downloadVideo 1 1 ar https://youtu.be/J6I2-0tWMzA
+        ./downloadVideo 1 2 ar https://youtu.be/SAh12QUJYXc
+        ./downloadVideo 1 3 ar https://youtu.be/4E_UkCHGTBI
+        ./downloadVideo 1 4 ar https://youtu.be/RYwQRcFYrP4
+        ./downloadVideo 1 5 ar https://youtu.be/jw-4DXrhtEw
+        ./downloadVideo 1 6 ar https://youtu.be/aZAB3SHmdq4
+        ./downloadVideo 1 7 ar https://youtu.be/mASCSWBKRzU
+        ./downloadVideo 1 8 ar https://youtu.be/81o4guOcqCg
+        ./downloadVideo 1 9 ar https://youtu.be/cV5aYJVMGvM
+        ./downloadVideo 1 10 ar https://youtu.be/uTLzEHQEWz8
+        ./downloadVideo 1 11 ar https://youtu.be/rLoQCkjiH0c
+        ./downloadVideo 1 12 ar https://youtu.be/Jc2dnSC0_eY
+        ./downloadVideo 1 13 ar https://youtu.be/Ygx5YH7S1q8
+        ./downloadVideo 1 14 ar https://youtu.be/ZKcIv5ishco
+        ./downloadVideo 1 15 ar https://youtu.be/z_8BSyGjHbM
+        ./downloadVideo 1 16 ar https://youtu.be/Es_Zuki0PO8
+        ./downloadVideo 1 17 ar https://youtu.be/2mYSUqIWSxU
+        ./downloadVideo 1 18 ar https://youtu.be/fpLUrH4I1MI
+        ./downloadVideo 1 19 ar https://youtu.be/8DyygsTEQ9c
+        ./downloadVideo 1 20 ar https://youtu.be/gXSh2pNwbWk
     fi
 fi
+
