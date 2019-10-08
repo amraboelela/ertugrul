@@ -11,9 +11,18 @@ if [ $1 == "ertugrul" ]; then
         ./downloadVideo 1 8 tr https://www.youtube.com/watch?v=vZuGxAws-b0
         ./downloadVideo 1 9 tr https://www.youtube.com/watch?v=dnZcS74eg5U
         ./downloadVideo 1 10 tr https://www.youtube.com/watch?v=n0fGW7ATlzE
+
+        ./downloadVideo 1 11 tr https://www.youtube.com/watch?v=zPP2H1kLI5Y
+        ./downloadVideo 1 12 tr https://www.youtube.com/watch?v=wJZnppMfiJ8
+        ./downloadVideo 1 13 tr https://www.youtube.com/watch?v=aohL_GnaT_k
+        ./downloadVideo 1 14 tr https://www.youtube.com/watch?v=zjc9Te6eNEM&t=7s
+        ./downloadVideo 1 15 tr https://www.youtube.com/watch?v=ci9JCOzYjNQ
+        ./downloadVideo 1 16 tr https://www.youtube.com/watch?v=1eOOm3NCDhk
+        ./downloadVideo 1 17 tr https://www.youtube.com/watch?v=JGFyIAZIr9k
+        ./downloadVideo 1 18 tr https://www.youtube.com/watch?v=lE96HEMDFPo
+        ./downloadVideo 1 19 tr https://www.youtube.com/watch?v=z5ilxyZHNi8
+        ./downloadVideo 1 20 tr https://www.youtube.com/watch?v=2ESz2fj3lNA
     elif [ $2 == "ar" ]; then
-        if [ $3 == "1" ]; then
-            echo "ar, == 1"
-        fi
+        echo "ar, == 1"
     fi
 fi

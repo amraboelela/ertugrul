@@ -1,6 +1,6 @@
-mkdir -p data/$1
 
 if [ ! -f data/$1-$3.mp4 ]; then
+    mkdir -p data/$1
     python cut.py $1 $3
     if [ ! -f data/$1-$3.vtt ]; then
         echo "Translating $1-$2.vtt"
@@ -8,9 +8,7 @@ if [ ! -f data/$1-$3.mp4 ]; then
     fi
     python say.py $1 1 $2
     python say.py $1 2 $3
-    #exit 0
 
     python combine.py $1 $2 $3
-    #exit 0
     ./video $1 $3
 fi
