@@ -40,11 +40,6 @@ for line in lines:
             except Exception as error:
                 print "error: " + str(error) + " line: " + line
 
-#                if language == "en":
-#                    subprocess.call(["say", "-v", voice, "-o", targetFilePath + ".m4a", paragraph])
-#                else:
-#                    subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFilePath + ".m4a", paragraph])
-
         print line
         paragraph = ""
     else:
@@ -61,20 +56,6 @@ try:
 except Exception as error:
     print "error: " + str(error) + " line: " + line
 
-
-#    if not line.strip():
-#        print
-#    elif "-->" in line:
-#        x = 0
-#    else:
-#        PARAMS = {'key':key, 'q':line, 'source':'en', 'target':targetLanguage}
-#        r = requests.get(url = URL, params = PARAMS)
-#        data = r.json()
-#        translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'")
-#        try:
-#            print(translatedText.encode('utf8'))
-#        except Exception as error:
-#            print "error: " + str(error) + " line: " + line
 
 file.close()
 

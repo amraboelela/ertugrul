@@ -27,7 +27,7 @@ for line in lines:
     if "-->" in line:
         if len(paragraph) > 0:
             print str(count) + ".saying: " + paragraph
-            if count>4:
+            if count>3:
                 targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".m4a"
                 if not path.exists(targetFile):
                     if language == "en":

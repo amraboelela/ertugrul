@@ -1,6 +1,6 @@
 
 ffmpeg -y -loop 1 -i data/$1-$2.jpg -i data/$1.m4a -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest data/$1.mp4
-#rm -r data/$1
-#rm data/$1.m4a
-#rm data/$1-0*.m4a
-#rm data/$1-1*.m4a
+rm -r data/$1
+rm data/$1.m4a
+rm data/$1-0*.m4a
+rm data/$1-1*.m4a

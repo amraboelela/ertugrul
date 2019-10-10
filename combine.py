@@ -10,13 +10,7 @@ else:
     print "please provide the prefix, source language, and target language"
     exit(-1)
 filePath = "data/" + prefix+ "/" + prefix
-#outputFile = open("audioFiles.txt", "w")
 files = os.listdir("data/" + prefix)
-#reverse = False
-#if sourceLanguage < targetLanguage:
-#    reverse = False
-#else:
-#    reverse = True
 files.sort()
 target = ""
 subprocessArray = ["ffmpeg", "-y"]
@@ -24,9 +18,6 @@ count = 0
 fileCount = 0
 concatString = ""
 for file in files:
-    #if reverse:
-    #    if targetLanguage == "otr":
-    #if "-" + sourceLanguage in file or "-" + targetLanguage in file:
     subprocessArray.extend(["-i", "data/" + prefix + "/" + file])
     subprocessArray.extend(["-i", "silence1.m4a"])
     concatString = concatString + "[" + str(fileCount) + ":a]"

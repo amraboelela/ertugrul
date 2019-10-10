@@ -18,7 +18,7 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 - Then do:
 
 ```
-$ ./build ertugrul 1 1 3 en tr
+$ ./build ertugrul 1 1 3 tr en
 ```
 
 **Turkish**
