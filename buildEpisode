@@ -1,5 +1,5 @@
 
-if [ ! -f data/$1-$3.mp4 ]; then
+if [ ! -f data/$1.mp4 ]; then
     mkdir -p data/$1
     mkdir -p data/words
     python cut.py $1 $3
