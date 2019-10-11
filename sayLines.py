@@ -1,6 +1,5 @@
 # importing the requests library
-import sys, subprocess, os.path
-from os import path
+import sys, subprocess
 
 if len(sys.argv) > 3:
     prefix = sys.argv[1]
@@ -29,11 +28,11 @@ for line in lines:
             print str(count) + ".saying: " + paragraph
             if count>3:
                 targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".m4a"
-                if not path.exists(targetFile):
-                    if language == "en":
-                        subprocess.call(["say", "-v", voice, "-o", targetFile, paragraph])
-                    else:
-                        subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, paragraph])
+                #if not path.exists(targetFile):
+                if language == "en":
+                    subprocess.call(["say", "-v", voice, "-o", targetFile, paragraph])
+                else:
+                    subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, paragraph])
             paragraph = ""
             count = count + 1
     else:

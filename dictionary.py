@@ -28,15 +28,12 @@ URL = "https://translation.googleapis.com/language/translate/v2"
 from translation_key import *
 
 filename = "data/" + prefix + "-" + language + ".vtt"
-#print "filename: " + filename
 file = open(filename)
 lines = file.read().splitlines()
 count  = 0
 for line in lines:
     if not "-->" in line and len(line) > 0:
-        #count = count + 1
         line = line.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "")
-        #print str(count) + ". " + line
         words = line.split()
         for word in words:
             if not dictionary.has_key(word.decode('utf8')):
@@ -50,7 +47,7 @@ for line in lines:
                     print(str(count) + ". " + word + ": " + translatedWord.encode('utf8'))
                     if word != translatedWord.encode('utf8'):
                         targetFile = "data/words/" + word + ".m4a"
-                        subprocess.call(["say", "-v", voice, "-o", targetFile, word])
+                        subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, word])
                         targetFile = "data/words/" + word + "-en.m4a"
                         subprocess.call(["say", "-v", "Alex", "-o", targetFile, translatedWord])
                     if count % 100 == 0:
