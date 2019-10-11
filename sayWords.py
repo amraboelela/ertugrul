@@ -38,7 +38,7 @@ for line in lines:
                     if path.exists(wordFile):
                         print "saying: " + word
                         subprocessArray.extend(["-i", wordFile])
-                        subprocessArray.extend(["-i", "silence1.m4a"])
+                        subprocessArray.extend(["-i", "silence_2.m4a"])
                         concatString = concatString + "[" + str(fileCount) + ":a]"
                         fileCount = fileCount + 1
                         concatString = concatString + "[" + str(fileCount) + ":a]"

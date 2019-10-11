@@ -10,8 +10,8 @@ if [ ! -f data/$1-$3.mp4 ]; then
     fi
     python dictionary.py $1 $3
     python sayLines.py $1 1 $2
-    python sayWords.py $1 2 $3
-    python sayLines.py $1 3 $3
+    python sayLines.py $1 2 $3
+    python sayWords.py $1 3 $3
 
     python combine.py $1
     ./video $1 $3
