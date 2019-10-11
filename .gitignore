@@ -112,6 +112,6 @@ translation_key.pyc
 *.bac
 *.zip
 audioFiles.txt
-!silence1.m4a
+!silence*
 *.vtt
 *.jpg
