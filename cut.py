@@ -18,14 +18,11 @@ for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
         startTime = times[0][:len(times[0])-4]
-        print "startTime: " + startTime
+        #print "startTime: " + startTime
         subTimes = startTime.split(":")
         hours = int(subTimes[0])
         minutes = int(subTimes[1])
         seconds = int(subTimes[2])
-        #print "hours: " + str(hours)
-        #print "minutes: " + str(minutes)
-        #print "seconds: " + str(seconds)
         totalSeconds = hours * 60 * 60 + minutes * 60 + seconds
         shiftedSeconds = 0
         if targetLanguage == "ar":
@@ -45,23 +42,14 @@ for line in lines:
                 else:
                     shiftedSeconds = 2 * 60 + 2
 
-        print "shiftedSeconds: " + str(shiftedSeconds)
-        #print "totalSeconds: " + str(totalSeconds)
         totalSeconds = totalSeconds - shiftedSeconds
         if totalSeconds < 0:
             totalSeconds = 0
-        #print "totalSeconds 2: " + str(totalSeconds)
         hours = totalSeconds / 60 / 60
         minutes = (totalSeconds - (hours * 60 * 60)) / 60 
         seconds = (totalSeconds - (hours * 60 * 60) - minutes * 60)
-        #print "hours 2: " + str(hours)
-        #print "minutes 2: " + str(minutes)
-        #print "seconds 2: " + str(seconds)
         startTime = str(hours) + ":" + str(minutes) + ":" + str(seconds)
-        #print "startTime 2: " + startTime
-        #print "prevStartTime: " + prevStartTime
         if count > 3:
-            #exit(0)
             targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-o" + targetLanguage
             if not path.exists(targetFile + ".m4a"):
                 subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFile + "~.m4a"])

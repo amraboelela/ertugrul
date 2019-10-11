@@ -2,7 +2,7 @@
 import json, sys, subprocess, requests, re
 
 if len(sys.argv) > 2:
-    filename = sys.argv[1]
+    prefix = sys.argv[1]
     language = sys.argv[2]
 else:
     print "please provide the file name and the language"
@@ -15,32 +15,49 @@ try:
 except:
     dictionary = {}
 
+switcher = {
+        "en": "Alex",
+        "tr": "Yelda",
+        "ar": "Maged"
+    }
+
+voice = switcher.get(language)
+
 # api-endpoint
 URL = "https://translation.googleapis.com/language/translate/v2"
 from translation_key import *
 
-print "filename: " + filename
+filename = "data/" + prefix + "-" + language + ".vtt"
+#print "filename: " + filename
 file = open(filename)
-print "file: " + str(file)
 lines = file.read().splitlines()
+count  = 0
 for line in lines:
-    print "line: " + line
-    if not "-->" in line and len(paragraph) > 0:
-        print str(count) + ".line: " + line
-        words = re.split(" ", paragraph)
+    if not "-->" in line and len(line) > 0:
+        #count = count + 1
+        line = line.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "")
+        #print str(count) + ". " + line
+        words = line.split()
         for word in words:
-            print("word: " + word)
-            PARAMS = {'key':key, 'q':word, 'source':language, 'target':'en'}
-            r = requests.get(url = URL, params = PARAMS)
-            data = r.json()
-            translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'")
-            try:
-                translatedWord = translatedText.encode('utf8')
-                print(translatedWord)
-                dictionary[word] = translatedWord
-                print
-            except Exception as error:
-                print "error: " + str(error) + " line: " + line
+            if not dictionary.has_key(word.decode('utf8')):
+                try:
+                    count = count + 1
+                    PARAMS = {'key':key, 'q':word, 'source':language, 'target':'en'}
+                    r = requests.get(url = URL, params = PARAMS)
+                    data = r.json()
+                    translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").lower()
+                    dictionary[word.decode('utf8')] = translatedWord
+                    print(str(count) + ". " + word + ": " + translatedWord.encode('utf8'))
+                    if word != translatedWord.encode('utf8'):
+                        targetFile = "data/words/" + word + ".m4a"
+                        subprocess.call(["say", "-v", voice, "-o", targetFile, word])
+                        targetFile = "data/words/" + word + "-en.m4a"
+                        subprocess.call(["say", "-v", "Alex", "-o", targetFile, translatedWord])
+                    if count % 100 == 0:
+                        json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
+                except Exception as error:
+                    print "error: " + str(error) + " word: " + word
+                    json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
 
 file.close()
 
