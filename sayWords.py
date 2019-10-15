@@ -24,9 +24,7 @@ count = 0
 paragraph = ""
 for line in lines:
     if "-->" in line:
-        if len(paragraph) > 0:
-            count = count + 1
-            #if count>3:
+        if len(paragraph) > 0 and count > 0:
             targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + "-en.m4a"
             print str(count) + ".saying: " + paragraph
             paragraph = paragraph.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "")
@@ -55,6 +53,7 @@ for line in lines:
             subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", targetFile])
             subprocess.call(subprocessArray)
             paragraph = ""
+        count = count + 1
     else:
         paragraph = paragraph + line.replace('-','') + ", "
 

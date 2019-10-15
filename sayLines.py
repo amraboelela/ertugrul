@@ -24,8 +24,7 @@ count = 0
 paragraph = ""
 for line in lines:
     if "-->" in line:
-        if len(paragraph) > 0:
-            count = count + 1
+        if len(paragraph) > 0 and count > 0:
             print str(count) + ".saying: " + paragraph
             #if count>3:
             targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".m4a"
@@ -34,6 +33,7 @@ for line in lines:
             else:
                 subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, paragraph])
             paragraph = ""
+        count = count + 1
     else:
         paragraph = paragraph + line.replace('-','') + ", "
 file.close()
