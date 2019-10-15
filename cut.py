@@ -2,28 +2,29 @@
 import sys, subprocess, os.path
 from os import path
 
-if len(sys.argv) > 2:
+if len(sys.argv) > 3:
     prefix = sys.argv[1]
-    targetLanguage = sys.argv[2]
+    order = sys.argv[2]
+    targetLanguage = sys.argv[3]
 else:
-    print "please provide the prefix and the target language"
+    print "please provide the prefix, language order, and the target language"
     exit(-1)
 
-filePath = "data/" + prefix + "-en.vtt" 
+filePath = "data/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
 lines = file.read().splitlines()
 count = 0
-prevStartTime = "00:00:00"
+prevStartTime = "00:00"
 for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
         startTime = times[0][:len(times[0])-4]
         #print "startTime: " + startTime
         subTimes = startTime.split(":")
-        hours = int(subTimes[0])
-        minutes = int(subTimes[1])
-        seconds = int(subTimes[2])
-        totalSeconds = hours * 60 * 60 + minutes * 60 + seconds
+        #hours = int(subTimes[0])
+        minutes = int(subTimes[0])
+        seconds = int(subTimes[1])
+        totalSeconds = minutes * 60 + seconds
         shiftedSeconds = 0
         if targetLanguage == "ar":
             subPrefix = prefix[:11]
@@ -45,12 +46,12 @@ for line in lines:
         totalSeconds = totalSeconds - shiftedSeconds
         if totalSeconds < 0:
             totalSeconds = 0
-        hours = totalSeconds / 60 / 60
-        minutes = (totalSeconds - (hours * 60 * 60)) / 60 
-        seconds = (totalSeconds - (hours * 60 * 60) - minutes * 60)
-        startTime = str(hours) + ":" + str(minutes) + ":" + str(seconds)
+        #hours = totalSeconds / 60 / 60
+        minutes = totalSeconds / 60 
+        seconds = totalSeconds - minutes * 60
+        startTime = str(minutes) + ":" + str(seconds)
         if count > 3:
-            targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-o" + targetLanguage
+            targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + "o" + targetLanguage
             if not path.exists(targetFile + ".m4a"):
                 subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFile + "~.m4a"])
                 subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])

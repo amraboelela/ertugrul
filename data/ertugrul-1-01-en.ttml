@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:tickRate="10000000" ttp:timeBase="media" xmlns="http://www.w3.org/ns/ttml">
+<head>
+<ttp:profile use="http://netflix.com/ttml/profile/dfxp-ls-sdh"/>
+<styling>
+<style tts:color="white" tts:fontSize="100%" tts:fontWeight="normal" xml:id="s1"/>
+</styling>
+<layout>
+<region tts:displayAlign="after" tts:extent="80.00% 40.00%" tts:origin="10.00% 50.00%" tts:textAlign="center" xml:id="bottomCenter"/>
+<region tts:displayAlign="before" tts:extent="80.00% 40.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="topCenter"/>
+</layout>
+</head>
+<body>
+<div xml:space="preserve">
+<p begin="1061000000t" end="1102333333t" region="topCenter" style="s1" xml:id="subtitle0">RESURRECTION ERTUGRUL</p>
+<p begin="1113666666t" end="1148000000t" region="bottomCenter" style="s1" xml:id="subtitle1">THE STORIES AND CHARACTERS DEPICTED <br/>HERE WERE INSPIRED BY OUR HISTORY </p>
+<p begin="1152000000t" end="1182000000t" region="bottomCenter" style="s1" xml:id="subtitle2">NO ANIMALS WERE HARMED DURING <br/>THE FILMING OF THIS PRODUCTION. </p>
+<p begin="1214666666t" end="1246000000t" region="topCenter" style="s1" xml:id="subtitle3">1225 - KAYI TRIBE</p>
+<p begin="1391000000t" end="1428000000t" region="bottomCenter" style="s1" xml:id="subtitle4">-Great God! <br/>-Only one God! </p>
+<p begin="1435000000t" end="1473000000t" region="bottomCenter" style="s1" xml:id="subtitle5">-Great God! <br/>-Only one God! </p>
+<p begin="1476333333t" end="1512666666t" region="bottomCenter" style="s1" xml:id="subtitle6">-Great God! <br/>-Only one God! </p>
+<p begin="1516000000t" end="1545666666t" region="bottomCenter" style="s1" xml:id="subtitle7">-Great God! <br/>-Only one God! </p>
+<p begin="1600333333t" end="1626666666t" region="bottomCenter" style="s1" xml:id="subtitle8">Even the iron could not stand <br/>reciting of God and gave in. </p>
+<p begin="1630666666t" end="1641333333t" region="bottomCenter" style="s1" xml:id="subtitle9">Wait a bit!</p>
+<p begin="1750333333t" end="1766000000t" region="bottomCenter" style="s1" xml:id="subtitle10">Take a look at this one.</p>
+<p begin="1860666666t" end="1897000000t" region="bottomCenter" style="s1" xml:id="subtitle11">This is magnificent. I pity the enemy whom <br/>this will be the Azrael of. </p>
+<p begin="1900333333t" end="1917666666t" region="bottomCenter" style="s1" xml:id="subtitle12">In the hands of a valiant like you...</p>
+<p begin="1921000000t" end="1957666666t" region="bottomCenter" style="s1" xml:id="subtitle13">...let it be the sound of the oppressed, <br/>wrath to the tyrants, if God permits. </p>
+<p begin="1994333333t" end="2036000000t" region="bottomCenter" style="s1" xml:id="subtitle14">There’s no sword other than Zulfiqar and <br/>no valiant other than His Holiness Ali. </p>
+<p begin="2037666666t" end="2070000000t" region="bottomCenter" style="s1" xml:id="subtitle15">I’m ready to sacrifice myself for God, <br/>who gave you to us. </p>
+<p begin="2155000000t" end="2195333333t" region="bottomCenter" style="s1" xml:id="subtitle16">For the love of God, in the name of my <br/>forefather Oguz, I’ll gird it with honor. </p>
+<p begin="2336333333t" end="2351000000t" region="bottomCenter" style="s1" xml:id="subtitle17">Bring your hands.</p>
+<p begin="2395000000t" end="2427666666t" region="bottomCenter" style="s1" xml:id="subtitle18">What is the matter? <br/>Your tumblers are restless again. </p>
+<p begin="2447000000t" end="2462666666t" region="bottomCenter" style="s1" xml:id="subtitle19">We are going hunting.</p>
+<p begin="2466333333t" end="2482000000t" region="bottomCenter" style="s1" xml:id="subtitle20">They are getting ready.</p>
+<p begin="2501666666t" end="2531000000t" region="bottomCenter" style="s1" xml:id="subtitle21">Are there any animals left to hunt <br/>in this famine? </p>
+<p begin="2571666666t" end="2586333333t" region="bottomCenter" style="s1" xml:id="subtitle22">You are right but...</p>
+<p begin="2597666666t" end="2617333333t" region="bottomCenter" style="s1" xml:id="subtitle23">...hunting keeps the Alps fit.</p>
+<p begin="2635000000t" end="2665666666t" region="bottomCenter" style="s1" xml:id="subtitle24">It is better if we find a way to keep <br/>the tribe alive as well. </p>
+<p begin="2675666666t" end="2702333333t" region="bottomCenter" style="s1" xml:id="subtitle25">That can only be decided <br/>on the headquarters tomorrow. </p>
+<p begin="2704666666t" end="2742333333t" region="bottomCenter" style="s1" xml:id="subtitle26">If we don’t migrate from this highland <br/>before winter, we would be doomed. </p>
+<p begin="2752000000t" end="2792000000t" region="bottomCenter" style="s1" xml:id="subtitle27">But if you say that you know a solution, <br/>tell us as well. </p>
+<p begin="2811333333t" end="2837666666t" region="bottomCenter" style="s1" xml:id="subtitle28">My brother Gundogdu knows <br/>these matters better than me. </p>
+<p begin="2840666666t" end="2854000000t" region="bottomCenter" style="s1" xml:id="subtitle29">If you wish, talk to him.</p>
+<p begin="2856000000t" end="2867333333t" region="bottomCenter" style="s1" xml:id="subtitle30">With Gundogdu?</p>
+<p begin="2872000000t" end="2911333333t" region="bottomCenter" style="s1" xml:id="subtitle31">No, he never breaths a single word about.</p>
+<p begin="3011000000t" end="3033000000t" region="bottomCenter" style="s1" xml:id="subtitle32">Is this what you bought for 40 coins?</p>
+<p begin="3037000000t" end="3055000000t" region="bottomCenter" style="s1" xml:id="subtitle33">This is called a map.</p>
+<p begin="3066666666t" end="3082333333t" region="bottomCenter" style="s1" xml:id="subtitle34">What is it used for?</p>
+<p begin="3090666666t" end="3113333333t" region="bottomCenter" style="s1" xml:id="subtitle35">Look, we are here.</p>
+<p begin="3121666666t" end="3148000000t" region="bottomCenter" style="s1" xml:id="subtitle36">Right at where these mountains are.</p>
+<p begin="3161666666t" end="3185666666t" region="bottomCenter" style="s1" xml:id="subtitle37">This is Aleppo. This is Baghdad.</p>
+<p begin="3193666666t" end="3212666666t" region="bottomCenter" style="s1" xml:id="subtitle38">And this is Damascus.</p>
+<p begin="3215000000t" end="3251000000t" region="bottomCenter" style="s1" xml:id="subtitle39">And this is Konya, <br/>where the Sultan’s palace is. </p>
+<p begin="3263666666t" end="3291333333t" region="bottomCenter" style="s1" xml:id="subtitle40">Let go of the palaces <br/>of the sultans and khans and... </p>
+<p begin="3293333333t" end="3321333333t" region="bottomCenter" style="s1" xml:id="subtitle41">...tell us where the tribe should <br/>migrate to, Gundogdu. </p>
+<p begin="3325333333t" end="3362333333t" region="bottomCenter" style="s1" xml:id="subtitle42">The elders are having a dumb moment. <br/>Your father is quiet. </p>
+<p begin="3367333333t" end="3397666666t" region="bottomCenter" style="s1" xml:id="subtitle43">He just sits in his tent like <br/>a worrier not a warrior. </p>
+<p begin="3482000000t" end="3495666666t" region="bottomCenter" style="s1" xml:id="subtitle44">Where is this place?</p>
+<p begin="3500333333t" end="3523333333t" region="bottomCenter" style="s1" xml:id="subtitle45">Everyone will learn tomorrow <br/>at headquarters. </p>
+<p begin="3530666666t" end="3545000000t" region="bottomCenter" style="s1" xml:id="subtitle46">You found a place, right?</p>
+<p begin="3547666666t" end="3566000000t" region="bottomCenter" style="s1" xml:id="subtitle47">Please tell me, where is it?</p>
+<p begin="3720333333t" end="3732333333t" region="bottomCenter" style="s1" xml:id="subtitle48">Ertugrul!</p>
+<p begin="3751000000t" end="3763333333t" region="bottomCenter" style="s1" xml:id="subtitle49">Ertugrul!</p>
+<p begin="3781000000t" end="3793666666t" region="bottomCenter" style="s1" xml:id="subtitle50">Where are you going?</p>
+<p begin="3796666666t" end="3813333333t" region="bottomCenter" style="s1" xml:id="subtitle51">I am going hunting, brother.</p>
+<p begin="3814666666t" end="3843666666t" region="bottomCenter" style="s1" xml:id="subtitle52">This is not the time to go hunting. <br/>We have headquarters tomorrow. </p>
+<p begin="3845333333t" end="3870333333t" region="bottomCenter" style="s1" xml:id="subtitle53">The headquarter is yours <br/>and hunt is mine, brother. </p>
+<p begin="3872666666t" end="3911666666t" region="bottomCenter" style="s1" xml:id="subtitle54">Alright. But don’t go too far. <br/>Go quickly, come back quickly. </p>
+<p begin="4095333333t" end="4132000000t" region="bottomCenter" style="s1" xml:id="subtitle55">What are you doing with that meat? <br/>We are going hunting, did you forget? </p>
+<p begin="4135333333t" end="4162000000t" region="bottomCenter" style="s1" xml:id="subtitle56">We won’t let you starve during a hunt, <br/>don’t you worry. </p>
+<p begin="4163333333t" end="4188000000t" region="bottomCenter" style="s1" xml:id="subtitle57">How can you call a valiant as valiant if <br/>he starves while he is hunting, Turgut? </p>
+<p begin="4191666666t" end="4235666666t" region="bottomCenter" style="s1" xml:id="subtitle58">-This is just for the road. <br/>-It is impossible to relieve your hunger. </p>
+<p begin="4265333333t" end="4280666666t" region="bottomCenter" style="s1" xml:id="subtitle59">Come on, Alps.</p>
+<p begin="4298000000t" end="4311333333t" region="bottomCenter" style="s1" xml:id="subtitle60">Your man is going.</p>
+<p begin="4671666666t" end="4703666666t" region="topCenter" style="s1" xml:id="subtitle61">AMANOS MOUNTAINS <br/>TEMPLARS CASTLE </p>
+<p begin="5341333333t" end="5370333333t" region="bottomCenter" style="s1" xml:id="subtitle62">Guard duty is your pride!</p>
+<p begin="5380000000t" end="5402333333t" region="bottomCenter" style="s1" xml:id="subtitle63">Guard duty is your honor!</p>
+<p begin="5424666666t" end="5456000000t" region="bottomCenter" style="s1" xml:id="subtitle64">If you betray your pride and honor...</p>
+<p begin="5458000000t" end="5494000000t" region="bottomCenter" style="s1" xml:id="subtitle65">...your death will not come <br/>from the enemy, but from me! </p>
+<p begin="6003333333t" end="6022333333t" region="bottomCenter" style="s1" xml:id="subtitle66">You have honored us, Ustad-i Azam.</p>
+<p begin="6024666666t" end="6042666666t" region="bottomCenter" style="s1" xml:id="subtitle67">That honor belongs to us.</p>
+<p begin="6100000000t" end="6123666666t" region="bottomCenter" style="s1" xml:id="subtitle68">-Elanora. <br/>-Commander Titus. </p>
+<p begin="6130666666t" end="6146333333t" region="bottomCenter" style="s1" xml:id="subtitle69">I hope your journey was fine.</p>
+<p begin="6147666666t" end="6165333333t" region="bottomCenter" style="s1" xml:id="subtitle70">Is everything alright, Titus?</p>
+<p begin="6180666666t" end="6200666666t" region="bottomCenter" style="s1" xml:id="subtitle71">We are safer than ever, sir.</p>
+<p begin="6263000000t" end="6297666666t" region="bottomCenter" style="s1" xml:id="subtitle72">Your chambers are ready, sir. <br/>Would you like to rest before lunch? </p>
+<p begin="6301000000t" end="6322333333t" region="bottomCenter" style="s1" xml:id="subtitle73">Elanora may rest. We have work to do.</p>
+<p begin="6334000000t" end="6357666666t" region="bottomCenter" style="s1" xml:id="subtitle74">-As you wish. <br/>-With your permission. </p>
+<p begin="6601333333t" end="6625666666t" region="bottomCenter" style="s1" xml:id="subtitle75">What is the latest development <br/>about the prisoners? </p>
+<p begin="6630333333t" end="6651000000t" region="bottomCenter" style="s1" xml:id="subtitle76">I gave that duty to my brother Bisol.</p>
+<p begin="6681333333t" end="6707333333t" region="bottomCenter" style="s1" xml:id="subtitle77">They will submit Numan and his family <br/>to Karatoygar. </p>
+<p begin="6733333333t" end="6751333333t" region="bottomCenter" style="s1" xml:id="subtitle78">For the others, I waited for you.</p>
+<p begin="6755666666t" end="6766000000t" region="bottomCenter" style="s1" xml:id="subtitle79">Good.</p>
+<p begin="7036000000t" end="7054000000t" region="bottomCenter" style="s1" xml:id="subtitle80">Where are they taking us, father?</p>
+<p begin="7091666666t" end="7104333333t" region="bottomCenter" style="s1" xml:id="subtitle81">To our palace, son.</p>
+<p begin="7135333333t" end="7155000000t" region="bottomCenter" style="s1" xml:id="subtitle82">We will be free there, right?</p>
+<p begin="7164333333t" end="7178000000t" region="bottomCenter" style="s1" xml:id="subtitle83">Until eternity, son.</p>
+<p begin="7185000000t" end="7196666666t" region="bottomCenter" style="s1" xml:id="subtitle84">Until eternity.</p>
+<p begin="7281666666t" end="7305000000t" region="bottomCenter" style="s1" xml:id="subtitle85">So out fate was to return to Konya <br/>like this. </p>
+<p begin="7314666666t" end="7352333333t" region="bottomCenter" style="s1" xml:id="subtitle86">To the palace we were born in and <br/>grew up, to be killed by our uncle. </p>
+<p begin="7354000000t" end="7390333333t" region="bottomCenter" style="s1" xml:id="subtitle87">I will not let anything to happen <br/>to you or your brother, my daughter. </p>
+<p begin="7602666666t" end="7641666666t" region="bottomCenter" style="s1" xml:id="subtitle88">This way Karatoygar will be <br/>dependent on us more than ever. </p>
+<p begin="7653666666t" end="7690000000t" region="bottomCenter" style="s1" xml:id="subtitle89">It is very important for him to win <br/>the favor of Sultan Aladdin. </p>
+<p begin="7696000000t" end="7747000000t" region="bottomCenter" style="s1" xml:id="subtitle90">Karatoygar becoming a high officer <br/>in the Seljuk court will relieve us. </p>
+<p begin="7767000000t" end="7784333333t" region="topCenter" style="s1" xml:id="subtitle91">KARATOYGAR INN</p>
+<p begin="7786333333t" end="7806333333t" region="topCenter" style="s1" xml:id="subtitle92">-We did everything as you ordered, sir. <br/>-Okay! </p>
+<p begin="7822333333t" end="7834000000t" region="bottomCenter" style="s1" xml:id="subtitle93">Head of guard!</p>
+<p begin="7851333333t" end="7880000000t" region="bottomCenter" style="s1" xml:id="subtitle94">Are the Turkmen tribes paying <br/>their taxes? </p>
+<p begin="7883000000t" end="7913666666t" region="bottomCenter" style="s1" xml:id="subtitle95">We can’t control them, sir. <br/>They are always on the move. </p>
+<p begin="7917666666t" end="7943666666t" region="bottomCenter" style="s1" xml:id="subtitle96">-Which one is the biggest tribe? <br/>-Kayi tribe, sir. </p>
+<p begin="7948000000t" end="7967666666t" region="bottomCenter" style="s1" xml:id="subtitle97">They ran away from the Mongol invasion.</p>
+<p begin="7970666666t" end="7991333333t" region="bottomCenter" style="s1" xml:id="subtitle98">-Who is their leader? <br/>-Suleyman Shah. </p>
+<p begin="7994333333t" end="8027666666t" region="bottomCenter" style="s1" xml:id="subtitle99">-How many tents? <br/>-2000 tents. But they are well respected. </p>
+<p begin="8031666666t" end="8053666666t" region="bottomCenter" style="s1" xml:id="subtitle100">-Do they pay their taxes? <br/>-They do, sir. </p>
+<p begin="8065333333t" end="8076333333t" region="bottomCenter" style="s1" xml:id="subtitle101">Good.</p>
+<p begin="8084333333t" end="8115666666t" region="bottomCenter" style="s1" xml:id="subtitle102">Then, they shall pay their taxes <br/>earlier this year. </p>
+<p begin="8124333333t" end="8154333333t" region="bottomCenter" style="s1" xml:id="subtitle103">-But, sir... <br/>-You heard what I said. </p>
+<p begin="8160333333t" end="8180666666t" region="bottomCenter" style="s1" xml:id="subtitle104">How will this state remain standing?</p>
+<p begin="8182000000t" end="8207000000t" region="bottomCenter" style="s1" xml:id="subtitle105">Inform all the tribes <br/>in the region immediately. </p>
+<p begin="8210000000t" end="8221000000t" region="bottomCenter" style="s1" xml:id="subtitle106">Yes, sir.</p>
+<p begin="8250666666t" end="8264666666t" region="bottomCenter" style="s1" xml:id="subtitle107">Where are those templars?</p>
+<p begin="8340000000t" end="8350333333t" region="bottomCenter" style="s1" xml:id="subtitle108">Halt!</p>
+<p begin="8367000000t" end="8382333333t" region="bottomCenter" style="s1" xml:id="subtitle109">Let us rest a bit here.</p>
+<p begin="8406666666t" end="8421666666t" region="bottomCenter" style="s1" xml:id="subtitle110">Check the surroundings.</p>
+<p begin="8541666666t" end="8575000000t" region="bottomCenter" style="s1" xml:id="subtitle111">We need to weaken the Seljuks <br/>before the crusade. </p>
+<p begin="8587333333t" end="8623333333t" region="bottomCenter" style="s1" xml:id="subtitle112">You should put more men <br/>in the Seljuk court, Titus. </p>
+<p begin="8673333333t" end="8704333333t" region="bottomCenter" style="s1" xml:id="subtitle113">Please be rest assured that <br/>we will possess the whole court. </p>
+<p begin="8706666666t" end="8746000000t" region="bottomCenter" style="s1" xml:id="subtitle114">There is a group in the Papacy, <br/>who are reluctant about the crusade. </p>
+<p begin="8767333333t" end="8781666666t" region="bottomCenter" style="s1" xml:id="subtitle115">I am not surprised.</p>
+<p begin="8793333333t" end="8823666666t" region="bottomCenter" style="s1" xml:id="subtitle116">We need to make a plan that will mobilize <br/>the whole Europe. </p>
+<p begin="8826333333t" end="8842000000t" region="bottomCenter" style="s1" xml:id="subtitle117">We need to do this.</p>
+<p begin="8850000000t" end="8886000000t" region="bottomCenter" style="s1" xml:id="subtitle118">The Christian world should unite <br/>and act for Jerusalem. </p>
+<p begin="8891666666t" end="8933333333t" region="bottomCenter" style="s1" xml:id="subtitle119">For this, we need to provoke <br/>the Muslims and make them attack us. </p>
+<p begin="8944333333t" end="8966666666t" region="bottomCenter" style="s1" xml:id="subtitle120">I have some very valuable prisoners.</p>
+<p begin="8970333333t" end="8984000000t" region="bottomCenter" style="s1" xml:id="subtitle121">We can start with them.</p>
+<p begin="9047666666t" end="9062000000t" region="bottomCenter" style="s1" xml:id="subtitle122">Calm down, son.</p>
+<p begin="9073666666t" end="9084666666t" region="bottomCenter" style="s1" xml:id="subtitle123">Yigit.</p>
+<p begin="9110333333t" end="9122000000t" region="bottomCenter" style="s1" xml:id="subtitle124">Commoner...</p>
+<p begin="9125666666t" end="9141666666t" region="bottomCenter" style="s1" xml:id="subtitle125">...you can go to hell.</p>
+<p begin="9153000000t" end="9190000000t" region="bottomCenter" style="s1" xml:id="subtitle126">-Take us to our destination quickly. <br/>-So you are very keen to die. </p>
+<p begin="9205666666t" end="9237333333t" region="bottomCenter" style="s1" xml:id="subtitle127">I pity for your beautiful daughter <br/>and your small Shahzade. </p>
+<p begin="9261000000t" end="9275666666t" region="bottomCenter" style="s1" xml:id="subtitle128">Don’t shed a tear for us.</p>
+<p begin="9280333333t" end="9320000000t" region="bottomCenter" style="s1" xml:id="subtitle129">If you had accepted to be allies with us, <br/>you were to become the Seljuk sultan... </p>
+<p begin="9322000000t" end="9357333333t" region="bottomCenter" style="s1" xml:id="subtitle130">...and everything was going to be fine. <br/>-You offered slavery for the Pope. </p>
+<p begin="9360333333t" end="9381333333t" region="bottomCenter" style="s1" xml:id="subtitle131">We offered you peace...</p>
+<p begin="9386666666t" end="9405666666t" region="bottomCenter" style="s1" xml:id="subtitle132">...and a new world order.</p>
+<p begin="9413000000t" end="9432000000t" region="bottomCenter" style="s1" xml:id="subtitle133">We wanted to live side by side.</p>
+<p begin="9433333333t" end="9445333333t" region="bottomCenter" style="s1" xml:id="subtitle134">But...</p>
+<p begin="9461333333t" end="9483333333t" region="bottomCenter" style="s1" xml:id="subtitle135">...the Muslim blood will always be shed.</p>
+<p begin="9487333333t" end="9506333333t" region="bottomCenter" style="s1" xml:id="subtitle136">There is no escape from this.</p>
+<p begin="9510333333t" end="9561666666t" region="bottomCenter" style="s1" xml:id="subtitle137">And we will shed your blood with <br/>the Muslim allies we have. </p>
+<p begin="9577333333t" end="9593000000t" region="bottomCenter" style="s1" xml:id="subtitle138">You will not succeed.</p>
+<p begin="9600000000t" end="9613666666t" region="bottomCenter" style="s1" xml:id="subtitle139">We will see.</p>
+<p begin="9617333333t" end="9634333333t" region="bottomCenter" style="s1" xml:id="subtitle140">In the mean time...</p>
+<p begin="9635666666t" end="9658000000t" region="bottomCenter" style="s1" xml:id="subtitle141">...to all your men I had sent to hell...</p>
+<p begin="9665000000t" end="9683666666t" region="bottomCenter" style="s1" xml:id="subtitle142">...give them my regards.</p>
+<p begin="9686333333t" end="9706333333t" region="bottomCenter" style="s1" xml:id="subtitle143">-The area is safe, sir. <br/>-Good. </p>
+<p begin="9713333333t" end="9725333333t" region="bottomCenter" style="s1" xml:id="subtitle144">Water the horses.</p>
+<p begin="9737666666t" end="9751000000t" region="bottomCenter" style="s1" xml:id="subtitle145">These too.</p>
+<p begin="9838000000t" end="9864000000t" region="bottomCenter" style="s1" xml:id="subtitle146">-Come on! <br/>-Yeah! </p>
+<p begin="9867666666t" end="9881333333t" region="bottomCenter" style="s1" xml:id="subtitle147">Come on!</p>
+<p begin="9991666666t" end="10014333333t" region="bottomCenter" style="s1" xml:id="subtitle148">You two, go and sit somewhere else.</p>
+<p begin="10218000000t" end="10237000000t" region="bottomCenter" style="s1" xml:id="subtitle149">I brought you water. Take it.</p>
+<p begin="10247666666t" end="10260666666t" region="bottomCenter" style="s1" xml:id="subtitle150">Take it.</p>
+<p begin="10367666666t" end="10378000000t" region="bottomCenter" style="s1" xml:id="subtitle151">Come on.</p>
+<p begin="10597000000t" end="10611666666t" region="bottomCenter" style="s1" xml:id="subtitle152">They are not aware.</p>
+<p begin="10613666666t" end="10627666666t" region="bottomCenter" style="s1" xml:id="subtitle153">Key! Take the key.</p>
+<p begin="10805333333t" end="10817666666t" region="bottomCenter" style="s1" xml:id="subtitle154">Come on, my girl.</p>
+<p begin="10977333333t" end="10992000000t" region="bottomCenter" style="s1" xml:id="subtitle155">We are in luck.</p>
+<p begin="11252333333t" end="11270000000t" region="bottomCenter" style="s1" xml:id="subtitle156">The prisoners are running away!</p>
+<p begin="11271333333t" end="11291666666t" region="bottomCenter" style="s1" xml:id="subtitle157">-Quick, run! <br/>-Get them! </p>
+<p begin="11894333333t" end="11912666666t" region="bottomCenter" style="s1" xml:id="subtitle158">-Father! <br/>-Father! </p>
+<p begin="11916666666t" end="11937333333t" region="bottomCenter" style="s1" xml:id="subtitle159">-Are you alright? <br/>-Father! </p>
+<p begin="11951333333t" end="11973333333t" region="bottomCenter" style="s1" xml:id="subtitle160">Quick, take your brother <br/>and get out of here. </p>
+<p begin="11974666666t" end="11986333333t" region="bottomCenter" style="s1" xml:id="subtitle161">No!</p>
+<p begin="12252333333t" end="12272000000t" region="bottomCenter" style="s1" xml:id="subtitle162">-Father! <br/>-Father! </p>
+<p begin="12275666666t" end="12315666666t" region="bottomCenter" style="s1" xml:id="subtitle163">-Quick! Run away! <br/>-No, we cannot leave you in this state. </p>
+<p begin="12325666666t" end="12353000000t" region="bottomCenter" style="s1" xml:id="subtitle164">Take your brother and <br/>get the hell out of here! </p>
+<p begin="12543000000t" end="12564000000t" region="bottomCenter" style="s1" xml:id="subtitle165">Come on, father! Get up! Come on!</p>
+<p begin="12642333333t" end="12666000000t" region="bottomCenter" style="s1" xml:id="subtitle166">So you tried to run away! <br/>You will pay for this. </p>
+<p begin="12763666666t" end="12773666666t" region="bottomCenter" style="s1" xml:id="subtitle167">Father!</p>
+<p begin="12798000000t" end="12811000000t" region="bottomCenter" style="s1" xml:id="subtitle168">Father!</p>
+<p begin="12814666666t" end="12845333333t" region="bottomCenter" style="s1" xml:id="subtitle169">Have some decency! Dear God! <br/>Have some decency! </p>
+<p begin="13008000000t" end="13022000000t" region="bottomCenter" style="s1" xml:id="subtitle170">Great God!</p>
+<p begin="13353333333t" end="13367666666t" region="bottomCenter" style="s1" xml:id="subtitle171">-Father! <br/>-Father! </p>
+<p begin="13864666666t" end="13884333333t" region="bottomCenter" style="s1" xml:id="subtitle172">Father, stay with us, please!</p>
+<p begin="15655000000t" end="15674666666t" region="bottomCenter" style="s1" xml:id="subtitle173">Your first victim was a crusader.</p>
+<p begin="15681333333t" end="15708000000t" region="bottomCenter" style="s1" xml:id="subtitle174">-Stay with us. <br/>-Be strong, father. </p>
+<p begin="15756666666t" end="15781666666t" region="bottomCenter" style="s1" xml:id="subtitle175">-Quick, bring some oak leaves. <br/>-Okay. </p>
+<p begin="15853333333t" end="15893000000t" region="bottomCenter" style="s1" xml:id="subtitle176">If we are successful, all the borders <br/>in the region will change. </p>
+<p begin="15906666666t" end="15957333333t" region="bottomCenter" style="s1" xml:id="subtitle177">We should not refrain from using <br/>our order’s wealth to save Jerusalem. </p>
+<p begin="15965666666t" end="15993666666t" region="bottomCenter" style="s1" xml:id="subtitle178">We are ready to spend the whole treasury.</p>
+<p begin="16007666666t" end="16061666666t" region="bottomCenter" style="s1" xml:id="subtitle179">For young men, a new Jerusalem campaign <br/>would be the shortest road to riches. </p>
+<p begin="16073000000t" end="16121333333t" region="bottomCenter" style="s1" xml:id="subtitle180">They will be enlisting by the thousands <br/>to be a member of the crusade army. </p>
+<p begin="16141666666t" end="16181000000t" region="bottomCenter" style="s1" xml:id="subtitle181">The Catalans, the Venetians, <br/>the Marseilleans... </p>
+<p begin="16190666666t" end="16221666666t" region="bottomCenter" style="s1" xml:id="subtitle182">...they will be pining for this carnival.</p>
+<p begin="16246000000t" end="16261000000t" region="bottomCenter" style="s1" xml:id="subtitle183">Well...</p>
+<p begin="16265000000t" end="16312666666t" region="bottomCenter" style="s1" xml:id="subtitle184">...what about the spoilt princes of <br/>Europe, how will we trust them? </p>
+<p begin="16331333333t" end="16360666666t" region="bottomCenter" style="s1" xml:id="subtitle185">When the Muslims start to fight <br/>with each other... </p>
+<p begin="16362666666t" end="16386333333t" region="bottomCenter" style="s1" xml:id="subtitle186">...our job will not be difficult, Titus.</p>
+<p begin="16388000000t" end="16406000000t" region="bottomCenter" style="s1" xml:id="subtitle187">What about the Seljuks, sir?</p>
+<p begin="16421666666t" end="16436000000t" region="bottomCenter" style="s1" xml:id="subtitle188">Anatolia.</p>
+<p begin="16441666666t" end="16477000000t" region="bottomCenter" style="s1" xml:id="subtitle189">They are on the peak of their power <br/>with Sultan Aladdin. </p>
+<p begin="16492666666t" end="16542000000t" region="bottomCenter" style="s1" xml:id="subtitle190">When we make the Turks and the grandsons <br/>of Saladin Ayyubi fall out on... </p>
+<p begin="16543333333t" end="16574000000t" region="bottomCenter" style="s1" xml:id="subtitle191">...each other we will reach our goal.</p>
+<p begin="16636666666t" end="16654666666t" region="bottomCenter" style="s1" xml:id="subtitle192">Jerusalem will be ours.</p>
+<p begin="16867333333t" end="16887000000t" region="bottomCenter" style="s1" xml:id="subtitle193">Father, please be strong.</p>
+<p begin="17113333333t" end="17130000000t" region="bottomCenter" style="s1" xml:id="subtitle194">We have to go immediately.</p>
+<p begin="17151000000t" end="17162666666t" region="bottomCenter" style="s1" xml:id="subtitle195">You can go.</p>
+<p begin="17170333333t" end="17187666666t" region="bottomCenter" style="s1" xml:id="subtitle196">We can look after ourselves.</p>
+<p begin="17192000000t" end="17207000000t" region="bottomCenter" style="s1" xml:id="subtitle197">It will get dark soon.</p>
+<p begin="17215000000t" end="17242333333t" region="bottomCenter" style="s1" xml:id="subtitle198">The jackals would have <br/>already smelled the blood. </p>
+<p begin="17246666666t" end="17278000000t" region="bottomCenter" style="s1" xml:id="subtitle199">-We should go. <br/>-Dogan, bring the horses. </p>
+<p begin="17351666666t" end="17381666666t" region="bottomCenter" style="s1" xml:id="subtitle200">It is easy to fend off a crusader brigade. <br/>What about this? </p>
+<p begin="17383000000t" end="17396000000t" region="bottomCenter" style="s1" xml:id="subtitle201">Ertugrul is lost now.</p>
+<p begin="17397333333t" end="17435666666t" region="bottomCenter" style="s1" xml:id="subtitle202">-God always helps those who get lost. <br/>-He is lost real bad now. </p>
+<p begin="17437333333t" end="17450666666t" region="bottomCenter" style="s1" xml:id="subtitle203">Come on.</p>
+<p begin="17477000000t" end="17508000000t" region="bottomCenter" style="s1" xml:id="subtitle204">-What can you do alone as a woman? <br/>-I said we won’t go. </p>
+<p begin="17545666666t" end="17577666666t" region="bottomCenter" style="s1" xml:id="subtitle205">We owe you a life. <br/>We will pay our debt one day. </p>
+<p begin="17584666666t" end="17600333333t" region="bottomCenter" style="s1" xml:id="subtitle206">Tell us your name.</p>
+<p begin="17602333333t" end="17620000000t" region="bottomCenter" style="s1" xml:id="subtitle207">Ertugrul from Kayi tribe.</p>
+<p begin="17636666666t" end="17651666666t" region="bottomCenter" style="s1" xml:id="subtitle208">As you wish.</p>
+<p begin="17656666666t" end="17683000000t" region="bottomCenter" style="s1" xml:id="subtitle209">May God be with you. I wish you good luck.</p>
+<p begin="17707000000t" end="17722666666t" region="bottomCenter" style="s1" xml:id="subtitle210">We should go with them.</p>
+<p begin="17734000000t" end="17745333333t" region="bottomCenter" style="s1" xml:id="subtitle211">Is your tribe far?</p>
+<p begin="18166333333t" end="18195666666t" region="bottomCenter" style="s1" xml:id="subtitle212">Even our money for bad days is finished, <br/>Brother Afsin. </p>
+<p begin="18197333333t" end="18241333333t" region="bottomCenter" style="s1" xml:id="subtitle213">We can set shop here. If we see that <br/>they are not interested, we can go on. </p>
+<p begin="18253000000t" end="18287000000t" region="bottomCenter" style="s1" xml:id="subtitle214">-Peace be upon you. <br/>-And peace be upon you. Welcome. </p>
+<p begin="18501333333t" end="18517000000t" region="bottomCenter" style="s1" xml:id="subtitle215">Welcome, Gazanfar Aga.</p>
+<p begin="18521666666t" end="18540666666t" region="bottomCenter" style="s1" xml:id="subtitle216">You bring joy to Kayi tribe.</p>
+<p begin="18545333333t" end="18583000000t" region="bottomCenter" style="s1" xml:id="subtitle217">Kurdoglu, my brother. You always <br/>look very healthy, thanks to God. </p>
+<p begin="18585333333t" end="18622333333t" region="bottomCenter" style="s1" xml:id="subtitle218">Would these moorlands keep a man healthy, <br/>for us to be healthy, Gazanfer? </p>
+<p begin="18624000000t" end="18647333333t" region="bottomCenter" style="s1" xml:id="subtitle219">No, don’t say that. You look very well.</p>
+<p begin="18660000000t" end="18673333333t" region="bottomCenter" style="s1" xml:id="subtitle220">Where is your caravan?</p>
+<p begin="18675666666t" end="18696666666t" region="bottomCenter" style="s1" xml:id="subtitle221">The caravan is near the black rock.</p>
+<p begin="18700000000t" end="18741333333t" region="bottomCenter" style="s1" xml:id="subtitle222">I came to get permission from Suleyman <br/>Shah to set up a stall in the market. </p>
+<p begin="18746000000t" end="18757333333t" region="bottomCenter" style="s1" xml:id="subtitle223">How is business?</p>
+<p begin="18761000000t" end="18776333333t" region="bottomCenter" style="s1" xml:id="subtitle224">We thank God on what he gives.</p>
+<p begin="18778000000t" end="18815333333t" region="bottomCenter" style="s1" xml:id="subtitle225">I wanted to come to Kayi to supply <br/>whatever they need before the journey. </p>
+<p begin="18816666666t" end="18851000000t" region="bottomCenter" style="s1" xml:id="subtitle226">Thank you, Gazanfer. I hope you meet <br/>your expectations, if God permits. </p>
+<p begin="18852333333t" end="18863000000t" region="bottomCenter" style="s1" xml:id="subtitle227">Thank you.</p>
+<p begin="18867333333t" end="18895666666t" region="bottomCenter" style="s1" xml:id="subtitle228">If Suleyman Shah is available, <br/>I would like to meet him. </p>
+<p begin="18910333333t" end="18933000000t" region="bottomCenter" style="s1" xml:id="subtitle229">Tell our Bey that Gazanfer Aga is here.</p>
+<p begin="19137666666t" end="19167666666t" region="bottomCenter" style="s1" xml:id="subtitle230">-How much is this? <br/>-He is a mute, sir. Let me help you. </p>
+<p begin="19184666666t" end="19196000000t" region="bottomCenter" style="s1" xml:id="subtitle231">80 coins.</p>
+<p begin="19227333333t" end="19244666666t" region="bottomCenter" style="s1" xml:id="subtitle232">You look familiar to me.</p>
+<p begin="19247000000t" end="19271000000t" region="bottomCenter" style="s1" xml:id="subtitle233">This is my first time in your tribe, sir.</p>
+<p begin="19273000000t" end="19294000000t" region="bottomCenter" style="s1" xml:id="subtitle234">You probably took me for someone else.</p>
+<p begin="19468000000t" end="19490000000t" region="bottomCenter" style="s1" xml:id="subtitle235">Peace be upon you, Suleyman Shah.</p>
+<p begin="19507000000t" end="19536333333t" region="bottomCenter" style="s1" xml:id="subtitle236">And peace be upon you, trader. Welcome.</p>
+<p begin="19544666666t" end="19565333333t" region="bottomCenter" style="s1" xml:id="subtitle237">You bring joy to us. Come and sit.</p>
+<p begin="19610666666t" end="19660333333t" region="bottomCenter" style="s1" xml:id="subtitle238">Suleyman Bey, my eyes are so happy that <br/>they had the chance to see you again. </p>
+<p begin="19666000000t" end="19711333333t" region="bottomCenter" style="s1" xml:id="subtitle239">Please accept my presents. I brought them <br/>from Constantinople for you. </p>
+<p begin="19734666666t" end="19751333333t" region="bottomCenter" style="s1" xml:id="subtitle240">You did not have to bother.</p>
+<p begin="19773666666t" end="19815666666t" region="bottomCenter" style="s1" xml:id="subtitle241">-Kurdoglu, give these to those in need. <br/>-As you wish, Bey. </p>
+<p begin="19824333333t" end="19835666666t" region="bottomCenter" style="s1" xml:id="subtitle242">Well?</p>
+<p begin="19845000000t" end="19877333333t" region="bottomCenter" style="s1" xml:id="subtitle243">Tell us now. What did those eyes see in <br/>other parts of the world? </p>
+<p begin="19881000000t" end="19901000000t" region="bottomCenter" style="s1" xml:id="subtitle244">I wish I was deaf and not hear it.</p>
+<p begin="19902666666t" end="19927000000t" region="bottomCenter" style="s1" xml:id="subtitle245">I wish I was blind and not see it, Bey.</p>
+<p begin="19931000000t" end="19943333333t" region="bottomCenter" style="s1" xml:id="subtitle246">What happened?</p>
+<p begin="19966000000t" end="19994333333t" region="bottomCenter" style="s1" xml:id="subtitle247">Sultan Aladdin controlled Konya but...</p>
+<p begin="19996333333t" end="20027000000t" region="bottomCenter" style="s1" xml:id="subtitle248">...he worries that the fugitive Shahzades <br/>may give him trouble. </p>
+<p begin="20030333333t" end="20051333333t" region="bottomCenter" style="s1" xml:id="subtitle249">The Latins ransacked Constantinople.</p>
+<p begin="20053000000t" end="20071666666t" region="bottomCenter" style="s1" xml:id="subtitle250">All Orthodox people left the city.</p>
+<p begin="20073333333t" end="20090666666t" region="bottomCenter" style="s1" xml:id="subtitle251">There is no order, no peace...</p>
+<p begin="20092333333t" end="20121666666t" region="bottomCenter" style="s1" xml:id="subtitle252">...and with the famine now, <br/>everyone is desperate. </p>
+<p begin="20123666666t" end="20161333333t" region="bottomCenter" style="s1" xml:id="subtitle253">We heard that the leftovers from <br/>the crusaders were getting restless. </p>
+<p begin="20167000000t" end="20194666666t" region="bottomCenter" style="s1" xml:id="subtitle254">It is obvious that they are up to <br/>something once again. </p>
+<p begin="20196333333t" end="20210000000t" region="bottomCenter" style="s1" xml:id="subtitle255">Well...</p>
+<p begin="20212000000t" end="20231666666t" region="bottomCenter" style="s1" xml:id="subtitle256">...how are the common people?</p>
+<p begin="20233666666t" end="20266000000t" region="bottomCenter" style="s1" xml:id="subtitle257">They will be on the road again <br/>to find something to eat. </p>
+<p begin="20267333333t" end="20312000000t" region="bottomCenter" style="s1" xml:id="subtitle258">The rumor is that the Pope is calling for <br/>a new crusade to the European princes. </p>
+<p begin="20331333333t" end="20358000000t" region="bottomCenter" style="s1" xml:id="subtitle259">And we Muslims fight against each other.</p>
+<p begin="20361666666t" end="20402000000t" region="bottomCenter" style="s1" xml:id="subtitle260">Sowing discord between us, <br/>fueling the disorder as much as possible. </p>
+<p begin="20415666666t" end="20444666666t" region="bottomCenter" style="s1" xml:id="subtitle261">From Anatolia to Basra, <br/>everywhere is on fire. </p>
+<p begin="20446666666t" end="20465666666t" region="bottomCenter" style="s1" xml:id="subtitle262">This fire will hit us as well, Bey.</p>
+<p begin="20467000000t" end="20490333333t" region="bottomCenter" style="s1" xml:id="subtitle263">Please don’t say fire, it upsets me, Bey.</p>
+<p begin="20491666666t" end="20526000000t" region="bottomCenter" style="s1" xml:id="subtitle264">I came to seek for permission to sell <br/>my goods in your tribe. </p>
+<p begin="20532333333t" end="20556999999t" region="bottomCenter" style="s1" xml:id="subtitle265">-You have our permission. <br/>-Thank you. </p>
+<p begin="20656000000t" end="20700000000t" region="bottomCenter" style="s1" xml:id="subtitle266">Karatoygar has come to the region <br/>to control the Turkmen tribes. </p>
+<p begin="20704000000t" end="20725000000t" region="bottomCenter" style="s1" xml:id="subtitle267">So difficult times await us.</p>
+<p begin="20795666666t" end="20831666666t" region="bottomCenter" style="s1" xml:id="subtitle268">And this girl is from Venetia. <br/>Rosalina, she has noble blood. </p>
+<p begin="20833666666t" end="20870333333t" region="bottomCenter" style="s1" xml:id="subtitle269">A white skin, green eyes. <br/>A rare find, commander. </p>
+<p begin="20873666666t" end="20905666666t" region="bottomCenter" style="s1" xml:id="subtitle270">And she is very cheap as well. <br/>I am in urgent need of money. </p>
+<p begin="20907333333t" end="20935666666t" region="bottomCenter" style="s1" xml:id="subtitle271">This is a very good opportunity <br/>for you and me. </p>
+<p begin="20982666666t" end="21001666666t" region="bottomCenter" style="s1" xml:id="subtitle272">What do you say to this, commander?</p>
+<p begin="21003333333t" end="21024333333t" region="bottomCenter" style="s1" xml:id="subtitle273">They kidnapped her from <br/>the Greek Islands. </p>
+<p begin="21025666666t" end="21043333333t" region="bottomCenter" style="s1" xml:id="subtitle274">She screams beauty and freshness.</p>
+<p begin="21045000000t" end="21060000000t" region="bottomCenter" style="s1" xml:id="subtitle275">She is a wild one.</p>
+<p begin="21063666666t" end="21100000000t" region="bottomCenter" style="s1" xml:id="subtitle276">I personally trained her. <br/>For a master with good taste. </p>
+<p begin="21102333333t" end="21120333333t" region="bottomCenter" style="s1" xml:id="subtitle277">What about that blond one?</p>
+<p begin="21141333333t" end="21163000000t" region="bottomCenter" style="s1" xml:id="subtitle278">I must say that you have good taste.</p>
+<p begin="21165666666t" end="21203333333t" region="bottomCenter" style="s1" xml:id="subtitle279">I bought her from the crusader discards. <br/>They brought her in with a ship. </p>
+<p begin="21205000000t" end="21230000000t" region="bottomCenter" style="s1" xml:id="subtitle280">She is Serbian, <br/>she knows how to treat a man. </p>
+<p begin="21231333333t" end="21241666666t" region="bottomCenter" style="s1" xml:id="subtitle281">Enough.</p>
+<p begin="21248000000t" end="21261000000t" region="bottomCenter" style="s1" xml:id="subtitle282">Come here.</p>
+<p begin="21423666666t" end="21446000000t" region="bottomCenter" style="s1" xml:id="subtitle283">You don’t need to be afraid of me.</p>
+<p begin="21484666666t" end="21502000000t" region="bottomCenter" style="s1" xml:id="subtitle284">I am your master now.</p>
+<p begin="21533666666t" end="21566666666t" region="bottomCenter" style="s1" xml:id="subtitle285">You chose the most expensive one, <br/>commander. But she is worth it. </p>
+<p begin="21654666666t" end="21672666666t" region="bottomCenter" style="s1" xml:id="subtitle286">-Sir? <br/>-What happened? </p>
+<p begin="21677666666t" end="21707000000t" region="bottomCenter" style="s1" xml:id="subtitle287">The crusaders. They were ambushed.</p>
+<p begin="21726333333t" end="21750333333t" region="bottomCenter" style="s1" xml:id="subtitle288">Didn’t you save them?</p>
+<p begin="21762000000t" end="21775666666t" region="bottomCenter" style="s1" xml:id="subtitle289">We were too late.</p>
+<p begin="21777000000t" end="21796000000t" region="bottomCenter" style="s1" xml:id="subtitle290">So you were late.</p>
+<p begin="22275333333t" end="22290666666t" region="bottomCenter" style="s1" xml:id="subtitle291">-Welcome. <br/>-Welcome. </p>
+<p begin="22371000000t" end="22391333333t" region="bottomCenter" style="s1" xml:id="subtitle292">-Come on, help them. <br/>-Help them. </p>
+<p begin="22392666666t" end="22411666666t" region="bottomCenter" style="s1" xml:id="subtitle293">Akcakoca, we have a wounded man.</p>
+<p begin="22417666666t" end="22441000000t" region="bottomCenter" style="s1" xml:id="subtitle294">-Come on. <br/>-Bamsi, take him in. </p>
+<p begin="22557000000t" end="22583000000t" region="bottomCenter" style="s1" xml:id="subtitle295">-What happened? <br/>-Nothing to worry about. </p>
+<p begin="22585000000t" end="22615666666t" region="bottomCenter" style="s1" xml:id="subtitle296">-You are alright, yes? <br/>-We all are, thank God. </p>
+<p begin="22765666666t" end="22778000000t" region="bottomCenter" style="s1" xml:id="subtitle297">Ertugrul...</p>
+<p begin="22783666666t" end="22798000000t" region="bottomCenter" style="s1" xml:id="subtitle298">...what happened, my brother?</p>
+<p begin="22816666666t" end="22844000000t" region="bottomCenter" style="s1" xml:id="subtitle299">They were attacked, brother. <br/>I will tell you later. </p>
+<p begin="22971666666t" end="22994666666t" region="bottomCenter" style="s1" xml:id="subtitle300">-Look after them, Ramazan. <br/>-As you wish, Bey. </p>
+<p begin="23047666666t" end="23063666666t" region="bottomCenter" style="s1" xml:id="subtitle301">Who are they, Gundogdu?</p>
+<p begin="23065333333t" end="23102666666t" region="bottomCenter" style="s1" xml:id="subtitle302">I don’t know. He will tell us later. <br/>We will find out soon. </p>
+<p begin="23191666666t" end="23215000000t" region="bottomCenter" style="s1" xml:id="subtitle303">Sister, what is happening? Who are they?</p>
+<p begin="23224000000t" end="23251000000t" region="bottomCenter" style="s1" xml:id="subtitle304">We will find out soon. We will see.</p>
+<p begin="23297333333t" end="23335666666t" region="bottomCenter" style="s1" xml:id="subtitle305">The sword hit him right below the rib. <br/>Fortunately the oak leaves stopped... </p>
+<p begin="23337333333t" end="23366333333t" region="bottomCenter" style="s1" xml:id="subtitle306">...the bleeding, <br/>otherwise we would have lost him. </p>
+<p begin="23382666666t" end="23411000000t" region="bottomCenter" style="s1" xml:id="subtitle307">-Midwife, bring hot water. <br/>-At once, Akcakoca. </p>
+<p begin="23445666666t" end="23483333333t" region="bottomCenter" style="s1" xml:id="subtitle308">The leg is bad as well. <br/>But we should fix this wound first. </p>
+<p begin="23494333333t" end="23526666666t" region="bottomCenter" style="s1" xml:id="subtitle309">Akcakoca can take it from here. <br/>Let us wait at the side. </p>
+<p begin="23536333333t" end="23565333333t" region="bottomCenter" style="s1" xml:id="subtitle310">-We cannot leave our father alone, sister. <br/>-Don’t worry. </p>
+<p begin="23571333333t" end="23586000000t" region="bottomCenter" style="s1" xml:id="subtitle311">Your father is in good hands.</p>
+<p begin="23785666666t" end="23814666666t" region="bottomCenter" style="s1" xml:id="subtitle312">Thank you very much. You are God sent.</p>
+<p begin="23826000000t" end="23850666666t" region="bottomCenter" style="s1" xml:id="subtitle313">-We brought trouble to you. <br/>-Don’t say that. </p>
+<p begin="23861333333t" end="23892666666t" region="bottomCenter" style="s1" xml:id="subtitle314">You had more breaths to take, <br/>more bites to eat. </p>
+<p begin="23933333333t" end="23953666666t" region="bottomCenter" style="s1" xml:id="subtitle315">Where were the crusaders taking you?</p>
+<p begin="24005333333t" end="24027666666t" region="bottomCenter" style="s1" xml:id="subtitle316">I don’t know. They didn’t say.</p>
+<p begin="24061333333t" end="24101333333t" region="bottomCenter" style="s1" xml:id="subtitle317">I guess they were going to sell us in <br/>the slave market. My father is a trader. </p>
+<p begin="24103000000t" end="24123666666t" region="bottomCenter" style="s1" xml:id="subtitle318">We were captured in the Mediterranean.</p>
+<p begin="24211333333t" end="24247000000t" region="bottomCenter" style="s1" xml:id="subtitle319">Your father must be a good trader. <br/>Having so many crusaders taking you. </p>
+<p begin="24256666666t" end="24267666666t" region="bottomCenter" style="s1" xml:id="subtitle320">Yes.</p>
+<p begin="24282333333t" end="24295000000t" region="bottomCenter" style="s1" xml:id="subtitle321">We were rich.</p>
+<p begin="24300000000t" end="24320666666t" region="bottomCenter" style="s1" xml:id="subtitle322">But we don’t have anything left now.</p>
+<p begin="24351000000t" end="24363333333t" region="bottomCenter" style="s1" xml:id="subtitle323">Well...</p>
+<p begin="24367666666t" end="24383333333t" region="bottomCenter" style="s1" xml:id="subtitle324">...which tribe is this?</p>
+<p begin="24400333333t" end="24415000000t" region="bottomCenter" style="s1" xml:id="subtitle325">You are in Kayi tribe.</p>
+<p begin="24417333333t" end="24443666666t" region="bottomCenter" style="s1" xml:id="subtitle326">I am the son of <br/>the tribe Bey, Suleyman Shah. </p>
+<p begin="24446333333t" end="24463666666t" region="bottomCenter" style="s1" xml:id="subtitle327">We owe you three lives.</p>
+<p begin="24547666666t" end="24582000000t" region="bottomCenter" style="s1" xml:id="subtitle328">-Do you want to be freed from slavery? <br/>-Yes. </p>
+<p begin="24601666666t" end="24623333333t" region="bottomCenter" style="s1" xml:id="subtitle329">-Then, kill this man. <br/>-No! </p>
+<p begin="24630666666t" end="24651000000t" region="bottomCenter" style="s1" xml:id="subtitle330">I will buy and then free you.</p>
+<p begin="24652333333t" end="24674333333t" region="bottomCenter" style="s1" xml:id="subtitle331">Commander, you are furious. <br/>First calm down... </p>
+<p begin="24675666666t" end="24687000000t" region="bottomCenter" style="s1" xml:id="subtitle332">Shut your mouth.</p>
+<p begin="24691333333t" end="24710000000t" region="bottomCenter" style="s1" xml:id="subtitle333">Don’t let me kill you as well.</p>
+<p begin="24716333333t" end="24740000000t" region="bottomCenter" style="s1" xml:id="subtitle334">Sir, please spare me for my children.</p>
+<p begin="24741333333t" end="24757000000t" region="bottomCenter" style="s1" xml:id="subtitle335">You are good for nothing.</p>
+<p begin="24777666666t" end="24790666666t" region="bottomCenter" style="s1" xml:id="subtitle336">Do it!</p>
+<p begin="24794000000t" end="24817000000t" region="bottomCenter" style="s1" xml:id="subtitle337">-I can’t. <br/>-I said do it! </p>
+<p begin="25337333333t" end="25353666666t" region="bottomCenter" style="s1" xml:id="subtitle338">I’m freeing you!</p>
+<p begin="25440333333t" end="25481333333t" region="bottomCenter" style="s1" xml:id="subtitle339">A slave that can kill someone <br/>to be free... </p>
+<p begin="25494000000t" end="25526000000t" region="bottomCenter" style="s1" xml:id="subtitle340">...can kill her master one day as well.</p>
+<p begin="25554666666t" end="25571666666t" region="bottomCenter" style="s1" xml:id="subtitle341">Get ready, we are going!</p>
+<p begin="26223666666t" end="26233666666t" region="bottomCenter" style="s1" xml:id="subtitle342">Translation: Suzan Mıhladız</p>
+</div>
+</body>
+</tt>
