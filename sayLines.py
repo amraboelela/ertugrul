@@ -25,16 +25,15 @@ paragraph = ""
 for line in lines:
     if "-->" in line:
         if len(paragraph) > 0:
-            print str(count) + ".saying: " + paragraph
-            if count>3:
-                targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".m4a"
-                #if not path.exists(targetFile):
-                if language == "en":
-                    subprocess.call(["say", "-v", voice, "-o", targetFile, paragraph])
-                else:
-                    subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, paragraph])
-            paragraph = ""
             count = count + 1
+            print str(count) + ".saying: " + paragraph
+            #if count>3:
+            targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".m4a"
+            if language == "en":
+                subprocess.call(["say", "-v", voice, "-o", targetFile, paragraph])
+            else:
+                subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, paragraph])
+            paragraph = ""
     else:
         paragraph = paragraph + line.replace('-','') + ", "
 file.close()

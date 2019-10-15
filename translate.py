@@ -15,8 +15,6 @@ from translation_key import *
 #print "filename: " + filename
 file = open(filename)
 sourceLanguage = filename[len(filename)-6:len(filename)-4]
-#print "sourceLanguage: " + sourceLanguage
-#print "file: " + str(file)
 lines = file.read().splitlines()
 #print "lines: " + str(lines)
 #count = 0
@@ -29,7 +27,7 @@ for line in lines:
             PARAMS = {'key':key, 'q':paragraph, 'source':sourceLanguage, 'target':targetLanguage}
             r = requests.get(url = URL, params = PARAMS)
             data = r.json()
-            translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("!","")
+            translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'")
             try:
                 print(translatedText.encode('utf8'))
                 print
@@ -39,7 +37,7 @@ for line in lines:
         print line
         paragraph = ""
     else:
-        paragraph = paragraph + line.replace('-','') + ", "
+        paragraph = paragraph + line.replace('-','').replace("!","") + ", "
 
 
 PARAMS = {'key':key, 'q':paragraph, 'source':sourceLanguage, 'target':targetLanguage}
