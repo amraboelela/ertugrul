@@ -14,6 +14,8 @@ from translation_key import *
 
 #print "filename: " + filename
 file = open(filename)
+sourceLanguage = filename[len(filename)-6:len(filename)-4]
+#print "sourceLanguage: " + sourceLanguage
 #print "file: " + str(file)
 lines = file.read().splitlines()
 #print "lines: " + str(lines)
@@ -24,16 +26,10 @@ for line in lines:
     #print "line: " + line
     if "-->" in line:
         if len(paragraph) > 0:
-            #if count>4:
-            #print str(count) + ".translating: " + paragraph
-            #targetFilePath = "data/" + prefix + "-" + format(count, '03d') + "-" + language
-            #print("targetLanguage: " + targetLanguage)
-            PARAMS = {'key':key, 'q':paragraph, 'source':'en', 'target':targetLanguage}
+            PARAMS = {'key':key, 'q':paragraph, 'source':sourceLanguage, 'target':targetLanguage}
             r = requests.get(url = URL, params = PARAMS)
             data = r.json()
-            #print "data: " + str(data)
-            #exit(0)
-            translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'")
+            translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("!","")
             try:
                 print(translatedText.encode('utf8'))
                 print
@@ -46,7 +42,7 @@ for line in lines:
         paragraph = paragraph + line.replace('-','') + ", "
 
 
-PARAMS = {'key':key, 'q':paragraph, 'source':'en', 'target':targetLanguage}
+PARAMS = {'key':key, 'q':paragraph, 'source':sourceLanguage, 'target':targetLanguage}
 r = requests.get(url = URL, params = PARAMS)
 data = r.json()
 translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'")
