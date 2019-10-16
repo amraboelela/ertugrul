@@ -18,20 +18,22 @@ prevStartTime = "00:00"
 for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
-        startTime = times[0][:len(times[0])-4]
+        startTime = times[0]
+        #[:len(times[0])-4]
         #print "startTime: " + startTime
         subTimes = startTime.split(":")
         #hours = int(subTimes[0])
         minutes = int(subTimes[0])
-        seconds = int(subTimes[1])
+        secondsArray = subTimes[1].split(".")
+        seconds = int(secondsArray[0])
         totalSeconds = minutes * 60 + seconds
         shiftedSeconds = 0
         if targetLanguage == "ar":
             subPrefix = prefix[:11]
-            print "subPrefix: " + subPrefix
+            #print "subPrefix: " + subPrefix
             if subPrefix == "ertugrul-1-":
                 episode = prefix[11:13]
-                print "episode: " + episode
+                #print "episode: " + episode
                 if episode == "01" or episode == "02" or episode == "04" or episode == "06":
                     shiftedSeconds = 60 + 43
                 elif episode == "03" or episode == "05":
@@ -49,7 +51,8 @@ for line in lines:
         #hours = totalSeconds / 60 / 60
         minutes = totalSeconds / 60 
         seconds = totalSeconds - minutes * 60
-        startTime = str(minutes) + ":" + str(seconds)
+        startTime = str(minutes) + ":" + str(seconds) + "." + secondsArray[1]
+        print "startTime: " + startTime
         if count > 0:
             targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + "o" + targetLanguage
             if not path.exists(targetFile + ".m4a"):

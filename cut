@@ -1,0 +1,2 @@
+ffmpeg -y -i data/ertugrul-1-02-otr.m4a -acodec copy -ss 2:30 -to 2:31 data/ertugrul-1-02-002-3tr.m4a
+

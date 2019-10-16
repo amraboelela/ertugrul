@@ -32,7 +32,7 @@ for line in lines:
                 subprocess.call(["say", "-v", voice, "-o", targetFile, paragraph])
             else:
                 subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, paragraph])
-            paragraph = ""
+        paragraph = ""
         count = count + 1
     else:
         paragraph = paragraph + line.replace('-','') + ", "

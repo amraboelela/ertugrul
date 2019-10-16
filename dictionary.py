@@ -36,14 +36,23 @@ for line in lines:
         line = line.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","")
         words = line.split()
         for word in words:
-            if not dictionary.has_key(word.decode('utf8')):
+            if dictionary.has_key(word.decode('utf8')):
+                dicValue = dictionary[word.decode('utf8')]
+                if type(dicValue) is str:
+                    dictionary[word.decode('utf8')] = {'en': dicValue, 'update': false}
+                else if dicValue['update']:
+                    targetFile = "data/words/" + word + ".m4a"
+                    subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, word])
+                    targetFile = "data/words/" + word + "-en.m4a"
+                    subprocess.call(["say", "-v", "Alex", "-o", targetFile, dicValue['en']])
+            else:
                 try:
                     count = count + 1
                     PARAMS = {'key':key, 'q':word, 'source':language, 'target':'en'}
                     r = requests.get(url = URL, params = PARAMS)
                     data = r.json()
                     translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").lower()
-                    dictionary[word.decode('utf8')] = translatedWord
+                    dictionary[word.decode('utf8')] = {'en': translatedWord, 'update': false}
                     print(str(count) + ". " + word + ": " + translatedWord.encode('utf8'))
                     if word != translatedWord.encode('utf8'):
                         targetFile = "data/words/" + word + ".m4a"
