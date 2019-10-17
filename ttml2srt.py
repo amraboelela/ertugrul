@@ -190,9 +190,19 @@ def ttml2srt(ttml, out=sys.stdout):
                                       timestamp.total_seconds()//60%60,
                                       timestamp.total_seconds()%60)).replace('.', ',')
 
+    cleanArray = ["sesi]", "[Sessizlik]", "sesleri]"]
     srt_i = 1
     for i, (timestamp, content) in enumerate(rendered_grouped[:-1]):
         if content == '':
+            continue
+        if "[" in content and "zik" in content:
+            continue
+        skipLine = False
+        for token in cleanArray:
+            if token.decode('utf8') in content:
+                skipLine = True
+                break
+        if skipLine:
             continue
         out.write("%s\n" % srt_i)
         out.write("{0} --> {1}\n".format(format_timestamp(timestamp), format_timestamp(rendered_grouped[i + 1][0])))
