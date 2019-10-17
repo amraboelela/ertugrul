@@ -112,8 +112,8 @@
         "update": false
     }, 
     "ses<i>kervan": {
-        "en": "sound <i>caravan</i>", 
-        "update": false
+        "en": "sound caravan", 
+        "update": true
     }, 
     "deli": {
         "en": "mad", 
@@ -508,8 +508,8 @@
         "update": false
     }, 
     "ses<i>gitmek": {
-        "en": "sound <i>go</i>", 
-        "update": false
+        "en": "sound go", 
+        "update": true
     }, 
     "zorlu": {
         "en": "tough", 
@@ -1168,8 +1168,8 @@
         "update": false
     }, 
     "hakt\u0131r": {
-        "en": "it is right", 
-        "update": false
+        "en": "is right", 
+        "update": true
     }, 
     "f\u0131rsat\u0131": {
         "en": "opportunity", 
@@ -2832,8 +2832,8 @@
         "update": false
     }, 
     "<i>kanad\u0131": {
-        "en": "<i>bled</i>", 
-        "update": false
+        "en": "bled", 
+        "update": true
     }, 
     "hallettik": {
         "en": "we care", 
@@ -3156,8 +3156,8 @@
         "update": false
     }, 
     "vallahi": {
-        "en": "by jove", 
-        "update": false
+        "en": "by Allah", 
+        "update": true
     }, 
     "a\u011fa'n\u0131n": {
         "en": "the network", 
@@ -3756,8 +3756,8 @@
         "update": false
     }, 
     "allah'\u0131n\u0131": {
-        "en": "god the", 
-        "update": false
+        "en": "the god", 
+        "update": true
     }, 
     "kar\u015f\u0131l\u0131\u011f\u0131nda": {
         "en": "in return", 
@@ -3988,8 +3988,8 @@
         "update": false
     }, 
     "<i>senin": {
-        "en": "<i>your</i>", 
-        "update": false
+        "en": "your", 
+        "update": true
     }, 
     "b\u0131\u00e7a\u011f\u0131na": {
         "en": "knife to", 
@@ -4156,8 +4156,8 @@
         "update": false
     }, 
     "erkek<i>ya": {
-        "en": "male <i>or</i>", 
-        "update": false
+        "en": "male or", 
+        "update": true
     }, 
     "boy": {
         "en": "size", 
@@ -4500,8 +4500,8 @@
         "update": false
     }, 
     "<i>mededim": {
-        "en": "<i>i medea</i>", 
-        "update": false
+        "en": "i medea", 
+        "update": true
     }, 
     "\u00e7izgiyi": {
         "en": "line", 
@@ -5364,8 +5364,8 @@
         "update": false
     }, 
     "<i>dervi\u015fim": {
-        "en": "<i>i dervishes</i>", 
-        "update": false
+        "en": "i dervishes", 
+        "update": true
     }, 
     "amin": {
         "en": "amine", 
@@ -5960,8 +5960,8 @@
         "update": false
     }, 
     "<i>sana": {
-        "en": "<i>you</i>", 
-        "update": false
+        "en": "you", 
+        "update": true
     }, 
     "kazand\u0131m": {
         "en": "i won", 
@@ -6600,8 +6600,8 @@
         "update": false
     }, 
     "ali'den": {
-        "en": "aliden", 
-        "update": false
+        "en": "ali'den", 
+        "update": true
     }, 
     "kalmay\u0131n": {
         "en": "to stay", 
@@ -7016,8 +7016,8 @@
         "update": false
     }, 
     "<i>tenini": {
-        "en": "<i>the flesh</i>", 
-        "update": false
+        "en": "the flesh", 
+        "update": true
     }, 
     "ya\u015far": {
         "en": "live", 
@@ -8644,7 +8644,7 @@
         "update": false
     }, 
     "<i>allah'\u0131m</i>": {
-        "en": "<i>allah</i>", 
+        "en": "allah", 
         "update": false
     }, 
     "eceline": {
@@ -10424,7 +10424,7 @@
         "update": false
     }, 
     "a\u011f\u0131zdan<i>allah": {
-        "en": "<i>allah</i>", 
+        "en": "allah", 
         "update": false
     }, 
     "k\u0131rar\u0131z": {
@@ -10448,7 +10448,7 @@
         "update": false
     }, 
     "fesuphanallah": {
-        "en": "fesuphanallah", 
+        "en": "glory to allah", 
         "update": false
     }, 
     "dur": {
@@ -11512,8 +11512,8 @@
         "update": false
     }, 
     "ma\u015fallah\u0131": {
-        "en": "hullo of", 
-        "update": false
+        "en": "I seek protection by Allah", 
+        "update": true
     }, 
     "dilini": {
         "en": "language of", 
@@ -11780,8 +11780,8 @@
         "update": false
     }, 
     "ma\u015fallah\u0131n": {
-        "en": "hullo", 
-        "update": false
+        "en": "i seek protection by allah", 
+        "update": true
     }, 
     "\u00e7\u0131kartmadan": {
         "en": "removing", 
@@ -14348,8 +14348,8 @@
         "update": false
     }, 
     "erkek<i>allah": {
-        "en": "man <i>allah</i>", 
-        "update": false
+        "en": "man of allah", 
+        "update": true
     }, 
     "o\u011ful": {
         "en": "son", 
@@ -15048,7 +15048,7 @@
         "update": false
     }, 
     "ma\u015fallah": {
-        "en": "hullo", 
+        "en": "by Allah", 
         "update": false
     }, 
     "bulup": {
@@ -15612,8 +15612,8 @@
         "update": false
     }, 
     "evelallah": {
-        "en": "evelallah", 
-        "update": false
+        "en": "by Allah", 
+        "update": true
     }, 
     "g\u00fcvenilir": {
         "en": "reliable", 
@@ -15852,8 +15852,8 @@
         "update": false
     }, 
     "kurban": {
-        "en": "victim", 
-        "update": false
+        "en": "sacrifice", 
+        "update": true
     }, 
     "kuma\u015flar\u0131n\u0131": {
         "en": "the fabric", 
