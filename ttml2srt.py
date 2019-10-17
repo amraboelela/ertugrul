@@ -204,6 +204,9 @@ def ttml2srt(ttml, out=sys.stdout):
                 break
         if skipLine:
             continue
+        if "[" in content:
+            sqrBracket = re.compile(r'\[.*?\]')
+            content = sqrBracket.sub('', content)
         out.write("%s\n" % srt_i)
         out.write("{0} --> {1}\n".format(format_timestamp(timestamp), format_timestamp(rendered_grouped[i + 1][0])))
         out.write("%s\n\n" % content.encode('utf8'))
