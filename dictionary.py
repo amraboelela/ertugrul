@@ -40,13 +40,16 @@ for line in lines:
                 dicValue = dictionary[word.decode('utf8')]
                 #print "dicValue: " + str(dicValue)
                 #print "type(dicValue): " + str(type(dicValue))
-                if type(dicValue) is unicode:
-                    dictionary[word.decode('utf8')] = {'en': dicValue, 'update': False}
-                elif dicValue['update']:
+                if type(dicValue) is dict and dicValue['update'] == True:
                     dicValue['update'] = False
                     #dictionary[word.decode('utf8')] = dicValue
                     targetFile = "data/words/" + word + "-en.m4a"
-                    subprocess.call(["say", "-v", "Alex", dicValue['en'], "-o", targetFile])
+                    if word == dicValue['en']:
+                        subprocess.call(["rm", targetFile])
+                    else:
+                        subprocess.call(["say", "-v", "Alex", dicValue['en'], "-o", targetFile])
+                elif type(dicValue) is unicode or type(dicValue) is str:
+                    dictionary[word.decode('utf8')] = {'en': dicValue, 'update': False}
             else:
                 try:
                     count = count + 1
