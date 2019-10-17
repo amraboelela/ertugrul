@@ -19,8 +19,6 @@ for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
         startTime = times[0]
-        #[:len(times[0])-4]
-        #print "startTime: " + startTime
         subTimes = startTime.split(":")
         #hours = int(subTimes[0])
         minutes = int(subTimes[0])
@@ -52,13 +50,13 @@ for line in lines:
         minutes = totalSeconds / 60 
         seconds = totalSeconds - minutes * 60
         startTime = str(minutes) + ":" + str(seconds) + "." + secondsArray[1]
-        print "startTime: " + startTime
+        #print "startTime: " + startTime
         if count > 0:
             targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + "o" + targetLanguage
             if not path.exists(targetFile + ".m4a"):
                 subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFile + "~.m4a"])
                 subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
-                subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + ".m4a"])
+                #subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + ".m4a"])
                 subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
                 subprocess.call(["rm", targetFile + "~.m4a"])
         prevStartTime = startTime

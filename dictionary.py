@@ -38,13 +38,15 @@ for line in lines:
         for word in words:
             if dictionary.has_key(word.decode('utf8')):
                 dicValue = dictionary[word.decode('utf8')]
-                if type(dicValue) is str:
-                    dictionary[word.decode('utf8')] = {'en': dicValue, 'update': false}
-                else if dicValue['update']:
-                    targetFile = "data/words/" + word + ".m4a"
-                    subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, word])
+                #print "dicValue: " + str(dicValue)
+                #print "type(dicValue): " + str(type(dicValue))
+                if type(dicValue) is unicode:
+                    dictionary[word.decode('utf8')] = {'en': dicValue, 'update': False}
+                elif dicValue['update']:
+                    dicValue['update'] = False
+                    #dictionary[word.decode('utf8')] = dicValue
                     targetFile = "data/words/" + word + "-en.m4a"
-                    subprocess.call(["say", "-v", "Alex", "-o", targetFile, dicValue['en']])
+                    subprocess.call(["say", "-v", "Alex", dicValue['en'], "-o", targetFile])
             else:
                 try:
                     count = count + 1
@@ -52,13 +54,13 @@ for line in lines:
                     r = requests.get(url = URL, params = PARAMS)
                     data = r.json()
                     translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").lower()
-                    dictionary[word.decode('utf8')] = {'en': translatedWord, 'update': false}
+                    dictionary[word.decode('utf8')] = {'en': translatedWord, 'update': False}
                     print(str(count) + ". " + word + ": " + translatedWord.encode('utf8'))
                     if word != translatedWord.encode('utf8'):
                         targetFile = "data/words/" + word + ".m4a"
-                        subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, word])
+                        subprocess.call(["say", "-v", voice, "-r", "125", word, "-o", targetFile])
                         targetFile = "data/words/" + word + "-en.m4a"
-                        subprocess.call(["say", "-v", "Alex", "-o", targetFile, translatedWord])
+                        subprocess.call(["say", "-v", "Alex", translatedWord, "-o", targetFile])
                     if count % 100 == 0:
                         json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
                 except Exception as error:
