@@ -32,10 +32,12 @@ file = open(filename)
 lines = file.read().splitlines()
 count  = 0
 for line in lines:
+    #print "line: " + line
     if not "-->" in line and len(line) > 0:
         line = line.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","")
         words = line.split()
         for word in words:
+            #print "word: " + word
             if dictionary.has_key(word.decode('utf8')):
                 dicValue = dictionary[word.decode('utf8')]
                 #print "dicValue: " + str(dicValue)
