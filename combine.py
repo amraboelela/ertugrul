@@ -26,14 +26,14 @@ for file in files:
     fileCount = fileCount + 1
     count = count + 1
     if count % 100 == 0:
-        #if count / 100 > 0:
         targetFile = "data/" + prefix + "-" + format(count / 100, "02d") + ".m4a"
-        #if not path.exists(targetFile):
-        subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", targetFile])
-        subprocess.call(subprocessArray)
-        fileCount = 0
-        concatString = ""
-        subprocessArray = ["ffmpeg", "-y"]
+        if not path.exists(targetFile):
+            subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", targetFile])
+            subprocess.call(subprocessArray)
+            fileCount = 0
+            concatString = ""
+            subprocessArray = ["ffmpeg", "-y"]
+
 if count % 100 > 1:
     n = count / 100 + 1
     targetFile = "data/" + prefix + "-" + format(n, '02d') + ".m4a"

@@ -1,0 +1,11 @@
+
+prefix=$1
+sourceLanguage=$2
+targetLanguage=$3
+
+rm -r data/$prefix
+rm data/$prefix.m4a
+rm data/$prefix-0*.m4a
+rm data/$prefix-1*.m4a
+rm data/$prefix-2*.m4a
+

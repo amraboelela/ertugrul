@@ -1,41 +1,23 @@
 # importing the requests library
-import sys, re
+import sys, os 
 
-TAG_RE = re.compile(r'<[^>]+>')
-
-def remove_tags(text):
-    return TAG_RE.sub('', text)
-
-if len(sys.argv) > 1:
-    filename = sys.argv[1]
+if len(sys.argv) > 6:
+    title = sys.argv[1]
+    s = sys.argv[2]
+    a = int(sys.argv[3])
+    b = int(sys.argv[4])
+    sourceLanguage = sys.argv[5]
+    targetLanguage = sys.argv[6]
 else:
-    print "please provide the file name"
+    print "please enter the title, season number, first episode number, last episode numer, source language, and the target language"
     exit(-1)
 
-cleanArray = ["-->", "color=", "9999", "WEBVTT", "Kind: captions", "Language:"]
-cleanArray2 = ["RESURRECTION ERTUGRUL", "THE STORIES AND CHARACTERS DEPICTED", "HERE WERE INSPIRED BY OUR HISTORY", "NO ANIMALS WERE HARMED DURING", "THE FILMING OF THIS PRODUCTION", "Translation:"]
-
-file = open(filename) 
-lines = file.read().splitlines()
-for line in lines:
-    skipLine = False
-    if len(line) < 4:
-        skipLine = True
-    for token in cleanArray:
-        if token in line:
-            skipLine = True
-            break
-    if "ertugrul-1-01" not in filename:
-        for token in cleanArray2:
-            if token in line:
-                skipLine = True
-                break
-    if not skipLine:
-        if not line.strip():
-            print
-        else:
-            line = remove_tags(line)
-            line = line.replace('-','')
-            print line
-file.close()
+#os.system("./download " + title + " " + targetLanguage)
+#exit(0)
+for n in range(a, b+1):
+    if s == "2":
+        prefix = title + "-" + s + "-" + format(n, '03d')
+    else:
+        prefix = title + "-" + s + "-" + format(n, '02d')
+    os.system("./cleanEpisode " + prefix + " " + sourceLanguage + " " + targetLanguage)
 

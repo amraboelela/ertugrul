@@ -2,34 +2,34 @@
 prefix=$1
 sourceLanguage=$2
 targetLanguage=$3
-if [ ! -f data/$prefix.mp4 ]; then
-    mkdir -p data/$prefix
-    mkdir -p data/words
-    if [ $targetLanguage == "tr"  ]; then
-        if [ ! -f data/$prefix-$targetLanguage.vtt ]; then
-            python ttml2srt.py data/$prefix-$targetLanguage.ttml > data/$prefix-$targetLanguage.srt
-            ffmpeg -y -i data/$prefix-$targetLanguage.srt data/$prefix-$targetLanguage.vtt
-            rm data/$prefix-$targetLanguage.srt
-        fi
-        if [ ! -f data/$prefix-$targetLanguage-$sourceLanguage.vtt ]; then
-            echo "Translating $prefix-$targetLanguage.vtt"
-            python translate.py data/$prefix-$targetLanguage.vtt $sourceLanguage > data/$prefix-$targetLanguage-$sourceLanguage.vtt
-        fi
-    else
-        if [ ! -f data/$prefix-$targetLanguage.vtt ]; then
-            echo "Translating $prefix-$sourceLanguage.vtt"
-            python translate.py data/$prefix-$sourceLanguage.vtt $targetLanguage > data/$prefix-$targetLanguage.vtt
-        fi
+#if [ ! -f data/$prefix.mp4 ]; then
+mkdir -p data/$prefix
+mkdir -p data/words
+if [ $targetLanguage == "tr"  ]; then
+    if [ ! -f data/$prefix-$targetLanguage.vtt ]; then
+        python ttml2srt.py data/$prefix-$targetLanguage.ttml > data/$prefix-$targetLanguage.srt
+        ffmpeg -y -i data/$prefix-$targetLanguage.srt data/$prefix-$targetLanguage.vtt
+        rm data/$prefix-$targetLanguage.srt
     fi
-    #exit 0
-    python dictionary.py $prefix $targetLanguage
-    python sayLines.py $prefix 1 $sourceLanguage
-    #exit 0
-    python sayLines.py $prefix 2 $targetLanguage
-    python cut.py $prefix 3 $targetLanguage
-    python sayWords.py $prefix 4 $targetLanguage
-
-    python combine.py $prefix
-    exit 0
-    ./video $prefix $targetLanguage
+    if [ ! -f data/$prefix-$targetLanguage-$sourceLanguage.vtt ]; then
+        echo "Translating $prefix-$targetLanguage.vtt"
+        python translate.py data/$prefix-$targetLanguage.vtt $sourceLanguage > data/$prefix-$targetLanguage-$sourceLanguage.vtt
+    fi
+else
+    if [ ! -f data/$prefix-$targetLanguage.vtt ]; then
+        echo "Translating $prefix-$sourceLanguage.vtt"
+        python translate.py data/$prefix-$sourceLanguage.vtt $targetLanguage > data/$prefix-$targetLanguage.vtt
+    fi
 fi
+#exit 0
+python dictionary.py $prefix $targetLanguage
+python sayLines.py $prefix 1 $sourceLanguage
+#exit 0
+python sayLines.py $prefix 2 $targetLanguage
+python cut.py $prefix 3 $targetLanguage
+python sayWords.py $prefix 4 $targetLanguage
+
+python combine.py $prefix
+./video $prefix $targetLanguage
+#    exit 0
+#fi
