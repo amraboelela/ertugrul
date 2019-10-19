@@ -1,14 +1,14 @@
 # importing the requests library
-import json, sys, subprocess, requests, re
+import json, sys, subprocess, requests, re, os
 
 if len(sys.argv) > 2:
     prefix = sys.argv[1]
     language = sys.argv[2]
 else:
-    print "please provide the file name and the language"
+    print "please provide the prefix and the language"
     exit(-1)
 
-dictionaryFile = "data/dictionery-" + language + ".json"
+dictionaryFile = "data/dictionary-" + language + ".json"
 
 try:
     dictionary = json.load(open(dictionaryFile))
@@ -32,9 +32,8 @@ file = open(filename)
 lines = file.read().splitlines()
 count  = 0
 for line in lines:
-    #print "line: " + line
     if not "-->" in line and len(line) > 0:
-        line = line.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","")
+        line = line.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '')
         words = line.split()
         for word in words:
             #print "word: " + word
@@ -75,4 +74,6 @@ for line in lines:
 file.close()
 
 json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
+
+os.system("python unicode.py " + dictionaryFile + " > data/dictionary-" + language + ".txt")
 
