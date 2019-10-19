@@ -1,15 +1,14 @@
 
 n=`printf %02d $2`
-if [ ! -f data/ertugrul-$1-$n-$3.jpg ] || [ ! -f data/ertugrul-$1-$n-o$3.m4a ]; then
+if [ ! -f data/ertugrul-$1-$n-en.vtt  ] || [ ! -f data/ertugrul-$1-$n-$3.jpg ] || [ ! -f data/ertugrul-$1-$n-o$3.m4a ]; then
     youtube-dl -f 140 $4
     youtube-dl --all-subs --skip-download $4
     youtube-dl --write-thumbnail --skip-download $4
-
     mkdir -p data
-    if [ $3 == "en" ]; then
-        #mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2*.vtt data/ertugrul-$1-$n-en.vtt
-        mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2*.jpg data/ertugrul-$1-$n-$3.jpg
-        mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2*.m4a data/ertugrul-$1-$n-o$3.m4a
+    if [ $3 == "tr" ]; then
+        mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2-*.vtt data/ertugrul-$1-$n-en.vtt
+        mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2-*.jpg data/ertugrul-$1-$n-$3.jpg
+        mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2-*.m4a data/ertugrul-$1-$n-o$3.m4a
     elif [  $3 == "ar" ]; then
         mv *\ $2*.jpg data/ertugrul-$1-$n-$3.jpg
         mv *\ $2*.m4a data/ertugrul-$1-$n-o$3.m4a

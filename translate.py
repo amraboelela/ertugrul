@@ -24,6 +24,7 @@ for line in lines:
     #print "line: " + line
     if "-->" in line:
         if len(paragraph) > 0:
+            paragraph = paragraph[:len(paragraph)-2]
             PARAMS = {'key':key, 'q':paragraph, 'source':sourceLanguage, 'target':targetLanguage}
             r = requests.get(url = URL, params = PARAMS)
             data = r.json()
@@ -37,7 +38,7 @@ for line in lines:
         print line
         paragraph = ""
     else:
-        paragraph = paragraph + line.replace('-','').replace("!","") + ", "
+        paragraph = paragraph + line.replace('-','').replace("!","").replace(".","") + ". "
 
 
 PARAMS = {'key':key, 'q':paragraph, 'source':sourceLanguage, 'target':targetLanguage}

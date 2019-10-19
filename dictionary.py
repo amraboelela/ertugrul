@@ -28,15 +28,16 @@ URL = "https://translation.googleapis.com/language/translate/v2"
 from translation_key import *
 
 filename = "data/" + prefix + "-" + language + ".vtt"
+#print "filename: " + filename
 file = open(filename)
 lines = file.read().splitlines()
 count  = 0
 for line in lines:
     if not "-->" in line and len(line) > 0:
         line = line.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '')
+        #print "line: " + line
         words = line.split()
         for word in words:
-            #print "word: " + word
             if dictionary.has_key(word.decode('utf8')):
                 dicValue = dictionary[word.decode('utf8')]
                 #print "dicValue: " + str(dicValue)
@@ -52,12 +53,13 @@ for line in lines:
                 elif type(dicValue) is unicode or type(dicValue) is str:
                     dictionary[word.decode('utf8')] = {'en': dicValue, 'update': False}
             else:
+                print "word: " + word
                 try:
                     count = count + 1
                     PARAMS = {'key':key, 'q':word, 'source':language, 'target':'en'}
                     r = requests.get(url = URL, params = PARAMS)
                     data = r.json()
-                    translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").lower()
+                    translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("?","").lower()
                     dictionary[word.decode('utf8')] = {'en': translatedWord, 'update': False}
                     print(str(count) + ". " + word + ": " + translatedWord.encode('utf8'))
                     if word != translatedWord.encode('utf8'):

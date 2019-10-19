@@ -24,8 +24,8 @@ count = 0
 paragraph = ""
 for line in lines:
     if "-->" in line:
-        if len(paragraph) > 0 and count > 0:
-            targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + "-en.m4a"
+        targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + "-en.m4a"
+        if len(paragraph) > 0 and count > 0 and not path.exists(targetFile):
             print str(count) + ".saying: " + paragraph
             paragraph = paragraph.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "")
             words = paragraph.split()

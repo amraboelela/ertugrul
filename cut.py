@@ -19,10 +19,12 @@ for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
         startTime = times[0]
+        if targetLanguage == "tr":
+            startTime = "00:" + startTime
         subTimes = startTime.split(":")
-        #hours = int(subTimes[0])
-        minutes = int(subTimes[0])
-        secondsArray = subTimes[1].split(".")
+        hours = int(subTimes[0])
+        minutes = int(subTimes[1])
+        secondsArray = subTimes[2].split(".")
         seconds = int(secondsArray[0])
         totalSeconds = minutes * 60 + seconds
         shiftedSeconds = 0

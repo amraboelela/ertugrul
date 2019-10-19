@@ -4,3 +4,4 @@ rm -r data/$1
 rm data/$1.m4a
 rm data/$1-0*.m4a
 rm data/$1-1*.m4a
+rm data/$1-2*.m4a
