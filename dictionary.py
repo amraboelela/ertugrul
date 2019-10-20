@@ -40,16 +40,25 @@ for line in lines:
         for word in words:
             if dictionary.has_key(word.decode('utf8')):
                 dicValue = dictionary[word.decode('utf8')]
-                #print "dicValue: " + str(dicValue)
                 #print "type(dicValue): " + str(type(dicValue))
                 if type(dicValue) is dict and dicValue['update'] == True:
+                    print(str(count) + ". " + word + ": " + dicValue['en'].encode('utf8'))
+                    count = count + 1
                     dicValue['update'] = False
                     #dictionary[word.decode('utf8')] = dicValue
                     targetFile = "data/words/" + word + "-en.m4a"
-                    if word == dicValue['en']:
-                        subprocess.call(["rm", targetFile])
+                    if word == dicValue['en'].encode('utf8'):
+                        os.system("rm -f " + targetFile)
                     else:
                         subprocess.call(["say", "-v", "Alex", dicValue['en'], "-o", targetFile])
+                        targetFile = "data/words/" + word + ".m4a"
+                        targetFileMp3 = "data/words/" + word + ".mp3"
+                        if language == "ar":
+                            subprocess.call(["gtts-cli", word, "-l", "ar", "--output", targetFileMp3])
+                            os.system("ffmpeg -y -i " + targetFileMp3 + " -c:a aac -b:a 192k " + targetFile)
+                            os.system("rm " + targetFileMp3)
+                        else:
+                            subprocess.call(["say", "-v", voice, "-r", "125", word, "-o", targetFile])
                 elif type(dicValue) is unicode or type(dicValue) is str:
                     dictionary[word.decode('utf8')] = {'en': dicValue, 'update': False}
             else:
@@ -64,7 +73,13 @@ for line in lines:
                     print(str(count) + ". " + word + ": " + translatedWord.encode('utf8'))
                     if word != translatedWord.encode('utf8'):
                         targetFile = "data/words/" + word + ".m4a"
-                        subprocess.call(["say", "-v", voice, "-r", "125", word, "-o", targetFile])
+                        targetFileMp3 = "data/words/" + word + ".mp3"
+                        if language == "ar":
+                            subprocess.call(["gtts-cli", word, "-l", "ar", "--output", targetFileMp3])
+                            os.system("ffmpeg -y -i " + targetFileMp3 + " -c:a aac -b:a 192k " + targetFile)
+                            os.system("rm " + targetFileMp3)
+                        else:
+                            subprocess.call(["say", "-v", voice, "-r", "125", word, "-o", targetFile])
                         targetFile = "data/words/" + word + "-en.m4a"
                         subprocess.call(["say", "-v", "Alex", translatedWord, "-o", targetFile])
                     if count % 100 == 0:

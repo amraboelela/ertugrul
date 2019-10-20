@@ -18,7 +18,8 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 - Then do:
 
 ```
-$ ./build ertugrul 1 1 3 tr en
+$ ./build ertugrul 1 1 3 en tr
+$ ./clean ertugrul 1 1 3 en tr
 ```
 
 **Turkish**
@@ -30,6 +31,11 @@ $ ./build ertugrul 1 1 3 tr en
 Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Turkish. 
 
 **Arabic**
+
+```
+$ ./build ertugrul 1 1 3 en ar
+$ ./clean ertugrul 1 1 3 en ar
+```
 
 - Title: Learn Arabic from Ertugrul, while you sleep, 1 - 1
 

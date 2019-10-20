@@ -25,13 +25,20 @@ count = 0
 paragraph = ""
 for line in lines:
     if "-->" in line:
+        targetFileMp3 = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".mp3"
         targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".m4a"
         if len(paragraph) > 0 and count > 0 and not path.exists(targetFile):
             print str(count) + ".saying: " + paragraph
             if language == "en":
                 subprocess.call(["say", "-v", voice, "-o", targetFile, paragraph])
             else:
-                subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, paragraph])
+                if language == "ar":
+                    command = "gtts-cli '" + paragraph +  "' -l ar --output " + targetFileMp3
+                    os.system(command)
+                    os.system("ffmpeg -i " + targetFileMp3 + " -c:a aac -b:a 192k " + targetFile)
+                    os.system("rm " + targetFileMp3)
+                else:
+                    subprocess.call(["say", "-v", voice, "-r", "125", "-o", targetFile, paragraph])
         paragraph = ""
         count = count + 1
     else:

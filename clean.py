@@ -12,8 +12,6 @@ else:
     print "please enter the title, season number, first episode number, last episode numer, source language, and the target language"
     exit(-1)
 
-#os.system("./download " + title + " " + targetLanguage)
-#exit(0)
 for n in range(a, b+1):
     if s == "2":
         prefix = title + "-" + s + "-" + format(n, '03d')
