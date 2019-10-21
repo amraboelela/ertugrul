@@ -1,4 +1,4 @@
-# Learn language from Ertugrul, while you sleep
+# Learn language from Ertugrul
 
 Learn Turkish and other languages through Ertugrul TV series
 
@@ -24,7 +24,7 @@ $ ./clean ertugrul 1 1 3 en tr
 
 **Turkish**
 
-- Title: Learn Turkish from Ertugrul, while you sleep, 1 - 1
+- Title: Learn Turkish from Ertugrul, 1 - 1
 
 - Description:
 
@@ -37,7 +37,7 @@ $ ./build ertugrul 1 1 3 en ar
 $ ./clean ertugrul 1 1 3 en ar
 ```
 
-- Title: Learn Arabic from Ertugrul, while you sleep, 1 - 1
+- Title: Learn Arabic from Ertugrul, 1 - 1
 
 - Description:
 

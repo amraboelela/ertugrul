@@ -1,16 +1,28 @@
-
-n=`printf %02d $2`
-if [ ! -f data/ertugrul-$1-$n-en.vtt  ] || [ ! -f data/ertugrul-$1-$n-$3.jpg ] || [ ! -f data/ertugrul-$1-$n-o$3.m4a ]; then
-    youtube-dl -f 140 $4
-    youtube-dl --all-subs --skip-download $4
-    youtube-dl --write-thumbnail --skip-download $4
-    mkdir -p data
-    if [ $3 == "tr" ]; then
-        mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2-*.vtt data/ertugrul-$1-$n-en.vtt
-        mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2-*.jpg data/ertugrul-$1-$n-$3.jpg
-        mv Resurrection\ Ertugrul\ Season\ $1\ Episode\ $2-*.m4a data/ertugrul-$1-$n-o$3.m4a
-    elif [  $3 == "ar" ]; then
-        mv *\ $2*.jpg data/ertugrul-$1-$n-$3.jpg
-        mv *\ $2*.m4a data/ertugrul-$1-$n-o$3.m4a
+season=$1
+episode=$2
+paddedEpisode=`printf %02d $episode`
+language=$3
+url=$4
+mkdir -p data
+if [ ! -f data/ertugrul-$season-$paddedEpisode-en.vtt ]; then
+    youtube-dl --all-subs --skip-download $url
+    if [ $language == "tr" ]; then
+        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.vtt data/ertugrul-$season-$paddedEpisode-en.vtt
+    fi
+fi
+if [ ! -f data/ertugrul-$season-$paddedEpisode-$language.jpg ]; then
+    youtube-dl --write-thumbnail --skip-download $url
+    if [ $language == "tr" ]; then
+        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.jpg data/ertugrul-$season-$paddedEpisode-$language.jpg
+    elif [  $language == "ar" ]; then
+        mv *\ $episode*.jpg data/ertugrul-$season-$paddedEpisode-$language.jpg
+    fi
+fi
+if [ ! -f data/ertugrul-$season-$paddedEpisdoe-o$language.mp4 ]; then
+    youtube-dl $url
+    if [ $language == "tr" ]; then
+        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.mp4 data/ertugrul-$season-$paddedEpisode-o$language.mp4
+    elif [  $language == "ar" ]; then
+        mv *\ $episode*.mp4 data/ertugrul-$season-$paddedEpisode-o$language.mp4
     fi
 fi
