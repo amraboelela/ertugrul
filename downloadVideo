@@ -18,7 +18,7 @@ if [ ! -f data/ertugrul-$season-$paddedEpisode-$language.jpg ]; then
         mv *\ $episode*.jpg data/ertugrul-$season-$paddedEpisode-$language.jpg
     fi
 fi
-if [ ! -f data/ertugrul-$season-$paddedEpisdoe-o$language.mp4 ]; then
+if [ ! -f data/ertugrul-$season-$paddedEpisode-o$language.mp4 ]; then
     youtube-dl $url
     if [ $language == "tr" ]; then
         mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.mp4 data/ertugrul-$season-$paddedEpisode-o$language.mp4

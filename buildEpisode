@@ -25,10 +25,12 @@ fi
 python dictionary.py $prefix $targetLanguage
 #exit 0
 python sayLines.py $prefix 1 $sourceLanguage
-python sayLines.py $prefix 2 $targetLanguage
-#exit 0
-python cut.py $prefix 3 $targetLanguage
-python sayWords.py $prefix 4 $targetLanguage
+#python sayLines.py $prefix 2 $targetLanguage
+python cut.py $prefix 2 $targetLanguage
+exit 0
+python sayWords.py $prefix 3 $targetLanguage
+
+python audio2video.py $prefix $targetLanguage
 
 python combine.py $prefix
 ./video $prefix $targetLanguage
