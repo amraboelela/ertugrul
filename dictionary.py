@@ -46,13 +46,13 @@ for line in lines:
                     count = count + 1
                     dicValue['update'] = False
                     #dictionary[word.decode('utf8')] = dicValue
-                    targetFile = "data/words/" + word + "-en.m4a"
+                    targetFile = "data/words/" + language + "/" + word + "-en.m4a"
                     if word == dicValue['en'].encode('utf8'):
                         os.system("rm -f " + targetFile)
                     else:
                         subprocess.call(["say", "-v", "Alex", dicValue['en'], "-o", targetFile])
-                        targetFile = "data/words/" + word + ".m4a"
-                        targetFileMp3 = "data/words/" + word + ".mp3"
+                        targetFile = "data/words/" + language + "/" + word + ".m4a"
+                        targetFileMp3 = "data/words/" + language + "/" + word + ".mp3"
                         if language == "ar":
                             subprocess.call(["gtts-cli", word, "-l", "ar", "--output", targetFileMp3])
                             os.system("ffmpeg -y -i " + targetFileMp3 + " -c:a aac -b:a 192k " + targetFile)
@@ -72,15 +72,15 @@ for line in lines:
                     dictionary[word.decode('utf8')] = {'en': translatedWord, 'update': False}
                     print(str(count) + ". " + word + ": " + translatedWord.encode('utf8'))
                     if word != translatedWord.encode('utf8'):
-                        targetFile = "data/words/" + word + ".m4a"
-                        targetFileMp3 = "data/words/" + word + ".mp3"
+                        targetFile = "data/words/" + language + "/" + word + ".m4a"
+                        targetFileMp3 = "data/words/" + language + "/" + word + ".mp3"
                         if language == "ar":
                             subprocess.call(["gtts-cli", word, "-l", "ar", "--output", targetFileMp3])
                             os.system("ffmpeg -y -i " + targetFileMp3 + " -c:a aac -b:a 192k " + targetFile)
                             os.system("rm " + targetFileMp3)
                         else:
                             subprocess.call(["say", "-v", voice, "-r", "125", word, "-o", targetFile])
-                        targetFile = "data/words/" + word + "-en.m4a"
+                        targetFile = "data/words/" + language + "/" + word + "-en.m4a"
                         subprocess.call(["say", "-v", "Alex", translatedWord, "-o", targetFile])
                     if count % 100 == 0:
                         json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)

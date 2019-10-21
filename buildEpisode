@@ -2,9 +2,10 @@
 prefix=$1
 sourceLanguage=$2
 targetLanguage=$3
-#if [ ! -f data/$prefix.mp4 ]; then
+
 mkdir -p data/$prefix
-mkdir -p data/words
+mkdir -p data/words/$targetLanguage
+
 if [ $targetLanguage == "tr"  ]; then
     if [ ! -f data/$prefix-$targetLanguage.vtt ]; then
         python ttml2srt.py data/$prefix-$targetLanguage.ttml > data/$prefix-$targetLanguage.srt

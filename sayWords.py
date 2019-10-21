@@ -7,7 +7,7 @@ if len(sys.argv) > 3:
     order = sys.argv[2]
     language = sys.argv[3]
 else:
-    print "please provide the prefix, the language order  and the language"
+    print "please provide the prefix, the language order and the language"
 
 filePath = "data/" + prefix + "-" + language + ".vtt"
 switcher = {
@@ -33,7 +33,7 @@ for line in lines:
             concatString = ""
             fileCount = 0
             for word in words:
-                wordFile = "data/words/" + word + ".m4a"
+                wordFile = "data/words/" + language + "/" + word + ".m4a"
                 if path.exists(wordFile):
                     print "saying: " + word
                     subprocessArray.extend(["-i", wordFile])
@@ -42,7 +42,7 @@ for line in lines:
                     fileCount = fileCount + 1
                     concatString = concatString + "[" + str(fileCount) + ":a]"
                     fileCount = fileCount + 1
-                enWordFile = "data/words/" + word + "-en.m4a"
+                enWordFile = "data/words/" + language + "/" + word + "-en.m4a"
                 if path.exists(enWordFile):
                     subprocessArray.extend(["-i", enWordFile])
                     subprocessArray.extend(["-i", "silence1.m4a"])
