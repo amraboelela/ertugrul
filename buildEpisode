@@ -22,7 +22,7 @@ else
         python translate.py data/$prefix-$sourceLanguage.vtt $targetLanguage > data/$prefix-$targetLanguage.vtt
     fi
 fi
-exit 0
+#exit 0
 python dictionary.py $prefix $targetLanguage
 #python sayLines.py $prefix 1 $sourceLanguage
 python cut.py $prefix 1 $targetLanguage
@@ -33,6 +33,7 @@ python video2image.py $prefix $targetLanguage
 python audio2video.py $prefix $sourceLanguage $targetLanguage
 
 python combine.py $prefix
+python subtitles.py $prefix $sourceLanguage $targetLanguage
 
 #./video $prefix $targetLanguage
 
