@@ -17,16 +17,17 @@ filePrefix = "data/" + prefix + "/" + prefix + "-"
 for line in lines:
     if "-->" in line:
         if count > 0:
-            videoFile = filePrefix + format(count, '03d') + "-2" + targetLanguage + ".mp4"
+            videoFile = filePrefix + format(count, '03d') + "-1" + targetLanguage + ".mp4"
             imageFile = filePrefix + format(count, '03d') + "-" + targetLanguage + ".jpg"
             if not path.exists(imageFile):
-                subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-vf", '"select=eq(n\,0)"', "-q:v", "3", imageFile])
+                subprocess.call(["ffmpeg", "-y", "-sseof", "-3", "-i", videoFile, "-update", "1", "-q:v", "1", imageFile])
+                #subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-vf", '"select=eq(n\,0)"', "-q:v", "3", imageFile])
         count = count + 1
 
-videoFile = filePrefix + format(count-1, '03d') + "-2" + targetLanguage + ".mp4" 
-imageFile = filePrefix + format(count, '03d') + "-" + targetLanguage + ".jpg"
-if not path.exists(imageFile):
-    subprocess.call(["ffmpeg", "-y", "-sseof", "-3", "-i", videoFile, "-update", "1", "-q:v", "1", imageFile])
+#videoFile = filePrefix + format(count-1, '03d') + "-2" + targetLanguage + ".mp4" 
+#imageFile = filePrefix + format(count, '03d') + "-" + targetLanguage + ".jpg"
+#if not path.exists(imageFile):
+#    subprocess.call(["ffmpeg", "-y", "-sseof", "-3", "-i", videoFile, "-update", "1", "-q:v", "1", imageFile])
 
 file.close()
 

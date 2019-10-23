@@ -12,7 +12,7 @@ if [ $targetLanguage == "tr"  ]; then
         ffmpeg -y -i data/$prefix-$targetLanguage.srt data/$prefix-$targetLanguage.vtt
         rm data/$prefix-$targetLanguage.srt
     fi
-    if [ ! -f data/$prefix-$targetLanguage-$sourceLanguage.vtt ]; then
+    if [ ! -f data/$prefix-$targetLanguage-$sourceLanguage.vtt ] || [ ! -s data/$prefix-$targetLanguage-$sourceLanguage.vtt ]; then
         echo "Translating $prefix-$targetLanguage.vtt"
         python translate.py data/$prefix-$targetLanguage.vtt $sourceLanguage > data/$prefix-$targetLanguage-$sourceLanguage.vtt
     fi
@@ -22,15 +22,17 @@ else
         python translate.py data/$prefix-$sourceLanguage.vtt $targetLanguage > data/$prefix-$targetLanguage.vtt
     fi
 fi
-python dictionary.py $prefix $targetLanguage
-#exit 0
-python sayLines.py $prefix 1 $sourceLanguage
-#python sayLines.py $prefix 2 $targetLanguage
-python cut.py $prefix 2 $targetLanguage
 exit 0
-python sayWords.py $prefix 3 $targetLanguage
+python dictionary.py $prefix $targetLanguage
+#python sayLines.py $prefix 1 $sourceLanguage
+python cut.py $prefix 1 $targetLanguage
+exit 0
+python sayWords.py $prefix 2 $targetLanguage
 
-python audio2video.py $prefix $targetLanguage
+python video2image.py $prefix $targetLanguage
+python audio2video.py $prefix $sourceLanguage $targetLanguage
 
 python combine.py $prefix
-./video $prefix $targetLanguage
+
+#./video $prefix $targetLanguage
+

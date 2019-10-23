@@ -42,7 +42,7 @@ for line in lines:
                 dicValue = dictionary[word.decode('utf8')]
                 #print "type(dicValue): " + str(type(dicValue))
                 if type(dicValue) is dict and dicValue['update'] == True:
-                    print(str(count) + ". " + word + ": " + dicValue['en'].encode('utf8'))
+                    print(str(count) + ". needs update " + word + ": " + dicValue['en'].encode('utf8'))
                     count = count + 1
                     dicValue['update'] = False
                     #dictionary[word.decode('utf8')] = dicValue
@@ -62,7 +62,7 @@ for line in lines:
                 elif type(dicValue) is unicode or type(dicValue) is str:
                     dictionary[word.decode('utf8')] = {'en': dicValue, 'update': False}
             else:
-                print "word: " + word
+                #print "new word: " + word
                 try:
                     count = count + 1
                     PARAMS = {'key':key, 'q':word, 'source':language, 'target':'en'}
@@ -70,7 +70,7 @@ for line in lines:
                     data = r.json()
                     translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("?","").lower()
                     dictionary[word.decode('utf8')] = {'en': translatedWord, 'update': False}
-                    print(str(count) + ". " + word + ": " + translatedWord.encode('utf8'))
+                    print(str(count) + ". new word - " + word + ": " + translatedWord.encode('utf8'))
                     if word != translatedWord.encode('utf8'):
                         targetFile = "data/words/" + language + "/" + word + ".m4a"
                         targetFileMp3 = "data/words/" + language + "/" + word + ".mp3"
