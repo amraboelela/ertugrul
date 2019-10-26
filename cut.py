@@ -62,5 +62,13 @@ for line in lines:
                 subprocess.call(["rm", targetFile + "~.mp4"])
         prevStartTime = startTime
         count = count + 1
+
+targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + "o" + targetLanguage
+if not path.exists(targetFile + ".mp4"): 
+    subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.mp4"])
+    subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
+    subprocess.call(["mv", targetFile + "~~.mp4", targetFile + ".mp4"])
+    subprocess.call(["rm", targetFile + "~.mp4"])
+
 file.close()
 
