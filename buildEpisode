@@ -23,15 +23,15 @@ else
     fi
 fi
 python dictionary.py $prefix $targetLanguage
-#python sayLines.py $prefix 1 $sourceLanguage
 python cut.py $prefix 1 $targetLanguage
 python sayWords.py $prefix 2 $targetLanguage
 
 python video2image.py $prefix $targetLanguage
-exit 0
 python audio2video.py $prefix $sourceLanguage $targetLanguage
+#exit 0
 
 python combine.py $prefix
+exit
 python subtitles.py $prefix $sourceLanguage $targetLanguage
 
 #./video $prefix $targetLanguage

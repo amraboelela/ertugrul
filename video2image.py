@@ -15,7 +15,7 @@ lines = file.read().splitlines()
 count = 0
 filePrefix = "data/" + prefix + "/" + prefix + "-"
 
-def videoToAudio():
+def videoToImage():
     videoFile = filePrefix + format(count, '03d') + "-1o" + targetLanguage + ".mp4"
     imageFile = filePrefix + format(count, '03d') + "-" + targetLanguage + ".jpg"
     audioFile = filePrefix + format(count, '03d') + "-2" + targetLanguage + "-en.m4a"
@@ -25,9 +25,9 @@ def videoToAudio():
 for line in lines:
     if "-->" in line:
         if count > 0:
-            videoToAudio()
+            videoToImage()
         count = count + 1
 
-videoToAudio()
+videoToImage()
 file.close()
 

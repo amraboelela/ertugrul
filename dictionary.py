@@ -45,9 +45,10 @@ for line in lines:
                     print(str(count) + ". needs update " + word + ": " + dicValue['en'].encode('utf8'))
                     count = count + 1
                     dicValue['update'] = False
-                    #dictionary[word.decode('utf8')] = dicValue
+                    wordFile = "data/words/" + language + "/" + word + ".m4a"
                     targetFile = "data/words/" + language + "/" + word + "-en.m4a"
                     if word == dicValue['en'].encode('utf8'):
+                        os.system("rm -f " + wordFile)
                         os.system("rm -f " + targetFile)
                     else:
                         subprocess.call(["say", "-v", "Alex", dicValue['en'], "-o", targetFile])

@@ -1,5 +1,7 @@
 #ffmpeg -f lavfi -i anullsrc=channel_layout=5.1:sample_rate=48000 -t 1 -strict -2 silence.ac3
 #ffmpeg -f lavfi -t 1 -i anullsrc=channel_layout=stereo:sample_rate=44100 -i audio.oga -filter_complex "[0:a][1:a]concat=n=2:v=0:a=1" silence.m4a
 
-ffmpeg -f lavfi -t 0.25 -i anullsrc=channel_layout=stereo:sample_rate=44100 -i  silence.m4a -filter_complex "[1:a][0:a]concat=n=2:v=0:a=1" -strict -2 silence_2.m4a
+#ffmpeg -f lavfi -t 0.25 -i anullsrc=channel_layout=stereo:sample_rate=44100 -i  silence.m4a -filter_complex "[1:a][0:a]concat=n=2:v=0:a=1" -strict -2 silence_2.m4a
+
+ffmpeg -f lavfi -t 0.5 -i anullsrc=channel_layout=stereo:sample_rate=44100 -i  silence.m4a -filter_complex "[1:a][0:a]concat=n=2:v=0:a=1" -strict -2 silence_5.m4a
 

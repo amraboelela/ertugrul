@@ -35,7 +35,7 @@ def sayWords():
         fileCount = 0
         for word in words:
             wordFile = "data/words/" + language + "/" + word + ".m4a"
-            if path.exists(wordFile):
+            if path.exists(wordFile) and path.exists(enWordFile):
                 print "saying: " + word
                 subprocessArray.extend(["-i", wordFile])
                 subprocessArray.extend(["-i", "silence_2.m4a"])
@@ -43,12 +43,14 @@ def sayWords():
                 fileCount = fileCount + 1
                 concatString = concatString + "[" + str(fileCount) + ":a]"
                 fileCount = fileCount + 1
-            enWordFile = "data/words/" + language + "/" + word + "-en.m4a"
-            if path.exists(enWordFile):
+                enWordFile = "data/words/" + language + "/" + word + "-en.m4a"
                 subprocessArray.extend(["-i", enWordFile])
-                subprocessArray.extend(["-i", "silence1.m4a"])
                 concatString = concatString + "[" + str(fileCount) + ":a]"
                 fileCount = fileCount + 1
+                if fileCount/4 < len(words) + 1:
+                    subprocessArray.extend(["-i", "silence1.m4a"])
+                else:
+                    subprocessArray.extend(["-i", "silence_2.m4a"])
                 concatString = concatString + "[" + str(fileCount) + ":a]"
                 fileCount = fileCount + 1
         subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", targetFile])

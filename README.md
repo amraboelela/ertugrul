@@ -11,7 +11,17 @@ $ vim translation_key.py
 key = "<PUT THE KEY FROM YOUR GOOGLE TRANSLATE API ACCOUNT>"
 $ sudo easy_install pip
 $ sudo pip install requests
-$ brew install ffmpeg
+brew install ffmpeg
+```
+
+To install latest version of ffmpeg:
+
+```
+$ git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
+$ cd ffmpeg
+$ ./configure --enable-gpl --enable-libfreetype --enable-libmp3lame --enable-libvorbis --enable-libvpx --enable-libx264 --enable-nonfree --enable-shared 
+$ make -j8
+$ sudo make install
 
 ```
 

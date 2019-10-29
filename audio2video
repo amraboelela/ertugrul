@@ -1,0 +1,2 @@
+ffmpeg -y -loop 1 -i data/ertugrul-1-01/ertugrul-1-01-280-tr.jpg -i data/ertugrul-1-01/ertugrul-1-01-280-2tr-en.m4a -c:v libx264 -c:a aac -b:a 192k -pix_fmt yuv420p -shortest data/ertugrul-1-01/ertugrul-1-01-280-2tr-en.mp4
+

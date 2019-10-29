@@ -1,0 +1,2 @@
+ffmpeg -y -i data/ertugrul-1-01/ertugrul-1-01-200-1otr.mp4 -i data/ertugrul-1-01/ertugrul-1-01-200-2tr-en.mp4 -i data/ertugrul-1-01/ertugrul-1-01-201-1otr.mp4 -filter_complex [0:v][0:a][1:v][1:a][2:v][2:a]concat=n=3:v=1:a=1 data/ertugrul-1-01-01.mp4
+
