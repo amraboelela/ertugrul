@@ -11,7 +11,6 @@ else:
     exit(-1)
 
 sourceFilePath = "data/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
-#sourceFilePath = "data/" + prefix + "-" + sourceLanguage + ".vtt"
 targetFilePath = "data/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "data/" + prefix + ".srt"
 
@@ -75,7 +74,6 @@ def writeToSubtitlesFile(count, paragraph):
     else:
         endTimeString = "Not Yet"
     subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
-    #subtitlesFile.write("<font color=\"white\">" + paragraph + "</font>")
     subtitlesFile.write(paragraph)
  
 count = 0
@@ -88,4 +86,8 @@ for i in range(0, len(sourceParagraphs)):
 sourceFile.close()
 targetFile.close()
 subtitlesFile.close()
+
+os.system("mv data/" + prefix + ".mp4 data/" + prefix + "~.mp4")
+os.system("ffmpeg -i data/" + prefix + "~.mp4 -i " + subtitlesPath + " -c copy -c:s mov_text data/" + prefix + ".mp4")
+os.system("rm data/" + prefix + "~.mp4")
 

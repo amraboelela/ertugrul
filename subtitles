@@ -1,3 +1,22 @@
-filename=$1
-ffprobe -v error -select_streams v:0 -show_entries stream=duration -of default=noprint_wrappers=1:nokey=1 $filename
+#filename=$1
+#ffprobe -v error -select_streams v:0 -show_entries stream=duration -of default=noprint_wrappers=1:nokey=1 $filename
+
+prefix=$1
+#mv data/$prefix.mp4 data/$prefix~.mp4
+/usr/local/Cellar/ffmpeg/2.8.4/bin/ffmpeg -y -i data/$prefix/$prefix-001-1otr.mp4 -i data/ertugrul-1-02-tr.srt -c copy -c:s mov_text output.mp4
+
+#data/$prefix.mp4
+
+#ffmpeg -i data/$prefix~.mp4 -i data/$prefix.srt -c:v copy -c:a copy -c:s mov_text data/$prefix.mp4
+
+#ffmpeg -y -i data/$prefix.mp4 -f srt -i data/ertugrul-1-02-tr.srt \
+#-map 0:0 -map 0:1 -map 1:0 -c:v copy -c:a copy \
+#-c:s mov_text output.mp4
+
+#rm data/$prefix~.mp4
+
+#ffmpeg -y -i data/$prefix/$prefix-001-1otr.mp4 -i data/ertugrul-1-02-tr.srt -map 0:0 -map 0:1 -map 1:0 -c:s mov_text output.mp4
+#ffmpeg -y -i data/$prefix/$prefix-001-1otr.mp4 -i data/ertugrul-1-02-tr.srt -map 0:0 -map 0:1 -map 1:0 output.mkv
+
+#ffmpeg -y -i data/$prefix/$prefix-001-1otr.mp4 -vf subtitles=data/ertugrul-1-02-tr.srt output.mp4
 
