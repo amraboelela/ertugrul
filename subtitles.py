@@ -20,7 +20,6 @@ subtitlesFile = open(subtitlesPath, "w")
 sourceLines = sourceFile.read().splitlines()
 targetLines = targetFile.read().splitlines()
 
-
 sourceParagraphs = []
 targetParagraphs = []
 
@@ -53,6 +52,7 @@ for file in files:
 durationsFile = open(durationsFilePath)
 durations = durationsFile.read().splitlines()
 startTimeFloat = float(0.0)
+durationIndex = 0
 
 def timeString(timeFloat):
     milliSeconds = int(timeFloat * 1000 % 1000)
@@ -63,25 +63,24 @@ def timeString(timeFloat):
     hours = totalMinutes / 60
     return format(hours, '02d') + ":" + format(minutes, '02d') + ":" + format(seconds, '02d') + "," + format(milliSeconds, '03d')
 
-def writeToSubtitlesFile(count, paragraph):
+def writeToSubtitlesFile(paragraph):
     global startTimeFloat
-    subtitlesFile.write(str(count) + "\n")
+    global durationIndex
+    subtitlesFile.write(str(durationIndex) + "\n")
     startTimeString = timeString(startTimeFloat)
-    if count < len(durations):
-        duration = float(durations[count])
+    if durationIndex < len(durations):
+        duration = float(durations[durationIndex])
         startTimeFloat = startTimeFloat + duration
         endTimeString = timeString(startTimeFloat)
     else:
         endTimeString = "Not Yet"
     subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
     subtitlesFile.write(paragraph)
- 
-count = 0
+    durationIndex = durationIndex + 1
+
 for i in range(0, len(sourceParagraphs)):
-    count = count + 1
-    writeToSubtitlesFile(count, sourceParagraphs[i])
-    count = count + 1
-    writeToSubtitlesFile(count, targetParagraphs[i])
+    writeToSubtitlesFile(sourceParagraphs[i])
+    writeToSubtitlesFile(targetParagraphs[i])
 
 sourceFile.close()
 targetFile.close()
