@@ -9,6 +9,8 @@ if len(sys.argv) > 3:
 else:
     print "please provide the prefix, the language order and the language"
 
+print "## sayWords, prefix: " + prefix + ", order: " + order + ", language: " + language
+
 filePath = "data/" + prefix + "-" + language + ".vtt"
 switcher = {
         "en": "Alex",
@@ -25,8 +27,9 @@ paragraph = ""
 
 def sayWords():
     global count, paragraph
-    targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + "-en.m4a"
-    if len(paragraph) > 0 and count > 0 and not path.exists(targetFile):
+    targetFilePrefix = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + "-en"
+    targetFile = targetFilePrefix + ".m4a"
+    if len(paragraph) > 0 and count > 0 and not path.exists(targetFile) and not path.exists(targetFilePrefix + ".mp4"):
         print str(count) + ".saying: " + paragraph
         paragraph = paragraph.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "")
         words = paragraph.split()
@@ -35,6 +38,7 @@ def sayWords():
         fileCount = 0
         for word in words:
             wordFile = "data/words/" + language + "/" + word + ".m4a"
+            enWordFile = "data/words/" + language + "/" + word + "-en.m4a"
             if path.exists(wordFile) and path.exists(enWordFile):
                 print "saying: " + word
                 subprocessArray.extend(["-i", wordFile])
@@ -43,7 +47,6 @@ def sayWords():
                 fileCount = fileCount + 1
                 concatString = concatString + "[" + str(fileCount) + ":a]"
                 fileCount = fileCount + 1
-                enWordFile = "data/words/" + language + "/" + word + "-en.m4a"
                 subprocessArray.extend(["-i", enWordFile])
                 concatString = concatString + "[" + str(fileCount) + ":a]"
                 fileCount = fileCount + 1

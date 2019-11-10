@@ -10,6 +10,8 @@ else:
     print "please provide the prefix, language order, and the target language"
     exit(-1)
 
+print "## sayWords, prefix: " + prefix + ", order: " + order + ", targetLanguage: " + targetLanguage
+
 filePath = "data/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
 lines = file.read().splitlines()
@@ -30,7 +32,6 @@ for line in lines:
         shiftedSeconds = 0
         if targetLanguage == "ar":
             subPrefix = prefix[:11]
-            #print "subPrefix: " + subPrefix
             if subPrefix == "ertugrul-1-":
                 episode = prefix[11:13]
                 #print "episode: " + episode

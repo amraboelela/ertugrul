@@ -8,6 +8,8 @@ else:
     print "please provide the prefix and the language"
     exit(-1)
 
+print "## dictionary, prefix: " + prefix + ", language: " + language
+
 dictionaryFile = "data/dictionary-" + language + ".json"
 
 try:

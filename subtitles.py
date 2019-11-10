@@ -10,6 +10,8 @@ else:
     print "please provide the prefix, source language and the target language"
     exit(-1)
 
+print "## subtitles, prefix: " + prefix + ", sourceLanguage: " + sourceLanguage + ", targetLanguage: " + targetLanguage
+
 sourceFilePath = "data/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
 targetFilePath = "data/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "data/" + prefix + ".srt"
@@ -29,7 +31,7 @@ def getParagraphs(lines, paragraghs):
     for line in lines:
         if "-->" in line:
             if len(paragraph) > 0 and count > 0:
-                paragraph = "<font color=\"white\">" + paragraph[:len(paragraph)-2] + "</font>\n\n"
+                paragraph = paragraph[:len(paragraph)-2]
                 paragraghs.append(paragraph)
             paragraph = ""
             count = count + 1
@@ -63,25 +65,32 @@ def timeString(timeFloat):
     hours = totalMinutes / 60
     return format(hours, '02d') + ":" + format(minutes, '02d') + ":" + format(seconds, '02d') + "," + format(milliSeconds, '03d')
 
-def writeToSubtitlesFile(paragraph):
+def writeToSubtitlesFile(paragraph1, color1, paragraph2, color2):
     global startTimeFloat
     global durationIndex
     subtitlesFile.write(str(durationIndex) + "\n")
     startTimeString = timeString(startTimeFloat)
     if durationIndex < len(durations):
-        duration = float(durations[durationIndex])
+        duration = float(durations[durationIndex]) + 0.010
         startTimeFloat = startTimeFloat + duration
         endTimeString = timeString(startTimeFloat)
     else:
         endTimeString = "Not Yet"
     subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
-    subtitlesFile.write(paragraph)
+    subtitlesFile.write("<font color=\"" + color1 + "\">" + paragraph1 + "</font>\n")
+    if len(paragraph2) > 0:
+        subtitlesFile.write("<font color=\"" + color2 + "\">" + paragraph2 + "</font>\n\n")
+    else:
+        subtitlesFile.write("\n")
     durationIndex = durationIndex + 1
 
 for i in range(0, len(sourceParagraphs)):
-    writeToSubtitlesFile(sourceParagraphs[i])
-    writeToSubtitlesFile(targetParagraphs[i])
-
+    writeToSubtitlesFile(sourceParagraphs[i], "white", "", "")
+    videoFile = "data/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
+    if path.exists(videoFile):
+        writeToSubtitlesFile(targetParagraphs[i], "yellow", sourceParagraphs[i], "white")
+    else:
+        print "videoFile doesn't exist: " + videoFile
 sourceFile.close()
 targetFile.close()
 subtitlesFile.close()

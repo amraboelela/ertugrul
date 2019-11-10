@@ -10,6 +10,7 @@ else:
     print "please provide the prefix, source language, and the target language"
     exit(-1)
 
+print "## audio2video, prefix: " + prefix + ", sourceLanguage: " + sourceLanguage + ", targetLanguage: " + targetLanguage
 filePath = "data/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
 lines = file.read().splitlines()
@@ -21,7 +22,7 @@ def audioToVideo():
     audioFilePrefix = filePrefix + format(count, '03d') + "-2" + targetLanguage + "-" + sourceLanguage
     audioFile = audioFilePrefix + ".m4a"
     videoFile = audioFilePrefix + ".mp4"
-    if not path.exists(videoFile):
+    if not path.exists(videoFile) and path.exists(imageFile):
         subprocess.call(["ffmpeg", "-y", "-loop", "1", "-i", imageFile, "-i", audioFile, "-c:v", "libx264", "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p", "-shortest", videoFile])
 
 for line in lines:

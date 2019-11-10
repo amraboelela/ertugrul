@@ -8,6 +8,8 @@ else:
     print "please provide the file name and the target language"
     exit(-1)
 
+print "## translate, filename: " + filename + ", targetLanguage: " + targetLanguage
+
 # api-endpoint
 URL = "https://translation.googleapis.com/language/translate/v2"
 from translation_key import *

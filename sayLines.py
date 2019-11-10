@@ -10,6 +10,8 @@ else:
     print "please provide the prefix, the language order  and the language"
     exit(-1)
 
+print "## sayLines, prefix: " + prefix + ", order: " + order + ", language: " + language
+
 filePath = "data/" + prefix + "-" + language + ".vtt"
 switcher = {
         "en": "Alex",

@@ -7,6 +7,8 @@ if len(sys.argv) > 1:
 else:
     print "please provide the prefix"
     exit(-1)
+
+print "## combin, prefix: " + prefix
 filePath = "data/" + prefix+ "/" + prefix
 files = os.listdir("data/" + prefix)
 files.sort()
@@ -32,7 +34,7 @@ for file in files:
 if count % 100 > 1:
     n = count / 100 + 1
     targetFile = "data/" + prefix + "-" + format(n, '02d') + ".mp4"
-    print "targetFile: " + targetFile
+    #print "targetFile: " + targetFile
     if not path.exists(targetFile):
         subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=1:a=1", targetFile])
         print "subprocessArray: " + str(subprocessArray)

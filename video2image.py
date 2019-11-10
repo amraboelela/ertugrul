@@ -9,6 +9,8 @@ else:
     print "please provide the prefix, and the target language"
     exit(-1)
 
+print "## video2image, prefix: " + prefix + ", targetLanguage: " + targetLanguage
+
 filePath = "data/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
 lines = file.read().splitlines()
