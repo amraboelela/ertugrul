@@ -9,7 +9,7 @@ else:
     print "please provide the prefix, language order, and the target language"
     exit(-1)
 
-print "## sayWords, prefix: " + prefix + ", order: " + order + ", targetLanguage: " + targetLanguage
+print "## cut, prefix: " + prefix + ", order: " + order + ", targetLanguage: " + targetLanguage
 
 filePath = "data/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
@@ -53,13 +53,14 @@ for line in lines:
         seconds = totalSeconds - minutes * 60
         startTime = str(minutes) + ":" + str(seconds) + "." + secondsArray[1]
         if count > 0:
-            targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + "o" + targetLanguage
+            filePrefix = "data/" + prefix + "/" + prefix + "-" + format(count, '03d')
+            targetFile = filePrefix + "-" + order + "o" + targetLanguage
             if not path.exists(targetFile + ".m4a"):
                 subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFile + "~.m4a"])
                 subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
                 subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
                 subprocess.call(["rm", targetFile + "~.m4a"])
-            if not path.exists(targetFile + ".mp4"):
+            if not path.exists(targetFile + ".mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
                 subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFile + "~.mp4"])
                 subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
                 subprocess.call(["mv", targetFile + "~~.mp4", targetFile + ".mp4"])
@@ -67,13 +68,14 @@ for line in lines:
         prevStartTime = startTime
         count = count + 1
 
-targetFile = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + "o" + targetLanguage
+filePrefix = "data/" + prefix + "/" + prefix + "-" + format(count, '03d')
+targetFile = filePrefix + "-" + order + "o" + targetLanguage
 if not path.exists(targetFile + ".m4a"):
     subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.m4a"])
     subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
     subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
     subprocess.call(["rm", targetFile + "~.m4a"])
-if not path.exists(targetFile + ".mp4"): 
+if not path.exists(targetFile + ".mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
     subprocess.call(["ffmpeg", "-y", "-i", "data/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.mp4"])
     subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
     subprocess.call(["mv", targetFile + "~~.mp4", targetFile + ".mp4"])

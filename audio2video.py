@@ -1,4 +1,4 @@
-# importing the requests library
+
 import sys, subprocess, os.path
 from os import path
 
@@ -19,11 +19,17 @@ filePrefix = "data/" + prefix + "/" + prefix + "-"
 
 def audioToVideo():
     imageFile = filePrefix + format(count, '03d') + "-" + targetLanguage + ".jpg"
-    audioFilePrefix = filePrefix + format(count, '03d') + "-2" + targetLanguage + "-" + sourceLanguage
-    audioFile = audioFilePrefix + ".m4a"
-    videoFile = audioFilePrefix + ".mp4"
-    if not path.exists(videoFile) and path.exists(imageFile):
-        subprocess.call(["ffmpeg", "-y", "-loop", "1", "-i", imageFile, "-i", audioFile, "-c:v", "libx264", "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p", "-shortest", videoFile])
+    audioFilePrefix1 = filePrefix + format(count, '03d') + "-1o" + targetLanguage
+    audioFilePrefix2 = filePrefix + format(count, '03d') + "-2" + targetLanguage + "-" + sourceLanguage
+    audioFile1 = audioFilePrefix1 + ".m4a"
+    videoFile1 = audioFilePrefix1 + ".mp4"
+    audioFile2 = audioFilePrefix2 + ".m4a"
+    videoFile2 = audioFilePrefix2 + ".mp4"
+    if path.exists(imageFile):
+        if not path.exists(videoFile1):
+            subprocess.call(["ffmpeg", "-y", "-loop", "1", "-i", imageFile, "-i", audioFile1, "-c:v", "libx264", "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p", "-shortest", videoFile1])
+        if not path.exists(videoFile2):
+            subprocess.call(["ffmpeg", "-y", "-loop", "1", "-i", imageFile, "-i", audioFile2, "-c:v", "libx264", "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p", "-shortest", videoFile2])
 
 for line in lines:
     if "-->" in line:
@@ -36,10 +42,12 @@ count = count + 1
 
 for i in range(1, count):
     imageFile = filePrefix + format(i, '03d') + "-" + targetLanguage + ".jpg"
-    audioFilePrefix = filePrefix + format(i, '03d') + "-2" + targetLanguage + "-" + sourceLanguage
-    audioFile = audioFilePrefix + ".m4a"
-    subprocess.call(["rm", "-f", audioFile])
+    audioFilePrefix1 = filePrefix + format(i, '03d') + "-1o" + targetLanguage
+    audioFilePrefix2 = filePrefix + format(i, '03d') + "-2" + targetLanguage + "-" + sourceLanguage
+    audioFile1 = audioFilePrefix1 + ".m4a"
+    audioFile2 = audioFilePrefix2 + ".m4a"
+    subprocess.call(["rm", "-f", audioFile1])
+    subprocess.call(["rm", "-f", audioFile2])
     subprocess.call(["rm", "-f", imageFile])
 
 file.close()
-
