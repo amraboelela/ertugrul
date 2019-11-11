@@ -18,6 +18,14 @@ if [ ! -f data/ertugrul-$season-$paddedEpisode-$language.jpg ]; then
         mv *\ $episode*.jpg data/ertugrul-$season-$paddedEpisode-$language.jpg
     fi
 fi
+if [ ! -f data/ertugrul-$season-$paddedEpisode-o$language.m4a ]; then
+    youtube-dl -f 140 $url
+    if [ $language == "tr" ]; then
+        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.m4a data/ertugrul-$season-$paddedEpisode-o$language.m4a
+    elif [  $language == "ar" ]; then
+        mv *\ $episode*.m4a data/ertugrul-$season-$paddedEpisode-o$language.m4a
+    fi
+fi
 if [ ! -f data/ertugrul-$season-$paddedEpisode-o$language.mp4 ]; then
     youtube-dl $url
     if [ $language == "tr" ]; then

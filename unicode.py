@@ -1,4 +1,4 @@
-# importing the requests library
+
 import json, sys, subprocess, requests, re
 
 if len(sys.argv) > 1:

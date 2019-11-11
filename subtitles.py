@@ -1,4 +1,4 @@
-# importing the requests library
+
 import sys, subprocess, os.path
 from os import path
 
@@ -85,10 +85,10 @@ def writeToSubtitlesFile(paragraph1, color1, paragraph2, color2):
     durationIndex = durationIndex + 1
 
 for i in range(0, len(sourceParagraphs)):
-    writeToSubtitlesFile(sourceParagraphs[i], "white", "", "")
+    writeToSubtitlesFile(sourceParagraphs[i], "yellow", "", "")
     videoFile = "data/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
     if path.exists(videoFile):
-        writeToSubtitlesFile(targetParagraphs[i], "yellow", sourceParagraphs[i], "white")
+        writeToSubtitlesFile(targetParagraphs[i], "white", sourceParagraphs[i], "yellow")
     else:
         print "videoFile doesn't exist: " + videoFile
 sourceFile.close()

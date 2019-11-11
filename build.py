@@ -20,4 +20,3 @@ for n in range(a, b+1):
     else:
         prefix = title + "-" + s + "-" + format(n, '02d')
     os.system("./buildEpisode " + prefix + " " + sourceLanguage + " " + targetLanguage)
-

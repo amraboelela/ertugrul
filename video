@@ -1,3 +1,4 @@
+#!/bin/bash
 
 prefix=$1
 language=$2

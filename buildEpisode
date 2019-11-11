@@ -1,3 +1,4 @@
+#!/bin/bash
 
 prefix=$1
 sourceLanguage=$2
@@ -24,6 +25,7 @@ else
 fi
 python dictionary.py $prefix $targetLanguage
 python cut.py $prefix 1 $targetLanguage
+exit 0
 python sayWords.py $prefix 2 $targetLanguage
 
 python video2image.py $prefix $targetLanguage
