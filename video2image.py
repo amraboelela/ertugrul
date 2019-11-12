@@ -19,9 +19,9 @@ filePrefix = "data/" + prefix + "/" + prefix + "-"
 
 def videoToImage():
     videoFile = filePrefix + format(count, '03d') + "-1o" + targetLanguage + ".mp4"
+    videoFile2 = filePrefix + format(count, '03d') + "-2" + targetLanguage + "-en.mp4"
     imageFile = filePrefix + format(count, '03d') + "-" + targetLanguage + ".jpg"
-    #audioFile = filePrefix + format(count, '03d') + "-2" + targetLanguage + "-en.m4a"
-    if not path.exists(imageFile):
+    if not path.exists(imageFile) and not path.exists(videoFile2):
         subprocess.call(["ffmpeg", "-y", "-sseof", "-3", "-i", videoFile, "-update", "1", "-q:v", "1", imageFile])
         subprocess.call(["rm", "-f", videoFile])
  
