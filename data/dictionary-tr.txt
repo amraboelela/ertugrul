@@ -36,7 +36,6 @@ akıllıca: wisely
 erkekallah: erkekallah
 neyse: anyways
 sınırlarımıza: our borders
-sorarsan: if you ask
 idare: administration
 anlaşma: contract
 şom: solid
@@ -285,7 +284,7 @@ duyduk: we heard
 olacak: it will be
 sevdi: loved
 buramda: me here
-dizinin: directory
+yüreğiniz: your heart
 elbette: of course
 bunların: these
 nil’den: from nil
@@ -414,7 +413,6 @@ kalbimde: my heart
 dirliğini: the provisions are kept
 selahaddin: saladin
 neredeyiz: where we are
-görülebilir: visible
 topu: ball
 biçarelerin: the wretched
 sevdiğine: he loved
@@ -572,7 +570,6 @@ pusu: ambush
 İt: it
 sendin: you're the one
 asla: never
-çıkaracağım: i will take
 sevilen: popular
 İn: of
 yakalayacağım: i will catch
@@ -613,6 +610,7 @@ orduyu: army
 katilinin: the killer
 noktaları: points
 yapılacak: to do
+soluğa: breath to
 titriyorsunuz: you shaking
 oturamaz: can not sit
 suçlular: criminals
@@ -921,6 +919,7 @@ görmeyeceksin: you will not see
 istiyorsan: if you want
 durma: stop
 kaybettiler: they lost
+bilmezsem: i do not know
 yürüdün: execute
 vermeyeceğiz: we will not
 yedir: feeding
@@ -989,6 +988,7 @@ geleceğim: my future
 konforlu: comfortable
 bakarım: i look
 karşılaşır: encounters
+yapabileceğim: i can do
 koyduk: we put
 koydum: i put
 koydun: you put
@@ -1096,6 +1096,7 @@ grup: group
 İlk: first
 korkusuyla: fear
 enfekte: infected
+bakılırsa: judging
 önümüzde: ahead
 isterdi: he would have liked
 başaramadık: we could
@@ -1118,6 +1119,7 @@ dinleneceğiz: we shall rest
 ejderhanın: the dragon
 bunlarda: in these
 meğer: meğer
+araştırmaya: to research
 şahittir: it is witness
 ertuğrul'da: in ertuðrul
 kuran: koran
@@ -1234,7 +1236,6 @@ kutlamak: celebrate
 dönecekler: will return
 kırılırsın: you break
 baybora'nın: the baybora
-hizmetlerinizi: your service
 hayatımız: our life
 kontrol: control
 dinleyemem: i can not listen
@@ -1500,8 +1501,8 @@ bulunduğunda: when found
 hazırlıkları: preparations
 alamıyoruz: we can not get
 şerri: evil
-açlık: hunger
-soluğa: breath to
+“hayır: &quot;no
+hizmetlerinizi: your service
 yüzden: why
 ertelemek: reprieve
 yay: arrow
@@ -1926,6 +1927,7 @@ olduğundan: because
 noktaya: point
 konuşuyor: speaking
 Çünkü: because
+savaşçının: warrior
 yastıkta: the pillow
 çıkarmamız: our removal
 açığa: open to
@@ -1998,7 +2000,6 @@ kurulur: board
 çemberini: circle the
 tuttuklarının: they keep
 almalıyım: i have to get
-selamlasın: hail
 bölge: region
 alışınca: accustomed
 Şehre: city
@@ -2020,7 +2021,7 @@ almayı: take
 koçyiğitlerin: koçyiğit of
 sığındı: he took refuge
 yazıklar: shame on
-dadanır: haunt is
+harcayamam: i can not spend
 kavga: fight
 otağına: tent to
 görevlendirdim: i have appointed
@@ -2068,7 +2069,7 @@ götürdün: you take
 gönderebilecek: can send
 senelerce: for years
 bitecek: will end
-şehirlerde: cities in
+şehirlerde: in cities
 arkada: behind
 sıkıntıda: stranded
 düşündüğün: you think
@@ -2108,6 +2109,7 @@ istemiyor: does not want
 savaştın: you fought
 ödeyeceksin: you'll pay
 bilinemez: not known
+dökmelerini: the cast
 dünyasına: the world
 tutuklandı: arrested
 oturmaktan: to sit
@@ -2125,7 +2127,6 @@ yazıya: type
 benliklerinizin: your self
 dövülmediyse: if beaten
 duracak: will stand
-hayvanlar: animals
 devşir: are recruited
 toplanıp: collected
 kaçsın: are few
@@ -2241,7 +2242,7 @@ eminim: i am sure
 emirlerini: the commandments
 yaranı: wound
 diyecek: i will say
-beklemezdim: i did not expect
+güvercin: pigeon
 toygar'dan: from meeting
 anladım: i understand
 anladın: you understand
@@ -2293,7 +2294,6 @@ yollardayız: on the road
 ulaşmaya: reach
 yönlendiremezsin: you direct the
 doğrusu: actually
-harcayamam: i can not spend
 değişikliği: change
 yiğitlerin: the valiant
 yiğitlerim: my brave
@@ -2388,6 +2388,7 @@ katılmamı: my participation
 Şam: damascas
 yaymaya: spread
 girmeden: without
+türkmenlerin: of turkmen
 konuşabilir: can speak
 ilgilenirken: dealing
 bebeğim: my baby
@@ -2489,7 +2490,6 @@ elçilerinin: envoys
 bilgi: information
 aşiretler: tribes
 küçülmüştür: shrank
-hanedanlarından: the dynasty
 giovanni: giovanni
 bilge: wise
 düğünü: wedding
@@ -2605,6 +2605,7 @@ söyleyeceğini: he would
 İntikamımı: revenge
 sopasını: stick
 arkamıza: behind us
+yiğitlerimiz: our valiant
 yerin: the place
 madencilerin: miners
 denizine: the sea
@@ -2865,7 +2866,7 @@ göğsümüzü: our chest
 arar: search
 düzenleme: arrangement
 haçlı: crusader
-bilmezsem: i do not know
+selamlasın: hail
 olurdun: you'd
 rahman: rahman
 olurduk: we would
@@ -2907,7 +2908,6 @@ kırıklığına: disappointed
 herhâlde: i suppose
 zoraki: forced
 vücuda: the body
-alparslan: alparslan
 oğlumu: my son
 sorumlusu: responsible for
 bağdat'a: baghdad to
@@ -3028,6 +3028,7 @@ karmaşık: complex
 ettiğinde: when
 ertuğrul'un: ertuğrul'un
 çekinmeyeceğiz: we will not hesitate
+açlık: hunger
 herkesten: from everyone
 kıpraşıp: kıpraşıp
 oturduğu: his seat
@@ -3057,6 +3058,7 @@ diyorsun: you say
 hareketli: active
 gelmelerini: arrive at the
 yetişmez: yetişmez
+bunun: it
 kaçacaklarmış: how many they'il
 yolcu'sun: you passengers
 tutuyorlar: they're keeping
@@ -3170,9 +3172,8 @@ hala: still
 tugrul'un: the tugrul
 anası: mother
 hali: status
-süleyman’a: solomon
 alimallah: alimallah
-karıştıracakları: will stir
+şeyin: thing
 hükmetti: he ruled
 soylular: nobility
 dolaş: around
@@ -3264,7 +3265,7 @@ belada: in trouble
 orospu: bitch
 hâldedir: is still
 kubbeyi: dome
-göçebe: wandering
+bırakmaya: leave
 titus'a: titus to
 ruhumu: my soul
 milletin: the nation
@@ -3382,7 +3383,7 @@ enerjimi: my energy
 umutlarını: hope
 çadır: tent
 titriyorsun: you're shaking
-savaşçının: warrior
+hayvanlar: animals
 bozdu: overturned
 alacalı: mottled
 ih: exp
@@ -3391,7 +3392,7 @@ ih: exp
 sesi: sound
 cenazelerimizi: our funeral
 turgut'umla: with turgut'u
-duyacak: will hear
+hakimiyetin: the dominance
 deresi'nde: in stream
 vazifemi: my task
 olayın: event
@@ -3564,7 +3565,7 @@ bilmesen: i did not know that
 utanmadan: shamelessly
 geçişi: transition
 paralık: penny
-agabey: brother
+heybemize: our saddlebags
 mutlusun: you are happy
 üstelik: moreover
 uçuyor: fly
@@ -3872,7 +3873,7 @@ ediyorlar: they're
 yapabilir: can
 alplerime: my alps
 kaç: escape
-kalabilir: may remain
+kendinde: himself
 alplerimi: alps me
 oyunu: game
 gözlerin: eyes
@@ -3930,7 +3931,7 @@ kat: floor
 öğrendim: i learned
 sayısından: number of
 öğrendik: we learned
-güvercin: pigeon
+beklemezdim: i did not expect
 yapmıştı: he had made
 babamın: my fathers
 basmaları: the press
@@ -3994,7 +3995,7 @@ yararınız: your benefits
 inkar: denial
 beklediğimi: i expect
 düşündün: you think
-düşündüm: i thought
+evlatlarımız: our son
 engel: obstacle
 rahmetullahi: rahmatullāhi
 saniye: second
@@ -4084,6 +4085,7 @@ arkadaşlık: friendship
 temizle: clean
 feda: sacrifice
 sağır: deaf
+duyacak: will hear
 bacımın: my sisters
 kışlada: the barracks
 gökten: heaven
@@ -4146,6 +4148,7 @@ sahabettin'in: the şahabettin
 atlattık: we have survived
 sanırsın: wouldst
 bırakamayız: we can not leave
+dadanır: haunt is
 görünüyorsunuz: you seem
 İzin: permission
 gözlerinizi: your eyes
@@ -4412,7 +4415,7 @@ sene: year
 süreceğim: i will
 sessizce: quietly
 sözüne: promise to
-araştırmaya: to research
+alparslan: alparslan
 büyüdüğümde: when i grow up
 şenlik: festival
 beş: five
@@ -4538,10 +4541,9 @@ ayağına: foot
 fikir: idea
 çağırmadan: calling
 elçi: envoy
-partiyi: party
 döndün: you're back
 döndüm: i returned
-evlatlarımız: our son
+düşündüm: i thought
 saklamak: hide
 çadırından: the tent
 dönmüş: frozen
@@ -4693,7 +4695,7 @@ toprağımız: our land
 daim: recycle
 dönmesini: return the
 dönmesine: return to
-hı: what
+hı: hı
 öldürün: kill
 katillersin: you killer
 bundandır: is that
@@ -4827,7 +4829,7 @@ saladin: saladin
 çadıra: tent
 pusatlarımızı: our pusat
 kervanımız: our caravan
-imana: faith in
+imana: in faith
 göster: show
 Ölümü: death
 kötüdür: it is bad
@@ -4846,7 +4848,6 @@ gelirler: revenues
 neymiş: neymiş
 oyuyoruz: we gouging
 hayvanlarımız: our animals
-hakimiyetin: the dominance
 kaçacağız: we'll take it
 bittiği: ended the
 kumaş: fabric
@@ -4937,7 +4938,7 @@ gönderemem: i can not send
 konuşmalıyız: we need to talk
 yaptığım: i made
 Üstad: master
-çare: resort
+çare: cure
 görmesi: see
 kaybınız: your loss
 kölem: i slaves
@@ -5043,6 +5044,7 @@ ederse: if the
 kudüs'e: to jerusalem
 yüzünü: his face
 sormuş: he asked
+moğollardan: the mongols
 gömdüm: i buried
 yakmak: burn
 dururmuş: he stops
@@ -5132,7 +5134,6 @@ yediğimizden: we eat
 görevlerde: the task
 sallaya: waved
 velakin: velakin
-“hayır: &quot;no
 saklamamanı: new storage
 gücüm: power
 boyası: paint
@@ -5351,7 +5352,6 @@ veda: farewell
 Şeref: honor
 ilerledikçe: progressively
 sayende: thanks
-şöyle: as
 yaşıyorsa: if he is experiencing
 abla'yı: sister
 dönersin: you can go
@@ -5435,7 +5435,7 @@ gözünün: the eye
 çek: check
 yazdığı: he wrote
 giremezlerdi: they would enter
-heybemize: our saddlebags
+agabey: brother
 çarpacaktı: would multiply
 gördüğünde: when he saw
 işkence: torture
@@ -5956,13 +5956,13 @@ otağımızda: our otag
 göçemezsek: if we do not migrating
 uyulursa: if compliance
 çukurun: the pit
-türkmenlerin: of turkmen
+partiyi: party
 İşlerini: jobs
 sesin: sound
 gücü: power
 aşkı: hanger
 halep'te: in halep
-olmaya: not to
+sesseni: sound you
 neden: why is that
 elindeki: in your hand
 nefesini: breath
@@ -6004,7 +6004,7 @@ düşünerek: thinking
 kalksın: get up
 karavanların: the caravan
 dilden: the language
-Üç: three
+buralarda: here
 kalırsak: if we stay
 geçirecek: will spend
 bey’e: bey
@@ -6257,7 +6257,7 @@ köşkte: the pavilion
 bozkırın: the steppe
 neresi: where
 kardeşimizi: our brother
-yiğitlerimiz: our valiant
+şöyle: as
 öğrenmen: learning
 yapsak: we do
 öğrenmek: learn
@@ -6308,7 +6308,7 @@ sabırlı: patient
 para: money
 başüstüne: aye sir
 sarayımın: my palace
-yapabileceğim: i can do
+görülebilir: visible
 etmeyin: do not
 yabanilik: savagery
 yılkı: year's
@@ -6403,7 +6403,7 @@ binenin: thousand of
 içinde: in
 haberler: news
 kılıcı: sword
-mevzuları: matters in
+mevzuları: matters
 almıştır: took
 çıkarmadan: removing
 kalkamıyorum: i can not get up
@@ -6427,7 +6427,7 @@ alp'in: the mountaineering
 gerekirse: if necessary
 bildiriver: bildiriv is
 acıyı: pain
-moğollardan: the mongols
+çıkaracağım: i will take
 fiyonkunu: bowtie
 fısıldatacağım: i'll fısıldat
 söylerler: they say
@@ -6435,7 +6435,7 @@ yalanları: lies
 iki: two
 malzemelerini: the material
 kazanları: boilers
-dönsünler: they returned
+gülüm: honey
 bastı: raided
 sultan: sultan
 gençler: youth
@@ -6802,7 +6802,7 @@ tırnağıyla: the quotation
 budur: this is
 devletmiş: that state
 birlikteydin: you were with
-sesseni: sound you
+olmaya: not to
 nimettir: it is blessing
 insanın: people
 ayarlarına: the setting
@@ -7040,7 +7040,7 @@ yerleştirdiler: they put
 gerçekleri: facts
 etmişsin: you've been
 akılını: the mind
-buralarda: here
+Üç: three
 oyulaydı: it was carved
 çıkacaklar: will be going
 anılar: memories
@@ -7071,7 +7071,7 @@ alpler: alps
 burada: here
 rahattın: you comfortable
 denir: called
-konstantiniyye'yi: constantinople in
+konstantiniyye'yi: in constantinople
 çapul: booty
 gerekmeyecekti: would not need
 odaklanabilir: focusable
@@ -7103,7 +7103,7 @@ cehennemde: hell
 ettiğimi: i've
 bulduklarına: they found
 kulağım: my ears
-tutuyor: holding
+hanedanlarından: the dynasty
 atadan: from ancestors
 becerebilecekler: be able to fuck
 eşyaları: goods
@@ -7575,7 +7575,7 @@ ağa: network
 geçen: last
 görseydi: he had seen
 gözü: eye
-eyvallah: thank you
+eyvallah: by Allah
 vazgeçmek: give up
 öldürdüğünüz: you killed
 dayı: uncle
@@ -7735,7 +7735,6 @@ madem: since
 kartal: eagle
 ağabeyimi: my brother
 sunmak: offer
-kanat: wing
 korkusu: fear
 hazırlığı: preparation
 ağabeyime: my brother
@@ -7918,7 +7917,6 @@ göstermeden: without showing
 ertuğrul'dur: it is ertuðrul
 umuyorsun: do you
 renkler: colors
-duyuyorsanız: if you
 torunumuz: our grandson
 çığlıkları: cries
 selamlarımı: my greetings
@@ -7931,7 +7929,8 @@ dönemezsem: i do not rotate
 demek: say
 demem: i also
 demen: demen
-sonunda: finally
+sorarsan: if you ask
+dostlarım: my hearties
 yolculuktan: the journey
 zindanlara: the dungeon
 verildi: he was given
@@ -7968,7 +7967,7 @@ bırakacaksınız: you will leave
 kelimeler: words
 bırakacaksın: you leave
 kaybolduğu: disappeared
-gezginleriz: 're travelers
+İçimi: smoking
 artıkları: residues
 pürüzsüz: smooth
 inerken: descends
@@ -8026,6 +8025,7 @@ yaşatmaz: yaşatmaz
 başladığı: began
 uğratma: do not let
 demeyin: do not say
+yaparım: i do
 titremeye: tremble
 geldiğimi: i come
 gelsene: come on
@@ -8033,7 +8033,7 @@ baskından: the raid
 vatanımızı: our homeland
 yurdun: the country
 arayacağım: i will call
-bakılması: to look
+gizlediğini: he hides
 suçlanıyor: accused
 Şehzadenin: the prince
 dileğim: my wish
@@ -8061,7 +8061,7 @@ niyetim: my intention
 Öldürseniz: if you die
 hİkayeler: stories
 geçmek: pass
-tutuyordur: are holding
+anlaştık: agreed
 gidiyor: going
 geçmen: do not go
 sonrasını: after the
@@ -8069,7 +8069,7 @@ nöbetçi: guard
 yaparız: we do
 eniştem: my uncle
 toplayın: gather
-yaparım: i do
+duyuyorsanız: if you
 sakın: do not
 yalancılar: liars
 bağdat'ta: in baghdad
@@ -8110,7 +8110,7 @@ yürür: walks
 güzelleşti: i flourish
 hepsine: to all of them
 yüzünden: because
-tacirin: the traffickers
+gayrı: non
 zorluğun: difficulty
 bunalttı: troubled
 utanç: shame
@@ -8122,7 +8122,7 @@ boyundan: neck
 farklı: different
 ağırlığını: weight
 müşkülüm: my predicament
-kendinde: himself
+kalabilir: may remain
 müşkülün: the chancery
 durdurmadı: stopped
 suçluyorsun: blame you
@@ -8168,7 +8168,7 @@ almıştı: had received
 gözlerimle: my eyes
 atasının: of ancestors
 gereği: should
-yüreğiniz: your heart
+dizinin: directory
 dertleriyle: trouble with
 bırakamam: can not leave
 İstihbarat: intelligence
@@ -8374,7 +8374,7 @@ gölgesinde: in the shade
 devlet: state
 kurtulmak: escape
 buradayım: buradayım
-dostlarım: my hearties
+tutuyor: holding
 alacağını: will
 buradayız: we are here
 kurusun: get dry
@@ -8603,7 +8603,7 @@ miyiz: can
 hasara: damage
 şüpheleri: doubts
 günü: day
-hiçbir: no
+hiçbir: what's up
 fışkırıyor: squirt
 sus: ornamental
 Ölürken: dying
@@ -8674,7 +8674,7 @@ müslümanların: muslims
 şüphelenemeyeceği: not suspected
 dışında: outside
 eder: it
-bunun: it
+sonunda: finally
 kahramanlık: heroism
 yemeği: food
 avrupa'nın: europe
@@ -8698,7 +8698,7 @@ oturan: sitting
 sessizlik: silence
 konuşsana: talk to me
 ordusuyla: the army
-dökmelerini: the cast
+süleyman’a: solomon
 gönderse: if sending
 sıkıcı: boring
 yedi: seven
@@ -8715,7 +8715,7 @@ alpleriyle: the alps
 teke: goat
 yerleştirilebilir: can be placed
 kulağında: ear
-bırakmaya: leave
+göçebe: wandering
 kışlak: overwintering
 şerefimdir: it is my honor
 merhemiydi: it was ointment
@@ -8913,7 +8913,7 @@ hatta: even
 götürebilirim: i can take
 eğilimim: i tend to
 mecalsizdir: uzdur mecals
-İçimi: smoking
+gezginleriz: 're travelers
 gücünü: power
 yalanlardan: of lies
 içeri: inside
@@ -9190,7 +9190,7 @@ kimselerde: in one
 söylediklerimin: what i say
 moğollar: moğollar
 misafirlerimizi: our guests
-bakılırsa: judging
+kanat: wing
 gâiubûn: gâiubûn
 lafın: the word
 dualarım: my prayer
@@ -9290,7 +9290,7 @@ rabbil: rabbil
 rabbim: my god
 çarpık: crooked
 besledikleri: they feed
-gizlediğini: he hides
+bakılması: to look
 bilecek: will know
 toplayıp: picking
 değilsin: you are not
@@ -9480,7 +9480,7 @@ numan'ı: numai
 girmeyeceğini: would enter
 unutalı: forget the
 vermek: give
-anlaştık: agreed
+tutuyordur: are holding
 denk: equivalent
 gelenin: incoming
 oğlu'nu: his son
@@ -9596,7 +9596,7 @@ kuralları: rules
 bitene: finished until
 hancı: innkeeper
 duyar: hears
-gülüm: honey
+dönsünler: they returned
 ister: either
 gümrüklerimizde: our customs
 beyimin: my brain
@@ -9683,7 +9683,7 @@ fitilin: suppository
 ummulhayl: ummulhayl
 bekir: bekir
 üstesinden: overcome
-şeyin: thing
+karıştıracakları: will stir
 utanmaz: shameless
 inanıyorum: i believe
 gençlerde: young people
@@ -9743,7 +9743,7 @@ beraberliğin: togetherness
 tanıştırmak: introduce
 kuvvetli: powerful
 kalmayacaktır: will remain
-gayrı: non
+tacirin: the traffickers
 süt: milk
 öz: self
 senelerdir: for years

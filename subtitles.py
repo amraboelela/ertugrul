@@ -71,7 +71,7 @@ def writeToSubtitlesFile(paragraph1, color1, paragraph2, color2):
     subtitlesFile.write(str(durationIndex) + "\n")
     startTimeString = timeString(startTimeFloat)
     if durationIndex < len(durations):
-        duration = float(durations[durationIndex]) + 0.010
+        duration = float(durations[durationIndex])
         startTimeFloat = startTimeFloat + duration
         endTimeString = timeString(startTimeFloat)
     else:
@@ -98,4 +98,3 @@ subtitlesFile.close()
 os.system("mv data/" + prefix + ".mp4 data/" + prefix + "~.mp4")
 os.system("ffmpeg -i data/" + prefix + "~.mp4 -i " + subtitlesPath + " -c copy -c:s mov_text data/" + prefix + ".mp4")
 os.system("rm data/" + prefix + "~.mp4")
-
