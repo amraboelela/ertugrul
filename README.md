@@ -57,4 +57,3 @@ $ ./clean 1 3 en ar
 **Description:**
 
 Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Arabic. 
-
