@@ -14,6 +14,15 @@ $ sudo pip install requests
 brew install ffmpeg
 ```
 
+- Install handbreak CLI:
+
+```
+$ /usr/bin/ruby -e "$(/usr/bin/curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+$ /usr/bin/ruby -e "$(/usr/bin/curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew install handbreak
+
+```
+
 To install latest version of ffmpeg:
 
 ```
