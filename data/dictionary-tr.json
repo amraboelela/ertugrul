@@ -127,6 +127,10 @@
         "en": "with mountaineering", 
         "update": false
     }, 
+    "k\u0131sm\u0131": {
+        "en": "partial", 
+        "update": false
+    }, 
     "sesuyan": {
         "en": "sound fits", 
         "update": true
@@ -935,10 +939,6 @@
         "en": "our souls", 
         "update": false
     }, 
-    "anla\u015ft\u0131k": {
-        "en": "agreed", 
-        "update": true
-    }, 
     "kay\u0131": {
         "en": "registration of", 
         "update": false
@@ -1167,8 +1167,8 @@
         "en": "me here", 
         "update": true
     }, 
-    "dizinin": {
-        "en": "directory", 
+    "y\u00fcre\u011finiz": {
+        "en": "your heart", 
         "update": true
     }, 
     "elbette": {
@@ -1245,6 +1245,10 @@
     }, 
     "s\u00f6nd\u00fcrecek": {
         "en": "will put", 
+        "update": false
+    }, 
+    "kar\u0131\u015ft\u0131racaklar\u0131": {
+        "en": "will stir", 
         "update": false
     }, 
     "i\u015faret": {
@@ -2211,6 +2215,10 @@
         "en": "our h", 
         "update": true
     }, 
+    "bak\u0131lmas\u0131": {
+        "en": "to look", 
+        "update": true
+    }, 
     "sayg\u0131": {
         "en": "respect", 
         "update": true
@@ -2298,10 +2306,6 @@
     "d\u00fc\u015f\u00fcnmeyecek": {
         "en": "thinking that", 
         "update": true
-    }, 
-    "ak\u00e7akoca'n\u0131n": {
-        "en": "the ak\u00e7akoca", 
-        "update": false
     }, 
     "pusu": {
         "en": "ambush", 
@@ -2481,7 +2485,7 @@
     }, 
     "oturamaz": {
         "en": "can not sit", 
-        "update": true
+        "update": false
     }, 
     "su\u00e7lular": {
         "en": "criminals", 
@@ -2766,10 +2770,6 @@
     "odur": {
         "en": "it is", 
         "update": true
-    }, 
-    "kilimhaneye": {
-        "en": "kilimhane to", 
-        "update": false
     }, 
     "sesleri": {
         "en": "sounds", 
@@ -3763,10 +3763,6 @@
         "en": "bride", 
         "update": true
     }, 
-    "s\u0131rlar": {
-        "en": "secrets", 
-        "update": true
-    }, 
     "birini": {
         "en": "one", 
         "update": true
@@ -3797,10 +3793,6 @@
     }, 
     "susup": {
         "en": "shut up", 
-        "update": false
-    }, 
-    "dediklerimi": {
-        "en": "also what", 
         "update": false
     }, 
     "d\u00fc\u011f\u00fcn\u00fcn": {
@@ -5239,10 +5231,6 @@
         "en": "i throw", 
         "update": true
     }, 
-    "\u015feyin": {
-        "en": "thing", 
-        "update": false
-    }, 
     "do\u011fruyu": {
         "en": "right", 
         "update": true
@@ -5891,10 +5879,6 @@
         "en": "his palace", 
         "update": false
     }, 
-    "gelmez": {
-        "en": "does not", 
-        "update": false
-    }, 
     "hizipler": {
         "en": "factions", 
         "update": true
@@ -5946,6 +5930,10 @@
     "bulurlar": {
         "en": "they found", 
         "update": false
+    }, 
+    "katiller": {
+        "en": "killers", 
+        "update": true
     }, 
     "turgut'um": {
         "en": "i turgut", 
@@ -6043,12 +6031,12 @@
         "en": "evil", 
         "update": true
     }, 
-    "\u201chay\u0131r": {
-        "en": "&quot;no", 
-        "update": true
+    "a\u00e7l\u0131k": {
+        "en": "hunger", 
+        "update": false
     }, 
-    "hizmetlerinizi": {
-        "en": "your service", 
+    "solu\u011fa": {
+        "en": "breath to", 
         "update": true
     }, 
     "y\u00fczden": {
@@ -6271,6 +6259,10 @@
         "en": "you gave", 
         "update": false
     }, 
+    "felaketidir": {
+        "en": "disaster is", 
+        "update": false
+    }, 
     "felaket": {
         "en": "disaster", 
         "update": false
@@ -6306,10 +6298,6 @@
     "u\u011frayaca\u011f\u0131m": {
         "en": "i'm gonna stop", 
         "update": false
-    }, 
-    "dualar": {
-        "en": "prayers", 
-        "update": true
     }, 
     "g\u00fcvenmiyor": {
         "en": "does not trust", 
@@ -6763,10 +6751,6 @@
         "en": "you opened", 
         "update": true
     }, 
-    "gizledi\u011fini": {
-        "en": "he hides", 
-        "update": true
-    }, 
     "cesurlar\u0131m": {
         "en": "my brave", 
         "update": true
@@ -7078,6 +7062,10 @@
     "arsalar\u0131na": {
         "en": "plot to", 
         "update": true
+    }, 
+    "\u00fcstl\u00fck": {
+        "en": "seniority", 
+        "update": false
     }, 
     "&quot;": {
         "en": "&quot;", 
@@ -7595,6 +7583,10 @@
         "en": "when you want", 
         "update": true
     }, 
+    "ataca\u011f\u0131n\u0131": {
+        "en": "it would take", 
+        "update": false
+    }, 
     "karde\u015flerimizin": {
         "en": "our brothers", 
         "update": true
@@ -7663,9 +7655,9 @@
         "en": "the humming", 
         "update": true
     }, 
-    "hafif": {
-        "en": "light", 
-        "update": true
+    "kusura": {
+        "en": "defect", 
+        "update": false
     }, 
     "cezaland\u0131r\u0131rd\u0131m": {
         "en": "i punish", 
@@ -7843,10 +7835,6 @@
         "en": "completely", 
         "update": true
     }, 
-    "\u0130\u00e7imi": {
-        "en": "smoking", 
-        "update": true
-    }, 
     "adamlar\u0131n": {
         "en": "men", 
         "update": false
@@ -7971,9 +7959,9 @@
         "en": "from disaster", 
         "update": true
     }, 
-    "umrunda": {
-        "en": "cares", 
-        "update": true
+    "ka\u00e7\u0131n": {
+        "en": "avoid", 
+        "update": false
     }, 
     "gibiyim": {
         "en": "i'm like", 
@@ -8111,9 +8099,9 @@
         "en": "solomon", 
         "update": true
     }, 
-    "harcayamam": {
-        "en": "i can not spend", 
-        "update": true
+    "dadan\u0131r": {
+        "en": "haunt is", 
+        "update": false
     }, 
     "ceylanla": {
         "en": "gazelle", 
@@ -8979,8 +8967,8 @@
         "en": "i will say", 
         "update": true
     }, 
-    "g\u00fcvercin": {
-        "en": "pigeon", 
+    "beklemezdim": {
+        "en": "i did not expect", 
         "update": false
     }, 
     "toygar'dan": {
@@ -9339,8 +9327,8 @@
         "en": "can you be", 
         "update": true
     }, 
-    "yiyece\u011fimiz": {
-        "en": "we eat", 
+    "umrunda": {
+        "en": "cares", 
         "update": true
     }, 
     "s\u0131rada": {
@@ -9588,8 +9576,8 @@
         "update": true
     }, 
     "abd\u00fclkadir": {
-        "en": "abdulkadir", 
-        "update": true
+        "en": "abd\u00fclkadir", 
+        "update": false
     }, 
     "ku\u015fanan\u0131n": {
         "en": "put on the", 
@@ -10595,10 +10583,6 @@
         "en": "consume", 
         "update": true
     }, 
-    "borcudur": {
-        "en": "the debt", 
-        "update": true
-    }, 
     "masallar": {
         "en": "tales", 
         "update": false
@@ -10769,10 +10753,6 @@
     }, 
     "\u00c7at\u0131r": {
         "en": "roof", 
-        "update": false
-    }, 
-    "\u00c7ekil": {
-        "en": "get out", 
         "update": false
     }, 
     "allameye": {
@@ -11175,9 +11155,9 @@
         "en": "in the eyes", 
         "update": false
     }, 
-    "\u00fcstl\u00fck": {
-        "en": "seniority", 
-        "update": false
+    "borcudur": {
+        "en": "the debt", 
+        "update": true
     }, 
     "\u00f6deyeceksiniz": {
         "en": "will pay", 
@@ -11463,8 +11443,8 @@
         "en": "mecalsiz", 
         "update": false
     }, 
-    "selamlas\u0131n": {
-        "en": "hail", 
+    "bilmezsem": {
+        "en": "i do not know", 
         "update": true
     }, 
     "olurdun": {
@@ -11494,6 +11474,10 @@
     "bahsettiniz": {
         "en": "you mentioned", 
         "update": true
+    }, 
+    "beysiz": {
+        "en": "beys", 
+        "update": false
     }, 
     "g\u00f6r\u00fcns\u00fcn": {
         "en": "you seem", 
@@ -11617,6 +11601,10 @@
     }, 
     "v\u00fccudu": {
         "en": "her body", 
+        "update": true
+    }, 
+    "of": {
+        "en": "ugh", 
         "update": true
     }, 
     "\u00f6zg\u00fcrce": {
@@ -11743,8 +11731,8 @@
         "en": "we see", 
         "update": true
     }, 
-    "geceden": {
-        "en": "the night", 
+    "varm\u0131\u015f": {
+        "en": "had", 
         "update": false
     }, 
     "\u00e7ifte": {
@@ -12355,10 +12343,6 @@
         "en": "progeny", 
         "update": true
     }, 
-    "koca": {
-        "en": "husband", 
-        "update": false
-    }, 
     "unutturdu": {
         "en": "to forget", 
         "update": false
@@ -12683,8 +12667,8 @@
         "en": "alimallah", 
         "update": false
     }, 
-    "kar\u0131\u015ft\u0131racaklar\u0131": {
-        "en": "will stir", 
+    "\u015feyin": {
+        "en": "thing", 
         "update": false
     }, 
     "h\u00fckmetti": {
@@ -12694,10 +12678,6 @@
     "cesur": {
         "en": "brave", 
         "update": false
-    }, 
-    "niyetleri": {
-        "en": "intentions", 
-        "update": true
     }, 
     "dola\u015f": {
         "en": "around", 
@@ -12722,10 +12702,6 @@
     "\u00c7in'de": {
         "en": "in china", 
         "update": false
-    }, 
-    "sesseni": {
-        "en": "sound you", 
-        "update": true
     }, 
     "el": {
         "en": "hand", 
@@ -13063,8 +13039,8 @@
         "en": "dome", 
         "update": false
     }, 
-    "g\u00f6\u00e7ebe": {
-        "en": "wandering", 
+    "b\u0131rakmaya": {
+        "en": "leave", 
         "update": true
     }, 
     "titus'a": {
@@ -13483,10 +13459,6 @@
         "en": "barker", 
         "update": false
     }, 
-    "hayatta": {
-        "en": "in life", 
-        "update": false
-    }, 
     "rahminde": {
         "en": "in the womb", 
         "update": true
@@ -13559,9 +13531,9 @@
         "en": "you're shaking", 
         "update": true
     }, 
-    "hayvanlar": {
-        "en": "animals", 
-        "update": false
+    "sava\u015f\u00e7\u0131n\u0131n": {
+        "en": "warrior", 
+        "update": true
     }, 
     "bozdu": {
         "en": "overturned", 
@@ -13595,8 +13567,8 @@
         "en": "with turgut'u", 
         "update": false
     }, 
-    "hakimiyetin": {
-        "en": "the dominance", 
+    "duyacak": {
+        "en": "will hear", 
         "update": true
     }, 
     "deresi'nde": {
@@ -13775,10 +13747,6 @@
         "en": "not that", 
         "update": false
     }, 
-    "\u00f6\u011frenebildin": {
-        "en": "you learn", 
-        "update": false
-    }, 
     "haklar\u0131n\u0131": {
         "en": "the rights", 
         "update": true
@@ -13851,10 +13819,6 @@
         "en": "nephew", 
         "update": true
     }, 
-    "bulaca\u011f\u0131m": {
-        "en": "i find", 
-        "update": true
-    }, 
     "dedi\u011fini": {
         "en": "it also", 
         "update": true
@@ -13866,10 +13830,6 @@
     "utan\u00e7la": {
         "en": "shame", 
         "update": true
-    }, 
-    "\u015fehzadem": {
-        "en": "my prince", 
-        "update": false
     }, 
     "nereden": {
         "en": "where from", 
@@ -13903,8 +13863,8 @@
         "en": "secret", 
         "update": true
     }, 
-    "felaketidir": {
-        "en": "disaster is", 
+    "h\u00fckmedecek": {
+        "en": "will rule", 
         "update": false
     }, 
     "seviyor": {
@@ -14189,10 +14149,6 @@
     }, 
     "yay\u0131ld\u0131": {
         "en": "spread", 
-        "update": true
-    }, 
-    "neredeydin": {
-        "en": "where have you been", 
         "update": true
     }, 
     "yiyecek": {
@@ -14571,8 +14527,8 @@
         "en": "suleyman", 
         "update": false
     }, 
-    "y\u00fcklemezsin": {
-        "en": "do not install", 
+    "\u00fcst\u00fcne": {
+        "en": "over", 
         "update": false
     }, 
     "\u00d6n\u00fcm\u00fczdeki": {
@@ -14595,10 +14551,6 @@
         "en": "apology", 
         "update": false
     }, 
-    "sokaktan": {
-        "en": "the street", 
-        "update": true
-    }, 
     "yapmam\u0131z": {
         "en": "we do", 
         "update": true
@@ -14618,6 +14570,10 @@
     "n\u00f6bet": {
         "en": "guarding", 
         "update": false
+    }, 
+    "temasta": {
+        "en": "contact", 
+        "update": true
     }, 
     "g\u00f6rd\u00fc\u011f\u00fcmde": {
         "en": "i saw", 
@@ -14846,6 +14802,10 @@
     "k\u0131r\u0131kl\u0131\u011f\u0131ndan": {
         "en": "from disappointment", 
         "update": true
+    }, 
+    "d\u00f6ns\u00fcnler": {
+        "en": "they returned", 
+        "update": false
     }, 
     "ka\u00e7mayacaks\u0131n": {
         "en": "you're gonna escape", 
@@ -15531,8 +15491,8 @@
         "en": "must", 
         "update": false
     }, 
-    "kald\u0131": {
-        "en": "stayed", 
+    "hangi": {
+        "en": "which", 
         "update": false
     }, 
     "ediyorlar": {
@@ -15759,6 +15719,10 @@
         "en": "snow", 
         "update": false
     }, 
+    "a\u00e7an": {
+        "en": "opens", 
+        "update": false
+    }, 
     "koruyun": {
         "en": "protect", 
         "update": true
@@ -15783,8 +15747,8 @@
         "en": "we learned", 
         "update": false
     }, 
-    "beklemezdim": {
-        "en": "i did not expect", 
+    "g\u00fcvercin": {
+        "en": "pigeon", 
         "update": false
     }, 
     "yapm\u0131\u015ft\u0131": {
@@ -16051,9 +16015,9 @@
         "en": "you think", 
         "update": false
     }, 
-    "d\u00fc\u015f\u00fcnd\u00fcm": {
-        "en": "i thought", 
-        "update": false
+    "evlatlar\u0131m\u0131z": {
+        "en": "our son", 
+        "update": true
     }, 
     "engel": {
         "en": "obstacle", 
@@ -16097,6 +16061,10 @@
     }, 
     "kalbim": {
         "en": "my heart", 
+        "update": true
+    }, 
+    "getirdik": {
+        "en": "we brought", 
         "update": true
     }, 
     "do\u011fmadan": {
@@ -16386,10 +16354,6 @@
     "heryerde": {
         "en": "everywhere", 
         "update": true
-    }, 
-    "buralarda": {
-        "en": "here", 
-        "update": false
     }, 
     "korkmas\u0131n": {
         "en": "do not be afraid", 
@@ -16983,10 +16947,6 @@
         "en": "fatal", 
         "update": true
     }, 
-    "yolculuktan": {
-        "en": "the journey", 
-        "update": true
-    }, 
     "yakar": {
         "en": "burns", 
         "update": false
@@ -17079,10 +17039,6 @@
         "en": "people", 
         "update": true
     }, 
-    "atlar\u0131": {
-        "en": "horses", 
-        "update": false
-    }, 
     "tepesi'nin": {
         "en": "the hill is", 
         "update": true
@@ -17135,8 +17091,8 @@
         "en": "hay\u00fdrl\u00fds\u00fd", 
         "update": false
     }, 
-    "kaderimizde": {
-        "en": "our destiny", 
+    "dediklerimi": {
+        "en": "also what", 
         "update": false
     }, 
     "k\u00e2firlerinin": {
@@ -17226,10 +17182,6 @@
     "\u00e7ad\u0131r\u0131n": {
         "en": "the tent", 
         "update": true
-    }, 
-    "ka\u00e7\u0131n": {
-        "en": "avoid", 
-        "update": false
     }, 
     "sald\u0131r\u0131ya": {
         "en": "attack", 
@@ -17715,8 +17667,8 @@
         "en": "promise to", 
         "update": true
     }, 
-    "alparslan": {
-        "en": "alparslan", 
+    "ara\u015ft\u0131rmaya": {
+        "en": "to research", 
         "update": true
     }, 
     "b\u00fcy\u00fcd\u00fc\u011f\u00fcmde": {
@@ -17789,6 +17741,10 @@
     }, 
     "kurtulmalar\u0131": {
         "en": "get rid of", 
+        "update": true
+    }, 
+    "olmaya": {
+        "en": "not to", 
         "update": true
     }, 
     "kurulu": {
@@ -17950,6 +17906,10 @@
     "ormanda": {
         "en": "in the woods", 
         "update": false
+    }, 
+    "yiyece\u011fimiz": {
+        "en": "we eat", 
+        "update": true
     }, 
     "suyu": {
         "en": "water", 
@@ -18195,6 +18155,10 @@
         "en": "upon us", 
         "update": false
     }, 
+    "kolu": {
+        "en": "lever", 
+        "update": false
+    }, 
     "d\u00fc\u015fman\u0131n": {
         "en": "the enemy", 
         "update": true
@@ -18227,9 +18191,9 @@
         "en": "i returned", 
         "update": false
     }, 
-    "evlatlar\u0131m\u0131z": {
-        "en": "our son", 
-        "update": true
+    "d\u00fc\u015f\u00fcnd\u00fcm": {
+        "en": "i thought", 
+        "update": false
     }, 
     "saklamak": {
         "en": "hide", 
@@ -18755,6 +18719,10 @@
         "en": "eyle were unable", 
         "update": false
     }, 
+    "\u00dc\u00e7": {
+        "en": "three", 
+        "update": false
+    }, 
     "meselesiydi": {
         "en": "it was a matter", 
         "update": true
@@ -18826,6 +18794,10 @@
     "hikayelerini": {
         "en": "stories", 
         "update": false
+    }, 
+    "\u0130ftiralar": {
+        "en": "slanders", 
+        "update": true
     }, 
     "topra\u011f\u0131m\u0131z": {
         "en": "our land", 
@@ -19106,6 +19078,10 @@
     "savurdu": {
         "en": "slashed", 
         "update": true
+    }, 
+    "tutuyordur": {
+        "en": "are holding", 
+        "update": false
     }, 
     "bilmeden": {
         "en": "without knowing", 
@@ -20763,6 +20739,10 @@
         "en": "nun", 
         "update": true
     }, 
+    "gezginleriz": {
+        "en": "'re travelers", 
+        "update": true
+    }, 
     "y\u0131lan": {
         "en": "snake", 
         "update": false
@@ -21723,12 +21703,12 @@
         "en": "mention", 
         "update": true
     }, 
-    "h\u00fckmedecek": {
-        "en": "will rule", 
-        "update": false
+    "dualar": {
+        "en": "prayers", 
+        "update": true
     }, 
-    "\u015eeytan": {
-        "en": "satan", 
+    "hayatta": {
+        "en": "in life", 
         "update": false
     }, 
     "alpargu": {
@@ -21785,10 +21765,6 @@
     }, 
     "ekinlerimize": {
         "en": "our crops", 
-        "update": false
-    }, 
-    "kusura": {
-        "en": "defect", 
         "update": false
     }, 
     "g\u00f6z\u00fcn\u00fcn": {
@@ -22235,10 +22211,6 @@
         "en": "muslim", 
         "update": false
     }, 
-    "g\u00fcl\u00fcm": {
-        "en": "honey", 
-        "update": false
-    }, 
     "boynumuzun": {
         "en": "boynumuzun", 
         "update": false
@@ -22271,9 +22243,9 @@
         "en": "catch", 
         "update": true
     }, 
-    "a\u00e7an": {
-        "en": "opens", 
-        "update": false
+    "yolculuktan": {
+        "en": "the journey", 
+        "update": true
     }, 
     "hisli": {
         "en": "sentient", 
@@ -22331,9 +22303,17 @@
         "en": "from the ocean", 
         "update": true
     }, 
+    "kurtulman\u0131z": {
+        "en": "you get rid of", 
+        "update": true
+    }, 
     "karanl\u0131\u011f\u0131nda": {
         "en": "in the dark", 
         "update": true
+    }, 
+    "\u015f\u00f6valyelerini": {
+        "en": "the knight", 
+        "update": false
     }, 
     "esma\u2019n\u0131n": {
         "en": "the eye &amp; face", 
@@ -22619,6 +22599,10 @@
         "en": "our debt", 
         "update": false
     }, 
+    "dizinin": {
+        "en": "directory", 
+        "update": true
+    }, 
     "lan": {
         "en": "man", 
         "update": false
@@ -22657,6 +22641,10 @@
     }, 
     "edece\u011fim": {
         "en": "i will make", 
+        "update": false
+    }, 
+    "sonunda": {
+        "en": "finally", 
         "update": false
     }, 
     "kesinlikle": {
@@ -23079,9 +23067,9 @@
         "en": "the halep", 
         "update": false
     }, 
-    "getirdik": {
-        "en": "we brought", 
-        "update": true
+    "\u015eeytan": {
+        "en": "satan", 
+        "update": false
     }, 
     "beyler\u2019den": {
         "en": "from beylerce", 
@@ -23135,9 +23123,9 @@
         "en": "traitors", 
         "update": true
     }, 
-    "annene": {
-        "en": "to your mother", 
-        "update": true
+    "\u015fehzadem": {
+        "en": "my prince", 
+        "update": false
     }, 
     "tap\u0131nak\u00e7\u0131larla": {
         "en": "the templars", 
@@ -23175,8 +23163,8 @@
         "en": "will sink", 
         "update": true
     }, 
-    "\u0130ftiralar": {
-        "en": "slanders", 
+    "niyetleri": {
+        "en": "intentions", 
         "update": true
     }, 
     "pazar\u0131nda": {
@@ -23254,6 +23242,10 @@
     "lokmalar\u0131n\u0131z": {
         "en": "your bite", 
         "update": false
+    }, 
+    "delili\u011fi": {
+        "en": "madness", 
+        "update": true
     }, 
     "ayarlayabilirsin": {
         "en": "you can adjust", 
@@ -23771,9 +23763,9 @@
         "en": "care", 
         "update": false
     }, 
-    "evlatlar\u0131m": {
-        "en": "my son", 
-        "update": true
+    "kilimhaneye": {
+        "en": "kilimhane to", 
+        "update": false
     }, 
     "\u015ferbetini": {
         "en": "the syrup", 
@@ -23891,9 +23883,9 @@
         "en": "the pit", 
         "update": true
     }, 
-    "partiyi": {
-        "en": "party", 
-        "update": true
+    "t\u00fcrkmenlerin": {
+        "en": "of turkmen", 
+        "update": false
     }, 
     "\u0130\u015flerini": {
         "en": "jobs", 
@@ -23915,8 +23907,8 @@
         "en": "in halep", 
         "update": false
     }, 
-    "olmaya": {
-        "en": "not to", 
+    "sesseni": {
+        "en": "sound you", 
         "update": true
     }, 
     "neden": {
@@ -24083,8 +24075,8 @@
         "en": "the language", 
         "update": false
     }, 
-    "\u00dc\u00e7": {
-        "en": "three", 
+    "buralarda": {
+        "en": "here", 
         "update": false
     }, 
     "kal\u0131rsak": {
@@ -25095,9 +25087,9 @@
         "en": "our brother", 
         "update": true
     }, 
-    "\u015f\u00f6yle": {
-        "en": "as", 
-        "update": false
+    "yi\u011fitlerimiz": {
+        "en": "our valiant", 
+        "update": true
     }, 
     "\u00f6\u011frenmen": {
         "en": "learning", 
@@ -25299,8 +25291,8 @@
         "en": "my palace", 
         "update": false
     }, 
-    "g\u00f6r\u00fclebilir": {
-        "en": "visible", 
+    "yapabilece\u011fim": {
+        "en": "i can do", 
         "update": true
     }, 
     "etmeyin": {
@@ -25775,8 +25767,8 @@
         "en": "pain", 
         "update": true
     }, 
-    "\u00e7\u0131karaca\u011f\u0131m": {
-        "en": "i will take", 
+    "mo\u011follardan": {
+        "en": "the mongols", 
         "update": true
     }, 
     "\u00d6lmeyi": {
@@ -25811,8 +25803,8 @@
         "en": "i hills", 
         "update": false
     }, 
-    "d\u00f6ns\u00fcnler": {
-        "en": "they returned", 
+    "g\u00fcl\u00fcm": {
+        "en": "honey", 
         "update": false
     }, 
     "bast\u0131": {
@@ -25999,10 +25991,6 @@
         "en": "our tribe", 
         "update": false
     }, 
-    "b\u0131rakmaya": {
-        "en": "leave", 
-        "update": true
-    }, 
     "heyt": {
         "en": "heytim", 
         "update": false
@@ -26111,6 +26099,10 @@
         "en": "beng\u00fc", 
         "update": true
     }, 
+    "budur": {
+        "en": "this is", 
+        "update": true
+    }, 
     "\u015fehrimde": {
         "en": "my city", 
         "update": true
@@ -26131,9 +26123,9 @@
         "en": "that you", 
         "update": true
     }, 
-    "yan\u0131ndan": {
-        "en": "over", 
-        "update": true
+    "koca": {
+        "en": "husband", 
+        "update": false
     }, 
     "isterim": {
         "en": "i want", 
@@ -26487,8 +26479,8 @@
         "en": "sanca\u011f\u0131", 
         "update": false
     }, 
-    "kolu": {
-        "en": "lever", 
+    "atlar\u0131": {
+        "en": "horses", 
         "update": false
     }, 
     "erken": {
@@ -26791,10 +26783,6 @@
         "en": "the destruction", 
         "update": true
     }, 
-    "canl\u0131": {
-        "en": "alive", 
-        "update": false
-    }, 
     "sevgilim": {
         "en": "my darling", 
         "update": true
@@ -26899,9 +26887,9 @@
         "en": "the gentlemen", 
         "update": true
     }, 
-    "istedi\u011fini": {
-        "en": "he wanted", 
-        "update": false
+    "neredeydin": {
+        "en": "where have you been", 
+        "update": true
     }, 
     "ah\u0131ra": {
         "en": "barn", 
@@ -26963,9 +26951,9 @@
         "en": "i do not believe", 
         "update": false
     }, 
-    "kurtulman\u0131z": {
-        "en": "you get rid of", 
-        "update": true
+    "gelmez": {
+        "en": "does not", 
+        "update": false
     }, 
     "gelmi\u015ftim": {
         "en": "i come", 
@@ -26991,9 +26979,9 @@
         "en": "invincible", 
         "update": true
     }, 
-    "ataca\u011f\u0131n\u0131": {
-        "en": "it would take", 
-        "update": false
+    "bulaca\u011f\u0131m": {
+        "en": "i find", 
+        "update": true
     }, 
     "zoruna": {
         "en": "difficult to", 
@@ -27131,9 +27119,9 @@
         "en": "imprudence", 
         "update": false
     }, 
-    "t\u00fcrkmenlerin": {
-        "en": "of turkmen", 
-        "update": false
+    "partiyi": {
+        "en": "party", 
+        "update": true
     }, 
     "cihan": {
         "en": "universe", 
@@ -27271,8 +27259,8 @@
         "en": "sorry", 
         "update": true
     }, 
-    "budur": {
-        "en": "this is", 
+    "s\u0131rlar": {
+        "en": "secrets", 
         "update": true
     }, 
     "devletmi\u015f": {
@@ -28007,9 +27995,9 @@
         "en": "you've heard", 
         "update": true
     }, 
-    "beysiz": {
-        "en": "beys", 
-        "update": false
+    "annene": {
+        "en": "to your mother", 
+        "update": true
     }, 
     "tan\u0131mlamak": {
         "en": "define", 
@@ -28319,9 +28307,13 @@
         "en": "the move", 
         "update": false
     }, 
-    "sava\u015f\u00e7\u0131n\u0131n": {
-        "en": "warrior", 
-        "update": true
+    "hayvanlar": {
+        "en": "animals", 
+        "update": false
+    }, 
+    "tacirin": {
+        "en": "the traffickers", 
+        "update": false
     }, 
     "kararacak": {
         "en": "will decide", 
@@ -28599,8 +28591,8 @@
         "en": "your brother", 
         "update": false
     }, 
-    "ara\u015ft\u0131rmaya": {
-        "en": "to research", 
+    "alparslan": {
+        "en": "alparslan", 
         "update": true
     }, 
     "gelinle": {
@@ -28879,10 +28871,6 @@
         "en": "dangerous", 
         "update": false
     }, 
-    "gayr\u0131": {
-        "en": "non", 
-        "update": false
-    }, 
     "birine": {
         "en": "to someone", 
         "update": false
@@ -28891,9 +28879,9 @@
         "en": "funeral", 
         "update": true
     }, 
-    "temasta": {
-        "en": "contact", 
-        "update": true
+    "kaderimizde": {
+        "en": "our destiny", 
+        "update": false
     }, 
     "mektubunda": {
         "en": "in a letter", 
@@ -29355,6 +29343,10 @@
         "en": "healing the", 
         "update": false
     }, 
+    "leila\u2019m": {
+        "en": "i leila", 
+        "update": true
+    }, 
     "\u015feylerden": {
         "en": "anything from", 
         "update": true
@@ -29541,7 +29533,7 @@
     }, 
     "d\u00fc\u015fecektir": {
         "en": "will fall", 
-        "update": true
+        "update": false
     }, 
     "almaktan": {
         "en": "taking", 
@@ -29815,9 +29807,9 @@
         "en": "this", 
         "update": false
     }, 
-    "ayr\u0131l\u0131n": {
-        "en": "the divided", 
-        "update": true
+    "\u00c7ekil": {
+        "en": "get out", 
+        "update": false
     }, 
     "ayr\u0131l\u0131k": {
         "en": "separation", 
@@ -30082,10 +30074,6 @@
     "diye": {
         "en": "that", 
         "update": false
-    }, 
-    "y\u00fcre\u011finiz": {
-        "en": "your heart", 
-        "update": true
     }, 
     "konsey": {
         "en": "council", 
@@ -30479,8 +30467,8 @@
         "en": "roads will", 
         "update": true
     }, 
-    "varm\u0131\u015f": {
-        "en": "had", 
+    "y\u00fcre\u011fim": {
+        "en": "my heart", 
         "update": false
     }, 
     "g\u00f6zya\u015flar\u0131m\u0131": {
@@ -30947,8 +30935,8 @@
         "en": "residencies", 
         "update": false
     }, 
-    "leila\u2019m": {
-        "en": "i leila", 
+    "evlatlar\u0131m": {
+        "en": "my son", 
         "update": true
     }, 
     "d\u00fc\u015ferse": {
@@ -31139,8 +31127,8 @@
         "en": "brotherhood", 
         "update": true
     }, 
-    "bilmezsem": {
-        "en": "i do not know", 
+    "selamlas\u0131n": {
+        "en": "hail", 
         "update": true
     }, 
     "hakk\u0131n\u0131": {
@@ -31379,9 +31367,9 @@
         "en": "of surrounding", 
         "update": true
     }, 
-    "sorarsan": {
-        "en": "if you ask", 
-        "update": true
+    "canl\u0131": {
+        "en": "alive", 
+        "update": false
     }, 
     "sorarsam": {
         "en": "i ask", 
@@ -31554,6 +31542,10 @@
     "ad\u0131m\u0131": {
         "en": "the step", 
         "update": false
+    }, 
+    "o\u011flu'na": {
+        "en": "his son", 
+        "update": true
     }, 
     "s\u0131\u011f\u0131nmak": {
         "en": "refuge", 
@@ -31811,12 +31803,12 @@
         "en": "demen", 
         "update": false
     }, 
-    "sonunda": {
-        "en": "finally", 
-        "update": false
+    "sorarsan": {
+        "en": "if you ask", 
+        "update": true
     }, 
-    "kaybolmay\u0131n": {
-        "en": "do not get lost", 
+    "elleriniz": {
+        "en": "your hands", 
         "update": false
     }, 
     "zindanlara": {
@@ -31959,8 +31951,8 @@
         "en": "disappeared", 
         "update": true
     }, 
-    "gezginleriz": {
-        "en": "'re travelers", 
+    "\u0130\u00e7imi": {
+        "en": "smoking", 
         "update": true
     }, 
     "art\u0131klar\u0131": {
@@ -32034,10 +32026,6 @@
     "can\u0131n\u0131z\u0131n": {
         "en": "your car", 
         "update": true
-    }, 
-    "hangi": {
-        "en": "which", 
-        "update": false
     }, 
     "k\u0131yarsa": {
         "en": "if meat", 
@@ -32207,6 +32195,10 @@
         "en": "come on", 
         "update": false
     }, 
+    "g\u00f6\u00e7ebe": {
+        "en": "wandering", 
+        "update": true
+    }, 
     "\u00f6ld\u00fcrmesi": {
         "en": "killing", 
         "update": true
@@ -32223,8 +32215,8 @@
         "en": "i will call", 
         "update": true
     }, 
-    "bak\u0131lmas\u0131": {
-        "en": "to look", 
+    "gizledi\u011fini": {
+        "en": "he hides", 
         "update": true
     }, 
     "su\u00e7lan\u0131yor": {
@@ -32335,9 +32327,9 @@
         "en": "pass", 
         "update": true
     }, 
-    "tutuyordur": {
-        "en": "are holding", 
-        "update": false
+    "anla\u015ft\u0131k": {
+        "en": "agreed", 
+        "update": true
     }, 
     "gidiyor": {
         "en": "going", 
@@ -32367,9 +32359,9 @@
         "en": "gather", 
         "update": false
     }, 
-    "duyuyorsan\u0131z": {
-        "en": "if you", 
-        "update": true
+    "yapar\u0131m": {
+        "en": "i do", 
+        "update": false
     }, 
     "sak\u0131n": {
         "en": "do not", 
@@ -32387,8 +32379,8 @@
         "en": "press", 
         "update": true
     }, 
-    "bacak": {
-        "en": "leg", 
+    "istedi\u011fini": {
+        "en": "he wanted", 
         "update": false
     }, 
     "co\u011frafyan\u0131n": {
@@ -32531,8 +32523,8 @@
         "en": "because", 
         "update": false
     }, 
-    "tacirin": {
-        "en": "the traffickers", 
+    "gayr\u0131": {
+        "en": "non", 
         "update": false
     }, 
     "zorlu\u011fun": {
@@ -32583,9 +32575,9 @@
         "en": "my predicament", 
         "update": false
     }, 
-    "kalabilir": {
-        "en": "may remain", 
-        "update": true
+    "kendinde": {
+        "en": "himself", 
+        "update": false
     }, 
     "m\u00fc\u015fk\u00fcl\u00fcn": {
         "en": "the chancery", 
@@ -32599,9 +32591,9 @@
         "en": "blame you", 
         "update": true
     }, 
-    "k\u0131sm\u0131": {
-        "en": "partial", 
-        "update": false
+    "yan\u0131ndan": {
+        "en": "over", 
+        "update": true
     }, 
     "d\u00fc\u011f\u00fcn\u00fcm\u00fcz": {
         "en": "our wedding", 
@@ -33447,10 +33439,6 @@
         "en": "i think", 
         "update": false
     }, 
-    "\u00fcst\u00fcne": {
-        "en": "over", 
-        "update": false
-    }, 
     "ge\u00e7ecek": {
         "en": "will pass", 
         "update": false
@@ -33469,6 +33457,10 @@
     }, 
     "babalar\u0131n\u0131z\u0131": {
         "en": "your father", 
+        "update": true
+    }, 
+    "yakla\u015fsa": {
+        "en": "came close to", 
         "update": true
     }, 
     "numan'\u0131n": {
@@ -33731,8 +33723,8 @@
         "en": "fallen on", 
         "update": false
     }, 
-    "etmez": {
-        "en": "does not", 
+    "ak\u00e7akoca'n\u0131n": {
+        "en": "the ak\u00e7akoca", 
         "update": false
     }, 
     "avlanmaya": {
@@ -33911,8 +33903,8 @@
         "en": "stop", 
         "update": true
     }, 
-    "of": {
-        "en": "ugh", 
+    "hafif": {
+        "en": "light", 
         "update": true
     }, 
     "misafirimi": {
@@ -34007,9 +33999,9 @@
         "en": "shahzades", 
         "update": true
     }, 
-    "dadan\u0131r": {
-        "en": "haunt is", 
-        "update": false
+    "harcayamam": {
+        "en": "i can not spend", 
+        "update": true
     }, 
     "\u00d6n\u00fcne": {
         "en": "before", 
@@ -34143,9 +34135,9 @@
         "en": "seigniory to", 
         "update": true
     }, 
-    "tap\u0131nak\u00e7\u0131lardan": {
-        "en": "the templars", 
-        "update": true
+    "\u00f6\u011frenebildin": {
+        "en": "you learn", 
+        "update": false
     }, 
     "herkesin": {
         "en": "everybody's", 
@@ -34287,9 +34279,9 @@
         "en": "thinking", 
         "update": true
     }, 
-    "yi\u011fitlerimiz": {
-        "en": "our valiant", 
-        "update": true
+    "\u015f\u00f6yle": {
+        "en": "as", 
+        "update": false
     }, 
     "\"korkma": {
         "en": "&quot;do not be afraid", 
@@ -34584,8 +34576,8 @@
         "update": false
     }, 
     "abd\u00fclkadir</font>": {
-        "en": "abdulkadir", 
-        "update": false
+        "en": "abd\u00fclkadir</font>", 
+        "update": true
     }, 
     "k\u0131z\u0131l": {
         "en": "red", 
@@ -34679,8 +34671,8 @@
         "en": "heart", 
         "update": true
     }, 
-    "y\u00fcre\u011fim": {
-        "en": "my heart", 
+    "geceden": {
+        "en": "the night", 
         "update": false
     }, 
     "gideriz": {
@@ -34863,8 +34855,8 @@
         "en": "i will use", 
         "update": false
     }, 
-    "elleriniz": {
-        "en": "your hands", 
+    "kaybolmay\u0131n": {
+        "en": "do not get lost", 
         "update": false
     }, 
     "bakacaklar": {
@@ -34943,6 +34935,10 @@
         "en": "the alps", 
         "update": false
     }, 
+    "beklerler": {
+        "en": "they expect", 
+        "update": false
+    }, 
     "teke": {
         "en": "goat", 
         "update": false
@@ -35017,7 +35013,7 @@
     }, 
     "bas\u0131ld\u0131\u011f\u0131nda": {
         "en": "pressing", 
-        "update": true
+        "update": false
     }, 
     "de\u011ferlerini": {
         "en": "their value", 
@@ -35059,8 +35055,8 @@
         "en": "he rewarded", 
         "update": true
     }, 
-    "duyacak": {
-        "en": "will hear", 
+    "hakimiyetin": {
+        "en": "the dominance", 
         "update": true
     }, 
     "etmeyeyim": {
@@ -35227,8 +35223,8 @@
         "en": "brother", 
         "update": false
     }, 
-    "\u015f\u00f6valyelerini": {
-        "en": "the knight", 
+    "y\u00fcklemezsin": {
+        "en": "do not install", 
         "update": false
     }, 
     "g\u00f6remezsem": {
@@ -35375,9 +35371,9 @@
         "en": "you should leave", 
         "update": true
     }, 
-    "katiller": {
-        "en": "killers", 
-        "update": true
+    "kald\u0131": {
+        "en": "stayed", 
+        "update": false
     }, 
     "\u00d6yle": {
         "en": "so", 
@@ -35611,8 +35607,8 @@
         "en": "of the worlds", 
         "update": false
     }, 
-    "yapabilece\u011fim": {
-        "en": "i can do", 
+    "g\u00f6r\u00fclebilir": {
+        "en": "visible", 
         "update": true
     }, 
     "\u00e7a\u011f\u0131r\u0131rs\u0131n": {
@@ -37055,9 +37051,9 @@
         "en": "white", 
         "update": false
     }, 
-    "a\u00e7l\u0131k": {
-        "en": "hunger", 
-        "update": false
+    "\u201chay\u0131r": {
+        "en": "&quot;no", 
+        "update": true
     }, 
     "b\u00fcr\u00fcm\u00fc\u015f": {
         "en": "infestation by", 
@@ -37087,8 +37083,8 @@
         "en": "you will see", 
         "update": true
     }, 
-    "solu\u011fa": {
-        "en": "breath to", 
+    "hizmetlerinizi": {
+        "en": "your service", 
         "update": true
     }, 
     "bozok": {
@@ -37987,9 +37983,9 @@
         "en": "or", 
         "update": true
     }, 
-    "o\u011flu'na": {
-        "en": "his son", 
-        "update": true
+    "etmez": {
+        "en": "does not", 
+        "update": false
     }, 
     "kuru": {
         "en": "dry", 
@@ -38159,9 +38155,9 @@
         "en": "titus", 
         "update": false
     }, 
-    "yapar\u0131m": {
-        "en": "i do", 
-        "update": false
+    "duyuyorsan\u0131z": {
+        "en": "if you", 
+        "update": true
     }, 
     "\u00d6mr\u00fcmde": {
         "en": "my life", 
@@ -38235,8 +38231,8 @@
         "en": "recently", 
         "update": true
     }, 
-    "delili\u011fi": {
-        "en": "madness", 
+    "sokaktan": {
+        "en": "the street", 
         "update": true
     }, 
     "konuldu\u011fu": {
@@ -38279,8 +38275,8 @@
         "en": "they were pulling", 
         "update": true
     }, 
-    "mo\u011follardan": {
-        "en": "the mongols", 
+    "\u00e7\u0131karaca\u011f\u0131m": {
+        "en": "i will take", 
         "update": true
     }, 
     "destekleyece\u011fimi": {
@@ -38343,9 +38339,9 @@
         "en": "from ibn\u00fc'larab\u00ee'", 
         "update": false
     }, 
-    "yakla\u015fsa": {
-        "en": "came close to", 
-        "update": true
+    "bacak": {
+        "en": "leg", 
+        "update": false
     }, 
     "\u00e7\u0131kt\u0131m": {
         "en": "i went", 
@@ -38595,9 +38591,9 @@
         "en": "our throats", 
         "update": true
     }, 
-    "beklerler": {
-        "en": "they expect", 
-        "update": false
+    "tap\u0131nak\u00e7\u0131lardan": {
+        "en": "the templars", 
+        "update": true
     }, 
     "liderin": {
         "en": "leader", 
@@ -39295,6 +39291,10 @@
         "en": "the ayyub", 
         "update": true
     }, 
+    "geciktik": {
+        "en": "we're late", 
+        "update": false
+    }, 
     "a\u015fk\u0131m": {
         "en": "darling", 
         "update": true
@@ -39379,9 +39379,9 @@
         "en": "august", 
         "update": true
     }, 
-    "geciktik": {
-        "en": "we're late", 
-        "update": false
+    "ayr\u0131l\u0131n": {
+        "en": "the divided", 
+        "update": true
     }, 
     "takdirinin": {
         "en": "of appreciation", 
@@ -39395,9 +39395,9 @@
         "en": "ruler", 
         "update": true
     }, 
-    "kendinde": {
-        "en": "himself", 
-        "update": false
+    "kalabilir": {
+        "en": "may remain", 
+        "update": true
     }, 
     "kalbi": {
         "en": "heartland", 

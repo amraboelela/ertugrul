@@ -9,7 +9,7 @@ mkdir -p data/words/$targetLanguage
 
 if [ $targetLanguage == "tr"  ]; then
     if [ ! -f data/$prefix-$targetLanguage.vtt ]; then
-        python3 ttml2srt.py data/$prefix-$targetLanguage.ttml > data/$prefix-$targetLanguage.srt
+        python ttml2srt.py data/$prefix-$targetLanguage.ttml > data/$prefix-$targetLanguage.srt
         ffmpeg -y -i data/$prefix-$targetLanguage.srt data/$prefix-$targetLanguage.vtt
         rm data/$prefix-$targetLanguage.srt
     fi
@@ -23,8 +23,10 @@ else
         python translate.py data/$prefix-$sourceLanguage.vtt $targetLanguage > data/$prefix-$targetLanguage.vtt
     fi
 fi
+
 python dictionary.py $prefix $targetLanguage
 python cut.py $prefix 1 $targetLanguage
+exit 0
 python sayWords.py $prefix 2 $targetLanguage
 python video2image.py $prefix $targetLanguage
 python audio2video.py $prefix $sourceLanguage $targetLanguage

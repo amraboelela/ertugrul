@@ -21,7 +21,6 @@
 		C5B1E5FC23789A2F00BA1E1C /* build.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D623789A2800BA1E1C /* build.py */; };
 		C5B1E5FD23789A2F00BA1E1C /* combine.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D723789A2800BA1E1C /* combine.py */; };
 		C5B1E5FF23789A2F00BA1E1C /* build in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D923789A2900BA1E1C /* build */; };
-		C5B1E60023789A2F00BA1E1C /* frames in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5DA23789A2900BA1E1C /* frames */; };
 		C5B1E60123789A2F00BA1E1C /* silence.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5DB23789A2900BA1E1C /* silence.m4a */; };
 		C5B1E60223789A2F00BA1E1C /* sayLines.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5DC23789A2900BA1E1C /* sayLines.py */; };
 		C5B1E60323789A2F00BA1E1C /* silence in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5DD23789A2A00BA1E1C /* silence */; };
@@ -33,7 +32,6 @@
 		C5B1E60923789A2F00BA1E1C /* downloadVideo in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E323789A2B00BA1E1C /* downloadVideo */; };
 		C5B1E60B23789A2F00BA1E1C /* cleanEpisode in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E523789A2B00BA1E1C /* cleanEpisode */; };
 		C5B1E60C23789A2F00BA1E1C /* cut.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E623789A2B00BA1E1C /* cut.py */; };
-		C5B1E60D23789A2F00BA1E1C /* combine in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E723789A2C00BA1E1C /* combine */; };
 		C5B1E60E23789A2F00BA1E1C /* download in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E823789A2C00BA1E1C /* download */; };
 		C5B1E61023789A2F00BA1E1C /* clean in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EA23789A2D00BA1E1C /* clean */; };
 		C5B1E61123789A2F00BA1E1C /* cut in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EB23789A2D00BA1E1C /* cut */; };
@@ -42,6 +40,7 @@
 		C5B1E61423789A2F00BA1E1C /* ttml2srt.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EE23789A2E00BA1E1C /* ttml2srt.py */; };
 		C5B1E61523789A2F00BA1E1C /* silence1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EF23789A2E00BA1E1C /* silence1.m4a */; };
 		C5B1E61623789A2F00BA1E1C /* sayWords.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5F023789A2F00BA1E1C /* sayWords.py */; };
+		C5B7459D23823EA3006204F5 /* handbrake in Resources */ = {isa = PBXBuildFile; fileRef = C5B7459C23823EA2006204F5 /* handbrake */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +59,6 @@
 		C5B1E5D623789A2800BA1E1C /* build.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = build.py; sourceTree = "<group>"; };
 		C5B1E5D723789A2800BA1E1C /* combine.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = combine.py; sourceTree = "<group>"; };
 		C5B1E5D923789A2900BA1E1C /* build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build; sourceTree = "<group>"; };
-		C5B1E5DA23789A2900BA1E1C /* frames */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frames; sourceTree = "<group>"; };
 		C5B1E5DB23789A2900BA1E1C /* silence.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = silence.m4a; sourceTree = "<group>"; };
 		C5B1E5DC23789A2900BA1E1C /* sayLines.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayLines.py; sourceTree = "<group>"; };
 		C5B1E5DD23789A2A00BA1E1C /* silence */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = silence; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 		C5B1E5E323789A2B00BA1E1C /* downloadVideo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = downloadVideo; sourceTree = "<group>"; };
 		C5B1E5E523789A2B00BA1E1C /* cleanEpisode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cleanEpisode; sourceTree = "<group>"; };
 		C5B1E5E623789A2B00BA1E1C /* cut.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cut.py; sourceTree = "<group>"; };
-		C5B1E5E723789A2C00BA1E1C /* combine */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = combine; sourceTree = "<group>"; };
 		C5B1E5E823789A2C00BA1E1C /* download */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = download; sourceTree = "<group>"; };
 		C5B1E5EA23789A2D00BA1E1C /* clean */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = clean; sourceTree = "<group>"; };
 		C5B1E5EB23789A2D00BA1E1C /* cut */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cut; sourceTree = "<group>"; };
@@ -81,6 +78,7 @@
 		C5B1E5EE23789A2E00BA1E1C /* ttml2srt.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ttml2srt.py; sourceTree = "<group>"; };
 		C5B1E5EF23789A2E00BA1E1C /* silence1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = silence1.m4a; sourceTree = "<group>"; };
 		C5B1E5F023789A2F00BA1E1C /* sayWords.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayWords.py; sourceTree = "<group>"; };
+		C5B7459C23823EA2006204F5 /* handbrake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = handbrake; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 				C5B1E5CF23789A2700BA1E1C /* clean.py */,
 				C5B1E5E523789A2B00BA1E1C /* cleanEpisode */,
 				C5B1E5D223789A2800BA1E1C /* cleanFile.py */,
-				C5B1E5E723789A2C00BA1E1C /* combine */,
 				C5B1E5D723789A2800BA1E1C /* combine.py */,
 				C5B1E5D123789A2700BA1E1C /* concat */,
 				C5B1E5EB23789A2D00BA1E1C /* cut */,
@@ -114,7 +111,7 @@
 				C5B1E5CE23789A2700BA1E1C /* dictionary.py */,
 				C5B1E5E823789A2C00BA1E1C /* download */,
 				C5B1E5E323789A2B00BA1E1C /* downloadVideo */,
-				C5B1E5DA23789A2900BA1E1C /* frames */,
+				C5B7459C23823EA2006204F5 /* handbrake */,
 				C5B1E5D023789A2700BA1E1C /* LICENSE */,
 				C5B1E5DF23789A2A00BA1E1C /* README.md */,
 				C5B1E5DC23789A2900BA1E1C /* sayLines.py */,
@@ -213,18 +210,17 @@
 				C5B1E60523789A2F00BA1E1C /* README.md in Resources */,
 				C5B1E61223789A2F00BA1E1C /* audio2video.py in Resources */,
 				C5B1E61023789A2F00BA1E1C /* clean in Resources */,
-				C5B1E60023789A2F00BA1E1C /* frames in Resources */,
 				C5B1E5FB23789A2F00BA1E1C /* buildEpisode in Resources */,
 				C5B1E60323789A2F00BA1E1C /* silence in Resources */,
 				C5B1E5F223789A2F00BA1E1C /* translation_key.py in Resources */,
 				C5B1E61323789A2F00BA1E1C /* subtitles.py in Resources */,
-				C5B1E60D23789A2F00BA1E1C /* combine in Resources */,
 				C5B1E60423789A2F00BA1E1C /* subtitles in Resources */,
 				C5B1E5F523789A2F00BA1E1C /* clean.py in Resources */,
 				C5B1E60123789A2F00BA1E1C /* silence.m4a in Resources */,
 				C5B1E5F323789A2F00BA1E1C /* translate.py in Resources */,
 				C5B1E5F423789A2F00BA1E1C /* dictionary.py in Resources */,
 				C5B1E60B23789A2F00BA1E1C /* cleanEpisode in Resources */,
+				C5B7459D23823EA3006204F5 /* handbrake in Resources */,
 				C5B1E61123789A2F00BA1E1C /* cut in Resources */,
 				C5B1E5FC23789A2F00BA1E1C /* build.py in Resources */,
 				C5B1E5FA23789A2F00BA1E1C /* unicode.py in Resources */,

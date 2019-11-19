@@ -1,3 +1,0 @@
-
-ffmpeg -f concat -safe 0 -i audioFiles.txt -c copy audioFile.m4a
-

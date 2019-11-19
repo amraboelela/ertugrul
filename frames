@@ -1,4 +1,0 @@
-filename=$1
-ffmpeg -y -i $filename -vf "select=eq(n\,0)" -q:v 3 output_image.jpg
-ffmpeg -y -sseof -3 -i $filename -update 1 -q:v 1 last.jpg
-
