@@ -56,8 +56,10 @@ def sayWords():
                     subprocessArray.extend(["-i", "silence_2.m4a"])
                 concatString = concatString + "[" + str(fileCount) + ":a]"
                 fileCount = fileCount + 1
-        subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", targetFile])
-        subprocess.call(subprocessArray)
+        if fileCount > 0:
+            subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=0:a=1", targetFile])
+            #print "subprocessArray: " + str(subprocessArray)
+            subprocess.call(subprocessArray)
     paragraph = ""
     count = count + 1
  

@@ -40,6 +40,7 @@ for line in lines:
         #print "line: " + line
         words = line.split()
         for word in words:
+            #print "word: " + word
             if dictionary.has_key(word.decode('utf8')):
                 dicValue = dictionary[word.decode('utf8')]
                 #print "type(dicValue): " + str(type(dicValue))
@@ -65,7 +66,7 @@ for line in lines:
                 elif type(dicValue) is unicode or type(dicValue) is str:
                     dictionary[word.decode('utf8')] = {'en': dicValue, 'update': False}
             else:
-                #print "new word: " + word
+                print "new word: " + word
                 try:
                     count = count + 1
                     PARAMS = {'key':key, 'q':word, 'source':language, 'target':'en'}
