@@ -1,4 +1,4 @@
-handbrakecli -i "Resurrection Ertugrul Season 1 Episode 18-lE96HEMDFPo.mkv" -o "Resurrection Ertugrul Season 1 Episode 18-lE96HEMDFPo.mp4" 
+#handbrakecli -i "Resurrection Ertugrul Season 1 Episode 18-lE96HEMDFPo.mkv" -o "Resurrection Ertugrul Season 1 Episode 18-lE96HEMDFPo.mp4" 
 
-#handbrakecli -i "data/ertugrul-1-05.mp4" -o "data/ertugrul-1-05-sbt.mp4" --preset="High Profile" --srt-file "data/ertugrul-1-06.srt" --srt-codeset UTF-8 --srt-burn
+handbrakecli -i "data/ertugrul-1-05.mp4" -o "data/ertugrul-1-05-sbt.mp4" --srt-file "data/ertugrul-1-05.srt" --srt-codeset UTF-8 --srt-burn
 
