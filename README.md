@@ -37,7 +37,6 @@ $ ./build 1 3 en tr
 $ ./clean 1 3 en tr
 ```
 
-
 **Title:** Learn Turkish from Ertugrul, 1 - 1
 
 **Description:**
