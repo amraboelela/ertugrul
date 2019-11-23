@@ -39,23 +39,6 @@ def getParagraphs(lines, paragraghs):
             paragraph = paragraph + line + "\n"
     paragraghs.append(paragraph)
 
-getParagraphs(sourceLines, sourceParagraphs)
-getParagraphs(targetLines, targetParagraphs)
-
-files = os.listdir("data/" + prefix)
-files.sort()
-durationsFilePath = "data/durations.txt"
-os.system("rm -f " + durationsFilePath)
-for file in files:
-    if not "~" in file:
-        videoFile = "data/" + prefix + "/" + file
-        os.system("ffprobe -v error -select_streams v:0 -show_entries stream=duration -of default=noprint_wrappers=1:nokey=1 " + videoFile + " >> " + durationsFilePath)
-
-durationsFile = open(durationsFilePath)
-durations = durationsFile.read().splitlines()
-startTimeFloat = float(0.0)
-durationIndex = 0
-
 def timeString(timeFloat):
     milliSeconds = int(timeFloat * 1000 % 1000)
     totalSeconds = int(timeFloat)
@@ -83,18 +66,36 @@ def writeToSubtitlesFile(paragraph1, color1, paragraph2, color2):
     else:
         subtitlesFile.write("\n")
     durationIndex = durationIndex + 1
+    
+if not path.exists(subtitlesPath):
+    getParagraphs(sourceLines, sourceParagraphs)
+    getParagraphs(targetLines, targetParagraphs)
 
-for i in range(0, len(sourceParagraphs)):
-    writeToSubtitlesFile(sourceParagraphs[i], "yellow", "", "")
-    videoFile = "data/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
-    if path.exists(videoFile):
-        writeToSubtitlesFile(targetParagraphs[i], "white", sourceParagraphs[i], "yellow")
-    else:
-        print "videoFile doesn't exist: " + videoFile
+    files = os.listdir("data/" + prefix)
+    files.sort()
+    durationsFilePath = "data/durations.txt"
+    os.system("rm -f " + durationsFilePath)
+    for file in files:
+        if not "~" in file:
+            videoFile = "data/" + prefix + "/" + file
+            os.system("ffprobe -v error -select_streams v:0 -show_entries stream=duration -of default=noprint_wrappers=1:nokey=1 " + videoFile + " >> " + durationsFilePath)
+
+    durationsFile = open(durationsFilePath)
+    durations = durationsFile.read().splitlines()
+    startTimeFloat = float(0.0)
+    durationIndex = 0
+    
+    for i in range(0, len(sourceParagraphs)):
+        writeToSubtitlesFile(sourceParagraphs[i], "yellow", "", "")
+        videoFile = "data/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
+        if path.exists(videoFile):
+            writeToSubtitlesFile(targetParagraphs[i], "white", sourceParagraphs[i], "yellow")
+        #else:
+        #    print "videoFile doesn't exist: " + videoFile
 sourceFile.close()
 targetFile.close()
 subtitlesFile.close()
 
-os.system("mv data/" + prefix + ".mp4 data/" + prefix + "~.mp4")
-os.system("ffmpeg -i data/" + prefix + "~.mp4 -i " + subtitlesPath + " -c copy -c:s mov_text data/" + prefix + ".mp4")
-os.system("rm data/" + prefix + "~.mp4")
+sbtFile = "data/" + prefix + "-sbt.mp4"
+if not path.exists(sbtFile):
+    os.system("handbrakecli -i data/" + prefix + ".mp4 -o " + sbtFile + " --srt-file data/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")
