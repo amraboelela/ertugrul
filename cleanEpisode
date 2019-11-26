@@ -9,3 +9,10 @@ rm -f data/$prefix-0*.m4a
 rm -f data/$prefix-1*.m4a
 rm -f data/$prefix-2*.m4a
 
+rm -f data/$prefix.mp4
+rm -f data/$prefix-0*.mp4
+rm -f data/$prefix-1*.mp4
+rm -f data/$prefix-2*.mp4
+
+rm -f data/$prefix-sbt.mp4
+rm -f data/$prefix.srt

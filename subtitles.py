@@ -67,7 +67,7 @@ def writeToSubtitlesFile(paragraph1, color1, paragraph2, color2):
         subtitlesFile.write("\n")
     durationIndex = durationIndex + 1
     
-if not path.exists(subtitlesPath):
+if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     getParagraphs(sourceLines, sourceParagraphs)
     getParagraphs(targetLines, targetParagraphs)
 
@@ -90,8 +90,6 @@ if not path.exists(subtitlesPath):
         videoFile = "data/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
         if path.exists(videoFile):
             writeToSubtitlesFile(targetParagraphs[i], "white", sourceParagraphs[i], "yellow")
-        #else:
-        #    print "videoFile doesn't exist: " + videoFile
 sourceFile.close()
 targetFile.close()
 subtitlesFile.close()

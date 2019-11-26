@@ -1,1 +1,1 @@
-python clean.py $1 $2 $3 $4 $5 $6
+python clean.py ertugrul 1 $1 $2 $3 $4

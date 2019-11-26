@@ -12,6 +12,7 @@ print "## combin, prefix: " + prefix
 filePath = "data/" + prefix+ "/" + prefix
 files = os.listdir("data/" + prefix)
 files.sort()
+files = list(filter(lambda file: file[0] != ".", files))
 target = ""
 subprocessArray = ["ffmpeg", "-y"]
 count = 0
