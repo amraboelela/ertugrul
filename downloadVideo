@@ -28,13 +28,14 @@ if [ ! -f data/ertugrul-$season-$paddedEpisode-o$language.m4a ]; then
 fi
 if [ ! -f data/ertugrul-$season-$paddedEpisode-o$language.mp4 ]; then
     youtube-dl $url
-    if [ -f Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.mkv ]; then
-        handbrakecli -i Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.mkv -o Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-.mp4
-        rm Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.mkv
-    fi
-    if [ $language == "tr" ]; then
-        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.mp4 data/ertugrul-$season-$paddedEpisode-o$language.mp4
-    elif [  $language == "ar" ]; then
+    
+    if [ -f *\ $episode-*.mkv ]; then
+        handbrakecli -i *\ $episode-*.mkv -o data/ertugrul-$season-$paddedEpisode-o$language.mp4
+        rm *\ $episode-*.mkv
+    elif [ -f *\ $episode-*.webm ]; then
+        handbrakecli -i *\ $episode-*.webm -o data/ertugrul-$season-$paddedEpisode-o$language.mp4
+        rm *\ $episode-*.webm
+    else
         mv *\ $episode*.mp4 data/ertugrul-$season-$paddedEpisode-o$language.mp4
     fi
 fi

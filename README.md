@@ -11,6 +11,7 @@ $ vim translation_key.py
 key = "<PUT THE KEY FROM YOUR GOOGLE TRANSLATE API ACCOUNT>"
 $ sudo easy_install pip
 $ sudo pip install requests
+$ sudo pip install gTTS
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew install ffmpeg
 $ brew install handbreak

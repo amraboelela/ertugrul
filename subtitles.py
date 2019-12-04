@@ -12,7 +12,11 @@ else:
 
 print "## subtitles, prefix: " + prefix + ", sourceLanguage: " + sourceLanguage + ", targetLanguage: " + targetLanguage
 
-sourceFilePath = "data/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
+
+if targetLanguage == "tr":
+    sourceFilePath = "data/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
+else:
+    sourceFilePath = "data/" + prefix + "-" + sourceLanguage + ".vtt"
 targetFilePath = "data/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "data/" + prefix + ".srt"
 
