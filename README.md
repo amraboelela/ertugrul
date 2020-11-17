@@ -14,7 +14,7 @@ $ sudo pip install requests
 $ sudo pip install gTTS
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew install ffmpeg
-$ brew install handbreak
+$ brew install handbrake
 ```
 
 To install latest version of ffmpeg:
