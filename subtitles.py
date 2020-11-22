@@ -14,11 +14,11 @@ print "## subtitles, prefix: " + prefix + ", sourceLanguage: " + sourceLanguage 
 
 
 if targetLanguage == "tr":
-    sourceFilePath = "data/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
+    sourceFilePath = "build/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
 else:
-    sourceFilePath = "data/" + prefix + "-" + sourceLanguage + ".vtt"
-targetFilePath = "data/" + prefix + "-" + targetLanguage + ".vtt"
-subtitlesPath = "data/" + prefix + ".srt"
+    sourceFilePath = "build/" + prefix + "-" + sourceLanguage + ".vtt"
+targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
+subtitlesPath = "build/" + prefix + ".srt"
 
 sourceFile = open(sourceFilePath)
 targetFile = open(targetFilePath)
@@ -75,13 +75,13 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     getParagraphs(sourceLines, sourceParagraphs)
     getParagraphs(targetLines, targetParagraphs)
 
-    files = os.listdir("data/" + prefix)
+    files = os.listdir("build/" + prefix)
     files.sort()
-    durationsFilePath = "data/durations.txt"
+    durationsFilePath = "build/durations.txt"
     os.system("rm -f " + durationsFilePath)
     for file in files:
         if not "~" in file:
-            videoFile = "data/" + prefix + "/" + file
+            videoFile = "build/" + prefix + "/" + file
             os.system("ffprobe -v error -select_streams v:0 -show_entries stream=duration -of default=noprint_wrappers=1:nokey=1 " + videoFile + " >> " + durationsFilePath)
 
     durationsFile = open(durationsFilePath)
@@ -91,13 +91,13 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     
     for i in range(0, len(sourceParagraphs)):
         writeToSubtitlesFile(sourceParagraphs[i], "yellow", "", "")
-        videoFile = "data/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
+        videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
         if path.exists(videoFile):
             writeToSubtitlesFile(targetParagraphs[i], "white", sourceParagraphs[i], "yellow")
 sourceFile.close()
 targetFile.close()
 subtitlesFile.close()
 
-sbtFile = "data/" + prefix + "-sbt.mp4"
+sbtFile = "build/" + prefix + "-sbt.mp4"
 if not path.exists(sbtFile):
-    os.system("handbrakecli -i data/" + prefix + ".mp4 -o " + sbtFile + " --srt-file data/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")
+    os.system("handbrakecli -i build/" + prefix + ".mp4 -o " + sbtFile + " --srt-file build/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")

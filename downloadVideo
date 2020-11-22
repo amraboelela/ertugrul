@@ -3,39 +3,39 @@ episode=$2
 paddedEpisode=`printf %02d $episode`
 language=$3
 url=$4
-mkdir -p data
-if [ ! -f data/ertugrul-$season-$paddedEpisode-en.vtt ]; then
+mkdir -p build
+if [ ! -f build/ertugrul-$season-$paddedEpisode-en.vtt ]; then
     youtube-dl --all-subs --skip-download $url
     if [ $language == "tr" ]; then
-        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.vtt data/ertugrul-$season-$paddedEpisode-en.vtt
+        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.vtt build/ertugrul-$season-$paddedEpisode-en.vtt
     fi
 fi
-if [ ! -f data/ertugrul-$season-$paddedEpisode-$language.jpg ]; then
+if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.jpg ]; then
     youtube-dl --write-thumbnail --skip-download $url
     if [ $language == "tr" ]; then
-        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.jpg data/ertugrul-$season-$paddedEpisode-$language.jpg
+        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.jpg build/ertugrul-$season-$paddedEpisode-$language.jpg
     elif [  $language == "ar" ]; then
-        mv *\ $episode*.jpg data/ertugrul-$season-$paddedEpisode-$language.jpg
+        mv *\ $episode*.jpg build/ertugrul-$season-$paddedEpisode-$language.jpg
     fi
 fi
-if [ ! -f data/ertugrul-$season-$paddedEpisode-o$language.m4a ]; then
+if [ ! -f build/ertugrul-$season-$paddedEpisode-o$language.m4a ]; then
     youtube-dl -f 140 $url
     if [ $language == "tr" ]; then
-        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.m4a data/ertugrul-$season-$paddedEpisode-o$language.m4a
+        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.m4a build/ertugrul-$season-$paddedEpisode-o$language.m4a
     elif [  $language == "ar" ]; then
-        mv *\ $episode*.m4a data/ertugrul-$season-$paddedEpisode-o$language.m4a
+        mv *\ $episode*.m4a build/ertugrul-$season-$paddedEpisode-o$language.m4a
     fi
 fi
-if [ ! -f data/ertugrul-$season-$paddedEpisode-o$language.mp4 ]; then
+if [ ! -f build/ertugrul-$season-$paddedEpisode-o$language.mp4 ]; then
     youtube-dl $url
     
     if [ -f *\ $episode-*.mkv ]; then
-        handbrakecli -i *\ $episode-*.mkv -o data/ertugrul-$season-$paddedEpisode-o$language.mp4
+        handbrakecli -i *\ $episode-*.mkv -o build/ertugrul-$season-$paddedEpisode-o$language.mp4
         rm *\ $episode-*.mkv
     elif [ -f *\ $episode-*.webm ]; then
-        handbrakecli -i *\ $episode-*.webm -o data/ertugrul-$season-$paddedEpisode-o$language.mp4
+        handbrakecli -i *\ $episode-*.webm -o build/ertugrul-$season-$paddedEpisode-o$language.mp4
         rm *\ $episode-*.webm
     else
-        mv *\ $episode*.mp4 data/ertugrul-$season-$paddedEpisode-o$language.mp4
+        mv *\ $episode*.mp4 build/ertugrul-$season-$paddedEpisode-o$language.mp4
     fi
 fi

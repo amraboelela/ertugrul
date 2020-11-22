@@ -11,11 +11,11 @@ else:
     exit(-1)
 
 print "## audio2video, prefix: " + prefix + ", sourceLanguage: " + sourceLanguage + ", targetLanguage: " + targetLanguage
-filePath = "data/" + prefix + "-" + targetLanguage + ".vtt" 
+filePath = "build/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
 lines = file.read().splitlines()
 count = 0
-filePrefix = "data/" + prefix + "/" + prefix + "-"
+filePrefix = "build/" + prefix + "/" + prefix + "-"
 
 def audioToVideo():
     imageFile = filePrefix + format(count, '03d') + "-" + targetLanguage + ".jpg"

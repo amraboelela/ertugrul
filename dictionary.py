@@ -10,7 +10,7 @@ else:
 
 print "## dictionary, prefix: " + prefix + ", language: " + language
 
-dictionaryFile = "data/dictionary-" + language + ".json"
+dictionaryFile = "build/dictionary-" + language + ".json"
 
 try:
     dictionary = json.load(open(dictionaryFile))
@@ -29,7 +29,7 @@ voice = switcher.get(language)
 URL = "https://translation.googleapis.com/language/translate/v2"
 from translation_key import *
 
-filename = "data/" + prefix + "-" + language + ".vtt"
+filename = "build/" + prefix + "-" + language + ".vtt"
 #print "filename: " + filename
 file = open(filename)
 lines = file.read().splitlines()
@@ -48,15 +48,15 @@ for line in lines:
                     print(str(count) + ". needs update " + word + ": " + dicValue['en'].encode('utf8'))
                     count = count + 1
                     dicValue['update'] = False
-                    wordFile = "data/words/" + language + "/" + word + ".m4a"
-                    targetFile = "data/words/" + language + "/" + word + "-en.m4a"
+                    wordFile = "build/words/" + language + "/" + word + ".m4a"
+                    targetFile = "build/words/" + language + "/" + word + "-en.m4a"
                     if word == dicValue['en'].encode('utf8'):
                         os.system("rm -f " + wordFile)
                         os.system("rm -f " + targetFile)
                     else:
                         subprocess.call(["say", "-v", "Alex", dicValue['en'], "-o", targetFile])
-                        targetFile = "data/words/" + language + "/" + word + ".m4a"
-                        targetFileMp3 = "data/words/" + language + "/" + word + ".mp3"
+                        targetFile = "build/words/" + language + "/" + word + ".m4a"
+                        targetFileMp3 = "build/words/" + language + "/" + word + ".mp3"
                         if language == "ar":
                             subprocess.call(["gtts-cli", word, "-l", "ar", "--output", targetFileMp3])
                             os.system("ffmpeg -y -i " + targetFileMp3 + " -c:a aac -b:a 192k " + targetFile)
@@ -71,20 +71,20 @@ for line in lines:
                     count = count + 1
                     PARAMS = {'key':key, 'q':word, 'source':language, 'target':'en'}
                     r = requests.get(url = URL, params = PARAMS)
-                    data = r.json()
-                    translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("?","").lower()
+                    build = r.json()
+                    translatedWord = build['build']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("?","").lower()
                     dictionary[word.decode('utf8')] = {'en': translatedWord, 'update': False}
                     print(str(count) + ". new word - " + word + ": " + translatedWord.encode('utf8'))
                     if word != translatedWord.encode('utf8'):
-                        targetFile = "data/words/" + language + "/" + word + ".m4a"
-                        targetFileMp3 = "data/words/" + language + "/" + word + ".mp3"
+                        targetFile = "build/words/" + language + "/" + word + ".m4a"
+                        targetFileMp3 = "build/words/" + language + "/" + word + ".mp3"
                         if language == "ar":
                             subprocess.call(["gtts-cli", word, "-l", "ar", "--output", targetFileMp3])
                             os.system("ffmpeg -y -i " + targetFileMp3 + " -c:a aac -b:a 192k " + targetFile)
                             os.system("rm " + targetFileMp3)
                         else:
                             subprocess.call(["say", "-v", voice, "-r", "125", word, "-o", targetFile])
-                        targetFile = "data/words/" + language + "/" + word + "-en.m4a"
+                        targetFile = "build/words/" + language + "/" + word + "-en.m4a"
                         subprocess.call(["say", "-v", "Alex", translatedWord, "-o", targetFile])
                     if count % 100 == 0:
                         json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
@@ -96,5 +96,5 @@ file.close()
 
 json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
 
-os.system("python unicode.py " + dictionaryFile + " > data/dictionary-" + language + ".txt")
+os.system("python unicode.py " + dictionaryFile + " > build/dictionary-" + language + ".txt")
 

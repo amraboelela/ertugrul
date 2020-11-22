@@ -4,23 +4,23 @@ prefix=$1
 sourceLanguage=$2
 targetLanguage=$3
 
-mkdir -p data/$prefix
-mkdir -p data/words/$targetLanguage
+mkdir -p build/$prefix
+mkdir -p build/words/$targetLanguage
 
 if [ $targetLanguage == "tr"  ]; then
-    if [ ! -f data/$prefix-$targetLanguage.vtt ]; then
-        python ttml2srt.py data/$prefix-$targetLanguage.ttml > data/$prefix-$targetLanguage.srt
-        ffmpeg -y -i data/$prefix-$targetLanguage.srt data/$prefix-$targetLanguage.vtt
-        rm data/$prefix-$targetLanguage.srt
+    if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
+        python ttml2srt.py build/$prefix-$targetLanguage.ttml > build/$prefix-$targetLanguage.srt
+        ffmpeg -y -i build/$prefix-$targetLanguage.srt build/$prefix-$targetLanguage.vtt
+        rm build/$prefix-$targetLanguage.srt
     fi
-    if [ ! -f data/$prefix-$targetLanguage-$sourceLanguage.vtt ] || [ ! -s data/$prefix-$targetLanguage-$sourceLanguage.vtt ]; then
+    if [ ! -f build/$prefix-$targetLanguage-$sourceLanguage.vtt ] || [ ! -s build/$prefix-$targetLanguage-$sourceLanguage.vtt ]; then
         echo "Translating $prefix-$targetLanguage.vtt"
-        python translate.py data/$prefix-$targetLanguage.vtt $sourceLanguage > data/$prefix-$targetLanguage-$sourceLanguage.vtt
+        python translate.py build/$prefix-$targetLanguage.vtt $sourceLanguage > build/$prefix-$targetLanguage-$sourceLanguage.vtt
     fi
 else
-    if [ ! -f data/$prefix-$targetLanguage.vtt ]; then
+    if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
         echo "Translating $prefix-$sourceLanguage.vtt"
-        python translate.py data/$prefix-$sourceLanguage.vtt $targetLanguage > data/$prefix-$targetLanguage.vtt
+        python translate.py build/$prefix-$sourceLanguage.vtt $targetLanguage > build/$prefix-$targetLanguage.vtt
     fi
 fi
 

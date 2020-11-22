@@ -11,7 +11,7 @@ else:
 
 print "## sayWords, prefix: " + prefix + ", order: " + order + ", language: " + language
 
-filePath = "data/" + prefix + "-" + language + ".vtt"
+filePath = "build/" + prefix + "-" + language + ".vtt"
 switcher = {
         "en": "Alex",
         "tr": "Yelda",
@@ -27,7 +27,7 @@ paragraph = ""
 
 def sayWords():
     global count, paragraph
-    targetFilePrefix = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + "-en"
+    targetFilePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + "-en"
     targetFile = targetFilePrefix + ".m4a"
     if len(paragraph) > 0 and count > 0 and not path.exists(targetFile) and not path.exists(targetFilePrefix + ".mp4"):
         print str(count) + ".saying: " + paragraph
@@ -37,8 +37,8 @@ def sayWords():
         concatString = ""
         fileCount = 0
         for word in words:
-            wordFile = "data/words/" + language + "/" + word + ".m4a"
-            enWordFile = "data/words/" + language + "/" + word + "-en.m4a"
+            wordFile = "build/words/" + language + "/" + word + ".m4a"
+            enWordFile = "build/words/" + language + "/" + word + "-en.m4a"
             if path.exists(wordFile) and path.exists(enWordFile):
                 print "saying: " + word
                 subprocessArray.extend(["-i", wordFile])
