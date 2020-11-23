@@ -25,11 +25,12 @@ fi
 
 python dictionary.py $prefix $targetLanguage
 python cut-s.py $prefix 1 $targetLanguage
-python video2image.py $prefix $targetLanguage
-python audio2video-s.py $prefix $sourceLanguage $targetLanguage
+#python video2image.py $prefix $targetLanguage
+#python audio2video-s.py $prefix $sourceLanguage $targetLanguage
 python combine-s.py $prefix
-exit 0
+#exit 0
 
+rm build/$prefix/.DS_Store
 python subtitles-s.py $prefix $sourceLanguage $targetLanguage
 #exit 0
 

@@ -17,7 +17,7 @@ lines = file.read().splitlines()
 count = 0
 prevStartTime = "00:00"
 prevTotalSeconds = 0
-duration = 5
+duration = 8
 for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
@@ -66,10 +66,10 @@ for line in lines:
             filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
             targetFile = filePrefix + "-" + order + "o" + targetLanguage
             if not path.exists(targetFile + ".mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
-                subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", plusFiveStartTime, targetFile + "~.m4a"])
-                subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
-                subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
-                subprocess.call(["rm", targetFile + "~.m4a"])
+                #subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", plusFiveStartTime, targetFile + "~.m4a"])
+                #subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
+                #subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
+                #subprocess.call(["rm", targetFile + "~.m4a"])
                 
                 subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-to", plusFiveStartTime, targetFile + "~.mp4"])
                 subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
@@ -83,10 +83,10 @@ if targetLanguage == "tr":
     filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
     targetFile = filePrefix + "-" + order + "o" + targetLanguage
     if not path.exists(targetFile + ".mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
-        subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.m4a"])
-        subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
-        subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
-        subprocess.call(["rm", targetFile + "~.m4a"])
+        #subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.m4a"])
+        #subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
+        #subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
+        #subprocess.call(["rm", targetFile + "~.m4a"])
 
         subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.mp4"])
         subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
