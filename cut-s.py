@@ -14,10 +14,26 @@ print "## cut, prefix: " + prefix + ", order: " + order + ", targetLanguage: " +
 filePath = "build/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
 lines = file.read().splitlines()
+
+paragraphs = []
+
+count = 0
+paragraph = ""
+for line in lines:
+    if "-->" in line:
+        if len(paragraph) > 0 and count > 0:
+            paragraph = paragraph[:len(paragraph)-2]
+            paragraphs.append(paragraph)
+        paragraph = ""
+        count = count + 1
+    else:
+        paragraph = paragraph + line + "\n"
+paragraphs.append(paragraph)
+
 count = 0
 prevStartTime = "00:00"
 prevTotalSeconds = 0
-duration = 8
+threshold = 8
 for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
@@ -31,6 +47,9 @@ for line in lines:
         seconds = int(secondsArray[0])
         totalSeconds = minutes * 60 + seconds
         shiftedSeconds = 0
+        if count > 0:
+            paragraph = paragraphs[count - 1]
+            threshold = len(paragraph) / 5
         if targetLanguage == "ar":
             subPrefix = prefix[:11]
             if subPrefix == "ertugrul-1-":
@@ -53,33 +72,37 @@ for line in lines:
         minutes = totalSeconds / 60 
         seconds = totalSeconds - minutes * 60
         startTime = str(minutes) + ":" + str(seconds)
-        # + "." + secondsArray[1]
-        plusFive = prevTotalSeconds + duration
-        minutes = plusFive / 60 
-        seconds = plusFive - minutes * 60
-        plusFiveStartTime = str(minutes) + ":" + str(seconds)
-        # + "." + secondsArray[1]
-        #print "prevStartTime: " + prevStartTime
-        #print "startTime: " + startTime
-        #print "plusFiveStartTime: " + plusFiveStartTime
-        if count > 0 and totalSeconds - prevTotalSeconds > duration:
+        duration = totalSeconds - prevTotalSeconds
+        if duration > threshold * 3:
+            duration = threshold * 3
+        plusDuration = prevTotalSeconds + duration
+        minutes = plusDuration / 60 
+        seconds = plusDuration - minutes * 60
+        plusDurationStartTime = str(minutes) + ":" + str(seconds)
+        #if duration > threshold:
+        #    print "paragraph: " + paragraph
+        #    print "threshold: " + str(threshold)
+        #    print "duration: " + str(duration)
+        if count > 0 and duration > threshold:
             filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
             targetFile = filePrefix + "-" + order + "o" + targetLanguage
             if not path.exists(targetFile + ".mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
-                #subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", plusFiveStartTime, targetFile + "~.m4a"])
+                #subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", plusDurationStartTime, targetFile + "~.m4a"])
                 #subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
                 #subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
                 #subprocess.call(["rm", targetFile + "~.m4a"])
                 
-                subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-to", plusFiveStartTime, targetFile + "~.mp4"])
-                subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
-                subprocess.call(["mv", targetFile + "~~.mp4", targetFile + ".mp4"])
-                subprocess.call(["rm", targetFile + "~.mp4"])
+                subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-to", plusDurationStartTime, targetFile + "~.mp4"])
+                #subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
+                subprocess.call(["mv", targetFile + "~.mp4", targetFile + ".mp4"])
+                #subprocess.call(["rm", targetFile + "~.mp4"])
         prevTotalSeconds = totalSeconds
         prevStartTime = startTime
         count = count + 1
+        #if count > 20:
+        #    break
 
-if targetLanguage == "tr":
+if targetLanguage != "tr":
     filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
     targetFile = filePrefix + "-" + order + "o" + targetLanguage
     if not path.exists(targetFile + ".mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
@@ -89,8 +112,8 @@ if targetLanguage == "tr":
         #subprocess.call(["rm", targetFile + "~.m4a"])
 
         subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.mp4"])
-        subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
-        subprocess.call(["mv", targetFile + "~~.mp4", targetFile + ".mp4"])
-        subprocess.call(["rm", targetFile + "~.mp4"])
+        #subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
+        subprocess.call(["mv", targetFile + "~.mp4", targetFile + ".mp4"])
+        #subprocess.call(["rm", targetFile + "~.mp4"])
 
 file.close()

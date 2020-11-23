@@ -28,19 +28,19 @@ targetLines = targetFile.read().splitlines()
 sourceParagraphs = []
 targetParagraphs = []
 
-def getParagraphs(lines, paragraghs):
+def getParagraphs(lines, paragraphs):
     count = 0
     paragraph = ""
     for line in lines:
         if "-->" in line:
             if len(paragraph) > 0 and count > 0:
                 paragraph = paragraph[:len(paragraph)-2]
-                paragraghs.append(paragraph)
+                paragraphs.append(paragraph)
             paragraph = ""
             count = count + 1
         else:
             paragraph = paragraph + line + "\n"
-    paragraghs.append(paragraph)
+    paragraphs.append(paragraph)
 
 def timeString(timeFloat):
     milliSeconds = int(timeFloat * 1000 % 1000)
@@ -122,7 +122,7 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     for i in range(0, len(sourceParagraphs)):
         #videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
         videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-1o" + targetLanguage + ".mp4"
-        print "videoFile: " + videoFile
+        #print "videoFile: " + videoFile
         if path.exists(videoFile):
             writeToSubtitlesFile2(targetParagraphs[i], "white", sourceParagraphs[i], "yellow")
 sourceFile.close()
