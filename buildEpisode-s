@@ -5,7 +5,6 @@ sourceLanguage=$2
 targetLanguage=$3
 
 mkdir -p build/$prefix
-mkdir -p build/words/$targetLanguage
 
 if [ $targetLanguage == "tr"  ]; then
     if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
@@ -25,12 +24,12 @@ else
 fi
 
 python dictionary.py $prefix $targetLanguage
-python cut.py $prefix 1 $targetLanguage
-python sayWords.py $prefix 2 $targetLanguage
+python cut-s.py $prefix 1 $targetLanguage
 python video2image.py $prefix $targetLanguage
-python audio2video.py $prefix $sourceLanguage $targetLanguage
-python combine.py $prefix
+python audio2video-s.py $prefix $sourceLanguage $targetLanguage
+python combine-s.py $prefix
+exit 0
+
+python subtitles-s.py $prefix $sourceLanguage $targetLanguage
 #exit 0
 
-python subtitles.py $prefix $sourceLanguage $targetLanguage
-exit 0

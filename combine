@@ -1,0 +1,2 @@
+ffmpeg -y -i build/ertugrul-1-01/ertugrul-1-01-001-1otr.mp4 -i build/ertugrul-1-01/ertugrul-1-01-003-1otr.mp4 -i build/ertugrul-1-01/ertugrul-1-01-004-1otr.mp4 -i build/ertugrul-1-01/ertugrul-1-01-008-1otr.mp4 -filter_complex [0:v][0:a][1:v][1:a][2:v][2:a][3:v][3:a]concat=n=4:v=1:a=1 build/ertugrul-1-01.mp4
+

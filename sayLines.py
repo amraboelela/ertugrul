@@ -12,7 +12,7 @@ else:
 
 print "## sayLines, prefix: " + prefix + ", order: " + order + ", language: " + language
 
-filePath = "data/" + prefix + "-" + language + ".vtt"
+filePath = "build/" + prefix + "-" + language + ".vtt"
 switcher = {
         "en": "Alex",
         "tr": "Yelda",
@@ -27,8 +27,8 @@ count = 0
 paragraph = ""
 for line in lines:
     if "-->" in line:
-        targetFileMp3 = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".mp3"
-        targetFilePrefix = "data/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language
+        targetFileMp3 = "build/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language + ".mp3"
+        targetFilePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d') + "-" + order + language
         targetFile = targetFilePrefix + ".m4a"
         fileCount = 0
         if len(paragraph) > 0 and count > 0 and not path.exists(targetFile):

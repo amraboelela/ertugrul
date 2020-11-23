@@ -11,11 +11,11 @@ else:
 
 print "## video2image, prefix: " + prefix + ", targetLanguage: " + targetLanguage
 
-filePath = "data/" + prefix + "-" + targetLanguage + ".vtt" 
+filePath = "build/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
 lines = file.read().splitlines()
 count = 0
-filePrefix = "data/" + prefix + "/" + prefix + "-"
+filePrefix = "build/" + prefix + "/" + prefix + "-"
 
 def videoToImage():
     audioFile = filePrefix + format(count, '03d') + "-1o" + targetLanguage + ".m4a"

@@ -2,6 +2,6 @@
 
 prefix=$1
 language=$2
-#ffmpeg -y -loop 1 -i data/$prefix-$language.jpg -i data/$prefix.m4a -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest data/$prefix.mp4
-ffmpeg -y -loop 1 -i data/$prefix-$language.jpg -i data/$prefix/$prefix-001-2tr-en.m4a -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest -strict -2 data/$prefix/$prefix-001-2tr-en.mp4
+#ffmpeg -y -loop 1 -i build/$prefix-$language.jpg -i build/$prefix.m4a -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest build/$prefix.mp4
+ffmpeg -y -loop 1 -i build/$prefix-$language.jpg -i build/$prefix/$prefix-001-2tr-en.m4a -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest -strict -2 build/$prefix/$prefix-001-2tr-en.mp4
 

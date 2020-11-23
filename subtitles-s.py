@@ -101,3 +101,4 @@ subtitlesFile.close()
 sbtFile = "build/" + prefix + "-sbt.mp4"
 if not path.exists(sbtFile):
     os.system("handbrakecli -i build/" + prefix + ".mp4 -o " + sbtFile + " --srt-file build/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")
+
