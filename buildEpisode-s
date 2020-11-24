@@ -12,18 +12,18 @@ if [ $targetLanguage == "tr"  ]; then
         ffmpeg -y -i build/$prefix-$targetLanguage.srt build/$prefix-$targetLanguage.vtt
         rm build/$prefix-$targetLanguage.srt
     fi
-    if [ ! -f build/$prefix-$targetLanguage-$sourceLanguage.vtt ] || [ ! -s build/$prefix-$targetLanguage-$sourceLanguage.vtt ]; then
-        echo "Translating $prefix-$targetLanguage.vtt"
-        python translate.py build/$prefix-$targetLanguage.vtt $sourceLanguage > build/$prefix-$targetLanguage-$sourceLanguage.vtt
-    fi
+    #if [ ! -f build/$prefix-$targetLanguage-$sourceLanguage.vtt ] || [ ! -s build/$prefix-$targetLanguage-$sourceLanguage.vtt ]; then
+    #    echo "Translating $prefix-$targetLanguage.vtt"
+    #    python translate.py build/$prefix-$targetLanguage.vtt $sourceLanguage > build/$prefix-$targetLanguage-$sourceLanguage.vtt
+    #fi
 else
-    if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
-        echo "Translating $prefix-$sourceLanguage.vtt"
-        python translate.py build/$prefix-$sourceLanguage.vtt $targetLanguage > build/$prefix-$targetLanguage.vtt
-    fi
+    #if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
+    #    echo "Translating $prefix-$sourceLanguage.vtt"
+    #    python translate.py build/$prefix-$sourceLanguage.vtt $targetLanguage > build/$prefix-$targetLanguage.vtt
+    #fi
 fi
 
-python dictionary.py $prefix $targetLanguage
+#python dictionary.py $prefix $targetLanguage
 python cut-s.py $prefix 1 $targetLanguage
 #python video2image.py $prefix $targetLanguage
 #python audio2video-s.py $prefix $sourceLanguage $targetLanguage

@@ -22,8 +22,8 @@ for line in lines:
             paragraph = paragraph[:len(paragraph)-2]
             PARAMS = {'key':key, 'q':paragraph, 'source':sourceLanguage, 'target':targetLanguage}
             r = requests.get(url = URL, params = PARAMS)
-            build = r.json()
-            translatedText = build['build']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("&quot;","'").replace("'il","'ll")
+            data = r.json()
+            translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("&quot;","'").replace("'il","'ll")
             try:
                 print(translatedText.encode('utf8'))
                 print
@@ -38,8 +38,8 @@ for line in lines:
 
 PARAMS = {'key':key, 'q':paragraph, 'source':sourceLanguage, 'target':targetLanguage}
 r = requests.get(url = URL, params = PARAMS)
-build = r.json()
-translatedText = build['build']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("&quot;","'").replace("'il","'ll")
+data = r.json()
+translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("&quot;","'").replace("'il","'ll")
 try:
     print(translatedText.encode('utf8'))
     print
