@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:tickRate="10000000" ttp:timeBase="media" xmlns="http://www.w3.org/ns/ttml">
+<head>
+<ttp:profile use="http://netflix.com/ttml/profile/dfxp-ls-sdh"/>
+<styling>
+<style tts:backgroundColor="transparent" tts:color="white" tts:fontSize="100%" tts:fontWeight="normal" xml:id="style.default"/>
+<style tts:backgroundColor="transparent" tts:color="white" tts:fontSize="100%" tts:fontStyle="italic" tts:fontWeight="normal" xml:id="style.default_1"/>
+</styling>
+<layout>
+<region tts:displayAlign="after" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="region.after.center"/>
+<region tts:displayAlign="before" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="region.before.center"/>
+</layout>
+</head>
+<body>
+<div xml:space="preserve">
+<p begin="162800000t" end="232400000t" region="region.after.center" style="style.default" xml:id="subtitle0">[Müzik - Jenerik]</p>
+<p begin="380000000t" end="447200000t" region="region.after.center" style="style.default" xml:id="subtitle1">[Müzik - Jenerik]</p>
+<p begin="600000000t" end="669600000t" region="region.after.center" style="style.default" xml:id="subtitle2">[Müzik - Jenerik]</p>
+<p begin="820000000t" end="889600000t" region="region.after.center" style="style.default" xml:id="subtitle3">[Müzik - Jenerik devam ediyor]</p>
+<p begin="1036800000t" end="1106800000t" region="region.after.center" style="style.default" xml:id="subtitle4">[Müzik - Jenerik devam ediyor]</p>
+<p begin="1260000000t" end="1278000000t" region="region.before.center" style="style.default" xml:id="subtitle5">[Müzik - Jenerik devam ediyor]</p>
+<p begin="1368400000t" end="1436800000t" region="region.after.center" style="style.default" xml:id="subtitle6">[Müzik]</p>
+<p begin="1534400000t" end="1544400000t" region="region.after.center" style="style.default" xml:id="subtitle7">Hepsi öldü mü?</p>
+<p begin="1553200000t" end="1585200000t" region="region.after.center" style="style.default" xml:id="subtitle8">[Müzik]</p>
+<p begin="1586000000t" end="1599200000t" region="region.after.center" style="style.default" xml:id="subtitle9">Maalesef öyle olmak zorunda.</p>
+<p begin="1616400000t" end="1633600000t" region="region.after.center" style="style.default" xml:id="subtitle10">Gündoğdu dışında hepsi ölecek.</p>
+<p begin="1649200000t" end="1666400000t" region="region.after.center" style="style.default" xml:id="subtitle11">[Kurdoğlu] Belki içlerinden şanslı biri</p>
+<p begin="1681200000t" end="1713600000t" region="region.after.center" style="style.default" xml:id="subtitle12">kötü haberi, Süleyman Şah'a getirecek.</p>
+<p begin="1721600000t" end="1734400000t" region="region.after.center" style="style.default" xml:id="subtitle13">[Alpargu] Vay canına.</p>
+<p begin="1742400000t" end="1763600000t" region="region.after.center" style="style.default" xml:id="subtitle14">Süleyman Şah'ın saltanatı bitecek.</p>
+<p begin="1764400000t" end="1777200000t" region="region.after.center" style="style.default" xml:id="subtitle15">[Gülme sesi]</p>
+<p begin="1778000000t" end="1796000000t" region="region.after.center" style="style.default" xml:id="subtitle16">[Alpargu] De gidi koca dünya.</p>
+<p begin="1802800000t" end="1816800000t" region="region.after.center" style="style.default" xml:id="subtitle17">[Alpargu] Vay, vay, vay.</p>
+<p begin="1825600000t" end="1846800000t" region="region.after.center" style="style.default" xml:id="subtitle18">Ya töre diye ısrar ederse?</p>
+<p begin="1856800000t" end="1869200000t" region="region.after.center" style="style.default" xml:id="subtitle19">Esirleri vermezse?</p>
+<p begin="1870000000t" end="1886000000t" region="region.after.center" style="style.default" xml:id="subtitle20">[Kurdoğlu] Vermeyip de ne yapacak?</p>
+<p begin="1886800000t" end="1905600000t" region="region.after.center" style="style.default" xml:id="subtitle21">Oğlunun ölümüne amin mi diyecek?</p>
+<p begin="1908800000t" end="1938800000t" region="region.after.center" style="style.default" xml:id="subtitle22">[Baybora] Alplerini toplayıp<br/>Kara Toygar'a saldırırsa ne yapacağız?</p>
+<p begin="1946000000t" end="1960400000t" region="region.after.center" style="style.default" xml:id="subtitle23">Süleyman Şah'ı iyi tanırım.</p>
+<p begin="1968000000t" end="1983200000t" region="region.after.center" style="style.default" xml:id="subtitle24">O kendi canını ortaya kor.</p>
+<p begin="1998400000t" end="2028000000t" region="region.after.center" style="style.default" xml:id="subtitle25">Kara Toygar ikisini de ortadan kaldıracak.</p>
+<p begin="2028800000t" end="2050400000t" region="region.after.center" style="style.default" xml:id="subtitle26">[Müzik]</p>
+<p begin="2051200000t" end="2065600000t" region="region.after.center" style="style.default" xml:id="subtitle27">Geriye bir tek Ertuğrul kalıyor.</p>
+<p begin="2078400000t" end="2087600000t" region="region.after.center" style="style.default" xml:id="subtitle28">Onu da...</p>
+<p begin="2096400000t" end="2118400000t" region="region.after.center" style="style.default" xml:id="subtitle29">[Baybora] Çok ileri gittin beyim, çok.</p>
+<p begin="2119200000t" end="2137600000t" region="region.after.center" style="style.default" xml:id="subtitle30">Bu işin sonu hiç iyi değil.</p>
+<p begin="2144000000t" end="2158000000t" region="region.after.center" style="style.default" xml:id="subtitle31">[Kurdoğlu] Ulan it.</p>
+<p begin="2158800000t" end="2188000000t" region="region.after.center" style="style.default" xml:id="subtitle32">Madem bu kadar korkuyordun,<br/>niye benimle birlik oldun?</p>
+<p begin="2193600000t" end="2209200000t" region="region.after.center" style="style.default" xml:id="subtitle33">Obanın düze çıkması için beyim.</p>
+<p begin="2212400000t" end="2237600000t" region="region.after.center" style="style.default" xml:id="subtitle34">-Bu işin buraya varacağını...<br/>-[Kurdoğlu] Neye varacak ha?</p>
+<p begin="2238400000t" end="2251600000t" region="region.after.center" style="style.default" xml:id="subtitle35">[Kurdoğlu] Neye varacak?</p>
+<p begin="2260000000t" end="2295200000t" region="region.after.center" style="style.default" xml:id="subtitle36">Bu obanın iyiliği için üç, beş<br/>alp feda edilecekse, edilir.</p>
+<p begin="2296000000t" end="2304800000t" region="region.after.center" style="style.default" xml:id="subtitle37">Edilmez mi ha?</p>
+<p begin="2305600000t" end="2322400000t" region="region.after.center" style="style.default" xml:id="subtitle38">[Kurdoğlu] Söyle bana, edilmez mi?</p>
+<p begin="2332000000t" end="2345200000t" region="region.after.center" style="style.default" xml:id="subtitle39">Edilir beyim.</p>
+<p begin="2354000000t" end="2366800000t" region="region.after.center" style="style.default" xml:id="subtitle40">Edilir.</p>
+<p begin="2367600000t" end="2377200000t" region="region.after.center" style="style.default" xml:id="subtitle41">Ah!</p>
+<p begin="2408400000t" end="2443600000t" region="region.after.center" style="style.default" xml:id="subtitle42">[Öksürme sesleri]<br/>[Müzik]</p>
+<p begin="2449200000t" end="2467200000t" region="region.after.center" style="style.default" xml:id="subtitle43">Allah hepsine gani gani rahmet eylesin.</p>
+<p begin="2477200000t" end="2498000000t" region="region.after.center" style="style.default" xml:id="subtitle44">[Kurdoğlu]<br/>Biz ne gerekiyorsa onu yaptık.</p>
+<p begin="2507600000t" end="2540000000t" region="region.after.center" style="style.default" xml:id="subtitle45">Eğer Kara Toygar'ı kervan<br/>baskınına ikna etmeseydim</p>
+<p begin="2561200000t" end="2577200000t" region="region.after.center" style="style.default" xml:id="subtitle46">ordusuyla üstümüzden geçerdi.</p>
+<p begin="2583600000t" end="2599599999t" region="region.after.center" style="style.default" xml:id="subtitle47">[Kurdoğlu] Sülalemizi çürütürdü.</p>
+<p begin="2600400000t" end="2633600000t" region="region.after.center" style="style.default" xml:id="subtitle48">Şimdi tek yapmamız gereken şey,<br/>arkamıza yaslanıp</p>
+<p begin="2640800000t" end="2659600000t" region="region.after.center" style="style.default" xml:id="subtitle49">obaya kara haberin<br/>düşmesini beklemek.</p>
+<p begin="2694000000t" end="2719600000t" region="region.after.center" style="style.default" xml:id="subtitle50">Sen de git elini yüzünü yıka.<br/>Kendine gel hadi.</p>
+<p begin="2720400000t" end="2789600000t" region="region.after.center" style="style.default" xml:id="subtitle51">[Müzik]</p>
+<p begin="2866800000t" end="2884800000t" region="region.after.center" style="style.default" xml:id="subtitle52">Bu korkağa dikkat et Alpargu.</p>
+<p begin="2889600000t" end="2937600000t" region="region.after.center" style="style.default" xml:id="subtitle53">Eğer korkusu diline vuracak olursa,<br/>kökünden koparmaktan da çekinme.</p>
+<p begin="2938400000t" end="2968000000t" region="region.after.center" style="style.default" xml:id="subtitle54">[Müzik - Gerilim]</p>
+<p begin="2991600000t" end="3011200000t" region="region.after.center" style="style.default" xml:id="subtitle55">[Gökçe] Her şey<br/>düzelecek abla, göreceksin.</p>
+<p begin="3022400000t" end="3044000000t" region="region.after.center" style="style.default" xml:id="subtitle56">Süleyman Şah, oğlunu feda etmez.</p>
+<p begin="3054000000t" end="3066000000t" region="region.after.center" style="style.default" xml:id="subtitle57">Feda etmez ha?</p>
+<p begin="3071600000t" end="3081600000t" region="region.after.center" style="style.default" xml:id="subtitle58">Etmez tabii.</p>
+<p begin="3088800000t" end="3107200000t" region="region.after.center" style="style.default" xml:id="subtitle59">Ama töresini de ezip geçmez.</p>
+<p begin="3126400000t" end="3135600000t" region="region.after.center" style="style.default" xml:id="subtitle60">Abla.</p>
+<p begin="3142400000t" end="3172000000t" region="region.after.center" style="style.default" xml:id="subtitle61">Allah aşkına olmayacak şeyler<br/>düşünüp, kendini perişan etme.</p>
+<p begin="3182800000t" end="3216400000t" region="region.after.center" style="style.default" xml:id="subtitle62">Gündoğdu'yu Kara Toygar'ın elinden<br/>kurtarmak için bir delilik yaparsa?</p>
+<p begin="3221200000t" end="3236800000t" region="region.after.center" style="style.default" xml:id="subtitle63">[Selcan] İçimi kemiren bu, Gökçe.</p>
+<p begin="3264800000t" end="3281600000t" region="region.after.center" style="style.default" xml:id="subtitle64">Gidip Süleyman Şah'la konuşacağım.</p>
+<p begin="3282400000t" end="3300000000t" region="region.after.center" style="style.default" xml:id="subtitle65">[Ayak sesleri]</p>
+<p begin="3360800000t" end="3382000000t" region="region.after.center" style="style.default" xml:id="subtitle66">Önce Gündoğdu'yu serbest bırakacak.</p>
+<p begin="3391200000t" end="3421200000t" region="region.after.center" style="style.default" xml:id="subtitle67">Sonra Kara Toygar'ı istediğimiz yere<br/>getirmek için yola çıkaracağım.</p>
+<p begin="3442000000t" end="3462000000t" region="region.after.center" style="style.default" xml:id="subtitle68">[Süleyman Şah]<br/>Varacağımız yere ulaşınca da</p>
+<p begin="3462800000t" end="3486400000t" region="region.after.center" style="style.default" xml:id="subtitle69">gerisi artık sizin cesaret<br/>ve hünerinize kalacak evlat.</p>
+<p begin="3541600000t" end="3564800000t" region="region.after.center" style="style.default" xml:id="subtitle70">Mühim bir mesele<br/>konuşulmakta Selcan Hatun.</p>
+<p begin="3565600000t" end="3574400000t" region="region.after.center" style="style.default" xml:id="subtitle71">Çekil önümden.</p>
+<p begin="3590800000t" end="3604400000t" region="region.after.center" style="style.default" xml:id="subtitle72">Beyimizin emri.</p>
+<p begin="3605200000t" end="3624000000t" region="region.after.center" style="style.default" xml:id="subtitle73">Sana çekil önümden dedim.</p>
+<p begin="3638800000t" end="3666400000t" region="region.after.center" style="style.default" xml:id="subtitle74">[Ertuğrul] Kara Toygar'ı Kartal<br/>Tepesi'nde tuzağa düşüreceğiz.</p>
+<p begin="3670400000t" end="3738000000t" region="region.after.center" style="style.default" xml:id="subtitle75">[Müzik]</p>
+<p begin="3828800000t" end="3839600000t" region="region.after.center" style="style.default" xml:id="subtitle76">Gel dışarda konuşalım.</p>
+<p begin="3853600000t" end="3920000000t" region="region.after.center" style="style.default" xml:id="subtitle77">[Müzik]</p>
+<p begin="4022800000t" end="4050000000t" region="region.after.center" style="style.default" xml:id="subtitle78">Gündoğdu abimi sana sağ salim<br/>getireceğime dair söz veriyorum.</p>
+<p begin="4050800000t" end="4074800000t" region="region.after.center" style="style.default" xml:id="subtitle79">Eğer Gündoğdu'ma bir şey olursa,</p>
+<p begin="4081200000t" end="4114800000t" region="region.after.center" style="style.default" xml:id="subtitle80">eğer ağabeyini yolda<br/>bulduklarına feda edersen</p>
+<p begin="4115600000t" end="4137200000t" region="region.after.center" style="style.default" xml:id="subtitle81">iki elim yakanda olur Ertuğrul.</p>
+<p begin="4145200000t" end="4154000000t" region="region.after.center" style="style.default" xml:id="subtitle82">Beyim.</p>
+<p begin="4164800000t" end="4176800000t" region="region.after.center" style="style.default" xml:id="subtitle83">Bir baba olarak</p>
+<p begin="4189600000t" end="4210400000t" region="region.after.center" style="style.default" xml:id="subtitle84">senden son bir isteğim olacak.</p>
+<p begin="4217200000t" end="4256800000t" region="region.after.center" style="style.default" xml:id="subtitle85">[Numan] Müsaade edersen kızımı<br/>sana emanet etmek istiyorum.</p>
+<p begin="4287600000t" end="4316800000t" region="region.after.center" style="style.default" xml:id="subtitle86">[Numan] Kara Toygar,<br/>oğlumla benim peşimde.</p>
+<p begin="4330400000t" end="4342400000t" region="region.after.center" style="style.default" xml:id="subtitle87">Kızımla dertleri yok.</p>
+<p begin="4354000000t" end="4380800000t" region="region.after.center" style="style.default" xml:id="subtitle88">Kızım, obanın kızıdır artık.</p>
+<p begin="4381600000t" end="4420000000t" region="region.after.center" style="style.default" xml:id="subtitle89">[Müzik]</p>
+<p begin="4420800000t" end="4450400000t" region="region.after.center" style="style.default" xml:id="subtitle90">[Numan] Ne kimsesi var, ne gidecek yeri.</p>
+<p begin="4457600000t" end="4517600000t" region="region.after.center" style="style.default" xml:id="subtitle91">[Müzik - Duygusal]</p>
+<p begin="4521200000t" end="4534400000t" region="region.after.center" style="style.default" xml:id="subtitle92">Gönlünü ferah tut yenge.</p>
+<p begin="4535200000t" end="4582400000t" region="region.after.center" style="style.default" xml:id="subtitle93">[Müzik]</p>
+<p begin="4589600000t" end="4642000000t" region="region.after.center" style="style.default" xml:id="subtitle94">[Müzik - Gerilim]</p>
+<p begin="4668400000t" end="4701200000t" region="region.after.center" style="style.default" xml:id="subtitle95">[Müzik]</p>
+<p begin="4702000000t" end="4734800000t" region="region.after.center" style="style.default" xml:id="subtitle96">[Ayak sesleri]</p>
+<p begin="4735600000t" end="4756000000t" region="region.after.center" style="style.default" xml:id="subtitle97">Dur! Ne istiyorsun?</p>
+<p begin="4756800000t" end="4788000000t" region="region.after.center" style="style.default" xml:id="subtitle98">[Müzik]</p>
+<p begin="4804400000t" end="4817600000t" region="region.after.center" style="style.default" xml:id="subtitle99">Bir otak başını soracaktım.</p>
+<p begin="4824000000t" end="4841600000t" region="region.after.center" style="style.default" xml:id="subtitle100">Eskiden birliğimin otak başıydı.</p>
+<p begin="4847200000t" end="4856000000t" region="region.after.center" style="style.default" xml:id="subtitle101">Kimi arıyorsun?</p>
+<p begin="4862800000t" end="4874000000t" region="region.after.center" style="style.default" xml:id="subtitle102">Saru. Saru Börü de derler.</p>
+<p begin="4883600000t" end="4935600000t" region="region.after.center" style="style.default" xml:id="subtitle103">[Müzik]</p>
+<p begin="4942000000t" end="4956800000t" region="region.after.center" style="style.default" xml:id="subtitle104">Saru Börü'yü tanırız elbet.</p>
+<p begin="4964400000t" end="4991600000t" region="region.after.center" style="style.default" xml:id="subtitle105">[Adam] Ama artık kendisi<br/>otak başı değil, bölükbaşı oldu.</p>
+<p begin="5018400000t" end="5028400000t" region="region.after.center" style="style.default" xml:id="subtitle106">Karargahta mı?</p>
+<p begin="5037200000t" end="5049600000t" region="region.after.center" style="style.default" xml:id="subtitle107">Kara Toygar'la göreve gitti.</p>
+<p begin="5050400000t" end="5063200000t" region="region.after.center" style="style.default" xml:id="subtitle108">Bir diyeceğin varsa bize de.</p>
+<p begin="5067200000t" end="5084400000t" region="region.after.center" style="style.default" xml:id="subtitle109">Var. Var yiğidim, var.</p>
+<p begin="5085200000t" end="5153200000t" region="region.after.center" style="style.default" xml:id="subtitle110">[Müzik]</p>
+<p begin="5307200000t" end="5377200000t" region="region.after.center" style="style.default" xml:id="subtitle111">[Müzik]</p>
+<p begin="5530000000t" end="5598400000t" region="region.after.center" style="style.default" xml:id="subtitle112">[Müzik]</p>
+<p begin="5646800000t" end="5678800000t" region="region.after.center" style="style.default" xml:id="subtitle113">[Ayak sesleri]</p>
+<p begin="5722800000t" end="5776800000t" region="region.after.center" style="style.default" xml:id="subtitle114">[Müzik - Gerilim]</p>
+<p begin="5816800000t" end="5859200000t" region="region.after.center" style="style.default" xml:id="subtitle115">[Ayak sesleri]<br/>[Müzik]</p>
+<p begin="5863200000t" end="5880800000t" region="region.after.center" style="style.default" xml:id="subtitle116">[Kara Toygar] Hoş gelsin Titus.</p>
+<p begin="5881600000t" end="5910400000t" region="region.after.center" style="style.default" xml:id="subtitle117">[Müzik]</p>
+<p begin="5911200000t" end="5921600000t" region="region.after.center" style="style.default" xml:id="subtitle118">Geç, otur.</p>
+<p begin="5925200000t" end="5985600000t" region="region.after.center" style="style.default" xml:id="subtitle119">[Müzik]</p>
+<p begin="5986400000t" end="6020400000t" region="region.after.center" style="style.default" xml:id="subtitle120">Üstadın güvercinle<br/>gönderdiği mektubu okudum.</p>
+<p begin="6028800000t" end="6061200000t" region="region.after.center" style="style.default" xml:id="subtitle121">[Kara Toygar] Kayıların, Halep'e<br/>göç etmesini istemiyormuş.</p>
+<p begin="6068400000t" end="6078800000t" region="region.after.center" style="style.default" xml:id="subtitle122">Evet.</p>
+<p begin="6091600000t" end="6104800000t" region="region.after.center" style="style.default" xml:id="subtitle123">Hiç merak etmesin.</p>
+<p begin="6118800000t" end="6136000000t" region="region.after.center" style="style.default" xml:id="subtitle124">Kayılar Halep'e değil</p>
+<p begin="6144800000t" end="6170400000t" region="region.after.center" style="style.default" xml:id="subtitle125">benim istediğim yere göç edecekler.</p>
+<p begin="6179200000t" end="6188800000t" region="region.after.center" style="style.default" xml:id="subtitle126">Nasıl?</p>
+<p begin="6194800000t" end="6232400000t" region="region.after.center" style="style.default" xml:id="subtitle127">Müstakbel beyleri,<br/>benimle aynı şeyi düşünüyor.</p>
+<p begin="6245600000t" end="6270800000t" region="region.after.center" style="style.default" xml:id="subtitle128">[Kara Toygar] Haçlıların<br/>ayağına dolaşmaktansa</p>
+<p begin="6285600000t" end="6319200000t" region="region.after.center" style="style.default" xml:id="subtitle129">Moğolların dizinin dibinde<br/>oturmayı tercih ediyor.</p>
+<p begin="6330400000t" end="6340000000t" region="region.after.center" style="style.default" xml:id="subtitle130">Kim bu adam?</p>
+<p begin="6353200000t" end="6364000000t" region="region.after.center" style="style.default" xml:id="subtitle131">Kurdoğlu.</p>
+<p begin="6370800000t" end="6396400000t" region="region.after.center" style="style.default" xml:id="subtitle132">[Kara Toygar] Süleyman Şah'ın kan kardeşi.</p>
+<p begin="6402400000t" end="6420800000t" region="region.after.center" style="style.default" xml:id="subtitle133">[Müzik]</p>
+<p begin="6421600000t" end="6437600000t" region="region.after.center" style="style.default" xml:id="subtitle134">İhtiraslı bir budala.</p>
+<p begin="6459600000t" end="6511600000t" region="region.after.center" style="style.default" xml:id="subtitle135">Sözümüzden çıkmayacak, istediğimiz<br/>gibi kullanabileceğimiz birisi.</p>
+<p begin="6530400000t" end="6542400000t" region="region.after.center" style="style.default" xml:id="subtitle136">Ya Süleyman Şah?</p>
+<p begin="6556000000t" end="6568800000t" region="region.after.center" style="style.default" xml:id="subtitle137">Süleyman Şah.</p>
+<p begin="6599600000t" end="6657200000t" region="region.after.center" style="style.default" xml:id="subtitle138">Akşam olunca karargahıma gelip,<br/>teslim olacak.</p>
+<p begin="6673600000t" end="6715600000t" region="region.after.center" style="style.default" xml:id="subtitle139">Üstelik şövalyelerinin elinden kaçırdığı</p>
+<p begin="6716400000t" end="6756000000t" region="region.after.center" style="style.default" xml:id="subtitle140">şehzadeleri de yanında getirecek.</p>
+<p begin="6756800000t" end="6787600000t" region="region.after.center" style="style.default" xml:id="subtitle141">[Müzik]</p>
+<p begin="6788400000t" end="6798800000t" region="region.after.center" style="style.default" xml:id="subtitle142">[Kapı açılma sesi]</p>
+<p begin="6805200000t" end="6872400000t" region="region.after.center" style="style.default" xml:id="subtitle143">[Müzik]</p>
+<p begin="6896000000t" end="6952400000t" region="region.after.center" style="style.default" xml:id="subtitle144">[Müzik - Gerilim]</p>
+<p begin="6958800000t" end="6967600000t" region="region.after.center" style="style.default" xml:id="subtitle145">[Kılıç sesi]</p>
+<p begin="6968400000t" end="6984000000t" region="region.after.center" style="style.default" xml:id="subtitle146">[Müzik - Gerilim]</p>
+<p begin="6997200000t" end="7006000000t" region="region.after.center" style="style.default" xml:id="subtitle147">Afşin Bey'im.</p>
+<p begin="7069200000t" end="7138800000t" region="region.after.center" style="style.default" xml:id="subtitle148">[Müzik]</p>
+<p begin="7171600000t" end="7183600000t" region="region.after.center" style="style.default" xml:id="subtitle149">Öldüğünü zannediyordum.</p>
+<p begin="7191600000t" end="7206000000t" region="region.after.center" style="style.default" xml:id="subtitle150">Öyle bilinmesi gerekiyordu Börü.</p>
+<p begin="7226000000t" end="7241600000t" region="region.after.center" style="style.default" xml:id="subtitle151">Devletimiz büyük tehdit altında.</p>
+<p begin="7253200000t" end="7267600000t" region="region.after.center" style="style.default" xml:id="subtitle152">Yardımına ihtiyacım var.</p>
+<p begin="7274000000t" end="7343200000t" region="region.after.center" style="style.default" xml:id="subtitle153">[Müzik - Duygusal]</p>
+<p begin="7490000000t" end="7559200000t" region="region.after.center" style="style.default" xml:id="subtitle154">[Müzik - Duygusal]</p>
+<p begin="7658000000t" end="7674800000t" region="region.after.center" style="style.default" xml:id="subtitle155">Nerede kaldı bu uğursuz haber?</p>
+<p begin="7758800000t" end="7786000000t" region="region.after.center" style="style.default" xml:id="subtitle156">Beyim, Süleyman Şah'ım<br/>sizi otağında bekler.</p>
+<p begin="7833600000t" end="7856400000t" region="region.after.center" style="style.default" xml:id="subtitle157">[Ayak sesleri]</p>
+<p begin="7862000000t" end="7917200000t" region="region.after.center" style="style.default" xml:id="subtitle158">[Müzik]</p>
+<p begin="7927600000t" end="7969200000t" region="region.after.center" style="style.default" xml:id="subtitle159">Her ne olursa olsun şehzadeleri,<br/>Kara Toygar almamalı.</p>
+<p begin="7987600000t" end="8016800000t" region="region.after.center" style="style.default" xml:id="subtitle160">Ya Sultan Alâeddin'e<br/>şehzadeleri götürmeyi başarırsa?</p>
+<p begin="8030800000t" end="8066000000t" region="region.after.center" style="style.default" xml:id="subtitle161">Alâeddin'in en gözde komutanı olur.</p>
+<p begin="8080400000t" end="8098800000t" region="region.after.center" style="style.default" xml:id="subtitle162">Tapınakçılar, Konya'yı mesken tutarlar.</p>
+<p begin="8112400000t" end="8139600000t" region="region.after.center" style="style.default" xml:id="subtitle163">Devletin içinde cirit atarlar,<br/>bunun vebali büyük olur Saru.</p>
+<p begin="8154800000t" end="8171200000t" region="region.after.center" style="style.default" xml:id="subtitle164">[Afşin] Biz bu devleti kolay kurmadık.</p>
+<p begin="8192800000t" end="8230800000t" region="region.after.center" style="style.default" xml:id="subtitle165">Gerekirse şehzadeleri de<br/>öldürmekten çekinmeyeceğiz.</p>
+<p begin="8235600000t" end="8274800000t" region="region.after.center" style="style.default" xml:id="subtitle166">[Müzik]</p>
+<p begin="8278000000t" end="8299200000t" region="region.after.center" style="style.default" xml:id="subtitle167">Benden ne istiyorsanız<br/>yapmaya hazırım beyim.</p>
+<p begin="8315600000t" end="8333600000t" region="region.after.center" style="style.default" xml:id="subtitle168">Eyvallah, biliyorum Saru biliyorum.</p>
+<p begin="8340400000t" end="8360400000t" region="region.after.center" style="style.default" xml:id="subtitle169">[Müzik]</p>
+<p begin="8364400000t" end="8381200000t" region="region.after.center" style="style.default" xml:id="subtitle170">Vay zalim Kara Toygar vay.</p>
+<p begin="8382000000t" end="8405600000t" region="region.after.center" style="style.default" xml:id="subtitle171">[Müzik]</p>
+<p begin="8406400000t" end="8421600000t" region="region.after.center" style="style.default" xml:id="subtitle172">Nasıl kıymış yiğitlerimize?</p>
+<p begin="8429600000t" end="8457600000t" region="region.after.center" style="style.default" xml:id="subtitle173">Üstüne üstlük Gündoğdu'yu da<br/>esir etmiş, ha?</p>
+<p begin="8464400000t" end="8473600000t" region="region.after.center" style="style.default" xml:id="subtitle174">Evet.</p>
+<p begin="8486400000t" end="8508800000t" region="region.after.center" style="style.default" xml:id="subtitle175">Şimdi de misafirleri<br/>teslim etmemi bekliyorlar.</p>
+<p begin="8518400000t" end="8546000000t" region="region.after.center" style="style.default" xml:id="subtitle176">Öyleyse bu kuduz itin eceli<br/>bizim elimizden olacak.</p>
+<p begin="8556800000t" end="8591200000t" region="region.after.center" style="style.default" xml:id="subtitle177">Varalım alplerimizle gidelim,<br/>dünyayı başlarına geçirelim.</p>
+<p begin="8592000000t" end="8603600000t" region="region.after.center" style="style.default" xml:id="subtitle178">Hayır.</p>
+<p begin="8618400000t" end="8632400000t" region="region.after.center" style="style.default" xml:id="subtitle179">Ben tek başıma gideceğim.</p>
+<p begin="8640800000t" end="8652400000t" region="region.after.center" style="style.default" xml:id="subtitle180">Seni yalnız koymam.</p>
+<p begin="8663600000t" end="8704000000t" region="region.after.center" style="style.default" xml:id="subtitle181">Biz, birimiz ölüme giderken<br/>öteki ardından baksın</p>
+<p begin="8704800000t" end="8727600000t" region="region.after.center" style="style.default" xml:id="subtitle182">avratlar gibi gözyaşı döksün diye mi</p>
+<p begin="8732800000t" end="8753600000t" region="region.after.center" style="style.default" xml:id="subtitle183">kan kardeşi olduk zamanında beyim?</p>
+<p begin="8765200000t" end="8790800000t" region="region.after.center" style="style.default" xml:id="subtitle184">Benim çıkacağım yolun<br/>akıbeti meçhul Kurdoğlu.</p>
+<p begin="8801200000t" end="8838400000t" region="region.after.center" style="style.default" xml:id="subtitle185">Başıma bir hâl geldiğinde<br/>ardında bıraktığım obama</p>
+<p begin="8847200000t" end="8886800000t" region="region.after.center" style="style.default" xml:id="subtitle186">kan kardeşimin kol kanat gerdiğini<br/>bilmezsem, gözüm açık gitmez mi?</p>
+<p begin="8887600000t" end="8956800000t" region="region.after.center" style="style.default" xml:id="subtitle187">[Müzik]</p>
+<p begin="9027200000t" end="9041600000t" region="region.after.center" style="style.default" xml:id="subtitle188">Ben yokken vekâlet sende.</p>
+<p begin="9042400000t" end="9089200000t" region="region.after.center" style="style.default" xml:id="subtitle189">[Müzik]</p>
+<p begin="9178000000t" end="9186800000t" region="region.after.center" style="style.default" xml:id="subtitle190">Gel, şunu da giy.</p>
+<p begin="9206400000t" end="9215200000t" region="region.after.center" style="style.default" xml:id="subtitle191">Yollarda üşüme.</p>
+<p begin="9268000000t" end="9276800000t" region="region.after.center" style="style.default" xml:id="subtitle192">Abla.</p>
+<p begin="9277600000t" end="9288000000t" region="region.after.center" style="style.default" xml:id="subtitle193">Hı, söyle aslanım.</p>
+<p begin="9301600000t" end="9316000000t" region="region.after.center" style="style.default" xml:id="subtitle194">Ya bir daha seni göremezsem?</p>
+<p begin="9325600000t" end="9338800000t" region="region.after.center" style="style.default" xml:id="subtitle195">O ne demek öyle Yiğit'im?</p>
+<p begin="9348000000t" end="9367600000t" region="region.after.center" style="style.default" xml:id="subtitle196">Biz beraber ne badireler atlattık.</p>
+<p begin="9374400000t" end="9386800000t" region="region.after.center" style="style.default" xml:id="subtitle197">Ne zorluklara karşı geldik.</p>
+<p begin="9398800000t" end="9415200000t" region="region.after.center" style="style.default" xml:id="subtitle198">Bunun da üstesinden geleceğiz elbet.</p>
+<p begin="9416000000t" end="9431200000t" region="region.after.center" style="style.default" xml:id="subtitle199">[Müzik]</p>
+<p begin="9438000000t" end="9468800000t" region="region.after.center" style="style.default" xml:id="subtitle200">Ama bu defa ayrılıyoruz<br/>ve yanımızda sen yoksun.</p>
+<p begin="9474400000t" end="9485200000t" region="region.after.center" style="style.default" xml:id="subtitle201">Ya o adamlar bizi alır...</p>
+<p begin="9486000000t" end="9509600000t" region="region.after.center" style="style.default" xml:id="subtitle202">[Halime]<br/>Sen hiç yüreğini böyle dertlerle sıkma</p>
+<p begin="9510400000t" end="9523600000t" region="region.after.center" style="style.default" xml:id="subtitle203">olur mu aslan kardeşim?</p>
+<p begin="9531200000t" end="9563200000t" region="region.after.center" style="style.default" xml:id="subtitle204">Bak, bu defa yalnız değiliz,<br/>obanın beyleri var.</p>
+<p begin="9564000000t" end="9590000000t" region="region.after.center" style="style.default" xml:id="subtitle205">Onlar bizim canımızı korurlar,<br/>bize sahip çıkarlar.</p>
+<p begin="9595200000t" end="9638800000t" region="region.after.center" style="style.default" xml:id="subtitle206">Sen babamın yanından ayrılma.<br/>Onun sözünden çıkma yeter, olur mu?</p>
+<p begin="9646800000t" end="9660800000t" region="region.after.center" style="style.default" xml:id="subtitle207">[Halime] Hem sen beni de düşünme.</p>
+<p begin="9667200000t" end="9685600000t" region="region.after.center" style="style.default" xml:id="subtitle208">Ben burada oturacağım, sizi bekleyeceğim.</p>
+<p begin="9690800000t" end="9709200000t" region="region.after.center" style="style.default" xml:id="subtitle209">[Halime] Üzülmek yok, anlaştık mı?</p>
+<p begin="9710000000t" end="9746800000t" region="region.after.center" style="style.default" xml:id="subtitle210">[Müzik]</p>
+<p begin="9753600000t" end="9771600000t" region="region.after.center" style="style.default" xml:id="subtitle211">[Halime] Hadi. Şimdi git</p>
+<p begin="9795200000t" end="9811200000t" region="region.after.center" style="style.default" xml:id="subtitle212">arkadaşlarına allahaısmarladık de.</p>
+<p begin="9812000000t" end="9826800000t" region="region.after.center" style="style.default" xml:id="subtitle213">-[Yiğit] Of<br/>-[Halime] Hadi.</p>
+<p begin="9833200000t" end="9899600000t" region="region.after.center" style="style.default" xml:id="subtitle214">[Müzik]</p>
+<p begin="9953200000t" end="9963600000t" region="region.after.center" style="style.default" xml:id="subtitle215">[Halime] Baba.</p>
+<p begin="9964400000t" end="10025200000t" region="region.after.center" style="style.default" xml:id="subtitle216">[Müzik]</p>
+<p begin="10031600000t" end="10068400000t" region="region.after.center" style="style.default" xml:id="subtitle217">Yiğit korkmasın,<br/>üzülmesin diye söylüyorum ama</p>
+<p begin="10088000000t" end="10102000000t" region="region.after.center" style="style.default" xml:id="subtitle218">aklım inanmıyor baba.</p>
+<p begin="10102800000t" end="10124400000t" region="region.after.center" style="style.default" xml:id="subtitle219">[Müzik]</p>
+<p begin="10125200000t" end="10138800000t" region="region.after.center" style="style.default" xml:id="subtitle220">Ne olacak bu iş?</p>
+<p begin="10147200000t" end="10156400000t" region="region.after.center" style="style.default" xml:id="subtitle221">Kızım,</p>
+<p begin="10177200000t" end="10191200000t" region="region.after.center" style="style.default" xml:id="subtitle222">çok uzun zaman oldu.</p>
+<p begin="10203200000t" end="10239600000t" region="region.after.center" style="style.default" xml:id="subtitle223">Kaçarak, tutsak düşerek<br/>çok çileler çektik.</p>
+<p begin="10251199999t" end="10277200000t" region="region.after.center" style="style.default" xml:id="subtitle224">Bu iş, bu defa bitecek inşallah.</p>
+<p begin="10294400000t" end="10306800000t" region="region.after.center" style="style.default" xml:id="subtitle225">Ertuğrul'un bir fikri var.</p>
+<p begin="10312800000t" end="10323599999t" region="region.after.center" style="style.default" xml:id="subtitle226">Benim de aklıma yattı.</p>
+<p begin="10332400000t" end="10372000000t" region="region.after.center" style="style.default" xml:id="subtitle227">Tez zamanda sağ salim gidip,<br/>geri döneceğiz Allah'ın izniyle.</p>
+<p begin="10384000000t" end="10404000000t" region="region.after.center" style="style.default" xml:id="subtitle228">Bu oba bizim için o kadar<br/>ağır bedeller ödedi ki</p>
+<p begin="10419600000t" end="10443599999t" region="region.after.center" style="style.default" xml:id="subtitle229">ne yapsak asla haklarını<br/>ödeyemeyiz baba.</p>
+<p begin="10455600000t" end="10489600000t" region="region.after.center" style="style.default" xml:id="subtitle230">Ama baba izin ver,<br/>izin ver ben de sizinle geleyim.</p>
+<p begin="10510000000t" end="10530400000t" region="region.after.center" style="style.default" xml:id="subtitle231">Ne olacaksa olsun, hayır ya da şer.</p>
+<p begin="10543200000t" end="10559200000t" region="region.after.center" style="style.default" xml:id="subtitle232">Sonumuz beraber olsun.</p>
+<p begin="10582400000t" end="10616000000t" region="region.after.center" style="style.default" xml:id="subtitle233">Sen bizim için dua et yeter kızım.</p>
+<p begin="10628800000t" end="10672000000t" region="region.after.center" style="style.default" xml:id="subtitle234">[Numan] Gönlü güzel,<br/>kendi güzel, cesur kızım benim.</p>
+<p begin="10690800000t" end="10748400000t" region="region.after.center" style="style.default" xml:id="subtitle235">Anası gibi fedakâr, cefakâr, güzel kızım.</p>
+<p begin="10749200000t" end="10769600000t" region="region.after.center" style="style.default" xml:id="subtitle236">[Müzik - Duygusal]</p>
+<p begin="10770400000t" end="10780800000t" region="region.after.center" style="style.default" xml:id="subtitle237">Merak etme.</p>
+<p begin="10781600000t" end="10802400000t" region="region.after.center" style="style.default" xml:id="subtitle238">[Müzik - Duygusal]</p>
+<p begin="10803200000t" end="10822400000t" region="region.after.center" style="style.default" xml:id="subtitle239">Her şey düzelecek.</p>
+<p begin="10823200000t" end="10852800000t" region="region.after.center" style="style.default" xml:id="subtitle240">[Ağlama sesleri]</p>
+<p begin="10860400000t" end="10929200000t" region="region.after.center" style="style.default" xml:id="subtitle241">[Müzik]</p>
+<p begin="10930000000t" end="10953200000t" region="region.after.center" style="style.default" xml:id="subtitle242">[At kişnemesi]</p>
+<p begin="10954000000t" end="11019600000t" region="region.after.center" style="style.default" xml:id="subtitle243">[Müzik]</p>
+<p begin="11020400000t" end="11036800000t" region="region.after.center" style="style.default" xml:id="subtitle244">Hayırdır, ne istiyorsunuz?</p>
+<p begin="11044400000t" end="11054800000t" region="region.after.center" style="style.default" xml:id="subtitle245">Düş önümüze.</p>
+<p begin="11063200000t" end="11130400000t" region="region.after.center" style="style.default" xml:id="subtitle246">[Müzik]</p>
+<p begin="11279600000t" end="11303200000t" region="region.after.center" style="style.default" xml:id="subtitle247">[Müzik]</p>
+<p begin="11304000000t" end="11319600000t" region="region.after.center" style="style.default" xml:id="subtitle248">Of...</p>
+<p begin="11326800000t" end="11362000000t" region="region.after.center" style="style.default" xml:id="subtitle249">Sırtıma saplanmış bıçak gibi<br/>canımı yakar bu çıban musibeti.</p>
+<p begin="11367200000t" end="11382000000t" region="region.after.center" style="style.default" xml:id="subtitle250">-[Hayme] Ah beyim, ah.<br/>-Of</p>
+<p begin="11387600000t" end="11400000000t" region="region.after.center" style="style.default" xml:id="subtitle251">Acın, acımdır.</p>
+<p begin="11406800000t" end="11426800000t" region="region.after.center" style="style.default" xml:id="subtitle252">Lakin elimden bir şey gelmez.</p>
+<p begin="11433200000t" end="11468800000t" region="region.after.center" style="style.default" xml:id="subtitle253">Evlatlarım ve senin için dua<br/>etmekten başka bir şey yapamıyorum.</p>
+<p begin="11469600000t" end="11482800000t" region="region.after.center" style="style.default" xml:id="subtitle254">Biz ne acılar çektik.</p>
+<p begin="11495600000t" end="11516400000t" region="region.after.center" style="style.default" xml:id="subtitle255">Ne göçler, ne savaşlar gördük.</p>
+<p begin="11524800000t" end="11540800000t" region="region.after.center" style="style.default" xml:id="subtitle256">[Süleyman Şah] Kocamak da nasip oldu.</p>
+<p begin="11554400000t" end="11588000000t" region="region.after.center" style="style.default" xml:id="subtitle257">Şükürler ola ki bugünlere<br/>kadar gelebildik Hayme'm.</p>
+<p begin="11594400000t" end="11604400000t" region="region.after.center" style="style.default" xml:id="subtitle258">Gördük ya beyim.</p>
+<p begin="11618800000t" end="11658800000t" region="region.after.center" style="style.default" xml:id="subtitle259">Ne düğünler, ne yeni bebeler, ne baharlar.</p>
+<p begin="11671600000t" end="11684800000t" region="region.after.center" style="style.default" xml:id="subtitle260">Zaferler de gördük.</p>
+<p begin="11694800000t" end="11714000000t" region="region.after.center" style="style.default" xml:id="subtitle261">İnşallah bundan sonra da göreceğiz.</p>
+<p begin="11748400000t" end="11760000000t" region="region.after.center" style="style.default" xml:id="subtitle262">Hakkını helal et.</p>
+<p begin="11760800000t" end="11780000000t" region="region.after.center" style="style.default" xml:id="subtitle263">[Müzik]</p>
+<p begin="11780800000t" end="11815600000t" region="region.after.center" style="style.default" xml:id="subtitle264">Ne bu dertler kalıcı,<br/>ne bu ömür bâki beyim.</p>
+<p begin="11830400000t" end="11845200000t" region="region.after.center" style="style.default" xml:id="subtitle265">[Hayme] Sen doğru yolda yürüdün.</p>
+<p begin="11857200000t" end="11869200000t" region="region.after.center" style="style.default" xml:id="subtitle266">[Hayme] Eğilip bükülmedin.</p>
+<p begin="11878000000t" end="11903600000t" region="region.after.center" style="style.default" xml:id="subtitle267">Doğru yolda yürüyenin,<br/>kaybolduğu görülmüş müdür?</p>
+<p begin="11919600000t" end="11970400000t" region="region.after.center" style="style.default" xml:id="subtitle268">Allah nasip ederse senin ve<br/>evlatlarımın dönmesini göreceğim.</p>
+<p begin="11971200000t" end="11996000000t" region="region.after.center" style="style.default" xml:id="subtitle269">[Müzik]</p>
+<p begin="11996800000t" end="12012000000t" region="region.after.center" style="style.default" xml:id="subtitle270">Allah yardımcın olsun.</p>
+<p begin="12024400000t" end="12040400000t" region="region.after.center" style="style.default" xml:id="subtitle271">Hakkım sana helal olsun.</p>
+<p begin="12064800000t" end="12075200000t" region="region.after.center" style="style.default" xml:id="subtitle272">Sağ ol.</p>
+<p begin="12076000000t" end="12143200000t" region="region.after.center" style="style.default" xml:id="subtitle273">[Müzik]</p>
+<p begin="12194400000t" end="12245200000t" region="region.after.center" style="style.default" xml:id="subtitle274">[Müzik]</p>
+<p begin="12246000000t" end="12261200000t" region="region.after.center" style="style.default" xml:id="subtitle275">Hayırdır, ne istiyorsunuz?</p>
+<p begin="12262000000t" end="12302400000t" region="region.after.center" style="style.default" xml:id="subtitle276">[Müzik]</p>
+<p begin="12303200000t" end="12322000000t" region="region.after.center" style="style.default" xml:id="subtitle277">Nereden gelir,<br/>nereye gidersin Afşin Bey?</p>
+<p begin="12335600000t" end="12357600000t" region="region.after.center" style="style.default" xml:id="subtitle278">İn misin, cin misin<br/>bir senden duymak istedim.</p>
+<p begin="12364400000t" end="12433200000t" region="region.after.center" style="style.default" xml:id="subtitle279">[Müzik]</p>
+<p begin="12575600000t" end="12645600000t" region="region.after.center" style="style.default" xml:id="subtitle280">[Müzik]</p>
+<p begin="12744800000t" end="12764400000t" region="region.after.center" style="style.default" xml:id="subtitle281">[At kişneme sesi]</p>
+<p begin="12765200000t" end="12828000000t" region="region.after.center" style="style.default" xml:id="subtitle282">[Müzik]</p>
+<p begin="12828800000t" end="12842400000t" region="region.after.center" style="style.default" xml:id="subtitle283">[At kişneme sesi]</p>
+<p begin="12848400000t" end="12918000000t" region="region.after.center" style="style.default" xml:id="subtitle284">[Müzik]</p>
+<p begin="13070000000t" end="13116400000t" region="region.after.center" style="style.default" xml:id="subtitle285">[Müzik]</p>
+<p begin="13122800000t" end="13132800000t" region="region.after.center" style="style.default" xml:id="subtitle286">Allah'ım.</p>
+<p begin="13133600000t" end="13150400000t" region="region.after.center" style="style.default" xml:id="subtitle287">[Müzik]</p>
+<p begin="13156000000t" end="13172800000t" region="region.after.center" style="style.default" xml:id="subtitle288">Sen onları koru ya Rabb'im.</p>
+<p begin="13173600000t" end="13243600000t" region="region.after.center" style="style.default" xml:id="subtitle289">[Müzik]</p>
+<p begin="13300800000t" end="13316000000t" region="region.after.center" style="style.default" xml:id="subtitle290">Beni çağırtmışsın ana.</p>
+<p begin="13334400000t" end="13343200000t" region="region.after.center" style="style.default" xml:id="subtitle291">Çağırdım ya.</p>
+<p begin="13350800000t" end="13361200000t" region="region.after.center" style="style.default" xml:id="subtitle292">Gel, otur şöyle.</p>
+<p begin="13374800000t" end="13399200000t" region="region.after.center" style="style.default" xml:id="subtitle293">[Ayak sesleri]</p>
+<p begin="13444400000t" end="13453600000t" region="region.after.center" style="style.default" xml:id="subtitle294">Buyur ana.</p>
+<p begin="13494000000t" end="13504800000t" region="region.after.center" style="style.default" xml:id="subtitle295">[Halime] Ertuğrul Bey.</p>
+<p begin="13532000000t" end="13542800000t" region="region.after.center" style="style.default" xml:id="subtitle296">[Halime] Müsaade var mı?</p>
+<p begin="13598800000t" end="13620400000t" region="region.after.center" style="style.default" xml:id="subtitle297">[Müzik]</p>
+<p begin="13624000000t" end="13660400000t" region="region.after.center" style="style.default" xml:id="subtitle298">Halime Sultan otağımıza gelir de<br/>müsaadenin lafı mı olur?</p>
+<p begin="13666400000t" end="13736400000t" region="region.after.center" style="style.default" xml:id="subtitle299">[Müzik]</p>
+<p begin="13803200000t" end="13815200000t" region="region.after.center" style="style.default" xml:id="subtitle300">Ertuğrul Bey,</p>
+<p begin="13838000000t" end="13850400000t" region="region.after.center" style="style.default" xml:id="subtitle301">ben sana yalan söyledim.</p>
+<p begin="13851200000t" end="13888400000t" region="region.after.center" style="style.default" xml:id="subtitle302">[Müzik]</p>
+<p begin="13889200000t" end="13899200000t" region="region.after.center" style="style.default" xml:id="subtitle303">Evet, söyledin.</p>
+<p begin="13923600000t" end="13945200000t" region="region.after.center" style="style.default" xml:id="subtitle304">Şimdi anladın mı neden<br/>gitmek zorunda olduğumuzu?</p>
+<p begin="13958800000t" end="13982400000t" region="region.after.center" style="style.default" xml:id="subtitle305">Neden bu obada geçen günlerin bizim için</p>
+<p begin="13987200000t" end="14008800000t" region="region.after.center" style="style.default" xml:id="subtitle306">tez vakitte sona erecek bir rüya olduğunu?</p>
+<p begin="14009600000t" end="14018800000t" region="region.after.center" style="style.default" xml:id="subtitle307">Sen burada mutlusun.</p>
+<p begin="14034800000t" end="14053600000t" region="region.after.center" style="style.default" xml:id="subtitle308">Sarayda geçen ömrüne rağmen</p>
+<p begin="14068000000t" end="14089600000t" region="region.after.center" style="style.default" xml:id="subtitle309">göçebe bir obada<br/>rüyadayım diyorsun ya Halime</p>
+<p begin="14106800000t" end="14122800000t" region="region.after.center" style="style.default" xml:id="subtitle310">bütün cihan bir araya gelse</p>
+<p begin="14132800000t" end="14152000000t" region="region.after.center" style="style.default" xml:id="subtitle311">yine de mutsuz olmana<br/>müsaade etmem.</p>
+<p begin="14152800000t" end="14200000000t" region="region.after.center" style="style.default" xml:id="subtitle312">[Müzik]</p>
+<p begin="14200800000t" end="14213200000t" region="region.after.center" style="style.default" xml:id="subtitle313">Beni anladın mı kızım?</p>
+<p begin="14218800000t" end="14248400000t" region="region.after.center" style="style.default" xml:id="subtitle314">[Müzik]</p>
+<p begin="14249200000t" end="14262000000t" region="region.after.center" style="style.default" xml:id="subtitle315">Anladım ana.</p>
+<p begin="14280800000t" end="14289600000t" region="region.after.center" style="style.default" xml:id="subtitle316">İyi.</p>
+<p begin="14298800000t" end="14308000000t" region="region.after.center" style="style.default" xml:id="subtitle317">Hadi git şimdi.</p>
+<p begin="14320000000t" end="14387200000t" region="region.after.center" style="style.default" xml:id="subtitle318">İsyan edip kötü söz söylemek yerine<br/>Allah'ın adını an, duanı et,</p>
+<p begin="14399200000t" end="14440400000t" region="region.after.center" style="style.default" xml:id="subtitle319">yüreğini iyilikle doldur ki<br/>nasibimiz iyi olsun.</p>
+<p begin="14541600000t" end="14558000000t" region="region.after.center" style="style.default" xml:id="subtitle320">[Ayak sesleri]</p>
+<p begin="14558800000t" end="14568400000t" region="region.after.center" style="style.default" xml:id="subtitle321">[Nefes sesi]</p>
+<p begin="14626000000t" end="14646800000t" region="region.after.center" style="style.default" xml:id="subtitle322">[Halime] Mesele sadece<br/>benim mutluluğum değil.</p>
+<p begin="14647600000t" end="14668000000t" region="region.after.center" style="style.default" xml:id="subtitle323">[Müzik]</p>
+<p begin="14674800000t" end="14693200000t" region="region.after.center" style="style.default" xml:id="subtitle324">[Halime] Mesele babamın,<br/>kardeşimin canı.</p>
+<p begin="14698000000t" end="14764400000t" region="region.after.center" style="style.default" xml:id="subtitle325">[Müzik]</p>
+<p begin="14770000000t" end="14779200000t" region="region.after.center" style="style.default" xml:id="subtitle326">Merak etme.</p>
+<p begin="14803200000t" end="14834000000t" region="region.after.center" style="style.default" xml:id="subtitle327">[Ertuğrul] Babana da kardeşine de<br/>bir şey olmasına müsaade etmeyeceğim.</p>
+<p begin="14840800000t" end="14860800000t" region="region.after.center" style="style.default" xml:id="subtitle328">[Ertuğrul]<br/>Onları sana sağ salim getireceğim.</p>
+<p begin="14879600000t" end="14892400000t" region="region.after.center" style="style.default" xml:id="subtitle329">[Ertuğrul] Gönlünü ferah tut.</p>
+<p begin="14899200000t" end="14944400000t" region="region.after.center" style="style.default" xml:id="subtitle330">[Müzik]</p>
+<p begin="14951200000t" end="14999200000t" region="region.after.center" style="style.default" xml:id="subtitle331">Hayatımdan çalınanlardan,<br/>koparıp alınanlardan geriye kalan ne varsa</p>
+<p begin="15005200000t" end="15020400000t" region="region.after.center" style="style.default" xml:id="subtitle332">onları alıp, gideceksin Ertuğrul.</p>
+<p begin="15037200000t" end="15062400000t" region="region.after.center" style="style.default" xml:id="subtitle333">Babamı, kardeşimi...</p>
+<p begin="15100800000t" end="15114800000t" region="region.after.center" style="style.default" xml:id="subtitle334">Yalvarırım sen de onlarla dön.</p>
+<p begin="15122800000t" end="15160800000t" region="region.after.center" style="style.default" xml:id="subtitle335">[Müzik]</p>
+<p begin="15166400000t" end="15185600000t" region="region.after.center" style="style.default" xml:id="subtitle336">Dön ki içimde eksik olanı tamamla.</p>
+<p begin="15195600000t" end="15259600000t" region="region.after.center" style="style.default" xml:id="subtitle337">[Müzik - Duygusal]</p>
+<p begin="15428400000t" end="15441600000t" region="region.after.center" style="style.default" xml:id="subtitle338">Eğer geri dönemezsem bil ki</p>
+<p begin="15463600000t" end="15484800000t" region="region.after.center" style="style.default" xml:id="subtitle339">içimde eksik olan ne varsa, sende buldum.</p>
+<p begin="15491200000t" end="15561200000t" region="region.after.center" style="style.default" xml:id="subtitle340">[Müzik - Duygusal]</p>
+<p begin="15614000000t" end="15629200000t" region="region.after.center" style="style.default" xml:id="subtitle341">Bunların niyeti başka Gökçe.</p>
+<p begin="15630000000t" end="15646800000t" region="region.after.center" style="style.default" xml:id="subtitle342">Töre için erimi ölüme yollayacaklar.</p>
+<p begin="15658800000t" end="15687600000t" region="region.after.center" style="style.default" xml:id="subtitle343">Abla, bak Süleyman Şah da bir insan.</p>
+<p begin="15696800000t" end="15710400000t" region="region.after.center" style="style.default" xml:id="subtitle344">İnsan hiç evladına kıyar mı?</p>
+<p begin="15711200000t" end="15728000000t" region="region.after.center" style="style.default" xml:id="subtitle345">Ne olur çıkar şu vesveseleri aklından.</p>
+<p begin="15728800000t" end="15752000000t" region="region.after.center" style="style.default" xml:id="subtitle346">Sen Süleyman Şah'ı tanımamışsın daha.</p>
+<p begin="15752800000t" end="15771200000t" region="region.after.center" style="style.default" xml:id="subtitle347">O, töresi için obasını bile yakar.</p>
+<p begin="15778000000t" end="15804000000t" region="region.after.center" style="style.default" xml:id="subtitle348">Mutlaka bir yol bulmalıyım Gökçe, mutlaka.</p>
+<p begin="15804800000t" end="15848000000t" region="region.after.center" style="style.default" xml:id="subtitle349">[Müzik]</p>
+<p begin="15848800000t" end="15872400000t" region="region.after.center" style="style.default" xml:id="subtitle350">Erimi kurban etmelerine<br/>izin vermeyeceğim.</p>
+<p begin="15897200000t" end="15907200000t" region="region.after.center" style="style.default" xml:id="subtitle351">Abla.</p>
+<p begin="15908000000t" end="15975600000t" region="region.after.center" style="style.default" xml:id="subtitle352">[Müzik]</p>
+<p begin="15994000000t" end="16035200000t" region="region.after.center" style="style.default" xml:id="subtitle353">Ertuğrul'un Alpleri atlanmış,<br/>pusaklanmış, gitmeyi bekler.</p>
+<p begin="16044800000t" end="16105200000t" region="region.after.center" style="style.default" xml:id="subtitle354">[Müzik - Gerilim]</p>
+<p begin="16183600000t" end="16202000000t" region="region.after.center" style="style.default" xml:id="subtitle355">Sana diyeceklerim var Kurdoğlu.</p>
+<p begin="16206800000t" end="16219600000t" region="region.after.center" style="style.default" xml:id="subtitle356">Hayırdır Selcan Hatun?</p>
+<p begin="16233600000t" end="16262000000t" region="region.after.center" style="style.default" xml:id="subtitle357">Gündoğdu sana güvenir,<br/>seni sayar bilirsin.</p>
+<p begin="16284800000t" end="16301600000t" region="region.after.center" style="style.default" xml:id="subtitle358">Peki ya sen Selcan Hatun?</p>
+<p begin="16302400000t" end="16320000000t" region="region.after.center" style="style.default" xml:id="subtitle359">Yiğitliğine her zaman güvenmişimdir.</p>
+<p begin="16327600000t" end="16336400000t" region="region.after.center" style="style.default" xml:id="subtitle360">Eyvallah.</p>
+<p begin="16349200000t" end="16368800000t" region="region.after.center" style="style.default" xml:id="subtitle361">Gündoğdu'nun başına<br/>gelenler olur şey değil.</p>
+<p begin="16376000000t" end="16408400000t" region="region.after.center" style="style.default" xml:id="subtitle362">Ama merak etme,<br/>Süleyman Şah onu getirecektir.</p>
+<p begin="16415600000t" end="16428000000t" region="region.after.center" style="style.default" xml:id="subtitle363">Hayır, bunu yapmayacak.</p>
+<p begin="16441600000t" end="16455200000t" region="region.after.center" style="style.default" xml:id="subtitle364">[Selcan] Eğer yiğitsen,</p>
+<p begin="16456000000t" end="16486800000t" region="region.after.center" style="style.default" xml:id="subtitle365">eğer Süleyman Şah'ın<br/>obasını ateşe atmasını istemiyorsan</p>
+<p begin="16500000000t" end="16525200000t" region="region.after.center" style="style.default" xml:id="subtitle366">eğer Gündoğdu'yu biraz olsun seviyorsan...</p>
+<p begin="16526000000t" end="16548800000t" region="region.after.center" style="style.default" xml:id="subtitle367">Eğer Süleyman Şah böyle bir şey yaparsa</p>
+<p begin="16556400000t" end="16574000000t" region="region.after.center" style="style.default" xml:id="subtitle368">onu ateşe ben kendi ellerimle atarım.</p>
+<p begin="16578000000t" end="16596800000t" region="region.after.center" style="style.default" xml:id="subtitle369">[Müzik]</p>
+<p begin="16597600000t" end="16614800000t" region="region.after.center" style="style.default" xml:id="subtitle370">Şimdi seni dinliyorum Selcan Hatun.</p>
+<p begin="16626800000t" end="16656400000t" region="region.after.center" style="style.default" xml:id="subtitle371">Süleyman Şah, Ertuğrul'la birlikte</p>
+<p begin="16672000000t" end="16696800000t" region="region.after.center" style="style.default" xml:id="subtitle372">Kara Toygar'ı,<br/>Kartal Tepesi'nde tuzağa düşürecek.</p>
+<p begin="16697600000t" end="16732800000t" region="region.after.center" style="style.default" xml:id="subtitle373">[Müzik]</p>
+<p begin="16733600000t" end="16748800000t" region="region.after.center" style="style.default" xml:id="subtitle374">Ne diyorsun sen Selcan Hatun?</p>
+<p begin="16753600000t" end="16766800000t" region="region.after.center" style="style.default" xml:id="subtitle375">[Selcan] Kulaklarımla duydum.</p>
+<p begin="16772400000t" end="16793200000t" region="region.after.center" style="style.default" xml:id="subtitle376">Süleyman Şah töresini ezip geçmektense</p>
+<p begin="16794000000t" end="16818800000t" region="region.after.center" style="style.default" xml:id="subtitle377">oğlunu ezip geçmeyi<br/>tercih etti diyorum sana.</p>
+<p begin="16819600000t" end="16838000000t" region="region.after.center" style="style.default" xml:id="subtitle378">[Müzik]</p>
+<p begin="16838800000t" end="16862000000t" region="region.after.center" style="style.default" xml:id="subtitle379">Bundan kimseye bahsetme Selcan Hatun.</p>
+<p begin="16870000000t" end="16893200000t" region="region.after.center" style="style.default" xml:id="subtitle380">Benimle de hiç konuşmadın, hiç görüşmedik.</p>
+<p begin="16894000000t" end="16903600000t" region="region.after.center" style="style.default" xml:id="subtitle381">Tamam mı Selcan Hatun?</p>
+<p begin="16912000000t" end="16927200000t" region="region.after.center" style="style.default" xml:id="subtitle382">Gündoğdu'ya ne olacak?</p>
+<p begin="16939600000t" end="16955600000t" region="region.after.center" style="style.default" xml:id="subtitle383">Bir hâl çaresi buluruz elbet.</p>
+<p begin="16966400000t" end="16991200000t" region="region.after.center" style="style.default" xml:id="subtitle384">Hadi, kimseler görmeden git şimdi.</p>
+<p begin="17061600000t" end="17077200000t" region="region.after.center" style="style.default" xml:id="subtitle385">[Ayak sesleri]</p>
+<p begin="17093600000t" end="17163600000t" region="region.after.center" style="style.default" xml:id="subtitle386">[Müzik - Gerilim]</p>
+<p begin="17164400000t" end="17173200000t" region="region.after.center" style="style.default" xml:id="subtitle387">Hah!</p>
+<p begin="17174000000t" end="17191600000t" region="region.after.center" style="style.default" xml:id="subtitle388">[At kişnemesi]</p>
+<p begin="17196000000t" end="17266000000t" region="region.after.center" style="style.default" xml:id="subtitle389">[Müzik]<br/>[At koşma sesleri]</p>
+<p begin="17276800000t" end="17292800000t" region="region.after.center" style="style.default" xml:id="subtitle390">Gitmelerine izin mi vereceğiz beyim?</p>
+<p begin="17298400000t" end="17328000000t" region="region.after.center" style="style.default" xml:id="subtitle391">Kara Toygar'ın avı daha bereketli<br/>olsun diye izin vereceğiz Alpargu.</p>
+<p begin="17334000000t" end="17362000000t" region="region.after.center" style="style.default" xml:id="subtitle392">Elim kılıcıma gitmeden,<br/>üstüme kan bulaşmadan</p>
+<p begin="17362800000t" end="17384000000t" region="region.after.center" style="style.default" xml:id="subtitle393">obayı bütün pisliklerden temizledim.</p>
+<p begin="17402000000t" end="17419600000t" region="region.after.center" style="style.default" xml:id="subtitle394">Hadi, atla atına.</p>
+<p begin="17425200000t" end="17444000000t" region="region.after.center" style="style.default" xml:id="subtitle395">[Kurdoğlu] Kara Toygar'a<br/>diyeceklerim var.</p>
+<p begin="17480400000t" end="17531600000t" region="region.after.center" style="style.default" xml:id="subtitle396">[Müzik - Hareketli]</p>
+<p begin="17532400000t" end="17561200000t" region="region.after.center" style="style.default" xml:id="subtitle397">[Ertuğrul dış ses]<span style="style.default_1"> Soluk</span><br/><span style="style.default_1">soluğa koşan atlara ant olsun.</span></p>
+<p begin="17582400000t" end="17615600000t" region="region.after.center" style="style.default" xml:id="subtitle398">[Ertuğrul dış ses]<br/><span style="style.default_1">Nallarından kıvılcım çıkanlara ant olsun.</span></p>
+<p begin="17620800000t" end="17649200000t" region="region.after.center" style="style.default" xml:id="subtitle399">[Ertuğrul dış ses]<br/><span style="style.default_1">Boyumuz için, beyimiz için,</span></p>
+<p begin="17659600000t" end="17683200000t" region="region.after.center" style="style.default" xml:id="subtitle400"><span style="style.default_1">töremiz için ölmekten korkar isem</span></p>
+<p begin="17689600000t" end="17732000000t" region="region.after.center" style="style.default" xml:id="subtitle401"><span style="style.default_1">kara çelik öz kılıncımla</span><br/><span style="style.default_1">gök ekin gibi biçileyim.</span></p>
+<p begin="17732800000t" end="17750000000t" region="region.after.center" style="style.default" xml:id="subtitle402">[Müzik - Hareketli]</p>
+<p begin="17750800000t" end="17785200000t" region="region.after.center" style="style.default" xml:id="subtitle403">[Ertuğrul dış ses]<br/><span style="style.default_1">Mavi gök yarılsın, yağız yer delinsin.</span></p>
+<p begin="17795200000t" end="17820800000t" region="region.after.center" style="style.default" xml:id="subtitle404">[Ertuğrul dış ses]<br/><span style="style.default_1">İsmim bengü taşlardan silinsin.</span></p>
+<p begin="17821600000t" end="17836800000t" region="region.after.center" style="style.default" xml:id="subtitle405">[Müzik - Hareketli]</p>
+<p begin="17837600000t" end="17893200000t" region="region.after.center" style="style.default" xml:id="subtitle406">[Ertuğrul dış ses]<span style="style.default_1"> Oğuz babam,</span><br/><span style="style.default_1">kutlu obam ahirette benden davacı olsun.</span></p>
+<p begin="17906400000t" end="17924800000t" region="region.after.center" style="style.default" xml:id="subtitle407"><span style="style.default_1">[Ertuğrul dış ses] Çıktığım gaza yolunda</span></p>
+<p begin="17925600000t" end="17965600000t" region="region.after.center" style="style.default" xml:id="subtitle408"><span style="style.default_1">Allah yardımcım, Hızır Ata yoldaşım olsun.</span></p>
+<p begin="17966400000t" end="17979200000t" region="region.after.center" style="style.default" xml:id="subtitle409">[At kişnemesi]</p>
+<p begin="17980000000t" end="18045200000t" region="region.after.center" style="style.default" xml:id="subtitle410">[Müzik - Hareketli]</p>
+<p begin="18046000000t" end="18060400000t" region="region.after.center" style="style.default" xml:id="subtitle411">[At kişnemesi]</p>
+<p begin="18068800000t" end="18138400000t" region="region.after.center" style="style.default" xml:id="subtitle412">[Müzik - Hareketli]</p>
+<p begin="18173200000t" end="18202400000t" region="region.after.center" style="style.default" xml:id="subtitle413">[Rüzgar sesi]</p>
+<p begin="18203200000t" end="18273200000t" region="region.after.center" style="style.default" xml:id="subtitle414">[Çiğneme sesleri]</p>
+<p begin="18314800000t" end="18338400000t" region="region.after.center" style="style.default" xml:id="subtitle415">Hadi Titus. Rahatla biraz.</p>
+<p begin="18346400000t" end="18360400000t" region="region.after.center" style="style.default" xml:id="subtitle416">Gün, bizim günümüz.</p>
+<p begin="18370400000t" end="18386400000t" region="region.after.center" style="style.default" xml:id="subtitle417">İkimiz de istediğimizi alacağız.</p>
+<p begin="18400400000t" end="18424000000t" region="region.after.center" style="style.default" xml:id="subtitle418">Ertuğrul, Halep'e giderken de<br/>böyle rahattın.</p>
+<p begin="18435200000t" end="18447600000t" region="region.after.center" style="style.default" xml:id="subtitle419">Böyle gevşektin.</p>
+<p begin="18458800000t" end="18467600000t" region="region.after.center" style="style.default" xml:id="subtitle420">Sonrası malum.</p>
+<p begin="18476800000t" end="18494400000t" region="region.after.center" style="style.default" xml:id="subtitle421">[Titus] Adamlarının beceriksizliği.</p>
+<p begin="18510800000t" end="18522800000t" region="region.after.center" style="style.default" xml:id="subtitle422">[Kapı açılma sesi]</p>
+<p begin="18523600000t" end="18564400000t" region="region.after.center" style="style.default" xml:id="subtitle423">[Ayak sesleri]</p>
+<p begin="18575600000t" end="18585200000t" region="region.after.center" style="style.default" xml:id="subtitle424">[Kapı kapanma sesi]</p>
+<p begin="18586000000t" end="18627600000t" region="region.after.center" style="style.default" xml:id="subtitle425">[Müzik]</p>
+<p begin="18630800000t" end="18649600000t" region="region.after.center" style="style.default" xml:id="subtitle426">Efendim, Süleyman Şah.</p>
+<p begin="18672800000t" end="18697200000t" region="region.after.center" style="style.default" xml:id="subtitle427">Misafirlerimizi bekletmeyelim.</p>
+<p begin="18708800000t" end="18722800000t" region="region.after.center" style="style.default" xml:id="subtitle428">Gelsinler hemen.</p>
+<p begin="18728800000t" end="18742800000t" region="region.after.center" style="style.default" xml:id="subtitle429">Yalnız geldiler efendim.</p>
+<p begin="18743600000t" end="18789600000t" region="region.after.center" style="style.default" xml:id="subtitle430">[Müzik]</p>
+<p begin="18793600000t" end="18812000000t" region="region.after.center" style="style.default" xml:id="subtitle431">Çabuk onu buraya getir.</p>
+<p begin="18819200000t" end="18887600000t" region="region.after.center" style="style.default" xml:id="subtitle432">[Müzik]</p>
+<p begin="18902400000t" end="18937600000t" region="region.after.center" style="style.default" xml:id="subtitle433">Bakalım umduğunu mu yoksa bulduğunu mu<br/>yiyeceksin Kara Toygar?</p>
+<p begin="18969200000t" end="18983600000t" region="region.after.center" style="style.default" xml:id="subtitle434">[Bağırma sesi]</p>
+<p begin="18994400000t" end="19004800000t" region="region.after.center" style="style.default" xml:id="subtitle435">[Kapı açılma sesi]</p>
+<p begin="19015600000t" end="19085200000t" region="region.after.center" style="style.default" xml:id="subtitle436">[Müzik]</p>
+<p begin="19103600000t" end="19155600000t" region="region.after.center" style="style.default" xml:id="subtitle437">[Müzik - Gerilim]</p>
+<p begin="19156400000t" end="19168000000t" region="region.after.center" style="style.default" xml:id="subtitle438">[Kapı kapanma sesi]</p>
+<p begin="19172400000t" end="19242000000t" region="region.after.center" style="style.default" xml:id="subtitle439">[Müzik - Gerilim]</p>
+<p begin="19252400000t" end="19283600000t" region="region.after.center" style="style.default" xml:id="subtitle440">[Kara Toygar] Sen ne işler<br/>çeviriyorsun Süleyman Şah?</p>
+<p begin="19291600000t" end="19302000000t" region="region.after.center" style="style.default" xml:id="subtitle441">Nerede onlar?</p>
+<p begin="19302800000t" end="19321600000t" region="region.after.center" style="style.default" xml:id="subtitle442">Oğlumu bıraktığında istediğini alacaksın.</p>
+<p begin="19327200000t" end="19348400000t" region="region.after.center" style="style.default" xml:id="subtitle443">[Müzik - Gerilim]</p>
+<p begin="19349200000t" end="19371200000t" region="region.after.center" style="style.default" xml:id="subtitle444">Canına mı susadın be adam?</p>
+<p begin="19372000000t" end="19390800000t" region="region.after.center" style="style.default" xml:id="subtitle445">[Müzik - Gerilim]</p>
+<p begin="19391600000t" end="19436000000t" region="region.after.center" style="style.default" xml:id="subtitle446">Oğlumla benim canım mı daha kıymetli,<br/>yoksa şehzadelerin mi?</p>
+<p begin="19444800000t" end="19474800000t" region="region.after.center" style="style.default" xml:id="subtitle447">[Müzik]</p>
+<p begin="19475600000t" end="19505200000t" region="region.after.center" style="style.default" xml:id="subtitle448">Gündoğdu'yu serbest bırakacaksın<br/>Kara Toygar!</p>
+<p begin="19515200000t" end="19529200000t" region="region.after.center" style="style.default" xml:id="subtitle449">Beni tehdit mi ediyorsun?</p>
+<p begin="19543600000t" end="19559600000t" region="region.after.center" style="style.default" xml:id="subtitle450">Gündoğdu'nun kılına zarar verirsen</p>
+<p begin="19569200000t" end="19592400000t" region="region.after.center" style="style.default" xml:id="subtitle451">Ertuğrul, onları Selçuklu<br/>topraklarından çıkaracak.</p>
+<p begin="19606400000t" end="19631200000t" region="region.after.center" style="style.default" xml:id="subtitle452">Bir daha onların izini<br/>asla bulamayacaksın.</p>
+<p begin="19640000000t" end="19650400000t" region="region.after.center" style="style.default" xml:id="subtitle453">Ne sen</p>
+<p begin="19655200000t" end="19676000000t" region="region.after.center" style="style.default" xml:id="subtitle454">ne de hizmetinde olduğun Tapınakçılar.</p>
+<p begin="19685600000t" end="19755200000t" region="region.after.center" style="style.default" xml:id="subtitle455">[Müzik - Gerilim]</p>
+<p begin="19813200000t" end="19829600000t" region="region.after.center" style="style.default" xml:id="subtitle456">Oğlumu serbest bırakırsan</p>
+<p begin="19841200000t" end="19853600000t" region="region.after.center" style="style.default" xml:id="subtitle457">seni onlara götürürüm.</p>
+<p begin="19864400000t" end="19875200000t" region="region.after.center" style="style.default" xml:id="subtitle458">Nerede onlar?</p>
+<p begin="19882400000t" end="19906000000t" region="region.after.center" style="style.default" xml:id="subtitle459">Kaçmamaları için<br/>Ertuğrul'a bıraktım onları.</p>
+<p begin="19940400000t" end="19956800000t" region="region.after.center" style="style.default" xml:id="subtitle460">Ya da başımıza bir iş gelirse</p>
+<p begin="19967600000t" end="19987600000t" region="region.after.center" style="style.default" xml:id="subtitle461">Sultan Alâeddin her şeyi bilecek.</p>
+<p begin="20016000000t" end="20049600000t" region="region.after.center" style="style.default" xml:id="subtitle462">Şehzade yazdığı bir mektupta<br/>Sultan Alâeddin'e her şeyi anlattı.</p>
+<p begin="20062800000t" end="20091200000t" region="region.after.center" style="style.default" xml:id="subtitle463">[Süleyman Şah] Aylarca Tapınakçıların<br/>elinde nasıl kaldığını.</p>
+<p begin="20098000000t" end="20130000000t" region="region.after.center" style="style.default" xml:id="subtitle464">Kendisini sultan yapmak için<br/>nasıl işkenceler edildiğini.</p>
+<p begin="20142400000t" end="20181600000t" region="region.after.center" style="style.default" xml:id="subtitle465">Bu işkencelere rağmen<br/>devletini asla satmadığını.</p>
+<p begin="20194400000t" end="20219600000t" region="region.after.center" style="style.default" xml:id="subtitle466">[Süleyman Şah]<br/>Senin Tapınakçılarla iş birliği yaptığını.</p>
+<p begin="20237200000t" end="20260400000t" region="region.after.center" style="style.default" xml:id="subtitle467">Yani her şeyi.</p>
+<p begin="20286400000t" end="20298400000t" region="region.after.center" style="style.default" xml:id="subtitle468">Karar senin.</p>
+<p begin="20306400000t" end="20375600000t" region="region.after.center" style="style.default" xml:id="subtitle469">[Müzik - Gerilim]</p>
+<p begin="20531999999t" end="20588400000t" region="region.after.center" style="style.default" xml:id="subtitle470">[Müzik - Yaylılar]</p>
+<p begin="20700000000t" end="20769600000t" region="region.after.center" style="style.default" xml:id="subtitle471">[Anlaşılmayan konuşmalar]</p>
+<p begin="20925200000t" end="20990400000t" region="region.after.center" style="style.default" xml:id="subtitle472">[Müzik - Yaylılar]</p>
+<p begin="21000400000t" end="21011600000t" region="region.after.center" style="style.default" xml:id="subtitle473">Baba!</p>
+<p begin="21084000000t" end="21100400000t" region="region.after.center" style="style.default" xml:id="subtitle474">[Süleyman Şah] Oğlum!</p>
+<p begin="21127600000t" end="21152800000t" region="region.after.center" style="style.default" xml:id="subtitle475">-Ne oldu verdin mi esirleri Kara Toygar'a?<br/>-Hayır.</p>
+<p begin="21160000000t" end="21170000000t" region="region.after.center" style="style.default" xml:id="subtitle476">Baba!</p>
+<p begin="21178400000t" end="21199600000t" region="region.after.center" style="style.default" xml:id="subtitle477">Kara Toygar seni serbest bıraktı.</p>
+<p begin="21212400000t" end="21223200000t" region="region.after.center" style="style.default" xml:id="subtitle478">[Süleyman Şah] Obaya git.</p>
+<p begin="21239600000t" end="21254000000t" region="region.after.center" style="style.default" xml:id="subtitle479">Baba, o adam seni yaşatmaz burada!</p>
+<p begin="21254800000t" end="21272800000t" region="region.after.center" style="style.default" xml:id="subtitle480">Sana ne diyorsam onu yap Gündoğdu.</p>
+<p begin="21280000000t" end="21290400000t" region="region.after.center" style="style.default" xml:id="subtitle481">[Süleyman Şah] Git hadi!</p>
+<p begin="21301200000t" end="21317200000t" region="region.after.center" style="style.default" xml:id="subtitle482">Baba!</p>
+<p begin="21325600000t" end="21337600000t" region="region.after.center" style="style.default" xml:id="subtitle483">Çabuk ol!</p>
+<p begin="21338400000t" end="21350800000t" region="region.after.center" style="style.default" xml:id="subtitle484">Hadi git!</p>
+<p begin="21370800000t" end="21386800000t" region="region.after.center" style="style.default" xml:id="subtitle485">[Süleyman Şah] Git dedim sana!</p>
+<p begin="21394000000t" end="21463600000t" region="region.after.center" style="style.default" xml:id="subtitle486">[Müzik - Duygusal]</p>
+<p begin="21522000000t" end="21553200000t" region="region.after.center" style="style.default" xml:id="subtitle487">[Adam] Gidelim bakalım konuşalım,<br/>ne olacak?</p>
+<p begin="21568400000t" end="21579600000t" region="region.after.center" style="style.default" xml:id="subtitle488">Hayırdır Akçakoca?</p>
+<p begin="21586400000t" end="21598800000t" region="region.after.center" style="style.default" xml:id="subtitle489">İçeride biri mi var yoksa?</p>
+<p begin="21604400000t" end="21615600000t" region="region.after.center" style="style.default" xml:id="subtitle490">Ne oluyor burada?</p>
+<p begin="21622800000t" end="21634800000t" region="region.after.center" style="style.default" xml:id="subtitle491">Bu ne densizlik!</p>
+<p begin="21635600000t" end="21660800000t" region="region.after.center" style="style.default" xml:id="subtitle492">Çekil Akçakoca, çekil de<br/>içeride kim var görelim!</p>
+<p begin="21661600000t" end="21670000000t" region="region.after.center" style="style.default" xml:id="subtitle493">Size ne bundan?</p>
+<p begin="21670800000t" end="21686400000t" region="region.after.center" style="style.default" xml:id="subtitle494">Çekil Akçakoca!</p>
+<p begin="21693200000t" end="21763200000t" region="region.after.center" style="style.default" xml:id="subtitle495">[Müzik - Gerilim]</p>
+<p begin="21790800000t" end="21801600000t" region="region.after.center" style="style.default" xml:id="subtitle496">Söylenenler doğruymuş.</p>
+<p begin="21811200000t" end="21880800000t" region="region.after.center" style="style.default" xml:id="subtitle497">[Müzik - Yaylılar]</p>
+<p begin="21992800000t" end="22062400000t" region="region.after.center" style="style.default" xml:id="subtitle498">[Anlaşılmayan konuşmalar]</p>
+<p begin="22084000000t" end="22146000000t" region="region.after.center" style="style.default" xml:id="subtitle499">[Anlaşılmayan konuşmalar]</p>
+<p begin="22309600000t" end="22320000000t" region="region.after.center" style="style.default" xml:id="subtitle500">Yeter! Yeter!</p>
+<p begin="22330800000t" end="22341200000t" region="region.after.center" style="style.default" xml:id="subtitle501">Yeter!</p>
+<p begin="22347200000t" end="22367600000t" region="region.after.center" style="style.default" xml:id="subtitle502">Ne yaptığınızı zannediyorsunuz siz ha?</p>
+<p begin="22368400000t" end="22390000000t" region="region.after.center" style="style.default" xml:id="subtitle503">Evlatlarımız ölmüş Hayme Ana,<br/>onlar yüzünden.</p>
+<p begin="22406400000t" end="22428400000t" region="region.after.center" style="style.default" xml:id="subtitle504">Kervanı başmışlar kervanı!<br/>Bize demezsiniz!</p>
+<p begin="22459600000t" end="22480400000t" region="region.after.center" style="style.default" xml:id="subtitle505">Töreyi ve beyimizi çiğnersiniz ha?</p>
+<p begin="22485600000t" end="22501200000t" region="region.after.center" style="style.default" xml:id="subtitle506">Yazıklar olsun size!</p>
+<p begin="22502000000t" end="22514400000t" region="region.after.center" style="style.default" xml:id="subtitle507">Yeter artık Hayme Ana!</p>
+<p begin="22520800000t" end="22541600000t" region="region.after.center" style="style.default" xml:id="subtitle508">Töre diyorsun, daha kaç canımız ölecek?</p>
+<p begin="22545600000t" end="22567200000t" region="region.after.center" style="style.default" xml:id="subtitle509">Evlatlarımızın cenazeleri nerede?</p>
+<p begin="22568000000t" end="22578000000t" region="region.after.center" style="style.default" xml:id="subtitle510">Süleyman Şah nerede?</p>
+<p begin="22586800000t" end="22609600000t" region="region.after.center" style="style.default" xml:id="subtitle511">Senin değil,<br/>benim oğlum öldü Hayme Ana!</p>
+<p begin="22618800000t" end="22633600000t" region="region.after.center" style="style.default" xml:id="subtitle512">Bu obadaki herkes</p>
+<p begin="22645600000t" end="22659200000t" region="region.after.center" style="style.default" xml:id="subtitle513">benim evladım.</p>
+<p begin="22664800000t" end="22674800000t" region="region.after.center" style="style.default" xml:id="subtitle514">[Hayme] Benim yüreğim.</p>
+<p begin="22684800000t" end="22728000000t" region="region.after.center" style="style.default" xml:id="subtitle515">Oba dediğin, birlik ve beraberliğin<br/>olduğu zaman ayakta kalır.</p>
+<p begin="22738800000t" end="22752000000t" region="region.after.center" style="style.default" xml:id="subtitle516">[Hayme] Birlik bozulmuşsa</p>
+<p begin="22752800000t" end="22797200000t" region="region.after.center" style="style.default" xml:id="subtitle517">düşmanın karşısında yenilmeye,<br/>yok olmaya mahkumsunuzdur!</p>
+<p begin="22806400000t" end="22830400000t" region="region.after.center" style="style.default" xml:id="subtitle518">Süleyman Şah Bey'imiz, kendi canını</p>
+<p begin="22836400000t" end="22859200000t" region="region.after.center" style="style.default" xml:id="subtitle519">sizin canınızın önüne<br/>koymuş mudur ha?</p>
+<p begin="22879600000t" end="22894800000t" region="region.after.center" style="style.default" xml:id="subtitle520">[Hayme] Evlatlarınızı sakınmış</p>
+<p begin="22900000000t" end="22925600000t" region="region.after.center" style="style.default" xml:id="subtitle521">obanın iyiliğinden<br/>öte yol seçmiş midir?</p>
+<p begin="22932400000t" end="22970400000t" region="region.after.center" style="style.default" xml:id="subtitle522">[Hayme] Ne yaparsa yapsın,<br/>obanın iyiliği, selameti içindir.</p>
+<p begin="22983200000t" end="22996400000t" region="region.after.center" style="style.default" xml:id="subtitle523">Onun yokluğunda</p>
+<p begin="23005200000t" end="23055200000t" region="region.after.center" style="style.default" xml:id="subtitle524">obanın birliğini bozmak,<br/>taşkınlık yapmak size yaraşır mı?</p>
+<p begin="23083600000t" end="23100000000t" region="region.after.center" style="style.default" xml:id="subtitle525">Töreyi ezmeye kalkarsanız</p>
+<p begin="23110800000t" end="23129600000t" region="region.after.center" style="style.default" xml:id="subtitle526">elbet bir gün ezilirsiniz.</p>
+<p begin="23143200000t" end="23190400000t" region="region.after.center" style="style.default" xml:id="subtitle527">Bundan sonra onlara taş atan,<br/>bana taş atmış olur.</p>
+<p begin="23202800000t" end="23239600000t" region="region.after.center" style="style.default" xml:id="subtitle528">[Hayme] Onları karşısına alan,<br/>beni karşısına almış olur.</p>
+<p begin="23246000000t" end="23258400000t" region="region.after.center" style="style.default" xml:id="subtitle529">Bu böyle biline!</p>
+<p begin="23264800000t" end="23332400000t" region="region.after.center" style="style.default" xml:id="subtitle530">[Müzik]</p>
+<p begin="23342400000t" end="23356800000t" region="region.after.center" style="style.default" xml:id="subtitle531">Gel kızım.</p>
+<p begin="23364000000t" end="23432000000t" region="region.after.center" style="style.default" xml:id="subtitle532">[Müzik - Gerilim]</p>
+<p begin="23568800000t" end="23584000000t" region="region.after.center" style="style.default" xml:id="subtitle533">[At kişneme sesi]</p>
+<p begin="23601600000t" end="23619200000t" region="region.after.center" style="style.default" xml:id="subtitle534">Seninle oyun oynuyorlar.</p>
+<p begin="23640000000t" end="23669600000t" region="region.after.center" style="style.default" xml:id="subtitle535">Aramızdaki ilişkiyi<br/>nasıl öğrendiler Titus?</p>
+<p begin="23670400000t" end="23690800000t" region="region.after.center" style="style.default" xml:id="subtitle536">[Gülme sesi]</p>
+<p begin="23691600000t" end="23703200000t" region="region.after.center" style="style.default" xml:id="subtitle537">Ertuğrul.</p>
+<p begin="23714400000t" end="23735600000t" region="region.after.center" style="style.default" xml:id="subtitle538">Bunu anlaması zaten an meselesiydi.</p>
+<p begin="23761200000t" end="23772800000t" region="region.after.center" style="style.default" xml:id="subtitle539">Lanet olsun!</p>
+<p begin="23782000000t" end="23798400000t" region="region.after.center" style="style.default" xml:id="subtitle540">Hepsini öldürmek zorundayım!</p>
+<p begin="23821600000t" end="23856000000t" region="region.after.center" style="style.default" xml:id="subtitle541">Şehzadenin Sultan'a yazdığı<br/>mektup ne olacak?</p>
+<p begin="23880400000t" end="23894000000t" region="region.after.center" style="style.default" xml:id="subtitle542">Saraydaki dostlarım</p>
+<p begin="23901200000t" end="23934800000t" region="region.after.center" style="style.default" xml:id="subtitle543">o mektupların Sultan'ın<br/>eline geçmesine engel olur.</p>
+<p begin="23947200000t" end="23958000000t" region="region.after.center" style="style.default" xml:id="subtitle544">Umarım.</p>
+<p begin="23974000000t" end="24040800000t" region="region.after.center" style="style.default" xml:id="subtitle545">[Müzik - Gerilim]</p>
+<p begin="24147600000t" end="24158400000t" region="region.after.center" style="style.default" xml:id="subtitle546">Kim av</p>
+<p begin="24170000000t" end="24180400000t" region="region.after.center" style="style.default" xml:id="subtitle547">kim avcı</p>
+<p begin="24193200000t" end="24204400000t" region="region.after.center" style="style.default" xml:id="subtitle548">görecekler.</p>
+<p begin="24209600000t" end="24246000000t" region="region.after.center" style="style.default" xml:id="subtitle549">Allah muhafaza sana bir şey<br/>olacak diye çok korktum.</p>
+<p begin="24254000000t" end="24282800000t" region="region.after.center" style="style.default" xml:id="subtitle550">Sana bir şey olsaydı<br/>Süleyman Şah'a ne derdim ben?</p>
+<p begin="24324800000t" end="24341600000t" region="region.after.center" style="style.default" xml:id="subtitle551">Onlar dönene kadar burada kal.</p>
+<p begin="24351600000t" end="24370800000t" region="region.after.center" style="style.default" xml:id="subtitle552">Sevdiklerimizin dönmesini beklerken</p>
+<p begin="24384000000t" end="24397600000t" region="region.after.center" style="style.default" xml:id="subtitle553">birbirimize yoldaş oluruz.</p>
+<p begin="24422800000t" end="24431600000t" region="region.after.center" style="style.default" xml:id="subtitle554">Duayla,</p>
+<p begin="24442000000t" end="24462400000t" region="region.after.center" style="style.default" xml:id="subtitle555">inançla, sabırla...</p>
+<p begin="24469600000t" end="24539200000t" region="region.after.center" style="style.default" xml:id="subtitle556">[Müzik]</p>
+<p begin="24540000000t" end="24565600000t" region="region.after.center" style="style.default" xml:id="subtitle557">Bu Kayı ne badireler atlattı.</p>
+<p begin="24597600000t" end="24607600000t" region="region.after.center" style="style.default" xml:id="subtitle558">Hepsinin acısı</p>
+<p begin="24615600000t" end="24626800000t" region="region.after.center" style="style.default" xml:id="subtitle559">na buramda</p>
+<p begin="24640800000t" end="24654800000t" region="region.after.center" style="style.default" xml:id="subtitle560">yüreğimde duruyor.</p>
+<p begin="24698000000t" end="24708400000t" region="region.after.center" style="style.default" xml:id="subtitle561">[Hayme] Allah biliyor ya</p>
+<p begin="24724400000t" end="24751600000t" region="region.after.center" style="style.default" xml:id="subtitle562">kendimi hiç bu kadar<br/>çaresiz hissetmemiştim...</p>
+<p begin="24796000000t" end="24808000000t" region="region.after.center" style="style.default" xml:id="subtitle563">...ki oğlum,</p>
+<p begin="24824400000t" end="24835200000t" region="region.after.center" style="style.default" xml:id="subtitle564">erim</p>
+<p begin="24841600000t" end="24900800000t" region="region.after.center" style="style.default" xml:id="subtitle565">[Müzik - Duygusal]</p>
+<p begin="24904000000t" end="24925600000t" region="region.after.center" style="style.default" xml:id="subtitle566">Şu kısacık ömrüme ne badireler sığdı.</p>
+<p begin="24948400000t" end="24970000000t" region="region.after.center" style="style.default" xml:id="subtitle567">Babamla kardeşimi öldürmek isteyenler...</p>
+<p begin="24990000000t" end="25016000000t" region="region.after.center" style="style.default" xml:id="subtitle568">Şehzade oldukları için<br/>onları kullanmak isteyen devletler.</p>
+<p begin="25040400000t" end="25056000000t" region="region.after.center" style="style.default" xml:id="subtitle569">Zindanlarda çürüdüğümüz geceler.</p>
+<p begin="25093200000t" end="25130400000t" region="region.after.center" style="style.default" xml:id="subtitle570">Allah'ın her günü sevdiklerimi<br/>kaybetme korkusuyla yaşadım.</p>
+<p begin="25169200000t" end="25188400000t" region="region.after.center" style="style.default" xml:id="subtitle571">Ertuğrul Bey'im bizi<br/>bu kâbustan uyandırdı.</p>
+<p begin="25198800000t" end="25211600000t" region="region.after.center" style="style.default" xml:id="subtitle572">Güzel bir rüyanın içine koydu.</p>
+<p begin="25238400000t" end="25248400000t" region="region.after.center" style="style.default" xml:id="subtitle573">Hayme Ana,</p>
+<p begin="25269200000t" end="25298800000t" region="region.after.center" style="style.default" xml:id="subtitle574">ben hayatım boyunca yaşamadığım<br/>huzuru obanızda buldum.</p>
+<p begin="25304400000t" end="25374000000t" region="region.after.center" style="style.default" xml:id="subtitle575">[Müzik - Duygusal]</p>
+<p begin="25459200000t" end="25520800000t" region="region.after.center" style="style.default" xml:id="subtitle576">[Müzik - Gerilim]</p>
+<p begin="25676400000t" end="25685200000t" region="region.after.center" style="style.default" xml:id="subtitle577">İstediğin oldu.</p>
+<p begin="25703200000t" end="25730800000t" region="region.after.center" style="style.default" xml:id="subtitle578">Şimdi sıra bende, Süleyman Şah.</p>
+<p begin="25739600000t" end="25778000000t" region="region.after.center" style="style.default" xml:id="subtitle579">[Gülme sesi]</p>
+<p begin="25797200000t" end="25859200000t" region="region.after.center" style="style.default" xml:id="subtitle580">[Gülme sesi]</p>
+<p begin="25860000000t" end="25924800000t" region="region.after.center" style="style.default" xml:id="subtitle581">[Müzik - Gerilim]</p>
+<p begin="25935200000t" end="25945600000t" region="region.after.center" style="style.default" xml:id="subtitle582">[Koyun meleme sesi]</p>
+<p begin="25963600000t" end="26033200000t" region="region.after.center" style="style.default" xml:id="subtitle583">[Müzik - Gerilim]</p>
+<p begin="26179600000t" end="26249200000t" region="region.after.center" style="style.default" xml:id="subtitle584">[Müzik - Gerilim]</p>
+<p begin="26402800000t" end="26469600000t" region="region.after.center" style="style.default" xml:id="subtitle585">[Müzik - Gerilim]</p>
+<p begin="26599600000t" end="26668800000t" region="region.after.center" style="style.default" xml:id="subtitle586">[Müzik - Jenerik]</p>
+</div>
+</body>
+</tt>

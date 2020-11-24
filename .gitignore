@@ -6,7 +6,7 @@
 *.log
 
 ## Build generated
-build/
+#build/
 DerivedData/
 
 ## Various settings
@@ -44,7 +44,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+#build/
 develop-eggs/
 dist/
 downloads/
@@ -148,7 +148,7 @@ translation_key.pyc
 *.zip
 audioFiles.txt
 !silence*
-*.vtt
+#*.vtt
 *.jpg
 *.mp3
 *.srt
