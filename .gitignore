@@ -151,4 +151,4 @@ audioFiles.txt
 #*.vtt
 *.jpg
 *.mp3
-*.srt
+#*.srt
