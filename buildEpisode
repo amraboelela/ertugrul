@@ -17,11 +17,11 @@ if [ $targetLanguage == "tr"  ]; then
     #    echo "Translating $prefix-$targetLanguage.vtt"
     #    python translate.py build/$prefix-$targetLanguage.vtt $sourceLanguage > build/$prefix-$targetLanguage-$sourceLanguage.vtt
     #fi
-else
-    if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
-        echo "Translating $prefix-$sourceLanguage.vtt"
-        python translate.py build/$prefix-$sourceLanguage.vtt $targetLanguage > build/$prefix-$targetLanguage.vtt
-    fi
+#else
+#    if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
+#        echo "Translating $prefix-$sourceLanguage.vtt"
+#        python translate.py build/$prefix-$sourceLanguage.vtt $targetLanguage > build/$prefix-$targetLanguage.vtt
+#    fi
 fi
 
 python dictionary.py $prefix $targetLanguage
