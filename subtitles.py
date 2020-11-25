@@ -13,17 +13,17 @@ else:
 print "## subtitles, prefix: " + prefix + ", sourceLanguage: " + sourceLanguage + ", targetLanguage: " + targetLanguage
 
 
-if targetLanguage == "tr":
-    sourceFilePath = "build/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
-else:
-    sourceFilePath = "build/" + prefix + "-" + sourceLanguage + ".vtt"
+#if targetLanguage == "tr":
+#    sourceFilePath = "build/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
+#else:
+#    sourceFilePath = "build/" + prefix + "-" + sourceLanguage + ".vtt"
 targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "build/" + prefix + ".srt"
 
-sourceFile = open(sourceFilePath)
+#sourceFile = open(sourceFilePath)
 targetFile = open(targetFilePath)
 subtitlesFile = open(subtitlesPath, "w")
-sourceLines = sourceFile.read().splitlines()
+#sourceLines = sourceFile.read().splitlines()
 targetLines = targetFile.read().splitlines()
 
 sourceParagraphs = []

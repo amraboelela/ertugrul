@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import io, json, yaml, sys, subprocess, requests, re, os
+import json, sys, subprocess, requests, re, os
 
 if len(sys.argv) > 2:
     prefix = sys.argv[1]
@@ -11,7 +11,15 @@ else:
 
 print "## dictionary, prefix: " + prefix + ", language: " + language
 
-dictionaryFile = "build/dictionary-" + language + ".yaml"
+dictionaryFile = "build/dictionary-" + language + ".txt"
+targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
+subtitlesPath = "build/" + prefix + ".srt"
+
+#sourceFile = open(sourceFilePath)
+targetFile = open(targetFilePath)
+subtitlesFile = open(subtitlesPath, "w")
+#sourceLines = sourceFile.read().splitlines()
+targetLines = targetFile.read().splitlines()
 
 try:
    dictionary = yaml.safe_load(open(dictionaryFile))
