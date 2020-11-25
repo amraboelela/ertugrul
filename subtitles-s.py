@@ -102,7 +102,7 @@ def writeToSubtitlesFile2(paragraph1, color1, paragraph2, color2):
     
 print "subtitlesPath: " + subtitlesPath
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
-    print "subtitlesPath not exit "
+    #print "subtitlesPath not exit "
     getParagraphs(sourceLines, sourceParagraphs)
     getParagraphs(targetLines, targetParagraphs)
 

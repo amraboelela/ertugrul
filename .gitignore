@@ -148,7 +148,7 @@ translation_key.pyc
 *.zip
 audioFiles.txt
 !silence*
-#*.vtt
+*.vtt
 *.jpg
 *.mp3
-#*.srt
+*.srt

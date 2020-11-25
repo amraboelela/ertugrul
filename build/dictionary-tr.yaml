@@ -39,6 +39,7 @@ kızınla: with daughter
 Şükretmekten: being thankful
 alpiyle: with mountaineering
 ilerisin: the future
+kısmı: partial
 isterler: wish
 sesuyan: sound fits
 rezalet: disgrace
@@ -49,6 +50,7 @@ erkekallah: erkekallah
 payitahtında: in payitaht
 neyse: anyways
 sınırlarımıza: our borders
+sorarsan: if you ask
 idare: administration
 dinlendirelim: i dinlendirel
 tak: wear
@@ -143,7 +145,7 @@ börü'yü: pipe
 sonucunu: result
 eskiden: formerly
 temas: contact
-harlar: they ha
+edildiğini: is that
 mazlumlar: oppressed
 gazanfer: gazanfer is
 kafeste: in a cage
@@ -197,7 +199,7 @@ paylaşan: share
 hatırlatmak: remind
 haydır: is alife
 Çölleri: deserts
-evladın: the son
+ahaliden: from the people
 mabet: temple
 bildireceğim: i will tell
 bulmazsınız: you will not find
@@ -287,6 +289,7 @@ getirirler: they return
 kervanımda: my caravan
 hazırlan: prepared
 mahkûm: sentenced
+harlar: they ha
 kurtardı: saved
 erlerin: the sooner
 söyleyecek: will say
@@ -329,7 +332,6 @@ sükunet: quiescence
 yargılanıyor: on trial
 tükenir: exhaustible
 devam: continuation
-girmen: do not enter
 sarpa: sarpa
 hayr: no
 yenge: aunt
@@ -338,7 +340,6 @@ kütüğe: billet
 hayt: hayter
 yağız: swarthy
 etkiyi: effect
-olmuşlar: have been
 hayalden: dream
 bıçaklı: bladed
 çözmeye: solve
@@ -374,7 +375,7 @@ sevdi: loved
 buramda: me here
 edilmesi: to
 olmuştur: has been
-yüreğiniz: your heart
+dizinin: directory
 elbette: of course
 niyetlendik: we intend
 soytarılığın: the antics
@@ -553,6 +554,7 @@ geldiği: he came
 mızrağıyla: with the spear
 götürürsün: you take
 düşsem: i duss
+borçluyuz: we owe
 İsteğim: my wish
 kalbimde: my heart
 dirliğini: the provisions are kept
@@ -573,6 +575,7 @@ götürün: take
 kalmış: i have stayed
 ettiler: they
 hallettik: we care
+unutmayasın: do not forget you
 hallettin: you deal
 üyesi: member of
 koşun: run
@@ -611,6 +614,7 @@ biliyorsun;: you know;
 yapraklarıyla: leaves with
 ertuğrul’u: ertuðrul of
 muştuyu: he is
+hekimi: physician
 davacı: plaintiff
 kumandanlarıyla: their commander
 edebiliriz: we can
@@ -642,6 +646,7 @@ geçtiğinde: when now
 haberlerimiz: our news
 oğlum”: son&quot;
 güzelliğinden: from beauty
+baksak: baksak
 kalabileceğimiz: we can stay
 zalime: cruel
 çekinme: wince
@@ -649,10 +654,8 @@ zalime: cruel
 aslı: the original
 bize: to us
 kıydıklarını: they chop
-talebedir: demand is
 bizi: us
 karşılığında: in return
-anlarsın: you know
 iyileşme: improvement
 kaçmak: escape
 tutmayı: retention
@@ -719,7 +722,6 @@ sorun: problem
 hastalıklılar: diseased in
 olacakmış: going to be
 kayın'ın: the beech
-korkmuştu: he was afraid
 açmadın: you open
 ahir: barn
 ümidiyle: in the hope of
@@ -771,10 +773,12 @@ pusu: ambush
 tutmaya: keep
 sendin: you're the one
 asla: never
+çıkaracağım: i will take
 misafirlerin: guests
 sevilen: popular
 İn: of
 yakalayacağım: i will catch
+küçücük: tiny
 olduğunuzu: be you
 ayrılacağız: we leave
 zanaatkarım: i artisans
@@ -824,7 +828,6 @@ katilinin: the killer
 uyarmıştım: i warned
 noktaları: points
 yapılacak: to do
-soluğa: breath to
 titriyorsunuz: you shaking
 oturamaz: can not sit
 suçlular: criminals
@@ -933,7 +936,6 @@ veriyordu: it was giving
 körelteceksek: if we blunting
 hadlerini: terms of the
 çıkasın: you go
-çağırmıştı: urged
 şikâyetçi: complainant
 dolduran: fill
 pazarına: market
@@ -944,7 +946,6 @@ eski: old
 mektup: letter
 yüce: sublime
 tiran: tyrant
-ahaliden: from the people
 herşeyi: everything
 duyacağız: we heard
 selcan’da: selcan’da
@@ -1098,6 +1099,7 @@ götüren: leads
 onu: himherit
 kalalım: let's stay
 sualleri: the sprinklers
+savaşçı: warrior
 görevi: task
 2: 2nd
 çakıl: gravel
@@ -1121,7 +1123,6 @@ başkasına: someone else
 kefereye: unbelievers to
 aldıysam: i received
 koyuluyorlar: they set off
-oğullarımız: our sons
 bucaksız: the expanse
 kabullenemedi: could not accept
 korkmana: do not be afraid to
@@ -1161,9 +1162,10 @@ yollayıp: send out
 türkmen: turkoman
 tutabilirse&quot;: can hold &quot;
 düzey: level
-geçiriyor: spends
+taşıdım: i moved
 vasiyetine: testament to
 tanrı'dandır: are of god
+kaçırmaya: do not miss
 büyüttük: we grew
 bebemin: my baby
 lütfunuzdur: is your blessing
@@ -1226,17 +1228,14 @@ sevdiklerini: they love
 rezzak: rezzak
 edeceğiz: we will
 vermeyeceğim: i will not
-yanından: over
 dönerim: i'll be back
 edeceğim: i will make
 edeceğin: you will
 istiyorsan: if you want
 durma: stop
 kaybettiler: they lost
-bilmezsem: i do not know
 yürüdün: execute
 vermeyeceğiz: we will not
-diyeceğin: you say
 yedir: feeding
 müellifiyim: i müellifiy
 düştün: you fall
@@ -1304,7 +1303,6 @@ dervişim: religous people
 İznimiz: our permission
 omuzlarında: their shoulders
 emniyeti: safety
-efendimizin: efendimizin
 kaşı: scratched
 güzelliğinle: with beauty
 isabetli: hit
@@ -1340,6 +1338,7 @@ hürmetine: homage to
 Ürkme: wince
 etme: to
 başlatmış: launched
+öldürsem: i kill
 Şerefinizi: honor your
 tatlı: dessert
 gördüğün: you see
@@ -1356,6 +1355,7 @@ makama: authority
 kumaşlar: fabrics
 ali'den: ali'den
 birinde: in one
+hoşça: nicely
 Öfken: anger
 tasalanma: worry about the
 sözün: the promise
@@ -1376,6 +1376,7 @@ yemeyecekseniz: if you are going to eat
 tıpkı: just as
 toparlayıp: pack up
 mutsuz: unhappy
+saracak: will envelop
 kuruyorsunuz: you make
 evlatlarımızın: our sons
 diyorsam: i say
@@ -1419,6 +1420,7 @@ görecek: will see
 darp: assault
 azrael'in: the azrael
 getirip: bring
+Üstüme: above me
 getirir: brings
 sandın: you think
 sandım: i thought
@@ -1472,6 +1474,7 @@ haberci: reporter
 hareket: movement
 sakinleştirmek: smooth
 lağım: sewer
+meyvesini: the fruit
 sakladığının: that stores
 veriyor: giving
 bırakmayalım: bırakmayalım
@@ -1481,6 +1484,7 @@ ejderhanın: the dragon
 acımdan: my pain
 bunlarda: in these
 meğer: meğer
+araştırmaya: to research
 şahittir: it is witness
 ertuğrul'da: in ertuðrul
 taraf: side
@@ -1576,6 +1580,7 @@ kaçacak: will flee
 tirkeşlerinizden: your tirkes
 âlâ: superb
 ezseydin: you were ezs
+annem: my mother
 Çadıra: tent
 komşularından: their neighbors
 annen: mother
@@ -1626,13 +1631,13 @@ dönecekler: will return
 kırılırsın: you break
 baybora'nın: the baybora
 çaldığı: he stole
+hizmetlerinizi: your service
 hayatımız: our life
 kontrol: control
 toygar'ı: meeting
 dinleyemem: i can not listen
 fakih’e: jurists to
 gezerek: scrolls
-vefat: decease
 konuşmalar: speeches
 sana: you
 rabbime: rabbime
@@ -1643,7 +1648,6 @@ taşıyın: move
 başlayacağız: i'll start
 planı: plan
 kaderleriyle: their fate
-dilinden: the language
 belirdikten: you appear
 peşini: advance the
 kemirir: gnaw the
@@ -1660,7 +1664,7 @@ zalimler: wrongdoing
 astarı: lining
 bağlasaydınız: if you tied
 yanda: in addition
-demir'i: iron
+kesebilmek: to cut
 yaranızı: your wounds
 kaldıran: the lift
 halifenin: the caliph
@@ -1673,7 +1677,6 @@ dipdiri: the dipdiri
 akacaklar: will flow
 düşünüyor: think
 takmış: wearing
-annene: to your mother
 denizleri: seas
 aslanlığınızı: your aslanlığı
 kendime: to myself
@@ -1711,7 +1714,6 @@ değiller: they are not
 zapturapt: zapturapt
 taşımayı: transportation
 atarım: i throw
-şeyin: thing
 doğruyu: right
 çocuktan: the child
 atarlarmış: they appointed
@@ -1778,6 +1780,7 @@ sabrın: patience
 yanımda: by my side
 zaferler: victories
 becerememiş: have failed
+efsanesiyle: the legend
 böylesine: such
 tamgamız: our tamga
 demezsin: you do not say
@@ -1828,6 +1831,7 @@ evi: the house
 göstereyim: let me show you
 dedi: said
 düşelim: düşelim
+kalmayın: to stay
 halbuki: whereas
 ayazından: the frost
 aldatıcı: deceptive
@@ -1920,7 +1924,7 @@ kabilelerinden: the tribe
 utancı: shame
 aah: aah
 diyecektim: i was gonna say
-dostlarım: my hearties
+mektubunda: in a letter
 söyleyebileceğim: i can say
 müdahalede: intervention
 görmüştü: i had seen
@@ -1948,9 +1952,10 @@ iyiliği: goodness
 türklerin: of turkey
 bulurlar: they found
 saplanacak: to be stuck
+katiller: killers
 turgut'um: i turgut
 turgut'un: turgut
-toplamaya: collection
+yiva: yiva
 dokuz: nine
 vazgeçeli: give up the
 toprakların: land
@@ -1978,8 +1983,8 @@ hazırlıkları: preparations
 alamıyoruz: we can not get
 gelmeyi: arrive
 şerri: evil
-“hayır: &quot;no
-hizmetlerinizi: your service
+açlık: hunger
+soluğa: breath to
 yüzden: why
 ertelemek: reprieve
 cenabı: the cenab
@@ -2062,7 +2067,7 @@ doğruymuş: it's true
 sığındığımız: we take refuge
 güvenmiyor: does not trust
 gidemeyecek: go too
-velİkrâm: velikrâm
+görgüsüz: uncouth
 bela: trouble
 göğsüne: chest
 köpeklere: dogs
@@ -2128,7 +2133,6 @@ yıka: wash
 görevden: dismissed
 esamesi: the esa
 bunaltmayın: do not overwhelm
-selçuklu’yla: selçuklu'yl to
 istediğimi: i want
 zamanlar: times
 beylere: beylere
@@ -2140,6 +2144,7 @@ kibarca: politely
 beyleri: lords
 geçerken: in passing
 düşmanı: the enemy
+ertuğrul: ertuğrul
 sınırlarında: at the border
 vereyim: let me give you
 güvenmişimdir: i always trust
@@ -2190,7 +2195,7 @@ makinesinin: the machine
 sesler: sounds
 sahibi: owner
 sök: shock
-governess: governess
+birliktesin: get together
 açılsın: you opened
 yaraşmaz: not worthy
 cesurlarım: my brave
@@ -2203,7 +2208,6 @@ tutarlar: amounts
 tanıştıracağım: i introduce
 çıkmayın: the exit
 olurum: i will be
-taşıdım: i moved
 yağmur: rain
 sevda: love
 anlatırken: recounting
@@ -2270,7 +2274,7 @@ kurulduğunda: when installed
 başımızdan: our own
 anlaşmayı: agreement
 düşürmediniz: you drop
-olurlar: will
+çıkıyoruz: we're going
 ertuğrul'sun: you ertuðrul
 bey'e: bey
 bey'i: bey
@@ -2298,7 +2302,6 @@ kapalıdır: it is closed
 beklediğiniz: you expect
 işidir: hears
 arsalarına: plot to
-üstlük: seniority
 &quot;: &quot;
 yanında: beside
 dikkate: consider
@@ -2329,7 +2332,6 @@ kattığı: storey
 külçesi: bullion
 görüşmek: discuss
 misafirlikleri: sojourns
-fedakârlığı: sacrifice
 Şahımızla: our shah
 kısacık: fleeting
 aklımdaydınız: mindended
@@ -2415,7 +2417,7 @@ kafa: head
 ağrısı: pain
 rabb'iyle: the lord
 çöker: crashes
-mesaj: message
+yolladım: i sent
 sakla: hide
 tanımaz: recognize
 oğuz'u: oðuz of
@@ -2425,7 +2427,7 @@ yetişemedik: we could not make
 derdini: worry about
 tanımam: i recognize
 kurtarıcısı: savior
-hakkınızda: about you
+toplamadığı: the collection
 yaşayacak: to live
 İtirazı: appeals
 dolanmış: twisted
@@ -2458,7 +2460,6 @@ düştü: fell
 yetenekli: talented
 babamı: my father
 tabii: of course
-resurrection: the resurrection
 başkasıysa: if another
 gidebilir: can go
 nasipse: nasips to
@@ -2509,7 +2510,6 @@ savurunca: savurun by
 ıstırap: misery
 umudum: my hope
 başlayacak: to begin
-taşıttırabilecek: could taşıttır
 attığımız: we take
 sultanların: sultans
 olduğundan: because
@@ -2527,7 +2527,6 @@ bitmeyecek: will not end
 karındaştık: we karındaş
 ikisini: both
 tanığı: witness
-dışındayız: we're out
 gideceksiniz: will go
 kimsenin: anyone
 Ödeteceğim: i will repay
@@ -2571,7 +2570,7 @@ vergileri: taxes
 verirsek: if data
 devletlerin: states
 verirsen: if you give
-sürme: drive
+kaçabileceği: how can
 vatikan'dan: the vatican
 cennetinde: in heaven
 dinle: listen
@@ -2613,6 +2612,7 @@ kurulur: board
 laftan: the word
 tuttuklarının: they keep
 almalıyım: i have to get
+selamlasın: hail
 bölge: region
 alışınca: accustomed
 Şehre: city
@@ -2638,7 +2638,7 @@ almayı: take
 koçyiğitlerin: koçyiğit of
 sığındı: he took refuge
 yazıklar: shame on
-harcayamam: i can not spend
+dadanır: is haunt
 kavga: fight
 otağına: tent to
 ihh: ihh
@@ -2684,7 +2684,7 @@ bakarak: looking
 derhâl: immediately
 problemin: the problem
 eşkıyası: bandit
-Üstad'ı: master of
+leşe: carrion on
 beyindir: it is the brain
 dolusu: fill
 çıkanları: resulting in
@@ -2758,6 +2758,7 @@ tutuklandı: arrested
 konduramamıştım: i could not planted
 alem: realm
 oturmaktan: to sit
+he: h
 beratı: charter
 irtibatlarını: their contact
 işgal: occupation
@@ -2773,7 +2774,7 @@ avlandım: i hunted
 boyu'nda: in height
 yıkarken: when washing
 edilen: tagged
-yazıya: type
+söyledim: i told
 benliklerinizin: your self
 baskınında: raid
 dövülmediyse: if beaten
@@ -2839,7 +2840,6 @@ kıracağımı: i broke
 kışkırttı: provoked
 kayalarda: on the rocks
 rüya: dream
-bunalttı: troubled
 ölümden: death
 tezeğe: the dung
 soyunu: strain
@@ -2850,6 +2850,7 @@ rehin: pledge
 lokması: fritters
 misafirin: the guest
 mukayyet: mukayyet
+abla'm: my sister
 hükmetti: he ruled
 ezilirsiniz: you will be crushed
 çıkamayacaktık: would not go
@@ -2864,7 +2865,7 @@ vurma: hit
 sevgilimden: from darling
 nefesinden: the breath
 üzerinden: over
-görünürde: in sight
+cayamasın: amasa cay
 yolunu: the way
 görerek: seeing
 ustad'ın: the ustad
@@ -2919,12 +2920,11 @@ emirlerini: the commandments
 sarayınızın: your palace
 yaranı: wound
 diyecek: i will say
-beklemezdim: i did not expect
+güvercin: pigeon
 anladık: we understand
 toygar'dan: from meeting
 anladım: i understand
 anladın: you understand
-yüklemezsin: do not install
 selâmeti: salvation of
 konya'ya: konya to
 esir: prisoner
@@ -2965,7 +2965,6 @@ toygar’la: toygar’la
 ateşlerken: when firing
 dese: dese
 kazandırıyor: brings in
-yalanla: denied
 sahibisin: you owner
 terbiyesizliğini: the rudeness
 kızda: in girls
@@ -2985,7 +2984,8 @@ yollardayız: on the road
 kuzusuna: lamb
 ulaşmaya: reach
 yönlendiremezsin: you direct the
-doğrusu: actually
+alevi: flame
+harcayamam: i can not spend
 değişikliği: change
 gittiğinizde: when you go
 yiğitlerin: the valiant
@@ -3025,6 +3025,7 @@ dağı'nı: the mountain
 kudüs: jerusalem
 sıhhate: wholesome
 aydınlanmaya: enlightenment
+kalan: remaining
 mera: grassland
 zulmünün: of persecution
 boyuma: my height
@@ -3067,6 +3068,7 @@ saygıyı: esteem
 getirebilirsen: could bring
 problem: problem
 bizimledir": he is with us &quot;
+“hayır: &quot;no
 affet: forgive
 soyumuz: our descendants
 kalmanda: having
@@ -3079,6 +3081,7 @@ gelince: as for
 şikayetçi: complainant
 diyedir: diet
 çıkamayacağız: we can not
+Üstad'ı: master of
 alâaddin’in: alaaddin
 zorbaları: bullies
 çocuğu: children
@@ -3105,7 +3108,6 @@ katılmamı: my participation
 Şam: damascas
 yaymaya: spread
 girmeden: without
-türkmenlerin: of turkmen
 konuşabilir: can speak
 ilgilenirken: dealing
 bebeğim: my baby
@@ -3201,6 +3203,7 @@ aylarca: for months
 verdim: i gave
 verdin: you gave
 canımızı: lifes
+pazarından: the market
 açtırmazlar: açtırmaz on
 yapabileceği: can do
 bilene: who knows
@@ -3219,12 +3222,11 @@ bre: bre
 korumaktan: to protect
 geldiğinizi: you come
 rahatın: comfortable the
-ayrılın: the divided
 mumları: candles
 saran: wraparound
 teskin: propitiation
-birliktesin: get together
 dinlenin: relax
+ellerimizde: our hands
 oynasın: you play
 çıkmıyor: will not come
 elçilerinin: envoys
@@ -3241,7 +3243,7 @@ kolayca: easily
 sultanın: the sultan
 atlıların: the horsemen
 taşlamışlar: taşlamışlar
-huzur: serenity
+ih: exp
 yerleştirmiş: it has placed
 kalkma: up
 sakladığı: keep it
@@ -3310,6 +3312,7 @@ konuşulurken: spoken
 İkincisi: latter
 bey'de: the gentlemen
 bilirim: i know
+kırıntısıyla: the crumbs
 söylemedi: he did not say
 ahlat'a: a pear
 biliriz: we know
@@ -3433,6 +3436,7 @@ dostluğu: friendship
 zira: for
 gayrısı: those outside
 endülüslü: andalusian
+borcudur: the debt
 masallar: tales
 bebe: babe
 keyif: pleasure
@@ -3446,6 +3450,7 @@ koşup: run
 dilde: in the language
 yaşamayaydı: it was living
 aykız'ın: the aykız
+kuşların: birds
 İyi: good
 etmenin: the factors
 rehberim: my guide
@@ -3509,7 +3514,7 @@ bakabilirim: i can see
 payını: share
 çık: exit
 anlamıyor: does not understand
-yapılan: done
+yakına: closer
 susacağım: i'll shut up
 yarınki: tomorrow
 yatağa: to bed
@@ -3549,8 +3554,8 @@ soylansın: you soylan
 düşleyemesin: imagine amasa
 yapmayanlar: those who do
 mantık: logic
-yapmaksa: is to make
 getirsinler: they bring
+kampta: camp
 meçhuldür: it is not known
 babam: my father
 baban: your father
@@ -3568,6 +3573,7 @@ halletmem: take care
 doğruluğundan: the accuracy
 sığınanı: new refuge
 kayıların: boats
+beklerler: they expect
 ileriye: forward
 müteessirim: i'm sorry
 belimi: my waist
@@ -3609,10 +3615,10 @@ yetkili: authorized
 muhafızlarının: guards of
 elanora'nın: the elanora
 çıkarırsak: remove herzegovina
-kardeşine: brother
 gözündeki: in the eyes
 ölmüştü: she died
-borcudur: the debt
+üstlük: seniority
+kalırsa: if
 ödeyeceksiniz: will pay
 çıkaracaksın: you're gonna
 başlarında: earlier
@@ -3678,7 +3684,6 @@ feryâdı: feryadi
 ölmesine: die
 hançerlemişti: he stabbed
 balığın: fish
-çıkartalım: draw
 bakıp: look
 yaprağı: leaf
 aptal: silly
@@ -3698,6 +3703,7 @@ ispatlamıştın: you prove
 üst: upper
 geldiklerinde: they come
 askeri: military
+dirhem: drachma
 askere: soldier
 yanacaktı: side would
 emelimiz: our emelie
@@ -3710,7 +3716,7 @@ göğsümüzü: our chest
 arar: search
 düzenleme: arrangement
 haçlı: crusader
-selamlasın: hail
+bilmezsem: i do not know
 olurdun: you'd
 rahman: rahman
 olurduk: we would
@@ -3721,6 +3727,7 @@ allah’ın: god
 söyleyeceksin: you're gonna tell
 üzereyken: goal
 bahsettiniz: you mentioned
+beysiz: beys
 görünsün: you seem
 suratlı: fast
 duruyordu: he was standing
@@ -3731,7 +3738,6 @@ beyazlatmalıyız: we need to whiten
 shahzade: in shahza
 derde: trouble
 aldınız: you received
-inanıyorlar: they believe
 gölgenin: the shadow
 şansı: chance
 salim: safe and sound
@@ -3769,7 +3775,6 @@ toplatıp: toplatıp
 zoraki: forced
 cebelleşmesi: the tussle
 vücuda: the body
-alparslan: alparslan
 çocuğun: the child
 oğlumu: my son
 sorumlusu: responsible for
@@ -3788,6 +3793,7 @@ dönmeyecek: will not return
 niyetine: intention to
 üç: three
 defasında: in time
+mülkiyetinden: the property
 sonunu: end
 yatılacak: to boarding
 emir'in: the orders
@@ -3803,7 +3809,7 @@ iletişim: contact
 akrabaları: relatives
 umudumuzun: our hope
 gördüğümüzü: we see
-yüreğim: my heart
+varmış: had
 çifte: double
 sancılarmış: they were gripes
 şehzadesiymiş: he was prince
@@ -3818,10 +3824,11 @@ kıldan: to make
 babamızı: our fathers
 Ütü: iron
 öldürmen: killing
-söylemiştim: i say
+oradan: from there
 İlyas: elijah
 düşünürdünüz: you think
 emin: sure
+kolu: lever
 rengi: color
 göndermezse: do not send
 atabeyimiz: our atabek
@@ -3836,7 +3843,7 @@ bilmeye: to know
 anlatmana: tell the
 yetişmezse: does not reach
 sofrada: at the table
-abla'm: my sister
+vermeden: without
 Şüphelendiler: they suspect
 direniyor: resisting
 Çocuğumuz: our child
@@ -3856,7 +3863,7 @@ test: test
 cüssenle: with bulk
 dururduk: we stood
 anlayacak: to understand
-biraz: some
+yapmaksa: is to make
 selçuk: selçuk
 ihtiyaçlarını: the needs
 yüreğimin: my heart
@@ -3930,11 +3937,11 @@ karmaşık: complex
 ettiğinde: when
 ertuğrul'un: ertuğrul'un
 çekinmeyeceğiz: we will not hesitate
-açlık: hunger
 herkesten: from everyone
 kıpraşıp: kıpraşıp
 çirkinliklerine: the ugliness
 oturduğu: his seat
+şüpheleniyorsun: you suspect
 müminin: the believers
 görmediniz: you have not seen
 güvende: in confidence
@@ -3972,7 +3979,6 @@ hareketli: active
 üzüleceksin: going to be upset
 gelmelerini: arrive at the
 yetişmez: yetişmez
-bunun: it
 kaçacaklarmış: how many they'il
 yolcu'sun: you passengers
 ot: weed
@@ -3994,7 +4000,7 @@ etmiyorum: i do not
 konuklarını: guests
 davulcular: drummers
 aydınlattığın: you brighten
-vebalı: smitten with the plague
+güneşte: in the sun
 dolaşıyor: touring
 benzemez: unlike
 zaafa: weaknesses in
@@ -4003,7 +4009,7 @@ yapsın: you do
 tatmin: satisfaction
 ayakçısına: errand to
 masumiyeti: innocence
-selçukluları: seljuks
+rabb'inlesin: rabb'inl press
 kaçırmışlar: they kidnapped
 tadacaksınız: you will taste
 düşün: think
@@ -4039,6 +4045,7 @@ soluklanalım: i breather
 kahramana: hero
 kullanacağım: i will use
 büyülenecekti: it would have fascinated
+yoldan: the road
 öldürmeni: killing
 sınavını: exam
 koyacaktın: you'd put
@@ -4120,7 +4127,7 @@ halk: people
 derdinin: of trouble
 raks: dance
 alimallah: alimallah
-ellerimizde: our hands
+karıştıracakları: will stir
 şeyim: my stuff
 kahhar: kahhar
 nasılsınız: nasılsınız
@@ -4164,9 +4171,8 @@ metanetli: fortitude of
 bakmaz: does not look
 yavaş: slow
 allah'tır: is god
-borçluyuz: we owe
+dokunulmaz: untouchable
 malını: possessions
-ışıltı: light
 bitmemiş: unfinished
 pehlivan: wrestler
 kurtuluşumuz: our salvation
@@ -4174,11 +4180,11 @@ istiyorlardı: they want
 anlaşıldı: roger
 artıklarından: from now
 kurtarıp: rescue
-gözümüz: our eyes
+namusu: honor
 etmeseydim: i had not
 zamandı: time
 halı: state
-elinden: hand from
+düşmanın: the enemy
 nimetini: blessings
 kibir: arrogance
 kulübede: in hut
@@ -4187,7 +4193,7 @@ uyudunuz: you slept
 arada: between
 sizi: your
 sadede: simply
-İyisinizdir: you're good
+konstantin'i: constantine the
 görevinden: task from
 size: to you
 başla: start
@@ -4292,7 +4298,6 @@ açmasından: from opening
 aşireti: tribe
 ailesi: family
 sadakallahülazim: i sadakallahülaz
-kalması: stay
 adamsın: you are man
 Çadırı: tent
 ayrılırken: leaving
@@ -4396,7 +4401,7 @@ fazlasıdır: is more
 cenazelerimizi: our funeral
 turgut'umla: with turgut'u
 bulaştırmadıkları: they infect
-hakimiyetin: the dominance
+duyacak: will hear
 sınırı: limit
 vazifemi: my task
 olayın: event
@@ -4412,7 +4417,7 @@ yaşamdan: from life
 kafamdakini: listed in my head
 sızamazlardı: they sızamaz
 rahmi: womb
-kesebilmek: to cut
+demir'i: iron
 kanla: blood
 düğün: wedding
 kılıcına: the sword
@@ -4429,6 +4434,7 @@ biat: fealty
 bırakmayız: we leave
 babamdır: is my father
 hakikate: truth
+etmek: to make
 farksız: indistinguishable
 dostlar: friends
 kervanın: the caravan
@@ -4462,7 +4468,6 @@ isminiz: your name
 görebilseydi: he could see
 çürüdüğümüz: we rot
 mezara: grave
-şehzademin: my prince
 yarını: tomorrow
 allah'ıma: allah'ıma
 kulaklarımla: my ears
@@ -4470,7 +4475,7 @@ ağrıyor: hurts
 inceliğini: tact
 gerekirdi: should
 kıymetli: precious
-yiva: yiva
+toplamaya: collection
 çalıştığım: i tried
 çalıştığın: you work
 yeğenindedir: nephew
@@ -4530,7 +4535,7 @@ hazırlamama: preparing to
 edenler: who
 yapmamı: make my
 kafir: infidel
-çıkıyoruz: we're going
+olurlar: will
 çağırmışsınız: you call
 yaşam: life
 altındadır: it is under
@@ -4573,7 +4578,6 @@ yakınsın: get close
 musun: do you
 sabret: be patient
 sınavı: exam
-etmez: does not
 istersiniz: do you want
 yaşayabilir: viable
 oldukça: quite
@@ -4621,7 +4625,7 @@ kaçındınız: you avoid
 isterdim: i would like to
 tutun: tobacco
 köpük: foam
-söyledim: i told
+yazıya: type
 söyledin: you said
 esirgesin: forbid
 konuğumuz: our guest
@@ -4696,7 +4700,7 @@ cesurun: the brave
 vere: give
 hazırlanın: prepare
 süleyman</font>: süleyman</font>
-şövalyelerini: the knight
+üstüne: over
 Önümüzdeki: forthcoming
 şerefli: honorable
 savaşan: fighting
@@ -4753,8 +4757,9 @@ sıran: the order
 kuzular: lambs
 amcasını: uncle
 kesme: cutting
+çıktım: i went
 tehdit: threatening
-cayamasın: amasa cay
+görünürde: in sight
 oynadım: i played
 alâeddin: alaeddin
 ayaklanır: insurgency
@@ -4780,7 +4785,6 @@ yerleştiğimizde: when we settled
 adıyla: by name
 zora: difficult
 açıkça: clearly
-oynattığım: i play
 güvercinle: with pigeons
 etmelisin: you should
 kırıklığından: from disappointment
@@ -4792,6 +4796,7 @@ konuşmamız: our talk
 bekleyen: expectant
 çözmenin: solve
 görevlerinde: their duties
+yaptıklarından: they did
 kaçıyorlar: they flee
 kaybeder: loses
 dayandın: you rely
@@ -4820,6 +4825,7 @@ başıydı: head was
 sorunlu: problem
 burama: to here
 uğraşırken: dealing
+hakkınızda: about you
 ziyaret: visit
 duydu: heard
 ciddiye: seriously
@@ -4838,7 +4844,7 @@ ilgilenir: take care
 sizleri: you are
 ilgilenin: interested in
 dengesi: balance
-namusu: honor
+gözümüz: our eyes
 yakalayan: the catch
 gasp: extortion
 alındığı: taken
@@ -4859,7 +4865,6 @@ kervanımıza: our caravan
 parmaklarımın: my fingers
 hırsız: thief
 gönülsüz: reluctant
-gösterdiği: showed
 bilinmiyor: unknown
 akıllı: smart
 düşmanları: enemies
@@ -4880,7 +4885,7 @@ aykız: aykız
 evleneceğini: will marry
 düşündüğümüzde: when we think about
 halime'nin: halime'nin
-unutmayasın: do not forget you
+badireler: trials and hardships they
 ederdi: it was
 deresi'nde: in stream
 gösterecekler: they show
@@ -4889,6 +4894,7 @@ belki: maybe
 yo: you
 Öksürme: cough
 ya: ya
+governess: governess
 gafiller: unaware
 istediklerini: they want
 ye: eat
@@ -4939,13 +4945,12 @@ söylüyor: says
 çadırların: the tent
 ulülemre: ulülemr to
 misafirlerimiz: our guests
-ulaklar: messengers
+duyarsın: you heard
 halledeceğim: i'll take care of
 bekle: expect
 “her: &quot;each
 hazırlanacaksın: will you be prepared
 kılmaktır: to make
-döner: rotary
 satacak: to buy
 uyumuyor: can not sleep
 dünyevi: earthly
@@ -4991,7 +4996,7 @@ düşe: falls
 gönüllerimizi: our hearts
 selcan'sam: selcan'sam
 gerekir: must
-katiller: killers
+hangi: which
 ediyorlar: they're
 yapabilir: can
 şehzadeyle: şehzadeyl to
@@ -5023,7 +5028,7 @@ biçilmiş: cut
 yapardım: i used to do it
 üzerinde: over
 yoklukta: in times of need
-ağlayabileceğim: i can cry
+açıklamanız: your description
 galip: winner
 alplerime: my alps
 cesaretinize: your courage
@@ -5039,8 +5044,7 @@ günlerin: days
 günlerinde: in the days
 için: for
 içim: me
-leşe: carrion on
-iyiyiz: we are good
+boştur: it is empty
 kahkahaları: laughter
 Öfkeyle: angrily
 dinlensin: you relax
@@ -5067,7 +5071,7 @@ kat: floor
 öğrendim: i learned
 sayısından: number of
 öğrendik: we learned
-güvercin: pigeon
+beklemezdim: i did not expect
 yapmıştı: he had made
 babamın: my fathers
 basmaları: the press
@@ -5128,6 +5132,7 @@ kılıçarslan'ın: the kılıçarslan
 gele: came to
 kızlarımız: our girls
 affetmemi: forgive me
+bilirse: if you know
 niyetle: faith
 vücudunuz: your body
 niyetli: intentioned
@@ -5162,7 +5167,7 @@ getirdik: we brought
 doğmadan: before birth
 çalıştığınızı: you work
 İyileşecek: to heal
-açıklamanız: your description
+ağlayabileceğim: i can cry
 verdiler: they gave
 çıkamadık: we can not
 getiren: that
@@ -5254,12 +5259,11 @@ arkadaşlık: friendship
 temizle: clean
 feda: sacrifice
 sağır: deaf
-duyacak: will hear
 bacımın: my sisters
 kışlada: the barracks
 gördüğüne: he saw
 gökten: heaven
-boştur: it is empty
+iyiyiz: we are good
 ihsan: beneficence
 buyurun: help yourself
 kalkarsa: if you get up
@@ -5283,14 +5287,11 @@ toydaki: the meeting
 kuytuda: nook
 doğanca: by nature
 kolay: easy
-tapınakçılardan: the templars
 eldeki: available
 adamlarımı: my man
-döndürmeyin: the rotation
 kardeşlerine: brothers
 gözlerimin: my eyes
 racim: my racer
-koptuğu: broke
 enikmiş: puppies have
 bilgilendirmek: to inform
 gökçe: gökçe
@@ -5308,7 +5309,6 @@ arkadaşlarım: my friends
 yoktunuz: you do not
 rahim: uterus
 endişelendiren: worries
-evlatlarım: my son
 önemlisin: you're important
 günbegün: day by day
 sırtlanmak: to hyena
@@ -5338,7 +5338,6 @@ sahabettin'in: sahabettin'in
 atlattık: we have survived
 sanırsın: wouldst
 bırakamayız: we can not leave
-dadanır: is haunt
 salın: released
 yanınızdadır: your side
 İzin: permission
@@ -5350,6 +5349,7 @@ korurlar: they protect
 söylesene: tell me
 gelebilir: may come
 önemlisi: important
+girelim: let's go
 hallederiz: hallederiz
 yaklaştıkça: nears
 dünyada: in the world
@@ -5419,13 +5419,11 @@ kasıt: intent
 başı: head
 iyileşmişti: he had healed
 Şarkı: song
-toy'da: the meeting
 hazırsın: get ready
 karışma: mixing
 çalıştığı: it works
 esma'sı: esma'sı
 diler: dealer
-yakına: closer
 edeceğine: you will
 yerimi: bookmark
 edeceğini: will be
@@ -5447,11 +5445,10 @@ naz: affectation
 taşların: stone
 saldırmana: attack the
 kalmanız: your stay
-öldürsem: i kill
+yalanla: denied
 Çocuklarım: my children
 torunlarını: their grandchildren
 ölümcül: fatal
-yolculuktan: the journey
 yakar: burns
 koruyamadık: koruyamadık
 yakan: burning
@@ -5460,13 +5457,14 @@ taşla: stones
 koru: grove
 yapacağızı: 'il
 e: to
-alevi: flame
+doğrusu: actually
 bitmek: end
 atıyorsun: you throw
 istemedim: i did not want
 istemedik: we did not want
 kabilemizden: our tribe
 kışlağımız: our quarters of
+demedin: beam
 ayaklar: feet
 baskın: raid
 sancım: my gripes
@@ -5509,10 +5507,10 @@ buluruz: we find
 karşılama: welcome
 dokunursanız: if you tap
 düştüysek: if we fall
+yiğidi: valiant
 genç: young
 istiyorsun: would you
 istirahate: rest in
-akıtmaktan: drain away
 sultana: sultana
 sopunu: the sop
 rahmetli: late
@@ -5524,7 +5522,6 @@ olmayan: non
 dünyayı: the world
 buluşabilir: can meet
 miskinlikle: miskinlikl to
-ulu: great
 elçilik: embassy
 koymuş: put
 kurdoğlu;: kurdoglu;
@@ -5572,7 +5569,6 @@ tanrıya: god
 sormayacak: will ask
 densizlerin: dens of
 kilim: rug
-sevgisini: love
 beyler’den: from beylerce
 bileceğim: how do i know
 çatlasak: çatlasak
@@ -5597,16 +5593,15 @@ hayati: vital
 savaşıyor: fight
 ailesinin: the family
 ilişkiyi: relationship
-nedenleri: reasons
+fedakârlığı: sacrifice
 hayvan: animal
-bulacağım: i find
+atacağını: it would take
 yakmasın: you're burning
 fetheder: conquer
 suçlu: guilty
 yananı: burning
 ekibimiz: our team
 muhafızlarından: the guard
-ölüme: to death
 kararı: decision
 his: feeling
 bulabilir: find
@@ -5640,7 +5635,6 @@ bugün: today
 nerededir: is where
 edilmez: will not be
 bırakmadın: you leave
-kıvılcım: spark
 esma’nın: esma’nın
 çevirdiğini: he turned
 ayrılmasına: separation
@@ -5648,7 +5642,6 @@ avına: hunt
 gamlı: mopish
 yapıyorsunuz: you do
 göçe: migrated to
-hasıl: output
 kesik: incision
 delirmiştir: it was crazy
 aleyhinize: against you
@@ -5667,7 +5660,6 @@ tarladayız: we tarlad
 zararla: loss
 boyunuzla: your necks
 tesellimiz: our consolation
-bağışladı: donated
 koydular: they put
 takas: swap
 aykız’ım: i aykız
@@ -5687,13 +5679,13 @@ sene: year
 süreceğim: i will
 sessizce: quietly
 sözüne: promise to
-araştırmaya: to research
+alparslan: alparslan
 büyüdüğümde: when i grow up
 şenlik: festival
 beş: five
 bilesin: you even
-adımı: the step
 helal: halal
+biraz: some
 deyince: deyince
 süreceğiz: we will take
 bizimki: ours
@@ -5704,7 +5696,7 @@ ettirip: ettirip
 ettirir: move on
 istediğiniz: you want
 bıraktım: i left
-mektubunda: in a letter
+toy'da: the meeting
 bıraktık: we left
 ettin: you've
 ettim: i have
@@ -5750,7 +5742,6 @@ yorulduk: we are tired
 yoruldum: i'm tired
 yoruldun: you're tired
 pazardaki: the market
-şükürler: thank
 elimizin: our hands
 istemiyorum: i do not want
 olduğumuzu: we are
@@ -5845,7 +5836,7 @@ kurur: dry
 çıkarmanın: remove
 başlıyoruz: we begin
 astarını: liner
-düşmanın: the enemy
+elinden: hand from
 ayağına: foot
 İzninizi: your permission
 eğdirme: subjugation
@@ -5853,6 +5844,7 @@ güvenmeni: trust the
 fikir: idea
 anlasana: anlasana
 elçi: envoy
+partiyi: party
 aşağılık: vile
 döndün: you're back
 döndüm: i returned
@@ -5895,16 +5887,14 @@ gökyüzündeki: the sky
 hayme'nin: hayme'nin
 çözmüyorsunuz: you can not solve
 gidemezük: gidemezük
-kılıcıma: my sword
 kanınızı: your blood
 kalmıştır: remained
 karnında: in the womb
 birilerinin: one of the
 adı: first name
 benzer: similar
-misafirlerinden: guests of the
+şükürler: thank
 başlama: start
-dağlar: mountains
 sarı: yellow
 kevaşesi: the skank
 kullanmaz: does not use
@@ -5915,7 +5905,7 @@ karavanda: the caravan
 uzakta: away
 keçiyoluna: path to
 yakalamaya: capture
-kullanmak: use
+açan: opens
 olsun</font>: get
 emniyetim: my safety
 gibisi: nothing like
@@ -5960,6 +5950,7 @@ içerde: inside
 şüphelenmiş: have suspected
 gittiniz: you go
 öldürürüm: i will kill
+hislerini: their feelings
 harezmşahlarla: with harezmshah
 susacaksın: will you shut up
 gidilir: go to
@@ -5984,7 +5975,7 @@ yan: side
 yah: yah
 acın: open
 anlaması: understanding
-çağırıyorsun: urge you
+hayme'm: hayme'm
 girdiyse: if enter
 saru: sarumaki
 Şah’ımızın: our şah'ı
@@ -6022,7 +6013,7 @@ başlayabiliriz: we can start
 ekip: team
 içimde: inside
 etmesini: to the
-ardında: behind
+ederek: by
 ayrılmam: employ
 aslanı: lion
 çıkmışlar: they went
@@ -6050,11 +6041,11 @@ hünerinize: your prowess
 kusuruma: kusuruma
 baykuş: owl
 anlatmak: tell
-toprağımız: our land
 uğramışlardı: they have suffered
 nasıldı: how was it
 hikayelerini: stories
-ertuğrul: ertuğrul
+İftiralar: slanders
+bilmeleri: know
 onda: tenth
 daim: recycle
 dönmesini: return the
@@ -6128,7 +6119,7 @@ körükleyelim: i körükleyel
 yüreği: heart
 köşelere: the corner
 eksiğimizi: our shortcoming
-görüldü: viewed
+dönmekte: rotates
 pahalısını: the expensive
 ezerim: i will crush
 acıları: the pain
@@ -6151,7 +6142,6 @@ süre: time
 kuraklığın: drought
 savurdu: slashed
 bilmeden: without knowing
-nebi'nin: the prophet
 kınalı: hennaed
 vereceğiz: i'll give
 felaketler: disasters
@@ -6162,7 +6152,7 @@ affeyle: to forgive
 kararlar: decisions
 mutluluğun: happiness
 turgut'la: turgut'l to
-küçücük: tiny
+vefat: decease
 tecelli: transfiguration
 inanın: believe
 ünlü: famous
@@ -6179,6 +6169,7 @@ sönse: although sö
 yazarıyım: i'm a writer
 kimde: who
 cinsiyle: the breed
+endişelendik: we worry
 ölmem: die
 kimdi: who
 rahmetullah: rahmatullāhi
@@ -6189,18 +6180,18 @@ adım: step
 adın: your name
 kanda: blood
 hi: what
-ho: home
+çıkartalım: draw
 beylerden: the gentlemen
 akça: pale
 ha: ha
-girelim: let's go
+defaatle: repeatedly to
 başındaki: the beginning
-he: h
+selçuklu’yla: selçuklu'yl to
 oğlunsam: human son
 gaddarlığı: ferocity
 itin: push
 vereceğim: i will give
-şüpheleniyorsun: you suspect
+dilinden: the language
 mührü: seal
 pusat: pusat
 hazırlasınlar: they prepare
@@ -6208,7 +6199,7 @@ aslan: lion
 öteki: other
 çıktık: we set
 zannediyordum: i thought
-çıktım: i went
+talebedir: demand is
 çıktın: the output
 edeceksin: you're going
 yıllardır: for years
@@ -6242,7 +6233,6 @@ kapının: door
 kalbinden: from the heart
 ağa'mı: my master
 söylentiler: rumors
-öyleyiz: we are
 saladin: saladin
 çadıra: tent
 pusatlarımızı: our pusat
@@ -6257,7 +6247,6 @@ kayılarla: by boats
 tutmuş: have kept
 vazife: mission
 sözümüz: our promise
-atalarımızın: our ancestors
 kesinlikle: exactly
 olunca: when
 obaya: tribe
@@ -6274,6 +6263,7 @@ neymiş: neymiş
 oyuyoruz: we gouging
 hayvanlarımız: our animals
 Çobanların: the shepherds
+hakimiyetin: the dominance
 gönlünden: from the heart
 belasıymış: he was in trouble
 kaçacağız: we'll take it
@@ -6525,7 +6515,6 @@ kudüs'e: to jerusalem
 yüzünü: his face
 sormuş: he asked
 şeyhim: i sheikh
-moğollardan: the mongols
 yüceltir: glorifies
 gömdüm: i buried
 yakmak: burn
@@ -6596,7 +6585,6 @@ değmesin: get a touch
 verildiyse: if they are given
 bıçak: knife
 suikastçıyı: assassin
-kopardılar: they tore
 kalpler: hearts
 çektiğin: you take
 toparlayamaz: not gather
@@ -6641,6 +6629,7 @@ ah: ah
 sallaya: waved
 kavuşmaz: can not reach
 velakin: velakin
+meraklısın: enthusiast
 saklamamanı: new storage
 gücüm: power
 gücün: power
@@ -6666,7 +6655,6 @@ belayı: scourge
 deyip: saying,
 yoldaşımız: our comrade
 ağırlamak: entertain
-dururuz: we stand
 etleri: meat
 bar: bar
 bas: top
@@ -6787,7 +6775,7 @@ dileyecek: will wish
 it: it
 cani: villain
 koruyacaktı: would protect
-ih: exp
+kardeşine: brother
 imzalı: signed
 sultanım: sultan
 topraklarımıza: our land
@@ -6796,7 +6784,7 @@ topraklarımıza: our land
 komutanımız: our command
 kardeşini: brother
 sızan: leaky
-toplamadığı: the collection
+korkmuştu: he was afraid
 belli: certain
 gitmemizi: our going
 çağrıda: call
@@ -6860,6 +6848,7 @@ kopsa: a cop
 gerektirir: requires
 töreymiş: somethin 'ceremony
 dedenin: grandfather
+yayılmışsınız: you spread
 fedakarlığı: sacrifice
 kalma: stay
 mukayese: comparison
@@ -6957,7 +6946,6 @@ kırbaç: whip
 saray: palace
 kılıçtan: the sword
 öfkelenmezsin: you öfkelenmez
-vizeri: the vizer
 yediririm: i will feed
 dayımı: my uncle
 meçhul: unknown
@@ -7062,7 +7050,6 @@ söyledikten: having said that,
 büyüt: enlarge
 aklımızı: our minds
 yukarıdalar: above are
-arkasından: behind
 hazırsa: if you're ready
 kalmamalı: should remain
 avratlar: avrat on
@@ -7092,7 +7079,7 @@ olursan: the matter
 olursam: if i
 sürede: time
 zevkine: enjoy the
-defaatle: repeatedly to
+döner: rotary
 kudurup: kudurup
 huzursuz: restless
 ayı: bear
@@ -7116,7 +7103,7 @@ anlatacağım: i will tell
 çöz: solve
 peygamberin: the prophet
 müttefiklerimiz: our allies
-kampta: camp
+arkasından: behind
 hainler: traitors
 görmem: i see
 çöp: garbage
@@ -7183,11 +7170,11 @@ gelmişti: he had come
 yargı: judgment
 biten: ending
 yiğide: a valiant
-açan: opens
+yolculuktan: the journey
 aramıza: aramıza
-yiğidi: valiant
+niyetleri: intentions
 askerden: from military
-İftiralar: slanders
+ulu: great
 katalanlar: catalans
 gelmenize: come to your
 aziz'in: the honors
@@ -7203,6 +7190,7 @@ tezgâhım: i stand
 gururla: proudly
 okyanustan: from the ocean
 karanlığında: in the dark
+şövalyelerini: the knight
 önemi: the importance
 anlayacaktır: will understand
 ertuğrul’un: the ertuðrul
@@ -7312,7 +7300,6 @@ ayrılmak: leave
 yıldızlar: stars
 yurdumuz: our country
 ufak: small
-utanmaz: shameless
 meraklandırmak: ruffle
 haydi: come on
 bitirenler: finishers
@@ -7389,7 +7376,6 @@ vurabilirdim: i could have shot
 bulamamaktayız: mostly we do not
 mürekkeple: inks
 yalnızca: only
-alçak: low
 ekmek: bread
 aramak: call
 olmazsa: unless
@@ -7431,7 +7417,6 @@ görememek: loose sight of
 erine: accesses
 allah'ım</font>: allah
 planımız: our plan
-geceden: the night
 bakacağımızdan: we will see
 bayır: slope
 kayıları: boats
@@ -7467,7 +7452,7 @@ cazgırının: of cazgır
 ayaklandırdı: aroused
 beklemek: wait
 tatlım: sweetie
-demez: not well
+duymuştuk: we heard
 yöresinde: in the region
 hallolduktan: having settled
 batacağız: will sink
@@ -7487,6 +7472,7 @@ hakkınızdır: it is your right
 gören: sighted
 tanrı’ya: god
 yemin: oath
+ettiyse: if meat
 sıkıntıları: shortages
 panikledin: you panicked
 melanetlerini: the m.p
@@ -7527,6 +7513,7 @@ tut: keep
 öder: pays
 geç: late
 misafirlerini: their guests
+haberler: news
 İki: two
 zindana: dungeon
 sofraya: a table
@@ -7553,6 +7540,7 @@ kadınlarından: from women
 susun: silence
 neslime: my generation
 saklıyor: hiding
+karındaş: karındaş
 öğrencidir: it is a student
 çevirmeden: without turning
 götürmen: take bearing
@@ -7627,7 +7615,7 @@ yukarı: up
 burayı: here
 bakma: do not look
 davanda: in the case
-umutsuzluk: despair
+sevdiklerinin: loved ones
 markus: markus
 kırık: broken
 yıkılmaz: indestructible
@@ -7660,7 +7648,6 @@ güzelliği: beauty
 mescid'i: mosque
 içi: intra
 durmaktaymışsın: stop warmed over
-özü: essence
 görelim: see
 müşkül: müşkül
 okumayı: reading
@@ -7683,13 +7670,14 @@ giriyorsun: you are entering
 sustu: stopped
 devleti'ni: the state
 olmuş: dead
-alamet: omen
+geçiriyor: spends
 öldürsen: if you kill
 kısıldı: narrowed
 savurmaktan: threw away
 dolu: full
 düşünmezdim: i would think
 yatağında: in bed
+garip: strange
 olduklarını: they are
 lokma: bite
 yeleği: vest
@@ -7703,7 +7691,7 @@ bey'dir: and gentlemen
 uyulursa: if compliance
 çukurun: the pit
 hasretiyle: with longing
-partiyi: party
+türkmenlerin: of turkmen
 bulmuşlar: they found
 İşlerini: jobs
 sesin: sound
@@ -7711,7 +7699,7 @@ gücü: power
 aşkı: hanger
 ummadığınız: you expect
 halep'te: in halep
-sesseni: sound you
+olmaya: not to
 neden: why is that
 elindeki: in your hand
 nefesini: breath
@@ -7720,7 +7708,7 @@ nefesine: breath
 ezdiğini: crush it
 yaparlar: they do
 çıkamayan: who can not
-kaçırmamız: we miss
+değil: not
 İşini: your job
 gittiği: he went
 topraklarındaki: unbeknownst
@@ -7846,7 +7834,7 @@ onurum: honor
 kollarımızda: our arm
 lazım: necessary
 suçlamalar: accusations
-kuşların: birds
+hasıl: output
 canla: and soul
 demeyeceğim: i will not say
 olmadı: it was not
@@ -7855,7 +7843,7 @@ olmasıydı: it was not
 etli: meaty
 bamsı: bamsı
 eftalya: eftalya
-asilzadedir: is a nobleman
+kalması: stay
 güvenip: trust
 alma: taking
 güvenir: trust
@@ -7868,6 +7856,7 @@ muhkem: i muhkem
 Şövalyeleri'ni: knights of the
 yardımcım: i help
 harzemşahlar’ın: the harzemşahlarm
+kurtardın: you saved
 yıldızlara: the stars
 kurdoğlu'ysa: kurdoğlu'ys to
 ahlat'la: ahlat'l to
@@ -7896,7 +7885,7 @@ vali: governor
 bacımı: my sisters
 sahabettin’e: sahabettin’e
 soylu: noble
-dadısıdır: nanny is
+boynunu: neck
 obasına: to tribe
 istemeye: want to
 konuşacaklarımız: we can discuss
@@ -8055,7 +8044,7 @@ gereğini: the need
 ağızlarına: their mouths
 yanıp: blink
 durumdur: the situation is
-onları: them
+akıbetini: fate of
 soyu: strain
 yapsaydım: should i do
 mıhladız: mıhladız
@@ -8071,7 +8060,6 @@ selçuklu'nun: the seljuks
 hükmü: provision
 tuzağa: trapped
 köşkte: the pavilion
-aldıkça: accrues
 şahsi: personal
 bozkırın: the steppe
 neresi: where
@@ -8137,7 +8125,6 @@ gidersin: you go
 kor: blind
 sıkkın: depressed
 dilinin: the language
-ocağımız: our quarry
 ayrılmayacak: to leave
 sabırlı: patient
 para: money
@@ -8152,7 +8139,6 @@ yılkı: year's
 etmeyiz: we do not
 aşk: love
 akar: mite
-elleriniz: your hands
 aksine: unlike
 bağlı: connected
 kırmızı: red
@@ -8192,9 +8178,9 @@ sarayımızda: our palace
 mühimmatlarını: their ammunition
 öldüğünü: he died
 çatma: declamation
-garip: strange
+anlarsın: you know
 başlasın: commence
-duygusal: emotional
+oğullarımız: our sons
 uyumadı: were sleeping
 çıkamayabilir: you can not go
 kayalıklarına: the rocky
@@ -8220,7 +8206,7 @@ ko: co
 kalbinizde: your heart
 yaşlıyız: are old
 bedevinin: the bedouin
-koruyacak: to protect
+ihanet: betrayal
 teminatı: deposit
 oturacağım: i'll sit
 thomas: thomas
@@ -8269,7 +8255,7 @@ depresyona: depression
 alnımıza: our forehead
 binenin: thousand of
 içinde: in
-haberler: news
+üzerime: upon me
 istemeyi: ask for
 hazırlıklarına: preparation for
 mevzuları: matters
@@ -8285,7 +8271,7 @@ gösterdiğin: you showed
 sahip: owner
 aşiretlere: the tribes
 alâeddin'den: from alaeddine
-çatışmaları: conflicts
+dürüstlüğünden: of honesty
 gittiğinde: when you go
 evlenmek: get married
 gönderecektik: going to send
@@ -8296,12 +8282,12 @@ gecemizin: our night
 bulaşmadan: from infection
 kuzum: my chuck
 acılar: pain
-kırıntısıyla: the crumbs
+alp'in: the mountaineering
 çiftlikte: on the farm
 gerekirse: if necessary
 bildiriver: bildiriv is
 acıyı: pain
-çıkaracağım: i will take
+moğollardan: the mongols
 bak: look
 emanetlerinin: escrow
 fiyonkunu: bowtie
@@ -8330,7 +8316,7 @@ savaşması: the war
 sevgiye: love
 dağlarda: in the mountains
 obana: to me
-çınar: plane
+uğraşırsınız: you struggle
 kılıca: sword
 yolculuğunu: journey
 bahçesine: garden
@@ -8341,7 +8327,6 @@ gonca: bud
 kurda: wolf
 kesilmiş: cut
 kırarız: we break
-alırım: i get
 uzattınız: you extend
 oğuzların: oðuz of
 fesuphanallah: glory to allah
@@ -8351,7 +8336,7 @@ civar: vicinity
 kalmak: stay
 ana'mıza: our main
 densizler: dens and
-kalman: to stay
+doğrudur: is true
 tarikat: sect
 alamaz: can not afford
 kalmaz: do not stay
@@ -8378,7 +8363,7 @@ değirmen: mill
 olabileceğinden: it may
 konuşamam: i can not speak
 engb: engb
-buluşacağım: i will meet
+sevgisini: love
 acıya: pain
 buluşacağız: we will meet
 menem: menem
@@ -8402,6 +8387,7 @@ ayrılırmışız: we're separated
 rüzgâra: wind
 hazırım: i am ready
 bengü: bengü
+budur: this is
 şehrimde: my city
 kalkmayı: up to
 kabileni: tribe
@@ -8450,6 +8436,7 @@ korkmuştur: it is scared
 bin: thousand
 eftelya'sıyım: i eftelya'sıy
 bil: know
+gücümüzü: our strength
 incinmesin: get hurt
 kelime: word
 kraliyet: royal
@@ -8495,7 +8482,7 @@ merhametinizin: your mercy
 kolundan: the arm
 özlemelerini: not to miss
 demedim: i did not say
-demedin: beam
+döndürmeyin: the rotation
 eşkıya: bandit
 bırakırsan: if you leave
 sınırdan: the border
@@ -8520,7 +8507,7 @@ başlarına: their heads
 okun: read
 ederseniz: if you
 sancağı: sancağı
-kolu: lever
+atları: horses
 erken: early
 kervanda: the caravan
 erkek: male
@@ -8531,7 +8518,7 @@ kendini: itself
 yaşamda: in life
 gidecekmiş: would go
 doğduğu: birthplace
-savaşçı: warrior
+alamet: omen
 olmanızı: not your
 temaşaydı: it was matter of show
 yapabileceğimi: i can
@@ -8601,7 +8588,6 @@ kişileri: people
 hizaya: line up
 ihtar: warning
 defalarca: repeatedly
-bacak: leg
 söylediysen: if you're told
 maşallahın: i seek protection by allah
 ihtimale: case
@@ -8655,7 +8641,7 @@ düşüren: drop
 şehzademi: my prince
 rabbi'nden: the rabbis
 ödeyecek: pay
-bilirse: if you know
+nedenleri: reasons
 iyiliğinden: the favor
 titremektesin: titremekt press
 dönemez: not return
@@ -8682,7 +8668,7 @@ ameliyat: operation
 geçireceğimiz: we spend
 şövalyelerin: knights
 yenilmez: invincible
-atacağını: it would take
+bulacağım: i find
 zoruna: difficult to
 ilgileniyor: interested in
 halleder: take care
@@ -8718,7 +8704,7 @@ seferleri: expeditions
 edersin: edersin
 kocadık: we hubby
 yettim: i feed
-yaptıklarından: they did
+ederiz: we will
 mahvederim: i will destroy
 umutlarımız: our hope
 darbeyle: coup
@@ -8756,11 +8742,10 @@ sırasında: during
 hâlinden: the case
 tepeleri: hills
 yapacaktır: will make
-halt: heck
 mesap: mesap
 olacaksınız: you will be
 derdine: troubles
-yolladım: i sent
+mesaj: message
 çalışanlarla: working with
 getirmişsiniz: you brought
 tehlikeleriyle: the dangers
@@ -8773,10 +8758,10 @@ belirsiz: uncertain
 çirkinliğine: the ugliness
 öldürdün: you killed
 Üzgünüm: sorry
-budur: this is
+sırlar: secrets
 devletmiş: that state
 birlikteydin: you were with
-olmaya: not to
+sesseni: sound you
 nimettir: it is blessing
 insanın: people
 ayarlarına: the setting
@@ -8806,7 +8791,7 @@ ayarlamalıyız: we must adjust
 karanlığı: dark
 sevmemek: dislike
 hakkında: about
-duymuştuk: we heard
+uyduruyordu: he was picking
 yaraşır: worthily
 yakalayın: catch
 sıkıntıyla: dismally
@@ -8829,12 +8814,13 @@ zorda: difficult
 öldürtüp: öldürtüp
 meydanına: square
 yolculuğa: road trip
+nizamı: the order
 emsal: peer
 bunca: so many
 sakallardan: the beard
 yunan: hellenic
 erkekler: men
-değil: not
+kaçırmamız: we miss
 bizimdir: it is ours
 suçlamaya: accusation
 verdiğin: you gave
@@ -8990,7 +8976,7 @@ azından: least
 hava: air
 kur'an: koran
 selametiyse: if salvation
-kalırsa: if
+düşeceksiniz: will fall
 solgun: pale
 kurtulmanız: you get rid of
 atabeyimle: with atabek
@@ -9005,7 +8991,7 @@ döktüğü: pour the
 kardan: cardan
 götürdüğüne: take that
 ordularıyla: with army
-beysiz: beys
+annene: to your mother
 tanımlamak: define
 halkımızın: our people
 yiten: evanescent
@@ -9049,7 +9035,6 @@ ordusunu: army
 bekleriz: we expect
 kocanı: husband
 kurtulduk: riddance
-kızı: daughter
 doğduğuna: that is born
 kenger: acanthus
 kurtuldun: did you get
@@ -9087,6 +9072,7 @@ hediyelerimiz: our gift
 sözlerin: the words
 haçlılar: crusaders
 neticelendiğinde: when the result
+söylemiştim: i say
 kemirmekte: being gnawed
 özgürlüğüne: freedom to
 odası: room
@@ -9117,7 +9103,6 @@ dertlenmeyi: to dertlenmek
 kararacak: will decide
 götürelim: let's get
 geberteceğim: i will kill
-toplayıp: picking
 annemin: my mom's
 fırtınadayız: we fırtınad
 kocaman: huge
@@ -9173,7 +9158,7 @@ cehennemde: hell
 toplansın: are collected
 görürüm: i saw
 toplamamıza: our collection
-meyvesini: the fruit
+dayınızın: your uncle
 bulduklarına: they found
 kulağım: my ears
 hanedanlarından: the dynasty
@@ -9192,9 +9177,9 @@ yitirmemişimdir: lost mamişimdir
 koruması: protection
 Çağrılmayan: not called
 gerek: need
-uyduruyordu: he was picking
+gösterdiği: showed
 kendimize: ourselves
-badireler: trials and hardships they
+dağlar: mountains
 karşına: although
 emriyle: by order of
 saraydan: from the palace
@@ -9213,6 +9198,7 @@ huzura: peace
 ayılarla: bears
 dönüp: return
 dövüş: fight
+selçukluları: seljuks
 oyunlarıyla: game with
 gelinimiz: our bride
 misin: will you
@@ -9290,7 +9276,7 @@ oysa: whereas
 zekâna: intelligence to
 İzninle: excuse
 sorumlu: responsible
-efsanesiyle: the legend
+ocağımız: our quarry
 tehlikeli: dangerous
 birine: to someone
 arkamızdan: behind us
@@ -9315,7 +9301,7 @@ dönemeyeceği: not return
 halleşin: the halles
 yaramayan: not smoking
 devamı: more
-annem: my mother
+ölüme: to death
 arzumuz: our desire
 zengid'in: the zengid
 gönül: heart
@@ -9362,11 +9348,11 @@ kalakalmazdım: i would not have stood
 bozulmuşsa: it is distorted
 sorayım: let me ask
 Şehzadeyi: the princes
-sevdiklerinin: loved ones
+dışındayız: we're out
 getirmişsin: you brought
 kubbe: dome
 bilincini: awareness
-hislerini: their feelings
+yapılan: done
 gerekmeyecek: should not be
 doğduktan: is born
 çıkmasını: quitting
@@ -9443,6 +9429,7 @@ değildi: it was not
 “kuşlar: &quot;birds
 isimlerinizin: your name
 mı: is
+leila’m: i leila
 şeylerden: anything from
 inciterek: hurting
 ekber: akbar
@@ -9523,7 +9510,7 @@ haklısınızdır: you're right
 göm: buried
 yükle: load
 eriştirmeliyiz: we must take
-kaçırmaya: do not miss
+geçmedi: passed
 dandanakan: dandanakan
 alplerimizin: our alps
 şahidi: witness
@@ -9557,6 +9544,7 @@ bükeceğiz: we twist
 susmak: shut up
 güvenebilirim: i can trust
 fakih'e: jurists to
+ferah: spacious
 alpler'in: the alps
 akın: influx
 aramdaki: my search
@@ -9582,7 +9570,7 @@ yaşında: aged
 gayrettir: are efforts
 İddialar: allegations
 girmeseydi: girmeseydi
-ederiz: we will
+akıtmaktan: drain away
 şunun: the following
 geçmesine: go to
 tekin: the only
@@ -9804,10 +9792,11 @@ derman: cure
 bizimkisi: ours
 sabreyle: sabreyl to
 gözlemekle: while opting
-karındaş: karındaş
+gelenlerin: from the
 kâfirler: unbelievers
 karatoygar'la: karatoygar'la
 yollayacaklar: roads will
+yüreğim: my heart
 gözyaşlarımı: my tears
 çekiyoruz: we're shooting
 muhafızlar: guards
@@ -9838,7 +9827,7 @@ biçeriz: we reap
 uğraşmak: deal
 kalplisin: you hearted
 işleyeceğine: would work
-ettiyse: if meat
+efendimizin: efendimizin
 vizierimize: our vizieri
 canımdan: canımdan
 pusuda: on the lurk
@@ -9857,8 +9846,8 @@ konuşmadın: you talk
 goons: goons
 söyleyemez: can not tell
 şansımız: our chances
-yayılmışsınız: you spread
-nizamı: the order
+titrersin: you titers
+buluşacağım: i will meet
 sorunlarını: issues
 çekmeliyiz: we should also draw
 ipek: silk
@@ -9884,7 +9873,7 @@ gönderebilirim: i can send
 açılır: opens
 düşünüp: thinking
 mücadele: struggle
-düşeceksiniz: will fall
+dadısıdır: nanny is
 olacaktı: it would be
 hükmedemediğimiz: we can not afford
 duyduysan: you've heard
@@ -9895,7 +9884,7 @@ aşiret: tribe
 kızımız: our daughter
 belirtmez: it does not specify
 dalga: wave
-boynunu: neck
+hazırlanmış: prepared
 sahiptir: it has
 hakkına: right to
 sakladıysa: if the store
@@ -9911,7 +9900,6 @@ gidebilirim: i can go
 sedef: pearl
 sabrını: patience
 danışmanlara: the consultant
-kestiler: they cut
 heyecandan: the excitement
 vaktiyle: erstwhile
 yakaladınız: you caught
@@ -9948,6 +9936,7 @@ münasiptir: it is apposite
 köpeğinin: the dog
 buluyorsa: if you find it
 vermemişsin: vermemişsin
+ulaklar: messengers
 bileğine: the wrist
 şerefsiz: dishonest
 yöneldim: i turned
@@ -9959,10 +9948,10 @@ yusuf: joseph
 turgutların: turgut of
 geliriz: we come
 kaçınmadım: i refrain
-kaçmamalı: should escape
+ruhunu: spirit
 gelirim: i will come
 misafirlik: residencies
-leila’m: i leila
+evlatlarım: my son
 doğuracaksın: you're gonna give birth
 düşerse: if it falls
 şanslı: lucky
@@ -10060,18 +10049,19 @@ yapmazsın: you do not
 gelecek: the future
 boyunu: neck
 nicedir: nic is
-titrersin: you titers
+umutsuzluk: despair
 suzan: suzan
 konuşacağım: i will talk
 hangisini: which
 toygar'ın: the meeting
+harlı: the blazing
 saldırmıyorsunuz: do not attack
 saraydaki: the palace
 yurtmuş: been abroad
 yorgun: tired
 Şahabettin: şahabettin
 göstermeyen: show that
-harlı: the blazing
+aldatılmak: be cheated
 öldürmeden: without killing
 hazırlıyorlar: they prepare themselves
 yüreğinden: from the heart
@@ -10150,8 +10140,9 @@ yakıp: burned
 unutmuş: have forgotten
 duymayan: heard that
 sığdı: it was shallow
-olamam: i can not be
+adımı: the step
 götürüyordum: i was taking
+oğlu'na: his son
 vermelidir: should give
 ölümüm: my death
 içinden: through
@@ -10196,7 +10187,6 @@ düşersin: you fall
 ne: what
 şaşırmadım: i'm not surprised
 istenmediği: undesirable
-kaldı: stayed
 ana'yla: ana'yl to
 çıkacağını: will come
 hastalıklı: diseased
@@ -10233,6 +10223,7 @@ ertuğrul'dur: it is ertuðrul
 umuyorsun: do you
 renkler: colors
 mesafeler: distances
+duyuyorsanız: if you
 torunumuz: our grandson
 çığlıkları: cries
 kapıldı: the doors were
@@ -10250,8 +10241,9 @@ demek: say
 küçümen: dwarfish
 demem: i also
 demen: demen
-sorarsan: if you ask
-kaybolmayın: do not get lost
+sonunda: finally
+dostlarım: my hearties
+elleriniz: your hands
 zindanlara: the dungeon
 verildi: he was given
 Üstlerine: the top
@@ -10284,7 +10276,7 @@ andı: ve ben
 temizledim: i cleaned
 sordu: asked
 gemiyle: by ship
-meraklısın: enthusiast
+atalarımızın: our ancestors
 hamdolsun: praise
 çılgınlarımız: our crazy
 yayacak: will spread
@@ -10292,6 +10284,7 @@ kaçıracağım: i'm gonna miss
 zedelerse: if damage
 savaşçılarını: the warrior
 baka: look
+açtı: opened
 kişiyi: people
 bilirdin: you know
 bırakacaksınız: you will leave
@@ -10304,7 +10297,7 @@ hekim'e: physician
 artıkları: residues
 pürüzsüz: smooth
 inerken: descends
-dirhem: drachma
+bağışladı: donated
 girdiğini: enter the
 fişi: plug
 aykız'ım: i aykız
@@ -10383,10 +10376,11 @@ galeyana: agitated
 yurdun: the country
 halime'yle: halime'yl to
 arayacağım: i will call
-gizlediğini: he hides
+bakılması: to look
 götürdüğüm: i took
 götürdüğün: you take
 suçlanıyor: accused
+evladın: the son
 nöbetçiler: guards
 dayanırım: i endure
 dileğim: my wish
@@ -10414,15 +10408,16 @@ vücuduna: body
 kervanla: caravan supplier
 yapacaksanız: if you are
 deve: camel
-komazlar: coomassie on
+geçmez: does not
 sultanı'nı: the sultan
+adammışsın: you guys
 niyetin: the intention
 niyetim: my intention
 Öldürseniz: if you die
 hİkayeler: stories
 dileme: wish to
 geçmek: pass
-anlaştık: agreed
+tutuyordur: are holding
 gidiyor: going
 geçmen: do not go
 sonrasını: after the
@@ -10433,7 +10428,7 @@ eniştem: my uncle
 toplayın: gather
 bulmam: i find
 yıkılıp: demolished
-duyuyorsanız: if you
+toplayıp: picking
 sakın: do not
 yalancılar: liars
 öldürsün: kill
@@ -10466,12 +10461,12 @@ kaçırıldı: he was kidnapped
 boğazıma: my throat
 tapınakçıları: the templars
 işimizi: our business
-adammışsın: you guys
+kıvılcım: spark
 bekleyeceğim: i'll wait
 hâl: status
 şımarık: sassy
 terk: abandonment
-kurtardın: you saved
+vizeri: the vizer
 kurtardım: i saved
 kirletemez: not pollute
 çıban: boil
@@ -10488,17 +10483,16 @@ yürür: walks
 güzelleşti: i flourish
 hepsine: to all of them
 yüzünden: because
-gayrı: non
+tacirin: the traffickers
 zorluğun: difficulty
-hekimi: physician
+bunalttı: troubled
 utanç: shame
 adamlardan: the man
 bırakmayın: do not leave
-obanın: tibe's
 şapkan: hat
 iyisi: good
 söyleseniz: your say
-yoldan: the road
+misafirlerinden: guests of the
 görmez: does not see
 izahı: elucidation
 boyundan: neck
@@ -10510,7 +10504,7 @@ müşkülün: the chancery
 durdurmadı: stopped
 yakışmaz: unworthy
 suçluyorsun: blame you
-kısmı: partial
+yanından: over
 düğünümüz: our wedding
 uğraşmanın: do not bother
 istemişler: they wanted
@@ -10524,7 +10518,7 @@ nefesiniz: your breath
 yakınındayken: are near
 geceki: night
 sarayından: the palace
-edildiğini: is that
+indikçe: deflates
 ağamla: with network
 zihnindeki: in the mind
 komutanlık: commands
@@ -10561,7 +10555,7 @@ hakkınızı: your right
 kaçmana: escape
 olmamıştır: it has not been
 hastalanacak: will be sick
-ruhunu: spirit
+kaçmamalı: should escape
 kazanlarına: to win
 almıştı: had received
 Şaşırdım: i was surprised
@@ -10569,7 +10563,7 @@ almıştı: had received
 gözlerimle: my eyes
 atasının: of ancestors
 gereği: should
-dizinin: directory
+yüreğiniz: your heart
 dertleriyle: trouble with
 dönüştürmeni: convert
 İstihbarat: intelligence
@@ -10581,13 +10575,14 @@ yapmaktır: it is to make
 güvenen: trusting
 aptallıkları: stupidity
 adamlar: men
+sesimizi: our voice
 tutarız: we hold
 ötekilerde: in other
 solucanlardan: worms
 yokmuş: have no
 cenneti: heaven
 adamlarla: with man
-endişelendik: we worry
+kullanmak: use
 göçelim: i göçel
 giovanni'de: in giovannia
 attıranın: when hopping
@@ -10618,7 +10613,7 @@ teklifimi: my bid
 benim: me
 çarp: multiply
 seninki: yours
-baksak: baksak
+olamam: i can not be
 uyu: sleep
 kardeşler: siblings
 durmamalı: must stop
@@ -10736,7 +10731,7 @@ yetişirim: i grew up
 düşününce: thinking
 ulaşmak: reach
 sualin: the sprinklers
-yakalayalım: let's get
+alırım: i get
 yeise: to despair
 avı: hunt
 yoksun: devoid of
@@ -10798,6 +10793,7 @@ denemez: do not try
 babalarınızı: your father
 battığı: sank
 konaklayabileceğimiz: can accommodate
+yaklaşsa: came close to
 numan'ın: the numa
 sürmeli: smutty
 yerden: from the ground
@@ -10820,7 +10816,7 @@ zindandaki: the dungeon
 içte: inwardly
 bilgilendirecektir: will inform
 ondandır: it is
-kalmayın: to stay
+demez: not well
 damarda: the vessel
 soktun: you put
 omuz: shoulder
@@ -10861,7 +10857,7 @@ beye: bey
 suçlandığın: you're charged
 düşmez: do not fall
 sarayında: in the palace
-hoşça: nicely
+onları: them
 afsin: afsin
 kıtlıkta: famine
 diyarı: land
@@ -10895,7 +10891,7 @@ meşgul: busy
 gönderdiğini: send it
 etmem: i would not
 evleneceğiz: we're getting married
-etmek: to make
+dururuz: we stand
 açım: i'm hungry
 dalıp: distracted
 anlatamadım: i could not tell
@@ -10914,7 +10910,7 @@ bilgilendirin: inform
 güneş: sun
 hanim: lady
 batımına: sunset to
-dayınızın: your uncle
+obanın: tibe's
 karıştırdığını: mix that
 insafı: mercy
 gündemine: agenda
@@ -10927,7 +10923,7 @@ güvercinin: the pigeons
 sayısını: number
 sözlerini: remarks
 işlerinin: of jobs
-kalan: remaining
+resurrection: the resurrection
 onurumu: my honor
 sözlerine: promises to
 istediğinde: when you want
@@ -10948,7 +10944,7 @@ gaflet: heedlessness
 yalvarırım: i beg
 ettiğimiz: that we
 alp: alp
-kaçabileceği: how can
+sürme: drive
 defa: times
 Şifa: healing
 yetiş: grow
@@ -10970,7 +10966,7 @@ alınıp: bought
 kabileye: tribe
 Önüne: before
 eşiğime: my threshold
-sesimizi: our voice
+kılıcıma: my sword
 gözlüm: gözlüm
 yaparsanız: if you do
 rachelle: rachelle
@@ -10986,7 +10982,7 @@ aslanlara: to the lions
 bahşedebilirim: i could grant
 rızasıyla: with the consent
 kürdoğlu'nun: the kurdoğlu
-hayme'm: hayme'm
+çağırıyorsun: urge you
 bitirdi: finished
 Şehir: city
 yapılır: makes
@@ -11094,7 +11090,7 @@ birincisi: first
 kürtoğlu: kurtoğlu
 sonu: end
 hamama: hamam
-açtı: opened
+koptuğu: broke
 zannediyorsun: you think
 çıkarır: subtracts
 çıkarıp: remove
@@ -11183,16 +11179,16 @@ boyumuz: our height
 yaklaşamadın: you could close
 düşüreceğiz: will reduce
 cesetlerini: the bodies
-mülkiyetinden: the property
+huzur: serenity
 boyumun: my height
 yüreğin: heart
-varmış: had
+geceden: the night
 gideriz: we go
 söylemiştin: tell you
 tuttu: kept
 uyandırdı: aroused
 diyeceğim: i say
-vermeden: without
+diyeceğin: you say
 düşünüyorum: i'm thinking
 sormam: to ask
 dirimi: alive my
@@ -11219,14 +11215,14 @@ müslümanların: muslims
 dışında: outside
 edep: decency
 eder: it
-sonunda: finally
+bunun: it
 koçum: my coach
 kahramanlık: heroism
 yemeği: food
 avrupa'nın: europe
 eksiği: missing
 yerleştirdi: placed
-rabb'inlesin: rabb'inl press
+çağırmıştı: urged
 sorularınızı: your questions
 hikâyesinin: the story
 geçiyorlar: they run
@@ -11240,7 +11236,7 @@ edilecekse: if the
 dayanmıyor: is not based
 eklemekten: adding
 manevi: spiritual
-akıbetini: fate of
+kaybolmayın: do not get lost
 bakacaklar: they will look
 oturan: sitting
 Çözün: solve
@@ -11258,15 +11254,15 @@ yedi: seven
 İsteğinizi: your request
 yaptıklarında: do they
 ağırlık: weight
-dokunulmaz: untouchable
+taşıttırabilecek: could taşıttır
 dünyalar: worlds
-sırlar: secrets
+ışıltı: light
 etmişler: they had
-Üstüme: above me
+epeyce: quite a few
 bozuntusunun: the hack
 Şah'tır: shah
 çalışıp: working
-konstantin'i: constantine the
+İyisinizdir: you're good
 çalışır: works
 alpleriyle: the alps
 tamga: tamga
@@ -11312,6 +11308,7 @@ kurulacak: will be installed
 sabır: patience
 altes: altesten
 uyanırsa: if he wakes up
+geciktik: we're late
 yaralıyı: wounded
 seferi: expedition
 bilemiyorum: i do not know
@@ -11360,7 +11357,7 @@ kabilenin: the tribe
 kalacaktır: will remain
 kardeşim: my brother
 bulasın: find press
-üstüne: over
+yüklemezsin: do not install
 göremezsem: i do not see
 sonla: ending
 aması: but the
@@ -11398,13 +11395,13 @@ aracı: mediator
 kurtaracak: will save
 takınacaksınız: you install
 zırladığın: you blubber
-duyarsın: you heard
+oynattığım: i play
 yerlerde: places
 bırakmıştır: it has left
 yükseleceğiz: will rise
 esas: basis
 ayrılmamalıydın: you should leave
-hangi: which
+kaldı: stayed
 Öyle: so
 bravo: bravo
 evine: house
@@ -11467,7 +11464,7 @@ ayakçısı: errand boy
 güçlülerse: they are strong
 gideceğiz: we will go
 yaratıyorduk: we are creating
-hazırlanmış: prepared
+özü: essence
 çıktığında: when out
 hatırlattı: recalled
 sarayımın: my palace
@@ -11502,7 +11499,7 @@ diliniz: your language
 gönlüme: my heart
 baştan: all over
 ihanetinden: the betrayal
-bilmeleri: know
+toprağımız: our land
 toprak: soil
 gelemeyecekler: they will not come
 tanrı'nın: the gods
@@ -11553,7 +11550,7 @@ bilsin: you know
 uyarıydı: he was warned
 arz: supply
 tugrul’un: the tugrul
-saracak: will envelop
+kopardılar: they tore
 olmalı: should be
 ara: search
 gördüm: i saw
@@ -11594,7 +11591,7 @@ olanlardan: ones
 beklerdik: we expect
 terfi: promotion
 beklerdim: i expect
-ederek: by
+ardında: behind
 söylenmiyor: can not say
 geçmektense: rather than pass
 dokunmayın: do not touch
@@ -11603,7 +11600,7 @@ kadını: woman
 oturacaksın: you will sit
 güvenmediğini: that trust
 saĞlanan: provided
-yayladan: the springs
+bulup: find
 ağlamak: cry
 kaçınıyor: refrains
 kitabın: the book
@@ -11619,7 +11616,7 @@ topla: gather
 akarken: flows
 alaeddin: alaeddin
 acele: rush
-gelenlerin: from the
+nebi'nin: the prophet
 manzikert'te: in manzikert
 ikincisi: latter
 yazmadı: he did not leave
@@ -11718,7 +11715,7 @@ sungur: sungur
 beceremediler: they failed
 halkı: people
 büyürken: growing up
-oradan: from there
+dertlenirler: they dertlenmek
 ağacından: from the tree
 hedefimize: our goal
 zebaniler: demons
@@ -11766,8 +11763,8 @@ hizmetçisi: maid
 üzüntü: sadness
 yatağına: bed
 sevmezsin: do not like
-güneşte: in the sun
-indikçe: deflates
+vebalı: smitten with the plague
+duygusal: emotional
 hayırdır: what's up
 çadırımıza: our tent
 sormalısın: you should ask
@@ -11838,7 +11835,7 @@ hedefin: the target
 mevkilerine: their positions
 suratını: face the
 çevirecek: will turn
-epeyce: quite a few
+alçak: low
 yokken: in the absence of
 varacak: there will
 etmiyor: does not
@@ -11880,7 +11877,7 @@ bey’in: brain
 çıkacaktı: would come
 hükümet: government
 tuğrul'un: the tuğrul
-ihanet: betrayal
+koruyacak: to protect
 olumsuz: negative
 namertler: cowardly and
 atmasını: throwing the
@@ -11924,7 +11921,7 @@ göçerleri: the nomads
 derdin: the trouble
 derdim: i would say
 başkanları: heads
-dönmekte: rotates
+görüldü: viewed
 çıbanı: chancre
 İbn: ibn '
 ederler: it's
@@ -11945,7 +11942,7 @@ kumandanım: warlord
 hatırınızı: remember your
 şüphen: doubts
 ikimiz: both of us
-aldatılmak: be cheated
+aldıkça: accrues
 saldırdılar: they attacked
 ufuk: horizon
 götürüyorlar: götürüyorlar
@@ -12010,6 +12007,7 @@ dönüşünden: his return
 geleneksel: traditional
 Şehrinizde: your city
 İçindeki: table of contents
+yayladan: the springs
 önümde: front of me
 yumruk: punch
 günahlarınızdan: your sins
@@ -12021,6 +12019,7 @@ buluştu: met
 başlıyor: starting
 ağaç: tree
 gönlünde: in the hearts
+fazla: much
 geri: back
 mahkumlardan: of the prisoners
 tanıdığım: i know
@@ -12043,7 +12042,7 @@ gitmiştik: we went
 besledikleri: they feed
 namını: on behalf of the
 dedilerdi: they said
-bakılması: to look
+gizlediğini: he hides
 bilecek: will know
 başınaydı: early morning
 izniniz: your permission
@@ -12053,6 +12052,7 @@ titus'ta: in titus
 gözyaşını: tears
 kazanlara: to win
 elimle: my hands
+karşısında: against
 yurdunuzdan: your land
 tas: rock
 adamım: man
@@ -12090,7 +12090,7 @@ uzaklaşıyormuşum: 'm away
 yürü: walk
 Ölmeyi: die
 uçarak: fly
-pazarından: the market
+inanıyorlar: they believe
 dakikada: in minutes
 Çadır: tent
 işlerimiz: our business
@@ -12145,7 +12145,7 @@ harekete: motion
 akmaz: it does not flow
 endişelendiriyor: worries
 dinlemen: do not listen
-fazla: much
+kızı: daughter
 dinlemek: listen
 saflaştırılmış: purified
 öfke: anger
@@ -12155,7 +12155,7 @@ rüyanın: the dream
 duymazlar: not hear
 kurtlarla: with wolves
 kritik: critical
-üzerime: upon me
+öyleyiz: we are
 soğuk: cold
 tımar: grooming
 tezahür: manifest
@@ -12241,10 +12241,10 @@ saydın: you count
 suçlunun: the guilty
 celladın: the executioner
 kaçamayacağımızı: we will not escape
-geçmez: does not
+komazlar: coomassie on
 şuracıkta: life right now
 gayretinde: in an effort
-dürüstlüğünden: of honesty
+çatışmaları: conflicts
 göremezsin: you can not see
 güvendiğimiz: we trust
 kıçı: ass
@@ -12281,7 +12281,7 @@ kıza: girl
 kimdir: who
 alkış: applause
 veya: or
-oğlu'na: his son
+etmez: does not
 kuru: dry
 yerde: in place
 göğsümüzde: our chest
@@ -12290,14 +12290,14 @@ sıkılmadın: you sick
 girmeyeceğini: would enter
 unutalı: forget the
 Şehzadeler: şehzadeler
-tutuyordur: are holding
+anlaştık: agreed
 denk: equivalent
 gelenin: incoming
 oğlu'nu: his son
 güvenemeyiz: we can not trust
 vermez: does not
 işkenceler: torture
-geçmedi: passed
+ho: home
 kılına: make the
 kadının: woman
 sakalının: beard
@@ -12359,7 +12359,7 @@ giyiyor: wearing
 açmanı: open the
 ebu: ebi
 yaralarını: their wounds
-alp'in: the mountaineering
+yakalayalım: let's get
 durmayacağı: will stop
 sokaktan: the street
 konulduğu: it is placed
@@ -12394,7 +12394,7 @@ istediğin: you want
 girip: enter
 evleniyorlar: getting married
 İbnü'larabî'den: from ibnü'larabî'
-yaklaşsa: came close to
+bacak: leg
 mevki: position
 öldürülmeden: being killed
 terazisi: scales
@@ -12403,7 +12403,7 @@ sandığımızdan: we thought
 aklıdır: mind is
 atamın: my ancestors
 haddimi: my place
-bulup: find
+girmen: do not enter
 açma: opening
 sultan’a: sultana
 gidin: go
@@ -12413,6 +12413,7 @@ intikamının: of vengeance
 cesaret: courage
 tutmamızdan: keep our
 kösesin: you corner
+mahsustur: belongs
 meşgale: pastime
 kalıntıları: ruins
 uymalıyız: must comply
@@ -12478,9 +12479,9 @@ söylermişiz: we're told
 gündüz: day
 gömerim: i buried
 ava: hunting
-niyetleri: intentions
+halt: heck
 anlaşmazlığa: dispute
-beklerler: they expect
+tapınakçılardan: the templars
 dilerse: wills
 liderin: leader
 adaletinizin: your justice
@@ -12512,7 +12513,7 @@ selçuklu’ya: seljuks
 hazırlığından: the preparation
 getirmişler: they brought
 namus: honor
-mahsustur: belongs
+asilzadedir: is a nobleman
 yaksaydık: we yaks
 bilmeyiz: we do not know
 moorland: moorland
@@ -12539,7 +12540,7 @@ yönlendir: directs
 konuşuyorsun: you are talking
 göründüğünden: it seems
 bulur: finds
-görgüsüz: uncouth
+velİkrâm: velikrâm
 yatırırsınız: you deposit
 bulut: cloud
 itliğini: itlig the
@@ -12557,8 +12558,8 @@ ummulhayl: ummulhayl
 derdiyle: the trouble
 bekir: bekir
 üstesinden: overcome
-karıştıracakları: will stir
-ferah: spacious
+şeyin: thing
+utanmaz: shameless
 inanıyorum: i believe
 gençlerde: young people
 baharı: spring
@@ -12609,7 +12610,7 @@ eceliniz: your death
 kalırsın: you're
 giydi: wore
 kırdık: we broke
-uğraşırsınız: you struggle
+çınar: plane
 kırdım: i broke
 yaratan: creator
 sallayamaz: not nod
@@ -12623,7 +12624,7 @@ birbirlerini: each other
 başını: head
 saklamış: he hid
 ters: reverse
-karşısında: against
+olmuşlar: have been
 …hem: both ...
 koşacak: will run
 izninizle: with your permission
@@ -12637,7 +12638,7 @@ rum'da: rum
 tanıştırmak: introduce
 kuvvetli: powerful
 kalmayacaktır: will remain
-tacirin: the traffickers
+gayrı: non
 Şövalyeleri: knights
 derdindeyse: if trouble
 süt: milk
@@ -12653,7 +12654,7 @@ mektupta: in a letter
 vay: wow
 kılıçlarına: the sword
 var: there is
-atları: horses
+kestiler: they cut
 kuracağız: we will establish
 venedikliler: venetians
 candaş: candash
@@ -12693,16 +12694,15 @@ kuyruk: queue
 başına: per
 satıldığı: sold
 dadıcığım: i dadıcıg
-vermeyeyim: i do not
 kapıda: at the door
 harcayamayız: we can not spend
 girmez: does not enter
 anlıyorum: i understand
 yağmurlar: rains
-dertlenirler: they dertlenmek
+vermeyeyim: i do not
 canına: dear to
-doğrudur: is true
-geciktik: we're late
+kalman: to stay
+şehzademin: my prince
 aşkım: darling
 düştüğün: you fell
 aşkın: over
@@ -12734,7 +12734,7 @@ tuhaflık: strangeness
 tanımıyor: does not recognize
 aptalca: stupid
 cennetindeki: in paradise
-gücümüzü: our strength
+ayrılın: the divided
 geciktim: i am late
 ortasında: midst
 cetvel: ruler

@@ -1,5 +1,5 @@
 
-import json, sys, subprocess, requests, re, os
+import sys, subprocess, requests, re, os
 
 if len(sys.argv) > 2:
     prefix = sys.argv[1]
@@ -10,20 +10,20 @@ else:
 
 print "## dictionary, prefix: " + prefix + ", language: " + language
 
-dictionaryFile = "build/dictionary-" + language + ".json"
+dictionaryFile = "build/dictionary-" + language + ".yaml"
 
 try:
     dictionary = json.load(open(dictionaryFile))
 except:
     dictionary = {}
 
-switcher = {
-        "en": "Alex",
-        "tr": "Yelda",
-        "ar": "Maged"
-    }
+#switcher = {
+#        "en": "Alex",
+#        "tr": "Yelda",
+#        "ar": "Maged"
+#    }
 
-voice = switcher.get(language)
+#voice = switcher.get(language)
 
 # api-endpoint
 URL = "https://translation.googleapis.com/language/translate/v2"
