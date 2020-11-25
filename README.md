@@ -12,7 +12,6 @@ key = "<PUT THE KEY FROM YOUR GOOGLE TRANSLATE API ACCOUNT>"
 $ sudo easy_install pip
 $ sudo pip install requests
 $ sudo pip install gTTS
-$ pip install pyyaml
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew install ffmpeg
 $ brew install handbrake
@@ -51,7 +50,7 @@ $ ./build-s.sh 1 3 en tr
 **Description:**
 
 Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Turkish. 
-Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/master/build/dictionary-tr.yaml
+Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/master/build/dictionary-tr.txt
 
 ###Arabic
 
@@ -73,5 +72,5 @@ $ ./build-s.sh 1 3 en ar
 **Description:**
 
 Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Arabic. 
-Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/master/build/dictionary-ar.yaml
+Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/master/build/dictionary-ar.txt
 
