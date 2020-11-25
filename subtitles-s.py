@@ -21,7 +21,7 @@ subtitlesPath = "build/" + prefix + ".srt"
 
 sourceFile = open(sourceFilePath)
 targetFile = open(targetFilePath)
-subtitlesFile = open(subtitlesPath, "w")
+subtitlesFile = open(subtitlesPath)
 sourceLines = sourceFile.read().splitlines()
 targetLines = targetFile.read().splitlines()
 
@@ -100,7 +100,9 @@ def writeToSubtitlesFile2(paragraph1, color1, paragraph2, color2):
     durationIndex = durationIndex + 1
     subtitleIndex = subtitleIndex + 1
     
+print "subtitlesPath: " + subtitlesPath
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
+    print "subtitlesPath not exit "
     getParagraphs(sourceLines, sourceParagraphs)
     getParagraphs(targetLines, targetParagraphs)
 
@@ -128,6 +130,7 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
 sourceFile.close()
 targetFile.close()
 subtitlesFile.close()
+#exit
 
 sbtFile = "build/" + prefix + "-sbt.mp4"
 if not path.exists(sbtFile):

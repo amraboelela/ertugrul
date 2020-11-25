@@ -93,9 +93,9 @@ for line in lines:
                 #subprocess.call(["rm", targetFile + "~.m4a"])
                 
                 subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-to", plusDurationStartTime, targetFile + "~.mp4"])
-                #subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
-                subprocess.call(["mv", targetFile + "~.mp4", targetFile + ".mp4"])
-                #subprocess.call(["rm", targetFile + "~.mp4"])
+                subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
+                subprocess.call(["mv", targetFile + "~~.mp4", targetFile + ".mp4"])
+                subprocess.call(["rm", targetFile + "~.mp4"])
         prevTotalSeconds = totalSeconds
         prevStartTime = startTime
         count = count + 1
@@ -112,8 +112,8 @@ if targetLanguage != "tr":
         #subprocess.call(["rm", targetFile + "~.m4a"])
 
         subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-o" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.mp4"])
-        #subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
-        subprocess.call(["mv", targetFile + "~.mp4", targetFile + ".mp4"])
-        #subprocess.call(["rm", targetFile + "~.mp4"])
+        subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.mp4", "-filter:a", "volume=4.5", targetFile + "~~.mp4"])
+        subprocess.call(["mv", targetFile + "~~.mp4", targetFile + ".mp4"])
+        subprocess.call(["rm", targetFile + "~.mp4"])
 
 file.close()
