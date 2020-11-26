@@ -4,11 +4,11 @@ paddedEpisode=`printf %02d $episode`
 language=$3
 url=$4
 mkdir -p build
-if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.vtt ]; then
+if [ ! -f build/ertugrul-$season-$paddedEpisode-en.vtt ]; then
     youtube-dl --all-subs --skip-download $url
-    #if [ $language == "tr" ]; then
-    #    mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.vtt build/ertugrul-$season-$paddedEpisode-en.vtt
-    #fi
+    if [ $language == "tr" ]; then
+        mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.vtt build/ertugrul-$season-$paddedEpisode-en.vtt
+    fi
 fi
 if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.jpg ]; then
     youtube-dl --write-thumbnail --skip-download $url

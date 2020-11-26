@@ -17,23 +17,8 @@ durationsFilePath = "build/durations.txt"
 os.system("rm -f " + durationsFilePath)
 durationsFile = open(durationsFilePath, "w")
 
-count = 0
-
-def cutFiles():
-    filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
-    targetFile = filePrefix + "-" + targetLanguage
-    if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
-        subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.m4a"])
-        subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
-        subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
-        subprocess.call(["rm", targetFile + "~.m4a"])
-
-        subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + "-a.mp4", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "-a~.mp4"])
-        subprocess.call(["ffmpeg", "-y", "-i", targetFile + "-a~.mp4", "-filter:a", "volume=4.5", targetFile + "-a~~.mp4"])
-        subprocess.call(["mv", targetFile + "-a~~.mp4", targetFile + "-a.mp4"])
-        subprocess.call(["rm", targetFile + "-a~.mp4"])
-
 lines = file.read().splitlines()
+count = 0
 prevStartTime = "00:00"
 prevTimeStamp = 0
 for line in lines:
@@ -79,11 +64,33 @@ for line in lines:
         if count > 0:
             durationsFile.write(str(duration) + "\n")
             continue
-            cutFiles()
+            filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
+            targetFile = filePrefix + "-" + targetLanguage
+            if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
+                subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFile + "~.m4a"])
+                subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
+                subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
+                subprocess.call(["rm", targetFile + "~.m4a"])
+                
+                subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFile + "-a~.mp4"])
+                subprocess.call(["ffmpeg", "-y", "-i", targetFile + "-a~.mp4", "-filter:a", "volume=4.5", targetFile + "-a~~.mp4"])
+                subprocess.call(["mv", targetFile + "-a~~.mp4", targetFile + "-a.mp4"])
+                subprocess.call(["rm", targetFile + "-a~.mp4"])
         prevStartTime = startTime
         count = count + 1
 
 if targetLanguage == "tr":
-    cutFiles()
+    filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
+    targetFile = filePrefix + "-" + targetLanguage
+    if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
+        subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.m4a"])
+        subprocess.call(["ffmpeg", "-y", "-i", targetFile + "~.m4a", "-filter:a", "volume=4.5", targetFile + "~~.m4a"])
+        subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
+        subprocess.call(["rm", targetFile + "~.m4a"])
+
+        subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + "-a.mp4", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "-a~.mp4"])
+        subprocess.call(["ffmpeg", "-y", "-i", targetFile + "-a~.mp4", "-filter:a", "volume=4.5", targetFile + "-a~~.mp4"])
+        subprocess.call(["mv", targetFile + "-a~~.mp4", targetFile + "-a.mp4"])
+        subprocess.call(["rm", targetFile + "-a~.mp4"])
 
 file.close()

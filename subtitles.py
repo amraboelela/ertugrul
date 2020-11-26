@@ -4,7 +4,6 @@ from os import path
 
 if len(sys.argv) > 3:
     prefix = sys.argv[1]
-    #sourceLanguage = sys.argv[2]
     targetLanguage = sys.argv[2]
     postfix = sys.argv[3]
 else:
@@ -30,13 +29,10 @@ for dictionaryLine in dictionaryLines:
 targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "build/" + prefix + ".srt"
 
-#sourceFile = open(sourceFilePath)
 targetFile = open(targetFilePath)
 subtitlesFile = open(subtitlesPath, "w")
-#sourceLines = sourceFile.read().splitlines()
 targetLines = targetFile.read().splitlines()
 
-#sourceParagraphs = []
 targetParagraphs = []
 
 def getParagraphs(lines, paragraghs):
@@ -105,7 +101,6 @@ def writeToSubtitlesFile2(paragraph):
     durationIndex = durationIndex + 1
  
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
-    #getParagraphs(sourceLines, sourceParagraphs)
     getParagraphs(targetLines, targetParagraphs)
 
     files = os.listdir("build/" + prefix)
