@@ -4,13 +4,14 @@ from os import path
 
 if len(sys.argv) > 3:
     prefix = sys.argv[1]
-    sourceLanguage = sys.argv[2]
-    targetLanguage = sys.argv[3]
+    #sourceLanguage = sys.argv[2]
+    targetLanguage = sys.argv[2]
+    postfix = sys.argv[3]
 else:
-    print "please provide the prefix, source language and the target language"
+    print "please provide the prefix, target language, and prefix"
     exit(-1)
 
-print "## subtitles, prefix: " + prefix + ", sourceLanguage: " + sourceLanguage + ", targetLanguage: " + targetLanguage
+#print "## subtitles, prefix: " + prefix + sourceLanguage + ", targetLanguage: " + targetLanguage
 
 dictionaryFilePath = "build/dictionary-" + targetLanguage + ".txt"
 dictionaryFile = open(dictionaryFilePath)
@@ -35,7 +36,7 @@ subtitlesFile = open(subtitlesPath, "w")
 #sourceLines = sourceFile.read().splitlines()
 targetLines = targetFile.read().splitlines()
 
-sourceParagraphs = []
+#sourceParagraphs = []
 targetParagraphs = []
 
 def getParagraphs(lines, paragraghs):
@@ -122,15 +123,15 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     durationIndex = 0
     
     for i in range(0, len(sourceParagraphs)):
-        videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-1o" + targetLanguage + ".mp4"
+        videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-o" + targetLanguage + "-" + postfix + ".mp4"
         #print "videoFile: " + videoFile
         if path.exists(videoFile):
             writeToSubtitlesFile2(targetParagraphs[i])
 
-sourceFile.close()
+#sourceFile.close()
 targetFile.close()
 subtitlesFile.close()
 
-sbtFile = "build/" + prefix + "-sbt.mp4"
+sbtFile = "build/" + prefix + "-sbt-" + postfix + ".mp4"
 if not path.exists(sbtFile):
     os.system("handbrakecli -i build/" + prefix + ".mp4 -o " + sbtFile + " --srt-file build/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")

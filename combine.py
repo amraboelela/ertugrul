@@ -2,17 +2,19 @@
 import os, sys, subprocess, os.path
 from os import path
 
-if len(sys.argv) > 1:
+if len(sys.argv) > 2:
     prefix = sys.argv[1]
+    postfix = sys.argv[2]
 else:
-    print "please provide the prefix"
+    print "please provide prefix and postfix"
     exit(-1)
 
 print "## combin, prefix: " + prefix
 filePath = "build/" + prefix+ "/" + prefix
 files = os.listdir("build/" + prefix)
-files.sort()
 files = list(filter(lambda file: file[0] != ".", files))
+files = list(filter(lambda file: "-" + postfix in file, files))
+files.sort()
 target = ""
 subprocessArray = ["ffmpeg", "-y"]
 count = 0

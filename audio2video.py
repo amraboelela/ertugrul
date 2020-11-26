@@ -4,13 +4,13 @@ from os import path
 
 if len(sys.argv) > 3:
     prefix = sys.argv[1]
-    sourceLanguage = sys.argv[2]
-    targetLanguage = sys.argv[3]
+    #sourceLanguage = sys.argv[2]
+    targetLanguage = sys.argv[2]
 else:
-    print "please provide the prefix, source language, and the target language"
+    print "please provide the prefix and the target language"
     exit(-1)
 
-print "## audio2video, prefix: " + prefix + ", sourceLanguage: " + sourceLanguage + ", targetLanguage: " + targetLanguage
+print "## audio2video, prefix: " + prefix + ", targetLanguage: " + targetLanguage
 filePath = "build/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
 lines = file.read().splitlines()
@@ -19,12 +19,12 @@ filePrefix = "build/" + prefix + "/" + prefix + "-"
 
 def audioToVideo():
     imageFile = filePrefix + format(count, '03d') + "-" + targetLanguage + ".jpg"
-    audioFilePrefix1 = filePrefix + format(count, '03d') + "-1o" + targetLanguage
-    audioFilePrefix2 = filePrefix + format(count, '03d') + "-2" + targetLanguage + "-" + sourceLanguage
+    audioFilePrefix1 = filePrefix + format(count, '03d') + "-o" + targetLanguage 
+    #audioFilePrefix2 = filePrefix + format(count, '03d') + "-2" + targetLanguage + "-" + sourceLanguage
     audioFile1 = audioFilePrefix1 + ".m4a"
-    videoFile1 = audioFilePrefix1 + ".mp4"
-    audioFile2 = audioFilePrefix2 + ".m4a"
-    videoFile2 = audioFilePrefix2 + ".mp4"
+    videoFile1 = audioFilePrefix1 + "-s.mp4"
+    #audioFile2 = audioFilePrefix2 + ".m4a"
+    #videoFile2 = audioFilePrefix2 + ".mp4"
     if path.exists(imageFile):
         if not path.exists(videoFile1):
             subprocess.call(["ffmpeg", "-y", "-loop", "1", "-i", imageFile, "-i", audioFile1, "-c:v", "libx264", "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p", "-shortest", videoFile1 + "~"])
@@ -42,25 +42,18 @@ count = count + 1
 
 for i in range(1, count):
     imageFile = filePrefix + format(i, '03d') + "-" + targetLanguage + ".jpg"
-    audioFilePrefix1 = filePrefix + format(i, '03d') + "-1o" + targetLanguage
-    audioFilePrefix2 = filePrefix + format(i, '03d') + "-2" + targetLanguage + "-" + sourceLanguage
+    audioFilePrefix1 = filePrefix + format(i, '03d') + "-o" + targetLanguage
+    #audioFilePrefix2 = filePrefix + format(i, '03d') + "-2" + targetLanguage + "-" + sourceLanguage
     audioFile1 = audioFilePrefix1 + ".m4a"
-    audioFile2 = audioFilePrefix2 + ".m4a"
+    #audioFile2 = audioFilePrefix2 + ".m4a"
     subprocess.call(["rm", "-f", audioFile1])
-    subprocess.call(["rm", "-f", audioFile2])
+    #subprocess.call(["rm", "-f", audioFile2])
     subprocess.call(["rm", "-f", imageFile])
     
 
 file.close()
 
 durationsFilePath = "build/durations.txt"
-#os.system("rm -f " + durationsFilePath)
-#files = os.listdir("build/" + prefix)
-#files.sort()
-#for file in files:
-#    videoFile = "build/" + prefix + "/" + file
-#    os.system("ffprobe -v error -select_streams v:0 -show_entries stream=duration -of default=noprint_wrappers=1:nokey=1 " + videoFile + " >> " + durationsFilePath)
-
 durationsFile = open(durationsFilePath)
 durations = durationsFile.read().splitlines()
 
@@ -68,7 +61,7 @@ count = 0
 for file in files:
     if "~" in file:
         videoFile = "build/" + prefix + "/" + file
-        subprocess.call(["ffmpeg", "-i", videoFile, "-t", durations[count] - 2, "-c", "copy", videoFile[:-1]])
+        subprocess.call(["ffmpeg", "-i", videoFile, "-t", durations[count], "-c", "copy", videoFile[:-1]])
         subprocess.call(["rm", "-f", videoFile])
         count = count +1
 
