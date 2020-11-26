@@ -122,7 +122,6 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     subtitleIndex = 0
     
     for i in range(0, len(sourceParagraphs)):
-        #videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
         videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-1o" + targetLanguage + ".mp4"
         #print "videoFile: " + videoFile
         if path.exists(videoFile):

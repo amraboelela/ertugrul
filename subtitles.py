@@ -12,6 +12,15 @@ else:
 
 print "## subtitles, prefix: " + prefix + ", sourceLanguage: " + sourceLanguage + ", targetLanguage: " + targetLanguage
 
+dictionaryFilePath = "build/dictionary-" + targetLanguage + ".txt"
+dictionaryFile = open(dictionaryFilePath)
+dictionaryLines = dictionaryFile.read().splitlines()
+dictionary = {}
+for dictionaryLine in dictionaryLines:
+    lineSplit = dictionaryLine.split(":")
+    word = lineSplit[0].strip()
+    meaning = lineSplit[1].strip()
+    dictionary[word] = meaning
 
 #if targetLanguage == "tr":
 #    sourceFilePath = "build/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
@@ -70,9 +79,32 @@ def writeToSubtitlesFile(paragraph1, color1, paragraph2, color2):
     else:
         subtitlesFile.write("\n")
     durationIndex = durationIndex + 1
-    
+   
+def writeToSubtitlesFile2(paragraph):
+    global startTimeFloat
+    global durationIndex
+    subtitlesFile.write(str(durationIndex) + "\n")
+    startTimeString = timeString(startTimeFloat)
+    if durationIndex < len(durations):
+        duration = float(durations[durationIndex])
+        startTimeFloat = startTimeFloat + duration
+        endTimeString = timeString(startTimeFloat)
+    else:
+        endTimeString = "Not Yet"
+    subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
+    subtitlesFile.write("<font color=\"white\">")
+    words = paragraph.split()
+    for word in words:
+        subtitlesFile.write(word + " ")
+        meaning = dictionary[word]
+        subtitlesFile.write("<font color=\"yellow\">" + meaning + "</font> ")
+    subtitlesFile.write("</font>\n")
+
+    subtitlesFile.write("\n")
+    durationIndex = durationIndex + 1
+ 
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
-    getParagraphs(sourceLines, sourceParagraphs)
+    #getParagraphs(sourceLines, sourceParagraphs)
     getParagraphs(targetLines, targetParagraphs)
 
     files = os.listdir("build/" + prefix)
@@ -90,10 +122,11 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     durationIndex = 0
     
     for i in range(0, len(sourceParagraphs)):
-        writeToSubtitlesFile(sourceParagraphs[i], "yellow", "", "")
-        videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-2" + targetLanguage + "-" + sourceLanguage + ".mp4"
+        videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03d') + "-1o" + targetLanguage + ".mp4"
+        #print "videoFile: " + videoFile
         if path.exists(videoFile):
-            writeToSubtitlesFile(targetParagraphs[i], "white", sourceParagraphs[i], "yellow")
+            writeToSubtitlesFile2(targetParagraphs[i])
+
 sourceFile.close()
 targetFile.close()
 subtitlesFile.close()

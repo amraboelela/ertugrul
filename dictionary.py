@@ -11,25 +11,20 @@ else:
 
 print "## dictionary, prefix: " + prefix + ", language: " + language
 
-dictionaryFile = "build/dictionary-" + language + ".txt"
-targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
-subtitlesPath = "build/" + prefix + ".srt"
-
-#sourceFile = open(sourceFilePath)
-targetFile = open(targetFilePath)
-subtitlesFile = open(subtitlesPath, "w")
-#sourceLines = sourceFile.read().splitlines()
-targetLines = targetFile.read().splitlines()
-
-try:
-   dictionary = yaml.safe_load(open(dictionaryFile))
-except:
-    dictionary = {}
+dictionaryFilePath = "build/dictionary-" + language + ".txt"
+dictionaryFile = open(dictionaryFilePath)
+dictionaryLines = dictionaryFile.read().splitlines()
+dictionary = {}
+for dictionaryLine in dictionaryLines:
+    lineSplit = dictionaryLine.split(":")
+    word = lineSplit[0].strip()
+    meaning = lineSplit[1].strip()
+    dictionary[word] = meaning
 
 #print "dictionary: " + str(dictionary)
 #word = 'haydır'
 #print word
-#print "dictionary['haydır']: " + str(dictionary['haydır'.decode('utf8')])
+#print "dictionary['haydır']: " + dictionary['haydır']
 #quit()
 
 # api-endpoint
@@ -48,7 +43,7 @@ for line in lines:
         words = line.split()
         for word in words:
             #print "word: " + word
-            if not dictionary.has_key(word.decode('utf8')):
+            if not dictionary.has_key(word):
                 #dicValue = dictionary[word.decode('utf8')]
                 #print "type(dicValue): " + str(type(dicValue))
                 #if type(dicValue) is dict and dicValue['update'] == True:
@@ -80,7 +75,7 @@ for line in lines:
                     r = requests.get(url = URL, params = PARAMS)
                     data = r.json()
                     translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("?","").lower()
-                    dictionary[word.decode('utf8')] = translatedWord
+                    dictionary[word] = translatedWord
                     #{'en': translatedWord, 'update': False}
                     print(str(count) + ". new word - " + word + ": " + translatedWord.encode('utf8'))
                     #if word != translatedWord.encode('utf8'):
@@ -103,7 +98,7 @@ for line in lines:
 
 file.close()
 lines = []
-with open(dictionaryFile, 'w') as outfile:
+with open(dictionaryFilePath, 'w') as outfile:
     for key in dictionary.keys():
         try:
             lines.append(key.encode('utf8') + ": " + dictionary[key].encode('utf8'))
@@ -113,7 +108,7 @@ with open(dictionaryFile, 'w') as outfile:
             except Exception as error:
                 print "error: " + str(error)
 lines.sort()
-with open(dictionaryFile, 'w') as outfile:
+with open(dictionaryFilePath, 'w') as outfile:
     for line in lines:
         outfile.write(line + "\n")
 #with io.open(dictionaryFile, 'w', encoding='utf8') as outfile:

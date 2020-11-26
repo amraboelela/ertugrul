@@ -1,8 +1,6 @@
 2: 2nd
 2arın: the 2ar
 40: 40
-40: 40
-80: 80
 80: 80
 </font>: </font>
 True: front
@@ -1873,6 +1871,7 @@ boğazını: throat
 boğazınızdan: your throat
 boğulduğunu: drowned
 boğulmalı: be drowned
+boş: null
 boşa: down the drain
 boşaltmasını: emptying the
 boştu: it was empty
@@ -2807,6 +2806,7 @@ doğduğumuz: we were born
 doğduğuna: that is born
 doğduğunda: when born
 doğmadan: before birth
+doğru: true
 doğrudan: directly
 doğrudur: is true
 doğruluğundan: the accuracy
@@ -5338,6 +5338,7 @@ hizmetçi: maid
 hizmetçisi: maid
 hizmetçisiyim: maid
 hizmetçisiymişim: maid uymuşum
+hiç: no
 hiçbir: what's up
 hiçbiri: none
 hiçbirimiz: none of us
