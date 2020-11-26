@@ -1,6 +1,6 @@
 season=$1
 episode=$2
-paddedEpisode=`printf %02f $episode`
+paddedEpisode=`printf %02d $episode`
 language=$3
 url=$4
 mkdir -p build

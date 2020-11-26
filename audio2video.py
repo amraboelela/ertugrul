@@ -17,8 +17,8 @@ count = 0
 filePrefix = "build/" + prefix + "/" + prefix + "-"
 
 def audioToVideo():
-    imageFile = filePrefix + format(count, '03f') + "-" + targetLanguage + ".jpg"
-    audioFilePrefix = filePrefix + format(count, '03f') + "-" + targetLanguage 
+    imageFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + ".jpg"
+    audioFilePrefix = filePrefix + str(count).zfill(3) + "-" + targetLanguage
     audioFile = audioFilePrefix + ".m4a"
     videoFile = audioFilePrefix + "-s~.mp4"
     if path.exists(imageFile):
@@ -27,8 +27,8 @@ def audioToVideo():
 
 def adjustVideo():
     filePrefix = "build/" + prefix + "/" + prefix + "-"
-    videoFile = filePrefix + format(count, '03f') + "-" + targetLanguage + "-s~.mp4"
-    videoFileOut = filePrefix + format(count, '03f') + "-" + targetLanguage + "-s.mp4"
+    videoFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + "-s~.mp4"
+    videoFileOut = filePrefix + str(count).zfill(3) + "-" + targetLanguage + "-s.mp4"
     if path.exists(videoFile):
         subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-t", durations[count], "-c", "copy", videoFileOut])
         subprocess.call(["rm", "-f", videoFile])
@@ -50,8 +50,8 @@ adjustVideo()
 count = count + 1
 
 for i in range(1, count):
-    imageFile = filePrefix + format(i, '03f') + "-" + targetLanguage + ".jpg"
-    audioFilePrefix = filePrefix + format(i, '03f') + "-" + targetLanguage
+    imageFile = filePrefix + str(i).zfill(3) + "-" + targetLanguage + ".jpg"
+    audioFilePrefix = filePrefix + str(i).zfill(3) + "-" + targetLanguage
     audioFile = audioFilePrefix + ".m4a"
     subprocess.call(["rm", "-f", audioFile])
     subprocess.call(["rm", "-f", imageFile])

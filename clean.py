@@ -14,8 +14,8 @@ else:
 
 for n in range(a, b+1):
     if s == "2":
-        prefix = title + "-" + s + "-" + format(n, '03f')
+        prefix = title + "-" + s + "-" + str(n).zfill(3)
     else:
-        prefix = title + "-" + s + "-" + format(n, '02f')
+        prefix = title + "-" + s + "-" + str(n).zfill(3)
     os.system("./cleanEpisode " + prefix + " " + sourceLanguage + " " + targetLanguage)
 

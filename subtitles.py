@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 import sys, subprocess, os.path
 from os import path
@@ -11,7 +10,7 @@ else:
     print("please provide the prefix, target language, and prefix")
     exit(-1)
 
-#print "## subtitles, prefix: " + prefix + sourceLanguage + ", targetLanguage: " + targetLanguage
+print("## subtitles, prefix: " + prefix + ", targetLanguage: " + targetLanguage + ", postfix: " + postfix)
 
 dictionaryFilePath = "build/dictionary-" + targetLanguage + ".txt"
 dictionaryFile = open(dictionaryFilePath)
@@ -22,7 +21,7 @@ for dictionaryLine in dictionaryLines:
     word = lineSplit[0].strip()
     meaning = lineSplit[1].strip()
     #print("word: " + word)
-    dictionary[str(word)] = meaning
+    dictionary[word] = meaning
 
 #if targetLanguage == "tr":
 #    sourceFilePath = "build/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
@@ -55,11 +54,11 @@ def getParagraphs(lines, paragraghs):
 def timeString(timeFloat):
     milliSeconds = int(timeFloat * 1000 % 1000)
     totalSeconds = int(timeFloat)
-    seconds = totalSeconds % 60
-    totalMinutes = totalSeconds / 60
-    minutes = totalMinutes % 60
-    hours = totalMinutes / 60
-    return format(hours, '02f') + ":" + format(minutes, '02f') + ":" + format(seconds, '02f') + "," + format(milliSeconds, '03f')
+    seconds = int(totalSeconds % 60)
+    totalMinutes = int(totalSeconds / 60)
+    minutes = int(totalMinutes % 60)
+    hours = int(totalMinutes / 60)
+    return str(hours).zfill(2) + ":" + str(minutes).zfill(2) + ":" + str(seconds).zfill(2) + "," + str(milliSeconds).zfill(3)
 
 def writeToSubtitlesFile(paragraph1, color1, paragraph2, color2):
     global startTimeFloat
@@ -96,7 +95,8 @@ def writeToSubtitlesFile2(paragraph):
     words = paragraph.split()
     for word in words:
         subtitlesFile.write(word + " ")
-        meaning = dictionary[str(word.replace("-", ""))]
+        word = word.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '')
+        meaning = dictionary[word]
         subtitlesFile.write("<font color=\"yellow\">" + meaning + "</font> ")
     subtitlesFile.write("</font>\n")
 
@@ -105,23 +105,14 @@ def writeToSubtitlesFile2(paragraph):
  
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     getParagraphs(targetLines, targetParagraphs)
-
-    #files = os.listdir("build/" + prefix)
-    #files.sort()
     durationsFilePath = "build/durations.txt"
-    #os.system("rm -f " + durationsFilePath)
-    #for file in files:
-    #    if not "~" in file:
-    #        videoFile = "build/" + prefix + "/" + file
-    #        os.system("ffprobe -v error -select_streams v:0 -show_entries stream=duration -of default=noprint_wrappers=1:nokey=1 " + videoFile + " >> " + durationsFilePath)
-
     durationsFile = open(durationsFilePath)
     durations = durationsFile.read().splitlines()
     startTimeFloat = float(0.0)
     durationIndex = 0
     
     for i in range(0, len(targetParagraphs)):
-        videoFile = "build/" + prefix + "/" + prefix + "-" + format(i+1, '03f') + "-" + targetLanguage + "-" + postfix + ".mp4"
+        videoFile = "build/" + prefix + "/" + prefix + "-" + str(i+1).zfill(3) + "-" + targetLanguage + "-" + postfix + ".mp4"
         #print "videoFile: " + videoFile
         if path.exists(videoFile):
             writeToSubtitlesFile2(targetParagraphs[i])
@@ -131,4 +122,4 @@ subtitlesFile.close()
 
 sbtFile = "build/" + prefix + "-sbt-" + postfix + ".mp4"
 if not path.exists(sbtFile):
-    os.system("handbrakecli -i build/" + prefix + ".mp4 -o " + sbtFile + " --srt-file build/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")
+    os.system("handbrakecli -i build/" + prefix + "-" + postfix +".mp4 -o " + sbtFile + " --srt-file build/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")

@@ -63,7 +63,7 @@ for line in lines:
         seconds = totalSeconds - minutes * 60
         startTime = str(minutes) + ":" + str(seconds) + "." + secondsArray[1]
         if count > 0:
-            filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03f')
+            filePrefix = "build/" + prefix + "/" + prefix + "-" + str(count).zfill(3)
             targetFile = filePrefix + "-" + targetLanguage
             if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
                 subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFile + "~.m4a"])
@@ -81,7 +81,7 @@ for line in lines:
             quit()
 quit()
 if targetLanguage == "tr":
-    filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03f')
+    filePrefix = "build/" + prefix + "/" + prefix + "-" + str(count).zfill(3)
     targetFile = filePrefix + "-" + targetLanguage
     if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
         subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.m4a"])

@@ -18,9 +18,9 @@ count = 0
 filePrefix = "build/" + prefix + "/" + prefix + "-"
 
 def videoToImage():
-    audioFile = filePrefix + format(count, '03f') + "-" + targetLanguage + ".m4a"
-    videoFile = filePrefix + format(count, '03f') + "-" + targetLanguage + "-a.mp4"
-    imageFile = filePrefix + format(count, '03f') + "-" + targetLanguage + ".jpg"
+    audioFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + ".m4a"
+    videoFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + "-a.mp4"
+    imageFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + ".jpg"
     if not path.exists(imageFile) and path.exists(audioFile):
         subprocess.call(["ffmpeg", "-y", "-sseof", "-3", "-i", videoFile, "-update", "1", "-q:v", "1", imageFile])
  
