@@ -13,9 +13,13 @@ print "## cut, prefix: " + prefix + ", order: " + order + ", targetLanguage: " +
 
 filePath = "build/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
+durationsFilePath = "build/durations.txt"
+durationsFile = open(durationsFilePath, "w")
+
 lines = file.read().splitlines()
 count = 0
 prevStartTime = "00:00"
+prevTimeStamp = 0
 for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
@@ -28,6 +32,10 @@ for line in lines:
         secondsArray = subTimes[2].split(".")
         seconds = int(secondsArray[0])
         totalSeconds = minutes * 60 + seconds
+        timeStamp = totalSeconds + float(secondsArray[1]) / 1000
+        duration = timeStamp - prevTimeStamp
+        durationsFile.write(str(duration) + "\n")
+        prevTimeStamp = timeStamp
         shiftedSeconds = 0
         if targetLanguage == "ar":
             subPrefix = prefix[:11]
