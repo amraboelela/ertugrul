@@ -23,7 +23,6 @@ def videoToImage():
     imageFile = filePrefix + format(count, '03d') + "-" + targetLanguage + ".jpg"
     if not path.exists(imageFile) and path.exists(audioFile):
         subprocess.call(["ffmpeg", "-y", "-sseof", "-3", "-i", videoFile, "-update", "1", "-q:v", "1", imageFile])
-        subprocess.call(["rm", "-f", videoFile])
  
 for line in lines:
     if "-->" in line:

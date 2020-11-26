@@ -5,7 +5,6 @@ sourceLanguage=$2
 targetLanguage=$3
 
 mkdir -p build/$prefix
-#mkdir -p build/words/$targetLanguage
 
 if [ $targetLanguage == "tr"  ]; then
     if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
@@ -13,15 +12,6 @@ if [ $targetLanguage == "tr"  ]; then
         ffmpeg -y -i build/$prefix-$targetLanguage.srt build/$prefix-$targetLanguage.vtt
         rm build/$prefix-$targetLanguage.srt
     fi
-    #if [ ! -f build/$prefix-$targetLanguage-$sourceLanguage.vtt ] || [ ! -s build/$prefix-$targetLanguage-$sourceLanguage.vtt ]; then
-    #    echo "Translating $prefix-$targetLanguage.vtt"
-    #    python translate.py build/$prefix-$targetLanguage.vtt $sourceLanguage > build/$prefix-$targetLanguage-$sourceLanguage.vtt
-    #fi
-#else
-#    if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
-#        echo "Translating $prefix-$sourceLanguage.vtt"
-#        python translate.py build/$prefix-$sourceLanguage.vtt $targetLanguage > build/$prefix-$targetLanguage.vtt
-#    fi
 fi
 
 python dictionary.py $prefix $targetLanguage
@@ -29,6 +19,7 @@ python cut.py $prefix $targetLanguage
 #python sayWords.py $prefix 2 $targetLanguage
 python video2image.py $prefix $targetLanguage
 python audio2video.py $prefix $targetLanguage
+exit 0
 python combine.py $prefix "a"
 python combine.py $prefix "s"
 #exit 0

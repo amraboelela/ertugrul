@@ -41,6 +41,7 @@
 		C5B1E61523789A2F00BA1E1C /* silence1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EF23789A2E00BA1E1C /* silence1.m4a */; };
 		C5B1E61623789A2F00BA1E1C /* sayWords.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5F023789A2F00BA1E1C /* sayWords.py */; };
 		C5B7459D23823EA3006204F5 /* handbrake in Resources */ = {isa = PBXBuildFile; fileRef = C5B7459C23823EA2006204F5 /* handbrake */; };
+		F534F80725703DB300333CEC /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = F534F80625703DB300333CEC /* build.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		C5B1E5EF23789A2E00BA1E1C /* silence1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = silence1.m4a; sourceTree = "<group>"; };
 		C5B1E5F023789A2F00BA1E1C /* sayWords.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayWords.py; sourceTree = "<group>"; };
 		C5B7459C23823EA2006204F5 /* handbrake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = handbrake; sourceTree = "<group>"; };
+		F534F80625703DB300333CEC /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				C5B1E5CF23789A2700BA1E1C /* clean.py */,
 				C5B1E5E523789A2B00BA1E1C /* cleanEpisode */,
 				C5B1E5D223789A2800BA1E1C /* cleanFile.py */,
+				F534F80625703DB300333CEC /* build.sh */,
 				C5B1E5D723789A2800BA1E1C /* combine.py */,
 				C5B1E5D123789A2700BA1E1C /* concat */,
 				C5B1E5EB23789A2D00BA1E1C /* cut */,
@@ -223,6 +226,7 @@
 				C5B7459D23823EA3006204F5 /* handbrake in Resources */,
 				C5B1E61123789A2F00BA1E1C /* cut in Resources */,
 				C5B1E5FC23789A2F00BA1E1C /* build.py in Resources */,
+				F534F80725703DB300333CEC /* build.sh in Resources */,
 				C5B1E5FA23789A2F00BA1E1C /* unicode.py in Resources */,
 				C5B1E60E23789A2F00BA1E1C /* download in Resources */,
 				C5B1E60C23789A2F00BA1E1C /* cut.py in Resources */,

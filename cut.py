@@ -34,9 +34,10 @@ for line in lines:
         seconds = int(secondsArray[0])
         totalSeconds = minutes * 60 + seconds
         timeStamp = totalSeconds + float(secondsArray[1]) / 1000
-        print "timeStamp: " + str(timeStamp)
+        #print "timeStamp: " + str(timeStamp)
         duration = timeStamp - prevTimeStamp
-        print "duration: " + str(duration)
+        #print "duration: " + str(duration)
+        durationsFile.write(str(duration) + "\n")
         prevTimeStamp = timeStamp
         shiftedSeconds = 0
         if targetLanguage == "ar":
@@ -62,8 +63,6 @@ for line in lines:
         seconds = totalSeconds - minutes * 60
         startTime = str(minutes) + ":" + str(seconds) + "." + secondsArray[1]
         if count > 0:
-            durationsFile.write(str(duration) + "\n")
-            continue
             filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
             targetFile = filePrefix + "-" + targetLanguage
             if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
@@ -78,7 +77,9 @@ for line in lines:
                 subprocess.call(["rm", targetFile + "-a~.mp4"])
         prevStartTime = startTime
         count = count + 1
-
+        if count > 3:
+            quit()
+quit()
 if targetLanguage == "tr":
     filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
     targetFile = filePrefix + "-" + targetLanguage
