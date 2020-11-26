@@ -14,6 +14,7 @@ print "## cut, prefix: " + prefix + ", targetLanguage: " + targetLanguage
 filePath = "build/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
 durationsFilePath = "build/durations.txt"
+os.system("rm -f " + durationsFilePath)
 durationsFile = open(durationsFilePath, "w")
 
 lines = file.read().splitlines()
