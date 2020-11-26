@@ -5,7 +5,7 @@ sourceLanguage=$2
 targetLanguage=$3
 
 mkdir -p build/$prefix
-mkdir -p build/words/$targetLanguage
+#mkdir -p build/words/$targetLanguage
 
 if [ $targetLanguage == "tr"  ]; then
     if [ ! -f build/$prefix-$targetLanguage.vtt ]; then

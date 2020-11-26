@@ -39,12 +39,6 @@ $ ./build.sh 1 3 en tr
 $ ./clean 1 3 en tr
 ```
 
-- For simplified version, which has only scense of at least 3 seconds of no talking
-
-```
-$ ./build-s.sh 1 3 en tr
-```
-
 **Title:** Learn Turkish from Ertugrul, 1 - 1
 
 **Description:**
@@ -59,12 +53,6 @@ Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/mas
 ```
 $ ./build.sh 1 3 en ar
 $ ./clean 1 3 en ar
-```
-
-Or
-
-```
-$ ./build-s.sh 1 3 en ar
 ```
 
 **Title:** Learn Arabic from Ertugrul, 1 - 1
