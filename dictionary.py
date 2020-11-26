@@ -6,10 +6,10 @@ if len(sys.argv) > 2:
     prefix = sys.argv[1]
     language = sys.argv[2]
 else:
-    print "please provide the prefix and the language"
+    print("please provide the prefix and the language")
     exit(-1)
 
-print "## dictionary, prefix: " + prefix + ", language: " + language
+print("## dictionary, prefix: " + prefix + ", language: " + language)
 
 dictionaryFilePath = "build/dictionary-" + language + ".txt"
 dictionaryFile = open(dictionaryFilePath)
@@ -21,10 +21,10 @@ for dictionaryLine in dictionaryLines:
     meaning = lineSplit[1].strip()
     dictionary[word] = meaning
 
-#print "dictionary: " + str(dictionary)
+#print("dictionary: " + str(dictionary))
 #word = 'haydır'
 #print word
-#print "dictionary['haydır']: " + dictionary['haydır']
+#print("dictionary['haydır']: " + dictionary['haydır'])
 #quit()
 
 # api-endpoint
@@ -32,20 +32,20 @@ URL = "https://translation.googleapis.com/language/translate/v2"
 from translation_key import *
 
 filename = "build/" + prefix + "-" + language + ".vtt"
-#print "filename: " + filename
+#print("filename: " + filename)
 file = open(filename)
 lines = file.read().splitlines()
 count  = 0
 for line in lines:
     if not "-->" in line and len(line) > 0:
         line = line.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '')
-        #print "line: " + line
+        #print("line: " + line)
         words = line.split()
         for word in words:
-            #print "word: " + word
-            if not dictionary.has_key(word):
+            #print("word: " + word)
+            if word not in dictionary:
                 #dicValue = dictionary[word.decode('utf8')]
-                #print "type(dicValue): " + str(type(dicValue))
+                #print("type(dicValue): " + str(type(dicValue)))
                 #if type(dicValue) is dict and dicValue['update'] == True:
                 #    print(str(count) + ". needs update " + word + ": " + dicValue['en'].encode('utf8'))
                 #    count = count + 1
@@ -77,7 +77,7 @@ for line in lines:
                     translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("?","").lower()
                     dictionary[word] = translatedWord
                     #{'en': translatedWord, 'update': False}
-                    print(str(count) + ". new word - " + word + ": " + translatedWord.encode('utf8'))
+                    print(str(count) + ". new word - " + word.encode('utf8') + ": " + translatedWord.encode('utf8'))
                     #if word != translatedWord.encode('utf8'):
                     #    targetFile = "build/words/" + language + "/" + word + ".m4a"
                     #    targetFileMp3 = "build/words/" + language + "/" + word + ".mp3"
@@ -93,7 +93,7 @@ for line in lines:
                     #    with io.open(dictionaryFile, 'w', encoding='utf8') as outfile:
                     #        yaml.dump(data, outfile, sort_keys=True, default_flow_style=False, allow_unicode=True)
                 except Exception as error:
-                    print "error: " + str(error) + " word: " + word
+                    print("error: " + str(error) + " word: " + word.encode('utf8'))
                     #json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
 
 file.close()
@@ -106,7 +106,7 @@ with open(dictionaryFilePath, 'w') as outfile:
             try:
                 lines.append(str(key) + ": " + str(dictionary[key]))
             except Exception as error:
-                print "error: " + str(error)
+                print("error: " + str(error))
 lines.sort()
 with open(dictionaryFilePath, 'w') as outfile:
     for line in lines:
@@ -116,5 +116,5 @@ with open(dictionaryFilePath, 'w') as outfile:
 #    yaml.dump(dictionary, outfile, sort_keys=True)
 
 #json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
-#os.system("python unicode.py " + dictionaryFile + " > build/dictionary-" + language + ".txt")
+#os.system("python3 unicode.py " + dictionaryFile + " > build/dictionary-" + language + ".txt")
 

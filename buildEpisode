@@ -8,22 +8,21 @@ mkdir -p build/$prefix
 
 if [ $targetLanguage == "tr"  ]; then
     if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
-        python ttml2srt.py build/$prefix-$targetLanguage.ttml > build/$prefix-$targetLanguage.srt
+        python3 ttml2srt.py build/$prefix-$targetLanguage.ttml > build/$prefix-$targetLanguage.srt
         ffmpeg -y -i build/$prefix-$targetLanguage.srt build/$prefix-$targetLanguage.vtt
         rm build/$prefix-$targetLanguage.srt
     fi
 fi
 
-python dictionary.py $prefix $targetLanguage
-python cut.py $prefix $targetLanguage
-#python sayWords.py $prefix 2 $targetLanguage
-python video2image.py $prefix $targetLanguage
-python audio2video.py $prefix $targetLanguage
-exit 0
-python combine.py $prefix "a"
-python combine.py $prefix "s"
-#exit 0
+python3 dictionary.py $prefix $targetLanguage
+python3 cut.py $prefix $targetLanguage
+#python3 sayWords.py $prefix 2 $targetLanguage
+python3 video2image.py $prefix $targetLanguage
+python3 audio2video.py $prefix $targetLanguage
+python3 combine.py $prefix "a"
+python3 combine.py $prefix "s"
 
-python subtitles.py $prefix $targetLanguage "a"
-python subtitles.py $prefix $targetLanguage "s"
+python3 subtitles.py $prefix $targetLanguage "a"
+exit 0
+python3 subtitles.py $prefix $targetLanguage "s"
 exit 0

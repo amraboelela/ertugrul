@@ -6,10 +6,10 @@ if len(sys.argv) > 2:
     #order = sys.argv[2]
     targetLanguage = sys.argv[2]
 else:
-    print "please provide the prefix and the target language"
+    print("please provide the prefix and the target language")
     exit(-1)
 
-print "## cut, prefix: " + prefix + ", targetLanguage: " + targetLanguage
+print("## cut, prefix: " + prefix + ", targetLanguage: " + targetLanguage)
 
 filePath = "build/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
@@ -34,9 +34,9 @@ for line in lines:
         seconds = int(secondsArray[0])
         totalSeconds = minutes * 60 + seconds
         timeStamp = totalSeconds + float(secondsArray[1]) / 1000
-        #print "timeStamp: " + str(timeStamp)
+        #print("timeStamp: " + str(timeStamp))
         duration = timeStamp - prevTimeStamp
-        #print "duration: " + str(duration)
+        #print("duration: " + str(duration))
         durationsFile.write(str(duration) + "\n")
         prevTimeStamp = timeStamp
         shiftedSeconds = 0
@@ -44,7 +44,7 @@ for line in lines:
             subPrefix = prefix[:11]
             if subPrefix == "ertugrul-1-":
                 episode = prefix[11:13]
-                #print "episode: " + episode
+                #print("episode: " + episode)
                 if episode == "01" or episode == "02" or episode == "04" or episode == "06":
                     shiftedSeconds = 60 + 43
                 elif episode == "03" or episode == "05":
@@ -63,7 +63,7 @@ for line in lines:
         seconds = totalSeconds - minutes * 60
         startTime = str(minutes) + ":" + str(seconds) + "." + secondsArray[1]
         if count > 0:
-            filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
+            filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03f')
             targetFile = filePrefix + "-" + targetLanguage
             if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
                 subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-to", startTime, targetFile + "~.m4a"])
@@ -81,7 +81,7 @@ for line in lines:
             quit()
 quit()
 if targetLanguage == "tr":
-    filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03d')
+    filePrefix = "build/" + prefix + "/" + prefix + "-" + format(count, '03f')
     targetFile = filePrefix + "-" + targetLanguage
     if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
         subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".m4a", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "~.m4a"])

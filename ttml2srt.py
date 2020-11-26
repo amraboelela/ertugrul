@@ -186,7 +186,7 @@ def ttml2srt(ttml, out=sys.stdout):
     rendered_grouped.append((rendered_grouped[-1][0]+timedelta(hours=24), ''))
 
     def format_timestamp(timedelta):
-        return ('%02d:%02d:%02.3f' % (timestamp.total_seconds()//3600,
+        return ('%02f:%02f:%02.3f' % (timestamp.total_seconds()//3600,
                                       timestamp.total_seconds()//60%60,
                                       timestamp.total_seconds()%60)).replace('.', ',')
 

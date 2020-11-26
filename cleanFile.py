@@ -9,7 +9,7 @@ def remove_tags(text):
 if len(sys.argv) > 1:
     filename = sys.argv[1]
 else:
-    print "please provide the file name"
+    print("please provide the file name")
     exit(-1)
 
 cleanArray = ["-->", "color=", "9999", "WEBVTT", "Kind: captions", "Language:"]

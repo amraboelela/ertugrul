@@ -4,7 +4,7 @@ import json, sys, subprocess, requests, re
 if len(sys.argv) > 1:
     jsonFile = sys.argv[1]
 else:
-    print "please provide the json file"
+    print("please provide the json file")
     exit(-1)
 
 try:

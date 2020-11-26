@@ -5,7 +5,7 @@ if len(sys.argv) > 2:
     filename = sys.argv[1]
     targetLanguage = sys.argv[2]
 else:
-    print "please provide the file name and the target language"
+    print("please provide the file name and the target language")
     exit(-1)
 
 # api-endpoint
@@ -28,7 +28,7 @@ for line in lines:
                 print(translatedText.encode('utf8'))
                 print
             except Exception as error:
-                print "error: " + str(error) + " line: " + line
+                print("error: " + str(error) + " line: " + line)
 
         print line
         paragraph = ""
@@ -44,7 +44,7 @@ try:
     print(translatedText.encode('utf8'))
     print
 except Exception as error:
-    print "error: " + str(error) + " line: " + line
+    print("error: " + str(error) + " line: " + line)
 
 
 file.close()

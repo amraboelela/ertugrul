@@ -10,8 +10,8 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 $ vim translation_key.py
 key = "<PUT THE KEY FROM YOUR GOOGLE TRANSLATE API ACCOUNT>"
 $ sudo easy_install pip
-$ sudo pip install requests
-$ sudo pip install gTTS
+$ sudo pip3 install requests
+$ sudo pip3 install gTTS
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew install ffmpeg
 $ brew install handbrake
