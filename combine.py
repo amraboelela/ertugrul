@@ -44,7 +44,7 @@ if count % 100 > 1:
         subprocess.call(subprocessArray)
 concatString = ""
 subprocessArray = ["ffmpeg", "-y"]
-targetFile = "build/" + prefix + ".mp4"
+targetFile = "build/" + prefix + "-" + postfix + ".mp4"
 if not path.exists(targetFile):
     for i in range(0, n):
         subprocessArray.extend(["-i", "build/" + prefix + "-" + format(i+1, '02d') + ".mp4"])
