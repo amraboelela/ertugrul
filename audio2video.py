@@ -32,8 +32,19 @@ def adjustVideo():
     if path.exists(videoFile):
         subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-t", durations[count], "-c", "copy", videoFileOut])
         subprocess.call(["rm", "-f", videoFile])
-        #count = count + 1
-        
+
+def deleteFiles():
+    imageFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + ".jpg"
+    audioFilePrefix = filePrefix + str(count).zfill(3) + "-" + targetLanguage
+    audioFile = audioFilePrefix + ".m4a"
+    subprocess.call(["rm", "-f", audioFile])
+    subprocess.call(["rm", "-f", imageFile])
+    
+def processFiles():
+    audioToVideo()
+    adjustVideo()
+    deleteFiles()
+            
 durationsFilePath = "build/durations.txt"
 durationsFile = open(durationsFilePath)
 durations = durationsFile.read().splitlines()
@@ -41,30 +52,10 @@ durations = durationsFile.read().splitlines()
 for line in lines:
     if "-->" in line:
         if count > 0:
-            audioToVideo()
-            adjustVideo()
+            processFiles()
         count = count + 1
 
-audioToVideo()
-adjustVideo()
+processFiles()
 count = count + 1
 
-for i in range(1, count):
-    imageFile = filePrefix + str(i).zfill(3) + "-" + targetLanguage + ".jpg"
-    audioFilePrefix = filePrefix + str(i).zfill(3) + "-" + targetLanguage
-    audioFile = audioFilePrefix + ".m4a"
-    subprocess.call(["rm", "-f", audioFile])
-    subprocess.call(["rm", "-f", imageFile])
-    
-
 file.close()
-
-#durationsFilePath = "build/durations.txt"
-#durationsFile = open(durationsFilePath)
-#durations = durationsFile.read().splitlines()
-
-#count = 1
-
-#files = os.listdir("build/" + prefix)
-#files = list(filter(lambda file: file[0] != ".", files))
-#files.sort()

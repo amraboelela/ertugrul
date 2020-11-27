@@ -25,6 +25,6 @@ python combine.py $prefix "a"
 python combine.py $prefix "s"
 
 python3 subtitles.py $prefix $targetLanguage "a"
-#exit 0
+exit 0
 python3 subtitles.py $prefix $targetLanguage "s"
 exit 0

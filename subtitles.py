@@ -19,14 +19,10 @@ dictionary = {}
 for dictionaryLine in dictionaryLines:
     lineSplit = dictionaryLine.split(":")
     word = lineSplit[0].strip()
-    meaning = lineSplit[1].strip()
-    #print("word: " + word)
-    dictionary[word] = meaning
-
-#if targetLanguage == "tr":
-#    sourceFilePath = "build/" + prefix + "-" + targetLanguage + "-" + sourceLanguage + ".vtt"
-#else:
-#    sourceFilePath = "build/" + prefix + "-" + sourceLanguage + ".vtt"
+    if len(lineSplit) > 1:
+        meaning = lineSplit[1].strip()
+        #print("word: " + word)
+        dictionary[word] = meaning
 
 targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "build/" + prefix + ".srt"
@@ -59,27 +55,8 @@ def timeString(timeFloat):
     minutes = int(totalMinutes % 60)
     hours = int(totalMinutes / 60)
     return str(hours).zfill(2) + ":" + str(minutes).zfill(2) + ":" + str(seconds).zfill(2) + "," + str(milliSeconds).zfill(3)
-
-def writeToSubtitlesFile(paragraph1, color1, paragraph2, color2):
-    global startTimeFloat
-    global durationIndex
-    subtitlesFile.write(str(durationIndex) + "\n")
-    startTimeString = timeString(startTimeFloat)
-    if durationIndex < len(durations):
-        duration = float(durations[durationIndex])
-        startTimeFloat = startTimeFloat + duration
-        endTimeString = timeString(startTimeFloat)
-    else:
-        endTimeString = "Not Yet"
-    subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
-    subtitlesFile.write("<font color=\"" + color1 + "\">" + paragraph1 + "</font>\n")
-    if len(paragraph2) > 0:
-        subtitlesFile.write("<font color=\"" + color2 + "\">" + paragraph2 + "</font>\n\n")
-    else:
-        subtitlesFile.write("\n")
-    durationIndex = durationIndex + 1
    
-def writeToSubtitlesFile2(paragraph):
+def writeToSubtitlesFile(paragraph):
     global startTimeFloat
     global durationIndex
     subtitlesFile.write(str(durationIndex) + "\n")
@@ -97,10 +74,14 @@ def writeToSubtitlesFile2(paragraph):
         words = line.split()
         for word in words:
             subtitlesFile.write(word + " ")
-            word = word.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '')
-            meaning = dictionary[word]
-            if meaning != word:
-                subtitlesFile.write("<font color=\"yellow\">" + meaning + "</font> ")
+            word = word.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
+            try:
+                meaning = dictionary[word]
+                #print("word: " + word + ", meaning: " + meaning)
+                if len(meaning.strip()) > 0 and meaning != word:
+                    subtitlesFile.write("<font color=\"yellow\">" + meaning + "</font> ")
+            except Exception as error:
+                print("error: " + str(error) + " word: " + word)
         subtitlesFile.write("</font>\n")
 
     subtitlesFile.write("\n")
@@ -112,13 +93,13 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     durationsFile = open(durationsFilePath)
     durations = durationsFile.read().splitlines()
     startTimeFloat = float(0.0)
-    durationIndex = 0
+    durationIndex = 1
     
     for i in range(0, len(targetParagraphs)):
         videoFile = "build/" + prefix + "/" + prefix + "-" + str(i+1).zfill(3) + "-" + targetLanguage + "-" + postfix + ".mp4"
         #print "videoFile: " + videoFile
         if path.exists(videoFile):
-            writeToSubtitlesFile2(targetParagraphs[i])
+            writeToSubtitlesFile(targetParagraphs[i])
 
 targetFile.close()
 subtitlesFile.close()
