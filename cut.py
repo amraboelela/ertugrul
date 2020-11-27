@@ -3,7 +3,6 @@ from os import path
 
 if len(sys.argv) > 2:
     prefix = sys.argv[1]
-    #order = sys.argv[2]
     targetLanguage = sys.argv[2]
 else:
     print("please provide the prefix and the target language")
@@ -21,6 +20,7 @@ lines = file.read().splitlines()
 count = 0
 prevStartTime = "00:00"
 prevTimeStamp = 0
+#durationShift = 0.13016528925
 for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
@@ -89,7 +89,7 @@ if targetLanguage == "tr":
         subprocess.call(["mv", targetFile + "~~.m4a", targetFile + ".m4a"])
         subprocess.call(["rm", targetFile + "~.m4a"])
 
-        subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + "-a.mp4", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "-a~.mp4"])
+        subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".mp4", "-acodec", "copy", "-ss", prevStartTime, "-t", "10", targetFile + "-a~.mp4"])
         subprocess.call(["ffmpeg", "-y", "-i", targetFile + "-a~.mp4", "-filter:a", "volume=4.5", targetFile + "-a~~.mp4"])
         subprocess.call(["mv", targetFile + "-a~~.mp4", targetFile + "-a.mp4"])
         subprocess.call(["rm", targetFile + "-a~.mp4"])

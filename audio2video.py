@@ -42,7 +42,7 @@ def deleteFiles():
     
 def processFiles():
     audioToVideo()
-    adjustVideo()
+    #adjustVideo()
     deleteFiles()
             
 durationsFilePath = "build/durations.txt"

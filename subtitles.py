@@ -89,11 +89,22 @@ def writeToSubtitlesFile(paragraph):
  
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     getParagraphs(targetLines, targetParagraphs)
+
+    files = os.listdir("build/" + prefix)
+    files = list(filter(lambda file: file[0] != ".", files))
+    files = list(filter(lambda file: "-" + postfix + "." in file, files))
+    files.sort()
     durationsFilePath = "build/durations.txt"
+    os.system("rm -f " + durationsFilePath)
+    for file in files:
+        if not "~" in file:
+            videoFile = "build/" + prefix + "/" + file
+            os.system("ffprobe -v error -select_streams v:0 -show_entries stream=duration -of default=noprint_wrappers=1:nokey=1 " + videoFile + " >> " + durationsFilePath)
+
     durationsFile = open(durationsFilePath)
     durations = durationsFile.read().splitlines()
     startTimeFloat = float(0.0)
-    durationIndex = 1
+    durationIndex = 0
     
     for i in range(0, len(targetParagraphs)):
         videoFile = "build/" + prefix + "/" + prefix + "-" + str(i+1).zfill(3) + "-" + targetLanguage + "-" + postfix + ".mp4"
