@@ -35,6 +35,8 @@
 		C5B1E61423789A2F00BA1E1C /* ttml2srt.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EE23789A2E00BA1E1C /* ttml2srt.py */; };
 		C5B7459D23823EA3006204F5 /* handbrake in Resources */ = {isa = PBXBuildFile; fileRef = C5B7459C23823EA2006204F5 /* handbrake */; };
 		F534F80725703DB300333CEC /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = F534F80625703DB300333CEC /* build.sh */; };
+		F534F80E25708D7000333CEC /* sayLines.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F80C25708D7000333CEC /* sayLines.py */; };
+		F534F80F25708D7000333CEC /* sayWords.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F80D25708D7000333CEC /* sayWords.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,8 @@
 		C5B1E5EE23789A2E00BA1E1C /* ttml2srt.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ttml2srt.py; sourceTree = "<group>"; };
 		C5B7459C23823EA2006204F5 /* handbrake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = handbrake; sourceTree = "<group>"; };
 		F534F80625703DB300333CEC /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		F534F80C25708D7000333CEC /* sayLines.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayLines.py; sourceTree = "<group>"; };
+		F534F80D25708D7000333CEC /* sayWords.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayWords.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				C5B1E5EC23789A2D00BA1E1C /* audio2video.py */,
 				C5B1E5D923789A2900BA1E1C /* build */,
 				C5B1E5D523789A2800BA1E1C /* buildEpisode */,
+				F534F80C25708D7000333CEC /* sayLines.py */,
+				F534F80D25708D7000333CEC /* sayWords.py */,
 				C5B1E5EA23789A2D00BA1E1C /* clean */,
 				C5B1E5CF23789A2700BA1E1C /* clean.py */,
 				C5B1E5E523789A2B00BA1E1C /* cleanEpisode */,
@@ -181,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F534F80F25708D7000333CEC /* sayWords.py in Resources */,
 				C5B1E60823789A2F00BA1E1C /* video2image.py in Resources */,
 				C5B1E60623789A2F00BA1E1C /* video in Resources */,
 				C5B1E60923789A2F00BA1E1C /* downloadVideo in Resources */,
@@ -202,6 +209,7 @@
 				C5B1E61123789A2F00BA1E1C /* cut in Resources */,
 				C5B1E5FC23789A2F00BA1E1C /* build.py in Resources */,
 				F534F80725703DB300333CEC /* build.sh in Resources */,
+				F534F80E25708D7000333CEC /* sayLines.py in Resources */,
 				C5B1E5FA23789A2F00BA1E1C /* unicode.py in Resources */,
 				C5B1E60E23789A2F00BA1E1C /* download in Resources */,
 				C5B1E60C23789A2F00BA1E1C /* cut.py in Resources */,

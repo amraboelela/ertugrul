@@ -91,14 +91,17 @@ def writeToSubtitlesFile2(paragraph):
     else:
         endTimeString = "Not Yet"
     subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
-    subtitlesFile.write("<font color=\"white\">")
-    words = paragraph.split()
-    for word in words:
-        subtitlesFile.write(word + " ")
-        word = word.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '')
-        meaning = dictionary[word]
-        subtitlesFile.write("<font color=\"yellow\">" + meaning + "</font> ")
-    subtitlesFile.write("</font>\n")
+    lines = paragraph.split("\n")
+    for line in lines:
+        subtitlesFile.write("<font color=\"white\">")
+        words = line.split()
+        for word in words:
+            subtitlesFile.write(word + " ")
+            word = word.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '')
+            meaning = dictionary[word]
+            if meaning != word:
+                subtitlesFile.write("<font color=\"yellow\">" + meaning + "</font> ")
+        subtitlesFile.write("</font>\n")
 
     subtitlesFile.write("\n")
     durationIndex = durationIndex + 1

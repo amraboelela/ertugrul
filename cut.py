@@ -77,9 +77,9 @@ for line in lines:
                 subprocess.call(["rm", targetFile + "-a~.mp4"])
         prevStartTime = startTime
         count = count + 1
-        if count > 3:
-            quit()
-quit()
+        #if count > 3:
+        #    quit()
+#quit()
 if targetLanguage == "tr":
     filePrefix = "build/" + prefix + "/" + prefix + "-" + str(count).zfill(3)
     targetFile = filePrefix + "-" + targetLanguage

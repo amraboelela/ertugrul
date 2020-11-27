@@ -62,7 +62,6 @@ def sayWords():
             subprocess.call(subprocessArray)
     paragraph = ""
     count = count + 1
- 
 
 for line in lines:
     if "-->" in line:
