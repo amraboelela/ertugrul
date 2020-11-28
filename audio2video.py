@@ -20,7 +20,7 @@ def audioToVideo():
     imageFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + ".jpg"
     audioFilePrefix = filePrefix + str(count).zfill(3) + "-" + targetLanguage
     audioFile = audioFilePrefix + ".m4a"
-    videoFile = audioFilePrefix + "-s~.mp4"
+    videoFile = audioFilePrefix + "-s.mp4"
     if path.exists(imageFile):
         if not path.exists(videoFile):
             subprocess.call(["ffmpeg", "-y", "-loop", "1", "-i", imageFile, "-i", audioFile, "-c:v", "libx264", "-c:a", "aac", "-b:a", "192k", "-pix_fmt", "yuv420p", "-shortest", videoFile])

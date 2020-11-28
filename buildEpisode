@@ -10,7 +10,7 @@ echo "prefixFile: " + $prefixFile
 
 if [ $targetLanguage == "tr"  ]; then
     if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
-        python3 ttml2srt.py build/$prefix-$targetLanguage.ttml > build/$prefix-$targetLanguage.srt
+        python ttml2srt.py build/$prefix-$targetLanguage.ttml > build/$prefix-$targetLanguage.srt
         ffmpeg -y -i build/$prefix-$targetLanguage.srt build/$prefix-$targetLanguage.vtt
         rm build/$prefix-$targetLanguage.srt
     fi

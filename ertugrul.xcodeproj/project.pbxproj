@@ -37,6 +37,7 @@
 		F534F80725703DB300333CEC /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = F534F80625703DB300333CEC /* build.sh */; };
 		F534F80E25708D7000333CEC /* sayLines.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F80C25708D7000333CEC /* sayLines.py */; };
 		F534F80F25708D7000333CEC /* sayWords.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F80D25708D7000333CEC /* sayWords.py */; };
+		F534F8122571ABBC00333CEC /* move.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F8112571ABBC00333CEC /* move.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		F534F80625703DB300333CEC /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		F534F80C25708D7000333CEC /* sayLines.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayLines.py; sourceTree = "<group>"; };
 		F534F80D25708D7000333CEC /* sayWords.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayWords.py; sourceTree = "<group>"; };
+		F534F8112571ABBC00333CEC /* move.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = move.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				F534F80625703DB300333CEC /* build.sh */,
 				C5B1E5D623789A2800BA1E1C /* build.py */,
 				C5B1E5D723789A2800BA1E1C /* combine.py */,
+				F534F8112571ABBC00333CEC /* move.py */,
 				C5B1E5D123789A2700BA1E1C /* concat */,
 				C5B1E5EB23789A2D00BA1E1C /* cut */,
 				C5B1E5E623789A2B00BA1E1C /* cut.py */,
@@ -206,6 +209,7 @@
 				C5B1E5F423789A2F00BA1E1C /* dictionary.py in Resources */,
 				C5B1E60B23789A2F00BA1E1C /* cleanEpisode in Resources */,
 				C5B7459D23823EA3006204F5 /* handbrake in Resources */,
+				F534F8122571ABBC00333CEC /* move.py in Resources */,
 				C5B1E61123789A2F00BA1E1C /* cut in Resources */,
 				C5B1E5FC23789A2F00BA1E1C /* build.py in Resources */,
 				F534F80725703DB300333CEC /* build.sh in Resources */,
