@@ -7,12 +7,12 @@ True: front
 aa: aa
 aaa: aaa
 aah: aah
+abI'mle: my brother
 abbasi: abbasi
 abdulkadir: abdulkadir
 abdühü: abduh of
 abdülkadir: abdülkadir
 abdülkadir</font>: abdülkadir</font>
-abI'mle: my brother
 abi: older brother
 abim: my brother
 abimi: my brother
@@ -170,6 +170,7 @@ akarken: flows
 akcakoca'yı: the akcakoca
 akdeniz'de: in mediterranean
 akdeniz'den: the mediterranean
+akdenizde: in the mediterranean
 aklı: mentally
 aklıdır: mind is
 aklım: my mind
@@ -304,6 +305,7 @@ aleykum: aleyküm
 aleyküm: aleyküm
 aleykümselam: I aleykümselam
 ali'den: ali'den
+aliden: aliden
 alimallah: God knows
 alkış: applause
 alkışla: applauded
@@ -312,15 +314,16 @@ allah'tan: from God
 allah'tır: is God
 allah'ı: Allah
 allah'ım: Allah
-allah'ım: Allah
 allah'ıma: Allah
 allah'ın: God
 allah'ını: the God
 allah: God
+allaha: to God
 allahaısmarladık: good bye
 allahu: God
 allahü: God
 allahümme: my God
+allahın: your God
 allah’ım: Allah
 allah’ın: God
 allame: world
@@ -404,6 +407,7 @@ alâeddin'e: to Alaeddin
 alâeddin'i: of Alaeddin
 alâeddin'in: the Alaeddine's
 alâeddin: Alaeddin
+alâeddinin: Alaeddin
 alçak: low
 alçaklar: lows
 alçaklığı: treachery
@@ -469,9 +473,10 @@ ana'yi: mother
 ana'yla: ana'yl to
 ana'yı: mother
 ana: mother
-anadolu'dan: from anatolia
-anadolu'nun: the anatolia
-anadolu: anatolia
+anadolu'dan: from Anatolia
+anadolu'nun: the Anatolia
+anadolu: Anatolia
+anadoludan: from Anatolia
 anadolu’daki: anadoludaki
 anahtar: key
 anahtarı: switch
@@ -822,11 +827,14 @@ avlanırlar: they hunt
 avlanırsa: if hunting
 avlayalım: I hunt
 avratlar: avrat on
-avrupa'daki: in europe
-avrupa'nın: europe
+avrupa'daki: in Europe
+avrupa'nın: Europe
 avrupa'ya: avrupaya
 avrupa'yı: avrupayı
-avrupa: europe
+avrupa: Europe
+avrupadaki: in Europe
+avrupanın: of Europe
+avrupayı: Europe
 avrupa’ya: avrupaya
 avucunun: the palm
 avuçlarının: handful of
@@ -945,6 +953,7 @@ azrael'in: the azrael
 azrail'den: the grim reaper
 azrail'i: the angel of death
 azrail: the reaper
+azraili: azerbaijani
 azıcık: little
 azılı: fierce
 azından: least
@@ -1008,6 +1017,7 @@ ağacından: from the tree
 ağalar: ağalar
 ağam: my master
 ağamla: with network
+ağanın: your lord
 ağaç: tree
 ağla: cry
 ağladığın: you cry
@@ -1219,6 +1229,7 @@ basmaların: pressing the
 basmanın: press
 basmış: ridden
 basra'ya: basra
+basraya: to bass
 baston: walking stick
 bastı: raided
 bastıklarında: bastıklarında
@@ -1740,6 +1751,8 @@ bisol'den: from bisol
 bisol'ü: bisol'ü
 bisol'ün: bisol'ün
 bisol: bisol
+bisolden: bisol
+bisolü: bisol
 bitap: exhausted
 bitecek: will end
 biteceğini: will end
@@ -3743,6 +3756,7 @@ eyvallah: yes by Allah
 eyyubi'nin: the Eyyuby
 eyyubi'yi: the Eyyuby
 eyyubi: the Eyyuby
+eyyubinin: eyyubin
 eyüp'ü: of Eyyuby
 eyüp: eyüp
 ezanıyla: with prayer
@@ -5252,7 +5266,7 @@ hekimi: physician
 helal: halal
 helallik: helallik
 hele: hele
-hem: and
+hem: both
 hemen: immediately
 hemfikir: agreed
 henüz: yet
@@ -6725,8 +6739,10 @@ konduramazsın: you konduramaz
 konforlu: comfortable
 konsey: council
 konstantin'i: constantine the
-konstantinapol'den: from constantinople
-konstantiniyye'yi: in constantinople
+konstantinapol'den: from Constantinople
+konstantinapolden: Constantinople
+konstantini: constantine
+konstantiniyye'yi: in Constantinople
 kont: count
 kontluğu'nun: the duchy
 kontluğu: county of
@@ -6814,6 +6830,8 @@ konya'dan: from konya
 konya'ya: konya to
 konya'yı: konya'yı
 konya: konya
+konyaya: konyaya
+konyayı: cone
 kopararak: cleaving
 kopardılar: they tore
 koparmaktan: break away
@@ -6950,6 +6968,7 @@ kudüs'e: to jerusalem
 kudüs'ü: is jerusalem
 kudüs'ümüzün: our kudüs'ü
 kudüs: jerusalem
+kudüsümüzün: our jerusalem
 kudüs’ün: the jerusalem
 kukladan: puppets
 kul: ash
@@ -7994,6 +8013,7 @@ obası'ndasınız: tribe here
 obası: is tribe
 obasına: to tribe
 obasında: in tribe
+obasındasınız: you are in your bank
 obasını: the tribe
 obasının: of tribe
 obaya: tribe
@@ -8380,7 +8400,9 @@ papa'da: the pope
 papa'nın: the pope
 papa: pope
 papalık'ta: the papacy
+papalıkta: in the papacy
 papalıktan: the papacy
+papanın: of the pope
 papazın: the priest
 para: money
 paralık: penny
@@ -9502,6 +9524,7 @@ sıkıntının: shortage
 sıkıntıyla: dismally
 sıkışmış: jammed
 sımsıkı: fast
+sına: I'test
 sınava: exam
 sınavda: exam
 sınavdan: the exam
@@ -9969,6 +9992,9 @@ toygar'la: toygar'la
 toygar'ı: meeting
 toygar'ın: the meeting
 toygar: meeting
+toygara: toygara
+toygarı: toygarı
+toygarın: toygarın
 toygar’a: toygar’a
 toygar’la: toygar’la
 toyumuz: our meeting
@@ -9991,6 +10017,7 @@ turgut'umla: with turgut'u
 turgut'un: turgut
 turgut: turgut
 turgutların: turgut of
+turgutum: i turn
 turgut’a: turgut
 turgut’tan: from turgut
 turgut’u: turgut of
@@ -11558,6 +11585,7 @@ zulmünün: of persecution
 zulüm: persecution
 zülcelâli: almighty of
 zülfikar'dan: on the strength of
+zülfikardan: zulfiqar
 zırhını: armor
 zırladığın: you blubber
 Âdettendir: it's traditional
@@ -12567,7 +12595,11 @@ zırladığın: you blubber
 şahittir: it is witness
 şahsen: personally
 şahsi: personal
+şahı: actually
+şahım: my king
 şahımızın: our king
+şahın: hawk
+şahından: from the king
 şair: poetrist
 şairin: the poet
 şam: sam
@@ -12726,5 +12758,3 @@ zırladığın: you blubber
 şüphen: doubts
 şüphesiz: no doubt
 şımarık: sassy
-sına: I'test
-hem: both

@@ -42,31 +42,6 @@ for line in lines:
         for word in words:
             #print("word: " + word)
             if word not in dictionary:
-                #dicValue = dictionary[word.decode('utf8')]
-                #print("type(dicValue): " + str(type(dicValue)))
-                #if type(dicValue) is dict and dicValue['update'] == True:
-                #    print(str(count) + ". needs update " + word + ": " + dicValue['en'].encode('utf8'))
-                #    count = count + 1
-                #    dicValue['update'] = False
-                #    wordFile = "build/words/" + language + "/" + word + ".m4a"
-                #    targetFile = "build/words/" + language + "/" + word + "-en.m4a"
-                #    if word == dicValue['en'].encode('utf8'):
-                #        os.system("rm -f " + wordFile)
-                #        os.system("rm -f " + targetFile)
-                #    else:
-                #        subprocess.call(["say", "-v", "Alex", dicValue['en'], "-o", targetFile])
-                #        targetFile = "build/words/" + language + "/" + word + ".m4a"
-                #        targetFileMp3 = "build/words/" + language + "/" + word + ".mp3"
-                #        if language == "ar":
-                #            subprocess.call(["gtts-cli", word, "-l", "ar", "--output", targetFileMp3])
-                #            os.system("ffmpeg -y -i " + targetFileMp3 + " -c:a aac -b:a 192k " + targetFile)
-                #            os.system("rm " + targetFileMp3)
-                #        else:
-                #            subprocess.call(["say", "-v", voice, "-r", "125", word, "-o", targetFile])
-                #elif type(dicValue) is unicode or type(dicValue) is str:
-                #    dictionary[word.decode('utf8')] = {'en': dicValue, 'update': False}
-            #else:
-                #print "new word: " + word
                 try:
                     count = count + 1
                     PARAMS = {'key':key, 'q':word, 'source':language, 'target':'en'}
@@ -74,32 +49,16 @@ for line in lines:
                     data = r.json()
                     translatedWord = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("?","").lower()
                     dictionary[word] = translatedWord
-                    #{'en': translatedWord, 'update': False}
-                    print(str(count) + ". new word - " + word.encode('utf8') + ": " + translatedWord.encode('utf8'))
-                    #if word != translatedWord.encode('utf8'):
-                    #    targetFile = "build/words/" + language + "/" + word + ".m4a"
-                    #    targetFileMp3 = "build/words/" + language + "/" + word + ".mp3"
-                    #    if language == "ar":
-                    #        subprocess.call(["gtts-cli", word, "-l", "ar", "--output", targetFileMp3])
-                    #        os.system("ffmpeg -y -i " + targetFileMp3 + " -c:a aac -b:a 192k " + targetFile)
-                    #        os.system("rm " + targetFileMp3)
-                    #    else:
-                    #        subprocess.call(["say", "-v", voice, "-r", "125", word, "-o", targetFile])
-                    #    targetFile = "build/words/" + language + "/" + word + "-en.m4a"
-                    #    subprocess.call(["say", "-v", "Alex", translatedWord, "-o", targetFile])
-                    #if count % 100 == 0:
-                    #    with io.open(dictionaryFile, 'w', encoding='utf8') as outfile:
-                    #        yaml.dump(data, outfile, sort_keys=True, default_flow_style=False, allow_unicode=True)
+                    print(str(count) + ". new word - " + word + ": " + translatedWord)
                 except Exception as error:
-                    print("error: " + str(error) + " word: " + word.encode('utf8'))
-                    #json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
+                    print("error: " + str(error) + " word: " + word)
 
 file.close()
 lines = []
 with open(dictionaryFilePath, 'w') as outfile:
     for key in dictionary.keys():
         try:
-            lines.append(key.encode('utf8') + ": " + dictionary[key].encode('utf8'))
+            lines.append(key + ": " + dictionary[key])
         except:
             try:
                 lines.append(str(key) + ": " + str(dictionary[key]))
@@ -109,10 +68,3 @@ lines.sort()
 with open(dictionaryFilePath, 'w') as outfile:
     for line in lines:
         outfile.write(line + "\n")
-#with io.open(dictionaryFile, 'w', encoding='utf8') as outfile:
-#with open(dictionaryFile, 'w') as outfile:
-#    yaml.dump(dictionary, outfile, sort_keys=True)
-
-#json.dump(dictionary, open(dictionaryFile, 'w'), sort_keys = False, indent = 4, ensure_ascii = True)
-#os.system("python3 unicode.py " + dictionaryFile + " > build/dictionary-" + language + ".txt")
-

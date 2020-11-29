@@ -81,7 +81,7 @@ def writeToSubtitlesFile(paragraph):
             try:
                 meaning = dictionary[cleanWord]
                 #print("word: " + word + ", meaning: " + meaning)
-                if len(meaning.strip()) > 0 and meaning != word:
+                if len(meaning.strip()) > 0 and meaning != cleanWord:
                     subtitlesFile.write(": <font color=\"yellow\">" + meaning + "</font>")
                     if word[-1] == "," or word[-1] == "." or word[-1] == "!" or word[-1] == "?":
                         subtitlesFile.write(word[-1])
