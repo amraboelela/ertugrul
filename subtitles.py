@@ -23,6 +23,8 @@ for dictionaryLine in dictionaryLines:
         meaning = lineSplit[1].strip()
         #print("word: " + word)
         dictionary[word] = meaning
+    else:
+        print("word without meaning: " + word)
 
 targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "build/" + prefix + ".srt"
@@ -73,15 +75,19 @@ def writeToSubtitlesFile(paragraph):
         subtitlesFile.write("<font color=\"white\">")
         words = line.split()
         for word in words:
-            subtitlesFile.write(word + " ")
-            word = word.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
+            cleanWord = word.replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
+            subtitlesFile.write(cleanWord)
+            cleanWord = cleanWord.lower()
             try:
-                meaning = dictionary[word]
+                meaning = dictionary[cleanWord]
                 #print("word: " + word + ", meaning: " + meaning)
                 if len(meaning.strip()) > 0 and meaning != word:
-                    subtitlesFile.write("<font color=\"yellow\">" + meaning + "</font> ")
+                    subtitlesFile.write(": <font color=\"yellow\">" + meaning + "</font>")
+                    if word[-1] == "," or word[-1] == "." or word[-1] == "!" or word[-1] == "?":
+                        subtitlesFile.write(word[-1])
+                    subtitlesFile.write(" ")
             except Exception as error:
-                print("error: " + str(error) + " word: " + word)
+                print("error: " + str(error))
         subtitlesFile.write("</font>\n")
 
     subtitlesFile.write("\n")

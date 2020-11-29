@@ -18,14 +18,12 @@ dictionary = {}
 for dictionaryLine in dictionaryLines:
     lineSplit = dictionaryLine.split(":")
     word = lineSplit[0].strip()
-    meaning = lineSplit[1].strip()
-    dictionary[word] = meaning
-
-#print("dictionary: " + str(dictionary))
-#word = 'haydır'
-#print word
-#print("dictionary['haydır']: " + dictionary['haydır'])
-#quit()
+    if len(lineSplit) > 1:
+        meaning = lineSplit[1].strip()
+        #print("word: " + word)
+        dictionary[word] = meaning
+    else:
+        print("word without meaning: " + word)
 
 # api-endpoint
 URL = "https://translation.googleapis.com/language/translate/v2"
