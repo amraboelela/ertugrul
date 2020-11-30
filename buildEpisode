@@ -6,7 +6,7 @@ targetLanguage=$3
 
 mkdir -p build/$prefix
 prefixFile="build/$prefix-$targetLanguage.ttml"
-echo "prefixFile: " + $prefixFile
+echo "prefixFile: " $prefixFile
 
 if [ $targetLanguage == "tr"  ]; then
     if [ ! -f build/$prefix-$targetLanguage.vtt ]; then

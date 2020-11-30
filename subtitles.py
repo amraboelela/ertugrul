@@ -75,17 +75,19 @@ def writeToSubtitlesFile(paragraph):
         subtitlesFile.write("<font color=\"white\">")
         words = line.split()
         for word in words:
-            cleanWord = word.replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
-            subtitlesFile.write(cleanWord)
-            cleanWord = cleanWord.lower()
+            if word[-1] == "," or word[-1] == "." or word[-1] == "!" or word[-1] == "?":
+                subtitlesFile.write(word[:len(word)-1])
+            else:
+                subtitlesFile.write(word)
+            cleanWord = word.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
             try:
                 meaning = dictionary[cleanWord]
                 #print("word: " + word + ", meaning: " + meaning)
                 if len(meaning.strip()) > 0 and meaning != cleanWord:
-                    subtitlesFile.write(": <font color=\"yellow\">" + meaning + "</font>")
+                    subtitlesFile.write(" <font color=\"yellow\">(" + meaning + ")</font>")
                     if word[-1] == "," or word[-1] == "." or word[-1] == "!" or word[-1] == "?":
                         subtitlesFile.write(word[-1])
-                    subtitlesFile.write(" ")
+                subtitlesFile.write(" ")
             except Exception as error:
                 print("error: " + str(error))
         subtitlesFile.write("</font>\n")
