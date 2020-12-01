@@ -36,7 +36,7 @@ lines = file.read().splitlines()
 count  = 0
 for line in lines:
     if not "-->" in line and len(line) > 0:
-        line = line.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
+        line = line.lower().replace(":","").replace(",","").replace(";","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
         #print("line: " + line)
         words = line.split()
         for word in words:

@@ -38,6 +38,7 @@
 		F534F80E25708D7000333CEC /* sayLines.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F80C25708D7000333CEC /* sayLines.py */; };
 		F534F80F25708D7000333CEC /* sayWords.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F80D25708D7000333CEC /* sayWords.py */; };
 		F534F8122571ABBC00333CEC /* move.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F8112571ABBC00333CEC /* move.py */; };
+		F534F85D2576BBE700333CEC /* cleanSubtitles in Resources */ = {isa = PBXBuildFile; fileRef = F534F85C2576BBE600333CEC /* cleanSubtitles */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		F534F80C25708D7000333CEC /* sayLines.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayLines.py; sourceTree = "<group>"; };
 		F534F80D25708D7000333CEC /* sayWords.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayWords.py; sourceTree = "<group>"; };
 		F534F8112571ABBC00333CEC /* move.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = move.py; sourceTree = "<group>"; };
+		F534F85C2576BBE600333CEC /* cleanSubtitles */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cleanSubtitles; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,14 +95,14 @@
 				C5B1E5EC23789A2D00BA1E1C /* audio2video.py */,
 				C5B1E5D923789A2900BA1E1C /* build */,
 				C5B1E5D523789A2800BA1E1C /* buildEpisode */,
+				F534F80625703DB300333CEC /* build.sh */,
+				C5B1E5D623789A2800BA1E1C /* build.py */,
 				C5B1E5EA23789A2D00BA1E1C /* clean */,
 				C5B1E5CF23789A2700BA1E1C /* clean.py */,
 				C5B1E5E523789A2B00BA1E1C /* cleanEpisode */,
+				F534F85C2576BBE600333CEC /* cleanSubtitles */,
 				C5B1E5D223789A2800BA1E1C /* cleanFile.py */,
-				F534F80625703DB300333CEC /* build.sh */,
-				C5B1E5D623789A2800BA1E1C /* build.py */,
 				C5B1E5D723789A2800BA1E1C /* combine.py */,
-				F534F8112571ABBC00333CEC /* move.py */,
 				C5B1E5D123789A2700BA1E1C /* concat */,
 				C5B1E5EB23789A2D00BA1E1C /* cut */,
 				C5B1E5E623789A2B00BA1E1C /* cut.py */,
@@ -109,6 +111,7 @@
 				C5B1E5E323789A2B00BA1E1C /* downloadVideo */,
 				C5B7459C23823EA2006204F5 /* handbrake */,
 				C5B1E5D023789A2700BA1E1C /* LICENSE */,
+				F534F8112571ABBC00333CEC /* move.py */,
 				C5B1E5DF23789A2A00BA1E1C /* README.md */,
 				F534F80C25708D7000333CEC /* sayLines.py */,
 				F534F80D25708D7000333CEC /* sayWords.py */,
@@ -206,6 +209,7 @@
 				C5B1E60423789A2F00BA1E1C /* subtitles in Resources */,
 				C5B1E5F523789A2F00BA1E1C /* clean.py in Resources */,
 				C5B1E5F323789A2F00BA1E1C /* translate.py in Resources */,
+				F534F85D2576BBE700333CEC /* cleanSubtitles in Resources */,
 				C5B1E5F423789A2F00BA1E1C /* dictionary.py in Resources */,
 				C5B1E60B23789A2F00BA1E1C /* cleanEpisode in Resources */,
 				C5B7459D23823EA3006204F5 /* handbrake in Resources */,

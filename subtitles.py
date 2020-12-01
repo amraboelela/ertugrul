@@ -79,7 +79,7 @@ def writeToSubtitlesFile(paragraph):
                 subtitlesFile.write(word[:len(word)-1])
             else:
                 subtitlesFile.write(word)
-            cleanWord = word.lower().replace(":","").replace(",","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
+            cleanWord = word.lower().replace(":","").replace(",","").replace(";","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
             try:
                 meaning = dictionary[cleanWord]
                 #print("word: " + word + ", meaning: " + meaning)
