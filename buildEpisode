@@ -18,13 +18,16 @@ fi
 #exit 0
 python3 dictionary.py $prefix $targetLanguage
 python cut.py $prefix $targetLanguage
+#exit 0
 #python3 sayWords.py $prefix 2 $targetLanguage
-python3 video2image.py $prefix $targetLanguage
+python3 video2frames.py $prefix $targetLanguage
+exit 0
+
 python3 audio2video.py $prefix $targetLanguage
 python combine.py $prefix "a"
 python combine.py $prefix "s"
 
 python3 subtitles.py $prefix $targetLanguage "a"
-#exit 0
+
 python3 subtitles.py $prefix $targetLanguage "s"
 exit 0

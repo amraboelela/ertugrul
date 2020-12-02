@@ -9,7 +9,8 @@ rm -f build/$prefix-0*.m4a
 rm -f build/$prefix-1*.m4a
 rm -f build/$prefix-2*.m4a
 
-rm -f build/$prefix.mp4
+rm -f build/$prefix-a.mp4
+rm -f build/$prefix-s.mp4
 rm -f build/$prefix-0*.mp4
 rm -f build/$prefix-1*.mp4
 rm -f build/$prefix-2*.mp4
