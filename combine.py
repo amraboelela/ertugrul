@@ -43,6 +43,8 @@ if count % 100 > 1:
         subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=1:a=1", targetFile])
         print("subprocessArray: " + str(subprocessArray))
         subprocess.call(subprocessArray)
+else:
+    n = 1
 concatString = ""
 subprocessArray = ["ffmpeg", "-y"]
 targetFile = "build/" + prefix + "-" + postfix + ".mp4"

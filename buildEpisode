@@ -22,13 +22,10 @@ python cut.py $prefix $targetLanguage
 python3 video2frames.py $prefix $targetLanguage
 python3 editframes.py $prefix $targetLanguage
 python3 frames2video.py $prefix $targetLanguage
-exit 0
+#python3 audio2video.py $prefix $targetLanguage
+python combine.py $prefix "c"
+#python combine.py $prefix "s"
 
-python3 audio2video.py $prefix $targetLanguage
-python combine.py $prefix "a"
-python combine.py $prefix "s"
-
-python3 subtitles.py $prefix $targetLanguage "a"
-
-python3 subtitles.py $prefix $targetLanguage "s"
+python3 subtitles.py $prefix $targetLanguage "c"
+#python3 subtitles.py $prefix $targetLanguage "s"
 exit 0
