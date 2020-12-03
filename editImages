@@ -1,6 +1,6 @@
 
 backImagePrefix="build/ertugrul-1-01-tr"
-convert $backImagePrefix.jpg -crop 800x483+230+0 $backImagePrefix-cr.jpg
+convert $backImagePrefix.jpg -crop 800x482+230+0 $backImagePrefix-cr.jpg
 
 imagePrefix="build/ertugrul-1-01/frames/ertugrul-1-01-001-0002"
 

@@ -17,20 +17,19 @@ lines = file.read().splitlines()
 count = 0
 filePrefix = "build/" + prefix + "/" + prefix + "-"
 
-def videoToImage():
-    audioFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + ".m4a"
+def videoToFrames():
     videoFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + "-a.mp4"
     imageFilePrefix = "build/" + prefix + "/frames/" + prefix + "-" + str(count).zfill(3)
     imageFile = imageFilePrefix + "-%4d.jpg"
     firstImageFile = imageFilePrefix + "-0001.jpg"
-    if not path.exists(firstImageFile) and path.exists(audioFile):
+    if not path.exists(firstImageFile) and not path.exists(imageFilePrefix + "-0001-cm.jpg"):
         subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-r", "20", imageFile])
  
 for line in lines:
     if "-->" in line:
         if count > 0:
-            videoToImage()
+            videoToFrames()
         count = count + 1
 
-#videoToImage()
+#videoToFrames()
 file.close()
