@@ -9,24 +9,29 @@ else:
     print("please provide the prefix, and the target language")
     exit(-1)
 
-print("## editFrames, prefix: " + prefix + ", targetLanguage: " + targetLanguage)
+print("## frames2video, prefix: " + prefix + ", targetLanguage: " + targetLanguage)
 
 filePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 file = open(filePath)
 lines = file.read().splitlines()
 count = 0
+filePrefix = "build/" + prefix + "/" + prefix
 
-def editFrame():
-    framePrefix = "build/" + prefix+ "/frames/" + prefix + "-" + str(count).zfill(3)
-    videoPrefix = "build/" + prefix + "-" + str(count).zfill(3)
-
-    subprocess.call(["ffmpeg", "-y", "-r", "20", "-f", "image2", "-pattern_type", "glob", "-i", framePrefix + "-*.jpg", "-vcodec", "libx264", "-crf", "20", "-pix_fmt", "yuv420p", videoPrefix + "-cm.mp4"])
-    subprocess.call(["ffmpeg", "-y", "-i", videoPrefix + "-cm.mp4", "-i", videoPrefix + "-tr.m4a", "-c", "copy", "-map", "0:v:0", "-map", "1:a:0", videoPrefix + ".mp4"])
-    os.system("rm -f " + videoPrefix + "-cm.mp4")
+def framesToVideo():
+    videoFile = filePrefix + "-" + str(count).zfill(3) + "-" + targetLanguage + "-a.mp4"
+    framePrefix = "build/" + prefix + "/frames/" + prefix + "-" + str(count).zfill(3)
+    videoPrefix = filePrefix + "-" + str(count).zfill(3)
+    #print("videoFile: " + videoFile)
+    #print("videoPrefix: " + videoPrefix + ".mp4")
+    if not path.exists(videoPrefix + ".mp4") and path.exists(videoFile):
+        print("Generating: " + videoPrefix + ".mp4")
+        subprocess.call(["ffmpeg", "-y", "-r", "20", "-f", "image2", "-pattern_type", "glob", "-i", framePrefix + "-*.jpg", "-vcodec", "libx264", "-crf", "20", "-pix_fmt", "yuv420p", videoPrefix + "-cm.mp4"])
+        subprocess.call(["ffmpeg", "-y", "-i", videoPrefix + "-cm.mp4", "-i", videoPrefix + "-tr.m4a", "-c", "copy", "-map", "0:v:0", "-map", "1:a:0", videoPrefix + ".mp4"])
+        os.system("rm -f " + videoPrefix + "-cm.mp4")
  
 for line in lines:
     if "-->" in line:
         if count > 0:
-            frameToVideo()
+            framesToVideo()
         count = count + 1
 file.close()

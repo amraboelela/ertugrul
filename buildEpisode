@@ -18,11 +18,9 @@ fi
 #exit 0
 python3 dictionary.py $prefix $targetLanguage
 python cut.py $prefix $targetLanguage
-#exit 0
 #python3 sayWords.py $prefix 2 $targetLanguage
 python3 video2frames.py $prefix $targetLanguage
 python3 editframes.py $prefix $targetLanguage
-#exit 0
 python3 frames2video.py $prefix $targetLanguage
 exit 0
 

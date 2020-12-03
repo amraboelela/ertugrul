@@ -9,7 +9,7 @@ else:
     print("please provide the prefix, and the target language")
     exit(-1)
 
-print("## video2image, prefix: " + prefix + ", targetLanguage: " + targetLanguage)
+print("## video2Frames, prefix: " + prefix + ", targetLanguage: " + targetLanguage)
 
 filePath = "build/" + prefix + "-" + targetLanguage + ".vtt" 
 file = open(filePath) 
@@ -22,7 +22,7 @@ def videoToFrames():
     imageFilePrefix = "build/" + prefix + "/frames/" + prefix + "-" + str(count).zfill(3)
     imageFile = imageFilePrefix + "-%4d.jpg"
     firstImageFile = imageFilePrefix + "-0001.jpg"
-    if not path.exists(firstImageFile) and not path.exists(imageFilePrefix + "-0001-cm.jpg"):
+    if not path.exists(firstImageFile) and not path.exists(imageFilePrefix + "-0001-cm.jpg") and path.exists(videoFile):
         subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-r", "20", imageFile])
  
 for line in lines:
@@ -30,6 +30,7 @@ for line in lines:
         if count > 0:
             videoToFrames()
         count = count + 1
+        #quit()
 
 #videoToFrames()
 file.close()

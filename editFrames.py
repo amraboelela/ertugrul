@@ -29,6 +29,7 @@ def editFrame():
         backImagePrefix = "build/" + prefix + "-tr"
         imagePrefix = framePrefix + "-" + frameID
         if not path.exists(imagePrefix + "-cm.jpg"):
+            print("Editing: " + imagePrefix + ".jpg")
             subprocess.call(["convert", backImagePrefix + ".jpg", "-crop", "800x482+230+0", backImagePrefix + "-cr.jpg"])
             subprocess.call(["convert", imagePrefix + ".jpg", "-crop", "1660x1070+250+0", imagePrefix + "-cr.jpg"])
             subprocess.call(["convert", imagePrefix + "-cr.jpg", "-resize", "37%", imagePrefix + "-rs.jpg"])
