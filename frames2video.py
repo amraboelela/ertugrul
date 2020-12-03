@@ -23,7 +23,7 @@ def framesToVideo():
     videoPrefix = filePrefix + "-" + str(count).zfill(3)
     if not path.exists(videoPrefix + "-" + targetLanguage + "-c.mp4") and path.exists(videoFile):
         print("Generating: " + videoPrefix + ".mp4")
-        subprocess.call(["ffmpeg", "-y", "-r", "20", "-f", "image2", "-pattern_type", "glob", "-i", framePrefix + "-*.jpg", "-vcodec", "libx264", "-crf", "20", "-pix_fmt", "yuv420p", videoPrefix + "-cm.mp4"])
+        subprocess.call(["ffmpeg", "-y", "-r", "24", "-f", "image2", "-pattern_type", "glob", "-i", framePrefix + "-*.jpg", "-vcodec", "libx264", "-crf", "20", "-pix_fmt", "yuv420p", videoPrefix + "-cm.mp4"])
         subprocess.call(["ffmpeg", "-y", "-i", videoPrefix + "-cm.mp4", "-i", videoPrefix + "-tr.m4a", "-c", "copy", "-map", "0:v:0", "-map", "1:a:0", videoPrefix + "-" + targetLanguage + "-c.mp4"])
         os.system("rm -f " + videoPrefix + "-cm.mp4")
  

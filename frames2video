@@ -3,6 +3,6 @@ prefix=build/ertugrul-1-01
 imagePrefix="$prefix/frames/ertugrul-1-01-001"
 videoPrefix="$prefix/ertugrul-1-01-001"
 
-ffmpeg -y -r 20 -f image2 -pattern_type glob -i "$imagePrefix*.jpg" -vcodec libx264 -crf 20 -pix_fmt yuv420p $videoPrefix-cm.mp4
+ffmpeg -y -r 24 -f image2 -pattern_type glob -i "$imagePrefix*.jpg" -vcodec libx264 -crf 20 -pix_fmt yuv420p $videoPrefix-cm.mp4
 ffmpeg -i $videoPrefix-cm.mp4 -i $videoPrefix-tr.m4a -c copy -map 0:v:0 -map 1:a:0 $videoPrefix.mp4
 rm $videoPrefix-cm.mp4
