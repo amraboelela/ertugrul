@@ -4,7 +4,7 @@ prefix=$1
 sourceLanguage=$2
 targetLanguage=$3
 
-mkdir -p build/$prefix
+mkdir -p build/$prefix/frames
 prefixFile="build/$prefix-$targetLanguage.ttml"
 echo "prefixFile: " $prefixFile
 
@@ -21,6 +21,7 @@ python cut.py $prefix $targetLanguage
 #exit 0
 #python3 sayWords.py $prefix 2 $targetLanguage
 python3 video2frames.py $prefix $targetLanguage
+python3 editframes.py $prefix $targetLanguage
 exit 0
 
 python3 audio2video.py $prefix $targetLanguage

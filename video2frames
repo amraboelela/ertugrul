@@ -1,0 +1,1 @@
+ffmpeg -y -i "build/ertugrul-1-01/ertugrul-1-01-001-tr-a.mp4" -r 20 "build/ertugrul-1-01//frames/ertugrul-1-01-001-%4d.jpg"

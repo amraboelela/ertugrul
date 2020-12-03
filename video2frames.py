@@ -20,8 +20,10 @@ filePrefix = "build/" + prefix + "/" + prefix + "-"
 def videoToImage():
     audioFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + ".m4a"
     videoFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + "-a.mp4"
-    imageFile = "frames/" + filePrefix + str(count).zfill(3) + "-" + targetLanguage + "%4d.jpg"
-    if not path.exists(imageFile) and path.exists(audioFile):
+    imageFilePrefix = "build/" + prefix + "/frames/" + prefix + "-" + str(count).zfill(3)
+    imageFile = imageFilePrefix + "-%4d.jpg"
+    firstImageFile = imageFilePrefix + "-0001.jpg"
+    if not path.exists(firstImageFile) and path.exists(audioFile):
         subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-r", "20", imageFile])
  
 for line in lines:
@@ -30,5 +32,5 @@ for line in lines:
             videoToImage()
         count = count + 1
 
-videoToImage()
+#videoToImage()
 file.close()
