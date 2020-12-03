@@ -7,4 +7,4 @@ imagePrefix="build/ertugrul-1-01/frames/ertugrul-1-01-001-0002"
 convert $imagePrefix.jpg -crop 1660x1070+250+0 $imagePrefix-cr.jpg
 convert $imagePrefix-cr.jpg -resize 37% $imagePrefix-rs.jpg
 
-magick composite -gravity center $imagePrefix-rs.jpg $backImagePrefix-cr.jpg $imagePrefix-cm.jpg
+magick composite -gravity north $imagePrefix-rs.jpg $backImagePrefix-cr.jpg $imagePrefix-cm.jpg
