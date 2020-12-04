@@ -23,7 +23,7 @@ def videoToFrames():
     imageFile = imageFilePrefix + "-%4d.jpg"
     firstImageFile = imageFilePrefix + "-0001.jpg"
     if not path.exists(firstImageFile) and not path.exists(imageFilePrefix + "-0001-cm.jpg") and path.exists(videoFile):
-        subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-r", "24", imageFile])
+        subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-r", "1", imageFile])
  
 for line in lines:
     if "-->" in line:
