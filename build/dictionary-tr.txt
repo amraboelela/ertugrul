@@ -167,10 +167,10 @@ akacaklar: will flow
 akar: mite
 akarken: flows
 akcakoca'yı: the akcakoca
-akdeniz'de: in mediterranean
-akdeniz'den: the mediterranean
-akdenizde: in the mediterranean
-akdenizden: from the mediterranean
+akdeniz'de: in the Mediterranean
+akdeniz'den: the Mediterranean
+akdenizde: in the Mediterranean
+akdenizden: from the Mediterranean
 aklı: mentally
 aklıdır: mind is
 aklım: my mind
@@ -1042,7 +1042,7 @@ ağacından: from the tree
 ağalar: ağalar
 ağam: my master
 ağamla: with network
-ağanın: your lord
+ağanın: ağanın
 ağaç: tree
 ağla: cry
 ağladığın: you cry
@@ -2223,7 +2223,7 @@ cazgırının: of cazgır
 cebelleşmesi: the tussle
 cefakâr: longsuffering
 cehennem: hell
-cehennemde: hell
+cehennemde: in hell
 cehenneme: hell
 cehennemi: hellish
 cehennemin: hell
@@ -2686,7 +2686,7 @@ dileyecek: will wish
 dileğim: my wish
 dili: language
 dilim: slice
-dilimde: slices
+dilimde: in slices
 dilimdekine: now that in
 dilimin: slices
 dilin: the language
@@ -3412,7 +3412,7 @@ elimdeki: in my hand
 elimden: stripped
 elimin: my hand
 elimiz: our hands
-elimizde: our hands
+elimizde: in our hands
 elimizden: our best
 elimizi: our hands
 elimizin: our hands
@@ -3428,12 +3428,12 @@ elini: your hand
 eliniz: your hand
 elinizden: your hand
 elinizi: your hand
-ellerde: hands
+ellerde: in hands
 elleri: hands
 ellerimi: my hands
-ellerimizde: our hands
+ellerimizde: in our hands
 ellerimle: my hands
-ellerinde: their hands
+ellerinde: in their hands
 ellerine: to your hands
 ellerini: your hands
 elleriniz: your hands
@@ -3549,7 +3549,7 @@ eniştem: my uncle
 enne: enna
 ennehu: the enneh
 ense: nape
-ensemizde: our necks
+ensemizde: in our necks
 ensesinde: in the nape
 epeyce: quite a few
 er: er
@@ -3745,7 +3745,7 @@ evham: hypochondria
 evi: the house
 evimi: my home
 evimiz: our home
-evimizde: our home
+evimizde: in our home
 evimize: our house
 evine: house
 evladü: sissies
@@ -4151,7 +4151,7 @@ gereği: should
 gereğini: the need
 gergin: nervous
 geri: back
-geride: back
+geride: in the back
 gerilim: voltage
 gerisi: rest
 gerisini: the rest
@@ -4348,8 +4348,8 @@ gidiyoruz: we are going
 gidiş: going
 gidişi: going to
 gidişle: he's
-giovanni'de: in giovannia
-giovanni'nin: the giovannia
+giovanni'de: in Giovannia
+giovanni'nin: giovanni'nin
 giovanni: giovanni
 gir: enter
 girdi: entry
@@ -5125,7 +5125,7 @@ hanım: lady
 hanımefendi: lady
 hanımız: our h
 hapis: prison
-hapishanede: prison
+hapishanede: in prison
 hapse: jail
 hapsedildi: imprisoned
 hapsedildiğini: he was imprisoned
@@ -6065,7 +6065,7 @@ kadere: fate
 kaderi: fate
 kaderim: my destiny
 kaderime: my destiny
-kaderimizde: our destiny
+kaderimizde: in our destiny
 kaderini: fate
 kaderleriyle: their fate
 kadir: magnitude
@@ -6099,7 +6099,7 @@ kafirlerle: the unbelievers
 kaftan: caftan
 kahhar: kahhar
 kahharsın: you kahhar
-kahire'de: in cairo
+kahire'de: in Cairo
 kahire'den: from cairo
 kahkahaları: laughter
 kahraman: hero
@@ -6128,7 +6128,7 @@ kalana: the remaining
 kalanları: the remaining
 kalbi: heartland
 kalbim: my heart
-kalbimde: my heart
+kalbimde: in my heart
 kalbimdeki: my heart
 kalbime: my heart
 kalbimi: my heart
@@ -6140,7 +6140,7 @@ kalbinden: from the heart
 kalbini: your heart
 kalbinin: heart
 kalbiniz: your heart
-kalbinizde: your heart
+kalbinizde: in your heart
 kalbinizi: your heart
 kaldı: stayed
 kaldık: we're
@@ -8129,7 +8129,7 @@ nöbetçiler: guards
 nöbetçileri: guards
 o'na: him/her
 o'ndandır: he/she is from
-o: he/she
+o: he/she/it
 oba: tribe
 obada: tribe
 obadaki: in tribe
@@ -8924,7 +8924,7 @@ sandığın: the polls
 sandığındaki: in polls
 sandığınız: you think
 saniye: second
-saniyede: second
+saniyede: in a second
 sanki: if
 sanmam: I do not think so
 sanmasınlar: if not they
@@ -9995,7 +9995,7 @@ tepesi'ndeki: is the hill
 tepesi'ne: hill
 tepesi'nin: is the hill
 tepesi: hill
-tepesinde: on top of
+tepesinde: on the top
 tepesindeki: at the top of
 tepesine: on top of
 tepesinin: top of the
@@ -10324,6 +10324,7 @@ ulaştıysa: it has reached
 ulaşınca: reaches
 ulaşırdı: he reached
 ulu: great
+uluları: the great
 uluları;: exalted;
 uluların: of the great
 ulülemre: ulülemr to
@@ -11250,7 +11251,6 @@ yenmeyi: defeat
 yepyeni: brandnew
 yer: place
 yerde: in place
-yerde</font>: in place
 yerden: from the ground
 yerdeyiz: we're
 yerdeyse: if the place
@@ -11790,7 +11790,7 @@ zırladığın: you blubber
 Çeliğe: celik
 Çevre: environment
 Çeyizlerin: the dowry
-Çin'de: in china
+Çin'de: in China
 Çivit: indigo
 Çizgiyi: line
 Çobanlara: the shepherds
@@ -12841,7 +12841,7 @@ zırladığın: you blubber
 şehirlerde: in cities
 şehit: martyr
 şehri: city
-şehrimde: my city
+şehrimde: in my city
 şehrimi: my city
 şehrimize: our city
 şehrin: the city

@@ -39,15 +39,12 @@ $ ./build.sh 1 3 en tr
 $ ./clean 1 3 en tr
 ```
 
-**Title:** Learn Turkish from Ertugrul Subtitles, 1 - 1 (animated)
+**Title:** Learn Turkish from Ertugrul Subtitles, 1 - 1
 
 **Description:**
 
 Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in Turkish, and see the word by word meaning in the subtitles.
 Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/master/build/dictionary-tr.txt
-
-**Tags:**
-turkey, islam, muslim, ottoman, empire, culture
 
 ###Arabic
 
