@@ -26,28 +26,33 @@ for dictionaryLine in dictionaryLines:
     else:
         print("word without meaning: " + word)
 
+durationsLimitPath = "build/durationsLimit-" + targetLanguage + ".txt"
+durationsLimitFile = open(durationsLimitPath)
+durationsLimitLines = durationsLimitFile.read().splitlines()
+durationsLimitDictionary = {}
+for durationsLimitLine in durationsLimitLines:
+    lineSplit = durationsLimitLine.split(":")
+    theEpisode = lineSplit[0].strip()
+    if len(lineSplit) > 1:
+        limit = lineSplit[1].strip()
+        #print("word: " + word)
+        durationsLimitDictionary[theEpisode] = int(limit)
+    else:
+        print("theEpisode without limit: " + theEpisode)
+        
+#print("durationsLimitDictionary: " + str(durationsLimitDictionary))
+prefixParts = prefix.split("-")
+episode = prefixParts[2]
+#print("episode: " + episode)
+durationLowerLimit = durationsLimitDictionary[episode]
+print("durationLowerLimit: " + str(durationLowerLimit))
+
 targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "build/" + prefix + ".srt"
 
 targetFile = open(targetFilePath)
 subtitlesFile = open(subtitlesPath, "w")
 targetLines = targetFile.read().splitlines()
-
-targetParagraphs = []
-
-def getParagraphs(lines, paragraghs):
-    count = 0
-    paragraph = ""
-    for line in lines:
-        if "-->" in line:
-            if len(paragraph) > 0 and count > 0:
-                paragraph = paragraph[:len(paragraph)-2]
-                paragraghs.append(paragraph)
-            paragraph = ""
-            count = count + 1
-        else:
-            paragraph = paragraph + line + "\n"
-    paragraghs.append(paragraph)
 
 def timeString(timeFloat):
     milliSeconds = int(timeFloat * 1000 % 1000)
@@ -57,11 +62,14 @@ def timeString(timeFloat):
     minutes = int(totalMinutes % 60)
     hours = int(totalMinutes / 60)
     return str(hours).zfill(2) + ":" + str(minutes).zfill(2) + ":" + str(seconds).zfill(2) + "," + str(milliSeconds).zfill(3)
-   
-def writeToSubtitlesFile(paragraph):
+
+includeCount = 0
+
+def writeToSubtitlesFile(durationIndex, paragraph):
     global startTimeFloat
-    global durationIndex
-    subtitlesFile.write(str(durationIndex) + "\n")
+    global includeCount
+    includeCount = includeCount + 1
+    subtitlesFile.write(str(includeCount) + "\n")
     startTimeString = timeString(startTimeFloat)
     if durationIndex < len(durations):
         duration = float(durations[durationIndex])
@@ -93,11 +101,8 @@ def writeToSubtitlesFile(paragraph):
         subtitlesFile.write("</font>\n")
 
     subtitlesFile.write("\n")
-    durationIndex = durationIndex + 1
  
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
-    getParagraphs(targetLines, targetParagraphs)
-
     files = os.listdir("build/" + prefix)
     files = list(filter(lambda file: file[0] != ".", files))
     files = list(filter(lambda file: "-" + postfix + "." in file, files))
@@ -112,17 +117,42 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     durationsFile = open(durationsFilePath)
     durations = durationsFile.read().splitlines()
     startTimeFloat = float(0.0)
-    durationIndex = 0
     
-    for i in range(0, len(targetParagraphs)):
-        videoFile = "build/" + prefix + "/" + prefix + "-" + str(i+1).zfill(3) + "-" + targetLanguage + "-" + postfix + ".mp4"
-        #print "videoFile: " + videoFile
-        if path.exists(videoFile):
-            writeToSubtitlesFile(targetParagraphs[i])
+    filePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
+    file = open(filePath)
+    lines = file.read().splitlines()
+    prevStartTime = "00:00"
+    prevTimeStamp = 0
+    count = 0
+
+    paragraph = ""
+    for line in lines:
+        if "-->" in line:
+            times = line.split(" --> ")
+            startTime = times[0]
+            if targetLanguage == "tr":
+                startTime = "00:" + startTime
+            subTimes = startTime.split(":")
+            hours = int(subTimes[0])
+            minutes = int(subTimes[1])
+            secondsArray = subTimes[2].split(".")
+            seconds = int(secondsArray[0])
+            totalSeconds = minutes * 60 + seconds
+            timeStamp = totalSeconds + float(secondsArray[1]) / 1000
+            #print("timeStamp: " + str(timeStamp))
+            duration = timeStamp - prevTimeStamp
+            prevTimeStamp = timeStamp
+            if len(paragraph) > 0  and count > 0:
+                if duration > durationLowerLimit and duration < 22:
+                    paragraph = paragraph[:len(paragraph)-2]
+                    writeToSubtitlesFile(count-1, paragraph)
+            paragraph = ""
+            count = count + 1
+        else:
+            paragraph = paragraph + line + "\n"
 
 targetFile.close()
 subtitlesFile.close()
-
 sbtFile = "build/" + prefix + "-sbt-" + postfix + ".mp4"
 if not path.exists(sbtFile):
     os.system("handbrakecli -i build/" + prefix + "-" + postfix +".mp4 -o " + sbtFile + " --srt-file build/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")
