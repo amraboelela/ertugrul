@@ -21,6 +21,34 @@ count = 0
 prevStartTime = "00:00"
 prevTimeStamp = 0
 #durationShift = 0.13016528925
+
+prefixParts = prefix.split("-")
+episode = prefixParts[2]
+#print("episode: " + episode)
+switcher = {
+        "01": 3,
+        "02": 7,
+        "03": 3,
+        "04": 3,
+        "05": 3,
+        "06": 3,
+        "07": 3,
+        "08": 3,
+        "09": 3,
+        "10": 3,
+        "11": 3,
+        "12": 3,
+        "13": 3,
+        "14": 3,
+        "15": 3,
+        "16": 3,
+        "17": 3,
+        "18": 3,
+        "19": 3,
+        "20": 3
+    }
+durationLowerLimit = switcher.get(episode)
+print("durationLowerLimit: " + str(durationLowerLimit))
 for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
@@ -62,7 +90,7 @@ for line in lines:
         minutes = totalSeconds / 60 
         seconds = totalSeconds - minutes * 60
         startTime = str(minutes) + ":" + str(seconds) + "." + secondsArray[1]
-        if count > 0 and duration > 10 and duration < 30:
+        if count > 0 and duration > durationLowerLimit and duration < 22:
             filePrefix = "build/" + prefix + "/" + prefix + "-" + str(count).zfill(3)
             targetFile = filePrefix + "-" + targetLanguage
             if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
