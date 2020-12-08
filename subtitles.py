@@ -51,7 +51,6 @@ targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "build/" + prefix + ".srt"
 
 targetFile = open(targetFilePath)
-subtitlesFile = open(subtitlesPath, "w")
 targetLines = targetFile.read().splitlines()
 
 def timeString(timeFloat):
@@ -73,7 +72,7 @@ def writeToSubtitlesFile(cutCode, paragraph):
     startTimeString = timeString(startTimeFloat)
     duration = float(episodeDurationsDictionary[cutCode])
     startTimeFloat = startTimeFloat + duration
-    endTimeString = timeString(startTimeFloat)
+    endTimeString = timeString(startTimeFloat - 0.1)
     subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
     lines = paragraph.split("\n")
     for line in lines:
@@ -100,6 +99,8 @@ def writeToSubtitlesFile(cutCode, paragraph):
     subtitlesFile.write("\n")
  
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
+    print("not path.exists(subtitlesPath)")
+    subtitlesFile = open(subtitlesPath, "w")
     files = os.listdir("build/" + prefix)
     files = list(filter(lambda file: file[0] != ".", files))
     files = list(filter(lambda file: "-" + postfix + "." in file, files))
@@ -155,9 +156,9 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
             count = count + 1
         else:
             paragraph = paragraph + line + "\n"
-
+    subtitlesFile.close()
+#quit()
 targetFile.close()
-subtitlesFile.close()
 sbtFile = "build/" + prefix + "-sbt-" + postfix + ".mp4"
 if not path.exists(sbtFile):
     os.system("handbrakecli -i build/" + prefix + "-" + postfix +".mp4 -o " + sbtFile + " --srt-file build/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")
