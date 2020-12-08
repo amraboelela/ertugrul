@@ -59,7 +59,7 @@ for line in lines:
         minutes = totalSeconds / 60 
         seconds = totalSeconds - minutes * 60
         startTime = str(minutes) + ":" + str(seconds) + "." + secondsArray[1]
-        if count > 0:
+        if count > 0 and duration > 3 and duration < 22:
             filePrefix = "build/" + prefix + "/" + prefix + "-" + str(count).zfill(3)
             targetFile = filePrefix + "-" + targetLanguage
             if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
