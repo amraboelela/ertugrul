@@ -64,19 +64,16 @@ def timeString(timeFloat):
     return str(hours).zfill(2) + ":" + str(minutes).zfill(2) + ":" + str(seconds).zfill(2) + "," + str(milliSeconds).zfill(3)
 
 includeCount = 0
-
-def writeToSubtitlesFile(durationIndex, paragraph):
+episodeDurationsDictionary = {}
+def writeToSubtitlesFile(cutCode, paragraph):
     global startTimeFloat
     global includeCount
     includeCount = includeCount + 1
     subtitlesFile.write(str(includeCount) + "\n")
     startTimeString = timeString(startTimeFloat)
-    if durationIndex < len(durations):
-        duration = float(durations[durationIndex])
-        startTimeFloat = startTimeFloat + duration
-        endTimeString = timeString(startTimeFloat)
-    else:
-        endTimeString = "Not Yet"
+    duration = float(episodeDurationsDictionary[cutCode])
+    startTimeFloat = startTimeFloat + duration
+    endTimeString = timeString(startTimeFloat)
     subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
     lines = paragraph.split("\n")
     for line in lines:
@@ -116,6 +113,14 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
 
     durationsFile = open(durationsFilePath)
     durations = durationsFile.read().splitlines()
+    fileCount = 0
+    for file in files:
+        if not "~" in file:
+            fileParts = file.split("-")
+            cutCode = fileParts[3]
+            episodeDurationsDictionary[cutCode] = durations[fileCount]
+            fileCount = fileCount + 1
+            
     startTimeFloat = float(0.0)
     
     filePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
@@ -145,7 +150,7 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
             if len(paragraph) > 0  and count > 0:
                 if duration > durationLowerLimit and duration < 22:
                     paragraph = paragraph[:len(paragraph)-2]
-                    writeToSubtitlesFile(count-1, paragraph)
+                    writeToSubtitlesFile(str(count).zfill(3), paragraph)
             paragraph = ""
             count = count + 1
         else:
