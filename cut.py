@@ -18,8 +18,6 @@ count = 0
 prevStartTime = "00:00"
 prevTimeStamp = 0
 
-#durationLowerLimit = switcher.get(episode)
-#print("durationLowerLimit: " + str(durationLowerLimit))
 for line in lines:
     if "-->" in line:
         times = line.split(" --> ")
