@@ -12,20 +12,6 @@ else:
 
 print("## subtitles, prefix: " + prefix + ", targetLanguage: " + targetLanguage + ", postfix: " + postfix)
 
-#dictionaryFilePath = "build/dictionary-" + targetLanguage + ".txt"
-#dictionaryFile = open(dictionaryFilePath)
-#dictionaryLines = dictionaryFile.read().splitlines()
-#dictionary = {}
-#for dictionaryLine in dictionaryLines:
-#    lineSplit = dictionaryLine.split(":")
-#    word = lineSplit[0].strip()
-#    if len(lineSplit) > 1:
-#        meaning = lineSplit[1].strip()
-        #print("word: " + word)
-#        dictionary[word] = meaning
-#    else:
-#        print("word without meaning: " + word)
-
 durationsLimitPath = "build/durationsLimit-" + targetLanguage + ".txt"
 durationsLimitFile = open(durationsLimitPath)
 durationsLimitLines = durationsLimitFile.read().splitlines()
@@ -51,6 +37,8 @@ englishFilePath = "build/" + prefix + "-en.vtt"
 targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "build/" + prefix + ".srt"
 
+englishFile = open(englishFilePath)
+englishLines = englishFile.read().splitlines()
 targetFile = open(targetFilePath)
 targetLines = targetFile.read().splitlines()
 
@@ -77,26 +65,7 @@ def writeToSubtitlesFile(cutCode, paragraph):
     subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
     lines = paragraph.split("\n")
     for line in lines:
-        subtitlesFile.write("<font color=\"white\">")
-        words = line.split()
-        for word in words:
-            if word[-1] == "," or word[-1] == "." or word[-1] == "!" or word[-1] == "?":
-                subtitlesFile.write(word[:len(word)-1])
-            else:
-                subtitlesFile.write(word)
-            cleanWord = word.lower().replace(":","").replace(",","").replace(";","").replace("?", "").replace("!", "").replace(".", "").replace("[", "").replace("]", "").replace("-", "").replace("[","").replace("]","").replace("<i>","").replace("</i>","").replace('"', '').replace("'", "")
-            try:
-                meaning = dictionary[cleanWord]
-                #print("word: " + word + ", meaning: " + meaning)
-                if len(meaning.strip()) > 0 and meaning != cleanWord:
-                    subtitlesFile.write(" <font color=\"yellow\">(" + meaning + ")</font>")
-                    if word[-1] == "," or word[-1] == "." or word[-1] == "!" or word[-1] == "?":
-                        subtitlesFile.write(word[-1])
-                subtitlesFile.write(" ")
-            except Exception as error:
-                print("error: " + str(error))
-        subtitlesFile.write("</font>\n")
-
+        subtitlesFile.write("<font color=\"white\">" + line +"</font>\n")
     subtitlesFile.write("\n")
  
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
