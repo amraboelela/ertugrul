@@ -29,6 +29,7 @@ python combine.py $prefix $targetLanguage "c"
 #exit 0
 #python combine.py $prefix "s"
 
+python3 subtitleWords.py $prefix $targetLanguage "c"
 python3 subtitles.py $prefix $targetLanguage "c"
 exit 0
 python3 subtitles.py $prefix $targetLanguage "s"
