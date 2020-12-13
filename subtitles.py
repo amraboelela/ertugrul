@@ -12,19 +12,19 @@ else:
 
 print("## subtitles, prefix: " + prefix + ", targetLanguage: " + targetLanguage + ", postfix: " + postfix)
 
-dictionaryFilePath = "build/dictionary-" + targetLanguage + ".txt"
-dictionaryFile = open(dictionaryFilePath)
-dictionaryLines = dictionaryFile.read().splitlines()
-dictionary = {}
-for dictionaryLine in dictionaryLines:
-    lineSplit = dictionaryLine.split(":")
-    word = lineSplit[0].strip()
-    if len(lineSplit) > 1:
-        meaning = lineSplit[1].strip()
+#dictionaryFilePath = "build/dictionary-" + targetLanguage + ".txt"
+#dictionaryFile = open(dictionaryFilePath)
+#dictionaryLines = dictionaryFile.read().splitlines()
+#dictionary = {}
+#for dictionaryLine in dictionaryLines:
+#    lineSplit = dictionaryLine.split(":")
+#    word = lineSplit[0].strip()
+#    if len(lineSplit) > 1:
+#        meaning = lineSplit[1].strip()
         #print("word: " + word)
-        dictionary[word] = meaning
-    else:
-        print("word without meaning: " + word)
+#        dictionary[word] = meaning
+#    else:
+#        print("word without meaning: " + word)
 
 durationsLimitPath = "build/durationsLimit-" + targetLanguage + ".txt"
 durationsLimitFile = open(durationsLimitPath)
@@ -47,6 +47,7 @@ episode = prefixParts[2]
 durationLowerLimit = durationsLimitDictionary[episode]
 print("durationLowerLimit: " + str(durationLowerLimit))
 
+englishFilePath = "build/" + prefix + "-en.vtt"
 targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 subtitlesPath = "build/" + prefix + ".srt"
 
