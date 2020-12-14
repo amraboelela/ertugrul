@@ -2322,7 +2322,7 @@ cezasını: sentence
 cezayı: penalty
 ciddi: serious
 ciddiye: seriously
-cihan: universe
+cihan: heaven
 cihana: cihan
 cihanda: in the universe
 cihanın: the universe
@@ -2445,7 +2445,7 @@ dağın: mountain
 dağını: your mountain
 dağıt: deal
 dağıtan: spreading
-de: de
+de: too
 decency: decency
 dededen: dededen
 dedem: my grandfather
@@ -3202,7 +3202,7 @@ düşmüyor: does not fall
 düşmüş: fallen
 düşmüşken: inside his
 düşmüşler: fallen on
-düşsem: I duss
+düşsem: if I fall
 düşsün: you fall
 düşsünler: they fall
 düştü: fell
@@ -3446,7 +3446,7 @@ elif: elif
 elim: my hand
 elimde: in my hand
 elimdeki: in my hand
-elimden: stripped
+elimden: from my hand
 elimin: my hand
 elimiz: our hands
 elimizde: in our hands
@@ -3612,12 +3612,12 @@ erken: early
 erkenden: early
 erkeğin: men
 erkeğinin: of men
-erleri: erleri
-erlerimizi: our sooner
-erlerimizin: our sooner
-erlerin: the sooner
-ermek: the sooner
-ermiş: ermiş
+erleri: recruits
+erlerimizi: our privates
+erlerimizin: of our privates
+erlerin: your privates
+ermek: dissolve
+ermiş: slain
 ersiz: invalid
 erteledik: we've postponed
 ertelemek: reprieve
@@ -4230,7 +4230,7 @@ getireceğimi: I will bring
 getiren: that
 getireyim: I bring
 getirilecektir: will be
-getirin: bring the
+getirin: bring
 getirip: bring
 getirir: brings
 getirirler: they return
@@ -4523,17 +4523,17 @@ gökler: skies
 gökleri: heavens
 gökte: in the sky
 gökten: heaven
-gökyüzündeki: the sky
-gökyüzüne: the sky
-gökçe'nin: the gökçee
-gökçe'yi: the gökçee
-gökçe'yle: gökçe'yl to
+gökyüzündeki: gökyüzündeki
+gökyüzüne: gökyüzüne
+gökçe'nin: gökçe'nin
+gökçe'yi: gökçe'yi
+gökçe'yle: gökçe'yle
 gökçe: gökçe
-gökçem: I gökçee
-gökçenin: gokce
-gökçeyi: the sky
-gökçeyle: with the sky
-gökçe’m: I gökçee
+gökçem: gökçem
+gökçenin: gökçenin
+gökçeyi: gökçeyi
+gökçeyle: gökçeyle
+gökçe’m: gökçe’m
 gölge: shadow
 gölgelememesi: the shading
 gölgeleyecek: to overshadow
@@ -4701,7 +4701,7 @@ görürüm: I saw
 görüyor: sees
 görüyorsunuz: you see
 görüyorum: I see
-görüşecekmiş: gonna opinions
+görüşecekmiş: will meet
 görüşeceğiz: we will meet
 görüşemezlerse: if they can not see
 görüşmedik: we interview
@@ -5800,7 +5800,7 @@ istemişlerdi: they wanted
 istemiştim: I want
 istenenleri: airports desired
 istenmediği: undesirable
-ister: either
+ister: wants
 isterdi: he would have liked
 isterdim: I would like to
 isterim: I want
@@ -5859,7 +5859,7 @@ itini: push the
 itinin: of it
 itiraf: confession
 itiraz: objection
-itirazı: appeal
+itirazı: objection
 itlaf: cull
 itler: push on
 itlerin: push the
@@ -7876,7 +7876,7 @@ meşgul: busy
 meşguldür: is busy
 meşhur: famous
 meşk: dovey
-mi: did you
+mi: is it
 miadı: miat
 midesinden: from stomach
 midir: is it
