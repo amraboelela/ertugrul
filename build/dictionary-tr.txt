@@ -432,7 +432,7 @@ alâeddine: Alaeddin
 alâeddini: recklessness
 alâeddinin: Alaeddin
 alçak: low
-alçaklar: lows
+alçaklar: bad people
 alçaklığı: treachery
 alî: ali
 alıcıların: buyers
@@ -700,7 +700,7 @@ arlanmaz: not repeatability
 armağan: gift
 arsalarına: plot to
 arttırmanı: new arttırmanı
-artuk: artuq
+artuk: no more
 artık: no longer
 artıkları: residues
 artıklarından: from now
@@ -1637,7 +1637,7 @@ bey’in: leader
 bezelye: pea
 beş: five
 beşikteki: in the cradle
-biat: fealty
+biat: allegiance
 bil: know
 bilakis: contrarily
 bildi: I know
@@ -3486,21 +3486,21 @@ elçisidir: envoy is
 elçisini: envoy
 elçiyi: envoy
 emanet: trust
-emaneti: escrow
-emanetimi: safety me
-emanetimize: safety us
-emanetimizi: our safety
-emanetini: entrusted to
-emanetlendiniz: did you emanetl
-emanetleri: relics
-emanetlerimizi: our luggage
-emanetlerin: of safety
-emanetlerini: their safety
-emanetlerinin: escrow
-emanetsiniz: emanetsiniz
-emekler: crawl
-emelimiz: our emelie
-emeğini: labor
+emaneti: trust
+emanetimi: my trust
+emanetimize: to our trust
+emanetimizi: our trust
+emanetini: your trust
+emanetlendiniz: you are entrusted
+emanetleri: trusted things
+emanetlerimizi: our trusted things
+emanetlerin: your trusted things
+emanetlerini: your trusted things
+emanetlerinin: your trusted things
+emanetsiniz: you are entrusted
+emekler: labor
+emelimiz: our ambition
+emeğini: his/her labor
 emin: safe
 eminim: I am sure
 emir'den: orders from
@@ -5315,7 +5315,7 @@ hayvanı: bestial
 hayy'dan: from the alive
 hayydan: dear
 hayır: no
-hayırdır: what's up
+hayırdır: what's up/is good
 hayırlar: auspiciousness
 hayırlara: no to
 hayırlı: good
@@ -5576,7 +5576,7 @@ iflah: prosper
 iftihar: boast
 iftira: slander
 iftiradır: it is defamatory
-iftiralar: slander
+iftiralar: slanders
 iftiralara: to slander
 iftirayla: defamation
 ih: exp
@@ -6098,15 +6098,15 @@ kabahat: fault
 kabarır: swells
 kabile: clan
 kabilede: the tribe
-kabileden: from tribe
-kabiledir: tribe
-kabilelerinden: the tribe
+kabileden: from the tribe
+kabiledir: is a tribe
+kabilelerinden: from their tribes
 kabilelerle: with tribes
 kabilem: my tribe
 kabilemin: my tribe
 kabilemiz: our tribe
-kabilemizde: our tribe
-kabilemizdeki: our tribe
+kabilemizde: in our tribe
+kabilemizdeki: in our tribe
 kabilemizden: our tribe
 kabilemize: our tribe
 kabilemizi: our tribe
@@ -6118,12 +6118,12 @@ kabilenin: the tribe
 kabileniz: your tribe
 kabilenizin: your tribes
 kabilesi: tribe
-kabilesidir: is tribe
-kabilesinde: the tribe
-kabilesini: tribe
-kabileye: tribe
-kabileyi: tribe
-kabiliniz: k department
+kabilesidir: is the tribe
+kabilesinde: in the tribe
+kabilesini: his/her tribe
+kabileye: to the tribe
+kabileyi: the tribe
+kabiliniz: your tribe
 kabul: accept
 kabullenemedi: could not accept
 kabulümüzdür: our acceptance
@@ -6131,9 +6131,8 @@ kaburganın: the ribs
 kabus: nightmare
 kabuslar: nightmares
 kabuğu: shell
-kadar: until
+kadar: much/until
 kadardır: is decided
-kadardır</font>: it is up
 kadarmış: so much
 kadarıyla: as far as
 kadem: my foot
@@ -7088,7 +7087,7 @@ korkutan: the scare
 korkuyor: afraid
 korkuyordun: you afraid
 korkuyorum: I'm afraid
-koru: grove
+koru: protect
 koruduklarını: they protect
 korudunuz: protect you
 korumak: protect
@@ -8748,7 +8747,7 @@ prensleri: princes
 problem: problem
 problemin: the problem
 programlarını: programs
-pusaklanmış: pusakl were followed
+pusaklanmış: compacted
 pusat: pusat
 pusatlandırır: pusatlandır is
 pusatlar: pusatlar
@@ -9236,7 +9235,7 @@ semireceği: will fatten
 semirtir: will fatten
 sen: you
 sence: what do you think
-sende: cents to
+sende: you too
 sendedir: in you
 senden: from you
 sendin: you're the one
@@ -9473,7 +9472,7 @@ sormam: to ask
 sormaya: to ask
 sormayacak: will ask
 sormuş: he asked
-sorsanız: if you h
+sorsanız: if you ask
 soru: question
 sorularını: questions
 sorularınızı: your questions
@@ -9596,7 +9595,7 @@ sök: shock
 sökmeyi: disassemble
 sökmez: no go
 sökülmesi: dismantling
-sökün: remove the
+sökün: unscrew
 söndürdüm: I put
 söndürecek: will put
 söndürmemiz: our fighting
@@ -9642,7 +9641,7 @@ söylemiştin: tell you
 söylemiştiniz: did you say
 söylendiğini”: told that
 söylenemez: said
-söylenenler: sung on
+söylenenler: said
 söylenenleri: what was said
 söylenenlerin: said the
 söylenir: is said
@@ -10214,7 +10213,7 @@ toplatıp: toplatıp
 toplayabilir: you can collect
 toplayacaksın: will gather
 toplayacağız: will collect
-toplayan: collects
+toplayan: collecting
 toplayın: gather
 toplayıp: picking
 toplu: collective
@@ -10339,7 +10338,7 @@ tutuklatmış: he was arrested
 tutuklayan: who arrested
 tutulacaksınız: you will be
 tutumunuz: your attitude
-tutun: tobacco
+tutun: weed
 tutup: grasp
 tutuyor: holding
 tutuyordur: are holding
@@ -10420,7 +10419,7 @@ tırnağınla: with fingernail
 tırnağıyla: the quotation
 ucu: tip
 ucunda: at the end
-ucundan: the end
+ucundan: from the tip
 ufak: small
 ufuk: horizon
 ufuklar: horizons
@@ -11091,7 +11090,7 @@ yaptı: made
 yaptık: we did
 yaptıklarına: do they
 yaptıklarında: do they
-yaptıklarından: they did
+yaptıklarından: what they did
 yaptıklarını: do they
 yaptıklarının: do they
 yaptım: I did
@@ -11248,9 +11247,9 @@ yayanlar: emitting
 yaycının: the radiating
 yaydan: from spring
 yaygara: fuss
-yayladan: the springs
+yayladan: from the plateau
 yaylak: pasture
-yaylalardan: from the springs
+yaylalardan: from the highlands
 yaylaların: springs of
 yaylanın: the plateau
 yaylasında: in the highlands
@@ -11259,7 +11258,7 @@ yaymaya: spread
 yayıldı: spread
 yayılmışsınız: you spread
 yayın: broadcasting
-yayından: the publication
+yayından: from broadcast
 yayını: broadcasting
 yazan: writer
 yazar: author
@@ -11528,7 +11527,7 @@ yolculuğunda: the journey
 yolculuğunu: journey
 yolculuğunuz: your journey
 yolda: on the road
-yoldan: the road
+yoldan: way
 yoldayız: we're on
 yoldaş: comrade
 yoldaşlarım: my comrades
@@ -11566,7 +11565,7 @@ yolun: the road
 yoluna: way to
 yolunan: plucked the
 yolunda: right
-yolundan: path
+yolundan: out of the way
 yolundur: download road
 yolunu: the way
 yolunun: the way
@@ -11614,7 +11613,7 @@ yurdumuzda: our country
 yurdumuzu: our country
 yurdun: the country
 yurdunda: dorm
-yurdunuzdan: your land
+yurdunuzdan: from your country
 yurt: dorm
 yurtmuş: been abroad
 yurtsuz: homeless
@@ -11733,7 +11732,7 @@ yıkıp: demolished
 yıl: year
 yılan: snake
 yılanlar: snakes
-yılanlardan: of snakes
+yılanlardan: from snakes
 yıldönümü: anniversary
 yıldır: years
 yıldırım: lightning
@@ -11884,7 +11883,7 @@ zulmünün: of persecution
 zulüm: persecution
 zülcelâli: The Almighty
 zülfikar'dan: on the strength of
-zülfikardan: zulfiqar
+zülfikardan: zülfikardan
 zırhını: armor
 zırladığın: you blubber
 Âdettendir: it's traditional
@@ -12091,7 +12090,7 @@ zırladığın: you blubber
 çalışıyoruz: we are working
 çantasından: from the bag
 çapul: booty
-çaputları: tatters
+çaputları: shores
 çare: cure
 çaremiz: our resort
 çaresi: remedy
@@ -12334,7 +12333,7 @@ zırladığın: you blubber
 çıkarken: while
 çıkarlar: interests
 çıkarma: extraction
-çıkarmadan: removing
+çıkarmadan: without removing
 çıkarmak: eject
 çıkarmamız: our removal
 çıkarmanın: remove
@@ -12346,7 +12345,7 @@ zırladığın: you blubber
 çıkartabilecek: remove that could
 çıkartacağım: I will remove
 çıkartalım: draw
-çıkartmadan: removing
+çıkartmadan: without removing
 çıkartmanın: the stickers
 çıkartmıyorsam: can not remove
 çıkarttım: I removed
@@ -12928,15 +12927,15 @@ zırladığın: you blubber
 şafi: safi
 şah'ı: actually
 şah'ım: my shah
-şah'ın: hawk
+şah'ın: şah'ın
 şah'ından: from his shah
-şah: shah
+şah: şah
 şaha: field
-şahabettin: you stole
+şahabettin: şahabettin
 şahabettine: shahabettine
-şahabettini: the badass
-şahabettinin: the badass
-şahabettinle: with your badass
+şahabettini: şahabettini
+şahabettinin: şahabettinin
+şahabettinle: şahabettinle
 şahbaz: imperial
 şahidi: witness
 şahidim: my witness
