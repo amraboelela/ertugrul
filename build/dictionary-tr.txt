@@ -197,11 +197,11 @@ aklınızdan: your mind
 akmaz: it does not flow
 akrabaları: relatives
 akrebin: scorpions
-aksa'da: in the evening
-aksa'ya: aksaya
+aksa'da: aksa'da
+aksa'ya: aksa'ya
 aksa: evening
-aksada: in hitch
-aksaya: hitch
+aksada: aksada
+aksaya: aksaya
 aksi: opposite
 aksilik: mishap
 aksine: unlike
@@ -432,7 +432,7 @@ alâeddine: Alaeddin
 alâeddini: recklessness
 alâeddinin: Alaeddin
 alçak: low
-alçaklar: bad people
+alçaklar: low (bad) people
 alçaklığı: treachery
 alî: ali
 alıcıların: buyers
@@ -506,16 +506,16 @@ anadolu’daki: anadoludaki
 anahtar: key
 anahtarı: the key
 analığın: maternity
-anam: my main
+anam: my mother
 anamıza: to our mother
-anamızın: our main
+anamızın: of our mother
 anan: mother
-ananla: main with
+ananla: with your mother
 ananlar: mother's
 ananın: your mothers
 anası: mother
-anasına: home to
-anasını: the main
+anasına: to mother
+anasını: mother
 anavatanımız: our homeland
 anavatanımızın: our homeland
 anaya: constitution
@@ -1207,7 +1207,7 @@ bakarsan: if you look
 bakarsın: you look
 bakarım: I look
 bakarız: we'll see
-bakayım: bakayım
+bakayım: let me see
 baklayı: beans
 bakma: do not look
 bakmak: look
@@ -1291,7 +1291,7 @@ batacağız: will sink
 batasın: you're sunk
 battığı: sank
 batıl: superstitious
-batımına: sunset to
+batımına: to the sunset
 batısı: western
 baybora'nın: the baybora
 baybora'ydı: I baybora'y
@@ -1312,8 +1312,8 @@ bağdat'a: to Baghdad
 bağdat'ta: in Baghdad
 bağdat'tan: from Baghdad
 bağdat: Baghdad
-bağdata: vineyard
-bağdatta: in baghdad
+bağdata: bağdata
+bağdatta: in Baghdad
 bağdattan: from Baghdad
 bağla: connect
 bağlamış: tied
@@ -1362,7 +1362,7 @@ başkasına: someone else
 başkasını: someone else
 başkasıysa: if another
 başkentlere: the capital
-başkentlerinden: capital of the
+başkentlerinden: from their capitals
 başla: start
 başladı: started
 başladınız: you start
@@ -1759,8 +1759,8 @@ birbirinizi: each other
 birbirlerine: to each other
 birbirlerini: each other
 birden: suddenly
-bire: I'd like to send a message by email
-birer: a
+bire: to one
+birer: one by one
 biri: someone
 biricik: only
 biridir: it is one
@@ -1847,7 +1847,7 @@ bittiğinde: when finished
 bittiğinin: that bit
 biz: we
 bizde: us
-bizden: u.s
+bizden: from us
 bize: to us
 bizi: us
 bizim: our
@@ -3116,7 +3116,7 @@ dükkândayım: I shop
 dün: yesterday
 dündar'la: dündar'l to
 dündar: dündar
-dündarla: dundar
+dündarla: dündarla
 düne: yesterday
 dünkü: yesterday's
 dünya: world
@@ -3522,7 +3522,7 @@ emniyetim: my safety
 emniyetini: safety
 emniyetinizi: safety of your
 emniyetli: reliable
-emniyette: in safety
+emniyette: safe
 emredersin: you ordered
 emredersiniz: your order
 emredin: the ordered
@@ -3831,15 +3831,15 @@ ey: oh
 eyer: saddle
 eyerlerini: the saddle
 eyerleyip: eyerleyip
-eyle: eyle
-eyledi: he was acting
-eyledik: we act
-eylediler: they act
-eylediysek: if we act
-eylemedik: we could not eyle
-eylemediysek: eyle were unable
-eyler: eyler
-eylesin: eylesin
+eyle: do
+eyledi: was made
+eyledik: we did
+eylediler: they did
+eylediysek: if we did
+eylemedik: we did not act
+eylemediysek: if we did
+eyler: things
+eylesin: let it
 eyleyeceğiz: we will act
 eyvallah: yes by Allah
 eyyubi'nin: the Eyyuby
@@ -4012,7 +4012,7 @@ gayret: effort
 gayretim: my efforts
 gayretinde: in an effort
 gayrettir: are efforts
-gayri: non
+gayri: non-
 gayrı: non
 gayrısı: those outside
 gayrıya: those outside the
@@ -6270,7 +6270,7 @@ kalman: to stay
 kalmanda: having
 kalmanız: your stay
 kalması: stay
-kalmasın: kalmasın
+kalmasın: no longer
 kalmayacak: will remain
 kalmayacaktır: will remain
 kalmayalım: let's not
@@ -7916,7 +7916,7 @@ misafirlerinden: guests of the
 misafirlerini: their guests
 misafirlik: residencies
 misafirlikleri: sojourns
-misali: misali
+misali: like
 misin: are/will you
 misiniz: are you
 miskinlikle: miskinlikl to
@@ -7960,7 +7960,7 @@ muhammed: muhammed
 muhammede: muhammede
 muhammeden: muhammeden
 muhammedi: muhammedi
-muhammedilerin: muhammedilerin
+muhammedilerin: of the muslims
 muhammedin: muhammedin
 muhiddin: muhiddin
 muhkem: strong
@@ -8017,7 +8017,7 @@ mühimsiniz: you make too
 mühlet: respite
 mühletiniz: you respite
 mührü: seal
-mührüyle: the seal
+mührüyle: with seal
 mühürlendi: sealed
 müjdecisi: usher
 müjdeler: glad tidings
@@ -8245,7 +8245,7 @@ oban: tribe
 obana: to me
 obandaki: in tribe
 obanı: the tribe
-obanın: tibe's
+obanın: tribe
 obanız: your tribe
 obanıza: to tribe
 obanızda: your tribe
@@ -9521,24 +9521,24 @@ suikastçı: conspirator
 suikastçıyı: assassin
 suistimal: abuse
 sulandırmak: reconstitute
-sultan'a: sultana
-sultan'u: sultan
-sultan'ı: sultana
-sultan'ım: sultan
-sultan'ın: the sultan
+sultan'a: sultan'a
+sultan'u: sultan'u
+sultan'ı: sultan'ı
+sultan'ım: sultan'ım
+sultan'ın: sultan'ın
 sultan: sultan
 sultana: sultana
 sultani: sultana
-sultanla: the sultan
-sultanların: sultans
-sultanu: sultan
-sultanı'nı: the sultan
+sultanla: sultanla
+sultanların: sultanların
+sultanu: sultanu
+sultanı'nı: sultanı'nı
 sultanı: sultanı
-sultanım: sultan
+sultanım: sultanım
 sultanımızı: our sulten
 sultanın: the sultan
 sultanını: your sultan
-sultan’a: sultana
+sultan’a: sultan’a
 sunacağım: I offer
 sunduk: we offer
 sungur'un: the sungur
@@ -9715,7 +9715,7 @@ sözünle: with promise
 sözünü: promise
 sözünün: of promise
 sözünüze: promise you
-sükunet: quiescence
+sükunet: quiet
 sülalemizi: our family
 süleyman'a: solomon
 süleyman'ı: solomon
@@ -10158,12 +10158,12 @@ teşkil: pose
 thomas: thomas
 ticari: commercial
 tiran: tyrant
-tirkeşlerinizden: your tirkes
-titremektesin: titremekt press
-titremeye: tremble
-titrersin: you titers
+tirkeşlerinizden: your friends
+titremektesin: you are shaking
+titremeye: to tremble
+titrersin: you tremble
 titreşip: flickered
-titrinden: the titre
+titrinden: from your tremble
 titriyorsan: if you trembling
 titriyorsun: you're shaking
 titriyorsunuz: you shaking
@@ -10739,7 +10739,7 @@ verdiler: they gave
 verdim: I gave
 verdin: you gave
 verdiniz: you gave
-verdiği: tweaking
+verdiği: given by
 verdiğim: I gave
 verdiğimiz: we give
 verdiğin: you gave
@@ -10761,7 +10761,7 @@ veremem: can not give
 veremeyiz: we can not
 veremez: can not
 veren: that
-vereyim: let me give you
+vereyim: let me give
 vergileri: taxes
 vergilerini: taxes
 vergisini: taxes
@@ -11169,7 +11169,7 @@ yardımcıları: aids
 yardımcım: I help
 yardımcımız: our help
 yardımcın: to help
-yardımcını: help the
+yardımcını: your assistant
 yardımcınız: your help
 yardımcısı: help
 yardımları: help
@@ -11415,7 +11415,7 @@ yeter: enough
 yeterince: enough
 yeterli: enough
 yetinmeyip: not satisfied
-yetiş: grow
+yetiş: catch up
 yetişemedik: we could not make
 yetişemediniz: did not catch
 yetişirim: I grew up
@@ -11812,11 +11812,11 @@ zekiydin: clever
 zekân: intelligence
 zekâna: intelligence to
 zekânı: the intelligence
-zengi'nin: the rich
-zengid'in: the rich
-zengindik: we are rich
-zenginin: the rich
-zenginliğin: wealth
+zengi'nin: zengi'nin
+zengid'in: zengid'in
+zengindik: zengindik
+zenginin: zenginin
+zenginliğin: zenginliğin
 zevk: taste
 zevkine: enjoy the
 zevklerinize: your pleasure
@@ -12832,7 +12832,7 @@ zırladığın: you blubber
 Şah'la: leader
 Şah'tan: the leader
 Şah'tır: leader
-Şah'ı: actually
+Şah'ı: Şah'ı
 Şah'ım: leader
 Şah'ımız: our leader
 Şah'ımıza: our leader
