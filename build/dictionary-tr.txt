@@ -253,7 +253,7 @@ alaaddin'e: alaaddin to
 alaaddin'in: the alaaddin
 alaaddin: Aladdin
 alaaddinin: Aladdin
-alabilirim: I get
+alabilirim: I can get
 alacak: credit
 alacakaranlıkları: twilight of
 alacakları: receivables
@@ -302,7 +302,7 @@ aldırışsızlığı: indifference of
 aldıysam: I received
 aldığı: receives
 aldığım: I received
-aldığımı: I get
+aldığımı: I got
 aldığımız: we received
 aldığın: you get
 aldığını: it takes
@@ -940,8 +940,8 @@ ayrı: separate
 ayrıca: also
 ayrılacak: be separated
 ayrılacaksın: you will be leaving
-ayrılacağız: we leave
-ayrılalım: I split
+ayrılacağız: we will leave
+ayrılalım: let's break up
 ayrıldı: left
 ayrıldık: we left
 ayrıldılar: they left
@@ -1434,7 +1434,7 @@ bebeler: bebeler
 bebeleri: babes
 bebelerimiz: our baby
 bebemin: my baby
-bebenin: beben
+bebenin: your baby
 bebesinden: the baby
 bebeğe: baby
 bebeği: his baby
@@ -1604,11 +1604,11 @@ beyimize: our leader
 beyimizi: our leader
 beyimizin: our leader
 beyin: leader
-beyinde: in the brain
-beyindir: it is the leader
+beyinde: the leader
+beyindir: is the leader
 beyini: the leader
 beyinin: the leader
-beyinize: to your brain
+beyinize: to your leader
 beyinizin: your leader
 beyler: gentlemen
 beylerden: the gentlemen
@@ -1706,7 +1706,7 @@ biliyorsun;: you know;
 biliyorsunuz: you know
 biliyorum: I know
 biliyoruz: we know
-billahi: billahi
+billahi: by Allah
 bilmeden: without knowing
 bilmediğimiz: we do not know
 bilmediğin: do not know
@@ -1740,7 +1740,7 @@ bilsem: I knew
 bilseydim: I knew
 bilsin: you know
 bin: thousand
-bindir: thrusted
+bindir: get on
 bineceğiz: we'll ride
 binenin: thousand of
 binin: thousand
@@ -2219,12 +2219,12 @@ camii’ndeki: in the mosque
 camilerinde: in mosque
 camilerine: the mosque
 camiye: mosque
-can: bell
+can: soul
 canan: canan
-canavarlaşmış: canavarlaş have
-candan: cordially
-candaş: candash
-candaşı: candash of
+canavarlaşmış: deified
+candan: sincerely
+candaş: dear
+candaşı: friend
 canhıraş: heartbreaking
 cani: villain
 canla: and soul
@@ -2235,15 +2235,15 @@ canı: villain
 canım: my dear
 canımdan: my dear
 canımdır: is my life
-canımı: canımı
-canımız: our c
-canımıza: our c
+canımı: my dear
+canımız: our dear
+canımıza: our dear
 canımızı: lifes
 canın: the soul
-canına: dear to
-canını: canını
-canının: of life
-canınızın: your car
+canına: to your life
+canını: your life
+canının: your soul
+canınızın: your soul
 casusları: spies
 casuslarını: spy
 casusu: spy
@@ -3322,7 +3322,7 @@ edeceğiniz: you will
 edeceğinizi: will you
 edeceğiz: we will
 edelim: let's
-edemedik: we can not
+edemedik: we couldn't
 edemedim: I could not
 edemedin: you can not
 edemediğini: he could not
@@ -3365,15 +3365,15 @@ edilmesi: to
 edilmesin: you are not
 edilmesine: not to
 edilmez: will not be
-edin: learn
-edince: learn by
+edin: get
+edince: when you get
 edip: whether
-ediver: acidifying the
+ediver: ediver
 ediyor: doing
-ediyordu: he would
-ediyorlar: they're
-ediyorsun: you're
-ediyorsunuz: curious
+ediyordu: was doing
+ediyorlar: they make
+ediyorsun: you do
+ediyorsunuz: you want
 ediyorum: I would
 ediyoruz: we do
 ee: ee
@@ -3429,16 +3429,16 @@ elde: obtained
 eldeki: available
 elden: from hand
 ele: addressed
-elenora'm: I elenora
-elenora'mıza: our elenora
-elenora'nın: the elenora
-elenora'yı: elenora the
+elenora'm: elenora'm
+elenora'mıza: elenora'mıza
+elenora'nın: elenora'nın
+elenora'yı: elenora'yı
 elenora: elenora
-elenoram: elenoram
-elenoramıza: to our staff
-elenoranın: staff
-elenorayı: elenora
-elenora’m: I elenora
+elenoram: my Elenora
+elenoramıza: elenoramıza
+elenoranın: elenoranın
+elenorayı: elenorayı
+elenora’m: my Elenora
 elhamdülillah: thanks to Allah
 elhamdülillahi: thanks to Allah
 eli: his hand
@@ -3769,7 +3769,7 @@ ettiğinde: when
 ettiğini: watch it
 ettiğiniz: that you
 ettiğinizi: you've
-euzu: euzu
+euzu: I seek refuge
 ev: home
 evcil: domestic
 evcilleştirildi: it was domesticated
@@ -3998,7 +3998,7 @@ ganimet: loot
 ganimetlerle: spoils
 gardaşlarım: my gardaş
 gardaşlarımıza: our gardaş
-gardaşım: I gardaş
+gardaşım: my friend
 gardiyanlar: guards
 garip: strange
 gariplerim: my weird
@@ -4096,7 +4096,7 @@ gelenler: arrivals
 gelenleri: from the
 gelenlerin: from the
 geleyim: I come
-gelin: bride
+gelin: come
 gelince: as for
 gelini: bride
 gelinim: my point
@@ -4812,7 +4812,7 @@ göçe: migrated to
 göçebe: wandering
 göçecek: to migration
 göçeceğimiz: we migrated
-göçelim: I göçel
+göçelim: göçelim
 göçemezsek: if we do not migrating
 göçer: migration
 göçerleri: the nomads
@@ -4820,7 +4820,7 @@ göçerlerin: of nomads
 göçler: migration
 göçmeden: without collapsing
 göçmen: immigrant
-göçmeyelim: I göçmeyel
+göçmeyelim: göçmeyelim
 göçten: from migration
 göçtüğümüzde: when migration
 göçü: migration
@@ -5113,7 +5113,7 @@ halledebildin: could care
 halledeceğim: I'll take care of
 halledelim: let's get
 halleder: take care
-hallederim: I got
+hallederim: I handle
 hallederiz: hallederiz
 halledersin: you care
 halledince: halledin by
@@ -5392,8 +5392,8 @@ hekim: physician
 hekime: to physician
 hekimi: physician
 helal: halal
-helallik: helallik
-hele: hele
+helallik: being lawful
+hele: especially
 hem: both
 hemen: immediately
 hemfikir: agreed
@@ -5513,7 +5513,7 @@ huzurunda: before
 huzurunu: peace
 hz: hz
 hâl: status
-hâlde: in case
+hâlde: in that case
 hâldedir: is still
 hâle: appeared to
 hâli: carpet
@@ -5579,7 +5579,7 @@ iftiradır: it is defamatory
 iftiralar: slanders
 iftiralara: to slander
 iftirayla: defamation
-ih: exp
+ih: ih
 ihanet: betrayal
 ihaneti: treachery
 ihanetinden: the betrayal
@@ -5913,7 +5913,7 @@ izleyenler: followers
 iznimiz: our permission
 izniniz: your permission
 izninizle: with your permission
-izniyle: courtesy
+izniyle: with permission
 iç: drink
 içeceksin: you drink
 içemez: can not drink
@@ -6320,7 +6320,7 @@ kanatlarının: ribs
 kanayacak: will bleed
 kanayan: bloody
 kancığa: a bitch
-kancığı: the bitches
+kancığı: kancığı
 kancığın: the bitches
 kanda: blood
 kandan: from blood
@@ -6488,7 +6488,7 @@ karşılamaya: welcome
 karşılanacaktık: would be met
 karşılarsın: you meet
 karşılarına: against
-karşılayalım: I greet
+karşılayalım: let's meet
 karşılayasın: meet you
 karşılaşacağı: will face
 karşılaşacağını: will face
@@ -6663,7 +6663,7 @@ kaçma: escape
 kaçmak: escape
 kaçmaktan: fleeing
 kaçmalarına: escape the
-kaçmamaları: they flee
+kaçmamaları: not to run away
 kaçmamalı: should escape
 kaçmana: escape
 kaçması: dodge
@@ -6702,9 +6702,9 @@ kaçırmışlar: they kidnapped
 kaçırmışsınız: you missed
 kaçırıldı: he was kidnapped
 kaçıyor: fleeing
-kaçıyorlar: they flee
-kaçıyoruz: kaçıyoruz
-kaçışını: escape
+kaçıyorlar: they are escaping
+kaçıyoruz: we are escaping
+kaçışını: your escape
 kağan'ımız: kağan'ımız
 kağanımız: kağanımız
 kaş: eyebrow
@@ -6903,7 +6903,7 @@ kocanın: husband
 kocasın: you husbands
 kocasına: husband
 kocasını: husband
-kocayınca: kocayın by
+kocayınca: when you grow old
 kokarca: skunk
 kokunuzdan: from your smell
 kokusu: smell
@@ -7124,11 +7124,11 @@ koydun: you put
 koyma: do not put
 koymak: put
 koymalısın: you should put
-koymam: I put
-koymamaya: placing
-koymasam: I koymasa
-koymasaydın: imperative for you were
-koymazdı: would put
+koymam: I don't put
+koymamaya: not to put
+koymasam: I don't put
+koymasaydın: if you didn't put
+koymazdı: wouldn't put
 koymuş: put
 koynuna: bosom
 koyulacağım: I will put
@@ -7667,9 +7667,9 @@ lokmalarınız: your bite
 lokmamız: our bite
 lokman: the bite
 lokmanızı: bite you
-lokması: fritters
+lokması: bite
 lokmasını: the bite
-lowlife'ı: the lowlife
+lowlife'ı: lowlife'ı
 lâkin: not that
 lâzım: necessary
 lütfen: please
@@ -7745,7 +7745,7 @@ masadan: from the table
 masal: tale
 masallar: tales
 masaya: table
-maskarası: mascara
+maskarası: maskarası
 masraflarından: from expenses
 masum: innocent
 masumiyeti: innocence
@@ -7888,8 +7888,8 @@ minber: pulpit
 minberi: pulpit
 minberin: the pulpit
 minberler: minbars
-mineş: mines
-mineşşeytânirracîm: mineşşeytânirracîm
+mineş: from
+mineşşeytânirracîm: vernacular
 minnettar: grateful
 misafir: guest
 misafire: visitors to
@@ -8456,7 +8456,7 @@ olurduk: we would
 olurdun: you'd
 olurken: while
 olurlar: will
-olurmuş: consent
+olurmuş: would be
 olursa: should
 olursam: if i
 olursan: the matter
@@ -8616,7 +8616,7 @@ oğlum”: son
 oğlun: your son
 oğluna: his son
 oğlunla: with son
-oğlunsam: human son
+oğlunsam: if my son
 oğlunu: his son
 oğlunun: the son
 oğlusun: you son
@@ -8790,7 +8790,7 @@ rabbinden: from your lord
 rabbinlesin: you are with your lord
 rabbiyle: with the lord
 rachelle: rachelle
-racim: my racer
+racim: the cursed
 rahat: comfortable
 rahatla: relax
 rahatlarız: we relax
@@ -9014,20 +9014,20 @@ sanadır: art
 sanan: for you
 sancak: starboard
 sancağı: flag
-sancılarmış: they were gripes
-sancım: my gripes
-sancın: the throes
-sancısı: throes of
+sancılarmış: pains
+sancım: my pain
+sancın: your pain
+sancısı: pain of
 sandık: chest
-sandıklarda: in polls
-sandıktaki: at the polls
+sandıklarda: in the boxes
+sandıktaki: in the box
 sandım: I thought
 sandın: you think
 sandığa: polls
 sandığı: boxes
 sandığımızdan: we think
-sandığın: the polls
-sandığındaki: in polls
+sandığın: you think
+sandığındaki: in his/her chest
 sandığınız: you think
 saniye: second
 saniyede: in a second
@@ -9443,7 +9443,7 @@ sonuç: result
 sonuçlandırmayı: to conclude
 sopasını: stick
 sopunu: the sop
-sor: sir
+sor: ask
 soracaktım: going to ask
 soracağım: I will ask
 soracağına: will ask
@@ -10194,7 +10194,7 @@ topla: gather
 topladı: gathered
 topladık: we collect
 topladılar: they gathered
-topladım: I gather
+topladım: I collected
 topladığı: collects
 toplamadığı: the collection
 toplamak: collect
@@ -10314,7 +10314,7 @@ tutan: holding
 tutar: amount
 tutarlar: amounts
 tutarız: we hold
-tutmadı: tutmadı
+tutmadı: did not hold
 tutmak: keep
 tutmaktayız: we reserve
 tutmalı: should keep
@@ -10740,7 +10740,7 @@ verdim: I gave
 verdin: you gave
 verdiniz: you gave
 verdiği: given by
-verdiğim: I gave
+verdiğim: I have given
 verdiğimiz: we give
 verdiğin: you gave
 verdiğine: given that
@@ -13066,7 +13066,7 @@ zırladığın: you blubber
 şeylerle: with things
 şeytan: satan
 şeytana: the devil
-şeytanir: evil is
+şeytanir: the devil
 şeytanla: the devil
 şeytanlara: the devil
 şeytanın: the devil
@@ -13098,7 +13098,7 @@ zırladığın: you blubber
 şuracıkta: life right now
 şuracığa: şuracıg to
 şurada: there
-şuradan: there's
+şuradan: from there
 şöleni: feast
 şövalye: knight
 şövalyeler: chivalry
