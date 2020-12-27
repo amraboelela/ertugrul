@@ -1141,8 +1141,8 @@ babamla: with my dad
 babamı: my father
 babamın: my father
 babamız: our father
-babamızdır: our fathers
-babamızı: our fathers
+babamızdır: is our father
+babamızı: our father
 babamızın: our father
 baban: your father
 babana: to your father
@@ -1156,11 +1156,11 @@ babasından: from his father
 babasını: father
 babasının: the father
 babaya: father
-babayiğit: babayiðit
+babayiğit: babayiğit
 baba…: father…
 bacak: leg
 bacağı: leg
-baci'ye: baciu to
+baci'ye: to baci
 baci: sister
 bacım: my sister
 bacımı: my sisters
@@ -1669,10 +1669,10 @@ bilemiyorum: I do not know
 bilen: knowing
 bilene: who knows
 bilenlerin: those who know
-bilermiş: he even
-bilesin: you even
-bileyim: I know
-bileğine: the wrist
+bilermiş: sharpened
+bilesin: let you know
+bileyim: let me know
+bileğine: on your wrist
 bilge: wise
 bilgi: information
 bilgilendirdi: informed
@@ -2515,7 +2515,7 @@ demircisidir: blacksmith
 demiri: iron
 demirin: of iron
 demiş: said
-demişsin: demişsin
+demişsin: you said
 demişti: he said
 demiştim: I said
 demiştin: you said
@@ -3592,7 +3592,7 @@ epeyce: quite a few
 er: private
 erdem: virtue
 erdiremedim: I could not consummate
-erdirmesin: the purpose of winding
+erdirmesin: let it be
 erecek: will
 eri: eri
 erim: range
@@ -6168,7 +6168,7 @@ kafes: cage
 kafeste: in a cage
 kafiledeki: the convoy
 kafir: infidel
-kafirler: camphor
+kafirler: infidels
 kafirlere: infidels
 kafirleri: the unbelievers
 kafirlerle: the unbelievers
@@ -7924,8 +7924,8 @@ misli: fold
 miydi: was
 miydin: did you
 miydiniz: did you
-miyim: can i
-miyiz: can
+miyim: can I
+miyiz: are we
 mohammadanslar: mohammadans
 mola: break
 moorland: moorland
@@ -7954,7 +7954,7 @@ muhafızlarındanım: muhafızlarınd am
 muhafızlarının: guards of
 muhafızı: guard
 muhakemesine: judgment to
-muhammed'e: muhammed'e
+muhammed'e: of Muhammed
 muhammed'in: muhammed'in
 muhammed: muhammed
 muhammede: muhammede
@@ -7997,12 +7997,12 @@ muydun: did you
 muyum: am i
 muzafferüddin: you muzafferuddin
 muştular: harbinger of
-muştulu: the muştul
-muştumuzu: had our
-muştuyu: he is
+muştulu: mettle
+muştumuzu: we are
+muştuyu: sound
 mü: is
 mücadele: struggle
-mücahit: mujahedin
+mücahit: mujahid
 mücevherimiz: our jewelry
 mücevherimize: our jewelry
 müdahalede: intervention
@@ -8625,11 +8625,11 @@ oğul: son
 oğulları: sons
 oğullarımız: our sons
 oğullarına: his sons
-oğuz'u: oðuz of
+oğuz'u: of Oğuz
 oğuz: oğuz
-oğuzların: oðuz of
-oğuzu: son
-oğuz’un: oðuz
+oğuzların: of Oğuz
+oğuzu: oğuzu
+oğuz’un: oğuz’un
 padişah: sultan
 padişahtan: the sultan
 padişahı: sultan
@@ -9549,7 +9549,7 @@ sunmak: offer
 suratlı: fast
 suratın: in the face
 suratınla: with face
-suratını: face the
+suratını: the face
 sus: ornamental
 susacak: susacak
 susacaksın: will you shut up
@@ -9893,7 +9893,7 @@ talimatı: instructions
 talip: suitor
 tam: full
 tamam: ok
-tamama: oka
+tamama: complete
 tamamdır: it is okay
 tamamen: completely
 tamamla: complete
@@ -10655,7 +10655,7 @@ varacağı: there will
 varacağımız: there will
 varacağını: there will
 varacağız: we have
-varalım: let 's reach
+varalım: let's arrive
 vardı: it had
 vardık: we have
 vardır: has
@@ -10678,7 +10678,7 @@ varmış: had
 varsa: if
 varsın: you have
 varı: there
-varımız: our varuna
+varımız: we exist
 varın: there
 varıp: arrive
 varırdı: there was
@@ -11594,7 +11594,7 @@ yorumlayacağımı: I reviews
 yoğrulmuştur: kneaded
 yoğumuz: our intensive
 yoğurmak: knead
-yuh: hoot
+yuh: yuh
 yukarı: up
 yukarıdalar: above are
 yumarsak: if yum
@@ -11602,8 +11602,8 @@ yumru: tuber
 yumruk: punch
 yumuşak: soft
 yunan: hellenic
-yunus'u: dolphin
-yunusu: dolphin
+yunus'u: yunus'u
+yunusu: yunusu
 yurda: home
 yurdu: dormitory
 yurdumdan: from homeland
@@ -11625,10 +11625,10 @@ yusufiyedesin: you are in dragonfly
 yusufu: Joseph
 yutabiliyorum: I can swallow
 yuttun: you swallow
-yuvalanmalarına: they nest
-yuvamız: our slot
-yuvamıza: our housing
-yuvamızdayız: we yuvamızd
+yuvalanmalarına: to their nesting
+yuvamız: our home
+yuvamıza: to our nest
+yuvamızdayız: we are at our home
 yâr: love
 yârime: to my love
 yön: direction
@@ -11835,7 +11835,7 @@ zindana: dungeon
 zindanda: in the dungeon
 zindandaki: the dungeon
 zindandan: from dungeon
-zindandayım: zindandayım
+zindandayım: I am in dungeon
 zindanlara: the dungeon
 zindanlarda: in the dungeon
 zindanlardadır: are in prison
