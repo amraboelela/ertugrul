@@ -15,7 +15,6 @@ if [ $targetLanguage == "tr"  ]; then
         rm build/$prefix-$targetLanguage.srt
     fi
 fi
-#exit 0
 python3 dictionary.py $prefix $targetLanguage
 python cut.py $prefix $targetLanguage
 #exit 0
@@ -26,11 +25,8 @@ python3 frames2video.py $prefix $targetLanguage
 #python3 video2image.py $prefix $targetLanguage
 #python3 audio2video.py $prefix $targetLanguage
 python combine.py $prefix $targetLanguage "c"
-#exit 0
-#python combine.py $prefix "s"
 
 python3 subtitleWords.py $prefix $targetLanguage "c"
-python3 subtitles.py $prefix $targetLanguage "c"
 exit 0
-python3 subtitles.py $prefix $targetLanguage "s"
+python3 subtitles.py $prefix $targetLanguage "c"
 
