@@ -269,7 +269,7 @@ alaeddin'in: the alaeddin
 alaeddin: Alaeddin
 alaeddinin: your alacrity
 alakalı: relevant
-alalım: let's
+alalım: let's get
 alamadan: without a penny
 alamadım: I could not get
 alamadığın: you can not get
@@ -988,7 +988,7 @@ aziz'den: from Aziz
 aziz'e: aziz'e
 aziz'i: aziz'i
 aziz'in: your Aziz
-aziz: azizs
+aziz: aziz
 azizden: from Aziz
 azize: azize
 azizi: azizi
@@ -2117,7 +2117,7 @@ bölgeye: region
 bölmek: divide
 bölükbaşı: bölükbaşı
 bölünecekti: would divide
-börkünüz: you börk
+börkünüz: börkünüz
 börü'yü: pipe
 börü: pipe
 börüyü: cowboy
@@ -4297,7 +4297,7 @@ geçit: passage
 geçiyor: passing
 geçiyorlar: they run
 geçişi: transition
-geçmedi: passed
+geçmedi: did not pass
 geçmediği: does not exceed
 geçmediğine: pass that
 geçmek: pass
@@ -4314,16 +4314,16 @@ geçmez: does not
 geçmiş: past
 geçmişte: in the past
 geçmiştir: is history
-geçsin: you now
+geçsin: let it pass
 geçti: passed
 geçtik: we now
 geçtikçe: over
 geçtiler: they passed
 geçtim: I passed
-geçtin: you now
-geçtiniz: you now
-geçtiğinde: when now
-geçtiğini: it now
+geçtin: you passed
+geçtiniz: you passed
+geçtiğinde: when passed
+geçtiğini: has passed
 gibi: like
 gibidir: like this
 gibiler: such as
@@ -5272,7 +5272,7 @@ hayatımda: in my life
 hayatımdan: from my life
 hayatımı: my life
 hayatımız: our life
-hayatını: his life
+hayatını: your life
 haydan: haydan
 haydi: come on
 haydutlar: bandits
@@ -5322,7 +5322,7 @@ hazmetmem: I can not digest
 hazreti: master
 hazretleri'nin: his honor
 hazretleri: his honor
-hazretlerinin: his nibs
+hazretlerinin: his honor
 hazır: ready
 hazırdır: is ready
 hazırlamalarını: prepare their
@@ -6177,8 +6177,8 @@ kahramanlara: heroes
 kahramanlık: heroism
 kahramanlığın: the heroism
 kahramanı: hero
-kahreyle: kahreyl to
-kahır: priest is
+kahreyle: damn
+kahır: hell
 kakmalı: inlaid
 kal: remain
 kalabalık: crowded
@@ -7522,7 +7522,7 @@ kısa: short
 kısacası: in short
 kısacık: fleeting
 kısas: retaliation
-kısasa: eye to the eye
+kısasa: eye for the eye
 kısası: retaliation
 kıskacında: in the grip
 kısmet: destiny
@@ -8041,7 +8041,7 @@ müslümanlardı: they were muslims
 müslümanları: muslims
 müslümanların: muslims
 müstakbel: prospective
-müsün: mucin
+müsün: are you
 müteessirim: I'm sorry
 müthiş: terrific
 müttefik: allied
@@ -8049,12 +8049,12 @@ müttefiklerimiz: our allies
 müttefiklerimizin: our allies
 müydü: was
 müzik: music
-müşkül: müşkül
+müşkül: difficult
 müşkülden: the precarious
 müşkülüm: my predicament
-müşkülümüz: our müşkülü
-müşkülün: the chancery
-müşkülünüz: your predicament
+müşkülümüz: our hardship
+müşkülün: difficult
+müşkülünüz: your hardship
 müşrikler: polytheists
 mı: is
 mıdır: is it
@@ -8317,8 +8317,8 @@ olacağını: would be
 olacağınızı: com'on
 olacağız: we will be
 olalım: let's
-olamam: I can not be
-olamamışken: the olamamışk
+olamam: I can't be
+olamamışken: when you couldn't
 olamaz: can not
 olan: one
 olana: from
@@ -8825,7 +8825,7 @@ revan: revan
 rezalet: disgrace
 rezil: contemptible
 rezilin: the infamous
-rezzak: rezzak
+rezzak: provider
 rica: request
 ricalarını: their request
 ricasını: ask
@@ -9131,7 +9131,7 @@ sayende: thanks
 saygı: respect
 saygıyı: esteem
 saymıyorum: not to mention
-sayıkladı: I was delirious
+sayıkladı: delirious
 sayılır: counted
 sayılırsın: you counted
 sayın: dear
@@ -9513,17 +9513,17 @@ sultan'a: sultan'a
 sultan'u: sultan'u
 sultan'ı: sultan'ı
 sultan'ım: my Sultan
-sultan'ın: sultan'ın
+sultan'ın: sultan's
 sultan: sultan
 sultana: sultana
 sultani: sultana
 sultanla: with Sultan
-sultanların: sultanların
+sultanların: sultans
 sultanu: sultanu
 sultanı'nı: sultanı'nı
 sultanı: sultanı
-sultanım: sultanım
-sultanımızı: our sulten
+sultanım: my sultan
+sultanımızı: our sultan
 sultanın: the sultan
 sultanını: your sultan
 sultan’a: sultan’a
@@ -10079,22 +10079,22 @@ temkinli: leery
 templars: templars
 temsilen: representative
 ten: skin
-tenezzül: stoop
-tenini: the flesh
-tepedeki: apical
+tenezzül: condescension
+tenini: your skin
+tepedeki: on the hill
 tepeden: overhead
-tepeledi: I hills
+tepeledi: crumpled
 tepeledik: we have hills
 tepelemek: hills to
 tepeleri: hills
-tepelerine: the hill
-tepeleyeyim: I'm hills
-tepemizdeki: our hills
-tepesi'nde: the hill is
-tepesi'ndeki: is the hill
-tepesi'ne: hill
-tepesi'nin: is the hill
-tepesi: hill
+tepelerine: to the hills
+tepeleyeyim: let me top
+tepemizdeki: above us
+tepesi'nde: on the hill
+tepesi'ndeki: at the top
+tepesi'ne: to the top
+tepesi'nin: hill's
+tepesi: top of
 tepesinde: on the top
 tepesindeki: at the top of
 tepesine: on top of
@@ -10852,7 +10852,7 @@ vücuduna: body
 vücudunuz: your body
 webvtt: webvtt
 wild: the wild
-ya: ya
+ya: o / either
 yabancı: foreign
 yabanilik: savagery
 yabanın: the wild
@@ -11155,7 +11155,7 @@ yardımcı: helper
 yardımcıları: aids
 yardımcım: my assistant
 yardımcımız: our help
-yardımcın: to help
+yardımcın: your assistant
 yardımcını: your assistant
 yardımcınız: your help
 yardımcısı: help
@@ -11198,7 +11198,7 @@ yaslanmak: get old
 yaslanıp: lean
 yastıkta: the pillow
 yasını: mourn
-yat: yat
+yat: yacht
 yataklara: beds
 yatalak: bedridden
 yatarken: lying
@@ -12599,7 +12599,7 @@ zırladığın: you blubber
 özlemedi: not miss
 özlemelerini: not to miss
 özleyeceğim: I will miss
-özlüyorduk: we miss
+özlüyorduk: we were missing
 özü: essence
 özür: apology
 öğleden: afternoon
@@ -12918,7 +12918,7 @@ zırladığın: you blubber
 şah: şah
 şaha: field
 şahabettin: şahabettin
-şahabettine: shahabettine
+şahabettine: şahabettine
 şahabettini: şahabettini
 şahabettinin: şahabettinin
 şahabettinle: şahabettinle
@@ -12926,7 +12926,7 @@ zırladığın: you blubber
 şahidi: witness
 şahidim: my witness
 şahidimdir: my witness
-şahin: hawk
+şahin: şahin
 şahitlerdir: are witnesses
 şahitliği: testimony
 şahittir: it is witness
