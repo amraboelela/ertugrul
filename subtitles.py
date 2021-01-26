@@ -41,6 +41,8 @@ englishFile = open(englishFilePath)
 englishLines = englishFile.read().splitlines()
 targetFile = open(targetFilePath)
 targetLines = targetFile.read().splitlines()
+targetFile.close()
+englishFile.close()
 
 def timeString(timeFloat):
     milliSeconds = int(timeFloat * 1000 % 1000)
@@ -69,7 +71,7 @@ def writeToSubtitlesFile(cutCode, paragraph):
     subtitlesFile.write("\n")
  
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
-    print("not path.exists(subtitlesPath)")
+    #print("not path.exists(subtitlesPath)")
     subtitlesFile = open(subtitlesPath, "w")
     files = os.listdir("build/" + prefix)
     files = list(filter(lambda file: file[0] != ".", files))
@@ -91,18 +93,16 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
             cutCode = fileParts[3]
             episodeDurationsDictionary[cutCode] = durations[fileCount]
             fileCount = fileCount + 1
-            
-    startTimeFloat = float(0.0)
     
-    filePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
-    file = open(filePath)
-    lines = file.read().splitlines()
+    startTimeFloat = float(0.0)
     prevStartTime = "00:00"
     prevTimeStamp = 0
     count = 0
-
     paragraph = ""
-    for line in lines:
+    targetParagraphs = []
+    targetTimeStamps = []
+    targetDurations = []
+    for line in targetLines:
         if "-->" in line:
             times = line.split(" --> ")
             startTime = times[0]
@@ -121,14 +121,80 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
             if len(paragraph) > 0  and count > 0:
                 if duration > durationLowerLimit and duration < 22:
                     paragraph = paragraph[:len(paragraph)-2]
-                    writeToSubtitlesFile(str(count).zfill(3), paragraph)
+                    #writeToSubtitlesFile(str(count).zfill(3), paragraph)
+                    targetTimeStamps.append(timeStamp)
+                    targetDurations.append(duration)
+                    targetParagraphs.append(paragraph)
             paragraph = ""
             count = count + 1
         else:
             paragraph = paragraph + line + "\n"
+            
+    #print(targetParagraphs)
+    
+    startTimeFloat = float(0.0)
+    prevStartTime = "00:00"
+    prevTimeStamp = 0
+    count = 0
+    paragraph = ""
+    englishParagraphs = []
+    englishTimeStamps = []
+    for line in englishLines:
+        #print("line " + line)
+        if "-->" in line:
+            times = line.split(" --> ")
+            startTime = times[0]
+            #if targetLanguage == "tr":
+            #    startTime = "00:" + startTime
+            subTimes = startTime.split(":")
+            hours = int(subTimes[0])
+            minutes = int(subTimes[1])
+            secondsArray = subTimes[2].split(".")
+            seconds = int(secondsArray[0])
+            totalSeconds = minutes * 60 + seconds
+            timeStamp = totalSeconds + float(secondsArray[1]) / 1000
+            #print("timeStamp: " + str(timeStamp))
+            duration = timeStamp - prevTimeStamp
+            prevTimeStamp = timeStamp
+            if len(paragraph) > 0  and count > 0:
+            #    if duration > durationLowerLimit and duration < 22:
+                paragraph = paragraph[:len(paragraph)-2]
+                #writeToSubtitlesFile(str(count).zfill(3), paragraph)
+                englishTimeStamps.append(timeStamp)
+                englishParagraphs.append(paragraph)
+            paragraph = ""
+            count = count + 1
+        else:
+            paragraph = paragraph + line + "\n"
+            
+    #print(englishParagraphs)
+    count = 0
+    englishCount = 0
+    timeDiff = 0.7
+    for paragraph in targetParagraphs:
+        targetTimeStamp = targetTimeStamps[count] + timeDiff
+        targetDuration = targetDurations[count]
+        print(str(int(targetTimeStamp)) + ": " + paragraph) #" (" + str(int(targetDuration)) + "): "
+        if count < len(targetTimeStamps):
+            englishTimeStamp = englishTimeStamps[englishCount]
+            bestEnglishTimeStamp = englishTimeStamp
+            englishTimeDiff = abs(englishTimeStamp - targetTimeStamp)
+            englishParagraph = englishParagraphs[englishCount]
+            while englishTimeStamp < targetTimeStamp + targetDuration / 2:
+                if abs(englishTimeStamp - targetTimeStamp) < englishTimeDiff:
+                    englishTimeDiff = abs(englishTimeStamp - targetTimeStamp)
+                    englishParagraph = englishParagraphs[englishCount]
+                    bestEnglishTimeStamp = englishTimeStamp
+                englishCount = englishCount + 1
+                if englishCount < len(englishTimeStamps):
+                    englishTimeStamp = englishTimeStamps[englishCount]
+                else:
+                    break
+            print(str(int(bestEnglishTimeStamp)) + ": " + englishParagraph + "\n")
+        count = count + 1
     subtitlesFile.close()
-#quit()
-targetFile.close()
+
+quit()
 sbtFile = "build/" + prefix + "-sbt-" + postfix + ".mp4"
 if not path.exists(sbtFile):
     os.system("handbrakecli -i build/" + prefix + "-" + postfix +".mp4 -o " + sbtFile + " --srt-file build/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")
