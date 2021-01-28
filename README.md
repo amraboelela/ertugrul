@@ -43,7 +43,7 @@ $ ./clean 1 3 en tr
 
 **Description:**
 
-Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in Turkish, and see the word by word meaning in the subtitles.
+Learn Turkish language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in Turkish, and see the meaning in English of the subtitles.
 Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/master/build/dictionary-tr.txt
 
 ###Arabic

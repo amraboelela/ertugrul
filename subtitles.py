@@ -55,12 +55,13 @@ def timeString(timeFloat):
 
 includeCount = 0
 episodeDurationsDictionary = {}
-def writeToSubtitlesFile(cutCode, paragraph):
+def writeToSubtitlesFile(cutCode, paragraph, englishParagraph):
     global startTimeFloat
     global includeCount
     includeCount = includeCount + 1
     subtitlesFile.write(str(includeCount) + "\n")
     startTimeString = timeString(startTimeFloat)
+    #print("cutCode: " + cutCode)
     duration = float(episodeDurationsDictionary[cutCode])
     startTimeFloat = startTimeFloat + duration
     endTimeString = timeString(startTimeFloat - 0.1)
@@ -68,6 +69,9 @@ def writeToSubtitlesFile(cutCode, paragraph):
     lines = paragraph.split("\n")
     for line in lines:
         subtitlesFile.write("<font color=\"white\">" + line +"</font>\n")
+    englishLines = englishParagraph.split("\n")
+    for englishLine in englishLines:
+        subtitlesFile.write("<font color=\"yellow\">" + englishLine +"</font>\n")
     subtitlesFile.write("\n")
  
 if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
@@ -102,6 +106,7 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     targetParagraphs = []
     targetTimeStamps = []
     targetDurations = []
+    cutCodes = []
     for line in targetLines:
         if "-->" in line:
             times = line.split(" --> ")
@@ -121,6 +126,7 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
             if len(paragraph) > 0  and count > 0:
                 if duration > durationLowerLimit and duration < 22:
                     paragraph = paragraph[:len(paragraph)-2]
+                    cutCodes.append(str(count).zfill(3))
                     #writeToSubtitlesFile(str(count).zfill(3), paragraph)
                     targetTimeStamps.append(timeStamp)
                     targetDurations.append(duration)
@@ -174,7 +180,7 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
     for paragraph in targetParagraphs:
         targetTimeStamp = targetTimeStamps[count] + timeDiff
         targetDuration = targetDurations[count]
-        print(str(int(targetTimeStamp)) + ": " + paragraph) #" (" + str(int(targetDuration)) + "): "
+        #print(str(int(targetTimeStamp)) + ": " + paragraph) #" (" + str(int(targetDuration)) + "): "
         if count < len(targetTimeStamps):
             englishTimeStamp = englishTimeStamps[englishCount]
             bestEnglishTimeStamp = englishTimeStamp
@@ -190,11 +196,11 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
                     englishTimeStamp = englishTimeStamps[englishCount]
                 else:
                     break
-            print(str(int(bestEnglishTimeStamp)) + ": " + englishParagraph + "\n")
+            writeToSubtitlesFile(cutCodes[count], paragraph, englishParagraph)
         count = count + 1
     subtitlesFile.close()
 
-quit()
+#quit()
 sbtFile = "build/" + prefix + "-sbt-" + postfix + ".mp4"
 if not path.exists(sbtFile):
     os.system("handbrakecli -i build/" + prefix + "-" + postfix +".mp4 -o " + sbtFile + " --srt-file build/" + prefix + ".srt --srt-codeset UTF-8 --srt-burn")
