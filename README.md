@@ -5,6 +5,7 @@ Learn Turkish and other languages through Ertugrul TV series
 ## Setup
 
 ```
+$ sudo mkdir -p /usr/local/bin
 $ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 $ sudo chmod a+rx /usr/local/bin/youtube-dl
 $ vim translation_key.py
@@ -20,6 +21,7 @@ $ brew install handbrake
 To install latest version of ffmpeg:
 
 ```
+$ cd resources
 $ git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
 $ cd ffmpeg
 $ ./configure --enable-gpl --enable-libfreetype --enable-libmp3lame --enable-libvorbis --enable-libvpx --enable-libx264 --enable-nonfree --enable-shared 
