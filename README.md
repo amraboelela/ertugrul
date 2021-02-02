@@ -13,19 +13,24 @@ key = "<PUT THE KEY FROM YOUR GOOGLE TRANSLATE API ACCOUNT>"
 $ sudo easy_install pip
 $ sudo pip3 install requests
 $ sudo pip3 install gTTS
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 $ brew install ffmpeg
 $ brew install handbrake
 ```
 
 To install latest version of ffmpeg:
 
+[ffmpeg install in macOS](https://trac.ffmpeg.org/wiki/CompilationGuide/macOS)
+
 ```
 $ cd resources
 $ git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
 $ cd ffmpeg
-$ ./configure --enable-gpl --enable-libfreetype --enable-libmp3lame --enable-libvorbis --enable-libvpx --enable-libx264 --enable-nonfree --enable-shared 
-$ make -j8
+$ ./configure  --prefix=/usr/local --enable-gpl --enable-nonfree --enable-libass \
+--enable-libfdk-aac --enable-libfreetype --enable-libmp3lame \
+--enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libopus --enable-libxvid \
+--samples=fate-suite/
+$ make
 $ sudo make install
 
 ```
