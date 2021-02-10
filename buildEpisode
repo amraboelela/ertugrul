@@ -6,7 +6,7 @@ targetLanguage=$3
 
 mkdir -p build/$prefix/frames
 prefixFile="build/$prefix-$targetLanguage.ttml"
-echo "prefixFile: " $prefixFile
+#echo "prefixFile: " $prefixFile
 
 if [ $targetLanguage == "tr"  ]; then
     if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
@@ -14,17 +14,24 @@ if [ $targetLanguage == "tr"  ]; then
         ffmpeg -y -i build/$prefix-$targetLanguage.srt build/$prefix-$targetLanguage.vtt
         rm build/$prefix-$targetLanguage.srt
     fi
+else
+    if [ ! -f build/$prefix-$targetLanguage.vtt ]; then
+        echo "Translating $prefix-$sourceLanguage.vtt"
+        python translate.py build/$prefix-$sourceLanguage.vtt $targetLanguage > build/$prefix-$targetLanguage.vtt
+    fi
 fi
+#exit 0
 python3 dictionary.py $prefix $targetLanguage
 python cut.py $prefix $targetLanguage
-#exit 0
 python3 video2frames.py $prefix $targetLanguage
 python3 editframes.py $prefix $targetLanguage
 python3 frames2video.py $prefix $targetLanguage
+#exit 0
 #python3 sayWords.py $prefix 2 $targetLanguage
 #python3 video2image.py $prefix $targetLanguage
 #python3 audio2video.py $prefix $targetLanguage
 python combine.py $prefix $targetLanguage "c"
+exit 0
 
 python3 subtitleWords.py $prefix $targetLanguage "c"
 #exit 0

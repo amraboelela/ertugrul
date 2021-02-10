@@ -16,21 +16,21 @@ file = open(filePath)
 lines = file.read().splitlines()
 count = 0
 filePrefix = "build/" + prefix + "/" + prefix + "-"
-
+frameRate = 1
+if targetLanguage == "ar":
+    frameRate = 24
 def videoToFrames():
     videoFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + "-a.mp4"
     imageFilePrefix = "build/" + prefix + "/frames/" + prefix + "-" + str(count).zfill(3)
     imageFile = imageFilePrefix + "-%4d.jpg"
     firstImageFile = imageFilePrefix + "-0001.jpg"
     if not path.exists(firstImageFile) and not path.exists(imageFilePrefix + "-0001-cm.jpg") and path.exists(videoFile):
-        subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-r", "1", imageFile])
+        subprocess.call(["ffmpeg", "-y", "-i", videoFile, "-r", str(frameRate), imageFile])
  
 for line in lines:
     if "-->" in line:
         if count > 0:
             videoToFrames()
         count = count + 1
-        #quit()
 
-#videoToFrames()
 file.close()

@@ -65,7 +65,6 @@ for line in lines:
             targetFile = filePrefix + "-" + targetLanguage
 #            if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
             #    subprocess.call(["ffmpeg", "-y", "-i", "build/" + prefix + "-" + targetLanguage + ".mp4"
-#for file in files:
             subprocessArray.extend(["-i", filePrefix + "-" + targetLanguage + "-" + postfix + ".mp4"])
             concatString = concatString + "[" + str(fileCount) + ":v][" + str(fileCount) + ":a]"
             fileCount = fileCount + 1
