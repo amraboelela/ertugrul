@@ -1,6 +1,7 @@
 # importing the requests library
 import os, sys, subprocess, os.path
 from os import path
+import durationLimit
 
 if len(sys.argv) > 3:
     prefix = sys.argv[1]
@@ -11,27 +12,9 @@ else:
     exit(-1)
     
 print("## combin, prefix: " + prefix + ", postfix: " + postfix)
-filePath = "build/" + prefix+ "/" + prefix
 
-durationsLimitPath = "build/durationsLimit-" + targetLanguage + ".txt"
-durationsLimitFile = open(durationsLimitPath)
-durationsLimitLines = durationsLimitFile.read().splitlines()
-durationsLimitDictionary = {}
-for durationsLimitLine in durationsLimitLines:
-    lineSplit = durationsLimitLine.split(":")
-    theEpisode = lineSplit[0].strip()
-    if len(lineSplit) > 1:
-        limit = lineSplit[1].strip()
-        #print("word: " + word)
-        durationsLimitDictionary[theEpisode] = int(limit)
-    else:
-        print("theEpisode without limit: " + theEpisode)
-        
-prefixParts = prefix.split("-")
-episode = prefixParts[2]
-#print("episode: " + episode)
-durationLowerLimit = durationsLimitDictionary[episode]
-print("durationLowerLimit: " + str(durationLowerLimit))
+durationLowerLimit = durationLimit.lowerLimit(prefix, targetLanguage)
+durationUpperLimit = durationLimit.upperLimit(targetLanguage)
 
 filePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
 file = open(filePath)
@@ -60,7 +43,8 @@ for line in lines:
         #print("timeStamp: " + str(timeStamp))
         duration = timeStamp - prevTimeStamp
         prevTimeStamp = timeStamp
-        if count > 0 and duration > durationLowerLimit and duration < 22:
+        #print("durationLowerLimit: " + str(durationLowerLimit))
+        if count > 0 and duration > durationLowerLimit and duration < durationUpperLimit:
             filePrefix = "build/" + prefix + "/" + prefix + "-" + str(count).zfill(3)
             targetFile = filePrefix + "-" + targetLanguage
 #            if not path.exists(targetFile + "-a.mp4") and not path.exists(filePrefix + "-" + targetLanguage + ".jpg"):
@@ -74,13 +58,13 @@ for line in lines:
                 if not path.exists(targetFile):
                     subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=1:a=1", targetFile])
                     #print("subprocessArray: " + str(subprocessArray))
-                    #quit()
                     subprocess.call(subprocessArray)
+                    quit()
                 fileCount = 0
                 concatString = ""
                 subprocessArray = ["ffmpeg", "-y"]
         count = count + 1
-#quit()
+quit()
 if includeCount % 100 > 1:
     n = includeCount / 100 + 1
     targetFile = "build/" + prefix + "-" + str(n).zfill(2) + "-" + postfix + ".mp4"
