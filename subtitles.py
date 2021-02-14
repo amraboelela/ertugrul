@@ -1,6 +1,7 @@
 
 import sys, subprocess, os.path
 from os import path
+import durationLimit
 
 if len(sys.argv) > 3:
     prefix = sys.argv[1]
@@ -12,26 +13,8 @@ else:
 
 print("## subtitles, prefix: " + prefix + ", targetLanguage: " + targetLanguage + ", postfix: " + postfix)
 
-durationsLimitPath = "build/durationsLimit-" + targetLanguage + ".txt"
-durationsLimitFile = open(durationsLimitPath)
-durationsLimitLines = durationsLimitFile.read().splitlines()
-durationsLimitDictionary = {}
-for durationsLimitLine in durationsLimitLines:
-    lineSplit = durationsLimitLine.split(":")
-    theEpisode = lineSplit[0].strip()
-    if len(lineSplit) > 1:
-        limit = lineSplit[1].strip()
-        #print("word: " + word)
-        durationsLimitDictionary[theEpisode] = int(limit)
-    else:
-        print("theEpisode without limit: " + theEpisode)
-        
-#print("durationsLimitDictionary: " + str(durationsLimitDictionary))
-prefixParts = prefix.split("-")
-episode = prefixParts[2]
-#print("episode: " + episode)
-durationLowerLimit = durationsLimitDictionary[episode]
-print("durationLowerLimit: " + str(durationLowerLimit))
+durationLowerLimit = durationLimit.lowerLimit(prefix, targetLanguage)
+durationUpperLimit = durationLimit.upperLimit(targetLanguage)
 
 englishFilePath = "build/" + prefix + "-en.vtt"
 targetFilePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
@@ -124,7 +107,7 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
             duration = timeStamp - prevTimeStamp
             prevTimeStamp = timeStamp
             if len(paragraph) > 0  and count > 0:
-                if duration > durationLowerLimit and duration < 22:
+                if duration > durationLowerLimit and duration < durationUpperLimit:
                     paragraph = paragraph[:len(paragraph)-2]
                     cutCodes.append(str(count).zfill(3))
                     #writeToSubtitlesFile(str(count).zfill(3), paragraph)
@@ -163,7 +146,6 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
             duration = timeStamp - prevTimeStamp
             prevTimeStamp = timeStamp
             if len(paragraph) > 0  and count > 0:
-            #    if duration > durationLowerLimit and duration < 22:
                 paragraph = paragraph[:len(paragraph)-2]
                 #writeToSubtitlesFile(str(count).zfill(3), paragraph)
                 englishTimeStamps.append(timeStamp)

@@ -34,6 +34,7 @@
 		C5B1E61323789A2F00BA1E1C /* subtitles.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5ED23789A2E00BA1E1C /* subtitles.py */; };
 		C5B1E61423789A2F00BA1E1C /* ttml2srt.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EE23789A2E00BA1E1C /* ttml2srt.py */; };
 		C5B7459D23823EA3006204F5 /* handbrake in Resources */ = {isa = PBXBuildFile; fileRef = C5B7459C23823EA2006204F5 /* handbrake */; };
+		C5CE05EA25D8531F00851799 /* durationLimit.py in Resources */ = {isa = PBXBuildFile; fileRef = C5CE05E925D8531F00851799 /* durationLimit.py */; };
 		F502F9ED25786933006B42B9 /* editFrames.py in Resources */ = {isa = PBXBuildFile; fileRef = F502F9EC25786933006B42B9 /* editFrames.py */; };
 		F502F9F125787925006B42B9 /* frames2video.py in Resources */ = {isa = PBXBuildFile; fileRef = F502F9EF25787925006B42B9 /* frames2video.py */; };
 		F502F9F225787925006B42B9 /* frames2video in Resources */ = {isa = PBXBuildFile; fileRef = F502F9F025787925006B42B9 /* frames2video */; };
@@ -77,6 +78,7 @@
 		C5B1E5ED23789A2E00BA1E1C /* subtitles.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = subtitles.py; sourceTree = "<group>"; };
 		C5B1E5EE23789A2E00BA1E1C /* ttml2srt.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ttml2srt.py; sourceTree = "<group>"; };
 		C5B7459C23823EA2006204F5 /* handbrake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = handbrake; sourceTree = "<group>"; };
+		C5CE05E925D8531F00851799 /* durationLimit.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = durationLimit.py; sourceTree = "<group>"; };
 		F502F9EC25786933006B42B9 /* editFrames.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = editFrames.py; sourceTree = "<group>"; };
 		F502F9EF25787925006B42B9 /* frames2video.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = frames2video.py; sourceTree = "<group>"; };
 		F502F9F025787925006B42B9 /* frames2video */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frames2video; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				C5B1E5EB23789A2D00BA1E1C /* cut */,
 				C5B1E5E623789A2B00BA1E1C /* cut.py */,
 				C5B1E5CE23789A2700BA1E1C /* dictionary.py */,
+				C5CE05E925D8531F00851799 /* durationLimit.py */,
 				C5B1E5E823789A2C00BA1E1C /* download */,
 				C5B1E5E323789A2B00BA1E1C /* downloadVideo */,
 				F534F86625781B5700333CEC /* editImages */,
@@ -242,6 +245,7 @@
 				F534F8122571ABBC00333CEC /* move.py in Resources */,
 				C5B1E61123789A2F00BA1E1C /* cut in Resources */,
 				F534F8602576FCD600333CEC /* video2frames.py in Resources */,
+				C5CE05EA25D8531F00851799 /* durationLimit.py in Resources */,
 				C5B1E5FC23789A2F00BA1E1C /* build.py in Resources */,
 				F534F80725703DB300333CEC /* build.sh in Resources */,
 				F534F80E25708D7000333CEC /* sayLines.py in Resources */,

@@ -4,7 +4,6 @@ paddedEpisode=`printf %02d $episode`
 language=$3
 url=$4
 mkdir -p build
-echo downloadVideo $url
 if [ ! -f build/ertugrul-$season-$paddedEpisode-en.vtt ]; then
     youtube-dl --all-subs --skip-download $url
     if [ $language == "tr" ]; then
@@ -28,6 +27,7 @@ if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.m4a ]; then
     fi
 fi
 if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.mp4 ]; then
+    echo downloadVideo $url
     youtube-dl $url
     
     if [ -f *\ $episode-*.mkv ]; then
