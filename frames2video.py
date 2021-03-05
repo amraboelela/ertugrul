@@ -17,6 +17,7 @@ lines = file.read().splitlines()
 count = 0
 filePrefix = "build/" + prefix + "/" + prefix
 
+frameRate = 1
 if targetLanguage == "ar":
     frameRate = 24
 def framesToVideo():

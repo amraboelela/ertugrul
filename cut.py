@@ -13,9 +13,10 @@ print("## cut, prefix: " + prefix + ", targetLanguage: " + targetLanguage)
 
 durationLowerLimit = durationLimit.lowerLimit(prefix, targetLanguage)
 durationUpperLimit = durationLimit.upperLimit(targetLanguage)
-print("durationUpperLimit: " + str(durationUpperLimit))
+#print("durationUpperLimit: " + str(durationUpperLimit))
 
-filePath = "build/" + prefix + "-" + targetLanguage + ".vtt" 
+filePath = "build/" + prefix + "-" + targetLanguage + ".vtt"
+print("cut filePath: " + filePath)
 file = open(filePath)
 
 lines = file.read().splitlines()

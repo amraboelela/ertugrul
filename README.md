@@ -11,6 +11,7 @@ $ sudo chmod a+rx /usr/local/bin/youtube-dl
 $ vim translation_key.py
 key = "<PUT THE KEY FROM YOUR GOOGLE TRANSLATE API ACCOUNT>"
 $ sudo easy_install pip
+$ sudo easy_install -U requests
 $ sudo pip3 install requests
 $ sudo pip3 install gTTS
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -42,8 +43,8 @@ $ sudo make install
 - To build episode 1 - 3 and translate from English to Turkish:
 
 ```
-$ ./build.sh 1 3 en tr
-$ ./clean 1 3 en tr
+$ ./build.sh 1 1 en tr
+$ ./clean 1 1 en tr
 ```
 
 **Title:** Learn Turkish from Ertugrul Subtitles, 1 - 1
@@ -58,8 +59,8 @@ Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/mas
 - To build episode 1 - 3 and translate from English to Arabic:
 
 ```
-$ ./build.sh 1 3 en ar
-$ ./clean 1 3 en ar
+$ ./build.sh 1 1 en ar
+$ ./clean 1 1 en ar
 ```
 
 **Title:** Learn Arabic from Ertugrul, 1 - 1
