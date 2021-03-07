@@ -31,7 +31,7 @@ python3 frames2video.py $prefix $targetLanguage
 #python3 video2image.py $prefix $targetLanguage
 #python3 audio2video.py $prefix $targetLanguage
 python combine.py $prefix $targetLanguage "c"
-#exit 0
+exit 0
 
 python3 subtitleWords.py $prefix $targetLanguage "c"
 #exit 0

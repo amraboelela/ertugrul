@@ -142,13 +142,13 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
             seconds = int(secondsArray[0])
             totalSeconds = minutes * 60 + seconds
             timeStamp = totalSeconds + float(secondsArray[1]) / 1000
-            #print("timeStamp: " + str(timeStamp))
+            print("timeStamp: " + str(timeStamp))
             duration = timeStamp - prevTimeStamp
             prevTimeStamp = timeStamp
             if len(paragraph) > 0  and count > 0:
                 paragraph = paragraph[:len(paragraph)-2]
                 #writeToSubtitlesFile(str(count).zfill(3), paragraph)
-                print("timeStamp " + timeStamp)
+                #print("timeStamp " + timeStamp)
                 print("paragraph " + paragraph)
                 englishTimeStamps.append(timeStamp)
                 englishParagraphs.append(paragraph)
@@ -166,7 +166,7 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
         targetDuration = targetDurations[count]
         #print(str(int(targetTimeStamp)) + ": " + paragraph) #" (" + str(int(targetDuration)) + "): "
         if count < len(targetTimeStamps):
-            print("englishCount " + englishCount)
+            print("englishCount " + str(englishCount))
             englishTimeStamp = englishTimeStamps[englishCount]
             bestEnglishTimeStamp = englishTimeStamp
             englishTimeDiff = abs(englishTimeStamp - targetTimeStamp)
