@@ -10,7 +10,6 @@ $ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/y
 $ sudo chmod a+rx /usr/local/bin/youtube-dl
 $ vim translation_key.py
 key = "<PUT THE KEY FROM YOUR GOOGLE TRANSLATE API ACCOUNT>"
-$ sudo easy_install pip
 $ sudo easy_install -U requests
 $ sudo pip3 install requests
 $ sudo pip3 install gTTS
@@ -63,10 +62,9 @@ $ ./build.sh 1 1 en ar
 $ ./clean 1 1 en ar
 ```
 
-**Title:** Learn Arabic from Ertugrul, 1 - 1
+**Title:** Learn Arabic from Ertugrul Subtitles word by word, 1 - 1
 
 **Description:**
 
-Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in English then in Arabic. 
+Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in Arabic and see the meaning in English, word by word, of the subtitles. 
 Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/master/build/dictionary-ar.txt
-

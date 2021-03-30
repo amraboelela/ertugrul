@@ -74,9 +74,9 @@ def writeToSubtitlesFile(cutCode, paragraph):
                     subtitlesFile.write(" <font color=\"yellow\">(" + meaning + ")</font>")
                     if word[-1] == "," or word[-1] == "." or word[-1] == "!" or word[-1] == "?":
                         subtitlesFile.write(word[-1])
-                subtitlesFile.write(" ")
             except Exception as error:
                 print("error: " + str(error))
+            subtitlesFile.write(" ")
         subtitlesFile.write("</font>\n")
 
     subtitlesFile.write("\n")

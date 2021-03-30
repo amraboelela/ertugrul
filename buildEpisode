@@ -20,6 +20,7 @@ if [ ! -f build/$prefix-$targetLanguage.vtt ] || [ ! -s build/$prefix-$targetLan
 fi
 #exit 0
 python3 dictionary.py $prefix $targetLanguage
+#exit 0
 python cut.py $prefix $targetLanguage
 #exit 0
 python3 video2frames.py $prefix $targetLanguage
@@ -31,8 +32,8 @@ python3 frames2video.py $prefix $targetLanguage
 #python3 video2image.py $prefix $targetLanguage
 #python3 audio2video.py $prefix $targetLanguage
 python combine.py $prefix $targetLanguage "c"
-exit 0
+#exit 0
 
 python3 subtitleWords.py $prefix $targetLanguage "c"
-#exit 0
+exit 0
 python3 subtitles.py $prefix $targetLanguage "c"

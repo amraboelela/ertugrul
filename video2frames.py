@@ -18,7 +18,7 @@ count = 0
 filePrefix = "build/" + prefix + "/" + prefix + "-"
 frameRate = 1
 if targetLanguage == "ar":
-    frameRate = 24
+    frameRate = 0.3
 def videoToFrames():
     videoFile = filePrefix + str(count).zfill(3) + "-" + targetLanguage + "-a.mp4"
     imageFilePrefix = "build/" + prefix + "/frames/" + prefix + "-" + str(count).zfill(3)

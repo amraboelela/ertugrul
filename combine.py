@@ -59,16 +59,15 @@ for line in lines:
                     subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=1:a=1", targetFile])
                     #print("subprocessArray: " + str(subprocessArray))
                     subprocess.call(subprocessArray)
-                    quit()
                 fileCount = 0
                 concatString = ""
                 subprocessArray = ["ffmpeg", "-y"]
         count = count + 1
-quit()
+#quit()
 if includeCount % 100 > 1:
     n = includeCount / 100 + 1
     targetFile = "build/" + prefix + "-" + str(n).zfill(2) + "-" + postfix + ".mp4"
-    #print "targetFile: " + targetFile
+    print "targetFile: " + targetFile
     if not path.exists(targetFile):
         subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=1:a=1", targetFile])
         print("subprocessArray: " + str(subprocessArray))
@@ -84,4 +83,3 @@ if not path.exists(targetFile):
         concatString = concatString + "[" + str(i) + ":v][" + str(i) + ":a]"
     subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(n) + ":v=1:a=1", targetFile])
     subprocess.call(subprocessArray)
-

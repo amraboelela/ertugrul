@@ -19,7 +19,7 @@ filePrefix = "build/" + prefix + "/" + prefix
 
 frameRate = 1
 if targetLanguage == "ar":
-    frameRate = 24
+    frameRate = 0.3
 def framesToVideo():
     #print("framesToVideo")
     videoPrefix = filePrefix + "-" + str(count).zfill(3)
