@@ -19,6 +19,14 @@
 'أنت: 'you are
 'اسمحوا': 'let'
 'الجمارك': 'the customs'
+(أيضًا): (also)
+(أيها: (hey
+(الله): (allah)
+(حبر): (ink)
+(سيلكان): (silcan)
+(كارا: (kara
+(هكذا): (so)
+(يا: (oh
 1225: 1225
 14: 14
 15: 15th
@@ -29,39 +37,68 @@
 72: 72
 80: 80
 99: 99
+Afsin: afsin
+Afsin؟: afsin
 Kayi: Kayi
 Turgut: Turgut
 afsin: afsin
-afsin؟: afsin
+aga: aga
 agabey: agabey
+ahlat: ahlat
 akcakoca: akcakoca
+alif: alif
 alp: alp
+altes: altes
+and: and
 aykiz: aykiz
+aykutluk: aykutluk
+baybora: baybora
+bey: bey
+beys: beys
 dear: dear
+deli: deli
+demir: demir
+elanora: elanora
 en: en
 engb: engb
 ertugrul: ertugrul
+erzincan: erzincan
 god: god
+god،: god,
 gokce: gokce
 gundogdu: gundogdu
+hatun: hatun
 hayme: hayme
 i: i
 kara: kara
+karatoygar: karatoygar
 kayi: kayi
+kayis: kayis
+killer: killer
+kiziltepe: kiziltepe
+my: my
 pir: pir
+quick: quick
+selcan: selcan
+shahzada: shahzada
 shahzadas: shahzadas
 sungur: sungur
 tekin: tekin
 toygar: toygar
 turgut: turgut
 webvtt: webvtt
+wind: wind
 yigit: yigit
 ،: ،
 ،،: ،،
+؛: ;
 ؟: 
 ؟،: ؟،
 آباءك: your fathers
+آبائكم: your parents
+آبائهم: their parents
 آتي: came
+آثار: effects
 آثامهم: their sins
 آجلا: later
 آجلاً: soon
@@ -69,93 +106,126 @@ yigit: yigit
 آخذهم: take them
 آخر: last
 آخر؟: else
+آدابها: etiquette
+آدم: adam
 آذان: ears
 آسف: sorry
-آغا: aغاa
-آغا؟: aغاa
+آسيوية: asian
+آغا: Agha
+آغا؟: Agha
 آفاق: horizons
+آل: the
 آلاف: thousands
 آلام: the mother
 آلامهم: their pain
 آمالنا: our hopes
-آمل: hopefull
+آمل: hopeful
 آمن: security
 آمنة: safe
 آمنًا: safe
 آمين: trustworthy
 آن: that
+آنذاك: at that time
 آوى: accommodate
-آيكيز: ikeez
+آيكيز: Aykaz
 أ: a
 أؤدي: I do
 أؤمن: I believe
 أب: father
+أب،: father,
 أب؟: father
-أبا: oppa
+أبا: father
+أباركك: i bless you
 أبانا: our father
 أبت: abt
 أبحث: search
-أبدا: start
-أبداً: start
+أبدا: ever
+أبداً: ever
 أبدو: I look
 أبدية: eternity
-أبدًا: start
+أبدًا: ever
+أبدًا؟: start
 أبرص: cyprus
 أبصقها: spit it out
 أبطال: champions
+أبطالي: my heroes
 أبعد: far
 أبقاني: keep me
 أبقى: he kept
 أبكي: I cry
 أبلغ: inform
+أبلغتنا: informed us
 أبلغكم: inform you
 أبلغنا: we informed
 أبلغه: inform him
+أبليت: I fulfilled
 أبناء: children
 أبناءنا؟: our children
 أبناؤنا: our children
 أبناؤه: his sons
+أبنائكم: your children
+أبنائنا: our children
 أبنائه: his sons
 أبنائي: my children
+أبو: abu
 أبواب: door
 أبوابًا: doors
 أبوك: your father
 أبوك؟: your father
+أبونا: our father
+أبوه: his dad
 أبى: my father
 أبي: my father
 أبي؟: my father
+أبيد: wiped out
+أبيدناهم: we wiped out them
 أبيض: white
+أبيك؟: your dad
 أبينا: our father
+أبيه: his father
+أتأذى: i get hurt
+أتأكد: make sure
 أتألم: I hurt
 أتابعهم: I follow them
+أتبعهم: follow them
 أتت: came
+أتجاوز: i go over
 أتحدث: I speak
 أتحقق: I check
+أتخذ: i take
+أتخلص: i get rid
 أتخلى: I give up
+أتدخل: interfere
 أتذكر: I remember
 أتراجع: I hold back
 أتراك: turks
 أتردد: I hesitate
 أترك: leave
 أتركك: I leave you
+أتركهم: i leave them
 أتروجرول: atrogrol
 أتساءل: I wonder
-أتشاور: i consult
+أتشاور: I consult
 أتصرف: I act
 أتصل: call
 أتعامل: I deal
 أتعب: tired
 أتقدم: I extend
+أتقنه: perfect it
 أتمكن: I could
 أتمنى: I wish
 أتناول: I touch
+أتنبأ: i predict
 أتنفس: I breathe
 أتوا: they came
 أتوا؟: they came
 أتوسل: I beg
+أتوق: i yearn
 أتوقع: I expect
+أتوقعك: expecting you
 أتيت: you come
 أتيحت: made available
+أتينا: we have come
 أثار: effects
 أثارت: raised
 أثبتت: proven
@@ -171,6 +241,8 @@ yigit: yigit
 أجدادها: her grandparents
 أجده: I find it
 أجدي: ajdi
+أجرؤ: i dare
+أجري: go run
 أجريت: conducted
 أجزاء: parts
 أجسادنا: our bodies
@@ -184,8 +256,10 @@ yigit: yigit
 أجمل: the most beautiful
 أجهزك: equip you
 أجوز: I may
+أجيب: i answer
 أحاول: I'm trying
 أحب: I love
+أحباءهم: loved ones
 أحبائنا: our loved ones
 أحبائها: loved ones
 أحبائهم: loved ones
@@ -196,24 +270,30 @@ yigit: yigit
 أحد: one
 أحدا: no one
 أحداً: no one
+أحدنا: one of us
 أحدهم: someone
+أحذرك: I warn you
 أحرار: are free
 أحررك: free you
 أحررها: edit it
+أحرس: guard
 أحرق: burnt
 أحرقت: burned
-أحزمه: i bele it
+أحزم: pack
+أحزمه: I bele it
 أحزمها: pack it
 أحزن: grieve
 أحسب: figured out
 أحسنت: well done
 أحصل: get
 أحضان: embrace
+أحضاننا: our embrace
 أحضر: brought
 أحضرت: I brought
 أحضرتها: I brought it
 أحضره: bring it
 أحضرها: bring it
+أحضرهم: bring them
 أحضروا: they brought
 أحضروه: they brought him
 أحضروها: bring it
@@ -224,19 +304,26 @@ yigit: yigit
 أحكام: provisions
 أحكم: judge
 أحلات: referrals
+أحلام: dreams
 أحلامك: your dreams
 أحلامي: my dreams
+أحلم: i dream
 أحلى: sweetest
+أحمر: red
 أحمق: foolish
+أحول: squint
 أحياء: biology
+أحيانًا: sometimes
 أخ: brother
 أخ؟: brother
+أخاف: i fear
 أخبار: news
 أخباراً: news
 أخبارك؟: how are you
 أخبر: tell
 أخبرت: I told
 أخبرتك: I told you
+أخبرتنا: she told us
 أخبرتني: you told me
 أخبرته: I told him
 أخبرتها: I told her
@@ -245,6 +332,7 @@ yigit: yigit
 أخبرنى: tell me
 أخبرنى؟: tell me
 أخبرني: tell me
+أخبرني؟: tell me
 أخبره: tell him
 أخبرهم: tell them
 أخت: sister
@@ -267,27 +355,38 @@ yigit: yigit
 أخذنا: we took
 أخذني: took me
 أخذه: took him
+أخذها: take it
 أخذهم: take them
 أخذوا: they took
+أخذوهم: they took them
 أخرج: get out
+أخرجك: get you out
 أخرجني: get me out
 أخرجه: take it out
+أخرنا: we delay
 أخرى: other
 أخرى؟: other
+أخرى…: others ...
 أخشى: I'm afraid
 أخطأت: mistaken
 أخطأنا: we made a mistake
+أخطو: stepping
+أخفاها: hide it
 أخفتته؟: you hid it
 أخفتك؟: I scared you
+أخفيت: I concealed
 أخفيها: hide it
 أخلاقك؟: your manners
 أخلاقها: manners
 أخلصك: save you
+أخلق: create
 أخواتي: my sisters
 أخواننا: our brothers
 أخوة: brothers
 أخوك: your brother
 أخوك؟: your brother
+أخون: akhon
+أخونا: our brother
 أخي: brother
 أخي؟: brother
 أخير: last
@@ -305,8 +404,11 @@ yigit: yigit
 أدرت: I turned
 أدرك: realized
 أدركت: I realized
+أدري: i know
 أدع: I pray
+أدعك: i let you
 أدعو: I invite
+أدعوك: invite you
 أدفع: push
 أدنى: minimum
 أدهم: Adham
@@ -329,38 +431,50 @@ yigit: yigit
 أراضيهم؟: their land
 أراك: see you
 أراكم: see you
+أراكما: see you two
 أراه: I see it
 أراها: see her
 أراهم: show them
+أرتاح: relax
+أرتجف: dither
 أرتغرول: artgrol
 أرتوغرول: artogrol
 أرجو: please
+أرجوس: argus
 أرجوك: I beg you
 أرد: answer
 أردت: I wanted
 أردت؟: I wanted
 أردنا: we wanted
 أرسل: send
+أرسلان: arslan
 أرسلت: I sent
 أرسلتك؟: I sent you
 أرسلتني: you sent me
 أرسلتهم: I sent them
+أرسلك: i send you
+أرسلك؟: i send you
 أرسلنا: we sent
 أرسلناه: we sent it
 أرسلني: he sent me
 أرسله: send it
 أرسلهم: send them
 أرسلوا: they sent
+أرسمه: i draw it
 أرض: a land
 أرضنا: our land
 أرضه: his land
+أرضي: my land
+أرضًا: ground
 أرطغرل: أرطغرل
 أرطغرل؟: Ertugrul
 أرغب: I want
 أرغوس: argos
 أرفض: I refuse
 أرق: insomnia
+أرك: ark
 أركض: I run
+أرمي: i throw
 أرميه: I throw it
 أرني: show me
 أره: see him
@@ -373,16 +487,21 @@ yigit: yigit
 أريدك: I want you
 أريده: want it
 أريدهم: I want them
+أريكم: show you
+أرَ: i see
 أرَك: see you
 أزعجك: bother you
+أزواجنا: our spouses
 أسأل: ask
 أسألك: I ask you
 أسألني: ask me
 أسألها: ask her
 أسئلتك: your questions
+أساسي: basic
 أساطير: legends
 أساطيرنا: our myths
 أساعدك: I help you
+أسافر: I travel
 أسبوع: a week
 أستاد: stadium
 أستادي: stadium
@@ -391,20 +510,29 @@ yigit: yigit
 أستحق: deserve
 أستحم: take a shower
 أستريح: I rest
-أستضيفك: i host you
+أستضيفك: I host you
 أستطع: I could
 أستطيع: I can
 أستمع: listen
 أستهلك: I consume
 أستيقظ: get up
+أسحق: squish
 أسحقك: i'm crushing on you
 أسد: lion
 أسد؟: lion
+أسدد: repay
+أسدي: my lion
 أسر: capturing
 أسرار: secrets
+أسرة: family
 أسرع: faster
 أسرنا: our families
+أسرى: captives
+أسرية: family
+أسس: establish
 أسطورة: legend
+أسعد: the happiest
+أسعدك: happy you
 أسفل: down
 أسفل؟: down
 أسقط: drop
@@ -416,11 +544,13 @@ yigit: yigit
 أسلحتي: my weapons
 أسلم: safer
 أسلمك: I deliver you
+أسلوبك: your style
 أسماء: the names
 أسماءك: your names
 أسمائهم: their names
 أسمح: allow
 أسمع: listen
+أسمعه: i hear it
 أسميه: I call
 أسنانه: his teeth
 أسهب: amplified
@@ -430,8 +560,11 @@ yigit: yigit
 أسوار: fences
 أسود: black
 أسير: prisoner
+أسيرًا: captive
 أشارك: I share
+أشتري: buy
 أشجع: I encourage
+أشخاص: persons
 أشعر: I feel
 أشعل: lit
 أشعلنا: we ignited
@@ -439,10 +572,13 @@ yigit: yigit
 أشفق: pity
 أشكر: I thank
 أشكرك: thank you
-أشم: i smell
+أشم: I smell
 أشهد: I witness
 أشهر: months
 أشياء: things
+أشياءً: things
+أصابنا: hit us
+أصابه: infection
 أصبت: I was injured
 أصبح: had become
 أصبحت: I became
@@ -451,43 +587,64 @@ yigit: yigit
 أصحاء: healthy
 أصدق: believe
 أصدقاء: friends
+أصدقائنا: our friends
 أصدقائي: my friends
+أصدقائي،: my friends,
 أصدقهم: believe them
 أصر: he insisted
 أصرت: she insisted
+أصررت: i insisted
 أصعب: harder
+أصله: its origin
 أصلي: a native
 أصم: deaf
+أصنع: i make
 أصواتنا؟: our voices
 أصولك: your assets
 أصيب: injured
+أصيبت: were injured
 أصيبوا: they were injured
 أضاءت: lit up
+أضحوكة: joke
 أضر: harm
 أضربه: hit him
+أضربهم: hit them
+أضطر: i have to
 أضع: I put
+أضعها: i put it down
+أطاعنا: we obeyed
 أطرح: I put
+أطع: obey
+أطعك: i obey you
 أطعمك: feed you
+أطعموها: feed her
 أطفأت: switched off
 أطفال: children
 أطفالنا: our children
 أطفالي: my children
 أطلب: I request
 أطلبه: ask for it
+أطلق: release
 أطول: longer
+أطير: i fly
 أطيع: I obey
 أطيعك: I obey you
 أظن: I suspect
 أظهر: show up
 أظهرت: I showed
+أعاد: repeat
 أعادت: brought back
+أعاقبه: punish him
 أعتبره: consider it
 أعتقد: think
 أعد: prepared
 أعداء: enemies
 أعدت: prepared
+أعددت: i have prepared
 أعدك: I promise you
+أعدنا: we returned
 أعذار: excuses
+أعذارا: excuses
 أعرضك: introduce you
 أعرف: I know
 أعرفه: I know him
@@ -499,10 +656,12 @@ yigit: yigit
 أعطاه: gave him
 أعطاها: gave it
 أعطاهم: he gave them
+أعطتني: she gave me
 أعطني: give me
 أعطها: give her
 أعطهم: give them
 أعطونا: they gave us
+أعطوه: give him
 أعطى: gave
 أعطي: gave
 أعطيت: was given
@@ -511,21 +670,30 @@ yigit: yigit
 أعطيتني: you gave me
 أعطيته: I gave it
 أعطيتها: I gave her
-أعطيك: i give you
+أعطيك: I give you
+أعطيناه: we gave him
 أعطيها: give her
 أعظم: greatest
 أعلامنا: our flags
+أعلقه: i hang it
 أعلم: I know
 أعلن: advertise
+أعلى: top
+أعمارنا: our lifetimes
 أعمال: business
 أعماله: its works
 أعمدوني: baptize me
 أعمق: deeper
 أعمل: make
+أعموني: blind me
 أعمى: blind
+أعناقنا: our necks
+أعناقهم: their necks
 أعني: I mean
 أعنيه: I mean
+أعهد: i entrust
 أعود: I come back
+أعوذ: I seek refuge
 أعيد: was reinstated
 أعيدنا: get us back
 أعيش: I live
@@ -537,22 +705,33 @@ yigit: yigit
 أغاس: agas
 أغاس؟: agas
 أغبى: dumbest
+أغبياء: idiots
+أغراضهم: their purposes
 أغسل: wash
 أغضب: angered
+أغفر: i forgive
+أغفلنا: we overlooked
 أغلق: close
 أغلقنا: we closed
 أغلى: more expensive
 أغماد: sheaths
+أغمض: i close
 أغنامنا: our sheep
 أغنياء: rich
 أغنية: song
+أفتاليا: avtalia
+أفتح: lighter
+أفراد: individuals
 أفرغك: empty you
+أفسدت: messed up
 أفسر: I explain
 أفسين: afsin
+أفش: rash
 أفصل: unplug
 أفضل: best
 أفعال: acts
 أفعالك: your actions
+أفعالهم: their actions
 أفعل: I do
 أفعل؟: I do
 أفعله: I'm doing
@@ -564,8 +743,13 @@ yigit: yigit
 أفهمك: I understand you
 أقابل: meet
 أقارب: relatives
+أقترب: come close
+أقترح: suggest
+أقتل: kill
 أقتلك: I kill you
 أقتلكم: I kill you
+أقتله: kill him
+أقتلهم: kill them
 أقدام: feet
 أقدم: the oldest
 أقرب: closer
@@ -573,33 +757,46 @@ yigit: yigit
 أقسمت: I swore
 أقصد: I mean
 أقصر: shorter
+أقصى: maximum
+أقطعها: cut it
 أقل: less
 أقلق: worry
 أقنع: convince
 أقنعنا: he convinced us
 أقول: I say
 أقوله: I'm saying
+أقولها: I say it
 أقوم: do i
 أقوى: more powerful
 أقوياء: strong
 أكاذيب: lies
+أكاكوجا: Akakuga
 أكاكوكا: Akakuka
 أكاكوكا؟: Akakuka
-أكبر: larger
-أكبر؟: larger
+أكبر: greater
+أكبر؟: greater
 أكتولجالي: Actulgale
 أكتولجالي؟: Actulgali
 أكثر: more
+أكد: confirmed
 أكذب: I lie
 أكل: ate
 أكلت: ate
 أكلك: eat you
+أكلنا: we ate
+أكمل: complete
 أكن: I wouldn't
 أكون: I be
 أكياس: bags
+أكيد: certainly
 ألا: except
 ألب: alp
 ألب؟: alp
+ألبارجو: albergo
+ألبسنجر: alpsinger
+ألتيس: altis
+ألحق: append
+ألست: aren't you
 ألسنة: the year
 ألسنتك: your tongues
 ألصق: paste
@@ -613,12 +810,14 @@ yigit: yigit
 ألم: pain
 ألمك: your pain
 ألمى: my pain
-ألن: allen
+ألمي: my pain
+ألن: Allen
 ألوم: I blame
 أليس: isn't it
 أليف: elif
 أم: mother
 أم؟: mother
+أما: as for
 أماكنهم: their places
 أمام: before
 أمامك: in front of you
@@ -632,25 +831,37 @@ yigit: yigit
 أمانًا: secure
 أماً: as for
 أمتعته: his luggage
+أمتلك: possess
 أمر: command
+أمرا: an order
 أمرت: ordered
 أمرتنا: ordered us
+أمرك: your command
+أمرني: he ordered me
 أمره: his order
 أمروا: they ordered
+أمزق: tear off
 أمس: yesterday
 أمس؟: yesterday
 أمسك: catch
 أمسكنا: we caught
+أمسكناها: we caught it
 أمك: your mother
 أمل: amal
+أملي: my hope
 أمن: security
 أمنا: our mother
+أمنعها: stop it
 أمنيتي: my wish
+أمه: his mom
+أمها: her mother
 أمهير: amhair
+أمواتًا: dead
 أموالنا: our money
 أموت: I die
-أمي: illiterate
-أمي؟: illiterate
+أمور: things
+أمي: my mother
+أمي؟: my mother
 أمير: prince
 أمير؟: prince
 أميل: dont
@@ -669,11 +880,13 @@ yigit: yigit
 أنتما: you
 أنجح: succeed
 أنحاء: over
+أنزل: get down
 أنسى: forget
 أنشأنا: we created
 أنضم: join
-أنطاكية: antioch
+أنطاكية: Antioch
 أنظر: look
+أنعم: the softest
 أنفاسك: your breath
 أنفاسنا: our breath
 أنفاسه: his breath
@@ -687,19 +900,27 @@ yigit: yigit
 أنقذنا: he saved us
 أنقذني: save me
 أنك: that you are
+أنكر: langerhans
 أنكرت: I denied
 أننا: that we
 أنني: that I am
 أنه: it's a
 أنها: it
 أنهم: that they
+أنهوا: they finish
 أنهى: finish
 أنهي: finish
 أنهِ: it's a
 أنواع: species
 أنوفنا: our noses
 أنوفنا؟: our noses
+أني: I am
+أنينك: moan
+أهتم: I care
+أهدف: I aim
+أهرب: I run away
 أهلا: welcome
+أهم: most important
 أهمية: importance
 أهنئ: congratulate
 أهنتني: you insulted me
@@ -708,18 +929,24 @@ yigit: yigit
 أوامري: my orders
 أوجوز: Oguz
 أود: I would
+أودعك: say goodbye to you
 أوراق: leaves
 أورشليم: Jerusalem
 أوروبا: europe
 أوستا: Aosta
 أوستا؟: Aosta
+أوصل: reach
 أوصلك: pick you up
+أوضحت: explained
 أوعدك: I promise
+أوعدني: promise me
 أوغلو: Oglu
 أوغوز: Oguz
+أوفت: fulfilled
 أوقات: times
 أوقفه: stop it
 أوقفهم: stop them
+أوكلت: entrusted
 أول: first
 أولئك: those
 أولا: firstly
@@ -729,9 +956,12 @@ yigit: yigit
 أولية: preliminary
 أوه: oh
 أي: which
+أيا: none
 أيام: days
 أيامه: his days
+أيامًا: days
 أية: verse
+أيتها: oh
 أيد: supported
 أيدي: hands
 أيدينا: our hands
@@ -740,31 +970,45 @@ yigit: yigit
 أيضًا: also
 أيضًا؟: also
 أيقظنا: we woke up
-أيكيز: aikies
+أيكيز: Aikies
+أيكيز؟: Ayikeez
+أيمكنك: can you
 أين: where
 أين؟: where
 أينما: wherever
 أيها: ye
-أيهم: ayham
+أيهم: Ayham
+أيوب: Ayoub
+أيًا: any
 إبادة: extermination
-إبراهيم: ibrahim
+إبراهيم: Ibrahim
 إبرة: needle
+إبعاد: banishment
+إبعادك: banish you
+إبقاء: keep
 إبلاغ: report
 إبلاغنا: inform us
 إبهامك: your thumb
 إتبعها: follow her
-إتروجرول: etrogrol
-إتروجرول؟: etrogrol
-إتروغرول؟: etrogrol
+إتروجرول: Etrogrol
+إتروجرول؟: Etrogrol
+إتروغرول؟: Etrogrol
 إثارة: excitement
 إجابة: answer
+إجابته: his answer
 إجازة: a vacation
+إجمالاً: altogether
 إحضار: bring
 إحضاره: bring it
+إحياء: biology
 إخبار: news
 إخبارك: tell you
+إخبارنا: tell us
+إخباري: news
 إخراج: directed by
+إخراجها: take it out
 إخفاء: hide
+إخمادها: put out
 إخوانك: your brothers
 إخواننا: our brothers
 إخواني: my brothers
@@ -772,15 +1016,19 @@ yigit: yigit
 إدخال: enter
 إذا: if
 إذاً: if
-إذن: ear
-إذن؟: ear
+إذن: permission
+إذن؟: permission
 إذنك: your permission
+إذنك،: your permission,
 إذنكم: your permission
 إذننا: our permission
 إذهب: go
+إراحة: resting
 إرادة: will
 إرادتك: your will
 إرادتك؟: your will
+إرادته: his will
+إرادتي: my will
 إراقة: spilling
 إرتغرول: Ertugrul
 إرتغرول؟: Ertugrul
@@ -789,9 +1037,11 @@ yigit: yigit
 إرتوغرول؟: Ertugrul
 إرسال: send
 إرسالك: your submission
+إرسالي: send me
 إرضائك: please
 إزاء: about
 إسادورا: isadora
+إسلامية: islamic
 إسما: noun
 إشارة: signal
 إشراقًا: brightening
@@ -803,16 +1053,19 @@ yigit: yigit
 إضافي: additional
 إضعاف: double
 إطلاق: release
+إطلاقا: at all
 إطلاقه: launch it
 إعادة: re
 إعداد: prepare
 إعدامه،: his execution,
 إعطاء: give
 إعطائهم: give them
+إعفاءنا: excuse us
 إغواء: seduction
 إفتاليا: ephtalia
 إقامة: accommodation
 إقليم: province
+إقليمي: regional
 إقناع: persuade
 إقناعه: convince him
 إكسيسمان: Xesman
@@ -822,6 +1075,8 @@ yigit: yigit
 إلقاء: throw
 إله: god
 إلهام: important
+إلهنا: our god
+إلهه: his god
 إلهي: divine
 إلى: to
 إلى؟: to me
@@ -829,18 +1084,24 @@ yigit: yigit
 إلياس: Elyas
 إليك: to you
 إليكم: to you
+إلينا: to us
 إليه: mechanism
 إليه؟: mechanism
 إليها: to her
 إليها؟: to her
+إليّ: to me
 إما: as for
 إمارة: emirate
+إمام: before
 إمكاناتنا: our potential
+إمكانياتنا: our potential
 إن: that
 إنسان: man
 إنفاق: expenditure
 إنقاذ: rescue
 إنقاذنا: save us
+إنقاذه: save him
+إنقاذي: save me
 إنك: you
 إننا: we are
 إنني: I am
@@ -849,34 +1110,47 @@ yigit: yigit
 إنهاء: ending
 إنهم: that they
 إهمال: neglecting
+إهمالي: my neglect
 إياه: him
 إياها: it
 إيجاد: finding
 إيذاء: harming
 إيرلدوم: earldom
-إيزادورا؟: isadora
+إيزادورا: Isadora
+إيزادورا؟: Isadora
 إيقافه: stop it
-إيكيز؟: ikeez
-إيلانورا: Elanora
+إيكيز: Ikes
+إيكيز؟: Ikez
+إيلانورا: Elantra
+إيمانك: your faith
+إيماني: my faith
 إيمي: amy
 إيمي؟: amy
 إِذَا: if
 إِنَّهُ: it's a
 ا؟: a
+اؤتمنت: have been entrusted
+ائتمنتنا: our credit
 االرب: the lord
 اباركك: I bless you
 ابتداء: beginning
 ابتعد: stay away
+ابتلاع: swallow
 ابتلاعها: swallow it
-ابتلعت: i swallowed
+ابتلعت: I swallowed
+ابتلى: afflicted
 ابتليت: plagued
 ابحث: search
 ابدا: start
+ابذل: do
+ابرة: needle
 ابعد: far
 ابق: stay
 ابقني: keep me
 ابقى: stay
+ابكي: cry
 ابن: son
+ابنا: a son
 ابنا؟: a son
 ابنة: daughter
 ابنتك: your daughter
@@ -891,16 +1165,22 @@ yigit: yigit
 ابني&quot;: my son&quot;
 ابني: my son
 ابني؟: my son
+ابونا: our father
 ابي: my father
+اتباع: following
 اتبعني: follow me
+اتبعهم: follow them
 اتجاه: direction
 اتحدث: I speak
 اتحدوا: unite
 اتخاذ: take
+اتخذ: was taken
 اتخذت: taken
 اتخذناه: we have taken
+اتخذه: take it
 اتخذها: take it
 اترك: leave
+اتركنا: leave us
 اتركني: leave me
 اتركه: leave it
 اتركوا: leave
@@ -916,34 +1196,56 @@ yigit: yigit
 اثنين: two
 اجب: duty
 اجتاحت: swept
+اجتزت: i passed
 اجتماعات: meetings
 اجتمع: met
+اجدادكم: your grandparents
 اجعل: make
+اجلب: fetch
 اجلس: sit
+اجلنا: ourselves
+اجمع: collect
 اجمل: the most beautiful
+احب: i love
 احتاجت: she needed
+احتاجنا: we needed
+احتجت: i needed
+احترازي: precaution
 احترس: watch out
+احترقت: burned out
 احتفظ: keep
 احتفظت: I kept
+احتلها: occupy it
 احتوائه: contain it
 احتوائها: contain
+احتوائهم: contain them
 احد: one
 احرص: be careful
+احزان: sorrows
 احسب: calculate
 احسبهم: count them
 احصل: get
+احضر: brought
 احضرت: I brought
 احضرتهم: I brought them
 احضرهم: bring them
+احفظ: save
 احلام: dreams
 احلامك: your dreams
 احمل: I carry
+احيانا: sometimes
+احيتني: she revived me
+اخبار: news
+اخبارك: your news
 اخبرني: tell me
 اختار: choose
 اختبأت: I hid
 اختبأوا: they hid
+اختبئ: hide
 اختبار: test
 اختبارات: tests
+اختبارك: your test
+اختباره: tested it
 اختبارها: tested
 اختراق: breakthrough
 اخترت: I chose
@@ -951,10 +1253,16 @@ yigit: yigit
 اختطف: he was kidnapped
 اختطفت: she was kidnapped
 اختطفوها: they kidnapped her
+اختفت: disappeared
 اختي: my sister
 اختيار: selection
+اخذت: i took
+اخراج: directed by
 اخرج: get out
 اخرس: shut up
+اخفيت: i hid
+اخلاقك: your morals
+اخلاقكما: your morals
 اخماد: suppression
 اخماده: put it out
 اخو: brother
@@ -962,16 +1270,32 @@ yigit: yigit
 اخوانك: your brothers
 اخواننا: our brothers
 اخوة: brothers
+اخوتك: your brothers
+اخوتنا: our brothers
+اخوتي: my brothers
 اخونا: our brother
+اخوه: brothers
 اخي: brother
 اخي؟: brother
+اخيرا: finally
 اخيك؟: your brother
+اخينا: our brother
 اخيه: brother
+ادخل: enter
 ادعمني: support me
+ادعو: i invite
 ادعى: claimed
+ادفنهم: bury them
 اذا: if
+اذكر: i remember
 اذن: so
 اذهب: go
+اذهب؟: go
+اذهبي: go
+اربطه: fasten it
+اربطهم: tie them up
+ارتابوا: suspicious
+ارتجافك: your shivering
 ارتدته؟: I wore it
 ارتدى: wear
 ارتفاع: height
@@ -979,33 +1303,57 @@ yigit: yigit
 ارتكبت: committed
 ارتكبنا: we committed
 ارتكبه: committed
+ارتياح: satisfaction
 ارجع: come back
 ارجوك: I beg you
+ارحم: have mercy
+ارحمنا: have mercy on us
+ارحمني: have mercy on me
+اردت: wanted
+ارزقني: grant me
 ارسل: send
 ارطغرل: Ertugrul
 ارطغرل؟: Ertugrul
 ارطغرول: Ertugrul
+ارفضهم: reject them
+ارفع: take up
+اركب: ride
+ارواحهم: their souls
 ارى: I see
 ارى؟: I see
 اريد: I want
+ازداد: has increased
 اسأل: ask
+اساطيرنا: our myths
 اساعدك: I help you
 اساعدك،: I help you,
+اسالك: ask you
 استأجروه: they rented him
+استأجروها: rented it
 استادي: stadium
 استجواب: questioning
 استجوابك: questioning you
 استجوبته: I questioned him
 استحق: deserve
+استحقوا: they deserved
 استخدام: use
+استخدامه: use it
 استخدامها: use it
 استخدم: use
+استخدمني: use me
+استخدموا: they used
 استدار: turned round
+استدرت: i turned around
 استدعاء: call up
 استدعت: summoned
+استرح: relax
+استرخ: relax
 استرخاء: relaxation
 استريح: rest
 استريحي: rest
+استسلم: give up
+استسلموا: they surrendered
+استشهد: quote
 استضافهم: hosted
 استضفهم: host them
 استطعت: I could
@@ -1015,6 +1363,7 @@ yigit: yigit
 استعادة: recovery
 استعد: get ready
 استعداد: ready
+استعداداتك: your preparations
 استعدت: braced
 استعدوا: brace up
 استغرق: it took
@@ -1022,17 +1371,26 @@ yigit: yigit
 استفز: provoke
 استفزاز: provocation
 استفزاك: provocation
+استفزك: provoked you
+استفسرت: inquired
 استقر: settle down
 استقرت: stabilized
+استقرنا: we settled down
+استلام: receipt
+استلقي: lie down
 استلهام: inspiration
+استماع: listening
 استمر: continue
 استمرارية: continuation
 استمرت: continued
 استمع: listen
-استمعت: i listened
+استمعت: I listened
 استنفادنا: our exhaustion
+استنفد: exhausted
 استنفذ: exhausted
+استولى: seized
 استيقظ: get up
+اسرع: faster
 اسم: noun
 اسما: a name
 اسمح: allow
@@ -1049,6 +1407,7 @@ yigit: yigit
 اشتاقه: I miss him
 اشتروا: they bought
 اشترى: buy
+اشتريت: i bought
 اشتريته: I bought it
 اشتريتها: bought it
 اشتقت: I miss
@@ -1056,31 +1415,43 @@ yigit: yigit
 اشكر: I thank
 اصبح: has become
 اصدقائي،: my friends,
+اصطحاب: pick up
 اصطحابها: pick her up
+اصطحب: take
+اصطحبت: escorted
 اصطحبه: take him
 اصطحبهم: take them
 اصطياده: catching
+اصعد: go up
 اصمت: shut up
 اصنع: make
+اضاعة: waste
 اضطراب: disturbance
 اضغط: click
 اطفالهم: their children
 اطلاع: looking at
 اطلاق: release
+اطلب: i request
+اطمئن: rest assured
 اظهار: show
 اعتاد: he used
 اعتادني: he used me
+اعتبرنا: we considered
+اعتدنا: we got used
 اعتذاري: apologetic
 اعتراض؟: objection
 اعتزازك: your pride
 اعتقادي: my belief
 اعتقال: arrest
 اعتقدت: I thought
+اعتقله: arrested him
 اعتن: take care
 اعتنقه: embrace it
 اعتني: took care of
 اعثر: find
 اعدامه: his execution
+اعدك: i promise you
+اعدني: bring me back
 اعرف: I know
 اعطني: give me
 اعطيك: I give you
@@ -1091,35 +1462,53 @@ yigit: yigit
 اعني: I mean
 اغابي: agape
 اغسل: wash
+اغفر: forgive
+اغلق: close
+اغير: change
+افتاليا: avtalia
 افتح: open
 افتراء: defamation
+افتراءات: fabrications
 افترق: parted
 افتقد: miss
 افتيليا؟: avtilia
+افسين: avsen
+افضل: best
 افعل: I do
 افعلها: do it
 افكر: think
+افهم: i understand
 اقبل: accept
+اقتحمت: broken into
 اقتراح: suggestion
 اقترب: come closer
 اقتربت: I approached
+اقترح: suggest
 اقتل: kill
 اقتلتم: you killed
 اقتلني: kill me
 اقتله: kill him
+اقتلها: kill her
 اقتلهم: kill them
 اقرب: closer
 اقسم: I swear
+اقلق: worry
 اقنعه: persuade him
 اقول: tell
+اكاكوجا: Akakuga
+اكاكوجا؟: Akakuga
+اكتئابه: his depression
 اكتشاف: discovery
+اكتشفت: i discovered
 اكتشفنا: we discovered
 اكتمل: completed
+اكتملت: completed
 اكتولجالي: actulgally
-اكتولغالي: actualgale
-اكتولغالي؟: actualgal
+اكتولغالي: Actualgale
+اكتولغالي؟: Actualgal
 اكثر: more
 اكثر؟: more
+اكن: be
 اكون: I be
 الآب: the father
 الآب،: the father,
@@ -1127,6 +1516,8 @@ yigit: yigit
 الآبار: wells
 الآثار: archaeology
 الآخر: the other
+الآخرة: hereafter
+الآخرون: the others
 الآخرين: others
 الآسيوية: asian
 الآلاف: thousands
@@ -1140,10 +1531,14 @@ yigit: yigit
 الأبد: forever
 الأبراج: horoscopes
 الأبرياء: innocent
+الأبعد: the furthest
 الأبواب: the doors
 الأبيض: the white
 الأتراك: turks
+الأثرياء: wealthy people
 الأثناء: meantime
+الأجداد: grandparents
+الأجساد: bodies
 الأجنبية: foreign
 الأحبة: sweethearts
 الأحداث: events
@@ -1167,23 +1562,29 @@ yigit: yigit
 الأدغال: the jungle
 الأدوية: pharmaceutical
 الأراضي: lands
+الأربع: quarter to
 الأربعاء: wednesday
 الأربعة: the four
 الأرثوذكس: orthodox
 الأرجح: most likely
 الأرض: earth
 الأرض؟: earth
+الأرضي: ground
+الأرضية: the floor
 الأرواح: spirits
 الأرواح؟: spirits
 الأسئلة: questions
 الأساطير: myths
+الأساليب: methods
 الأستاذ: the professor
 الأسد: the lion
 الأسرار: secrets
+الأسرة: family
 الأسرى: the prisoners
 الأسرى؟: the prisoners
 الأسلحة: weapons
 الأسنان: the teeth
+الأسهم: stocks
 الأسوأ: the worst
 الأسود: the black
 الأسير: the captive
@@ -1196,11 +1597,13 @@ yigit: yigit
 الأطفال: children
 الأعداء: enemies
 الأعشاب: herbs
+الأعظم: the greatest
 الأعمال: business
 الأغنام: sheep
 الأفراس: mares
 الأفضل: best
 الأفق: horizon
+الأقدس: the holiest
 الأقصى: the maximum
 الأقل: the least
 الأقواس: brackets
@@ -1212,6 +1615,7 @@ yigit: yigit
 الأكل: eater
 الألب: alps
 الألسنة: tongues
+الألعاب: the games
 الألغام؟: mine
 الألم: the pain
 الألوان: colors
@@ -1219,6 +1623,9 @@ yigit: yigit
 الأم؟: the mother
 الأماكن: the places
 الأمامي: anterior
+الأمان: safety
+الأمانة: honesty
+الأمة: nation
 الأمر: command
 الأمر؟: the matter
 الأمراء: princes
@@ -1226,6 +1633,7 @@ yigit: yigit
 الأمس؟: yesterday
 الأمل: hope
 الأملس: soapstone
+الأمن: security
 الأمهات: mothers
 الأمور: things
 الأمومة: motherhood
@@ -1240,36 +1648,47 @@ yigit: yigit
 الأنماط: patterns
 الأنهار: rivers
 الأنين: whining
+الأهم: more important
 الأهمية: importance
 الأوان: time
 الأوتار: tendons
 الأوروبيين: europeans
 الأوساخ: the dirt
 الأوغاد: scoundrels
+الأوغوز: the oguz
 الأوقات: times
 الأول: the first
 الأولى: first
 الأولية: primary
 الأوهام: illusions
 الأيام: the days
+الأيدي: the hands
 الأيمن: right
 الأيوبي: Ayoubi
 الإثارة: excitement
 الإجابة: the answer
+الإجراءات: measures
+الإحراج: embarrassment
 الإخوة: the brothers
 الإذن: permission
 الإزعاج: hassle
 الإساءة: offending
+الإسراع: accelerate
 الإسلامي: islamic
 الإسلامي؟: islamic
+الإسلامية: islamic
+الإشارة: signal
+الإصابة: injury
 الإطلاق: all
 الإعدام: execution
 الإفطار: the breakfast
 الإقليم: territory
+الإقناع: persuasion
 الإله: god
 الإلهي: divine
 الإلهية: divine
 الإمارة: the principality
+الإمساك: constipation
 الإمكان: possible
 الإنتاج: production
 الإنسان: the human
@@ -1277,22 +1696,29 @@ yigit: yigit
 الإنصاف؟: fairness
 الإنقاذ: rescue
 الإيمان: faith
+الا: except
+الابتعاد: get away
 الابرياء: innocent
 الابن: son
 الاتجاه: direction
 الاتصال: connection
 الاتصالات: telecommunications
 الاتفاق: the agreement
+الاتفاقية: the convention
+الاتكال: reliance
 الاتهام: accusation
 الاتهامات: accusations
 الاثار: archaeology
 الاثنان: the two
+الاجتماع: the meeting
 الاحتجاج: protest
 الاحترام: respect
+الاحتفاظ: retention
 الاحتمالات: possibilities
 الاحتياطات: precautions
 الاختباء: hiding
 الاختبار: the test
+الاختبارات: the exams
 الاختيار: the choice
 الاخوة: the brothers
 الادخار: saving
@@ -1324,14 +1750,17 @@ yigit: yigit
 الاشقر؟: blond
 الاضطراب: turbulence
 الاضطرابات: troubles
+الاطفال: children
 الاطمئنان: reassurance
 الاعتبار: mind
 الاعتراف: confession
 الاعتقاد: belief
 الاعتناء: look after
+الاف: thousands
 الافتراء: slander
 الافتراءات: slander
 الاقتراب: get closer
+الاقتناع: conviction
 الاكتئاب: depression
 الالتزام: commitment
 الالتقاء: convergence
@@ -1352,20 +1781,26 @@ yigit: yigit
 الانتهاء: finished
 الانتهاكات: violations
 الانحدار: regression
+الانزعاج: discomfort
 الانضمام: join
+الانطلاق: starting off
 الانفصال: separation
 الاهم: more important
 الب؟: alp
 البئر: well
 البائس: wretched
 البائسة: wretched
+البائسين: the wretched
 الباب: the door
 الباب؟: the door
 البابا: the pope
 البابوية: the papacy
-البارجو: pargo
-البارجو؟: pargo
+البارجو: Pargo
+البارجو؟: Pargo
+البارحة: yesterday
 الباردة: cold
+البارسلان: paraslan
+البارغو: Bargo
 البازلاء: peas
 الباسل: the brave
 الباسلة: valiant
@@ -1373,19 +1808,25 @@ yigit: yigit
 الباكر: early
 البالغين: adults
 البالية: worn out
-الباي: the bey
-البايز: the bayes
-البايز؟: bayes
+الباي: the master
+البايات: beys
+البايز: the masters
+البايز؟: the masters
 البت: deciding
+البجعة: the swan
+البحار: seas
 البحث: search
 البحر: the sea
 البدء: get started
+البدايات: beginnings
 البداية: the beginning
 البدو: bedouins
 البذور: seeds
 البر: righteousness
+البر؟: righteousness
+البرج: the tower
 البرد: the cold
-البرسلان: perslan
+البرسلان: Perslan
 البرق: lightning
 البرق؟: lightning
 البركة: pond
@@ -1393,23 +1834,31 @@ yigit: yigit
 البريئة: innocent
 البرية: wild
 البساط: the rug
+البسنجر: pasinger
+البسها: wear it
 البسونغر: bessinger
 البسونغور: the besongor
+البشارة: the good news
 البشرية: humanity
 البصرة: basra
 البضائع: the goods
 البضاعة: goods
 البطل: hero
+البطولي: heroic
 البعض: other
+البعوض: mosquitoes
 البقاء: stay
 البقر: cow
 البقري: bovine
 البكاء: cry
+البكوات: pecs
 البلاد: country
 البلد: country
 البلدان: the countries
+البلدة: the town
 البلديات: municipalities
 البلوط: oak
+البنات: girls
 البندقية: venice
 البهلوانات: tumblers
 البومة: the owl
@@ -1418,18 +1867,24 @@ yigit: yigit
 البيض: eggs
 البيع: sale
 البيك: pick
+التأثير: the influence
 التأخير: delay
 التأرجح: swing
 التأكد: making sure
+التابعة: affiliate
 التاج: the crown
 التاجر: the merchant
 التالي: next one
+التبادل: the exchange
 التباهي: to brag
 التبييض: bleaching
 التجارب: experiments
+التجارية: commercial
 التحالف: alliance
 التحدث: speak
+التحديات: challenges
 التحرر: emancipation
+التحرك: move
 التحضير: preparation
 التحفظات: reservations
 التحقق: check
@@ -1439,7 +1894,9 @@ yigit: yigit
 التخلص: get rid
 التخلي: give up
 التخييم: camping
+التدبير: measure
 التراب: dirt
+التربة: the soil
 الترتيب: ranking
 الترحيب: welcome
 الترحيل: deportation
@@ -1451,11 +1908,16 @@ yigit: yigit
 التركي: turkish
 التركيز: the focus
 التزام: commitment
+التزمت: she committed
+التساؤل: wondering
 التسول: begging
 التشنجات: convulsions
+التصرف: act
+التصوير: photography
 التضحية: the sacrifice
 التطورات: developments
 التعازي: condolences
+التعافي: recover
 التعامل: deal
 التعاون: cooperat
 التعذيب: torture
@@ -1465,9 +1927,12 @@ yigit: yigit
 التفاح: apple
 التفكير: thinking
 التقاط: capture
+التقدم: progress
 التقط: pick up
+التقليل: minimizing
 التقينا: we met
 التكلفة: the cost
+التكلم: talking
 التلال: the hills
 التلة: the hill
 التمثيل: the acting
@@ -1475,19 +1940,23 @@ yigit: yigit
 التمرين: the exercise
 التمسك: holding on
 التنانير: skirts
+التنبؤ: forecasting
 التنظيف: cleaning
 التنفس: breathing
 التنكر: disguise
 التنوير؟: enlightenment
 التنين: the dragon
 التهديد: the threat
+التهريج: clowning
 التهم: counts
 التواجد: presence
 التوالي: respectively
+التوجيه: guidance
 التوفيق: conciliation
 التي: which
 الثانية: the second
 الثروات: wealth
+الثروة: wealth
 الثعابين: snakes
 الثعبان: serpent
 الثقة: confidence
@@ -1500,21 +1969,26 @@ yigit: yigit
 الثمن: the price
 الثمين: precious
 الثمينة: precious
+الثني: crease
 الجائع: hungry
 الجائعة: hungry
+الجافة: dry
 الجانب: the side
 الجاني: the culprit
 الجبال: mountains
 الجبان: coward
 الجبل: the mountain
 الجبناء: cowards
+الجثث: corpses
 الجحيم: hell
 الجد: grandpa
 الجدول: table
 الجديد: the new
 الجديد؟: the new
 الجديدة: new
+الجرأة: daring
 الجرح: the wound
+الجرف: the shelf
 الجري: running
 الجريح: the wounded
 الجريح؟: the wounded
@@ -1522,12 +1996,14 @@ yigit: yigit
 الجريمة: the crime
 الجزء: section
 الجزر: islands
+الجسد: the body
 الجسر: the bridge
 الجسم: the body
 الجفاف: drought
 الجلاد: executioner
 الجلالة: majesty
 الجلد: skin
+الجلود: leather
 الجلود؟: leather
 الجلوس: sit down
 الجمارك: the customs
@@ -1541,6 +2017,7 @@ yigit: yigit
 الجميز: sycamore
 الجميع: everybody
 الجميل: beautiful
+الجميلات: beauties
 الجميلة: the beautiful
 الجميلة،: the beautiful,
 الجميلة؟: the beautiful
@@ -1550,6 +2027,8 @@ yigit: yigit
 الجنة: the paradise
 الجندي: the soldier
 الجنود: soldiers
+الجنون: madness
+الجهات: actors
 الجهد: effort
 الجواسيس: spies
 الجوانب: aspects
@@ -1558,18 +2037,26 @@ yigit: yigit
 الجيد: good
 الجيدة: good looking
 الجيش: army
+الحاجب: eyebrow
 الحاجة: the need
+الحارة: warm
+الحاضنة: babysitter
+الحافة: the edge
 الحاكم: the ruler
 الحاكمة؟: the ruling
 الحال: adverb
 الحالة: case
+الحانة: bar
 الحب: the love
 الحبال: chords
 الحبس: confinement
 الحبس؟: confinement
+الحبيب: the beloved
 الحجارة: stones
 الحجر: stone
 الحجر؟: stone
+الحجم: the size
+الحد: limit
 الحدس: intuition
 الحدود: the border
 الحديث: the talk
@@ -1580,28 +2067,37 @@ yigit: yigit
 الحرارة: the heat
 الحراس: the guards
 الحراسة: guarding
+الحرب: the war
 الحرس: the guard
 الحرية: freedom
 الحريق: the fire
 الحزب: party
 الحزن: sorrow
 الحسنات: good deeds
+الحشد: the crowd
 الحشمة: decency
 الحصان: the horse
+الحصن: fort
 الحصول: get
 الحصى: gravel
+الحضور: attendees
 الحظ: luck
 الحظ،: luck,
 الحفاظ: keep
+الحفلة: the party
 الحق: right
 الحقائق: the facts
+الحقد: malice
 الحقل: field
+الحقوق: rights
 الحقيقة: truth
 الحقيقي: real
 الحقيقية: the real
 الحقيقيون: the real
 الحقيقيين: real people
+الحكام: rulers
 الحكم: judgment
+الحكم؟: the verdict
 الحكماء: the elders
 الحكمة: wisdom
 الحكيم: the wise
@@ -1613,21 +2109,26 @@ yigit: yigit
 الحلوة: sweet
 الحلوة؟: sweet
 الحليب: the milk
+الحمار: the donkey
 الحمام: the bathroom
 الحماية: protection
 الحمد: praise
+الحمدلكني: thank you
 الحمقى: fools
 الحمل: pregnancy
 الحملة: the campaign
+الحمى: fever
 الحواجب: eyebrows
 الحي: alive
 الحياة: life
+الحير: perplexity
 الحيل: tricks
 الحين: now
 الحين؟: now
 الحيوانات: the animals
 الخائن: the traitor
 الخائن؟: the traitor
+الخاتمة: conclusion
 الخادم: server
 الخادمات: maids
 الخادمة: the maid
@@ -1635,10 +2136,13 @@ yigit: yigit
 الخارج؟: the outside
 الخاص: the private
 الخاصة: own
+الخاصين: specials
+الخام: raw
 الخبث: slag
 الخبث؟: slag
 الخبر: the news
 الخبر؟: ahh
+الخبرة: experience
 الخبز: the bread
 الختم: the seal
 الختم؟: the seal
@@ -1648,8 +2152,10 @@ yigit: yigit
 الخراف: sheep
 الخرج: output
 الخروج: exit
+الخروف: the lamb
 الخريطة: the map
 الخزانة: cabinet
+الخزي؟: shame
 الخزينة: treasury
 الخسارة: loss
 الخشب: the wood
@@ -1658,8 +2164,11 @@ yigit: yigit
 الخط: line
 الخطأ: the error
 الخطأ؟: the error
+الخطاب: the speech
+الخطاة…: sinners ...
 الخطة: the plan
 الخطر: the danger
+الخطرين: the two dangers
 الخطط: plans
 الخطوة: step
 الخلاف: disagreement
@@ -1667,6 +2176,7 @@ yigit: yigit
 الخلفية: the background
 الخلق: creation
 الخلود: eternity
+الخنجر: dagger
 الخنزير: pig
 الخوف: the fear
 الخونة: traitors
@@ -1682,11 +2192,13 @@ yigit: yigit
 الداخل؟: inside
 الداخلي: procedure
 الداخلي؟: procedure
+الدافئ: warm
 الداكنة: dark
 الدب: the bear
 الدخول: access
 الدراج: pheasant
 الدرب: trail
+الدرج: stairs
 الدرج؟: the stairs
 الدرجة: class
 الدرس: the lesson
@@ -1699,6 +2211,8 @@ yigit: yigit
 الدماء: blood
 الدمعة: teardrop
 الدموع: tears
+الدمية: the doll
+الدنيئة: sordid
 الدنيا: dunya
 الدنيوي: worldly
 الدودة: the worm
@@ -1712,6 +2226,7 @@ yigit: yigit
 الذئب&quot;: the wolf&quot;
 الذئب: the wolf
 الذبول: wilting
+الذقن: the chin
 الذكاء: intelligence
 الذكرى: anniversary
 الذهاب: going
@@ -1722,13 +2237,16 @@ yigit: yigit
 الذي: which
 الذين: whose
 الرأس: head
+الرؤوس: heads
 الرئيسي: the main
 الرائدة: leading
 الراحة: comforts
+الراحل: the late
 الراحلة: the late
 الراعي: shepherd
 الراهن: the present
 الراية: raya
+الرب: the lord
 الربط: connectivity
 الربيع: the spring
 الرجاء: please
@@ -1736,23 +2254,31 @@ yigit: yigit
 الرجال؟: men
 الرجل: the man
 الرجل؟: the man
+الرجيم: dieting
+الرحب: welcome
 الرحل: nomads
 الرحلات: trips
 الرحلة: the journey
 الرحم: uterus
 الرحمة: mercy
 الرحمن: merciful
+الرحمن؟: merciful
 الرحى: grindstone
 الرحيل: leave
 الرحيم: merciful
+الرحيمتين: merciful
 الرخاء: prosperity
 الرد: reply
 الردود: responses
 الرسائل: messages
 الرسالة: the message
+الرسغين: the wrists
 الرسل: the apostles
+الرسول: prophet
+الرصاص: lead
 الرضوخ: caving
 الرعاة: shephards
+الرعايا: the wav
 الرعاية: care
 الرعشات: shivers
 الرغم: though
@@ -1763,23 +2289,30 @@ yigit: yigit
 الركض: jogging
 الركوع: kneeling
 الرماد: ash
+الرمال: sand
 الرمح: the spear
 الرمل: the sand
 الرموز: icons
+الرمي: throwing
+الروابط: links
 الروث: manure
 الروح: spirit
+الرومان: the romans
 الرياح: wind
 الريح: the wind
 الزاوية: the corner
 الزرقاء: apartment for sale located in zarqa
 الزفاف: wedding
+الزمني: temporal
 الزنادقة: heretics
 الزنديق: heretic
 الزنزانة: the cell
 الزنزانة؟: the cell
 الزهرة: venus
 الزواج: marriage
+الزوار: visitors
 الزوايا: corners
+الزور: false
 الزيارة: the visit
 الزيتية: oily
 السؤال: the question
@@ -1787,6 +2320,7 @@ yigit: yigit
 الساحر: the magician
 الساحرة: the witch
 الساخن: hot
+الساذج: slob
 الساذجة: naive
 السار: good
 السارة: pleasant
@@ -1795,6 +2329,7 @@ yigit: yigit
 السبب؟: reason
 السبل: avenues
 الستائر: curtains
+الستارة: the curtain
 السجاد: carpets
 السجل: the record
 السجل؟: the record
@@ -1805,18 +2340,25 @@ yigit: yigit
 السحب: clouds
 السذاجة: naive
 السر: the secret
+السرج: the saddle
 السرعة: the speed
+السروج: saddles
+السري: secret
+السرية: confidentiality
 السرير: the bed
 السريع: quick
 السعادة: happinese
+السعيدة: happy
 السفر: travel
 السفير: the ambassador
 السقوط: the fall
 السكارى: drunks
 السكاكين: knives
 السكر: sugar
+السكين: the knife
 السلاجقة: the Seljuks
 السلاجقة؟: the Seljuks
+السلاح: the weapon
 السلاطين: sultans
 السلام: peace
 السلامة: safety
@@ -1825,36 +2367,46 @@ yigit: yigit
 السلجوقي: Seljuk
 السلجوقية: Seljuk
 السلجوقية؟: Seljuk
+السلجوقيين: seljuks
 السلس: smooth
 السلسلة: series
 السلطان: sultan
 السلطان؟: the sultan
+السلطة: authority
 السلم: the ladder
 السليم: proper
 السم: poison
 السم؟: poison
 السماء: the sky
 السماح: allow
+السماوات: the heavens
 السماوي: heavenly
 السمكة: the fish
 السمو: highness
+السموات: the heavens
 السن: age
 السنوات: the years
+السنين: the years
 السهام: arrows
 السهل: easy
+السهلة: the easy one
 السهم: arrow
 السهوب: steppe
 السهول: plains
+السهولة: ease
 السوداء: black
 السوق: market
 السوق؟: market
 السيئة: the bad
+السيد: the master
+السيدة: mrs
 السير: bios
 السيطرة: the control
 السيف: sword
 السيوف: swords
 الشائعات: rumors
 الشاب: the guy
+الشابة: the young lady
 الشاعر: poet
 الشاق: hard working
 الشاه: the shah
@@ -1863,16 +2415,23 @@ yigit: yigit
 الشتاء: winter
 الشجاع: the brave
 الشجاعة: courage
+الشجاع…: the brave…
+الشجر: the trees
 الشجرة: the tree
 الشجعان: brave
 الشخص: the person
 الشخصي: profile
+الشخصية: personal
+الشدة: distress
 الشديد: serious
 الشر: evil
 الشر؟: evil
+الشربات: sherbet
 الشرسة: fierce
+الشرط: the condition
 الشرف: honor
 الشرفة: porch
+الشرير: the villain
 الشعب: the people
 الشعر: poetry
 الشعلة: the flame
@@ -1884,6 +2443,7 @@ yigit: yigit
 الشك: doubt
 الشكاوى: complaints
 الشكل: the shape
+الشكوك: doubts
 الشمس: the sun
 الشمس؟: the sun
 الشموع: candles
@@ -1903,6 +2463,7 @@ yigit: yigit
 الصباح؟: the morning
 الصبر: patience
 الصبغة: dye
+الصبي: boy
 الصبي؟: the boy
 الصحابة: companions
 الصحارى: deserts
@@ -1925,6 +2486,7 @@ yigit: yigit
 الصغير: little
 الصغير؟: little
 الصغيرة: small
+الصقر: falcon
 الصقور: falcons
 الصلاة: prayer
 الصلب: steel
@@ -1937,15 +2499,20 @@ yigit: yigit
 الصليبيين: crusaders
 الصليبيين؟: the crusaders
 الصمت: silence
+الصمود: withstand
+الصندوق: box
 الصهيل: neighing
+الصواب: right
 الصوت: the sound
 الصياد: the hunter
+الصياد؟: the hunter
 الصيد: the hunt
 الصين: china
 الضالة: stray
 الضالين: the lost
 الضباب: the fog
 الضرائب: taxes
+الضرب: beating
 الضغط: pressure
 الضلع: the rib
 الضوء: the light
@@ -1965,6 +2532,7 @@ yigit: yigit
 الطرف: party
 الطرق: roads
 الطرق؟: roads
+الطرقات: roads
 الطريق: the path
 الطريقة: way
 الطعام: the food
@@ -1973,6 +2541,7 @@ yigit: yigit
 الطفل: child
 الطفولة: childhood
 الطلاء: paint
+الطمأنينة: tranquility
 الطوعيين: voluntary
 الطويل: the long
 الطيور: the birds
@@ -1988,17 +2557,24 @@ yigit: yigit
 العار: shame
 العار؟: shame
 العاصفة: the storm
+العاصي: the disobedient
 العالم: the world
 العالم؟: the world
+العالمين: worlds
+العالية: high
 العام: year
 العامي: commoner
 العاهرة: bitch
 العب: play
 العبء: the burden
+العبادة: worship
+العباسي: abbasi
+العبث: tamper
 العبودية: slavery
 العبودية؟: slavery
 العبيد: slaves
 العثور: found
+العجلة؟: wheel
 العجين: dough
 العدالة: justice
 العدالة؟: justice
@@ -2008,15 +2584,17 @@ yigit: yigit
 العدو؟: the enemy
 العديد: many
 العذاب: torment
-العراق: iraq
+العراق: Iraq
+العرب: arabs
 العربة: the cart
-العربي: arabi
+العربي: Arabi
 العرش: the throne
 العرف: custom made
 العرفي؟: customary
 العرق: sweat
 العروس: the bride
 العريس: the groom
+العزم: determination
 العزيز: Elaziz
 العزيز؟: Elaziz
 العزيزة: Elaziza
@@ -2024,6 +2602,7 @@ yigit: yigit
 العشاء: the dinner
 العشاء؟: the dinner
 العشائر: clans
+العشب: the lawn
 العصا: the stick
 العصر: age
 العصور: ages
@@ -2043,17 +2622,23 @@ yigit: yigit
 العلم: science
 العلوي: top
 العم: uncle
+العمد: willfuls
 العمر: age
 العمل: the work
 العمل؟: the work
 العملات: coins
+العملية: the operation
 العناء: the trouble
 العناد: stubbornness
 العناصر: elements
+العناية: care
 العندليب: nightingale
+العنق: neck
+العنورا: anura
 العواصم: capital cities
 العواقب: consequences
 العودة: go back
+العون: help
 العيد: eid
 العيش: live
 العين: eye
@@ -2061,15 +2646,21 @@ yigit: yigit
 العيون: the eyes
 الغابات: forests
 الغابة: forest
+الغالي: dear
+الغالية: dear
 الغاية: the end
 الغباء: stupidity
 الغبار: the dust
+الغبي: idiot
 الغبية: stupid
+الغجر: gypsies
 الغد: tomorrow
 الغداء: the lunch
 الغداء؟: the lunch
+الغدر: treachery
 الغذاء: food
 الغربان: crows
+الغرض: the purpose
 الغرفة: the room
 الغرفة؟: the room
 الغرق: drowning
@@ -2085,13 +2676,17 @@ yigit: yigit
 الغيوم: the clouds
 الفأس: ax
 الفئران: mice
+الفائدة: benefit
 الفائز: winner
 الفاتحة: fatiha
+الفاتنة: the seductress
 الفاتيكان: vatican
 الفارس: the knight
 الفاسدين: corrupt
+الفاني: mortal
 الفتاة: the girl
 الفتاة؟: the girl
+الفتاح: alfattah
 الفتنة: strife
 الفتى: the boy
 الفتيات: the girls
@@ -2100,46 +2695,56 @@ yigit: yigit
 الفخ: the trap
 الفخاخ: traps
 الفخر: pride
+الفداء: redemption
 الفراش: bedding
 الفراشات: butterflies
 الفرح: joy
 الفرس: clicker
 الفرسان: knights
 الفرصة: the opportunity
+الفريسة: the prey
 الفصائل: factions
 الفصل: the classroom
 الفعل: verb
 الفقار: spondylitis
+الفقر: poverty
 الفقراء: the poor
 الفكر: thought
 الفكرة: the idea
 الفم: the mouth
+الفهم: understanding
 الفوج: regiment
 الفور: the spot
 الفوز: the win
 الفوضى: chaos
+الفولاذ: steel
+الفولاذي: steele
 الفيضان: the flood
 الفيلق: legion
 الفيلم: the film
-الق: acces
+الق: throw
 القائد: leader
 القابلة: midwife
 القاتل: the killer
 القادة: leaders
 القادر: capable
 القادمة: coming
+القارس: frigid
 القاسي: cruel
 القاسية: cruel
 القاضي: the judge
 القاعة: the hall
-القاعدة؟: alqaeda
+القاعدة؟: the base
 القافلة: the convoy
 القامة: tall
 القانون: law
 القاهرة: cairo
+القايي: gossip
+القايي؟: kay
 القبائل: tribes
 القبر: grave
 القبض: capture
+القبضة: the fist
 القبور: graves
 القبيل: like that
 القبيلة: the tribe
@@ -2151,9 +2756,12 @@ yigit: yigit
 القدر: destiny
 القدرة: ability
 القدس: Jerusalem
+القدور: pots
+القدور؟: pots
 القدوس: holy
 القدوم: arrival
 القدير: almighty
+القديسة: the saint
 القديم: the old
 القديمة: old
 القذارة: filth
@@ -2168,6 +2776,7 @@ yigit: yigit
 القسطنطينية: Constantinople
 القسطنطينيه: Constantinople
 القسوة: cruelty
+القش: straw
 القصائد: poems
 القصة: the story
 القصر: the palace
@@ -2184,9 +2793,13 @@ yigit: yigit
 القطعة: widget
 القطيع: the flock
 القفص: the cage
+القلادة: the necklace
+القلاع: castles
 القلب: the heart
 القلعة: the castle
 القلق: anxiety
+القلم: the pen
+القلوب: hearts
 القليل: little
 القمامة: garbage
 القمة: the top
@@ -2196,10 +2809,14 @@ yigit: yigit
 القوة: power
 القوس: the bow
 القول: to say
+القيادة: leadership
 القيام: the performance
 القيامة: resurrection
+القيت: thrown
+القيح: pus
 القيمة: the value
 القيمين: curators
+القيوط: coyotes
 الكابوس: the nightmare
 الكاتالونية: catalan
 الكاتالونيون: catalans
@@ -2207,6 +2824,7 @@ yigit: yigit
 الكاردينال: cardinal
 الكافر: infidel
 الكافية: adequate
+الكبار: grown ups
 الكبرى: great
 الكبير: great
 الكبيرة: large
@@ -2214,16 +2832,20 @@ yigit: yigit
 الكتاب؟: the book
 الكثير: lots
 الكثيرة؟: the many
+الكذب: lying
 الكرام: distinguished
 الكراهية: the hatred
 الكرنفال: carnival
 الكريم: generous
 الكريهة: foul
 الكشف: disclosure
+الكفء: competence
+الكفاءات: competencies
 الكفاءة: efficiency
 الكفار: infidels
 الكفاية: enough
 الكفوف: paws
+الكل: all
 الكلاب: dogs
 الكلام: talk
 الكلب: dog
@@ -2234,30 +2856,39 @@ yigit: yigit
 الكهف: the cave
 الكوابيس: nightmares
 الكوارث: disasters
+الكوخ: the cottage
+الكون: universe
 اللؤلؤ: pearls
 اللا: no
 اللاتين: latins
 اللازمة: necessary
+اللامع: the illustrious
 اللباقة: tact
+اللباقين: the surrogates
 اللبن: yogurt
 اللحاق: catch up
 اللحظة: the moment
 اللحم: the meat
 اللحم؟: the meat
 اللحوم: meat
+اللحية: beard
 اللسان: the tongue
 اللصوص: the thieves
 اللصوصية: banditry
 اللطف: kindness
 اللعاب: saliva
 اللعبة: the game
+اللعنات: curses
 اللعنة: curse
+اللعين: the dreaded
 اللعينة: damned
 اللغة: the language
 الله: Allah
 الله،: Allah,
+الله؛: allah;
 الله؟: Allah
 اللهب: flame
+اللهم: o allah
 اللواء: major general
 اللوم: blame
 اللون: the color
@@ -2266,6 +2897,8 @@ yigit: yigit
 الليل: night
 الليل؟: night
 الليلة: tonight
+اللينة: softcore
+المؤخرة: the stern
 المؤكد: certain
 المؤلف: author
 المؤمنين: faithful
@@ -2281,18 +2914,28 @@ yigit: yigit
 المبارك: blessed
 المباركة: blessed
 المبعوث: the envoy
+المتآمرين: conspirators
 المتابعين: followers
 المتاعب: trouble
 المتاعب؟: trouble
 المتبقية: remaining
 المتحاربة: warring
+المتداول: rolling
+المتستر: sneaky
+المتشردون: the homeless
 المتعاونين: collaborators
+المتعثر: defaulting
 المتغطرسين: arrogant
+المتفحمة: charred
 المتكبر؟: the arrogant
+المتمرد: the rebel
 المتمردين: rebels
 المتهم؟: accused
 المتهمون: accused
+المتواضع: humble
+المتوحشون: savages
 المتوسط: average
+المتوفى: dead
 المجاري: sewer
 المجازفة؟: take the risk
 المجاعة: famine
@@ -2323,7 +2966,11 @@ yigit: yigit
 المحظوظ: the lucky one
 المحك: touchstone
 المحكمة: court
+المحكوم: the convict
+المحكومين: convicts
+المحمدي: mohammadi
 المحمديون: the mohammedans
+المحنة: ordeal
 المحيط: ocean
 المحيطة: surrounding
 المخابرات: intelligence
@@ -2337,14 +2984,19 @@ yigit: yigit
 المخيم: the camp
 المدان: convicted
 المدانين: convicted
+المدة؟: the duration
 المدرسة: school
 المدللين: pampered
 المدن: the cities
+المدى: term
 المدينة: city
+المذنبين؟: culprits
 المرآة: woman
 المرآة؟: woman
 المرأة: woman
+المرئية: visible
 المرئيين: the visual
+المرات: times
 المرات؟: of times
 المراد: to be
 المراس: headache
@@ -2359,17 +3011,23 @@ yigit: yigit
 المرتفعات: highland
 المرتفعات؟: highland
 المرجان: coral
+المرجانية: coral
 المرجل: the boiler
 المرجل؟: the boiler
 المرح: fun
+المرسلين: senders
+المرسلين…: senders ...
+المرصعة: studded
 المرض: the disease
 المرضى: the patients
+المرهم: the ointment
 المرور: the traffic
 المريرة: bitter
 المريض: patient
 المريضة: the patient
 المزاح: banter
 المزارع: farms
+المزدوج: double
 المزيد: more
 المسألة: matter
 المسؤول: administrator
@@ -2377,14 +3035,18 @@ yigit: yigit
 المساء: evening
 المسائل: matters
 المساجد: mosques
+المساحة: space
 المسار: track
 المساعد: the assistant
 المساعدة: help
 المسافة: distance
 المسافرون: travelers
+المساكين: the poor
 المسامير: nails
 المستحق: due
 المستحيل: impossible
+المستشارون: advisors
+المستعصية: intractable
 المستقبل: the future
 المستقبل؟: the future
 المستنقع: the swamp
@@ -2397,26 +3059,35 @@ yigit: yigit
 المسعور: hydrophobic
 المسعورة: rabid
 المسكين: poor guy
+المسكينة: the poor thing
 المسلم: muslim
 المسلمة: muslim
 المسلمون: muslims
 المسلمين: muslims
+المسمى: named
+المسيح: the messiah
 المسيحي: christian
+المسيحيين: christians
 المسيل: liquefied
+المشؤوم: the illfated
 المشؤومة: ominous
 المشؤومة؟: ominous
+المشؤومون: the illfated
 المشاعر: feelings
 المشاكل: problems
 المشاكل؟: problems
+المشبوهين: suspicious
 المشتبه: suspect
 المشتركين: subscribers
+المشرف: admin
 المشكلة: the problem
 المشكلة؟: the problem
 المشنقة: the gallows
 المشورة: advice
 المشي: walking
 المشي؟: walking
-المصابيح: leds
+المصاب: injured
+المصابيح: lamps
 المصاعب: hardships
 المصير: destiny
 المضروب: milled
@@ -2424,7 +3095,10 @@ yigit: yigit
 المضمون: guaranteed
 المضي: go ahead
 المطر: the rain
+المطلوب: required
 المطلوبة: required
+المطهر: purgatory
+المظلم: the dark
 المظلمة: dark
 المظلوم: oppressed
 المظلومين: oppressed
@@ -2432,6 +3106,8 @@ yigit: yigit
 المعابد؟: temples
 المعارضة: opposition
 المعارك: battles
+المعالم: milestones
+المعاناة: suffering
 المعبد: the temple
 المعتاد: the usual
 المعدن: metal
@@ -2439,10 +3115,12 @@ yigit: yigit
 المعركة: the battle
 المعركة؟: battle
 المعروف: known
+المعسكر: camp
 المعصم: wrist
 المعصمين: wrists
 المعلم: the teacher
 المعلومات: the information
+المعوج: crooked
 المغادرة: departure
 المغازلة: flirt
 المغفرة: forgiveness
@@ -2453,11 +3131,13 @@ yigit: yigit
 المفترض: supposedly
 المفترضين: assumed
 المفضل: preferred
+المفضلة: favorite
 المفعول: effect
 المفقود: the lost
 المفقودين: the missing
 المقابلة: the interview
 المقاطعة: county
+المقاومة: resistance
 المقبل: next
 المقدسة: holy
 المقر: headquarters
@@ -2465,11 +3145,15 @@ yigit: yigit
 المقود: joystick
 المكان: place
 المكان؟: place
+الملائكة: angels
 الملابس: clothing
+الملاحم: sagas
 الملحمة: the saga
 الملعونين: cursed
 الملك: the king
 الملكي: royalist
+الملكيون: royalists
+المليء: so full
 الممتلكات: properties
 الممكن: possible
 الممنوح: granted
@@ -2479,17 +3163,22 @@ yigit: yigit
 المناجم: mines
 المناسب: the appropriate
 المناسب؟: the appropriate
+المناصب: positions
 المناطق: the regions
 المناقشة: discussion
 المنال: fetched
+المناوبين: alternates
 المنبر: tribune
 المنتج: the product
 المنتصر: victor
+المنتظر: the expected
 المنتقم: the avenger
+المنحط: decadent
 المنخفضة: low
 المنزل: home
 المنزلية: household
 المنسدلة: drop down
+المنشق: maverick
 المنشود: desired
 المنصب: position
 المنصب؟: position
@@ -2498,6 +3187,7 @@ yigit: yigit
 المنقى: purified
 المنوال: loom
 المهاجرة: migrating
+المهارة: skill
 المهام: mission
 المهر: pony
 المهم: the important
@@ -2505,15 +3195,21 @@ yigit: yigit
 المهور: ponies
 الموافقة: approval
 الموت: the death
+الموت؟: the death
 الموتى: the dead
 الموثوق: trusted
 الموثوقة: trusted
 الموجود: existing
+الموجودة: existing
 الموصوفة: prescribed
 الموضوع؟: subject
 الموقعة: signed
 الموقف: situation
+المولود: born
+المياه: water
 الميت: dead
+الميدان: field
+الميزان: balance
 النابضة: gating
 الناجم: induced
 النار: fire
@@ -2521,6 +3217,7 @@ yigit: yigit
 الناس؟: people
 النبوءات: prophecies
 النبوية: prophetic
+النبي): the prophet)
 النبي: the prophet
 النبيل: noble
 النتيجة: the result
@@ -2530,6 +3227,9 @@ yigit: yigit
 النجوم: stars
 النحاسية: brass
 النحل: bees
+النحو: grammar
+النداء: the appeal
+الندبات؟: stigmata
 النزل: the hostel
 النزول: get off
 النزيف: bleeding
@@ -2541,6 +3241,7 @@ yigit: yigit
 النصر: victory
 النظر: look
 النظيفة: clean
+النعم: blessings
 النقاط: points
 النقطة: the point
 النقي: pure
@@ -2549,14 +3250,19 @@ yigit: yigit
 النهائي: final
 النهائية: the final
 النهاية: the end
+النهاية،: end,
 النهاية؟: the end
+النهر: the river
+النهوض: advancement
 النوع: type
 النوم: sleep
 النية: intention
+النير: yoke
 النيران: flames
 النيل: nile
 اله: god
 الهادئ: the pacific
+الهادر: rumbling
 الهارب: fugitive
 الهاربين: fugitives
 الهجرة: immigration
@@ -2566,7 +3272,9 @@ yigit: yigit
 الهدوء: quiet
 الهدوء؟: quiet
 الهدير: growl
+الهذيان: rave
 الهراء: nonsense
+الهراطقة: heretics
 الهرب: run away
 الهروب: escape
 الهلال: crescent moon
@@ -2580,12 +3288,17 @@ yigit: yigit
 الهيكل: the structure
 الهيل: cardamom
 الواجب: duty
+الواحد: the one
+الواردة: received
 الواضح: obviously
 الواقع: indeed
+الوالي: the viceroy
+الوثوق: trust
 الوجبات: meals
 الوجه: the face
 الوجهة: destination
 الوجود: presence
+الوحدة: unit
 الوحش؟: the monster
 الوحيد: the only
 الوحيدة: the only one
@@ -2597,6 +3310,7 @@ yigit: yigit
 الوصول: access
 الوضع: situation
 الوضع؟: the situation
+الوضيع: scruffy
 الوطن: motherland
 الوظائف: functions
 الوظيفة: occupation
@@ -2606,6 +3320,7 @@ yigit: yigit
 الوفاض: handover
 الوقاحة: insolence
 الوقت: time
+الوقح: impudent
 الوقوف: stand up
 الولاء: loyalty
 الولادة: birth
@@ -2624,19 +3339,28 @@ yigit: yigit
 اليه: mechanism
 اليه؟: mechanism
 اليها: to her
+اليوسفية: youssoufia
 اليوم: today
 اليوم؟: today
 اليومين: the two days
 اليونانية: greek
+ام: mother
+اما: as for
 امتحان: exam
 امتدت: stretched
 امتنان: gratitude
+امتنع: refrain
+امتنعت: refrained
 امرأة: a woman
 امرأة؟: a woman
+امرأتي: my woman
+امس: yesterday
 امسح: wipe
 امسك: catch
 امسكه: hold it
 امك: your mother
+امل: amal
+امنح: grant
 امنحهم: give them
 امي: mom
 امي؟: mom
@@ -2646,6 +3370,8 @@ yigit: yigit
 ان: that
 انا: I am
 انت: you are
+انت؟: you are
+انتبه: whatch out
 انتشر: mushroom
 انتظار: waiting
 انتظارك: waiting for you
@@ -2656,7 +3382,10 @@ yigit: yigit
 انتظرت: I waited
 انتظرتك: I waited for you
 انتقام: revenge
+انتقامك: your revenge
 انتقل: he moved
+انتقم: revenge
+انتهاء: end
 انتهت: expired
 انتهوا: they finished
 انتهوا؟: they finished
@@ -2665,12 +3394,15 @@ yigit: yigit
 انجر: run away
 انحنى: bend over
 انخفضت: decreased
+اندلعت: broke out
 انسكاب: spillage
 انسكب: spilled
 انشغال: busyness
+انشقت: she split up
 انصت: listen
-انطاكية: antioch
-انطاكيه: antioch
+انضم: join
+انطاكية: Antioch
+انطاكيه: Antioch
 انطلق: go ahead
 انطلقت: launched
 انطلقنا: we set off
@@ -2679,8 +3411,13 @@ yigit: yigit
 انظري: see
 انعكاس: reflection
 انفجار: explosion
+انفصلنا: we broke up
+انفصلوا: they broke up
+انقاذه: save him
 انقذ: save
+انقذوا: they saved
 انقرض: become extinct
+انك: you are
 انه: it's a
 انها: it
 انهاء: ending
@@ -2693,18 +3430,26 @@ yigit: yigit
 اهرب: run away
 اهلا: welcome
 او: or
-اوجوز: oguz
+اوجوز: Oguz
 اوز: geese
-ايجيت: egit
-ايزادورا: isadora
+اوغلو: Oglo
+اوقفه: stop him
+اولا: firstly
+اي: which
+ايجيت: Egit
+ايزادورا: Isadora
 ايضا: also
 ايضا؟: also
+ايكيز: Aykez
 اين: where
 ايها: hey
+بأجناسها: all kinds
 بأحد: by one
 بأحلامك: with your dreams
+بأخر،: at last,
 بأخرى: with another
 بأخيك: with your brother
+بأدوية: with medication
 بأذني: with my ear
 بأذى: hurt
 بأرباح: with profits
@@ -2712,37 +3457,63 @@ yigit: yigit
 بأرض: landed
 بأس: okay
 بأستعجال: urgently
+بأسرة: with a family
+بأسرتك: with your family
 بأسره: the whole
 بأسلحتهم: with their weapons
+بأشياء: with things
+بأفراح: with joys
 بأفضل: the best
+بأكاذيبك: with your lies
+بأكاكوجا: akakuga
 بأكملها: whole
+بأكياس: with bags
 بألوان: in colors
 بأم: mother
+بأماكن: places
 بأمان: safely
 بأمر: by order
+بأمور: amour
 بأن: that
 بأنفسنا: by ourselves
 بأنفسهم: their own
 بأنك: that you
+بأنني: that i have
 بأنه: that
+بأوامر: by orders
+بأوقات: times
 بأي: master
 بأيدينا: with our own hands
 بإبادة: exterminating
+بإخباري: tell me
 بإذن: with permission
 بإذنكم: with your permission
+بإشعال: ignite
 بإعداد: set up
+بإلهي: with my god
+بإمكان: can
 بإمكانك: you can
+بإمكاننا: we can
+بإمكاني: i can
 بإنشاء: creates
+بإنصاف: fairly
 بإنهاء: quit
+بإيذاء: hurt
 باب: door
 بابنا: our door
+بابنتك: your daughter
 بابنه: with his son
 بابي: babi
+باتباعه: following him
 باحترام: respectfully
 باختبار: tested
+باختباري: with my test
 باختصار: briefly
 بادئ: initiator
 بارك: park
+باركنا: bless us
+بارًا: righteous
+بازدراء: contemptuously
 باستثناء: except
 باستمرار: continuously
 باسم: basim
@@ -2754,11 +3525,17 @@ yigit: yigit
 باكي؟: crying
 بالآلاف: in the thousands
 بالأرض: to the ground
+بالأرواح: with spirits
 بالأسف: sorry
+بالأعمال: business
+بالألم: with pain
+بالأم: by mother
 بالأمر: it is
+بالأمل: with hope
 بالإعداد: set up
 بالإيمان: by faith
 بالاكتئاب: depressed
+بالامتنان: grateful
 بالانتقام: with revenge
 بالباب: by the door
 بالبرد: cold
@@ -2771,61 +3548,104 @@ yigit: yigit
 بالتضحية: to sacrifice
 بالتضور: to attend
 بالتفصيل: in detail
+بالتقريب: approx
 بالتمسك: stick to
 بالتنقيط: drip
 بالجسم: the body
 بالجلوس: to sit
 بالجنود: soldiers
+بالحجارة: with stones
+بالحجر: with stone
 بالحديث: speaking
 بالحراس: with guards
+بالحرج: embarrassed
 بالحزن: sad
+بالحفيد: by the grandson
+بالحق: to the right
 بالحياة: in life
 بالحيرة: perplexed
+بالخارج: outside
+بالخبر: with the news
 بالخجل: ashamed
 بالخروج: get out
+بالخطأ؟: by mistake
 بالخوف: scared
+بالخونة: traitors
 بالخير: well
 بالخيول: with horses
+بالداخل: inside
+بالداخل؟: inside
 بالدخول: to enter
 بالدم: with blood
+بالدماء: with blood
+بالدموع: with tears
+بالدم…: with blood ...
 بالذعر: panicked
+بالذهاب: to go
+بالذهب: with gold
+بالذهول: stunned
+بالربيع: spring
 بالرحيل: go
 بالرحيل؟: going
 بالرغاوي: foams
+بالرغم: though
+بالرغوة: with foam
 بالرقم: number
 بالركب: up
 بالروث: with dung
 بالريبة: suspiciously
 بالستائر: with curtains
+بالسجل: for the record
 بالسجن؟: imprisoned
 بالسرعة: as fast
 بالسفر: to travel
+بالسكين: with a knife
 بالسلاح: with weapons
 بالسلطان: with sultan
 بالسلطة: with power
+بالسيف: with the sword
 بالسيوف: with swords
 بالشجاعة: with courage
+بالصباح: in the morning
 بالصبر: be patient
 بالصخور: with rocks
+بالصدف: by coincidence
+بالصلاة: with prayers
 بالصمت: in silence
 بالضبط: exactly
 بالضيق: upset
+بالطاعون: plague
 بالطبع: of course
 بالطبيب: by a doctor
+بالطريقة: the way
+بالعدالة: to justice
 بالعديد: with many
 بالعطاء: to give
+بالعمل: to work
 بالعودة: go back
 بالعين: by eye
+بالغيوم: overcast
+بالفأس: with an ax
 بالفرار؟: fleeing
+بالفرح: with joy
 بالفعل: indeed
 بالقافلة؟: by caravan
+بالقتال: to fight
+بالقتل: to kill
+بالقرآن: with the quran
 بالقرب: near
 بالقلق: worried
 بالقوة: by force
+بالقيام: to do
 بالك؟: with your mind
+بالكاد: barely
 بالكثير: with a lot
 بالكراهية: with hatred
 بالله: by Allah
+باللوم: blamed
+بالمرأة: with women
+بالمستقبل: in the future
+بالمشاعر: with feelings
 بالمغادرة: to leave
 بالمقابل: conversely
 بالمقابل؟: conversely
@@ -2833,37 +3653,53 @@ yigit: yigit
 بالملل: bored
 بالمنزل: at home
 بالمهمة: mission
+بالنار: with fire
 بالنجوم: astral
+بالنزيف: bleeding
 بالنسبة: for
 بالنظر: by looking
 بالنفس: by self
 بالوظائف: functions
+بالي: my mind
+باليأس: desperate
 بامسي: Bamsey
 بانتباه: closely
 باهظا: high
+باهظاً: exorbitantly
 باي: master
 باي؟: master
+بايات: bayes
+باياتنا: our announcements
 بايبورا: Pipora
-بايز: bayes
+بايز: masters
+ببابين: 2 door
 ببشارة: good news
 ببضائعك: with your goods
 ببطء: slowly
+ببعض: with some
 ببناء: constructively
 بتثبيته: install it
 بتحرير: edit
+بتحسن: get better
 بتحميل: to download
 بتحميله: download it
 بتدريبها: train them
 بتروتشيو: Petruccio
 بتروتشيو؟: Petrucio
+بترويض: tamed
+بتزويده: to provide it
 بتزويره: forged
 بتسليم: deliver
 بتسليمه: hand it over
+بتسليمهم: hand them over
+بتسوية: settle down
 بتشغيل: playback
 بتطبيقه: apply it
 بتعيين: set
+بتغطية: covered
 بتغليفهم: encapsulate them
 بتكريمها: honored
+بتلك: those
 بتنظيف: clean up
 بتنظيم: organized
 بتوصيل: connect
@@ -2884,25 +3720,37 @@ yigit: yigit
 بجيشه: with his army
 بحاجة: need
 بحاجه: I need it
+بحبها: with her love
+بحث: search
 بحجر: with a stone
 بحجم: size
+بحدوث: to happen
 بحر: sea
 بحرية: free
 بحسن: well
+بحفظك: save you
 بحق: rightly
 بحلول: by
+بحماقة: foolishly
+بحمايتك: protect you
+بحمده: with his praise
 بحملها: to carry
+بحياة: with life
 بحياتك: with your life
 بحياتنا: in our lives
 بحياته: with his life
 بحياتين: for two lives
 بحيث: in which
 بختم: with a seal
+بخداع: deceively
 بخطأ: by mistake
+بخطة: plan
 بخطف: by kidnapping
+بخطوته: step by step
 بخلاف: other than
 بخلافك: other than you
 بخلافك؟: other than you
+بخيبة: disappointed
 بخير: fine
 بخير؟: fine
 بد: must
@@ -2911,11 +3759,19 @@ yigit: yigit
 بدأت: started
 بدأنا: we started
 بداخلك: inside you
+بداخلنا: within us
+بداخلها: inside it
 بداخلها؟: inside it
 بداخلي: inside of me
+بدافع: motivated
+بدخول: to enter
 بدعم: powered
+بدعوتك: i invited you
+بدفن: buried
+بدل: allowance
 بدلا: instead of
 بدلاً: instead of
+بدمك: in your blood
 بدمه: with his blood
 بدورك: do your part
 بدورنا: our turn
@@ -2923,7 +3779,10 @@ yigit: yigit
 بدون: without
 بدونك: without you
 بدونهم؟: without them
+بدوية: bedouin
 بذر: sowing
+بذكر: by mentioning
+بذكرياتنا: our memories
 بذلك: so
 بذلك،: so,
 بذلك؟: so
@@ -2931,10 +3790,15 @@ yigit: yigit
 برأيك: in your opinion
 براحة: comfortably
 برافو: bravo
+براق: specular
 برحلة: by trip
+برحمة: mercifully
+برقصة: with a dance
+بركة: pond
 بركتك: your blessing
 بركته: his blessing
 بركتي: my blessing
+برمحه: spear
 برمه: screw
 برنر: berner
 بري: wild
@@ -2954,88 +3818,130 @@ yigit: yigit
 بسفينة: by ship
 بسكين: with a knife
 بسلام: safely
+بسلامتك: for your safety
 بسلطان: with sultan
 بسم: in the name of
 بسهولة: easily
+بسيطًا: simple
 بسيفه: with his sword
 بسيفه؟: with a sword
+بسيفي: with my sword
 بشأن: about
 بشأنه: about it
+بشؤون: with affairs
 بشؤونك: about your affairs
 بشبابك: with your youth
+بشجاعتك: with your courage
 بشخص: someone
 بشدة: badly
 بشرة: skin
 بشرتي: my skin
 بشرف: with honor
+بشرى: human
+بشعبنا: of our people
+بشعرك: with your hair
 بشكل: formally
+بشيء: something
 بصحة: healthy
+بصدد: in the process of
 بصراحة: honestly
 بصرف: exclusively
 بصعوبة: with difficulty
+بصفتي: as my
 بصمت: silently
 بضائعنا: our goods
 بضائعه: his goods
+بضائعهم: their goods
 بضاعتي: my goods
 بضع: a few
 بضعة: a few
+بطرح: subtracting
 بطريقة: in a way
+بطريقتي: in my own way
 بطل: a hero
 بطلا: a hero
+بطلاء: with paint
+بطلاً: a hero
+بطن: belly
+بطنها؟: her belly
+بظلاله: a shadow
+بظلالها: a shadow
 بعائلتك: your family
 بعبارة: with the words
 بعث: he sent
 بعد: after
 بعد؟: distance
 بعدك: after you
+بعدم: not
 بعده: beyond
 بعدهم: after them
 بعدي: after me
 بعض: some
+بعضكما: each other
 بعضنا: each other
 بعضها: some of them
 بعضهم: some of them
+بعقد: with a contract
 بعمق: deeply
+بعمك: with your uncle
 بعملك: with your work
 بعناية: carefully
 بعون: with the help
 بعيد: far
-بعيدا: away
-بعيدا؟: away
-بعيداً: away
+بعيدا: far
+بعيدا؟: far
+بعيداً: far
 بعيدة: far
 بعيدة؟: far
-بعيدًا: away
+بعيدين: far away
+بعيدًا: far
 بغداد: Baghdad
 بغزال: gazelle
+بغض: detest
 بغضب: angrily
+بغمزة: with a wink
+بغير: without
 بـ: with
 بفارغ: empty
 بفتح: open
+بفخر: proudly
 بفضل: thanks to
+بفضلك: thanks to you
+بفك: unzip
 بفكرة: with an idea
+بفم: mouthful
 بفناء: patio
+بقاء: survival
 بقايا: remains
 بقبيلتنا: by our tribe
 بقتل: to kill
 بقتلنا: to kill us
+بقتله: kill him
 بقتله؟: to kill him
 بقدر: as much
 بقراره: his decision
+بقصّك: with your story
 بقضيب: with a rod
 بقعة: spot
 بقلق: anxiously
+بقلم: by
+بقلوبنا: in our hearts
 بقوا: they stayed
 بقوة: strongly
 بقول: bean
+بقي: stayed
+بقيت: remained
 بقيمة: worth
 بقينا: we stayed
 بك: your
 بك؟: your
 بكثير: much
+بكر: bakr
 بكس: bcs
 بكل: all
+بكلمات: in words
 بكم: how much
+بكونك: being
 بل: but
 بلا: without
 بلاء: affliction
@@ -3043,13 +3949,18 @@ yigit: yigit
 بلحظة: in an instant
 بلدنا: our country
 بلدي: my country
+بلدي؟: my country
 بلطف: nicely
 بلمس: touch
 بلى: yes
 بما: including
+بماذا: with what
+بمثابة: as
 بمثل: similarly
 بمجرد: once
+بمحبة: lovingly
 بمساعدة: assisted
+بمساعدتك: with your help
 بمساعدتكم: with your help
 بمساعدتي: with my help
 بمشاكل: with problems
@@ -3057,7 +3968,9 @@ yigit: yigit
 بمفردك: on your own
 بمفردنا: on our own
 بمفرده: on his own
+بمفردها: on its own
 بمكان: very much
+بمن: from
 بن: the son of
 بنا: coffee beans
 بناء: building
@@ -3066,11 +3979,14 @@ yigit: yigit
 بنار: with fire
 بنت: girl
 بنت؟: girl
+بنفس: with the same
 بنفسك: by yourself
 بنفسه: by himself
 بنفسه؟: by himself
+بنفسها: by herself
 بنفسي: by myself
 بنهاية: by the end
+بنوره: with his light
 بنوعه: its kind
 بنى: my son
 بنى،: my son,
@@ -3085,12 +4001,17 @@ yigit: yigit
 بهذه: by this
 بهم: their
 بهم؟: their
+بهوية: anonymously
 بوابة: gate
+بواحد: by one
 بواسطة: by
 بواسطتك: by you
+بوجودك: with your presence
+بورو: boro
 بوزوك: bozuk
 بوصولك: upon your arrival
 بوضوح: clearly
+بوعدك: your promise
 بوعدي: my promise
 بوقت: time
 بولو: polo
@@ -3101,28 +4022,38 @@ yigit: yigit
 بياناتي: my details
 بيبورا: Pepora
 بيبورا؟: Pepora
+بيت: a house
 بيت؟: a house
 بيتاً: a house
 بيتروتشيو: Petruccio
+بيتروشيو: Petruchio
+بيتنا: our house
+بيد: however
 بيدق: pawn
+بيدها: in her hand
 بيدي: with my hands
 بيديك: with your hands
 بير: bear
-بيرك: burke
-بيريك: berek
+بيرك: Burke
+بيريك: Berek
 بيسول: Bessol
 بيضاء: white
 بيع: sale
+بيعنا: sold out
 بيعها: sold
 بيك: peck
 بيلج: bilge
 بين: between
 بينما: while
 بيننا: between us
+بينهم: between them
+بينهما: between them
 بيوتنا: our homes
-بيير: pierre
+بيير: Pierre
 بييس: bess
+تأت: come
 تأتي: come
+تأتين: tatin
 تأجيج: kindle
 تأخذ: take
 تأخذك: take you
@@ -3134,6 +4065,7 @@ yigit: yigit
 تأخرنا: we are late
 تأخروا: they are late
 تأخير: delay
+تأذيت: i was hurt
 تأرجح: swing
 تأسست: was established
 تأكد: make sure
@@ -3141,8 +4073,11 @@ yigit: yigit
 تأكل؟: eat
 تأكيد: emphasis
 تألق: shine on
+تأمرني: order me
 تأهب: preparedness
 تؤثر: effect
+تؤلم: hurt
+تؤلمه: hurt him
 تؤمن: believe
 تابع: follow
 تاجر: dealer
@@ -3168,10 +4103,13 @@ yigit: yigit
 تبدى: look
 تبدين: you look
 تبشر: herald
+تبق: stay
 تبقى: stay
 تبقي: stay
 تبقيها: keep it
 تبكي: crying
+تبلغ: inform
+تبني: adoption
 تبهر: dazzle
 تبين: turns out
 تتأذى: get hurt
@@ -3180,23 +4118,36 @@ yigit: yigit
 تتألق: shine
 تتألم: it hurts
 تتالم؟: suffer
+تتجاهل: ignore
+تتجاوز: exceed
+تتجه: trending
 تتجول: walk around
+تتح: permit
 تتحالف: allied
+تتحداني: challenge me
 تتحدث: you talk
+تتحدث؟: are you talking
 تتحرر: free
 تتحرك: moving
 تتحسن: getting better
+تتحملنا: bear us
 تتحول: turn out
+تتخذها: you are taking
 تتخلى: give up
+تتدخل: intervenes
 تتدفق: flowing
 تتذكر: you remember
 تتذكرني: you remember me
+تتذمر: nag
 تتراجع: hold back
+تتراكم: pile up
 تتردد: hesitate
 تترك: leave
 تتركنا: leave us
 تتزوج: get married
 تتساءل: she wonders
+تتسلل: sneak
+تتشابك: intertwine
 تتصدع: cracking
 تتصرف: behave
 تتصل: relate
@@ -3207,47 +4158,66 @@ yigit: yigit
 تتعافى: recovering
 تتعامل: deals
 تتعب: tired
+تتعذب: agonized
 تتعرض: exposed
 تتعطل: crashes
+تتعلم: learn
 تتعلم؟: you learn
+تتعلمه: learn it
+تتغلب: overcome
 تتغير: are changing
+تتفاجأ: be surprised
 تتفاخر: brag
+تتفرق: disperse
 تتفوق: excel
 تتكلم: she speaks
 تتلاعب: manipulate
+تتلقى: receive
 تتم: are done
+تتمتم: mumbled
 تتمكن: you can
 تتمنا: wishes
 تتمناه: wish you
 تتمنى: wish
 تتنفس: breathe
 تتهم: accuse
+تتواصل: communicate
+تتواطأ: collude
 تتوسل: pleading
 تتوق: yearning
 تتوقع: expect
 تتوقع؟: expect
+تتوقعهم: expect them
 تتوقف: stop
 تتويج: coronation
 تثرثر: gossip
 تثق: you trust
 تثير: excite
 تجار: dealers
+تجارًا: merchants
+تجاه: towards
 تجاوز: transcend
 تجاوزت: exceeded
 تجاوزنا: we passed
+تجبر: force
 تجتذب: attract
 تجد: you find
 تجده: you find it
 تجدها: find it
+تجدها؟: find it
 تجدهم: you find them
 تجذب: attract
 تجرؤ: dare
 تجرؤ؟: you dare
+تجربة: experiment
+تجربته: try it out
+تجسيدا: embodiment
 تجعل: make
 تجعلك: make you
 تجعلنا: make us
 تجعلني: makes me
 تجعله: make it
+تجعلها: make it
 تجف: dry out
 تجلب: bring
 تجلس: sit down
@@ -3258,6 +4228,9 @@ yigit: yigit
 تجنيبي: spare
 تجنيد: recruitment
 تجنيدهم: recruited
+تجهد: straining
+تجهم: scowl
+تجهيز: preparation
 تجول: wandering
 تحافظ: maintains
 تحاول: try
@@ -3270,46 +4243,62 @@ yigit: yigit
 تحتفظ: retain
 تحتها: under it
 تحثني: urging me
+تحجب: obscure
 تحداني: challenge me
 تحدث: talk
 تحدثت: she spoke
 تحدثنا: we talked
 تحدد: determined
 تحديد: determination
+تحذر: be warned
 تحذير: warning
 تحذيرنا: our warning
+تحذيرهم: warn them
+تحذيري: warning
 تحرر: liberation
+تحرس: watch out
 تحرق: burns
 تحرقك: burn you
 تحرك: move
 تحرير: release
 تحزن: be sad
+تحسسًا: allergic
 تحصل: obtain
+تحصى: counted
 تحضر: you prepare
 تحضره: you bring it
 تحطم: has crashed
 تحظى: have
+تحفظان: two reservations
 تحفظهم: their reservation
 تحقق: check
+تحققت: verified
 تحقيق: investigation
 تحقيقه: achieve
 تحكم: controller
 تحل: solved
+تحلف: swear
 تحلق: flying
+تحلوني: please
+تحلى: sweeten
 تحمل: bearing
 تحملت: I endured
 تحمله: afford it
+تحملها: carry around
+تحميك: protect you
 تحميل: download
 تحني: bend
 تحول: transformation
 تحولت: turned
 تحولوا؟: they turned
 تحويل: transformation
+تحيا: long live the
 تحيات: greetings
 تحياتهم: greetings
 تحياتي: greetings
 تحية: greeting
 تحير: boggle
+تحيط: surround
 تخاطر: telepathy
 تخاف: afraid
 تخافوا: be afraid
@@ -3318,14 +4307,18 @@ yigit: yigit
 تخبرني: you tell me
 تخبره: you tell him
 تخبرها: tell her
+تختبئ: hide
 تختبر: tests
 تختبر؟: tests
 تختفي: disappear
 تخجل: ashamed
+تخدم: serving
+تخدمهم: serve them
 تخذل: let down
 تخذلني: let me down
 تخرج: graduation
 تخسر: you lose
+تخشى: you fear
 تخضع: subject
 تخطط: planning
 تخف: fear
@@ -3334,11 +4327,13 @@ yigit: yigit
 تخفيف: mitigation
 تخفيه: hide it
 تخفيها: hide it
+تخلت: give up
 تخلص: get rid
 تخليت: I gave up
 تخون: betray
 تخويفي: scare me
 تخيفني؟: scare me
+تدار: administered
 تدافع: stampede
 تدخر: spare
 تدخل: intervention
@@ -3346,15 +4341,23 @@ yigit: yigit
 تدعم: supports
 تدعنا: let us
 تدعني: let me
+تدعه: let him
 تدعها: let her
+تدعوني: you invite me
 تدعي: she claims
 تدفع: you pay
 تدفن: buried
+تدفنها: bury it
 تدمر: destroy
 تدمير: destruction
+تدنسها: defiled
 تدور: spin
+تديره: run it
+تدين: condemns
 تذرف: shedding
 تذكر: remember
+تذكره: a ticket
+تذكرها: remember it
 تذكيرها: remind her
 تذهب: you go
 تذهب،: you go,
@@ -3362,36 +4365,47 @@ yigit: yigit
 تذوب: melt
 تر: tr
 ترأس؟: head
+تراكم: accumulation
+ترانزيستور: transistor
 تراني: you see me
 تراه: you see it
 تراها: see it
 تراهم: you see them
 ترتاح: rest
 ترتجف: trembling
+ترتدي: wears
+ترتديها: you wear it
 ترتعش: shaking
 ترتيب: arrangement
 ترجعوا: come back
 ترجمة: translation
+ترحل: migrate
 ترحيب: welcome
 ترحيبا: welcome
 ترحيل: relay
 تردد: frequency
 ترسل: send
+ترضع: nurse
 ترضى؟: are you satisfied
+ترعى: sponsors
 ترغب: wish
 ترفع: flying
 ترقيته: upgraded
 ترك: leave
 تركت: I left
 تركتك: I left you
+تركته: I left him
 تركتها: I left it
+تركتهم: I left them
 تركز: focus
 تركض: you run
 تركك: leaving you
 تركم: accumulation
 تركمان: Turkmen
 تركماني: Turkmen
-تركمانيا: turkmenistan
+تركمانيا: Turkmenistan
+تركمانية: Turkoman
+تركني: he left me
 تركه: leave him
 تركها: leave it
 تركهم: leave them
@@ -3404,19 +4418,32 @@ yigit: yigit
 ترى: see
 تريد: you want
 تريد؟: you want
+تريدني: you want me
 تريده: you want
 تريده؟: you want it
+تريدهم: want them
 تريدين: you want
 تزال: still
+تزداد: are increasing
+تزدهر: flourish
 تزعج: disturb
+تزعجك: bother you
 تزعجني: disturb me
 تزن: weigh
 تزوجك: he married you
 تزوجها: marry her
 تزوره: you visit
+تزويج: marriage
+تزويجها: marry her off
+تسألك: ask you
+تسألني: ask me
 تسأله: you ask him
+تسألها: you ask her
 تساعد: help
+تساعدك: help you
 تساعدنا: help us
+تساعدهم: help them
+تسافر: you travel
 تسامحنا: our tolerance
 تسبب: it causes
 تسببت: caused
@@ -3427,6 +4454,8 @@ yigit: yigit
 تستحقه: you deserve it
 تستحم: take a shower
 تستخدم: used
+تستدعيني: summon me
+تسترخي: relax
 تسترد: recover
 تستريح: resting
 تستسلم: give up
@@ -3437,6 +4466,8 @@ yigit: yigit
 تستقر: settle down
 تستمر: continue
 تستمع: she listens
+تستوعب: accommodate
+تستيقظ: you wake up
 تسحق: crushed
 تسرب: leak
 تسعة: nine
@@ -3446,35 +4477,51 @@ yigit: yigit
 تسكن: inhabit
 تسلل: sneak
 تسللت: crept
+تسللوا: infiltrated
 تسليم: delivery
+تسليمه: hand it over
 تسليمهم: hand them over
 تسمح: allow
 تسمع: you hear
 تسمعني: hear me
 تسمعه: hear it
 تسمعها: you hear it
+تسمعهم: hear them
 تسمعهم؟: you hear them
 تسمم: toxicity
+تسمم…: poisoning…
+تسمن: fatten
 تسمون: you call
 تسمونه: you call it
 تسمى: it's called
 تسمي: it's called
 تسمية: naming
+تسميتي: my name
 تسمين: fattening
+تسميه: naming
 تسهب: dwell
+تسوء: worsen
+تسود: prevail
 تسوية: settlement
+تسير: going
 تسيطر: controlled
 تشاء: you like
 تشارك: involved
+تشتاق: you miss
 تشتعل: ignite
+تشتكي: moans
+تشجعي: be encouraged
 تشرب: drink
 تشرفت: nice to meet you
+تشرق: shine
 تشعر: feel
 تشعري: you feel
 تشغل: are running
 تشغيل: operation
 تشغيله؟: play it
+تشفي: cures
 تشك: thx
+تشكرني: thank me
 تشكل: form
 تشكو: complaining
 تشنجات: cramps
@@ -3486,11 +4533,15 @@ yigit: yigit
 تصارع: wrestling
 تصبح: become
 تصبر: patience
+تصحح: corrected
 تصدق: incredible
+تصدقني: believe me
 تصديق: ratification
 تصر: insists
 تصرخ: scream
+تصرف: behavior
 تصريح: declaration
+تصريحاتي: my remarks
 تصف: describe
 تصفق: clap
 تصل: reach
@@ -3503,18 +4554,25 @@ yigit: yigit
 تضحي: sacrifice
 تضحية: sacrifice
 تضخمت: swelled
+تضر: hurt
 تضرب: hit
 تضربنا: beat us
 تضربه: hit him
 تضطر: have to
 تضع: put
+تضعها: put it down
 تضيء: light up
 تضيع: get lost
 تضيع؟: get lost
+تضيعه؟: miss it
+تضيعي: wasteful
+تطاق: endurable
 تطالب: demanding
+تطبيق: implementation
 تطرح: pose
 تطغى: overwhelm
 تطلب: ask
+تطلبه: require it
 تطمئن: rest assured
 تطور: has evolved
 تطورات: developments
@@ -3525,15 +4583,21 @@ yigit: yigit
 تظن: you think
 تظنين: you think
 تظهر: appear
+تظهروا: you show
 تعارض: conflict
 تعارضوا: they collided
+تعازي: condolences
 تعافت: she recovered
 تعافى: recovered
 تعافى؟: recovered
 تعاقب: succession
 تعال: come
+تعال،: come,
+تعالوا: come on
 تعالى: come
+تعالي: come
 تعامل: deal
+تعاملنا: we deal
 تعاملني: treat me
 تعاني: suffer
 تعاونت: teamed up
@@ -3547,12 +4611,16 @@ yigit: yigit
 تعتمد: depends
 تعتني: take care
 تعثرت: stumbled
+تعجبك: you like it
 تعجن: kneaded
+تعد: prepare
 تعذب: torture
 تعذيب: torture
 تعذيبا: tortured
+تعذيبه: torture him
 تعرض: exposure
 تعرضت: exposed
+تعرضنا: we have been exposed
 تعرضوا: they were exposed
 تعرف: know
 تعرف؟: you know
@@ -3561,6 +4629,7 @@ yigit: yigit
 تعرفهم: you know them
 تعض: bite
 تعط: give
+تعطلت: disrupted
 تعطهم: give them
 تعطى: given
 تعطي: give
@@ -3570,6 +4639,7 @@ yigit: yigit
 تعفننا: our rot
 تعفيني: my exemption
 تعقيدا: complicated
+تعقيدًا: complicated
 تعلم: learn
 تعلمت: I learned
 تعلمت؟: I learned
@@ -3580,7 +4650,10 @@ yigit: yigit
 تعلموا: have learned
 تعلمون: you know
 تعليق: suspension
+تعليقه: his comment
 تعمل: working
+تعني: means
+تعني؟: means
 تعود: return
 تعوض: compensate
 تعيدني: take me back
@@ -3595,6 +4668,7 @@ yigit: yigit
 تغذي: feed
 تغرب: set
 تغرق: sink
+تغضب: get angry
 تغضب؟: get angry
 تغضبني: anger me
 تغطي: covering
@@ -3606,10 +4680,14 @@ yigit: yigit
 تغمغم: mumbles
 تغيير: a change
 تفرح: rejoice
+تفرط: overload
 تفرق: divide
+تفزعي: freak out!
 تفسدها: spoil it
 تفسير: explanation
+تفشل: fail
 تفضل: please enter
+تفضيل: preference
 تفعل: are doing
 تفعل؟: are doing
 تفعله: you do
@@ -3618,6 +4696,7 @@ yigit: yigit
 تفعلين: you do
 تفقد: you lose
 تفكر: contemplate
+تفكر؟: contemplate
 تفكيك: dismantling
 تفهم: understand
 تفهم؟: understand
@@ -3625,6 +4704,7 @@ yigit: yigit
 تفهمني: understand me
 تفهمني؟: understand me
 تفهمين: understand
+تفهميني: understand me
 تفوتني؟: miss me
 تفوز: you win
 تفي: meet
@@ -3636,68 +4716,97 @@ yigit: yigit
 تقاوم: resist
 تقبل: accept
 تقبله: accept it
+تقبلها: accept it
 تقترب: approaching
 تقترح: suggests
 تقترحون؟: do you suggest
 تقتل: kill
 تقتل؟: kill
+تقتله: kill him
+تقتلهم: kill them
+تقدر: estimated
 تقدم: progress
+تقدمت: progressed
+تقدمه: its progress
 تقدير: appreciation
 تقديم: submit
 تقرر: decide
 تقريبا: approximately
 تقريباً: approximately
+تقريبًا: approximately
 تقريرا: report
 تقسم: spliced
 تقسيم: division
 تقصد: you mean
+تقطر: drip
 تقطعت: stranded
 تقع: located
 تقف: stand
 تقل: less
+تقلصاتي: my contractions
 تقلق: worry
 تقلقوا: you worry
+تقلقي: my worry
+تقلقين: you worry
 تقنعه: convince him
 تقود: lead
 تقودنا: lead us
 تقول: says
 تقول؟: says
 تقوله: you say
+تقوله؟: you say
+تقولها: you say it
+تقولي: you say
+تقولين: you say
 تقوم: get up
 تقيدوني؟: tied me
 تقيم: assess
 تكذب: you lie
+تكره: you hate
 تكرهني: you hate me
+تكريما: in honor
 تكسب: you earn
 تكسير: cracking
 تكشف: reveal
 تكفي: enough
 تكلم: speak
 تكليف: assigned
+تكليفك: your assignment
 تكن: not
 تكون: be
+تكوني: be
 تكوين: formation
 تلاحظ: notes
 تلاشت: faded
+تلاوا: recite
 تلاوة: recitation
 تلبي: meet
 تلتئم: healed
 تلتقي: she meets
+تلجأ: resort
+تلحق: attach
 تلد: give birth
+تلطخ: tarnish
 تلطيخ: staining
 تلعب: play
 تلعن: cursed
+تلقاء: spontaneously
+تلقي: receive
+تلقينا: we received
 تلقيناها: we received it
 تلك: that
 تلمح: hint
 تلمس: touch
 تلمسها: touch it
 تلو: after
+تلوح: waving
 تلوم: blame
 تلومني: blame me
+تلومهم: blame them
 تلوّح: waving
 تليق: fitting
 تم: done
+تماسك: hang in there
 تماما: completely
 تمامًا: completely
 تمبلر: templar
@@ -3706,6 +4815,7 @@ yigit: yigit
 تمت: done
 تمتلكه؟: own it
 تمتنع: refrain
+تمثيل: representation
 تمجيد: glorification
 تمحى: erased
 تمر: pass
@@ -3716,41 +4826,58 @@ yigit: yigit
 تمكنا: we managed
 تمكنت: I managed
 تمكنوا: they managed
+تمل: get bored
 تمنحهم: give them
+تمنعني: stop me
 تمنياتي: my wishes
 تموت: you die
 تموت؟: you die
+تميز: distinguish
 تميزك: distinguish you
 تناسب: suits
+تناسبنا: suit us
+تناقض: contradiction
 تناقضا: contradiction
+تناقضات: contradictions
 تنام: you sleep
 تناول: eat
 تناولت: ate
+تناولته: i took it up
 تناولنا: we ate
+تنتشر: spread
 تنتظر: waiting
 تنتظرنا: waiting for us
+تنتظرون: are you waiting for
 تنتقل: move
 تنتقم: retaliate
+تنتمي: belong
 تنته: over
 تنتهك: violate
 تنتهي: expires
 تنجح: succeed
+تنجرف: drifting
+تنجز: get done
 تنحدر: stoop
 تنحني: bow down
 تنخفض: go down
 تندم: you regret
 تنزعج: be upset
+تنزف: bleed
 تنزل: get off
 تنزلق: slip
 تنس: tennis
 تنسى: forget
+تنشر: be published
 تنطلق: tripping off
 تنظر: look
 تنظيف: cleaning
 تنظيمه: organize it
+تنفخ: inflate
 تنفد: run out
+تنفس: breathing
 تنفست: breathe
 تنفصل: separated
+تنفصلي: dissociate
 تنفق: spend
 تنفيذ: implementation of
 تنفيذها: implemented
@@ -3758,16 +4885,23 @@ yigit: yigit
 تنقذني: save me
 تنقذهم: save them
 تنقذهم؟: save them
+تنقطع: interrupted
 تنقل: navigate
+تنقلب: capsized
 تنكسر: break
 تنم: sleep
 تنمو: grow
+تنهار: falls apart
+تنهض: get up
+تنهي: she finishes
 تنوي: intend
 تنين: dragon
 تهاجر: migrate
 تهاجم: attacks
 تهاجم؟: attacking
+تهاجمون: you attack
 تهالك: worn out
+تهالكًا: worn out
 تهانينا: congratulations
 تهب: blowing
 تهتم: care
@@ -3781,14 +4915,21 @@ yigit: yigit
 تهديدا: threat
 تهرب: evade
 تهز: shaking
+تهزه: shake it
+تهمل: neglect
+تهمني: interest me
 تهمني؟: interested
 تهيج: irritation
+تهينك: insult you
 تواجه: facing
 تواجهه: facing
 تواجهها: faced
+تواصل: communication
+تواطأ: collude
 تواطأت: colluded
 توجد: exist
 توجرول: Tugrul
+توخي: be careful
 تود: want
 تورجوت: Turgut
 تورجوت؟: Turgut
@@ -3800,13 +4941,20 @@ yigit: yigit
 توقع: expect
 توقعا: predictably
 توقعاتك: your expectations
+توقعت: i expected
+توقعنا: we expected
+توقعًا: expecting
 توقف: stop
 توقف،: stop,
 توقفت: I stopped
 توقفنا: we stopped
 توقفها: stop it
+توقفي: stop it
+توكل: trust
 توماس: thomas
+تويغار): twigar)
 تويغار: Twigar
+تيأس: despair
 تيأسوا: they despair
 تيار: stream
 تيبيسي: tepesi
@@ -3814,8 +4962,11 @@ yigit: yigit
 تيتوس: تيتوس
 تيتوس؟: Titus
 تيطس: Titus
+تُرتكب: be committed
 تُقال: it is said
+ثأراً: revenge
 ثانية: a second
+ثبتت: fixed
 ثروة: wealth
 ثريًا: chandelier
 ثعبان: a snake
@@ -3823,13 +4974,19 @@ yigit: yigit
 ثقب: hole
 ثقة: confidence
 ثقيلا: heavy
+ثقيلة: heavy
+ثقيلًا: heavy
+ثلاث: three
 ثلاثة: three
 ثم: then
+ثمار: fruits
 ثماني: eight
 ثمرة: fruit
 ثمرته: its fruit
 ثمن: price
 ثمنا: a price
+ثمناً: a price
+ثمنه: its price
 ثمنها: its price
 ثني: drape
 ثوان: seconds
@@ -3837,12 +4994,18 @@ yigit: yigit
 جئنا: we came
 جاء: came
 جاءت: she came
+جاءني: he came to me
 جاءوا: they came
 جائع: hungry
+جادة: avenue
+جاذبية: gravity
+جاسوس: spy
+جاسوسا: a spy
 جافة: dry
 جالس: sitting
 جالسًا: seated
 جانب: side
+جانبك: your side
 جانبكم؟: your side
 جانبنا: our side
 جانبه: his side
@@ -3850,20 +5013,26 @@ yigit: yigit
 جاهز: ready
 جاهز؟: ready
 جاهزة: ready
+جاهزون: are ready
+جاهزين: are ready
 جاهزًا: ready
 جبال: mountains
+جبان: coward
 جبل: mount
 جبناء: cowards
 جبنه: cheese
 جثة: dead body
 جثث: corpses
+جثثهم: their bodies
 جد: grandfather
 جدا: very
 جدا؟: very
 جدارة: merit
 جداً: very
 جدك: your grandfather
+جدنا: we found
 جده: grandmother
+جدول: schedule
 جدولهم: their schedule
 جدي: grand
 جديد: new
@@ -3872,22 +5041,30 @@ yigit: yigit
 جديلة: cue
 جدًا: very
 جدًا؟: very
+جذور: roots
 جذورك: your roots
+جذوره: its roots
 جذوري: my roots
 جراحية: surgical
 جربت: I tried
 جرح: wound
 جرحك: your wound
+جرحك؟: hurt you
+جرحه: hurt him
 جرحها: wound her
+جرذ: rat
 جرف: cliff
 جروحك؟: your wounds
 جروحكم: your wounds
 جروحه: his wounds
 جريح: wounded
 جريمة: a crime
+جزء: part
 جزءًا: part
+جزاكم: reward you
 جزانفر: Jazzanfar
 جزيلا: so much
+جسر: bridge
 جسمك: your body
 جعل: make
 جعلت: made
@@ -3904,11 +5081,19 @@ yigit: yigit
 جففوا: they dried
 جلادًا: hangman
 جلالة: majesty
+جلالتك: your majesty
 جلالتك؟: your majesty
 جلب: had brought
 جلبت: brought
+جلبتم: you brought
 جلبنا: we brought
+جلبها: bring it up
+جلد: leather
+جلدك: your skin
 جلده: his skin
+جلس: he sat
+جلسة: session
+جلست: she sat
 جمارك: customs
 جماعة: group
 جمال: beauty
@@ -3916,18 +5101,22 @@ yigit: yigit
 جمالها: its beauty
 جمع: plural
 جمعت: collected
+جميز: sycamore
 جميع: all
 جميعا: all of them
 جميعاً: all of them
 جميعهم: all of them
 جميعًا: all of them
 جميل: nice
+جميلاً: beautiful
 جميلة: beautiful
 جناحيها: wingspan
 جنب: side
 جنبا: side
+جنباً: on the side
 جنبًا: side
 جنة: paradise
+جنتنا: our paradise
 جندي: soldier
 جنديًا: a soldier
 جننت؟: mad
@@ -3935,8 +5124,12 @@ yigit: yigit
 جنوداً: soldiers
 جنودك: your soldiers
 جنودنا: our soldiers
+جنوده: his soldiers
+جنودي: my soldiers
 جنون: madness
 جهة: side
+جهدك: your effort
+جهزنا: we prepared
 جهودك: your efforts
 جهودهم: their efforts
 جوابه: his answer
@@ -3946,9 +5139,10 @@ yigit: yigit
 جوعك: your hunger
 جوعنا: our hunger
 جوعًا: starvation
-جوكتشي: jukchi
+جوكتشي: Jukchi
 جوكسي: Juxi
 جوكسي؟: gucci
+جوكشي: gokshi
 جوناس: Jonas
 جوندوجدو: Gonddudu
 جوندوجو: جوندوجو
@@ -3956,11 +5150,14 @@ yigit: yigit
 جوهر: essence
 جوهرة: jewel
 جيا: jia
+جياس: gias
 جياسين: Giacin
 جيد: good
 جيد؟: good
 جيدا: well
 جيدا؟: well
+جيدان: are good
+جيداً: well
 جيدة: good
 جيدة؟: good
 جيدًا: well
@@ -3968,25 +5165,35 @@ yigit: yigit
 جيرانهم: their neighbors
 جيش: army
 جيشا: an army
+جيشي: my army
+جيشًا: an army
 جيلاني: Gilani
 جيوشنا: our armies
 جيوشًا: armies
 جيوفاني: giovanni
 جيوفاني؟: giovanni
+جُرحت: i was injured
 حاجة: need
 حاجتنا: our need
+حار: hot
 حاربت: I fought
 حارس: guard
 حارسا: a guard
+حافظ: hafiz
 حافظت: maintained
+حاكمة: governor
 حال: case
 حالة: status
 حالته: his condition
 حالتها: her condition
 حالك: are you
 حالك؟: are you
+حالما: as soon as
+حالنا: our condition
 حاله: status
 حاله؟: status
+حالها: the same
+حاليا: currently
 حامل: pregnant
 حان: it's about
 حاول: try to
@@ -4013,33 +5220,44 @@ yigit: yigit
 حجر: stone
 حجرًا: stone
 حد: limit
+حداد: smith
 حدة: sharpness
 حدث: happen
 حدث؟: happen
 حدث؟،: happen
 حدثت: updated
 حددناه: we defined it
+حدسك: your intuition
 حدسًا: intuition
+حدوات: horseshoes
 حدوث: happening
 حدود: border
+حدودك: your limits
 حدودنا: our borders
 حدودهم: their limits
 حديث: modern
 حديد: iron
+حديدي: iron
 حديقة: garden
 حذرا: careful
+حذرة: warn him
 حذرتك: I warned you
+حذرتكم: i warned you
 حذرتم: you warned
 حذرني: warned me
 حذرين: careful
 حرا: free
 حرارته: his temperature
 حراس: guards
+حراسة: guarding
 حراسك: your guards
 حربي: military
 حرة: free
+حرج: critical
 حرجة: critical
 حرر: freedom
+حررتك: i set you free
+حرسك: your guard
 حرفي: literal
 حرق: burn
 حركة: movement
@@ -4051,24 +5269,30 @@ yigit: yigit
 حزامك: your belt
 حزم: strap
 حزمة: package
-حزن: sadnes
+حزمنا: we packed
+حزن: sadness
 حزنك: your grief
 حزننا: our grief
 حزين: sad
 حزينا: sad
 حساب: an account
 حساسة: sensitive
+حساسيتها: sensitivity
 حسب: according
 حسن: حسن
 حسنا: ok
 حسنا؟: ok
 حسناً: ok
 حسناً؟: ok
+حسنة: good deed
 حسنًا: ok
 حشد: crowd
+حشدوا: rallyed
 حصان: horse
+حصانك: your horse
 حصانه: immunity
 حصاني: my horse
+حصانًا: horse
 حصر: inventory
 حصل: happened
 حصلت: I got
@@ -4076,26 +5300,36 @@ yigit: yigit
 حصن: fort
 حصنه: his fort
 حصني: my fortress
+حصون: fortresses
+حضوري: my presence
 حطمت: shattered
 حطمهم: smashed them
 حظ: luck
+حظائر: sheds
 حفرة: pit
 حفرت: dug
 حفظ: save
 حفظته: you saved it
 حفظك: saved you
+حفظكم: save you
+حفظناها: we saved it
 حفظه: save it
 حفظها: save them
 حفل: party
 حفلات: parties
+حفلان: two parties
+حفنة: a bunch
 حفيد: grandson
 حفيداً: grandson
 حفيدنا: our grandson
+حفيدي: my grandson
+حفيدًا: a grandchild
 حق: right
 حق؟: right
 حقا: oh really
 حقا؟: oh really
 حقاً: oh really
+حققته: achieved it
 حقنا: our right
 حقي: my right
 حقيبة: a bag
@@ -4108,11 +5342,15 @@ yigit: yigit
 حقًا: oh really
 حقًا؟: oh really
 حكم: rule
+حكماء: sages
 حكمة: wisdom
+حكمك: your judgment
+حكمه: wisdom
 حكيما: wise
 حكيمة: wise
 حل: solution
-حلايم: halayim
+حلايم: Halayim
+حلايم؟: halayem
 حلاً: a solution
 حلب: Aleppo
 حلب؟: Aleppo
@@ -4125,27 +5363,35 @@ yigit: yigit
 حلقي: annular
 حلم: dream
 حلما: a dream
+حلمنا: our dream
 حلمي: my dream
 حلها: solve it
 حلوة: sweet
+حلوته: sweet
 حلولهم: their solutions
 حلوه: sweet
 حلوى: dessert
-حليم: حليم
-حليم؟: حليم؟
-حليمة: halima
-حليمة؟: halima
+حليفنا: our ally
+حليم: Halim
+حليم؟: Halim؟
+حليمة: Halima
+حليمة؟: Halima
 حليمي: papillary
 حليمي؟: papillary
+حماتك: your motherinlaw
 حمار؟: donkey
 حماقاتك: your fools
+حمام: bathroom
 حمامة: pigeon
+حمامي: erythema
 حماية: protection
 حمايته: protect him
 حمايتهم: protect them
-حمزة: حمزة
+حمزة: Hamza
 حمل: pregnancy
+حملاني: pregnancy
 حملة: campaign
+حمله: campaign
 حمى: fever
 حمىته: fever him
 حميته: his diet
@@ -4156,6 +5402,7 @@ yigit: yigit
 حولك: around you
 حولنا: around us
 حولها: around
+حولهم: around them
 حي: neighborhood
 حيا: alive
 حيا؟: alive
@@ -4166,19 +5413,26 @@ yigit: yigit
 حياته: his life
 حياتهم: their lives
 حياتي: my life
+حيال: about
+حياله: about it
 حياً: alive
-حية: vivid
+حية: snake
 حيث: where
+حيثما: wherever
 حيدر: Haider
 حيل: tricks
 حين: when
+حينها: then
 حيوانات: animals
 حيوية: vitality
+حيِّي: live
+حُسم: resolved
 خائف: horrified
 خائف؟: horrified
 خائفا: frightened
 خائفا؟: frightened
 خائفة: scared
+خائفًا: frightened
 خائن: traitor
 خائنا: traitor
 خائنا؟: traitor
@@ -4196,8 +5450,12 @@ yigit: yigit
 خاطئا؟: wrong
 خاطر: risk
 خاطرت: I risked
+خاطرك: your mind
+خاطيء؟: wrong
 خالص: pure
+خالق: creator
 خالي: empty
+خاليا: empty
 خاليي: my uncle
 خان: khan
 خانوا: they betrayed
@@ -4208,11 +5466,14 @@ yigit: yigit
 خبز: bread
 خبزها: bake it
 ختم: seal
+ختمت: sealed
+خد: cheek
 خداع: tricked
 خدم: servants
 خدمات: services
 خدماتك: your services
 خدمة: service
+خدمت: served
 خدمتك: serve you
 خذ: take
 خذنا: take us
@@ -4220,47 +5481,67 @@ yigit: yigit
 خذها: take it
 خذها،: take it,
 خذهم: take them
+خذوا: take
 خذيه: take it
+خراف: sheep
+خرافات: myths
 خرافات؟: myths
 خرافنا: our sheep
 خرج: went out
 خرجت: I went out
+خرجوا: they went out
 خروفك: your sheep
+خروفها: her lamb
+خروفى: lamb
 خريطة: a map
+خسرت: i lost
+خسره: lost it
 خشب: wood
 خشبية: wooden
 خصب: fertile
 خصبة: fertile
 خصلة: tress
+خصوبة: fertility
 خصوصا: especially
 خضراء: green
 خط: line
 خطأ: error
 خطأك: your fault
+خطأها: her mistake
 خطايا: sins
 خطب: sermon
+خطبك: your speeches
 خطة: plan
+خطتك: your plan
 خطتنا: our plan
+خطته: his plan
 خطر: danger
 خطرة: dangerous
 خطط: plans
 خطف: kidnapping
 خطفوها: they kidnapped her
+خطوات: steps
 خطوة: a step
 خطورة: danger
 خطيئة: sin
 خطير: dangerous
 خطيرا: serious
 خطيرة: serious
+خفت: eased out
 خفيف: light
 خلاص: stop
+خلاصنا: our salvation
 خلاف: dispute
 خلال: during
 خلالك: through you
 خلدك: immortalize you
 خلصت: concluded
+خلف: behind
 خلفك: behind you
+خلفنا: behind us
+خلفه: behind him
 خلفه؟: behind him
+خلفهم: behind them
 خلق: create
 خلقت: created
 خلقتها: I created it
@@ -4270,14 +5551,20 @@ yigit: yigit
 خمسة: five
 خنجر: dagger
 خوارزم: Khorezm
+خوارزمشاه: khwarazmshah
 خوارزمشة: algorithm
+خوف: fear
+خوفه: his fear
 خوفي: my fear
+خونة: traitors
 خياران: two options
 خيام؟: tents
 خيامنا: our tents
 خيانة: betrayal
 خيبة: disappointment
 خير: good
+خيرا: well
+خيل؟: horses
 خيمة: tent
 خيمتك: your tent
 خيمتك؟: your tent
@@ -4287,6 +5574,7 @@ yigit: yigit
 خيمتهم: their tent
 خيمتي: my tent
 خيمتي؟: my tent
+خيولك: your horses
 خيولنا: our horses
 خيولهم: their horses
 خُطف: kidnapping
@@ -4298,45 +5586,64 @@ yigit: yigit
 داخل؟: inside
 داخلك: inside you
 داخلنا: within us
+داخله؟: inside it
 داخلي: internal
+داس: trampled
 داعي: caller to
 دافئ: warm
 دامت: as long as
 داهم: raid
 داهمت: raided
 داوجثير: daugther
+داود: david
 داوود: david
 دب: bear
 دبس: molasses
 دخانية: smokeless
 دخل: enter
+دخلت: I entered
 دخلت؟: entered
+دخلنا: we entered
+دخول: login
 دخوله: entering it
+دخيل: intruder
 دربتها: I trained her
+درجات: degrees
 درجة: degree
-درس: study
+درس: lesson
+درسا: a lesson
+درسه: studied it
 درويش: darwish
 دست: dost
 دع: let
 دعا: call
+دعاة: advocates
+دعاك: invited you
 دعاه: called him
+دعك: scrub
 دعم: support
+دعمتني: supported me
 دعمك: your support
+دعمكم: your support
 دعنا: let's
 دعنى: let me
 دعني: let me
 دعه: let him
 دعها: let her
+دعهم: let them
 دعوت: I called
 دعوتني: you called me
 دعوتهم: called them
-دعونا: we invited
+دعونا: let us
 دفع: pay
 دفعت: paid
+دفعني: pushed me
 دفن: burial
 دفنت: I was buried
+دفنك: bury you
 دفنهم: bury them
 دقائق: minutes
+دكتور: doctor
 دليل: evidence
 دليلي: dalili
 دم: blood
@@ -4344,11 +5651,14 @@ yigit: yigit
 دمائنا: our blood
 دمائهم: their blood
 دماغك: your brain
+دمت: long
 دمرت: destroyed
+دمرنا: destroyed us
 دمشق: Damascus
 دمك: your blood
 دمك؟: your blood
 دمنا: our blood
+دمه: his blood
 دموع: tears
 دموعنا: our tears
 دموعي: my tears
@@ -4356,7 +5666,9 @@ yigit: yigit
 دمي: my blood
 دمية: doll
 دمير: Demir
+دندانقان: dandangan
 دندناقان: Dandanjan
+دنيا: donia
 دهسنا: we ran over
 دواء: medication
 دوجان: Dogan
@@ -4369,21 +5681,33 @@ yigit: yigit
 دول: countries
 دولة: country
 دولتنا: our state
+دولته: his state
+دولتي: my country
 دون: without
-دوندار: dundar
+دوندار: Dundar
 ديلي: daily
+ديمير: demir
 دين: debt
+دينونة: judgment
 ديني: religious
-ديونتي: donte
+ديونتي: Donte
 ديوننا: our debts
+ديوني: my debts
+ذئاب: wolves
 ذئب: wolf
+ذا: the
+ذابلة: wilted
 ذات: related
+ذاقت: tasted
 ذاهب: going
 ذاهبا: he was going
 ذاهبون: are going
 ذاهبون؟: are they going
+ذاهبًا: going
 ذبح: slaughter
+ذبحوا: slaughtered
 ذبيحة: sacrifice
+ذراعي: my arm
 ذراعينا: our arms
 ذراعيها: her arms
 ذروة: climax
@@ -4393,6 +5717,7 @@ yigit: yigit
 ذكائك: your intelligence
 ذكر: mention
 ذكرت: mentioned
+ذكرك: remind you
 ذكرني: remind me
 ذكريات: memories
 ذكي: intelligent
@@ -4414,6 +5739,7 @@ yigit: yigit
 ذوقك: your taste
 ذوقًا: by taste
 ذي: the
+ذيول: tails
 رآك: see you
 رآني: he saw me
 رأت: she saw
@@ -4423,6 +5749,10 @@ yigit: yigit
 رأسه: his head
 رأسها: her head
 رأسي: my head
+رأسًا: head
+رأوا: they saw
+رأوك: saw you
+رأوه: saw him
 رأى: opinion
 رأي: opinion
 رأيت: I have seen
@@ -4432,6 +5762,7 @@ yigit: yigit
 رأيتهم: I saw them
 رأيك؟: your opinion
 رأينا: we saw
+رأيها: her opinion
 رأيي: my opinion
 رؤساء: heads
 رؤوسنا: our heads
@@ -4439,22 +5770,27 @@ yigit: yigit
 رؤيتك: seeing you
 رؤيته: see it
 رؤيتهم: see them
+رؤيتي: my vision
 رئيس: president
 رائحة: smell
 رائع: fabulous
+رائعة: fantastic
 رابح: winner
 راجعت: I checked
 راجل: man
 راحة: comfort
+راشيل: rachel
 راض: satisfied
 راضية: satisfied
 راضٍ: satisfied
-رايته: i saw him
-رب: god
+رامي: ramy
+رايته: I saw him
+رب: lord
 ربتها: I raised her
 ربح: he won
 ربحت: I won
 ربط: link
+ربطت: connected
 ربطه: link it
 ربطهم: connect them
 ربطهما: connect them
@@ -4463,7 +5799,9 @@ yigit: yigit
 ربك: your lord
 ربما: maybe
 ربنا: our lord
+ربهم: their lord
 ربي: my lord
+ربيتهم: i raised them
 رتبت: arranged
 رجاء: please
 رجال: men
@@ -4479,13 +5817,17 @@ yigit: yigit
 رجمهم: stoned them
 رجموا: they stoned
 رجوع: back
+رحلات: trips
 رحلة: trip
 رحلتك: your journey
 رحلتنا: our journey
 رحلتهم: their journey
+رحم: womb
 رحمان؟: rahman
 رحمة: mercy
+رحمتك: your mercy
 رحمك: your uterus
+رحمن: rehman
 رحمن؟: rehman
 رحمه: mercy
 رحمها: her womb
@@ -4499,13 +5841,16 @@ yigit: yigit
 رسلا: messengers
 رسم: draw
 رسول: messenger
+رسولًا: a messenger
 رشقوا: they threw
 رشيقة: agile
 رضي: satisfied
 رعاة: shepherds
 رعاياك: your subjects
 رعاية: care
+رعشاتك: your shivers
 رغب: wish
+رغبات: desires
 رغبة: desire
 رغبتك: your desire
 رغبتكم: your wish
@@ -4513,6 +5858,7 @@ yigit: yigit
 رغبته: his wish
 رغم: despite
 رف: rack
+رفاقك: your comrades
 رفاقك؟: your comrades
 رفاقي: my comrades
 رفاهية: luxury
@@ -4521,26 +5867,33 @@ yigit: yigit
 رفضهم: reject them
 رفيع: thin
 رفيعا: high
+رفيق: companion
 رفيقا: buddy
+رفيقنا: our companion
 رفيقي: my companion
 رفيقًا: companion
 رقابنا: our necks
 رقبتك: your neck
+رقبته: his neck
 رقبتها: her neck
 رقصها: her dance
 رقيب: sergeant
+رقيبًا: sergeant
 ركبت: ride
 ركز: focus
 ركض: run
 ركن: corner
 ركوب: ride
+رماة: archers
 رماد: ash
 رمادية: gray
 رمضان: ramadan
 رموز: symbols
 رمي: throw
 رميت: I threw
+رميتها: i threw it
 رهينة: hostage
+روبي: ruby
 روث: dung
 روحك: your soul
 روحنا: our soul
@@ -4549,14 +5902,19 @@ yigit: yigit
 روحيًا: spiritually
 روزالينا: Rosalina
 روضتها: tame her
-روما: rome
+روما: Rome
+ريح: wind
+زاده: zadeh
 زال: removed
+زالت: gone away
 زالوا: they removed
+زاهدًا؟: ascetic
 زاهية: bright
 زاوية: angle
 زجاجات: bottles
 زخرفة: decoration
 زراعة: agriculture
+زرت: i visited
 زرع: planting
 زرعوا: they planted
 زعماء: bosses
@@ -4565,9 +5923,12 @@ yigit: yigit
 زفافنا: our wedding
 زلت: I still
 زلنا: we are still
-زنجيد: zanjid
+زمن: time
+زنازين: cells
+زنجيد: Zanjid
 زنزانات: dungeons
 زنزانة: prison cell
+زنكي: Zinc
 زوار: visitors
 زوارنا: our visitors
 زوج: husband
@@ -4577,7 +5938,7 @@ yigit: yigit
 زوجك: your husband
 زوجها: her husband
 زوجي: my husband
-زوراء: zora
+زوراء: Zora
 زيارة: visit
 سآتي: I will come
 سآخذ: I'll take
@@ -4585,15 +5946,20 @@ yigit: yigit
 سأبكي: I'm gonna cry
 سأبلغ: I will inform
 سأتحدث: I will talk
-سأتزوج: i will marry
+سأتزوج: I will marry
 سأتصل: I'll call
+سأجتمع: I will meet
+سأجد: prostrate
 سأجده: I'll find him
 سأجعل: I will make
+سأجعلك: I will make you
+سأجعله: I will make it
 سأجعلهم: I will make them
 سأجلب: I will bring
 سأجلس: I will sit
 سأجيب: I will answer
 سأحزبه: I will party him
+سأحسم: I'll make up
 سأحصل: I will get
 سأحضر: I will attend
 سأحضرهم: I'll get them
@@ -4601,48 +5967,64 @@ yigit: yigit
 سأخبرك: I will tell you
 سأخدم: I will serve
 سأخصص: I will allocate
+سأخون: I will betray
+سأدعوه: I will call him
+سأدفع: I will pay
 سأدمركم: I will destroy you
 سأذكرك: I'll remind you
 سأذهب: I will go
+سأراك: I'll see you
 سأرسل: I will send
 سأركب: I will ride
+سأركض: I will run
 سأزودها: I'll supply it
 سأزور: I will visit
-سأستخدمها: i will use it
+سأستخدمها: I will use it
 سأستعيد: I will regain
+سأشارك: I will participate
 سأشتري: I'll buy
 سأشتريها: I'll buy it
 سأشعر: I will feel
+سأصبح: I will become
 سأصل: I will arrive
 سأصلي: I will pray
 سأضربك: I'll beat you
 سأطعمك: I'll feed you
 سأطلب: I will ask
+سأطلق: I will be fired
 سأظل: I remain
+سأعاود: I will come back
 سأعتني: I'll take care
+سأعرف: I will know
 سأعطي: I will give
 سأعطيك: I'll give you
 سأعود: I'll come back
 سأعيد: I will return
 سأعيدهم: I'll bring them back
+سأفرض: i will impose
 سأفعل: I will
 سأفعله: I will do it
-سأفكر: i'll think
+سأفكر: I'll think
 سأقاتل: I will fight
 سأقترح: suggest
 سأقتل: I will kill
 سأقتلك: I will kill you
+سأقتلكم: I will kill you
 سأقدم: I will make
 سأقدمه: I will submit
 سأقرر: I will decide
+سأقطع: I will cut
 سأقطعه: I'll cut it
 سأقول: I will say
 سأقولها: I will say it
 سأقوم: I will
+سأكتشف: I will find out
 سأكون: I'll be
 سأل: asked
 سألت: I asked
+سألتزم: I will commit
 سألتني: she asked me
+سأموت: I will die
 سأنتظر: I'll wait
 سأنتقل: I'll move on
 سأنتقم: I will take revenge
@@ -4650,17 +6032,23 @@ yigit: yigit
 سأنهي: I will finish
 سأهمس: I'll whisper
 سأوجه: I will direct
+سؤالاً: a question
+سؤالك: your question
 سؤالًا: a question
 سئل: he was asked
 سئمت: fed up
 سئمنا: we are tired
+ساء: worsened
 سابق: former
 سابين: sabine
+ساحات: yards
 ساخن: hot
 ساذجة: naive
 سارا: sara
+سارة: sarah
 ساري: I will see
 ساري؟: I will see
+ساعد: assist
 ساعدت: helped
 ساعدتنا: she helped us
 ساعدك: helped you
@@ -4668,10 +6056,13 @@ yigit: yigit
 ساعده: help him
 ساعدهم: help them
 ساعدوك؟: help
+ساعدوه: help him
+ساعدوها: help her
 سافعل: I will
 ساقه: his leg
 سالمة: unscathed
 سالمين: unharmed
+سالمًا: unscathed
 سامح: sameh
 سامحني: forgive me
 سامية: sublime
@@ -4681,55 +6072,100 @@ yigit: yigit
 سبع: seven
 سبعة: seven
 سبق: already
+سبقك: preceded you
+سبيل: path
 ستأتي: will come
+ستأخذ: will take
+ستأخذك: she will take you
+ستأخذني: you will take me
 ستأخذني؟: you take me
 ستأكل: you will eat
 ستائرنا: our curtains
+ستارة: curtain
+ستبتسم: you will smile
+ستبدأ: will start
 ستبقى: will remain
+ستتأخر: will be delayed
 ستتحقق: will come true
+ستتحمل: will bear
+ستتذكر: you will remember
 ستتركنا: will leave us
 ستتزوج: she will get married
+ستتمكن: you will
 ستتوقف: will stop
+ستجد: you will find
 ستجعلني: it will make me
+ستجف: will dry up
+ستجلب: will bring
+ستجلس: she will sit down
 ستحافظ: will maintain
 ستحصل: you will get
 ستحقق: will achieve
+ستحكم: will judge
+ستحل: will solve
 ستخبرني: you will tell me
 ستخبرني؟: will you tell me
+ستخبره: you will tell him
 ستختفي: will disappear
+ستدفع: will pay
 ستدمر: will be destroyed
 ستذهب: you will go
+ستراه: you will see it
 سترونه: you will see it
 سترى: you'll see
+ستزوره: you will visit it
 ستستحم: she will take a shower
 ستستمر: will continue
 ستشرق: will rise
+ستصاب: will be injured
 ستصنع: will be made
 ستضع: will put
 ستطالب: will prompt
 ستطيعني: you will obey me
+ستظهر: will appear
+ستعرف: you will know
 ستعطينا: will give us
 ستعمل: will work
+ستعود: will come back
 ستعيش: you will live
 ستغادر؟: are you leaving
 ستفعل: you will do
 ستفعل؟: you will do
+ستفعله: you will do
+ستفعلون: you will
+ستفقد: you will lose
 ستقبض: will catch
+ستقتل: will be killed
 ستقف: will stand
 ستقول: would say
 ستقوم: will
+ستكسبها: you will win it
+ستكشف: will reveal
 ستكون: it will be
+ستكونين: you will be
+ستلقي: will throw
+ستمرضين: you will get sick
+ستموتون: you will die
+ستنتصر؟: will you win
+ستنتهي: will be finished
 ستنتهي؟: will it end
 ستنجح: you will succeed
 ستنجح؟: will you succeed
 ستنطلق: will take off
+ستنمو: will grow
+ستنهار: will collapse
 ستهرب: you will run away
 ستواجه: will face
 ستوب: stop
+ستُباد: will be exterminated
 سجاد: carpets
 سجناءك: your prisoners
+سجنت: I was imprisoned
+سجنته: I imprisoned him
 سجنه: imprisoned
+سجنهم: imprison them
 سجين: prisoner
+سحاب: clouds
 سحابة: cloud
 سحابتين: two clouds
 سحابتين؟: two clouds
@@ -4748,6 +6184,7 @@ yigit: yigit
 سر: secret
 سرا: secretly
 سراح: released
+سراحك: set you free
 سرادق: marquee
 سرادقنا: our marquee
 سرادقنا؟: our marquee
@@ -4755,6 +6192,7 @@ yigit: yigit
 سرقوا: they stole
 سري: secret
 سرية: secrecy
+سرير: bed
 سريره: his bed
 سريع: fast
 سريعا: soon
@@ -4772,35 +6210,47 @@ yigit: yigit
 سعيدًا: happy
 سفراء: ambassadors
 سفك: shed
+سفكت: shed
 سفير: ambassador
 سفيرًا: as an ambassador
 سفينة: a ship
 سقط: he fell
 سقطت: fell
 سقي: quench
+سكان: population
+سكتت: fell silent
 سكين: a knife
 سلاجقة: Seljuks
 سلاح: a weapon
 سلاحي: my weapon
 سلالة: strain
+سلالتنا: our dynasty
 سلام: peace
+سلامة: safety
 سلامتك: your safety
 سلبا: negatively
 سلجوق: selcuk
+سلجوقي: seljuk
 سلجوقيون: Seljuks
 سلس: smooth
 سلسلة: series
 سلطان: sultan
 سلطان؟: sultan
 سلطاننا: our sultan
+سلطاني: sultani
+سلطتي: my authority
 سلعهم: their goods
+سلكته: i took it
 سلكه: walked
 سليمان: Sulaiman
+سليمة: sound
 سم: cm
+سماع: hearing
 سمبلتون: simpleton
 سمح: allowed
 سمحت: allowed
 سمحوا: they let
+سمسدين: simsden
 سمع: he heard
 سمعت: I heard
 سمعت؟: I heard
@@ -4810,60 +6260,93 @@ yigit: yigit
 سمعنا: we heard
 سمعناها: we heard it
 سمعني: heard me
+سمعه: reputation
 سمعها: he heard it
 سمعوا: they heard
 سمو: highness
+سموا: they named
 سموكم: your highness
 سموكم؟: your highness
 سمومهم: their toxins
+سموه: his highness
+سميتها: i named it
 سنبدأ: we'll start
 سنة: year
 سنتحدث: we will talk
 سنترك: we'll leave
 سنتركهم: we'll leave them
+سنتزوج: we will get married
+سنتعرف: we will know
 سنجد: we will find
 سنجعلها: we will make it
 سنجلس: we'll sit
+سنجمع: we will collect
 سنحاول: we will try
+سنحتاج: we will need
 سنحرس: we will guard
 سنحصل: we will get
+سنحظى: we will have
 سنحل: we will solve
+سنحمي: we will protect
 سنخضع: we will undergo
 سندفع: we will pay
 سنذهب: we'll go
+سنرافق: we will accompany
+سنرتاح: we will rest
 سنرتفع: we will rise
 سنرى: we'll see
+سنزوجها: we will marry her
 سنزوجها؟: shall we marry her
+سنزور: we will visit
 سنستسلم: we will surrender
 سنستسلم؟: shall we surrender
 سنستمع: we will listen
 سنسمح: we will allow
+سنسمع: we will hear
 سنصبغها: we'll paint it
 سنصل: we will arrive
 سنضع: we will put
+سنعبر: we will cross
 سنعتني: I'll take care
 سنعرض: we'll show
 سنعطي: we will give
 سنعمل: we will work
+سنعود: we will be back
 سنعود؟: shall we return
 سنغادر: we will leave
+سنغرق: we will drown
 سنفعل: we will
 سنفعل؟: shall we do
+سنفعلها: we will do it
 سنقاتل: we will fight
+سنقتل: we will be killed
 سنقدم: we will give
+سنقضي: we will spend
+سنقطعها: we will cut it
+سنقف: we will stand
 سنقوم: we will
+سنقيم: we will reside
 سنك: your age
 سنكتشف: we'll find out
 سنكون: we will be
 سنلتقي: we will meet
 سنلجأ: we will turn
+سنمتلئ: we will be full
 سنمتلك: we will have
 سنمر: we will pass
 سنموت: we will die
+سنناقش: we will discuss
+سننال: we will get
+سننام: we will sleep
+سننصب: we will erect
 سننطلق: we will go
+سنهاجم: we will attack
+سنهاجمهم: we will attack them
 سنهرب: we will run away
 سنوات: years
+سنواجه: we will face
 سنوفر: we will save
+سهامها: her arrows
 سهلا: easy
 سهلاً: easy
 سهلة: easy
@@ -4875,6 +6358,7 @@ yigit: yigit
 سورة: surah
 سوزان: susan
 سوف: will
+سوف؟: will
 سوق: market
 سوى: but
 سويًا: together
@@ -4883,28 +6367,47 @@ yigit: yigit
 سيأتي: will come
 سيأخذ: gonna take
 سيؤخذ: will be taken
+سيئ: bad
 سيئا: bad
 سيئة: bad
 سيئة؟: bad
 سيئًا: bad
+سيبحث: will search
 سيبدأ: will start
+سيبدأون: they will start
 سيبقون: they will stay
 سيبقى: will stay
+سيبلغنا: will inform us
 سيبيعوننا: they will sell us
 سيتحد: will unite
+سيتحدث: will speak
 سيتحول: will turn out
 سيتراجع: will retreat
 سيترك: will leave
+سيتركها: he will leave her
+سيتصرف: will act
+سيتصل: will call
 سيتعلم: will learn
+سيتعين: will have to
 سيتم: will be
+سيجدون: they will find
+سيجعلك: will make you
+سيحتاج: will need
 سيحتاجك: will need you
 سيحتلون: they will occupy
 سيحدث: will happen
+سيحرر: will free
+سيحرق: will burn
+سيحصد: will reap
+سيحصلون: they will receive
+سيحضر: will attend
 سيحل: will solve
+سيحول: will convert
 سيخبرنا: will tell us
 سيخرج: will come out
 سيخسر: will lose
 سيخففون: they will lighten
+سيخلص: will be saved
 سيخلفك؟: will he succeed you
 سيد: mr
 سيدتي: madam
@@ -4915,11 +6418,14 @@ yigit: yigit
 سيدي؟: sir
 سيذهب: will go
 سير: walk
+سيرافقك: will accompany you
 سيرسل: will send
 سيرسلني: will send me
+سيرفع: will raise
 سيرون: they will see
 سيريحنا: he will comfort us
 سيزور: will visit
+سيساعدونك: they will help you
 سيستغرق: would take
 سيسعى: will seek
 سيسفك: will be shed
@@ -4927,60 +6433,91 @@ yigit: yigit
 سيسمح: will allow
 سيشتعل: will ignite
 سيشعر: will feel
+سيصاب: will be injured
 سيصبح: gonna be
 سيصل: will arrive
 سيصيح: will shout
 سيضر: will hurt
+سيضع: will put
+سيطرت: dominated
 سيطلب: will ask
 سيطير: will fly
 سيعارض: would oppose
+سيعاقب: will be punished
 سيعتمد: will depend
+سيعدم: will be executed
+سيعرف: will know
 سيعطي: will give
 سيعطينا: will give us
+سيعطيني: will give me
 سيعود: will return
 سيعودان: they will come back
+سيعودون: they will come back
 سيعيده: he will return it
+سيعيش: will live
+سيغادر: will leave
 سيف: sword
 سيفتح: will open
 سيفخر: will be proud
 سيفعل: he will
+سيفعله: will do it
 سيفعلون: they will
 سيفك: your sword
 سيفه: his sword
+سيفهمها: he will understand it
 سيفوز: will win
 سيفي: cv
 سيقبل: will accept
 سيقتل: will be killed
+سيقتلك: will kill you
+سيقتلني: will kill me
 سيقتله: he will kill him
 سيقتلونني: they will kill me
+سيقدم: will be presented
 سيقدمون: they will give
+سيقع: will fall
 سيقول: would say
 سيقولون: they will say
 سيقوم: will
 سيقيم: will reside
+سيكافئ: will be rewarded
 سيكامور: sycamore
+سيكتمل: will be completed
 سيكون: will be
 سيكونون: they will be
-سيلكان: Silcan
+سيلقي: will deliver
+سيلكان: Saljan
+سيما: Sima
+سيمكنه: will enable him
+سيمنع: will prevent
 سيموت: will die
 سيموتون: they will die
 سيموتون؟: will they die
+سينتشر: will spread
 سينتهي: will end
+سينجح: will succeed
 سينضم: will join
 سينضمون: they will join
 سينظر: will look
 سيهربون: they will run away
 سيواجه: will face
+سيواجهني: will face me
 سيوحد: will unify
 سيوف: swords
 سيوفر: will save
 سيوفنا: our swords
+سيوفهم: their swords
+شأن: affair
 شأنه: would
 شأنها: like it
+شؤون: affairs
 شئ: a thing
 شاء: willing
+شائعات: rumors
 شائعة: rumor
 شاب: young man
+شاحبة: pale
+شاحبًا: pale
 شاذة: atypical
 شارع: street
 شارك: participate
@@ -4990,33 +6527,41 @@ yigit: yigit
 شاعراً: poet
 شاق: hard
 شاكرا: thankful
-شاه: shah
-شاه؟: shah
+شاه: Shah
+شاه؟: Shah
 شاهد: see
 شاهدت: watched
-شاهدته: i watched it
+شاهدته: I watched it
 شاهدنا: we watched
 شاهدي: watch
-شاهزاد: shahzad
-شاهزاد؟: shahzad
-شاهزادا: shahzada
-شاهزاداس: shahzadas
+شاهزاد: prince
+شاهزاد؟: prince
+شاهزادا: prince
+شاهزاداس: prince
+شاهزادة: prince
+شاهزادة؟: shahzadeh
+شاهزادس: shahzad
 شاهزاده: prince
-شاهزادي: shahzadi
-شاهزادي؟: shahzadi
-شاهزاديس: shahzadis
+شاهزادي: prince
+شاهزادي؟: prince
+شاهزاديس: prince
+شاهنا: shahna
+شاهًا: shah
 شباب: youth
 شبكتها: its network
 شتاء: winter
+شتوية: wintry
 شجاع: brave
 شجاع؟: brave
 شجاعا: brave
+شجاعة: bravery
 شجاعتك: your courage
 شجاعًا: brave
 شجرة: tree
 شخص: person
 شخصا: people
 شخصيا: personally
+شخصياته: his characters
 شخصياً: personally
 شخصًا: person
 شديد: intense
@@ -5027,11 +6572,14 @@ yigit: yigit
 شربات: sherbet
 شربت: I drank
 شرط: condition
+شرع: proceeded
 شرعت: embarked
 شرف: honor
+شرفا: an honor
 شرفتنا: you gave us honor
 شرفك: your honor
 شرفنا: our honor
+شرفي: my honor
 شركاء: partners
 شركته: his company
 شروق: rise
@@ -5040,6 +6588,7 @@ yigit: yigit
 شعب: people
 شعبنا: our people
 شعبه: section
+شعبي: popular
 شعر: poetry
 شعرت: I felt
 شعرك: your hair
@@ -5049,34 +6598,50 @@ yigit: yigit
 شعوب: people
 شعور: feeling
 شفا: verge
+شفاعتك: your intercession
+شفاكم: heal you
+شفاه: lips
 شفتك: I saw you
 شفتي: my lips
 شفق: twilight
 شفقة: compassion
 شفى: he healed
 شفي: cured
+شفيع: intercessor
+شقت: cleaved
 شقراء: blonde
 شقيق: brother
 شقيق؟: brother
 شقيقتها: her sister
+شقيقه: sister
 شقيقها: her brother
 شقيقي: my brother
 شقيًا: naughty
+شك: doubt
 شكرا: thanks
 شكراً: thanks
+شكرًا: thank you
+شككنا: we doubted
+شكلت: formed
 شكوك: doubts
 شم: sniff
 شمعة: a candle
 شممت: smelled
 شنق: hang up
+شهادتي: my certificate
 شهداء: martyrs
 شهر: month
 شهرتك: your fame
-شهزاد: shehzad
-شهزاد؟: shehzad
-شهزادز: shehzadz
-شهزادس: shehzads
-شهزاديس: shehzadis
+شهزاد: prince
+شهزاد؟: prince
+شهزادا: prince
+شهزاداس: princes
+شهزادة: prince
+شهزادز: prince
+شهزادس: prince
+شهزاده: prince
+شهزاده؟: shahzadeh
+شهزاديس: princes
 شهود: witnesses
 شهور: months
 شهيد: martyr
@@ -5088,30 +6653,40 @@ yigit: yigit
 شيء؟: thing
 شيئ: thing
 شيئا: nothing
+شيئا؟: something
 شيئًا: something
 شيخ: sheikh
 شيخنا: our sheikh
+شيخي: my sheikh
+شيطاني: demonic
 شيك: check
 شِئًا: nothing
 صاح: hoot
 صاحب: owner
 صاحبه: its owner
 صادر: issued
+صادفناك: we encountered you
 صادقين: are honest
 صادقًا: honest
+صاروا: they have become
 صاغية: listen
 صالح: valid
 صالحنا: our advantage
 صامت: silent
 صامتة: silent
 صانع: maker
+صب: pour
 صباح: morning
+صباحًا: morning
 صبر: patience
 صبغ: dye
 صبور: patient
 صبورا: be patient
 صبي: boy
+صبيًا: a boy
 صح: true
+صحاب: friends
+صحابتين: two companions
 صحة: health
 صحتها: her health
 صحية: healthy
@@ -5124,6 +6699,8 @@ yigit: yigit
 صخور: rocks
 صد: bodice
 صدر: released
+صدق: truth
+صدقت: are right
 صدقني: believe me
 صدقه: charity
 صدقوني: believe me
@@ -5134,12 +6711,14 @@ yigit: yigit
 صديقي: my friend
 صديقًا: a friend
 صراخ: screaming
+صراع: conflict
 صراعا: tangling
 صربية: serbian
 صرت: I became
 صرخ: shouted
 صرخات: screams
 صرخاتهم: their cries
+صريحا: frank
 صعب: difficult
 صعب؟: difficult
 صعبا: difficult
@@ -5153,23 +6732,32 @@ yigit: yigit
 صفقة: deal
 صفك: your class
 صفيحة: plate
+صل: connect
 صلاة: prayer
 صلاتي: my prayer
 صلاح: Salah
+صلة: link
+صلوا: pray
 صلواتي: my prayers
+صلى: pray
 صليبي: crusader
 صليبية: crusade
 صماء: deafness
+صمت: silence
 صندوق: box
 صنع: make
 صنعا: do well
 صنعت: manufactured
 صنعتها: I made it
+صنعه: workmanship
+صواب: right
 صوت: voice
 صوتك: your voice
 صوتي: my voice
 صياد: fisher man
+صيادين: hunters
 صيحات: shouts
+صيد: hunting
 ضائع: lost
 ضائقة: hardship
 ضابط: officer
@@ -5180,8 +6768,10 @@ yigit: yigit
 ضبابي: hazy
 ضبط: adjust
 ضجة: sensation
+ضحت: sacrificed
 ضحك: laughter
 ضحية: victim
+ضحيت: sacrificed
 ضحيتك: your victim
 ضد: against
 ضدك: against you
@@ -5207,6 +6797,9 @@ yigit: yigit
 ضعهن: put them down
 ضعي: apply
 ضعيف: weak
+ضعيفا: weak
+ضغطت: pressed
+ضغينة: grudge
 ضفاف: banks
 ضوء: light
 ضيف: guest
@@ -5219,10 +6812,15 @@ yigit: yigit
 ضيوفنا: our guests
 ضيوفنا؟: our guests
 ضيوفه: his guests
+ضيوفهم: their guests
 طائر: a bird
 طائشة: stray
 طائفتنا: our community
+طاب: good
 طارئة: emergency
+طاردت: chased
+طاردته: chased him
+طاعة: obedience
 طاعون: plague
 طاعون؟: plague
 طاغية: tyrant
@@ -5235,9 +6833,12 @@ yigit: yigit
 طبعا: of course
 طبيب: doctor
 طبيعية: are normal
+طبيًا: medically
 طرح: subtract
 طرحت: posed
 طرد: kick
+طرفة: blink
+طرق: methods
 طريح: outright
 طريق: way
 طريقة: method
@@ -5248,6 +6849,7 @@ yigit: yigit
 طريقه: method
 طريقها: its way
 طريقي: my way
+طريقًا: way
 طعام: food
 طعامك: your food
 طعامهم: their food
@@ -5255,11 +6857,17 @@ yigit: yigit
 طعن: stab
 طغت: overwhelmed
 طفل: child
+طفلا: a child
+طفلاً: a child
+طفلة: baby girl
 طفلك: your child
 طفلنا: our child
+طفله؟: baby girl
 طفلها: her child
 طفلي: my baby
+طفولتك: your childhood
 طلب: order
+طلبات: requests
 طلبت: requested
 طلبتم،: you asked,
 طلبتها: I asked
@@ -5267,8 +6875,11 @@ yigit: yigit
 طلبنا: we asked
 طلبه: his request
 طلبهم: their request
+طلبوا: they asked
+طلبي: my order
 طموح: ambition
 طموحات: ambitions
+طهرت: cleansed
 طوال: throughout
 طول: length
 طويل: long
@@ -5276,15 +6887,22 @@ yigit: yigit
 طويلة: long
 طويلة؟: long
 طيب: ok
+طيب؟: ok
 طيبة: kind
+طيبة؟: kind
 طيرني: fly me
+طيلة: throughout
 طيه: fold
+طُعم: taste
 ظربان: a skunk
 ظل: shade
 ظلما: unjustly
-ظننت: i thought
+ظلمت: wronged
+ظننت: I thought
+ظهر: back
 ظهرت: appeared
 ظهرك: your back
+ظهرها: her back
 ظهري: my back
 ظهور: appearance of
 ظهورنا: our backs
@@ -5293,6 +6911,10 @@ yigit: yigit
 عائلتك: your family
 عائلتنا: our family
 عائلتي: my family
+عابس: surly
+عابسة: frowning
+عاتقي: be upon me
+عاجزين: helpless
 عاجلا: sooner
 عاجلاً: sooner
 عاد: is back
@@ -5313,36 +6935,45 @@ yigit: yigit
 عارية: naked
 عازم: determined
 عازمون: are bent
+عاش: live
 عاصفة: storm
 عاصي: assi
+عاقدة: knot
 عالق: stuck
 عالقون: are stuck
 عالم: world
+عالما: scientist
 عالمي: my world
 عاليا: high above
+عالية: high
 عالية؟: high
 عام: public
 عامة: general
-عامر: amer
+عامر: Amer
 عامل: worker
 عاملهم: their worker
 عاملوك: they treated you
 عامًا: years
 عانتنا: we suffered
+عانتني: she suffered me
 عانى: suffer
 عانيت: I suffered
 عبئا: a burden
+عبئًا: a burden
 عباءة: cloak
+عباءتي: my cloak
 عبادة: worship
 عباسي: abbasi
 عبثا: in vain
 عبد: slave
 عبدا: a slave
 عبدي: my servant
+عبر: across
 عبرك: across you
 عبلة: abla
 عبلة؟: abla
 عبوس: frown
+عبيد: slaves
 عبيدك: your servants
 عبيدهم: their servants
 عجائب: wonders
@@ -5351,20 +6982,27 @@ yigit: yigit
 عجوز: old
 عجين: dough
 عد: counting
+عدا: except
 عداد: counter
 عدالة: justice
 عدالة؟: justice
 عدة: several
 عدت: I returned
 عدد: number
+عدل: justice
 عدلك: your justice
 عدم: non
 عدنا: we are back
 عدو: enemy
 عدو؟: enemy
 عدوك: your enemy
+عدونا: our enemy
 عدوي: infection
+عديدة: many
+عديم: null
+عذاب: torment
 عذابنا: our torment
+عذابًا: torment
 عذرا: excuse me
 عربي: Araby
 عربي؟: Araby
@@ -5374,11 +7012,16 @@ yigit: yigit
 عرضتم: you offered
 عرضي: accidental
 عرفت: I knew
+عرفنا: we knew
+عرقا: a race
 عروس: bride
 عروسنا: our bride
 عروسه: bride
+عروسها: her bride
+عروسهم: their bride
 عروقي: my veins
 عزاءنا: our consolation
+عزائنا: our consolation
 عزالدين: izz aldin
 عزام: عزام free membership
 عزرائيل: angel of death
@@ -5388,10 +7031,12 @@ yigit: yigit
 عزيزي: my dear
 عسى: hopefully
 عش: live
+عشاءنا: our dinner
 عشائر: clans
 عشائرتي: my clan
 عشاقنا: our lovers
 عشت: I lived
+عشتها: lived it
 عشرات: tens
 عشرين: twenty
 عشيرة: clan
@@ -5400,11 +7045,16 @@ yigit: yigit
 عصبي: neural
 عصرنا: our time
 عصفورين: two birds
+عصمة: infallibility
 عصيان: disobedience
+عصيبة: nervous
 عصيت: I disobeyed
 عضو: member
 عضوا: member
-عفسين: afsin
+عظيم: great
+عظيمة: great
+عفسين: Afsin
+عقابك: your punishment
 عقب: after
 عقبة: obstacle
 عقد: a necklace
@@ -5414,24 +7064,28 @@ yigit: yigit
 عقلها: her mind
 عقلي: my mind
 عقوبته: his punishment
+عقولنا: our minds
 عقولنا؟: our minds
 عكيز؟: okay
-علاء: علاء
+علاء: Alaa
 علاج: treatment
 علاجا: cure
 علاجها: treated
 علاجًا: treatment
+علاقتنا: our relationship
 علاقتنا؟: our relationship
 علامة: sign
+علانية: publicly
 علاوة: bonus
 علقت: hung up
-علم: knowledge
+علم: flag
 علم؟: knowledge
 علمت: I learned
 علمنا: taught us
 على: on
-علي: ali
+علي: Ali
 عليك: on you
+عليك؟: on you
 عليكم: on you
 عليكما: you both
 علينا: we
@@ -5439,11 +7093,13 @@ yigit: yigit
 عليه؟: on him
 عليها: on her
 عليهم: on them
-عليّ: ali
+عليّ: on me
 عم: uncle
 عم؟: uncle
 عما: from
 عمال: workers
+عمة: aunt
+عمة؟: aunt
 عمتي: my aunt
 عمدة: mayor
 عمر: omar
@@ -5452,6 +7108,8 @@ yigit: yigit
 عملت: I worked
 عملك: your business
 عملنا: our work
+عملنا؟: our work
+عمله: currency
 عملهم: their work
 عملية: operation
 عمنا: our uncle
@@ -5464,6 +7122,8 @@ yigit: yigit
 عمي؟: my uncle
 عميق: deep
 عميقة: deep
+عميقًا: deep
+عمي…: my uncle…
 عمّنا: our uncle
 عن: about
 عن؟: about
@@ -5471,13 +7131,18 @@ yigit: yigit
 عنا؟: about us
 عناء: trouble
 عناد: intransigence
+عنادك: your stubbornness
 عند: at
+عندك: you have
 عندما: when
 عندنا: we have
 عندها: then
+عندهم: they have
+عندي: i have
 عنقه: his neck
 عنك: about you
 عنك؟: about you
+عنكبوت: a spider
 عنه: about him
 عنه؟: about him
 عنها: about her
@@ -5487,17 +7152,20 @@ yigit: yigit
 عنيدة: stubborn
 عنيدًا: stubborn
 عنيدًا؟: stubborn
+عنيف: violent
 عهد: covenant
 عواقب: consequences
 عودة: back
 عودتك: your return
 عودته: his return
 عودتهم: they return
+عوقبت: been punished
 عيسى: jesus
 عيسى؟: jesus
 عيكيز: ekeiz
 عيكيز؟: okay
 عين: eye
+عينان: two eyes
 عيناه: his eyes
 عيناي: my eyes
 عينني: eye me
@@ -5505,6 +7173,8 @@ yigit: yigit
 عينيك: your eyes
 عينيه: his eyes
 عيون: eyes
+عيونه: his eyes
+غابة: jungle
 غادر: leave
 غادرت: she left
 غادرنا: we left
@@ -5515,14 +7185,17 @@ yigit: yigit
 غازنفر: gaznver
 غاضب: angry
 غاضبًا: angry
+غافلون: oblivious
 غاليا: dearly
 غامرة: immersive
 غبية: stupid
 غد: tomorrow
 غدا: tomorrow
 غداً: tomorrow
+غدر: treachery
 غدًا: tomorrow
 غرب: west
+غربان: crows
 غرفة: room
 غرفتك: your room
 غرفتها: her room
@@ -5541,56 +7214,86 @@ yigit: yigit
 غصين: twig
 غض: juicy
 غضب: anger
+غضبك: your anger
 غضبه: his anger
 غضبهم: their anger
-غضنفر: ghazanfar
+غضنفر: Ghazanfar
 غضون: meantime
 غطاء: cover
+غطاهم: covered them
 غطرسته: his arrogance
 غفر: forgive
-غندوغدو: gondogdo
+غمر: immersion
+غندوغدو: Gondogdo
 غودسند: godsend
-غوندوغدو: gundogdu
+غوندوغدو: Gundogdu
+غيابه: his absence
+غيابي: my absence
 غير: non
+غيرك: change you
+غيرك؟: other than you
 غيره: jealous
+غيوم: clouds
 فأخبرنا: so tell us
 فأخبره: so tell him
+فأس: axe
+فأسًا: an ax
+فأنا: I am
+فأنت: then you
 فأود: I would
 فإن: the
 فإنك: then you
+فإنني: then i
 فإنه: it
 فإنهم: they will
+فئة: category
 فئوية: categorical
 فائدة: benefit
 فات: finished
+فاجأتك: i surprised you
 فاخرة: luxury
+فادحا: fatal
 فاذهب: so go
 فارس: knight
+فارسًا: a knight
+فارغ: empty
 فارغا: empty
 فارغة: empty
 فارغًا: empty
 فاستفسرت: I inquired
 فاعرف: know
+فاعلم: so know
+فاعلموا: so know
 فالقبيلة: the tribe
+فالكون: falcon
 فالناس: people
 فتاة: girl
+فتاتنا: our girl
+فتاتى: my girl
 فتاتي: my girl
 فتاتي؟: my girl
+فتاليا: fatalia
 فتح: open
 فتحت: I opened
 فترة: interval
 فتى: boy
+فتياتي: my girls
 فجأة: suddenly
+فحص: check up
 فحصنا: we checked
 فحصه: check it out
 فحصها: checked
 فخ: trap
+فخا: a trap
+فخاً: a trap
 فخر: pride
 فخرك: your pride
+فخورا: proud
 فخوراً: proud
 فخًا: a trap
-فداء: fida
+فداء: sacrifice
 فراش: mattress
+فردوس: paradise
 فرس: mare
 فرسان: knights
 فرسانك: your knights
@@ -5598,7 +7301,9 @@ yigit: yigit
 فرصة: chance
 فرضنا: we imposed
 فرع: a branch
+فرق: difference
 فروع: branches
+فريسة: prey
 فريقنا: our team
 فزت: I won
 فسأجعلك: I will make you
@@ -5609,6 +7314,7 @@ yigit: yigit
 فسنحكم: we will judge
 فسنرى: we'll see
 فسوف: you'll
+فسيتم: will be
 فشل: fail
 فشلت: failed
 فشلك: your failure
@@ -5618,8 +7324,10 @@ yigit: yigit
 فضفاضة: loose
 فضلك: please
 فضيلة: virtue
+فعال: effective
 فعالة: effective
 فعالية: effectiveness
+فعاليتها: its effectiveness
 فعل: act
 فعل؟: act
 فعلا: really
@@ -5634,10 +7342,12 @@ yigit: yigit
 فعلوا: they did
 فعلوه: they did
 فعليه: he should
+فقال: he said
 فقد: lost
 فقدان: loss
 فقدت: lost
 فقدت؟: lost
+فقدتها: i lost it
 فقدنا: we lost
 فقدناه: we lost it
 فقدناها: we lost it
@@ -5654,21 +7364,29 @@ yigit: yigit
 فكه: humorous
 فكيف: so how
 فلا: not
+فلتبدأ: let it begin
+فلسطين: palestine
+فلماذا: why
 فلن: you won't
+فليفهم: let him understand
 فليكن: let it be
 فليكنوا: let them be
 فليمنحهم: give them
 فم: mouth
 فماذا: so what
+فمربي: so my breeder
 فمك: your mouth
 فمن: it is
 فمه: his mouth
+فنحن: we are
 فهل: so does
 فهم: understanding
 فهمت: I see
 فهمك: your understanding
 فهو: it is
 فهي: they are
+فواصلت: it commands
+فوج: regiment
 فوجئت: I was surprised
 فوز: win over
 فوضى: mess
@@ -5676,13 +7394,16 @@ yigit: yigit
 فوقنا: above us
 في: in
 في؟: at
+فيخرج: he goes out
+فيصلبوا: fsabboa
 فيقول: he says
 فيك: in you
 فيكم: in you
+فيلق: corps
 فيلم: movie
 فيما: with respect
 فيمكننا: we can
-فينا: vienna
+فينا: Vienna
 فينيسيا: venice
 فيه: in it
 فيها: in which
@@ -5694,10 +7415,13 @@ yigit: yigit
 قائدنا: our leader
 قائدهم: their leader
 قائدهم؟: their leader
+قائدي: my leader
 قائلا: saying
+قائلين: they say
 قائمة: list
 قائمة؟: list
 قاب: just around
+قابل: met
 قابلة: met him
 قابلنا: we met
 قاتل: killer
@@ -5716,11 +7440,16 @@ yigit: yigit
 قاع: bottom
 قافلة: convoy
 قافلتك: your caravan
+قافلتنا: our convoy
 قال: he said
 قال؟: he said
 قالت: she said
+قاله: he said
+قالها: he said it
 قالوا: they said
 قام: he rose
+قامت: carried out
+قاموا: they
 قانونية: legal
 قايي: kay
 قبائل: tribes
@@ -5728,7 +7457,9 @@ yigit: yigit
 قبالة: off
 قبح: ugliness
 قبر: grave
+قبرا: a grave
 قبراً: graves
+قبرك: your grave
 قبره: lark
 قبض: catch
 قبضة: grip
@@ -5748,14 +7479,17 @@ yigit: yigit
 قبيلته: his tribe
 قبيلتي: my tribe
 قتال: fighting
+قتامة: darker
 قتل: killing
 قتلة: killers
 قتلت: she was killed
+قتلتني: you killed me
 قتلته: I killed him
 قتلته؟: you killed him
 قتلك: kill you
 قتلكم: kill you
 قتلنا: kill us
+قتلناهم: we killed them
 قتله: killers
 قتله؟: killers
 قتلها: killed her
@@ -5772,6 +7506,7 @@ yigit: yigit
 قدما: ahead
 قدمت: submitted
 قدمتموه: you have given
+قدمتها: provided by
 قدمنا: we introduced
 قدمه: his foot
 قدمها: give it
@@ -5779,17 +7514,24 @@ yigit: yigit
 قدموها: give it
 قدمي: my foot
 قدميك: your feet
+قدميه: his feet
 قدمًا: ahead
 قدوة: example
+قدومك: your coming
 قديم: old
+قديما: in ancient times
+قديمة: an old
 قديمون: are old
 قديمًا: old
+قذارة: dirt
 قذر: dirty
+قرآن: wedding
 قرأت: I read
 قراءة: reading
 قراتويغار؟: karatwigar
 قرار: resolution
 قرارات: resolutions
+قراراتي: my decisions
 قرارك: your decision
 قراره: his decision
 قراري: my decision
@@ -5799,6 +7541,7 @@ yigit: yigit
 قرر: he decided
 قررت: I decided
 قررنا: we decided
+قرره: decided by
 قريب: near
 قريب؟: near
 قريبا: soon
@@ -5806,7 +7549,10 @@ yigit: yigit
 قريبة: close
 قريبًا: soon
 قسم: department
+قشقا: rant
+قصارى: best
 قصة: a story
+قصدتُك: i meant you
 قصدك: you mean
 قصر: palace
 قصرك: your palace
@@ -5816,6 +7562,7 @@ yigit: yigit
 قصك: your story
 قصور: failure
 قضايا: issues
+قضيب: rod
 قضية: issue
 قضيتك: your case
 قضيتنا: our cause
@@ -5829,7 +7576,9 @@ yigit: yigit
 قطعانكم: your flocks
 قطعاننا: our flocks
 قطعة: plot
+قطعه: piece
 قطعوا: they cut
+قطيع: flock
 قطيعهم: their flock
 قف: stop
 قل: say
@@ -5846,6 +7595,8 @@ yigit: yigit
 قلته: you said
 قلتها: I said it
 قلعة: castle
+قلعتك: your castle
+قلعه: castle
 قلق: anxiety
 قلقا: worried
 قلقة: worried
@@ -5865,44 +7616,58 @@ yigit: yigit
 قم: get up
 قمة: summit
 قمت: you've
+قمتنا: our summit
 قمنا: we've
+قواعدنا: our rules
 قوة: energy
 قوتك: your strength
 قوتهم: their strength
+قوس: arch
+قوسه: its arc
 قوسين: parentheses
+قوكس: cox
 قول: say
 قوله: saying
 قولي: say
+قومًا: people
 قونيا: Konya
 قونية: Konya
 قوي: strong
 قويا: strong
 قوياً: strong
 قوية: powerful
+قويًا: strong
 قيادة: leadership
 قيادتكم: your leadership
 قيادتنا: our leadership
 قيامة: resurrection
 قيد: restriction
 قيس: measure
+قيل: it was said
+قيل؟: it was said
 قيلت: it was said
 قيم: values
 قيمة: values
 قيمتها: worth
 قَدَّمَ: foot
+قُتلت: were killed
 قُتلوا: were killed
 كأب: cap
+كأداة: as a tool
+كأن: it was
 كأنني: like I am
+كأولادي: as my children
 كإجراء: as a measure
 كابوس: nightmare
 كاتب: clerk
 كاذب: untruthful
-كارا: kara
-كاراتويغار: karatwigar
-كاراديري: karadiri
-كارافانساري: caravansary
+كارا: Kara
+كاراتويغار: Karatwigar
+كاراديري: Karadiri
+كارافانساري: Caravansary
 كارتال: kartal
 كارثة: disaster
+كاردينال: cardinal
 كاسم: as the name
 كاف: adequate
 كافر: infidel
@@ -5912,6 +7677,10 @@ yigit: yigit
 كافية: enough
 كافيًا: enough
 كالثلج: like snow
+كالجبال: like mountains
+كالحصى: like pebbles
+كالحلم: like a dream
+كالدب: become acquainted
 كالعادة: as usual
 كالمقلق: like worrying
 كامرأة: as a woman
@@ -5920,6 +7689,7 @@ yigit: yigit
 كاملة: perfect
 كان: it was
 كان؟: it was
+كانا: they were
 كانت: was
 كانوا: they were
 كاي: kay
@@ -5929,10 +7699,13 @@ yigit: yigit
 كايي: Kaye
 كاييس: Kayes
 كبار: senior
+كبايات: kbayat
 كبر: grow up
+كبرت: i grew up
 كبرياءك: your pride
 كبريائك: your pride
 كبش: ram
+كبطل: as a hero
 كبف: cbf
 كبير: large
 كبيرا: great
@@ -5941,33 +7714,48 @@ yigit: yigit
 كتاب: book
 كتب: wrote
 كتبت: I wrote
+كتبتها: i wrote it
 كتبه: written by
 كتبه؟: written by
+كتبها: books
+كتف: shoulder
+كتفا: shoulder
 كتفيك: your shoulders
 كتلة: mass
 كتم: mute
+كتهديد: as a threat
 كثب: closely
 كثير: a lot
 كثيرا: much
 كثيرا؟: much
 كثيراً: much
+كثيرة: a lot
+كثيرًا: much
 كخائن: as a traitor
+كخائن؟: as a traitor
+كدرع: as a shield
 كدروع: as shields
 كدنا: we almost
 كدي: skewer
 كذاب: liar
 كذابون: liars
+كذب: lie
 كذبة: a lie
 كذبت: lied
 كذلك: as well
 كذلك؟: as well
 كرة: a ball
 كرجل: as a man
+كرد: response
+كرر: repeat
 كرسول: as a messenger
+كرسيك: your chair
 كرمتنا: our generosity
 كرمتني: she honored me
 كرهينة: as a hostage
+كريم: kareem
 كريمة: decent
+كزوار: as visitors
 كسجناء: as prisoners
 كسجين: as a prisoner
 كسجين؟: as a prisoner
@@ -5976,20 +7764,26 @@ yigit: yigit
 كسرنا: we broke
 كسفير: as an ambassador
 كسول: lazy
+كسولة: lazy
+كشرف: as an honor
 كشركة: as a company
 كشك: booth
 كشكًا: stall
+كشهداء: as martyrs
 كطفل: as a child
 كعذر: as an excuse
 كعروس: as a bride
+كعلم: as a science
 كفء: efficient
 كفاءة: efficiency
 كفاءتك: your efficiency
 كفريق: as a team
 كفنه: shroud
 كفى: is enough
+كقائد: as a leader
 كقبضة: as a fist
 كقبيلة: as a tribe
+كقيادة: as leadership
 كل: all
 كلا: both
 كلاب: dog
@@ -6000,20 +7794,27 @@ yigit: yigit
 كلامي: my words
 كلانا: both of us
 كلاهما: both of them
+كلاهما؟: both of them
 كلب: dog
+كلف: cost
 كلل: unfailing
+كلما: whenever
 كلمات: lyrics
 كلماتك: your words
 كلماتنا: our words
+كلماته: his words
 كلماتها: her words
+كلماتها؟: her words
 كلماتي: my words
 كلمة: a word
 كلمتها: her word
+كلمتي: my word
 كلنا: all of us
 كله: entire
 كله؟: entire
 كلها: all of which
 كلهم: all of them
+كليج: clegg
 كم: how many
 كما: as such
 كمبعوث: as an envoy
@@ -6026,56 +7827,88 @@ yigit: yigit
 كنا: we were
 كنت: you
 كنت؟: I was
+كنتم: you were
 كنز: treasure
+كنقوش: as inscriptions
+كنيك: knick
 كهدية: as a gift
+كهذا: like this
+كهف: cave
+كوارث: catastrophes
 كورد: cord
 كوردوغلو: Kordoglu
 كوردوغلو؟: Kordoglu
 كومة: pile
+كونتونية: cantonese
+كونك: being
 كونه: being
 كوني: connie
+كي: in order to
 كيس: bag
 كيف: how do
 كيف؟: how do
 كيفية: how to
 كيقباد: Kiqbad
 كيليكارسلان: Kilicarslan
+كينجر: kinger
 كيوكباد: Qukpad
 ل: to
 ل؟: to
 لآلئ: pearls
+لأبعدها: to take it further
 لأبي: for dad
 لأبيك: to your father
+لأبينا: for our father
 لأبيه: to his father
+لأتأذى: to be hurt
+لأتمنى: to wish
 لأجعلك: to make you
 لأجلي: for me
 لأحبائنا: for our loved ones
 لأحد: for one
+لأحضرها: to bring it
 لأخبرك: to tell you
 لأختك: for your sister
 لأختي: for my sister
+لأخذ: to take
 لأخذه: to take it
 لأخذها: to take it
 لأخذهم: to take them
+لأخوتنا: for our brothers
 لأخي: for my brother
 لأخي؟: for my brother
 لأخيك: for your brother
 لأداء: to perform
+لأدبك: for your politeness
+لأرضنا: to our land
+لأرطغرل: to ertugrul
 لأرواح: for spirits
+لأسأل: to ask
 لأشهر: for months
+لأصبح: to become
 لأصدقائك: to your friends
 لأصدقائنا: to our friends
 لأطالب: to demand
 لأطفالي: for my children
 لأطلب: to order
+لأظن: i suspect
+لأعماله: for his business
+لأغمض: to close
+لأفكر: to think
+لأقصى: for maximum
 لأقنعك: to convince you
 لأقول: to say
 لأقوله: to say
+لأقولها: to say it
 لأكاكوكا: for akakuka
+لأكبر: for the largest
 لأكله: to eat it
+لألمها: for her pain
 لأمك: for your mother
+لأميرنا: to our prince
 لأن: because
 لأناقشها: to discuss it
+لأنفسكم: for yourselves
 لأنفسكم؟: for yourselves
 لأنك: because you are
 لأننا: because we are
@@ -6085,8 +7918,10 @@ yigit: yigit
 لأنهم: because they are
 لأني: because I am
 لأهدافك؟: for your goals
+لأهنئك: to congratulate you
 لأول: for the first
 لأولئك: for those
+لأولادي: for my children
 لأي: for any
 لؤلؤة: pearl
 لإبقاء: to keep
@@ -6094,6 +7929,7 @@ yigit: yigit
 لإبلاغنا: to inform us
 لإخراجه: to take him out
 لإخفائه: to hide it
+لإخوانك: to your brothers
 لإدانته: to convict him
 لإرضاء: to please
 لإزعاج: to inconvenience
@@ -6110,6 +7946,8 @@ yigit: yigit
 لإنفاق: to spend
 لإنقاذ: to save
 لإنقاذك: to save you
+لإنقاذه: to save him
+لإنقاذي: to save me
 لإنهاء: to finish
 لإهانة: to insult
 لإيجاد: to find
@@ -6126,6 +7964,8 @@ yigit: yigit
 لاحقا: later
 لاحقًا: later
 لاحقًا؟: later
+لاختطاف: to kidnap
+لاختطافنا: to kidnap us
 لاستجوابي: for questioning me
 لاستضافتك: for your hosting
 لاستفزاز: to provoke
@@ -6133,44 +7973,63 @@ yigit: yigit
 لامر: to the order
 لاين: line
 لباي: for ebay
+لبرهة: for a moment
 لبس: wear
+لبضعة: for a few
 لبعض: for some
 لبقاء: to stay
 لبك: to your
 لبلدي: for my country
 لبي: pulpy
 لبيع: to sell
+لبيعها: to sell
+لبيك: for you
 لتأخذها: to take them
+لتأكله: to eat it
 لتبحث: for looking
+لتبقى: to stay
+لتبلغنا: to inform us
 لتبييض: to whiten
 لتحذيراتي: to my warnings
 لتحرير: to edit
 لتحطيمه: to smash it
 لتحقيق: to achieve
+لتحمل: to bear
 لتحية: to greet
+لتحييني؟: to greet me
+لتراقب: to watch
+لتراه: to see it
+لتركك: to leave you
 لتري: to see
 لتزوج: to get married
 لتزويد: to supply
 لتزويده: to supply it
 لتزويدهم: to provide them
 لتسمم: to poison
+لتسميم: to poison
 لتصبح: to become
+لتصل: to reach
 لتظهر: to appear
 لتعبئة: to mobilize
+لتعرف: to know
 لتفسير: to interpret
 لتفعله: to do
+لتقرر: to decide
 لتقول: to say
 لتقوله: to say
 لتقولها: to say
 لتكون: to be
+لتلقي: to receive
 لتلك: to those
 لتلوث: to contaminate
 لتمجيد: to glorify
 لتناول: to take up
+لتهدئة: to calm down
 لتهدئتهم: to calm them down
 لتهنئتك: to congratulate you
 لتوديعه: to say goodbye
 لتورجوت: for Turgut
+لتوصيل: to deliver
 لتولي: to take over
 لتيتوس: to titus
 لثانية: for a second
@@ -6179,11 +8038,14 @@ yigit: yigit
 لجأوا: they took refuge
 لجدول: for a table
 لجعل: to make
+لجعلهم: to make them
 لجلب: to bring
+لجلبه: to fetch it
 لجمع: to collect
 لجمعهم: to collect them
 لجميع: for all
 لجناح: for the suite
+لجوهرتنا: to our jewel
 لحاكم: to the governor
 لحجر: for a stone
 لحساب: to calculate
@@ -6192,27 +8054,38 @@ yigit: yigit
 لحظات: moments
 لحظة: moment
 لحفظ: to save
+لحفيد: for a grandson
 لحفيده: to his grandson
+لحقيقة: for fact
+لحكمين: for two judgments
 لحل: to solve
+لحلبنا: for our milking
+لحم: meat
 لحماية: to protect
+لحمايته: to protect it
 لحملة: to drive
+لحياة: for life
 لحياتي: for my life
 لحية: beard
 لحيتك: your beard
 لحيته: his beard
 لحيتي: my beard
 لخداع: to fool
+لخداعها: to deceive her
 لخسائرنا: for our losses
 لخسارتك: for your loss
 لخطفنا: to kidnap us
 لخلق: to create
+لخير: for good
 لخيمة: for a tent
 لدرء: to ward off
 لدرجة: so so
 لدغات: bites
+لدولة: for a country
 لدى: I have
 لدي: I have
 لديك: you have
+لديكم: you have
 لدينا: we've got
 لدينا؟: we've got
 لديه: he have
@@ -6221,32 +8094,42 @@ yigit: yigit
 لديّ: I have
 لذا: so
 لذلك: so
+لذلك؟: so
 لرؤية: to see
 لرؤيتك: to see you
 لرؤيته: to see him
 لربط: to relate
+لرجل: for a man
 لرحلة: for a trip
 لرحلتك: for your trip
+لرحمة: for mercy
 لرسولنا: to our messenger
 لرعي: to graze
 لرغبات: to the wishes
 لرفضه: to reject it
 لرمي: to throw
+لروح: to the spirit
 لزم: necessary
 لزوجتك: for your wife
 لزوجها: to her husband
+لزيادة: to increase
 لزيارتك: for your visit
 لزيارتنا: to visit us
 لسانك: your tongue
 لسانه: his tongue
 لساني: my tongue
 لسبب: for a reason
-لسبتي: for sabbatati
+لسبتي: for Sabbatati
 لست: I'm not
+لسحاب: to zipper
 لسحابتين: for two zippers
 لسحق: to crush
+لسلالة: for the strain
+لسلام: for peace
 لسلامة: for safety
-لسليمان: to solomon
+لسلطان: to sultan
+لسلطتهم: to their authority
+لسليمان: to Sulaiman
 لسماع: to hear
 لسماعه: to hear it
 لسنا: we are not
@@ -6254,24 +8137,35 @@ yigit: yigit
 لسنوات؟: for years
 لسوء: for bad
 لسيوف: for swords
+لشجاعتك: for your courage
 لشخص: for a person
 لشرف: for honor
 لشعبنا: for our people
 لشفائي: for my recovery
+لشفاعة: to intercession
 لشفقتك: to your pity
+لشهزاده: for his martyrs
 لصاحب: to the owner
 لصاحبها: to its owner
 لصالح: favor
+لصده: to repel him
 لصديق: to a friend
 لصيد: to catch
 لضبط: to adjust
+لضيوف: for guests
 لضيوفنا: to our guests
 لضيوفه: to his guests
+لطالما: always
+لطريق: for a road
 لطفاء: nice
 لطفك: your kindness
 لطفًا: kindly
+لطمس: to blur
 لطيف: nice
+لطيفا: so nice
 لطيفة: latifa
+لعائلتك: for your family
+لعادات: to habits
 لعاداتنا: to our habits
 لعاداته: for his habits
 لعالم: to a world
@@ -6287,8 +8181,14 @@ yigit: yigit
 لعن: curse
 لعنة: a curse
 لعنتهم: their curse
+لغارة: to raid
+لغرض: for the purpose
+لغرضك: for your purpose
+لغزو: to invade
+لغوندوغدو: for gündodu
 لـ: for
 لفترة: for a while
+لفرسان: for knights
 لفعل: to do
 لفعله؟: to do
 لفناهم: to destroy them
@@ -6297,6 +8197,7 @@ yigit: yigit
 لقب: title
 لقبيلة: to the tribe
 لقبيلتنا: to our tribe
+لقبيلتي: for my tribe
 لقتل: to kill
 لقتلك: to kill you
 لقتله: to kill him
@@ -6305,8 +8206,11 @@ yigit: yigit
 لقد: I have
 لقضاء: to spend
 لقطعانك؟: for your flocks
+لقطعانكم: for your flocks
 لقلبك: for your heart
 لقلبه: for his heart
+لقمان: luqman
+لقول: to say
 لقيط: bastard
 لك: to yours
 لك؟: to yours
@@ -6325,6 +8229,7 @@ yigit: yigit
 لكن،: but,
 لكنا: but the
 لكنك: but you are
+لكنكم: but you
 لكننا: but we are
 لكنني: but I do
 لكنه: but he
@@ -6332,14 +8237,19 @@ yigit: yigit
 لكنهم: but they
 لكني: but I do
 لكورد: for cord
+لكوردوغلو: to cordoglu
 لكونه: for being
 لكي: in order to
+لك…: is yours…
 لل: of
 للآخرين: to others
 للأتراك: for the turks
 للأجداد: for grandparents
+للأحكام: for judgments
 للأرض: to the ground
 للأساليب: for methods
+للأسف: unfortunately
+للأسف،: unfortunately,
 للأسفل: down
 للأشخاص: for people
 للأكل: to eat
@@ -6348,25 +8258,33 @@ yigit: yigit
 للأيام: for days
 للإذلال: to humiliate
 للإعجاب: impressive
+للإغارة: to raid
+للإنقاذ: to the rescue
 للإهانة: to insult
+للاتصال: to connect
 للاحتفاظ: to retain
 للاختباء؟: to hide
 للاستسلام: to surrender
 للاستعداد: to prepare
 للاستقالة: to resign
+للاستماع: to hear
+للالتقاء: to meet
 للاله: for god
 للانتفاضة: of the uprising
 للانتقام: for revenge
 للانضمام: to join
+للاهتمام: interesting
 للبابا: for the pope
 للبحث: search
 للبقاء: to stay
 للبكاء: to cry
 للبيع: for sale
 للتأثير: to influence
+للتاجر: to the merchant
 للتجول: to roam
 للتحدث: to talk
 للتحقق: to check
+للتخلص: to get rid
 للترفيه: for entertainment
 للتزويد: to replenish
 للتصرف: to act
@@ -6389,10 +8307,13 @@ yigit: yigit
 للحديث: to talk
 للحروب: for wars
 للحساب: for the account
+للحصان: for the horse
 للحصول: to get
 للحضور: to come
+للحظات: momentarily
 للحظة: for a bit
 للحفاظ: to maintain
+للحياة: for life
 للحيل: for tricks
 للحيوانات: for animals
 للخروج: to get out
@@ -6400,23 +8321,30 @@ yigit: yigit
 للخطر: to risk
 للخلاص: for salvation
 للخلافة: to succeed
+للخلف: backwards
 للخوف: to fear
 للخيل؟: for horses
+للخيول: for horses
 للدخول: to enter
 للدموع: for tears
+للدولة: to the state
 للذهاب: to go
 للذهاب؟: to go
+للراحة: to rest
 للرجال: for men
 للرحلة: for the trip
 للرحلة؟: for the trip
 للرسالة: for the message
 للرسل: for the apostles
 للرعي؟: for grazing
+للزواج: for marriage
 للسجاد: for carpets
 للسلطان: to the sultan
 للسماح: to allow
+للسيد: to mr
 للسيطرة: to control
 للشباب: for young people
+للصلب: for steel
 للصيد: for hunting
 للضرب: beaten
 للضرر: for damage
@@ -6431,6 +8359,7 @@ yigit: yigit
 للعثور: to find
 للعدالة: to justice
 للعدو: to the enemy
+للعزيز: for dear
 للعمل: for work
 للعودة: to return
 للعيش: for living
@@ -6446,23 +8375,31 @@ yigit: yigit
 للفوز: to win
 للقاء: to meet
 للقافلة: for the convoy
+للقايس: for gauge
 للقبض: to catch
 للقبيلة: for the tribe
 للقتال: to fight
 للقتل: to kill
+للقدر: for destiny
 للقلق: to worry
 للقلق؟: to worry
 للقيام: to do
+للكذب: to lie
 للكسر: to break
 للكلاب: for dogs
 للكمين: for the ambush
+للمحاكمة: on trial
 للمحتاجين: for the needy
+للمرء: to one
 للمرضى: for patients
+للمسجد: for the mosque
 للمعلومات: for information
 للمغادرة: to leave
 للمنزل: for home
+للمهور: for ponies
 للموت: to die
 للناس: to people
+للنبي: of the prophet
 للنجوم: for the stars
 للنظر: to look
 للنوم: to sleep
@@ -6473,7 +8410,9 @@ yigit: yigit
 للوزير: for the minister
 للوصول: to reach
 للوقوف: to stand up
+لليوم: for the day
 لم: did not
+لما: when
 لماذا: why
 لماذا؟: why
 لمثل: to like
@@ -6485,34 +8424,47 @@ yigit: yigit
 لمرضه: for his illness
 لمساعدتك: to help you
 لمساعدتكم: for your help
+لمست: touched
 لمستقبل: for the future
 لمستقبلك: for your future
 لمشاهدة: to watch
 لمشكلتك: for your problem
+لمصير: to fate
+لمصيري: to my fate
+لمعاناتك: your suffering
 لمعتقداتهم: to their beliefs
 لمعرفة: to find out
 لمغادرة: to leave
 لمقر: to headquarters
+لملاحقة: to pursue
+لملكوت: for a kingdom
 لممارسة: to practice
 لمن: whose
+لمنع: to prevent
 لمهاجمة: to attack
 لمهاجمتهم: to attack them
 لموت: to die
 لن: will not
 لنا: our
 لنتحدث: let's talk
+لنتمكن: to be able
+لنذهب: let's go
 لنرى: let's see
 لنرى؟: to see
 لنشر: to spread
+لنصب: to erect
+لنصل: let's get
 لنظام: for the system
 لنعرف: to know
 لنعمان: to naaman
 لنعود: to come back
+لنفس: for the same
 لنفسك: for yourself
 لنفسي: for myself
 لنقوم: let's
 لنكون: to be
 له: for him
+له؟: for him
 لهؤلاء: for those
 لها: to her
 لهذا: for this
@@ -6523,6 +8475,9 @@ yigit: yigit
 لهما: for them
 لو: if
 لواء: major general
+لواحد: for one
+لوالدك: to your father
+لوالده: to his father
 لوالدي: to my father
 لوجه: to face
 لوحدة: for the unit
@@ -6532,27 +8487,41 @@ yigit: yigit
 لوصف: to describe
 لوضع: to put
 لوقت: for a time
+لوقف: to stop
 لولا: for it not
 لي: mine
 لي،: mine,
 لي؟: mine
 ليأتي: to come
+ليأخذ: to take
 لياقة: fitness
+ليالي: nights
 ليباركك: bless you
+ليتركني: to leave me
 ليجت: legit
+ليجيت: legit
+ليحاكم: to be tried
+ليخبرني: to tell me
+ليختبئها: to hide it
+ليختبرنا: to test us
 ليدها: to her hand
 ليس: not
 ليست: not
 ليسوا: they are not
 ليصبح: to become
 ليصبحوا: to become
+ليصرخ: to shout
 ليغلق: to close
 ليفحص: to be checked
 ليقتل: to kill
+ليقتلك: to kill you
+ليقلقها: to worry her
 ليقول: to say
+ليكمل: to complete
 ليكن: let it be
 ليكون: to be
 ليكونوا: to be
+ليل: night
 ليلا: night
 ليلة: a night
 ليلتك: your night
@@ -6560,16 +8529,26 @@ yigit: yigit
 ليلتي: my night
 ليلى: layla
 ليلى؟: layla
+ليموت: to die
 لينة: soft
+لينقذنا: to save us
+ليهزمه: to defeat him
 ليوفر: to save
 ليوم: for a day
+مأخوذة: taken
 مأزق: impasse
 مألوفا: familiar
 مألوفة: familiar
+مأهولة: inhabited
 مأهولة؟: manned
 مؤتمن: confidant
+مؤتمنة: confidential
+مؤثرون: influencers
+مؤخرًا: recently
 مؤقت: temporary
 مؤقتة: temporary
+مؤكد: certain
+مؤلف: author
 مؤلم: painful
 مئات: favorable
 ما: what
@@ -6585,29 +8564,40 @@ yigit: yigit
 ماركوس: marcus
 ماركوس؟: marcus
 ماريو: Mario
+مازال: still
 مازلت: I'm still
 ماسة: desperately
 ماشيتنا: our livestock
 ماشيتهم: their cattle
+ماعز: goats
 مافريك: maverick
+مال: capital
 مالذي: what is that
 مالك: owner
+مالكها: its owner
 مالكهم: their owner
 مانح: grantor
 مانزيكرت: Manzikert
 مانع: mind
 ماهراً: skillful
 ماهو: what is the
+ماهيتها: what it is
 ماونتنز: mountains
 ماونتين: mountain
 مايرام: okay
 مايو: may
+مبارزون: swordsmen
 مبارك: blessing
+مباركتك: your blessing
+مباركًا: blessed
 مباشر: direct
+مباشرا: directly
 مباشرة: directly
 مبالين: indifferent
+مبعثرة: scattered
 مبعوث: envoy
 مبكر: early
+مبكرا: early
 مبكرة: early
 مت: die
 متأخر: late
@@ -6624,22 +8614,32 @@ yigit: yigit
 متبقية: remaining
 متجر: a store
 متجهون: vectors
+متحاربة: warring
 متحالفًا: allied
 متحدا: united
+متحدين: united
 متداولًا: traded
 متروك: is up
+متروكة: abandoned
 متسرع: hasty
+متسع: roomy
 متشابكة: intertwined
 متعب: tired
 متعبا: tired
 متعبة: tiring
+متعتك: your pleasure
 متعجرفًا: arrogant
 متعلمة: educated
+متغطرسًا: arrogant
+متقدمون: advanced
+متلهفون: are anxious
 متلهفين: eager
 متماثلون: are similar
 متناول: reach
+متهورون: reckless
 متوترون: are tense
 متوجه: heading
+متوحش: savage
 متوفراً: available
 متى: when
 متى؟: when
@@ -6651,21 +8651,26 @@ yigit: yigit
 مثلنا: like us
 مثله: like him
 مثلي: like me
+مثمرة: fruitful
 مثير: thrilling
 مثيل: instance
 مجال: field
 مجرد: just
+مجروح: injured
 مجففة: dried
+مجلس: board
 مجموعات: groups
 مجموعة: collection
 مجنون: crazy
 مجنونة: crazy
 مجهول: unknown
 مجهولي: unknown
+مجيئه: his coming
 محاباة؟: favor
 محادثات: talks
 محادثة: conversation
 محارب: warrior
+محاربة: fight
 محاربون: warriors
 محاربي: warriors
 محاربين: warriors
@@ -6676,38 +8681,58 @@ yigit: yigit
 محاصيلنا: our crops
 محاط: surrounded
 محاكمة: trial
+محاكمته: his trial
 محاولة: attempt
 محبة: love
+محبط: frustrating
 محبوب: lovable
+محتجزا: being held
 محترمة: a respectable
+محتمل: possible
+محدود: limited
+محرجًا: awkward
+محروس: guarded
 محشوة: stuffed
+محصول: crop
+محطمة: shattered
 محظوظ: lucky
 محظوظون: are fortunate
 محق: right
 محكمة: court
 محكوم: doomed
 محل: shop
-محمد: mohammed
+محمد): Muhammad)
+محمد: Muhammad
 محنة: distress
 محوها: erase it
 محي: wiped
 مخاطر: risks
+مخالبك: your claws
+مخبأ: cache
+مختبئة: hiding
+مختصة: competent
 مختلف: different
 مختلفا: different
 مختلفة: different
 مختوم: stamped
 مختومة: stamped
 مخرج: director
+مخرجا: way out
 مخز: shameful
 مخزوننا: our stock
+مخزي: shameful
 مخطئ: wrong
+مخطئة: wrong
+مخطط: planned
 مخلص: sincerely
 مخلصًا: sincerely
 مخول: authorized
+مداهمة: raid
 مدرسة: school
 مدرك: aware
 مدركين: are aware
 مدنك: your cities
+مدنكم: your cities
 مدونة: blog
 مدى: bezel
 مدين: debtor
@@ -6715,17 +8740,22 @@ yigit: yigit
 مدينتنا: our city
 مدينتي: my city
 مدينون: owe it
+مذهولا: dumbfounded
 مر: pass
 مرات: times
+مراجل: boilers
 مرارا: repeatedly
 مراعي: pastures
+مراقبة: control
 مربية: nanny
 مرة: once
 مرة؟: once
 مرت: passed
 مرتاح: comfortable
 مرتاحا: comfortable
+مرتبط: linked
 مرتبطة: connected
+مرتبك: confused
 مرتبًا: tidy
 مرجل: boiler
 مرحبا: hi
@@ -6736,15 +8766,20 @@ yigit: yigit
 مرسيليا: marseille
 مرشدًا: guide
 مرض: illness
+مرضنا: our disease
+مرضه: his illness
 مرعى: pasture
+مرفوع: uploaded
 مرنة: flexible
 مرهقون: are exhausted
 مرهم: ointment
 مرهمًا: ointment
 مرور: passage
+مروّضة: tamed
 مريح: comfortable
 مريحة: comfortable
 مرير: bitter
+مريرة: bitter
 مريض: sick
 مزاج: mood
 مزدحمة: crowded
@@ -6753,25 +8788,35 @@ yigit: yigit
 مزدوجة: dual
 مزق: rip
 مزقها: rip it
+مزقوا: tore up
+مزورة: forged
 مزينة: decorated
 مسألة: issue
+مسؤول: responsible
 مسؤولا: responsible
 مسؤولاً: responsible
 مسؤوليتي: my responsibility
+مساؤك: your evening
+مساجدهم: their mosques
 مسار: a path
 مساعد: assistant
 مساعدة: help
 مساعدتك: help you
+مساعدتكم: your help
 مساعدتنا: help us
+مساعدته: help him
 مساعدتها: help her
 مساعدتي: help me
+مساعدي: my assistant
 مساعدين: assistants
 مسافة: distance
 مسافر: traveling
+مسافرا: traveling
 مساهمة: input
 مسبقا: advance
 مسبقا؟: advance
 مسبقًا: in advance
+مسترخيا: relaxing
 مستعار: wig
 مستعد: ready
 مستعدا: ready
@@ -6783,9 +8828,13 @@ yigit: yigit
 مستقبل: future
 مستقبلهم: their future
 مستقر: stable
+مستقيم: straight
+مستلقي: recumbent
 مستلقيا: lying down
 مستلقين: lying down
+مستلقيًا: lying down
 مستنقع: swamp
+مستنقعات: swamps
 مستيقظ: awake
 مستيقظًا: awake
 مسجدهم: their mosque
@@ -6794,14 +8843,18 @@ yigit: yigit
 مسحة: tinge
 مسحور: fascinated
 مسحورون: enchanted
+مسرحية: a play
 مسرور: pleased
 مسعود: massoud
 مسعور: hydrophobic
 مسعور؟: hydrophobic
+مسكين: poor fellow
 مسلحين: armed
 مسلم: muslim
+مسموم: poison
 مسموما: poisoned
 مسها: touch it
+مشابهةً: similar
 مشاركة: sharing
 مشاعري: my feelings
 مشاعري؟: my feelings
@@ -6811,8 +8864,14 @@ yigit: yigit
 مشاكلها: its problems
 مشاكلي: my problems
 مشاهدة: watch
+مشبوهًا: suspicious
+مشتعل: on fire
+مشتعلاً: afire
 مشتعلة: flaming
+مشرفًا: supervisor
+مشرقة: shining
 مشغل: operator
+مشغول: busy
 مشغولون: busy
 مشقة: discomfort
 مشكلة: problem
@@ -6821,6 +8880,7 @@ yigit: yigit
 مشكلتنا: our problem
 مشكلتي: my problem
 مشهد: scene
+مشهور: famous
 مشوش: confused
 مشيئة: will
 مشيت: I walked
@@ -6829,9 +8889,11 @@ yigit: yigit
 مصاب: injured
 مصابة: infected
 مصادرها: their sources
+مصادرهم: their sources
 مصبوبون: are molded
 مصدر: source
 مصر: egypt
+مصرة: sphincter
 مصلحتك: your interest
 مصنوعة: made
 مصيدة: trap
@@ -6839,25 +8901,38 @@ yigit: yigit
 مصيرك: your fate
 مصيرنا: our destiny
 مصيرهم: their fate
+مصيري: fateful
 مضاءة: lit.
+مضاعفة: double
 مضرّة: harmful
 مضطرب: troubled
+مضطربًا: troubled
+مضطرة: obliged
 مضى: gone
 مطارد: stalker
 مطاردة: chase
 مطحون: ground
 مطر: rain
+مطلقا: never
+مطلقة: divorced
 مطلقًا: never
 مطلوب: required
 مطلوبًا: is required
+مطمئنا: reassured
+مطيعة: obedient
 مظفر: muzaffar
 مظلمة: dark
 مع: with
 معا: together
 معارك: battles
+معافاة: recovery
 معاقبة: punishment
+معالجتها: processed
 معاملة: treatment
+معاملتهم: treat them
 معبأة: packed
+معتاد: usual
+معتقدًا: belief
 معجبون: admire
 معجزة: miracle
 معدة: stomach
@@ -6875,6 +8950,7 @@ yigit: yigit
 معظم: most
 معك: with you
 معكم: with you
+معلومة: information
 معنا: with us
 معنا؟: with us
 معنى: meaning of
@@ -6882,29 +8958,40 @@ yigit: yigit
 معها: with her
 معها؟: with her
 معهم: with them
+معوجة؟: retort
 معي: with me
 معي؟: with me
 معين: a certain
 معًا: together
 مغادرة: departure
+مغادرتك: your leaving
 مغادرون: departing
+مغامرة: adventure
+مغرورًا: conceited
 مغلق: closed
+مغلقا: switched off
 مغلقة: closed
 مغلقًا: is closed
 مفتاح: a key
 مفتوح: open
 مفتوحة: open
 مفتوحتين: two open
+مفتون: fascinated by
 مفتونًا: fascinated
 مفر: escaped
 مفصولة: separated
+مفقود: missing
 مفيدة؟: helpful
 مقابل: opposite
 مقابلتك: meet you
 مقابلته: meet him
+مقاتلينا؟: our fighters
+مقالتي: my article
 مقاومة: resistance
 مقبول: acceptable
 مقبولة: acceptable
+مقتل: killed
+مقتله؟: kill him
 مقتنع: convinced
 مقتنعا: convinced
 مقتنعا؟: convinced
@@ -6917,8 +9004,11 @@ yigit: yigit
 مقر؟: headquarters
 مقرنا: our headquarters
 مقسمة: divided
+مقطوعون: are cut off
+مقودك: your steering wheel
 مقيدة: restricted
 مكان: a place
+مكانته: his stature
 مكانك: your place
 مكانه: status
 مكانه؟: status
@@ -6928,8 +9018,10 @@ yigit: yigit
 مكانًا: a place
 مكاوي: irons
 مكة: mecca
+مكتمل: complete
 مكتملة: completed
 مكتملة؟: completed
+مكتوب: written
 مكث: stay
 مكسورة: broken
 مكلف: charged
@@ -6939,13 +9031,17 @@ yigit: yigit
 ملاحظة: note
 ملاحقتهم: pursue them
 ملاديز: maldives
+ملاذكرد: not mentioned
 ملاعق: spoons
 ملاك: angel
 ملتوية: crooked
 ملتوية؟: crooked
 ملف: a file
+ملفتاً: remarkable
 ملك: king
 ملكة: queen
+ملكه: queen
+ملكوته: his kingdom
 ملهمة: inspirational
 مليء: full of
 مليئة: filled
@@ -6955,24 +9051,32 @@ yigit: yigit
 مماثلة: similar
 ممارسة: practice
 ممتن: grateful
+ممدود: elongated
+ممر: passage
 ممكن: maybe
 ممكنا: possible
 ممكنة: possible
+ممكنًا: possible
 مملة: boring
 مملكته: his kingdom
+مملوءة: filled
+ممن: of whom
 مميتة: lethal
 من: from
 من؟: from
 منا: from u.s
 منابر: platforms
 مناخات: climates
+مناديين: callers
 منازل؟: houses
 مناسب: appropriate
 مناسبا: suitable
 مناسبة: occasion
 مناسبًا: suitable
 مناقشة: debate
+مناقشتها: discussed
 منبر: platform
+منتصرا: victorious
 منتصرا؟: victorious
 منتصرين: are victors
 منتصف: mid
@@ -6981,9 +9085,12 @@ yigit: yigit
 منجم: astrologer
 منحك: granted
 منحني: curve
+منحنيًا: curved
 منحهم: give them
 منحى: turn
+منخرط: engaged
 منخفضة: low
+منخفضًا: is low
 مندهش: surprised
 مندهشا: amazed
 مندهشًا: surprised
@@ -6991,19 +9098,23 @@ yigit: yigit
 منذ: ago
 منزل: a house
 منزل؟: a house
+منزلا: home
 منزلاً: house
 منزلك: your home
 منزلنا: our house
 منزلي: household
 منزلًا: house
 منشفة: a towel
+منصب: position
 منصة: platform
 منطق: logic
 منطقة: area
 منطقتك: your area
 منطقتي: my region
 منع: block
+منعني: stop me
 منفصلون: separated
+منفصلين: separate
 منك: from you
 منك؟: from you
 منكم: of you
@@ -7019,7 +9130,9 @@ yigit: yigit
 مهب: blown
 مهتمين: interested
 مهرج: clown
+مهرجان: festival
 مهرك: dowry
+مهرك؟: dowry
 مهم: important
 مهما: whatever
 مهمة: mission
@@ -7027,66 +9140,86 @@ yigit: yigit
 مهمتنا: our mission
 مهودهم: their cots
 مواجهة: confrontation
+مواشيهم: their livestock
+مواقي: my timers
 موت: death
 موتك: your death
 موته: his death
+موتى: dead
 موتي: my death
+موتًا: death
 موثوق: reliable
 موجود: existing
 موحدا: unified
 موحدة: uniform
-موسى: moses
+موسى: Moses
 موضح: explained
 موضع: position
 موضوع: theme
 موضوعًا: topic
 موعد: an appointment
 موقف: attitude
+موقفك: your position
 موقفها: its position
 مولعا: fond of
-مونتين: montaigne
-مونتينس: montens
+مونتين: Montaigne
+مونتينس: Montens
 ميت: dead
 ميتا: dead
 ميزان: balance
+ميزة: feature
 ميليك: melek
+مُنحت: awarded
 نأتي: we come
 نأخذ: we take
 نأخذه: we take it
+نأخذها: we take it
 نأخذهم: take them
 نأسف: sorry
 نأمل: hopefully
+نائم: sleeping
 نائم؟: sleeping
 نائما: sleeping
 ناحية: hand
 نادر: rare
+نادى: club
 نار: fire
 نارنا: our fire
 ناس: people
 ناصر: Naser
 ناصر؟: Naser
+ناصر…: naser…
 ناضج: mature
 ناقشنا: we discussed
 ناقلات: vector
 ناهيك: not to mention
+نايت: knight
 نبارك: bless
 نباركهم: bless them
 نبالي: dear
 نبدأ: we start
+نبضة: a beat
 نبقى: we stay
+نبي: prophet
 نبيع: we sell
 نبيل: noble
 نبيلة: noble
+نبينا: our prophet
 نتأخر: be late
+نتأذى: get hurt
 نتألم: we suffer
 نتجاوز: we go over
 نتحدث: we are talking
 نتحرك: we move
+نتحمل: bear
 نتخذه: we take it
 نتخلى: we give up
 نترك: we leave
+نتركه: we leave
+نتركهم: we leave them
 نتزوج: we get married
 نتزوجك: we marry you
+نتسبب: cause
 نتصرف: we act
 نتعامل: we deal
 نتعرف: know
@@ -7097,6 +9230,8 @@ yigit: yigit
 نتلقى: we receive
 نتمكن: that we can
 نتمنى: we wish
+نتن: stinky
+نتنفس: we breathe
 نتوجهم: we are crowning them
 نتوق: crave
 نتوقع: expect
@@ -7104,6 +9239,7 @@ yigit: yigit
 نثق: we trust
 نجا: escaped
 نجاح: success
+نجاحاته: his successes
 نجار: carpenter
 نجت: she survived
 نجح: he succeeded
@@ -7111,6 +9247,7 @@ yigit: yigit
 نجحنا: we succeeded
 نجد: we find
 نجعل: we make
+نجعله: make it
 نجعلها: we make it
 نجل: son
 نجلس: we sit
@@ -7123,6 +9260,8 @@ yigit: yigit
 نحتاج: we need
 نحتاجهم: we need them
 نحترس: watch out
+نحرسها: we guard it
+نحزن: mourn
 نحسم: we decide
 نحصل: we get
 نحمل: we carry
@@ -7131,17 +9270,25 @@ yigit: yigit
 نحوي: grammar
 نخاف: we are afraid
 نخرج: we go out
+نخرجه: take it out
 نخيم: camp out
+ندخل: we enter
+ندع: let
 ندعك: let you
 ندفع: we pay
+نذرف: we shed
 نذهب: we go
 نذهب؟: shall we go
+نذير: nadir
 نر: we see
 نراق: narcissus
 نراكم: see you
+نربي: we raise
 نرتاح: rest
+نرجو: hope
 نرد: respond
 نرسل: we send
+نرسلها: we send it
 نرسلهم: we send them
 نرسم: we paint
 نركز: we focus
@@ -7151,48 +9298,71 @@ yigit: yigit
 نريدك: we want you
 نريق: fire
 نزال: fight
+نزرع: we plant
 نزل: download
 نزلت: I went down
+نزلنا: we stayed
 نزور: we visit
+نزولاً: down
+نزيه: impartial
 نسأل: we ask
+نساء: women
+نساعد: we help
 نستحم: we take a shower
+نستخدم: we use
 نستخدمها: we use
 نسترجع: we recover
+نستطع: we can
 نستطيع: we can
+نستعيد: we recover
 نستقر: we settle down
+نستمتع: we enjoy
 نستمر: we continue
 نستيقظ: we wake up
 نسجت: woven
+نسجهم: weave them
 نسفك: torpedoed
+نسلكه: we walk it
 نسلم: we recognize
 نسلمك: we deliver you
 نسمح: we allow
 نسمع: we hear
 نسمعه: we hear it
 نسميه: we call
+نسميهم: we call them
 نسوا: they forgot
+نسور: eagles
 نسيان: forget
 نسيت: forgot
 نسيت؟: forgot
 نسير: we walk
 نسيم: breeze
 نسينا: we forgot
+نسيها: forgot it
 نشأ: starch
 نشأت: originated
 نشأوا: they have grown up
 نشر: spread
+نشرب: we drink
 نشكر: thank you
 نشكرك: thank you
 نشيخ: grow old
+نصابها: set straight
+نصارع: we struggle
 نصب: set up
 نصبت: erected
 نصبح: we become
+نصبنا: we set up
+نصبناه: we installed it
 نصبوا: erected
+نصح: advised
 نصدر: we issue
 نصل: blade
 نصلح: we fix
 نصلي: pray
 نصنع: we make
+نصنعها: we make it
+نصيحة: advice
 نضع: we put
 نضعك: we put you
 نضفر: plait
@@ -7203,10 +9373,12 @@ yigit: yigit
 نظرت: I looked
 نظرتم: you look
 نظرك: your eyesight
+نظف: sweep up
 نظموا: staged
 نظن: we thought
 نعامل: we treat
 نعامله: treat him
+نعاني: we suffer
 نعبر: we pass
 نعتذر: we apologize
 نعرف: know
@@ -7216,18 +9388,23 @@ yigit: yigit
 نعطي: we give
 نعطيك: we give you
 نعطيهم: we give them
+نعفك: excuse you
 نعلم: we know
 نعم: yes
 نعم؟: yes
-نعمان: noman
+نعمان: Noman
 نعمة: blessing
+نعمك: your blessings
 نعمل: we work
 نعود: get back
+نعيد: we repeat
 نعيش: live
 نغادر: we leave
+نفاد: out
 نفترق: we part
 نفد: exhaust
 نفدت؟: run out
+نفذ: run out
 نفس: the same
 نفسا: breath
 نفسك: yourself
@@ -7238,13 +9415,17 @@ yigit: yigit
 نفسها؟: itself
 نفسي: myself
 نفسًا: a breath
+نفصل: we separate
 نفعل: we do
 نفعل؟: we do
 نفعله: we do
 نفقات: expenses
+نفقت: spent
 نفقد: we lose
 نفكر: think
+نفهم: understand
 نقاتل: we fight
+نقبض: catch
 نقبل: accept
 نقتل: we kill
 نقتلنا: we kill us
@@ -7256,16 +9437,23 @@ yigit: yigit
 نقف: stand up
 نقل: transfer
 نقلقهم: we worry them
+نقله: move it
 نقول: we say
 نقوله: we're saying
+نقيبًا: captain
 نكتشف: we discover
+نكسر: we break
 نكمل: we complete
 نكن: we are
 نكون: be
+نلتجئ: take refuge
+نلتقط: we pick up
 نلتقي: we meet
 نلقي: take a
+نم: sleep
 نمت: grown
 نمتنع: we refrain
+نمر: tiger
 نمرح: have fun
 نمط: style
 نملة: ant
@@ -7281,6 +9469,8 @@ yigit: yigit
 ننطلق: we go
 ننظر: look
 ننقذه: save him
+ننهار: we collapse
+ننهض: we get up
 ننهيها: we finish it
 نهائي: final
 نهاجر: migrate
@@ -7288,34 +9478,46 @@ yigit: yigit
 نهار: day
 نهاية: end
 نهايتك: your end
+نهايته: its end
 نهب: looting
+نهبت: plundered
 نهر: river
 نهرب: we run away
+نهلك: we perish
 نهى: forbidden
 نواجه: we face
+نواجهها: we face it
+نوافق: agree
 نوايا: intentions
 نود: we would like
-نور: noor
-نوره: nora
+نور: Noor
+نوره: Nora
 نوع: type
+نوعه: its kind
 نوقشت: discussed
 نوم: sleep
+نوما: noma
+نومي: my sleep
+نيا: nia
 نيابة: on behalf of
 نيتك: your intention
 نيتك؟: your intention
 نيته: his intention
+نيتها: her intention
 نيتهم: their intention
 نيتي: my intention
 نيران: flames
 هؤلاء: these
 هؤلاء؟: these,
 ها: ha
+هائج: rambunctious
 هاتون: hatton
 هاتون؟: hatton
 هاجرنا: we migrated
 هاجم: attacked
 هاجمت: attacked
 هاجمتهم: attacked them
+هاجمونا: attack us
 هادئ: quiet
 هادئا: quiet
 هادئة: quiet
@@ -7326,9 +9528,13 @@ yigit: yigit
 هاليمي: Halimi
 هامة: important
 هانم: هانم
+هاه: huh
+هاي: hi
 هايم: Heim
 هايم؟: Heim
-هايمه: haimeh
+هايما: Haima
+هايمه: Haimeh
+هاييم: hayim
 هبوط: drop
 هجرتنا: our emigration
 هجمات: attacks
@@ -7352,34 +9558,50 @@ yigit: yigit
 هربت: I ran away
 هربنا: we ran
 هربوا: they fled
+هروبهم: their flight
 هزته: shake it
 هزم: defeated
+هزمت: defeated
 هكذا: so
 هكذا،: so,
 هكذا؟: so
 هل: do
+هلاكنا: our perdition
+هلايم: haleem
 هلك: perish
 هم: they
 هم؟: they
+همجية: barbarism
+همجيتك: your barbarism
+همس: whisper
 همسات: whispers
 همست: I whispered
+هم…: they…
 هنا: here
 هنا؟: here
 هناك&quot;: over there&quot;
 هناك: over there
 هناك؟: there
+هنيئا: congratulations
 هو: is
+هو؛: he is;
 هو؟: is
 هواية: hobby
+هوسها: her obsession
 هويات: identities
 هوية: identification
+هو…: he is…
 هي: she
 هي؟: she
 هيئة: body
 هيا: come on
 هيا،: come on,
+هيدر: heder
+هيل: cardamom
 و: and
+وآخر: and another
 وآمالهم: and their hopes
+وآمالي: and my hopes
 وآمل: I hope
 وآمن: and safe
 وأبكي: and cry
@@ -7388,10 +9610,17 @@ yigit: yigit
 وأبي: and dad
 وأبيك: and your father
 وأتحدث: and I talk
+وأتحقق: i check
 وأتساءل: I wonder
 وأتمنى: I wish
+وأتينا: and we came
+وأثم: and sinning
+وأجابت: and she answered
+وأجعلهم: and make them
 وأحب: and loved
+وأحبها: and love it
 وأحضر: and he brought
+وأحضرهم: and he brought them
 وأحفاد: and grandchildren
 وأحفادنا: and our grandchildren
 وأخبر: he told
@@ -7403,50 +9632,83 @@ yigit: yigit
 وأخذ: and took
 وأخذهم: and took them
 وأخي: and my brother
+وأخيراً: finally
 وأدعو: I call
 وأذيتك؟: and hurt you
 وأراد: and wanted
+وأرادني: and he wanted me
+وأراضينا: and our lands
+وأراضيهم: and their lands
 وأرحل: I am leaving
+وأرحل؟: and go
+وأرسلوا: and they were sent
 وأرضنا: and our land
+وأرطغرل: and Ertugrul
 وأسر: and families
 وأسلحتهم: and their weapons
 وأسمع: and I hear
+وأشجع: i encourage
 وأشهد: I bear witness
 وأصبحت: and became
+وأصحابه: and his companions
 وأصلي: and pray
+وأطعم: and feed
+وأطفالك: and your children
 وأطفالي: and my children
 وأطلب: I ask
 وأطيب: and best
 وأعتقد: and I think
+وأعدتني: and you prepared me
 وأعطيت: and it was given
-وأعطيك: and i give you
+وأعطيك: and I give you
 وأعظم: and the greatest
 وأعمالنا: and our business
 وأعود: and come back
+وأقاربه: and his relatives
 وأقتلهم: and kill them
 وأقلام: and pens
 وأكبر: and bigger
 وأكثر: and more
 وأكل: and eat
+وأكلت: and ate
+وأكون: and be
 وألتقطهم: and pick them up
 وألقوا: and threw
+وألقى: he threw
+وأمر: ordered
+وأن: and surely
 وأنا: and i
 وأنا؟: and i
 وأنت: and you
 وأنتظرك: and waiting for you
 وأود: I wish
+وأوراق: and papers
+وأوروبا: and Europe
+وأولئك: and those
+وأولادي: and my children
+وأيدينا: and our hands
+وإبقائها: and keep it
+وإجباره: and force him
 وإحضاره: and bring it
 وإذا: if
+وإرتوجرول: and Ertugrul
+وإرتوغرول: and ertugrul
 وإسقاط: and drop
 وإصلاح: and repair
+وإصلاحها: and repaired
+وإكمال: and complete
 وإلا: otherwise
 وإلى: and to
+وإن: and surely
+وإنقاذك: and save you
 وإنهاء: and finish
+وابدأ: and start
 وابلغه: and inform him
 وابنك: and your son
 وابنه: and his son
+وابني: and my son
 واتصل: and call
-واتمنى: i hope
+واتمنى: I hope
 واثق: confident
 واثقا: confident
 واجب: duty
@@ -7455,40 +9717,61 @@ yigit: yigit
 واجبك: your duty
 واجبنا: our duty
 واجبي: my duty
+واجعلهم: and make them
 واجلس: sit down
+واجلسوا: and sit down
 واجه: face
 واجهت: you experience
 واجهنا: we faced
 واجهه: interface
 واحتجزوا: they were detained
 واحد: one
+واحد؟: one
 واحدا: one
+واحداً: one
 واحدة: one
 واحدة؟: one
 واحدًا: one
 واحصل: and get
+واحضر: and attend
 واحضرهم: and bring them
 واختبأته: and hid him
+واختبئ: and hide
 واختبرنا: and we tested
 واختطاف: and kidnapping
 واخرج: and get out
 واخي: and my brother
+واذا: if
+واذهب: and go
 وارتكب: and committed
+واردة: incoming
+وارطغرل: ertugrul
 واسألهم: and ask them
+واستجوبهم: he interrogated them
 واسترح: and take a rest
 واستريح: and rest
 واستسلم: he surrendered
 واستعد: and get ready
+واستعدوا: and prepare
 واستفسرت: she inquired
 واسمحوا: let
+واسمي: and my name
+واشرب: and drink
+واصطاد: and hunted
+واصلت: she continued
 واصلتم: you keep
 واضح: clear
 واضح،: clear,
 واضحة: clear
 واطلب: and ask
+واعتقدت: and i thought
+واعطوني: and they gave me
 واعلم: and I know
+واقع: reality
+واقفة: parked
 والآخر: and the other
 والآلام: and pains
+والآمن: and safe
 والآن: and now
 والأحفاد: and grandchildren
 والأرض: and earth
@@ -7497,27 +9780,34 @@ yigit: yigit
 والأشخاص: and people
 والأظافر: and nails
 والأفضل: and the best
+والأقدام: and feet
 والأكاذيب: and lies
 والأكثر: and most
 والإسلام: and islam
+والإيمان: and faith
 والابتعاد: and get away
 والاختباء: and hide
 والادخار: and savings
 والاستسلام: and surrender
+والانتظار: and wait
 والانتعاش: and recovery
 والانضمام: and join
 والانفصال: and separation
 والباقي: and the rest
 والبحار: and the seas
 والبدء: and start
+والبطل: and the hero
 والبكاء: and cry
 والبلدات: and towns
 والبنادقة: and the venetians
 والبندقية: and the gun
+والبيادق: and pawns
 والتجهم: and grimaces
 والتحدث: and talk
 والتحقق: and check
+والتزم: he committed
 والتصرف: and act
+والتضامن: and solidarity
 والتضحية: and sacrifice
 والتظاهر: and pretend
 والتفكير: and thinking
@@ -7525,15 +9815,24 @@ yigit: yigit
 والتي: and that
 والثاني: and the second
 والثروة: and wealth
+والجانب: and side
+والجبال: and mountains
+والجلد: and skin
 والجلوس: and sit down
 والجنازات: and funerals
+والجنود: and soldiers
 والحديث: and talk
+والحربة: and bayonet
+والحرم: and the campus
 والحروف: and letters
+والحزن: and sadness
 والحصول: and get
 والحفاظ: and keep
+والحقائق: and the facts
 والحكم: and governance
 والحل: and the solution
 والحمد: and praise
+والخارج: and abroad
 والخانات: and khans
 والخروج: and get out
 والخوف: and fear
@@ -7559,17 +9858,21 @@ yigit: yigit
 والرائحة: and the smell
 والراحة: and rest
 والرحمة: and compassion
+والرحيم: compassionate
 والرد: and reply
 والرقصات: and dances
 والرموش: and eyelashes
 والروح: and soul
-والسلاجقة: and the seljuks
+والسعة: and capacitance
+والسلاجقة: and the Seljuks
 والسلاطين: and sultans
 والسلام: and peace
 والسماء: and the sky
 والسماح: and let
 والسموم: and toxins
+والسهام: and arrows
 والسهم: and arrow
+والسيد: and mr
 والسيف: and the sword
 والشتاء: and winter
 والشتائم: and swearing
@@ -7577,6 +9880,7 @@ yigit: yigit
 والشجاعة: and courage
 والشخصيات: and characters
 والشرف: and honor
+والشعب: and the people
 والشكوك: and doubts
 والشهداء: and martyrs
 والشيء: and the thing
@@ -7584,123 +9888,183 @@ yigit: yigit
 والصلاة: and pray
 والصليبيون: and the crusaders
 والعافية: and wellness
+والعالم: and the world
+والعبوس: and a frown
+والعجم: and the persians
 والعمل: and work
 والعودة: and return
 والغربان: and crows
 والغزو: and invasion
+والقادر: and capable
 والقادم: and the next
+والقبض: and capture
 والقتل: and murder
 والقدس: and Jerusalem
 والقدمين: and feet
 والقصص: and stories
 والقلب: and heart
+والكثير: and a lot more
 والكلاب: and dogs
 والله: I swear
 والماء: and water
 والمارسيليا: and marseille
 والمتسولين: and beggars
 والمحاربين: and warriors
+والمدى: and extent
 والمدينة: and the city
+والمزيد: and more
 والمشي: and walking
+والمضرب: and the racket
 والمطاردة: and chase
 والموت: and death
 والناس: and people
 والنبي: and prophet
 والنسور: and eagles
 والهجرة: and immigration
+والهجوم: and attack
 والهرب: and escape
+والهروب: and escape
 والواقع: and indeed
 والوجهة: and destination
+والوزير: and the minister
 والوصول: and access
+والوظائف: and jobs
 والوقوف: and stand up
+واليوم: and today
+وامتنان: and gratitude
 واملأ: and fill
 وانام: I sleep
 وانت: and you
+وانتبه: and watch out
 وانتظار: and waiting
+وانتظر: and wait
+وانتظرك: and waiting for you
 وانتقل: and go
+وانطلق: and set off
 وانظر: and see
+وانفتحت: and opened up
 وانقاذ: and save
 وانهار: and collapsed
+واهرب: and run away
 وايلد: wilde
+وايلدر: wilder
+وباء: epidemic
 وبارك: and bless
+وبالتأكيد: and for sure
 وبالتالي؟: and therefore
 وبالفعل: and indeed
 وباي: and the master
+وبحسب: according to
+وبحضور: and in the presence of
 وبدأت: and started
 وبركاته: and blessings
 وبركة: and pool
 وبصرف: apart
 وبعبارة: in words
+وبفضل: thanks
+وبقيت: and stayed
+وبكرامة: and with dignity
 وبناء: and build
 وبناتنا: and our daughters
+وبها: and by it
 وبهذه: and with this
+وبيع: and sell
 وبيعت: and sold out
+وبيعها: and sold
+وتأخذك: and take you
 وتأكل: and eat
 وتباع: and sold
+وتبتعد: and move away
+وتبكي: and cry
 وتتصرف: and behave
 وتثق: and you trust
 وتجعلك: and make you
 وتجهز: and prepare
 وتحترق: and it burns
 وتحدث: he spoke
+وتحرقهم: and burn them
 وتحقق: and check
 وتحولت: and turned
 وتحويله: and convert it
 وتحويلها: and turn it
 وتخدم: and serve
+وتدمر: and destroy
 وتدمير: and destroy
+وتدير: and runs
 وتذهب: and go
 وتذهب؟: and go
 وتربك: and confuse
 وترتيب: and arrange
+وترسل: and send out
 وترعرعنا: we grew up
 وترك: and leave
 وترك؟: and leave
+وتركت: and left
+وتركتهم: and I left them
 وتركني: he left me
+وتركوا: and left
 وتسعين: ninety
 وتسليمه: and hand it over
 وتسليمها: and delivered
+وتسليمهم: and hand them over
 وتسمح: and allow
 وتسمين: and fattening
 وتشاهد: and you see
+وتشوش: is cluttered
 وتصبح: and become
 وتضمنت: included
 وتعالى: almighty
 وتعامل: and treated
+وتعذب: and tormented
 وتعرف: and you know
 وتعود: and come back
 وتغسل: and wash
 وتفوح: and smelt
+وتقتل: and kill
 وتقديم: and deliver
 وتقول: she says
 وتكرارا: and over again
 وتكون: and be
+وتلاوة: and recite
 وتلجأ: and resort
+وتلك: and those
 وتنام: and you sleep
 وتهاجر: and migrate
 وتورجوت: and Turgut
+وتولى: and took
 وثق: trust
 وثقت: documented
 وثم؟: and then
 وثيقة: document
 وجاء: and came
 وجبال: and mountains
+وجبالنا: and our mountains
+وجبة: a meal
+وجبتك: your meal
 وجد: is found
 وجدت: have found
 وجدت؟: have found
+وجدتني: you found me
+وجدته: i found him
 وجدنا: we found
 وجدناه: we found it
 وجدناها: we found it
+وجدوا: they found
+وجرحك؟: are you injured
 وجع: ache
 وجعلت: and made
+وجعلتك: and made you
 وجعلك: and made you
 وجعلني: and it made me
 وجعله: and make it
 وجعلها: and make it
 وجعلهم: and make them
 وجلب: and bring
+وجلبه: and fetch it
+وجلبهم: and fetch them
 وجلس: and sat down
 وجمالك: and your beauty
+وجمعتهم: and i collected them
 وجمعهم: and gather them
 وجميع: and all
 وجه: face
@@ -7716,11 +10080,13 @@ yigit: yigit
 وجهي: my face
 وجود: presence
 وجودي: my presence
+وجوكتشي: and jocchi
 وجوكسي: and juxi
 وجوه: faces
 وجوههم: their faces
 وجيزة: brief
 وجيه: facet
+وحانة: and a pub
 وحتى: and even
 وحدة: alone
 وحدك: alone
@@ -7730,105 +10096,160 @@ yigit: yigit
 وحدهم: alone
 وحدي: alone
 وحرق: and burn
+وحشوها: and stuffed
 وحشية: brutality
 وحظر: and ban
 وحكمك: and your judgment
+وحلايم: and halayim
 وحلب: and Aleppo
+وحليم: and halim
 وحمتنا: and protect us
 وحملهم: and get them
+وحي: inspiration
 وحياة: and life
 وحياتنا: and our lives
 وحياتي: and my life
 وحيدا: lonely
 وحيدة: lonely
+وحيدًا: lonely
+وحيلك: and your tricks
 وخارج: and out
 وخارجها: and beyond
 وخاصة: especially
+وخبتها: and i hid it
 وخدمة: and service
+وخدمتك: and serve you
+وخدود: and cheeks
 وخدين: and cheeks
+وخطف: and kidnapped
 وخيانة: and betrayal
 وداع: farewell
 وداعا: goodbye
 وداعًا: goodbye
+وداهموا: they raided
+ودع: let
 ودعا: called
 ودفعت: and pushed
 ودمرت: and destroyed
-ودوجان: and dogan
-ودوغان: and dogan
+ودمنا: and our blood
+ودمى: and dolls
+ودندار: and dendar
+ودوجان: and Dogan
+ودوغان: and Dogan
 وديلي: and deli
+وذاك: and that
 وذبح: and slaughter
 وذبحوا: and slaughtered
 وذريتي: and my offspring
+وذكية: and smart
 وذهبت: and I went
 ورأيته: and I saw him
-ورأيتها: and i saw it
+ورأيتها: and I saw it
 ورؤية: and see
 ورؤيتك: and see you
 وراء: behind
+وراءك: behind you
+وراءنا: behind us
 وراءه: behind him
 وراءهم: behind them
 ورائك: behind you
 ورائنا: behind us
+ورائها: behind it
 ورائهم؟: behind them
+ورائي: behind me
+ورجعنا: and we got back
+ورجل: and a man
 ورحمة: and mercy
 وردة: a rose
+وردية: rosy
 ورسوله: and his messenger
 ورشة: workshop
 ورشتي: my workshop
 ورطة: dilemma
 ورطة؟: dilemma
 ورغباتنا: and our desires
+ورغبتنا: and our desire
+ورغوة: and foam
 ورفيقه: and companion
 ورفيقي: and my companion
 ورقة: a sheet
 وركب: and rode
+ورود: roses
+وزميلنا: and our colleague
 وزن: weight
 وزوجة: and wife
 وزوجتك: and your wife
 وزير: minister
+وزيرك: your minister
+وزيرنا: our minister
+وسأدخل: I will enter
+وسأفتقد: and I will miss it
+وسأكشف: I will reveal
 وسأكون: and I'll be
+وسألك: and he asked you
 وسألني: he asked me
+وساعدني: and helped me
 وساني: and my tongue
 وستجلبه: it will bring
+وستحتفظون: and you will retain
+وستصبح: and it will become
 وسجل: scored
 وسحب: and pull
 وسحقك: and crush you
+وسددت: and paid off
 وسط: center
 وسعك: your power
+وسعنا: we can
 وسعه: his power
 وسعي: and my power
 وسعيدة: and happy
 وسفك: and shedding
 وسلامة: and safety
 وسلم: and blessings
+وسلوكها: and her behavior
 وسليم: and sound
 وسليمان: and solomon
 وسليمة: and sound
 وسليمًا: and sound
+وسمعها: and he heard it
+وسندفع: we will pay
 وسنرافقك: we will accompany you
 وسهلا: and easy
 وسوف: will
+وسيتحسن: and it will get better
+وسيتغير: and it will change
+وسيتم: will be
+وسيكون: and it will be
 وسيلة: instrument
+وسيهتمون: and they will care
+وشأننا: our own
 وشأننا؟: like
 وشاه: and shah
 وشاهزاد: and shahzad
 وشاهزاده: and prince
 وشاهنا: and shahinah
+وشبابك: and your youth
+وشبهات: and suspicions
 وشجاعة: and courage
 وشجاعتك: and your courage
 وشخص: and someone
 وشرب: and drink
+وشرف: and honor
 وشرفك: and your honor
 وشقيقتنا: and our sister
 وشقيقته: and his sister
+وشقيقه: and his brother
 وشك: about
 وشوهد: it was seen
 وشيء: and something
 وشيكة: imminent
 وصادق: and honest
+وصفه: recipe
 وصل: arrive
 وصلت: reached
 وصلنا: we arrived
+وصلني: received me
+وصلوا: arrived
 وصلى: and prayed
 وصوت: and a voice
 وصولا: right up
@@ -7839,10 +10260,12 @@ yigit: yigit
 وضع: put
 وضعت: put
 وضعنا: we put
+وضعناه: we set it up
 وضعناها: we set
 وضعه؟: put it
 وضعها: put it down
 وضمدوا: and bandaged
+وضيع: scruffy
 وطفلك: and your child
 وطلب: and asked
 وطن: homeland
@@ -7850,36 +10273,56 @@ yigit: yigit
 وظائف: careers
 وظائفنا: our jobs
 وظيفة: function
+وظيفتنا: our job
 وظيفتها: its function
 وظيفتي: my job
 وعائلة: and family
 وعائلته: and his family
 وعائلتها: and her family
+وعائلتي: and my family
 وعادنا: and we returned
+وعازم: and determined
 وعد: promise
+وعدت: i promised
 وعدتني: she promised me
 وعدك: your promise
 وعدني: promise me
 وعدها: count it
 وعديم: and nonsense
 وعدًا: a promise
+وعلاج: and cure
+وعلاجه: and cure
 وعلاوة: furthermore
+وعلى: and on
+وعليكم: and upon you
 وعمه: and uncle
+وعمي: and my uncle
 وعن: and about
+وعندما: and when
 وعود: promises
 وعودة: and return
 وعينيك: and your eyes
+وعيه: consciousness
 وعيون: and eyes
 وعيي: my consciousness
+وغربان: and crows
 وغفر: and forgiven
 وغير: and is
 وغيرها: and others
+وغيرهم: and others
 وفاة: death
 وفاتهم: they died
 وفتح: and open
 وفرسان: and knights
 وفقا: according
+وفقد: and lost
+وفقك: he succeeded you
 وفقكم: may you
+وفقنا: we succeeded
+وفقه: helped him
+وفقها: according to it
+وفقهم: accomodate them
+وفقًا: according
 وفهمتني: and you understand me
 وفي: and in
 وقائده: and its leader
@@ -7889,29 +10332,39 @@ yigit: yigit
 وقاسية: and harsh
 وقال: and he said
 وقالت: she said
+وقبل: and before
 وقبلت: and accepted
 وقبلنا: and we accepted
 وقت: time
 وقت؟: time
 وقتا: time
 وقتل: he was killed
+وقتلت: and killed
+وقتلوا: and killed
 وقته: his time
 وقح: shameless
 وقد: and also
+وقدم: and presented
 وقراءة: and read
 وقسوة: and cruelty
 وقطاع: and strip
+وقطعاننا: and our flocks
 وقطعانهم: and their herds
+وقع: signed
 وقعت: occurred
 وقعنا: we caught
 وقف: stood up
 وقف،: stood up,
 وقفت: I stood up
 وقل: and say
+وقلبت: and flipped
+وقلبك: and your heart
+وقلبي: and my heart
 وقم: and do
 وقوتي: and my strength
 وكأن: as if
 وكأنك: like you
+وكأنني: and like i
 وكأنها: like
 وكاملة: and complete
 وكان: it was
@@ -7922,65 +10375,96 @@ yigit: yigit
 وكل: and all
 وكلماتك: and your words
 وكن: and be
+وكورد: and cord
+وكونوا: and be
 وكيف: and how
 وكيفية: and how
 ولأبنائي: and for my children
 ولأجلي: and for me
 ولأطفالنا: and for our children
+ولأنني: and because I am
+ولأنها: and because it is
 ولا: nor
+ولاءً: loyalty
 ولائك: your loyalty
 ولادة: birth
+ولادتها: her birth
 ولايتي: my state
 ولت: gone are
 ولختي: and my sister
 ولد: boy
 ولد؟: boy
+ولداي: my sons
 ولدت: I was born
+ولدتك: i gave birth to you
 ولدنا: we were born
 ولدي: and I have
 ولديه: and has
+ولسانى: and my tongue
+ولعب: and played
 ولك: and for you
 ولكم: and you
 ولكن: but
 ولكنك: but you
 ولكنه: but it is
+ولكن…: but…
 ولم: and did not
 ولماذا: and why
 ولماذا؟: and why
 ولن: it will not
 وله: and him
 ولو: though
+ولي: guardian
 وليس: and not
 وليمة: feast
 وما: gesticulate
+ومات: and died
+وماتي: and matte
 وماذا: and what
 وماست: and mast
+ومبارز: and swordsman
+ومتعلمة: and educated
 ومتى: and when
+ومثلك: and like you
 ومحاربة: and fight
 ومخلص: and sincere
+ومرافقتك: and accompany you
+ومزق: and tore
 ومساعدتي: and help me
 ومستقبل: and the future
 ومطاردتي: and chase me
 ومع: still
+ومعارك: and fights
 ومعاقبتهم: and punish them
 وملاحم: and epics
+وملك: and a king
 ومن: and from
 ومنحهم: and give them
 ومهاجمة: and attack
+ومهارة: and skill
 ومهارتك: and your skill
+ومواقف: and positions
+وموته: and his death
 ونأكل: and eat
 ونأمل: and we hope
+ونامي: and nami
 ونتحدث: and we talk
 ونتوقع: and expect
+ونجله: and his son
 ونحصل: and we get
 ونحن: and we
+ونذهب: and we go
 ونرى: and see
+ونسل: and offspring
+ونسلتي: and my offspring
 ونشأنا: and we grew up
 ونضارتها: and freshness
 ونظام: and system
+ونعمته: and grace
 ونعود: and come back
 ونفرح: and rejoice
 ونفسك: and yourself
+ونفسي: and myself
 ونقول: and we say
 ونموت: and die
 ونهارا: and day
@@ -7997,30 +10481,52 @@ yigit: yigit
 وهمًا: illusion
 وهو: and he
 وهي: which
+وواجهت: faced
 ووالدتك: and your mom
+ووالدك: and your father
+ووثقت: and documented
 ووجدوا: and they found
 ووجه: he drew
+ووجهك: and your face
 ووحدة: and unity
 ووضع: and put
 ووضعها: and put it
 ووفاته: and his death
+ووفرة: and abundance
 ووقف: and stop
 وولف: wolf
 ويأخذك: and take you
+ويبكي: and cries
 ويتصرف: and acting
 ويجب: a must
+ويجد: and find
 ويجري: being
+ويجيت: wigt
+ويحاكم: he is being tried
+ويراك: and see you
+ويرقص: and dances
 ويساعدنا: and help us
 ويسمى: is called
+ويشمنا: and smell us
 ويصبح: it becomes
+ويطيحون: and topple
 ويعتقد: believe
+ويغزوون: and invade
 ويغيت: weightgate
+ويقال: it is said
+ويقظة: and awake
 ويقولون: and they say
 ويكون: and be
 ويل: will
+ويلجأ: and resort
 ويمكن: it can
 ويمكنك: and you can
 وينبغي: should
+وينتظر: and waiting
+وينتهي: and ends
+ويهاجم: and attacking
+ويهاجمنا: and attack us
+يأتوا: they come
 يأتي: come
 يأخذ: takes
 يأخذك: takes you
@@ -8032,17 +10538,21 @@ yigit: yigit
 يأخذونك: they take you
 يأخذوننا: they take us
 يأكل: eat
+يأكلني: eat me
 يأمر: ordering
 يؤثر: influence
 يؤجج: inflames
 يؤدي: lead
 يؤذيك: hurt you
 يؤذينا؟: hurt us
+يؤلمني: hurts me
+يؤمنون: believe
 يا: oh
 يائس: desperate
 يائسا: desperate
 يائسة: desperate
 يائسًا: desperate
+ياسين: yassen
 ياله: hey
 يبارك: bless
 يباركنا: bless us
@@ -8050,6 +10560,7 @@ yigit: yigit
 يبحث: he searches
 يبحثون: they are looking
 يبدأ: started
+يبدأون: begin
 يبدو: sound
 يبشر: heralds
 يبق: remains
@@ -8057,17 +10568,25 @@ yigit: yigit
 يبقى: remains
 يبقي: remains
 يبقينا: keep us
+يبقيني: keep me
 يبقيه: keep it up
 يبكين: crying
+يبلغ: report
 يبيع: selling
+يتآمر: conspire
 يتأخر: delayed
+يتأذى: get hurt
+يتأرجحون: they oscillate
 يتأكدون: they make sure
 يتألم: hurt
+يتألمون: hurt
 يتبعونني: they follow me
 يتبق: remain
 يتجاوز: exceed
+يتجاوزك: beyond you
 يتجمعون: congregate
 يتجه: is heading
+يتجهون: they are heading
 يتجول: wandering
 يتجولون: walk around
 يتحد: unites
@@ -8076,22 +10595,27 @@ yigit: yigit
 يتحدثون: they speak
 يتحدون: they challenge
 يتحسن: is getting better
+يتحمل: bear
 يتحول: turns up
 يتحولون: they turn
 يتخطى: skips
+يتخلى: give up
 يتذكر: he remembers
 يتراجع: retreat
 يترددون: they hesitate
 يترك: leaves
 يتركني: he leaves me
 يتركون: they leave
+يتركونا: they leave us
 يتزوج: get married
+يتزوجك: marry you
 يتزوجون: get married
 يتسامح: tolerate
 يتسرب: leak out
 يتسللون: they sneak
 يتشابك: intertwined
 يتشبث: clinging
+يتصبب: pours out
 يتصرف: behave
 يتصرفون: they are acting
 يتضايقون: they get upset
@@ -8099,6 +10623,7 @@ yigit: yigit
 يتضور: is attending
 يتضورون: sitting
 يتطلب: requires
+يتعارض: ran
 يتعافى: recovering
 يتعامل: dealing
 يتعاون: cooperates
@@ -8107,20 +10632,28 @@ yigit: yigit
 يتعين: should
 يتغير: is changing
 يتفق: agree
+يتكلم: speak up
 يتكون: consists
 يتم: complete
 يتمتع: enjoy
 يتمكن: manage
 يتمكنوا: they can
+يتمنى: he wishes
 يتنفس: breathes
+يتهم؟: accuse
 يتهمني: accuse me
 يتهمون: they accuse
+يتواطأ: complicit
+يتوسل: pleading
 يتوقع: expect
 يتوقعون: they expect
+يتوقف: hinges
 يتوقون: yearn
 يتيح: lets
 يثق: trust
+يثقون: they trust
 يجب: should
+يجتاز: pass
 يجتمع: meets
 يجتمعوا: they get together
 يجتمعون: they meet
@@ -8132,10 +10665,13 @@ yigit: yigit
 يجري: being
 يجعل: makes
 يجعلك: make you
+يجعلنا: makes us
 يجعلني: makes me
 يجلب: brings
+يجلبون: they bring
 يجلس: sitting
 يجنون: are crazy
+يجيب: he answers
 يجيت: يجيت
 يجيت؟: yigit
 يحارب: fights
@@ -8146,20 +10682,26 @@ yigit: yigit
 يحب: likes
 يحبنا: loves us
 يحبها: loves it
+يحبون: they like
 يحتاج: need
 يحتاجون: they need
 يحتاجونه: they need
+يحتجز: being held
 يحتجزون: they are holding
 يحتجزونك: they are holding you
 يحترق: burning
 يحترم: respects
+يحترمك: respect you
 يحترمهم: respects them
 يحتلها: occupied by
+يحجرون: petrify
 يحدث: happen or occur
 يحدث،: happen or occur,
 يحدث؟: happen or occur
+يحدق: staring
 يحرس: guards
 يحرسهم: guarding them
+يحرسون: are guarding
 يحرق: burn
 يحزن: grieves
 يحصل: gets
@@ -8167,6 +10709,7 @@ yigit: yigit
 يحصلون: they get
 يحضر: bring
 يحفظك: saves you
+يحكمون: they rule
 يحل: solve
 يحلو: she likes
 يحمل&quot;: carry&quot;
@@ -8174,7 +10717,9 @@ yigit: yigit
 يحمي: protect
 يحميك: protects you
 يحمينا: protect us
+يحوله: transforms it
 يحولها: turn it
+يحولونك: turn you on
 يحيا: long live
 يحين: it comes
 يحيى: yahia
@@ -8183,6 +10728,7 @@ yigit: yigit
 يخاف: afraid
 يخافون: they are afraid
 يخبئه: hide it
+يخبرك: tells you
 يخبرنا: tell us
 يخبرني: tell me
 يخبرون: they tell
@@ -8190,17 +10736,25 @@ yigit: yigit
 يختبئ: hiding
 يختبئون: hiding
 يختبر: tests
+يختبرون: are testing
+يختطف: hijack
 يختلف: differs
 يخجل: ashamed
 يخدع: deceive
+يخدعوننا: are deceiving us
+يخدم: serving
 يخدمهم: serve them
+يخدمون: they serve
 يخرج: out
 يخسر: loses
 يخسرون: they lose
 يخشى: feared
 يخضع: subject
+يخف: subsides
 يخففوا: lighten up
+يخفي: hide
 يخفيها: hides it
+يخلصك: save you
 يخلق: creates
 يخون: betray
 يخيف: scare
@@ -8211,11 +10765,15 @@ yigit: yigit
 يدخلون: they enter
 يدرك: realize
 يدري: who knows
+يدع: let
+يدعك: let you
 يدعو: calls
 يدعوك: invites you
 يدعى: he claims
 يدفع: pay
 يدفعون: they pay
+يدفن: be buried
+يدل: denotes
 يدهس: run over
 يدور: spins
 يدي: my hand
@@ -8225,10 +10783,14 @@ yigit: yigit
 يذكر: mentionsed
 يذهب: he goes
 يذهبون: they go
+يذهبون؟: they go
 يرافقني: accompany me
+يراقبها: watching her
+يراقبون: are watching
 يراك: see you
 يرام: okay
 يرام؟: okay
+يراه: see it
 يراهم: he sees them
 يربط: attach
 يربطها: connects them
@@ -8237,12 +10799,20 @@ yigit: yigit
 يرتجفون: trembling
 يرتدي: dressed
 يرتدي؟: dressed
+يرجمهم: stone them
+يرجمونني: they stone me
 يرجى: kindly
 يرحمنا: have mercy on us
+يرد: respond
 يرزقنا: bless us
 يرسل: sends
 يرسل؟: sends
+يرسمون: they draw
+يرضيك: satisfy you
 يرغب: wishes
+يرغبون: they wish
+يرفع: lifts
+يرقد: is lying
 يركب: riding
 يركب؟: riding
 يركبه: install it
@@ -8251,10 +10821,14 @@ yigit: yigit
 يرها: he sees it
 يروا: they see
 يرى: be seen
+يريح: relaxes
 يريحنا: it relieves us
 يريد: wants
+يريدك: wants you
+يريده: want it
 يريدهم: he wants them
 يريدون: they want
+يزأر: roars
 يزال: still
 يزداد: is increasing
 يزدادون: they are getting
@@ -8262,9 +10836,16 @@ yigit: yigit
 يزرني: visit me
 يزعجك؟: bother
 يزعجني: bothers me
+يزورك: visiting you
+يزورني: visit me
+يزيل: remove
+يزيلهم: remove them
 يسأل: asks
+يسألك: asks you
 يسألني: ask me
+يسابق: racing
 يساعد: helps
+يساعد؟: helps
 يساعدك: helps you
 يساعدنا: help us
 يساعده: help him
@@ -8272,10 +10853,13 @@ yigit: yigit
 يسامحني: forgive me
 يسبب: it causes
 يسبق: precedes
+يستأذن: ask permission
+يستجوبه: are interrogating him
 يستحق: deserves
 يستحق؟: deserves
 يستحقون: they deserve
 يستحقونه: they deserve it
+يستدير: turn around
 يستديرون: turn around
 يستريح: rest
 يستريحون: resting
@@ -8288,6 +10872,7 @@ yigit: yigit
 يستعدوا: brace
 يستعدون: they are preparing
 يستفيد: benefits
+يستقر: stabilizes
 يستمتعون: they enjoy
 يستمر: continue
 يستمع: listen
@@ -8300,34 +10885,48 @@ yigit: yigit
 يسفك: shed
 يسقط: drops
 يسكب: pour
+يسكت: silence
 يسكن: live
 يسلموا: they deliver
 يسمح: allow
+يسمحوا: they allow
 يسمع: hears
 يسمعك: hear you
+يسمعها: hears it
+يسمعوك: hear you
 يسمعونك: they hear you
 يسمونك: they call you
 يسمونه: they call it
 يسمى: is called
+يسميه: he calls
 يسهب: dwells
 يسهل: easy
+يسوء: get worse
 يسوع: jesus
 يسير: walking
 يسيطر: controlled
+يشاء: he will
 يشاركني: share me
 يشاهدون: they watch
 يشبه: resembles
 يشتبه: suspected
+يشتغل: works
 يشرفني: i'm honored
 يشرق: shines
 يشعر: feel
 يشعرون: they feel
+يشفع: intercede
 يشفيه: heal him
 يشك: doubt
 يشكو: to complain
 يشمل: includes
+يشهد: witness
+يشيخ: getting old
 يصابون: they get infected
+يصب: pour
 يصبح: become
+يصح: is true
+يصدر: issue
 يصدق: believe
 يصرخ: shout
 يصطاد: catch
@@ -8336,35 +10935,54 @@ yigit: yigit
 يصلح: repair
 يصنع: make
 يصهل: smooth out
+يضايقك؟: harassing you
+يضايقنا: bothering us
 يضايقنا؟: bother us
 يضايقني: annoys me
 يضحى: sacrifice
+يضحي: sacrifice
 يضحيه: sacrifice
+يضحّي: sacrifice
 يضر: harms
 يضرب: hits
 يضع: put
+يضعف: weakens
 يضعفون: weaken
 يضعها: puts it
 يضيء: shines
 يضيع: lose
 يضيعون: they are wasting
 يطاردهم: chasing them
+يطاق: tolerable
 يطبخ: cooking
 يطرق: knocking
+يطعم: feeds
+يطعمك: feed you
+يطغون: overwhelm
 يطلب: requests
+يطلبون: they ask
 يطلق: launch
 يطهى: cook
+يطوفون: circumambulate
 يطير: flies
+يظن: think
 يظهر: shows
 يعارض: oppose
 يعاقب: punish
+يعاقبه: punish him
+يعاقبون: being punished
+يعامل: treats
+يعامله: treat him
 يعاملوه: treat him
+يعانون: suffer
 يعاني: suffers
 يعبث: mess around
 يعبثون: messing around
 يعتاد: get used
+يعتبرونه: they consider it
 يعترض: object
 يعترض؟: object
+يعترف: admit
 يعتقد: believes
 يعتقدون: they think
 يعتمد: relies
@@ -8373,69 +10991,96 @@ yigit: yigit
 يعج: teeming
 يعجبك: you like it
 يعد: prepare
+يعدوا: count
 يعرف: known
+يعرفني: know me
 يعرفون: they know
 يعرفونني؟: know me
 يعرفوها: they know
 يعزز: enhances
+يعطون: they give
 يعطونا: they give us
 يعطونه: they give it
 يعطى: give
 يعطي: give
 يعطيك: gives you
+يعطيكم: give you
 يعطينا: give us
 يعطيني: give me
 يعطيه: give him
 يعطيهم: give them
 يعقوب: yacoub
 يعلم: know
+يعلمهم: teach them
 يعمل: works
 يعني: means
 يعنيك: concern you
 يعود: returns
+يعود؟: back
+يعودوا: come back
 يعودون: they come back
 يعيدني: take me back
 يعيش: live
 يعيشه: live it
+يعيشوا: they live
 يعيشون: they live
 يعيقنا: hinders us
 يعينك: help you
+يعينه: appoint him
 يغادر: leaves
+يغادروا: they leave
 يغرق: drown
+يغزو: invades
+يغض: shrugs
 يغفر: forgive
+يغفرون: forgive
 يغلقون: they close
+يغمر: overwhelms
 يغيت: leggett
 يغيت؟: leighgate
+يغير: change
 يفاجأ: be surprised
 يفتح: opens
 يفترض: supposedly
 يفرون: they are fleeing
 يفرون؟: fleeing
+يفسد: spoil
+يفسرها: explain it
 يفضل: preferably
 يفعل: do
 يفعل؟: do
 يفعله: he does
 يفعلوا: they do
 يفعلون: they do
+يفعلونه: they do
 يفكر: think
 يفكرون: they think
 يفلت: get away
 يفلح: it works
+يفهم: understood
 يفهموا: they understand
 يفوتوني: they miss me
 يفوز: wins
+يفوق: exceeds
 يفيض: overflows
+يقاتل: are fighting
 يقاتلون: they fight
 يقال: it said
 يقاوم: withstands
 يقبل: accepts
+يقبلها: kiss her
 يقتل: kill
 يقتلك: kills you
 يقتلك؟: kills you
+يقتلكم: kill you
 يقتلني: killing me
+يقتله: kill him
 يقتلون: they are killed
+يقتلونني: they kill me
 يقتلوني: they kill me
+يقتنع؟: convinced
 يقدر: appreciate
+يقدره: appreciates it
 يقدم: offers
 يقدمون: they offer
 يقرأ: is reading
@@ -8443,12 +11088,17 @@ yigit: yigit
 يقضي: spends
 يقع: located
 يقف: stands up
+يقلق: to worry
+يقلقك: worries you
 يقلقك؟: worries
 يقلقني: it worries me
+يقلل: decrease
 يقلوا: say
 يقهر: invincible
+يقهرون: conquer
 يقود: driving
 يقودني: lead me
+يقودها: led by
 يقودهم: lead them
 يقول: says
 يقوله: he says
@@ -8456,32 +11106,53 @@ yigit: yigit
 يقولون: they say
 يقوم: is based
 يقوموا: they shall
+يقوينا: strengthens us
 يقيمون: they reside
+يكافح: struggle
 يكبر: grow up
+يكبروا: grow up
 يكتب: writes
+يكتشف: explore
+يكتمل: to be completed
 يكرم: honor
 يكسر: breaks
+يكشف: reveal
+يكفى: enough
 يكفي: enough
+يكمن: lies
 يكن: not
 يكون: is being
 يكون؟: is being
 يكونوا: they are
+يلاحظ: notice
+يلاحظك: noticing you
+يلاحق: chasing
+يلاحقوا: stalking
+يلاحقونني: are chasing me
 يلامس: touches
 يلتف: wraps
 يلجأ: he turns
 يلعبون: they play
 يلفت: draws
 يلقي: cast
+يلمسها: touch her
 يلمع: shine
 يليق: befitting
 يمت: is dead
+يمتحن: being tested
 يمتنعوا: abstain
+يمثلون: they represent
+يمجدون: glorify
+يمحى: erased
 يمر: passes
 يمرون: they pass
+يمزق: tearing apart
 يمسك: catch
+يمشون: they walk
 يمضون: they spend
 يمكن: can
 يمكنك: you may
+يمكنكم: you can
 يمكننا: we can
 يمكنني: I can
 يمكنه: he can
@@ -8491,9 +11162,11 @@ yigit: yigit
 يمنح: granted
 يمنحها: give it
 يمنعنا: stop us
+يمنعه: stop him
 يمهد: paving
 يموت: dies
 يموتون: they die
+يميزون: distinguish
 ينادي: calling
 يناسب: suits
 يناسبك: suits you
@@ -8507,28 +11180,45 @@ yigit: yigit
 ينتظرك: awaits you
 ينتظرنا: waiting for us
 ينتظرون: they are waiting
+ينتظرونك: are waiting for you
+ينتظروننا: are waiting for us
+ينتف: pluck
 ينتمون: they belong
 ينتمي: belongs
+ينتهزون: they take advantage
 ينتهك: violates
 ينتهي: finish
 ينجح: succeed
 ينجي: wenge
 ينجي؟: wenge
+ينحدر: descends
+يندم: regret
+ينزف: bleed
 ينسى: forget
+ينشر: publish
 ينضم: joins
 ينطق: utters
 ينظر: look
+ينعم: smoothes out
+ينفثون: blowing up
 ينفصل: separates
 ينقذ: save
 ينقذنا: save us
 ينقصه: is lacking
+ينقض: breaks down
+ينقل: convey
 ينقلون: they carry
+ينم: sleeps
 ينمو: grows
 ينهار: collapses
 ينهون: they finish
+ينوى: intends to
+ينير: illuminates
 يهاجر: migrates
 يهاجم: attack
+يهاجمك: attacking you
 يهاجموننا: they attack us
+يهاجموننا؟: are they attacking us
 يهتم: cares about
 يهتمون: they care
 يهدأ: calms down
@@ -8536,6 +11226,7 @@ yigit: yigit
 يهربوا: run away
 يهربون: they run away
 يهز: shake
+يهزمنا: defeat us
 يهم: matter
 يهمك: you care
 يهملني: neglects me
@@ -8545,13 +11236,17 @@ yigit: yigit
 يواجههم: face them
 يواجهون: they face
 يواجهونها: they face
+يواصل: continues
 يوجد: exist
 يوحد: unites
+يوحدون: unite
 يود: would like
 يوسف: youssef
 يوفقك: help you
 يوفقنا: help us
 يوفقهم: help them
+يوقف: stop
+يوقفنا: stop us
 يوم: day
 يوم؟: day
 يوما: days
@@ -8561,3 +11256,8 @@ yigit: yigit
 يومين: two days
 يومين؟: two days
 يومًا: days
+يوناس: yonas
+يُدعى: he claims
+يُطلق: launch
+يُعتقد: believes
+”: ”

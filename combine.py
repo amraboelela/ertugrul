@@ -38,8 +38,8 @@ for line in lines:
         minutes = int(subTimes[1])
         secondsArray = subTimes[2].split(".")
         seconds = int(secondsArray[0])
-        totalSeconds = minutes * 60 + seconds
-        timeStamp = totalSeconds + float(secondsArray[1]) / 1000
+        milliseconds = int(secondsArray[1])
+        timeStamp = durationLimit.timeStamp(prefix, targetLanguage, minutes, seconds, milliseconds)
         #print("timeStamp: " + str(timeStamp))
         duration = timeStamp - prevTimeStamp
         prevTimeStamp = timeStamp

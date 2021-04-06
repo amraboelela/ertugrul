@@ -53,6 +53,8 @@ def writeToSubtitlesFile(cutCode, paragraph):
     includeCount = includeCount + 1
     subtitlesFile.write(str(includeCount) + "\n")
     startTimeString = timeString(startTimeFloat)
+    print("cutCode: " + cutCode)
+    print("episodeDurationsDictionary: " + str(episodeDurationsDictionary))
     duration = float(episodeDurationsDictionary[cutCode])
     startTimeFloat = startTimeFloat + duration
     endTimeString = timeString(startTimeFloat - 0.1)
@@ -126,9 +128,8 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
             minutes = int(subTimes[1])
             secondsArray = subTimes[2].split(".")
             seconds = int(secondsArray[0])
-            totalSeconds = minutes * 60 + seconds
-            timeStamp = totalSeconds + float(secondsArray[1]) / 1000
-            #print("timeStamp: " + str(timeStamp))
+            milliseconds = int(secondsArray[1])
+            timeStamp = durationLimit.timeStamp(prefix, targetLanguage, minutes, seconds, milliseconds)
             duration = timeStamp - prevTimeStamp
             prevTimeStamp = timeStamp
             if len(paragraph) > 0  and count > 0:

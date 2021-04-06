@@ -35,34 +35,15 @@ for line in lines:
         minutes = int(subTimes[1])
         secondsArray = subTimes[2].split(".")
         seconds = int(secondsArray[0])
-        totalSeconds = minutes * 60 + seconds
-        timeStamp = totalSeconds + float(secondsArray[1]) / 1000
+        milliseconds = int(secondsArray[1])
+        timeStamp = durationLimit.timeStamp(prefix, targetLanguage, minutes, seconds, milliseconds)
         #print("timeStamp: " + str(timeStamp))
         duration = timeStamp - prevTimeStamp
         prevTimeStamp = timeStamp
-        shiftedSeconds = 0
-        if targetLanguage == "ar":
-            subPrefix = prefix[:11]
-            if subPrefix == "ertugrul-1-":
-                episode = prefix[11:13]
-                #print("episode: " + episode)
-                if episode == "01" or episode == "02" or episode == "04" or episode == "06":
-                    shiftedSeconds = 60 + 43
-                elif episode == "03" or episode == "05":
-                    shiftedSeconds = 60 + 41
-                elif episode == "12":
-                    shiftedSeconds = 2 * 60 + 7
-                elif episode == "13" or episode == "20":
-                    shiftedSeconds = 2 * 60
-                else:
-                    shiftedSeconds = 2 * 60 + 2
-
-        totalSeconds = totalSeconds - shiftedSeconds
-        if totalSeconds < 0:
-            totalSeconds = 0
-        minutes = totalSeconds / 60 
-        seconds = totalSeconds - minutes * 60
+        minutes = int(timeStamp) / 60
+        seconds = int(timeStamp) - minutes * 60
         startTime = str(minutes) + ":" + str(seconds) + "." + secondsArray[1]
+        print("startTime: " + startTime)
         if count > 0 and duration > durationLowerLimit and duration < durationUpperLimit:
             filePrefix = "build/" + prefix + "/" + prefix + "-" + str(count).zfill(3)
             targetFile = filePrefix + "-" + targetLanguage
