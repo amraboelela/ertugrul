@@ -167,10 +167,12 @@ if not path.exists(subtitlesPath) or os.stat(subtitlesPath).st_size == 0:
         #print(str(int(targetTimeStamp)) + ": " + paragraph) #" (" + str(int(targetDuration)) + "): "
         if count < len(targetTimeStamps):
             print("englishCount " + str(englishCount))
-            englishTimeStamp = englishTimeStamps[englishCount]
+            if englishCount < len(targetTimeStamps):
+                englishTimeStamp = englishTimeStamps[englishCount]
             bestEnglishTimeStamp = englishTimeStamp
             englishTimeDiff = abs(englishTimeStamp - targetTimeStamp)
-            englishParagraph = englishParagraphs[englishCount]
+            if englishCount < len(englishParagraphs):
+                englishParagraph = englishParagraphs[englishCount]
             while englishTimeStamp < targetTimeStamp + targetDuration / 2:
                 if abs(englishTimeStamp - targetTimeStamp) < englishTimeDiff:
                     englishTimeDiff = abs(englishTimeStamp - targetTimeStamp)

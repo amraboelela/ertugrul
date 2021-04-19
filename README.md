@@ -62,9 +62,9 @@ $ ./build.sh 1 1 en ar
 $ ./clean 1 1 en ar
 ```
 
-**Title:** Learn Arabic from Ertugrul Subtitles word by word, 1 - 1
+**Title:** Learn Arabic from Ertugrul Subtitles, 1 - 1
 
 **Description:**
 
-Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in Arabic and see the meaning in English, word by word, of the subtitles. 
+Learn Arabic language by listening to the conversation in Resurrection Ertugrul TV series, Season 1, Episode 1, in Arabic and see the meaning in English of the subtitles. 
 Check also Ertugrul dictionary: https://github.com/amraboelela/ertugrul/blob/master/build/dictionary-ar.txt
