@@ -45,7 +45,13 @@ def writeToSubtitlesFile(cutCode, paragraph, englishParagraph):
     subtitlesFile.write(str(includeCount) + "\n")
     startTimeString = timeString(startTimeFloat)
     #print("cutCode: " + cutCode)
-    duration = float(episodeDurationsDictionary[cutCode])
+    #print("episodeDurationsDictionary: " + str(episodeDurationsDictionary))
+    if cutCode in episodeDurationsDictionary:
+        duration = float(episodeDurationsDictionary[cutCode])
+    else:
+        print("cutCode: " + cutCode + " not found")
+        duration = 0
+        #return
     startTimeFloat = startTimeFloat + duration
     endTimeString = timeString(startTimeFloat - 0.1)
     subtitlesFile.write(startTimeString + " --> " + endTimeString + "\n")
