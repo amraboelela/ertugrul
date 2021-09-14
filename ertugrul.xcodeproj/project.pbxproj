@@ -47,6 +47,7 @@
 		F534F8602576FCD600333CEC /* video2frames.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F85F2576FCD600333CEC /* video2frames.py */; };
 		F534F863257818EC00333CEC /* video2frames in Resources */ = {isa = PBXBuildFile; fileRef = F534F862257818EC00333CEC /* video2frames */; };
 		F534F86725781B5700333CEC /* editImages in Resources */ = {isa = PBXBuildFile; fileRef = F534F86625781B5700333CEC /* editImages */; };
+		F5A928E126DFEFDE000E8470 /* combine.sh in Resources */ = {isa = PBXBuildFile; fileRef = F5A928E026DFEFDD000E8470 /* combine.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		F534F85F2576FCD600333CEC /* video2frames.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = video2frames.py; sourceTree = "<group>"; };
 		F534F862257818EC00333CEC /* video2frames */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video2frames; sourceTree = "<group>"; };
 		F534F86625781B5700333CEC /* editImages */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = editImages; sourceTree = "<group>"; };
+		F5A928E026DFEFDD000E8470 /* combine.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = combine.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				F534F85C2576BBE600333CEC /* cleanSubtitles */,
 				C5B1E5D223789A2800BA1E1C /* cleanFile.py */,
 				C5B1E5D723789A2800BA1E1C /* combine.py */,
+				F5A928E026DFEFDD000E8470 /* combine.sh */,
 				C5B1E5D123789A2700BA1E1C /* concat */,
 				C5B1E5EB23789A2D00BA1E1C /* cut */,
 				C5B1E5E623789A2B00BA1E1C /* cut.py */,
@@ -241,6 +244,7 @@
 				F534F85D2576BBE700333CEC /* cleanSubtitles in Resources */,
 				C5B1E5F423789A2F00BA1E1C /* dictionary.py in Resources */,
 				C5B1E60B23789A2F00BA1E1C /* cleanEpisode in Resources */,
+				F5A928E126DFEFDE000E8470 /* combine.sh in Resources */,
 				C5B7459D23823EA3006204F5 /* handbrake in Resources */,
 				F534F8122571ABBC00333CEC /* move.py in Resources */,
 				C5B1E61123789A2F00BA1E1C /* cut in Resources */,
