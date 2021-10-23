@@ -47,6 +47,7 @@
 		F534F8602576FCD600333CEC /* video2frames.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F85F2576FCD600333CEC /* video2frames.py */; };
 		F534F863257818EC00333CEC /* video2frames in Resources */ = {isa = PBXBuildFile; fileRef = F534F862257818EC00333CEC /* video2frames */; };
 		F534F86725781B5700333CEC /* editImages in Resources */ = {isa = PBXBuildFile; fileRef = F534F86625781B5700333CEC /* editImages */; };
+		F5404F342724A9D200B428FC /* convert.sh in Resources */ = {isa = PBXBuildFile; fileRef = F5404F332724A9D200B428FC /* convert.sh */; };
 		F5A928E126DFEFDE000E8470 /* combine.sh in Resources */ = {isa = PBXBuildFile; fileRef = F5A928E026DFEFDD000E8470 /* combine.sh */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +93,7 @@
 		F534F85F2576FCD600333CEC /* video2frames.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = video2frames.py; sourceTree = "<group>"; };
 		F534F862257818EC00333CEC /* video2frames */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video2frames; sourceTree = "<group>"; };
 		F534F86625781B5700333CEC /* editImages */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = editImages; sourceTree = "<group>"; };
+		F5404F332724A9D200B428FC /* convert.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = convert.sh; sourceTree = "<group>"; };
 		F5A928E026DFEFDD000E8470 /* combine.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = combine.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 				C5B1E5D223789A2800BA1E1C /* cleanFile.py */,
 				C5B1E5D723789A2800BA1E1C /* combine.py */,
 				F5A928E026DFEFDD000E8470 /* combine.sh */,
+				F5404F332724A9D200B428FC /* convert.sh */,
 				C5B1E5D123789A2700BA1E1C /* concat */,
 				C5B1E5EB23789A2D00BA1E1C /* cut */,
 				C5B1E5E623789A2B00BA1E1C /* cut.py */,
@@ -254,6 +257,7 @@
 				F534F80725703DB300333CEC /* build.sh in Resources */,
 				F534F80E25708D7000333CEC /* sayLines.py in Resources */,
 				C5B1E5FA23789A2F00BA1E1C /* unicode.py in Resources */,
+				F5404F342724A9D200B428FC /* convert.sh in Resources */,
 				C5B1E60E23789A2F00BA1E1C /* download in Resources */,
 				C5B1E60C23789A2F00BA1E1C /* cut.py in Resources */,
 				C5B1E5F823789A2F00BA1E1C /* cleanFile.py in Resources */,
