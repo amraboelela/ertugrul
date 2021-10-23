@@ -1,1 +1,1 @@
-ffmpeg -y -i input.avi output.mp4
+ffmpeg -y -i input.avi output.mp4 
