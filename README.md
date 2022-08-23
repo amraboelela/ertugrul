@@ -39,11 +39,11 @@ $ sudo make install
 
 ###Turkish
 
-- To build episode 1 till episode 3 and translate from English to Turkish:
+- To build episode 1 - 3 and translate from English to Turkish:
 
 ```
-$ ./build.sh 1 3 en tr
-$ ./clean 1 3 en tr
+$ ./build.sh 1 1 en tr
+$ ./clean 1 1 en tr
 ```
 
 **Title:** Learn Turkish from Ertugrul Subtitles, 1 - 1
