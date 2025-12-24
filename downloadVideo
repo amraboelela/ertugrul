@@ -5,13 +5,13 @@ language=$3
 url=$4
 mkdir -p build
 if [ ! -f build/ertugrul-$season-$paddedEpisode-en.vtt ]; then
-    youtube-dl --all-subs --skip-download $url
+    yt-dlp --all-subs --skip-download --user-agent "Mozilla/5.0" --sleep-requests 1 $url
     if [ $language == "tr" ]; then
         mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.vtt build/ertugrul-$season-$paddedEpisode-en.vtt
     fi
 fi
 if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.jpg ]; then
-    youtube-dl --write-thumbnail --skip-download $url
+    yt-dlp --write-thumbnail --skip-download --user-agent "Mozilla/5.0" --sleep-requests 1 $url
     if [ $language == "tr" ]; then
         mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.jpg build/ertugrul-$season-$paddedEpisode-$language.jpg
     elif [  $language == "ar" ]; then
@@ -19,7 +19,7 @@ if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.jpg ]; then
     fi
 fi
 if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.m4a ]; then
-    youtube-dl -f 140 $url
+    yt-dlp -f 'bestaudio[ext=m4a]/bestaudio/best' --extract-audio --audio-format m4a --user-agent "Mozilla/5.0" --sleep-requests 1 $url
     if [ $language == "tr" ]; then
         mv Resurrection\ Ertugrul\ Season\ $season\ Episode\ $episode-*.m4a build/ertugrul-$season-$paddedEpisode-$language.m4a
     elif [  $language == "ar" ]; then
@@ -28,7 +28,7 @@ if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.m4a ]; then
 fi
 if [ ! -f build/ertugrul-$season-$paddedEpisode-$language.mp4 ]; then
     echo downloadVideo $url
-    youtube-dl $url
+    yt-dlp -f 'best[height<=720][ext=mp4]/best[ext=mp4]/best' --merge-output-format mp4 --user-agent "Mozilla/5.0" --sleep-requests 1 $url
     
     if [ -f *\ $episode-*.mkv ]; then
         handbrakecli -i *\ $episode-*.mkv -o build/ertugrul-$season-$paddedEpisode-$language.mp4

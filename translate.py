@@ -26,11 +26,11 @@ for line in lines:
             translatedText = data['data']['translations'][0]['translatedText'].replace('-','').replace("&#39;","'").replace("&quot;","'").replace("'il","'ll")
             try:
                 print(translatedText.encode('utf8'))
-                print
+                print()
             except Exception as error:
                 print("error: " + str(error) + " line: " + line)
 
-        print line
+        print(line)
         paragraph = ""
     else:
         paragraph = paragraph + line.replace('-','').replace("!","").replace(".","") + ". "

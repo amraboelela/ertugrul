@@ -32,10 +32,10 @@ for line in lines:
                 break
     if not skipLine:
         if not line.strip():
-            print
+            print()
         else:
             line = remove_tags(line)
             line = line.replace('-','')
-            print line
+            print(line)
 file.close()
 

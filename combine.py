@@ -54,7 +54,7 @@ for line in lines:
             fileCount = fileCount + 1
             includeCount = includeCount + 1
             if includeCount % 100 == 0:
-                targetFile = "build/" + prefix + "-" + str(includeCount / 100).zfill(2) + "-" + postfix + ".mp4"
+                targetFile = "build/" + prefix + "-" + str(includeCount // 100).zfill(2) + "-" + postfix + ".mp4"
                 if not path.exists(targetFile):
                     subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=1:a=1", targetFile])
                     #print("subprocessArray: " + str(subprocessArray))
@@ -65,9 +65,9 @@ for line in lines:
         count = count + 1
 #quit()
 if includeCount % 100 > 1:
-    n = includeCount / 100 + 1
+    n = includeCount // 100 + 1
     targetFile = "build/" + prefix + "-" + str(n).zfill(2) + "-" + postfix + ".mp4"
-    print "targetFile: " + targetFile
+    print("targetFile: " + targetFile)
     if not path.exists(targetFile):
         subprocessArray.extend(["-filter_complex", concatString + "concat=n=" + str(fileCount) + ":v=1:a=1", targetFile])
         print("subprocessArray: " + str(subprocessArray))
