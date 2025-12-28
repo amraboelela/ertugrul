@@ -1,0 +1,6502 @@
+[
+  {
+    "seg_id": "seg_0000",
+    "text": "Hah",
+    "english": "Huh."
+  },
+  {
+    "seg_id": "seg_0001",
+    "text": "Ertuğrul Bey'ime söyle, beni bulsun O nerede olduğumu bilir",
+    "english": "Tell Mr. Ertugrul to find me. He'll know where I am."
+  },
+  {
+    "seg_id": "seg_0002",
+    "text": "Gel buraya soysuz",
+    "english": "Come here, you bastard."
+  },
+  {
+    "seg_id": "seg_0003",
+    "text": "Selcan, yemin ederim öleceksin",
+    "english": "Selcan, I swear you'll die."
+  },
+  {
+    "seg_id": "seg_0004",
+    "text": "Banı Çiçek'le Selcan Hatun hayatlarını ortaya koyarak",
+    "english": "By putting together the lives of Mr. Flower and Selcan Hatun"
+  },
+  {
+    "seg_id": "seg_0005",
+    "text": "bana hakikati gösterdi Gündoğdu abi",
+    "english": "He showed me the truth."
+  },
+  {
+    "seg_id": "seg_0006",
+    "text": "Ertuğrul Bey'imin oyununa düşen Aytolun da oradaydı",
+    "english": "Aytol, who fell for Mr. Ertugrul's play, was there."
+  },
+  {
+    "seg_id": "seg_0007",
+    "text": "Tek derdi onları öldürmekti",
+    "english": "All he cared about was killing them."
+  },
+  {
+    "seg_id": "seg_0008",
+    "text": "Anamla babamı öldürdüğünü kendi ağzından işittim",
+    "english": "I heard from his own mouth that he killed my parents."
+  },
+  {
+    "seg_id": "seg_0009",
+    "text": "Uç beyliğin hayırlı uğurlu olsun Gümüştekin Bey’im",
+    "english": "Good luck to you, Master of Silver."
+  },
+  {
+    "seg_id": "seg_0010",
+    "text": "Sağ olasın Tuğtekin Bey",
+    "english": "Thank you, Mr. Tugtekin."
+  },
+  {
+    "seg_id": "seg_0011",
+    "text": "Banı Çiçek, Selcan’la Karakayalar’da buluştu",
+    "english": "Bani Çiçek met Selcan.. ..at Karakayas."
+  },
+  {
+    "seg_id": "seg_0012",
+    "text": "Bu ne cüret!",
+    "english": "How dare you!"
+  },
+  {
+    "seg_id": "seg_0013",
+    "text": "Buna nasıl izin verirsin Aytolun?",
+    "english": "How could you let this happen, Aytolun?"
+  },
+  {
+    "seg_id": "seg_0014",
+    "text": "Mecbur kaldım",
+    "english": "I had to."
+  },
+  {
+    "seg_id": "seg_0015",
+    "text": "Ne demek mecbur kaldım?",
+    "english": "What do you mean you had to?"
+  },
+  {
+    "seg_id": "seg_0016",
+    "text": "Niye Alplere haber vermedin?",
+    "english": "Why didn't you tell the Alps?"
+  },
+  {
+    "seg_id": "seg_0017",
+    "text": "Niye?",
+    "english": "Why?"
+  },
+  {
+    "seg_id": "seg_0018",
+    "text": "Banı Çiçek, Selcan’a cinayetleri bizim işlediğimizi ispat edecek…",
+    "english": "Bani Cicek will prove that we committed the Selcana murders..."
+  },
+  {
+    "seg_id": "seg_0019",
+    "text": "…bir delil verecekti baba",
+    "english": "...he was going to give evidence, Dad."
+  },
+  {
+    "seg_id": "seg_0020",
+    "text": "Ertuğrul Bey",
+    "english": "Mr. Ertugrul"
+  },
+  {
+    "seg_id": "seg_0021",
+    "text": "Ertuğrul Bey, Halime Sultan’ı keferenin elinden kurtarmazdan çok önce…",
+    "english": "Mr. Ertugrul, long before he saved Halima Sultan from the shroud..."
+  },
+  {
+    "seg_id": "seg_0022",
+    "text": "…Gökçe’nin kalbinde Ertuğrul varmış oğul",
+    "english": "Ertuğrul was in the heart of Gökçe."
+  },
+  {
+    "seg_id": "seg_0023",
+    "text": "Senin ağzından çıkanı kulağın işitir mi?",
+    "english": "Do you hear what you're saying?"
+  },
+  {
+    "seg_id": "seg_0024",
+    "text": "Sana bunları diyeceğime dilim çürüyeydi",
+    "english": "I'd rather rot my tongue than say that to you."
+  },
+  {
+    "seg_id": "seg_0025",
+    "text": "Bütün bunlara çocukluk der geçerdim",
+    "english": "I used to call it all childhood."
+  },
+  {
+    "seg_id": "seg_0026",
+    "text": "Lakin",
+    "english": "But"
+  },
+  {
+    "seg_id": "seg_0027",
+    "text": "Lakin ne?",
+    "english": "But what?"
+  },
+  {
+    "seg_id": "seg_0028",
+    "text": "Lakin Halime Sultan’la evlendikten sonra da Gökçe içindeki ateşi söküp atamamış…",
+    "english": "But Halima didn't get rid of the fire in Gökçe after she was married to Sultan."
+  },
+  {
+    "seg_id": "seg_0029",
+    "text": "…yine de seninle evlenmek istemiştir oğul",
+    "english": "...but he still wanted to marry you, son."
+  },
+  {
+    "seg_id": "seg_0030",
+    "text": "Yeter!",
+    "english": "Enough!"
+  },
+  {
+    "seg_id": "seg_0031",
+    "text": "Yeter",
+    "english": "Enough."
+  },
+  {
+    "seg_id": "seg_0032",
+    "text": "Yeter",
+    "english": "Enough."
+  },
+  {
+    "seg_id": "seg_0033",
+    "text": "Kıvılcımdan alev alan Tuğtekin Bey",
+    "english": "Tugtekin Bey, who caught fire from the spark"
+  },
+  {
+    "seg_id": "seg_0034",
+    "text": "avradının eski gönül meselelerini ciddiye almadı demek ki",
+    "english": "He didn't take the old heart issues seriously."
+  },
+  {
+    "seg_id": "seg_0035",
+    "text": "Benim aklım da buna ermez ağabey",
+    "english": "I don't know about that either, brother."
+  },
+  {
+    "seg_id": "seg_0036",
+    "text": "Tuğtekin çoktan hançerini Ertuğrul'un gırtlağına dayamalıydı",
+    "english": "Tugtekin should have pressed his dagger against Ertugrul's throat by now."
+  },
+  {
+    "seg_id": "seg_0037",
+    "text": "Tuğtekin'le Gündoğdu her şeyden haberdardır",
+    "english": "Tuğtekin and Gündüz are aware of everything."
+  },
+  {
+    "seg_id": "seg_0038",
+    "text": "Sen ne dersin ağabey?",
+    "english": "What do you think, brother?"
+  },
+  {
+    "seg_id": "seg_0039",
+    "text": "Dün gece Doğan Alp'i götürüp adaleti sağlayacağımı söylediğimde",
+    "english": "When I told you last night I'd take the Born Alps and get justice"
+  },
+  {
+    "seg_id": "seg_0040",
+    "text": "hiç kimse ses etmedi",
+    "english": "No one's said a word."
+  },
+  {
+    "seg_id": "seg_0041",
+    "text": "Hatta Tuğtekin bile",
+    "english": "Even Tugtekin."
+  },
+  {
+    "seg_id": "seg_0042",
+    "text": "Ne edeceğiz peki?",
+    "english": "So what do we do?"
+  },
+  {
+    "seg_id": "seg_0043",
+    "text": "Selcan bugün ölmeli Aytolun",
+    "english": "Selcan must die today Aytolun"
+  },
+  {
+    "seg_id": "seg_0044",
+    "text": "Tuğtekin gerçeği öğrendiyse",
+    "english": "If Tugtekin found out the truth"
+  },
+  {
+    "seg_id": "seg_0045",
+    "text": "onun da vakti gelmiş demektir",
+    "english": "That means it's time."
+  },
+  {
+    "seg_id": "seg_0046",
+    "text": "Destur var mı Gümüştekin Bey?",
+    "english": "Do you have a sign, Mr. Silver?"
+  },
+  {
+    "seg_id": "seg_0047",
+    "text": "Buyurasın Çağrı Bey",
+    "english": "You're welcome, Mr. Caller."
+  },
+  {
+    "seg_id": "seg_0048",
+    "text": "Ertuğrul Bey obadan ayrıldı",
+    "english": "Mr. Ertuğrul has left the oba"
+  },
+  {
+    "seg_id": "seg_0049",
+    "text": "Askerler hazır mı?",
+    "english": "Are the soldiers ready?"
+  },
+  {
+    "seg_id": "seg_0050",
+    "text": "Hazır beyim",
+    "english": "Ready, sir."
+  },
+  {
+    "seg_id": "seg_0051",
+    "text": "O vakit gidip katillerin cezasını keselim",
+    "english": "Then let's go pay for the killers."
+  },
+  {
+    "seg_id": "seg_0052",
+    "text": "Kaçıyor! Kaçıyor!",
+    "english": "He's getting away!"
+  },
+  {
+    "seg_id": "seg_0053",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0054",
+    "text": "Kardeşim",
+    "english": "Brother"
+  },
+  {
+    "seg_id": "seg_0055",
+    "text": "Gümüştekin Bey'im",
+    "english": "My Master in Silver"
+  },
+  {
+    "seg_id": "seg_0056",
+    "text": "Daha ne kadar olanlara göz yumacağız?",
+    "english": "How much longer do we have to let this happen?"
+  },
+  {
+    "seg_id": "seg_0057",
+    "text": "Vakit var Çağrı Bey",
+    "english": "There's time Mr. Caller"
+  },
+  {
+    "seg_id": "seg_0058",
+    "text": "Takibe devam edeceğiz",
+    "english": "We'll continue our pursuit."
+  },
+  {
+    "seg_id": "seg_0059",
+    "text": "Bir haini kurtardı",
+    "english": "He saved a traitor."
+  },
+  {
+    "seg_id": "seg_0060",
+    "text": "Ama asla durmayacaktır",
+    "english": "But he'll never stop"
+  },
+  {
+    "seg_id": "seg_0061",
+    "text": "Hayırdır Goncagül? Nedir bu telaş?",
+    "english": "What's up, Goncagül?"
+  },
+  {
+    "seg_id": "seg_0062",
+    "text": "Selcan",
+    "english": "Selcan"
+  },
+  {
+    "seg_id": "seg_0063",
+    "text": "Gündoğdu'nun çıbanı için mantar toplamaya çıkmış tek başına",
+    "english": "He went out alone to pick mushrooms for the sun's boil."
+  },
+  {
+    "seg_id": "seg_0064",
+    "text": "Vakit gelmiştir hala",
+    "english": "It's still time."
+  },
+  {
+    "seg_id": "seg_0065",
+    "text": "Görürüm ki Gündoğdu'nun derdi bize derman olacak",
+    "english": "I'll see that Gündüz's trouble will be upon us."
+  },
+  {
+    "seg_id": "seg_0066",
+    "text": "Tez gidelim Goncagül",
+    "english": "Let's go quickly Goncagül"
+  },
+  {
+    "seg_id": "seg_0067",
+    "text": "Buyruğuna girmiş olduğunuz Gümüştekin Bey",
+    "english": "Master of the Silver that you have been commanded to do"
+  },
+  {
+    "seg_id": "seg_0068",
+    "text": "O bir haindir",
+    "english": "He's a traitor."
+  },
+  {
+    "seg_id": "seg_0069",
+    "text": "Ağzından çıkanı kulağın duyar mı senin?",
+    "english": "Will you listen to yourself?"
+  },
+  {
+    "seg_id": "seg_0070",
+    "text": "Devletin ve Sultan Alaeddin'in bir hizmetkârı olarak bunu bilir",
+    "english": "As a servant of the state and Sultan Alaeddin, he knows that."
+  },
+  {
+    "seg_id": "seg_0071",
+    "text": "bunu derim",
+    "english": "That's what I say."
+  },
+  {
+    "seg_id": "seg_0072",
+    "text": "Devletimizin uç beyini nasıl olur da hain diye yaftalarsın?",
+    "english": "How could you label our state's ultimate brain as a traitor?"
+  },
+  {
+    "seg_id": "seg_0073",
+    "text": "Bu ne cüret!",
+    "english": "How dare you!"
+  },
+  {
+    "seg_id": "seg_0074",
+    "text": "Askerler",
+    "english": "Soldiers"
+  },
+  {
+    "seg_id": "seg_0075",
+    "text": "Saldırın!",
+    "english": "Attack!"
+  },
+  {
+    "seg_id": "seg_0076",
+    "text": "Sonun geldi Gümüştekin",
+    "english": "It's the end of you. The silver one."
+  },
+  {
+    "seg_id": "seg_0077",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0078",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0079",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0080",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0081",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0082",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0083",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0084",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0085",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0086",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0087",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0088",
+    "text": "Halime",
+    "english": "Halima"
+  },
+  {
+    "seg_id": "seg_0089",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0090",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0091",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0092",
+    "text": "Aytolun",
+    "english": "Aytolun"
+  },
+  {
+    "seg_id": "seg_0093",
+    "text": "Hayme Ana'm",
+    "english": "My Hayme Ana"
+  },
+  {
+    "seg_id": "seg_0094",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0095",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0096",
+    "text": "Tuğtekin Bey",
+    "english": "Mr. Tugtekin"
+  },
+  {
+    "seg_id": "seg_0097",
+    "text": "Anamla babamın diyetini ödemeden nereye Gümüştekin?",
+    "english": "Where's Silver without paying for my parents' diet?"
+  },
+  {
+    "seg_id": "seg_0098",
+    "text": "Anamla babamın diyetini ödemeden nereye Gümüştekin?",
+    "english": "Where's Silver without paying for my parents' diet?"
+  },
+  {
+    "seg_id": "seg_0099",
+    "text": "Sen ne dersin Tuğtekin Bey?",
+    "english": "What do you think, Mr. Tugtekin?"
+  },
+  {
+    "seg_id": "seg_0100",
+    "text": "Babanın katilini bulmak için canımı tehlikeye attığımı görmez misin?",
+    "english": "Can't you see I risked my life to find your father's killer?"
+  },
+  {
+    "seg_id": "seg_0101",
+    "text": "Canın cehenneme soysuz herif",
+    "english": "Go to hell, you bastard."
+  },
+  {
+    "seg_id": "seg_0102",
+    "text": "Çek şu kılıcı",
+    "english": "Put that sword away."
+  },
+  {
+    "seg_id": "seg_0103",
+    "text": "Haddini bil Tuğtekin",
+    "english": "Know your place, Tugtekin"
+  },
+  {
+    "seg_id": "seg_0104",
+    "text": "Benim uç beyi olduğumu unutma",
+    "english": "Don't forget I'm the master of flight."
+  },
+  {
+    "seg_id": "seg_0105",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0106",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0107",
+    "text": "Halime'yi bırak Aytolun",
+    "english": "Let Halima go Aytolun"
+  },
+  {
+    "seg_id": "seg_0108",
+    "text": "Selcan'ın gizli gizli Banı Çiçek'le buluştuğunu öğrendik Hayme Hatun",
+    "english": "We found out Selcan was secretly meeting with Bani Flower Hayme Hatun"
+  },
+  {
+    "seg_id": "seg_0109",
+    "text": "Sana gelinimi bırak dedim",
+    "english": "I told you to let go of my daughter-in-law."
+  },
+  {
+    "seg_id": "seg_0110",
+    "text": "Halime Sultan'ın boynundan o kılıcını da çek",
+    "english": "Take that sword away from Halima Sultan's neck."
+  },
+  {
+    "seg_id": "seg_0111",
+    "text": "Ondan sonra ne söyleyeceksen söyle",
+    "english": "Then say what you have to say."
+  },
+  {
+    "seg_id": "seg_0112",
+    "text": "Abdurrahman'a söyle",
+    "english": "Tell Abdurrahman"
+  },
+  {
+    "seg_id": "seg_0113",
+    "text": "Obaya gitsin",
+    "english": "Go to Obaya."
+  },
+  {
+    "seg_id": "seg_0114",
+    "text": "Dodurga Alplerini toplayıp buraya getirsin hemen",
+    "english": "Have him round up the Doduga Alps and bring them here right away."
+  },
+  {
+    "seg_id": "seg_0115",
+    "text": "Neden böyle bir şey istersin?",
+    "english": "Why would you want that?"
+  },
+  {
+    "seg_id": "seg_0116",
+    "text": "Bana da mı güvenmiyorsun?",
+    "english": "You don't trust me either?"
+  },
+  {
+    "seg_id": "seg_0117",
+    "text": "Ha. Yoksa",
+    "english": "Or else."
+  },
+  {
+    "seg_id": "seg_0118",
+    "text": "oğullarım ve gelinlerimle Korkut Bey'i öldürdüğümü mü düşünürsün?",
+    "english": "You think I killed Mr. Scare with my sons and daughters-in-law?"
+  },
+  {
+    "seg_id": "seg_0119",
+    "text": "güveneceğimi bilemem gayri",
+    "english": "I don't know if I can trust you."
+  },
+  {
+    "seg_id": "seg_0120",
+    "text": "Abdurrahman'a söyle, gitsin Hemen!",
+    "english": "Tell Abdurrahman to leave now!"
+  },
+  {
+    "seg_id": "seg_0121",
+    "text": "Abdurrahman",
+    "english": "Abdurrahman"
+  },
+  {
+    "seg_id": "seg_0122",
+    "text": "Hızlı bir ok gibi olasın",
+    "english": "Be like a fast arrow"
+  },
+  {
+    "seg_id": "seg_0123",
+    "text": "Hemen git",
+    "english": "Go now."
+  },
+  {
+    "seg_id": "seg_0124",
+    "text": "Emredersin Hayme Ana",
+    "english": "Yes, Mother Hayme."
+  },
+  {
+    "seg_id": "seg_0125",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0126",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0127",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0128",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0129",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0130",
+    "text": "Ertuğrul",
+    "english": "Ertuğrul"
+  },
+  {
+    "seg_id": "seg_0131",
+    "text": "Her şey senin o kopasıca başının altından çıkabilir mi?",
+    "english": "Can everything come out of your own fucking head?"
+  },
+  {
+    "seg_id": "seg_0132",
+    "text": "O zehirli dilin",
+    "english": "That poisonous tongue of yours"
+  },
+  {
+    "seg_id": "seg_0133",
+    "text": "başka kimleri zehirler bilmem lakin",
+    "english": "I don't know who else he'd poison, but"
+  },
+  {
+    "seg_id": "seg_0134",
+    "text": "senin o dilini kopartacağımı söylemiştim sana",
+    "english": "I told you I'd cut your tongue out."
+  },
+  {
+    "seg_id": "seg_0135",
+    "text": "Yemin ederim",
+    "english": "I swear."
+  },
+  {
+    "seg_id": "seg_0136",
+    "text": "Senin o dilini kopartmadan ölmeyeceğim",
+    "english": "I'm not gonna die until I rip your tongue out."
+  },
+  {
+    "seg_id": "seg_0137",
+    "text": "Tuğtekin",
+    "english": "Tugtekin"
+  },
+  {
+    "seg_id": "seg_0138",
+    "text": "Bu hain ne söyledi de",
+    "english": "What did this traitor say?"
+  },
+  {
+    "seg_id": "seg_0139",
+    "text": "senin o temiz yüreğini zehirledi?",
+    "english": "Poisoned your pure heart?"
+  },
+  {
+    "seg_id": "seg_0140",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0141",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0142",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0143",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0144",
+    "text": "Madem gelinlerim de bu ihanetin içindeyse",
+    "english": "If my daughters-in-law is involved in this betrayal"
+  },
+  {
+    "seg_id": "seg_0145",
+    "text": "niye pusatlarınızı takıp yalnız geldiniz?",
+    "english": "Why did you wear your strollers and come alone?"
+  },
+  {
+    "seg_id": "seg_0146",
+    "text": "Korkut Bey'in adaletini kendin mi vermek istersin?",
+    "english": "Do you want to give Mr. Scare's justice yourself?"
+  },
+  {
+    "seg_id": "seg_0147",
+    "text": "Tıpkı Gümüştekin Ertuğrul'un peşinden gidip",
+    "english": "Just like the silver one went after Ertugrul"
+  },
+  {
+    "seg_id": "seg_0148",
+    "text": "kendi adaletini getirmek istediği gibi",
+    "english": "Just like he wanted to bring his own justice"
+  },
+  {
+    "seg_id": "seg_0149",
+    "text": "Sessizce, usulca, haince",
+    "english": "Quietly, quietly, treacherously"
+  },
+  {
+    "seg_id": "seg_0150",
+    "text": "Ha? De hele",
+    "english": "Why don't you say it?"
+  },
+  {
+    "seg_id": "seg_0151",
+    "text": "Sen bunu nereden bilirsin be kadın?",
+    "english": "How the hell would you know that, woman?"
+  },
+  {
+    "seg_id": "seg_0152",
+    "text": "Çok mu merak ettin?",
+    "english": "Were you so worried?"
+  },
+  {
+    "seg_id": "seg_0153",
+    "text": "Söyleyeyim",
+    "english": "I'll tell you."
+  },
+  {
+    "seg_id": "seg_0154",
+    "text": "Duru Hatun'u da",
+    "english": "Duru Hatun too"
+  },
+  {
+    "seg_id": "seg_0155",
+    "text": "Korkut Bey'i de öldürdüğünüzü bilirim",
+    "english": "I know you killed Mr. Scare."
+  },
+  {
+    "seg_id": "seg_0156",
+    "text": "Saadettin Köpek'in emriyle",
+    "english": "You did it by order of the Dog."
+  },
+  {
+    "seg_id": "seg_0157",
+    "text": "otağımdaki Sungur Tekin'e Sultan Alaeddin tarafından verilmiş mührü",
+    "english": "The seal given to Sungur Tekin in my bed by Sultan Alaeddin"
+  },
+  {
+    "seg_id": "seg_0158",
+    "text": "çaldığınızı, sonra onu Köpek'e götürdüğünüzü",
+    "english": "That you stole it, and then you took it to the dog."
+  },
+  {
+    "seg_id": "seg_0159",
+    "text": "o Köpek'in de mührü Tangut'a verdiğini de bilirim",
+    "english": "I also know that Dog gave the seal to Tangut."
+  },
+  {
+    "seg_id": "seg_0160",
+    "text": "Yaklaşma",
+    "english": "Don't come any closer."
+  },
+  {
+    "seg_id": "seg_0161",
+    "text": "Yoksa ikisi de ölür",
+    "english": "Or they'll both die."
+  },
+  {
+    "seg_id": "seg_0162",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0163",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0164",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0165",
+    "text": "Yoksa ne kadar adi mahluklar olduğunuzu",
+    "english": "Or else you'll know what a vile creature you are"
+  },
+  {
+    "seg_id": "seg_0166",
+    "text": "öğrenmelerinden mi korkarsın?",
+    "english": "Are you afraid they'll find out?"
+  },
+  {
+    "seg_id": "seg_0167",
+    "text": "Sen ne dediğini bilmezsin",
+    "english": "You don't know what you're talking about."
+  },
+  {
+    "seg_id": "seg_0168",
+    "text": "Yaklaşma dedim",
+    "english": "I said don't come any closer."
+  },
+  {
+    "seg_id": "seg_0169",
+    "text": "Yoksa torunun da, gelinin de ölür",
+    "english": "Or your grandson and daughter-in-law will die."
+  },
+  {
+    "seg_id": "seg_0170",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0171",
+    "text": "Gümüştekin, tuzak kurduğunu sanır",
+    "english": "He thinks he's setting a trap in silver"
+  },
+  {
+    "seg_id": "seg_0172",
+    "text": "Lakin asıl Gümüştekin evlatlarımın tuzağına düşecek",
+    "english": "But your true silver will fall into the trap of my children"
+  },
+  {
+    "seg_id": "seg_0173",
+    "text": "Ertuğrul ve Tuğtekin onu yakalamak için gittiler",
+    "english": "Ertugrul and Tuğtekin went to catch him."
+  },
+  {
+    "seg_id": "seg_0174",
+    "text": "Yalan söylüyorsun",
+    "english": "You're lying."
+  },
+  {
+    "seg_id": "seg_0175",
+    "text": "Babama hiçbirinin gücü yetmez",
+    "english": "None of them can afford my father."
+  },
+  {
+    "seg_id": "seg_0176",
+    "text": "Bunca senedir sizin gibi soysuzlarla savaştayız",
+    "english": "We've been at war with degenerates like you all these years."
+  },
+  {
+    "seg_id": "seg_0177",
+    "text": "Nelere gücümüzün yeteceğini bir bilseniz",
+    "english": "If you only knew what we could afford"
+  },
+  {
+    "seg_id": "seg_0178",
+    "text": "Gökçe",
+    "english": "Gökçe"
+  },
+  {
+    "seg_id": "seg_0179",
+    "text": "Kızım, bunların yalanlarına sen de kanar mısın?",
+    "english": "Girl, would you fall for their lies?"
+  },
+  {
+    "seg_id": "seg_0180",
+    "text": "De bana",
+    "english": "Tell me"
+  },
+  {
+    "seg_id": "seg_0181",
+    "text": "Siz ne uğursuz insanlarmışsınız",
+    "english": "You're a lot of bad luck."
+  },
+  {
+    "seg_id": "seg_0182",
+    "text": "İkinize de lanet olsun",
+    "english": "Damn both of you."
+  },
+  {
+    "seg_id": "seg_0183",
+    "text": "Bize gücünüz yetmeyecek Hayme",
+    "english": "You won't be able to afford us Hayme"
+  },
+  {
+    "seg_id": "seg_0184",
+    "text": "Bugün otağında kim varsa hepsi ölecek",
+    "english": "Whoever's in your tent today, they're all gonna die."
+  },
+  {
+    "seg_id": "seg_0185",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0186",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0187",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0188",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0189",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0190",
+    "text": "Tuğtekin Bey",
+    "english": "Mr. Tugtekin"
+  },
+  {
+    "seg_id": "seg_0191",
+    "text": "Tuğtekin Bey",
+    "english": "Mr. Tugtekin"
+  },
+  {
+    "seg_id": "seg_0192",
+    "text": "Onun kanı sana ananın ak sütü gibi helaldir",
+    "english": "His blood is lawful to you like your mother's white milk."
+  },
+  {
+    "seg_id": "seg_0193",
+    "text": "Lakin sakın ola öfkene yenilmeyesin",
+    "english": "But don't let your anger get the best of you."
+  },
+  {
+    "seg_id": "seg_0194",
+    "text": "Adaletini Türkmen obalarına göster Tuğtekin Bey",
+    "english": "Show your justice to Turkmen obas Mr. Tuğtekin"
+  },
+  {
+    "seg_id": "seg_0195",
+    "text": "Ve o Saadettin Köpek alçağına da göster",
+    "english": "And that Saadettin Show that dog bastard"
+  },
+  {
+    "seg_id": "seg_0196",
+    "text": "Göster ki haklıyken devletin karşısında haksız duruma düşmeyin",
+    "english": "Show that when you're right, don't be wronged in front of the government."
+  },
+  {
+    "seg_id": "seg_0197",
+    "text": "Bunun ölümü bu kadar kolay olmayacak",
+    "english": "It won't be so easy for him to die."
+  },
+  {
+    "seg_id": "seg_0198",
+    "text": "Otağımda iki obanın beylerinin önünde yargılanacaksın",
+    "english": "You'll be tried in front of the gentlemen of two obans in my tent."
+  },
+  {
+    "seg_id": "seg_0199",
+    "text": "Ahalinin önünde utanç içinde infaz edileceksin Gümüştekin",
+    "english": "You will be executed in shame in front of your people."
+  },
+  {
+    "seg_id": "seg_0200",
+    "text": "Herkes sizin nasıl bir soysuz olduğunuzu görecek",
+    "english": "Everyone will see what a degenerate you are."
+  },
+  {
+    "seg_id": "seg_0201",
+    "text": "Kardeşinin de, kızının da",
+    "english": "Neither your brother nor your daughter"
+  },
+  {
+    "seg_id": "seg_0202",
+    "text": "Tuğtekin Bey",
+    "english": "Mr. Tugtekin"
+  },
+  {
+    "seg_id": "seg_0203",
+    "text": "Sen ne dersin?",
+    "english": "What do you think?"
+  },
+  {
+    "seg_id": "seg_0204",
+    "text": "Benim, benim kim olduğumu bilmez misin?",
+    "english": "Don't you know who I am?"
+  },
+  {
+    "seg_id": "seg_0205",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0206",
+    "text": "Anamın da",
+    "english": "My mother's, too."
+  },
+  {
+    "seg_id": "seg_0207",
+    "text": "babamın da katili olduğunu bilirim Gümüştekin",
+    "english": "I know my father is the murderer of the silver"
+  },
+  {
+    "seg_id": "seg_0208",
+    "text": "Hak ettiğin gibi muamele göreceksin",
+    "english": "You'll be treated the way you deserve"
+  },
+  {
+    "seg_id": "seg_0209",
+    "text": "Aytolun",
+    "english": "Aytolun"
+  },
+  {
+    "seg_id": "seg_0210",
+    "text": "Yapma",
+    "english": "Don't."
+  },
+  {
+    "seg_id": "seg_0211",
+    "text": "Gelinlerimi bırak",
+    "english": "Let go of my brides"
+  },
+  {
+    "seg_id": "seg_0212",
+    "text": "Beni al",
+    "english": "Take me"
+  },
+  {
+    "seg_id": "seg_0213",
+    "text": "Ben yanınızda oldukça kimse size ilişemez",
+    "english": "No one can touch you as long as I'm with you."
+  },
+  {
+    "seg_id": "seg_0214",
+    "text": "Kurtulmak istiyorsan beni rehin al",
+    "english": "If you want to get rid of me, take me hostage."
+  },
+  {
+    "seg_id": "seg_0215",
+    "text": "Sonra istediğini yaparsın",
+    "english": "Then you can do whatever you want."
+  },
+  {
+    "seg_id": "seg_0216",
+    "text": "Ana",
+    "english": "Main"
+  },
+  {
+    "seg_id": "seg_0217",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0218",
+    "text": "Bundan gayri",
+    "english": "No more than that."
+  },
+  {
+    "seg_id": "seg_0219",
+    "text": "sizin payınıza",
+    "english": "To your share."
+  },
+  {
+    "seg_id": "seg_0220",
+    "text": "ölmek düşer",
+    "english": "You're gonna die."
+  },
+  {
+    "seg_id": "seg_0221",
+    "text": "Bitti artık",
+    "english": "It's over."
+  },
+  {
+    "seg_id": "seg_0222",
+    "text": "Siz öldükten sonra gerçeği kimse öğrenemeyecek",
+    "english": "After you're dead, no one will ever know the truth."
+  },
+  {
+    "seg_id": "seg_0223",
+    "text": "Aaa",
+    "english": "Oh."
+  },
+  {
+    "seg_id": "seg_0224",
+    "text": "Hayır! Hayır!",
+    "english": "No!"
+  },
+  {
+    "seg_id": "seg_0225",
+    "text": "Hala!",
+    "english": "Aunt!"
+  },
+  {
+    "seg_id": "seg_0226",
+    "text": "Hala!",
+    "english": "Aunt!"
+  },
+  {
+    "seg_id": "seg_0227",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0228",
+    "text": "Aaa",
+    "english": "Oh."
+  },
+  {
+    "seg_id": "seg_0229",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0230",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0231",
+    "text": "Hala!",
+    "english": "Aunt!"
+  },
+  {
+    "seg_id": "seg_0232",
+    "text": "Selcan",
+    "english": "Selcan"
+  },
+  {
+    "seg_id": "seg_0233",
+    "text": "Hala!",
+    "english": "Aunt!"
+  },
+  {
+    "seg_id": "seg_0234",
+    "text": "Ana Halime. Kızım",
+    "english": "Ana Halima, my daughter."
+  },
+  {
+    "seg_id": "seg_0235",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0236",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0237",
+    "text": "Allah'ım",
+    "english": "Oh, my God."
+  },
+  {
+    "seg_id": "seg_0238",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0239",
+    "text": "Hayme Ana iyi misiniz?",
+    "english": "Hayme Ana, are you all right?"
+  },
+  {
+    "seg_id": "seg_0240",
+    "text": "Çabuk peşlerinden git! Çabuk!",
+    "english": "Go after them!"
+  },
+  {
+    "seg_id": "seg_0241",
+    "text": "Emredersin ana",
+    "english": "Yes, ma'am."
+  },
+  {
+    "seg_id": "seg_0242",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0243",
+    "text": "Halime",
+    "english": "Halima"
+  },
+  {
+    "seg_id": "seg_0244",
+    "text": "Halime",
+    "english": "Halima"
+  },
+  {
+    "seg_id": "seg_0245",
+    "text": "Halime",
+    "english": "Halima"
+  },
+  {
+    "seg_id": "seg_0246",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0247",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0248",
+    "text": "Halime",
+    "english": "Halima"
+  },
+  {
+    "seg_id": "seg_0249",
+    "text": "Siz nasıl bir yılanmışsınız ki",
+    "english": "What kind of a snake are you?"
+  },
+  {
+    "seg_id": "seg_0250",
+    "text": "girip koynumuza yuvalanmışsınız",
+    "english": "You've come in and nested in our bosoms."
+  },
+  {
+    "seg_id": "seg_0251",
+    "text": "Onca masum insanın canına nasıl kıydınız siz?",
+    "english": "How did you kill all those innocent people?"
+  },
+  {
+    "seg_id": "seg_0252",
+    "text": "Ha?",
+    "english": "Huh?"
+  },
+  {
+    "seg_id": "seg_0253",
+    "text": "Hepsi, hepsi Ertuğrul'un tuzağı Tuğtekin",
+    "english": "It's all, it's all Ertugrul's trap Tugtekin"
+  },
+  {
+    "seg_id": "seg_0254",
+    "text": "Hakikati gör artık",
+    "english": "♪ See the truth now ♪"
+  },
+  {
+    "seg_id": "seg_0255",
+    "text": "Yoksa vakit çok geç olacak",
+    "english": "Otherwise, it'll be too late."
+  },
+  {
+    "seg_id": "seg_0256",
+    "text": "Hem anamı",
+    "english": "And my mother."
+  },
+  {
+    "seg_id": "seg_0257",
+    "text": "hem babamı",
+    "english": "And my father."
+  },
+  {
+    "seg_id": "seg_0258",
+    "text": "Nasıl kıydınız bu insanlara?",
+    "english": "How did you hurt these people?"
+  },
+  {
+    "seg_id": "seg_0259",
+    "text": "Nasıl bir vicdansızlıktır bu?",
+    "english": "How unconscionable is that?"
+  },
+  {
+    "seg_id": "seg_0260",
+    "text": "Bu nasıl bir vicdansızlıktır?",
+    "english": "How unconscionable is that?"
+  },
+  {
+    "seg_id": "seg_0261",
+    "text": "Konuşsana Allah'ın belası, konuş!",
+    "english": "Speak, damn it, speak!"
+  },
+  {
+    "seg_id": "seg_0262",
+    "text": "Onlar babanın katili",
+    "english": "They're your father's killers."
+  },
+  {
+    "seg_id": "seg_0263",
+    "text": "Babanın katilleri onlardır Tuğtekin",
+    "english": "They're your father's killers, Tugtekin."
+  },
+  {
+    "seg_id": "seg_0264",
+    "text": "Onlara inanma",
+    "english": "Don't believe them."
+  },
+  {
+    "seg_id": "seg_0265",
+    "text": "Emir Saadettin'in öfkesi",
+    "english": "The anger of Emir Saadettin"
+  },
+  {
+    "seg_id": "seg_0266",
+    "text": "obamızı yerle bir eder",
+    "english": "It'll destroy our oba."
+  },
+  {
+    "seg_id": "seg_0267",
+    "text": "Topla kendini",
+    "english": "Pull yourself together."
+  },
+  {
+    "seg_id": "seg_0268",
+    "text": "Bunların hepsinin bedelini ödeyeceksin",
+    "english": "You're gonna pay for all this."
+  },
+  {
+    "seg_id": "seg_0269",
+    "text": "Beni",
+    "english": "Me"
+  },
+  {
+    "seg_id": "seg_0270",
+    "text": "beni Emir Saadettin'e götür",
+    "english": "Take me to Emir Saadettin"
+  },
+  {
+    "seg_id": "seg_0271",
+    "text": "Hakikati o zaman öğreneceksin",
+    "english": "Then you'll know the truth."
+  },
+  {
+    "seg_id": "seg_0272",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0273",
+    "text": "Ah. Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0274",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0275",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0276",
+    "text": "Halime",
+    "english": "Halima"
+  },
+  {
+    "seg_id": "seg_0277",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0278",
+    "text": "Halime yalvarırım aç gözlerini Yalvarırım aç",
+    "english": "I beg you, open your eyes, open your eyes."
+  },
+  {
+    "seg_id": "seg_0279",
+    "text": "Ana, Halime",
+    "english": "Ana, Halima"
+  },
+  {
+    "seg_id": "seg_0280",
+    "text": "Kızım. Gökçe",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0281",
+    "text": "Hemen obaya git, yardım çağır",
+    "english": "Go to the office right now, call for help."
+  },
+  {
+    "seg_id": "seg_0282",
+    "text": "Halime'yi obaya götürmemiz lazım",
+    "english": "We've got to get Halima to the Oba."
+  },
+  {
+    "seg_id": "seg_0283",
+    "text": "Hemen. Koş kızım",
+    "english": "Run, girl."
+  },
+  {
+    "seg_id": "seg_0284",
+    "text": "Çabuk Tamam",
+    "english": "Hurry. All right."
+  },
+  {
+    "seg_id": "seg_0285",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0286",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0287",
+    "text": "Allah'ım onu bize bağışla",
+    "english": "Lord, grant him to us."
+  },
+  {
+    "seg_id": "seg_0288",
+    "text": "Allah'ım yardım et",
+    "english": "God help me."
+  },
+  {
+    "seg_id": "seg_0289",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0290",
+    "text": "Ölümden zerrece korkum yok",
+    "english": "I have no fear of death."
+  },
+  {
+    "seg_id": "seg_0291",
+    "text": "Tek korkum",
+    "english": "My only fear"
+  },
+  {
+    "seg_id": "seg_0292",
+    "text": "obamızın felakete uğramasıdır",
+    "english": "Our oba is a disaster."
+  },
+  {
+    "seg_id": "seg_0293",
+    "text": "Tuğtekin Bey",
+    "english": "Mr. Tugtekin"
+  },
+  {
+    "seg_id": "seg_0294",
+    "text": "Zalime zalimlikle mukabele etmekle kimse abat olmaz",
+    "english": "No one's strong enough to deal with cruel cruelty."
+  },
+  {
+    "seg_id": "seg_0295",
+    "text": "Artık durasın",
+    "english": "You've got to stop."
+  },
+  {
+    "seg_id": "seg_0296",
+    "text": "Hah",
+    "english": "Huh."
+  },
+  {
+    "seg_id": "seg_0297",
+    "text": "Bırak hak ettiği ölümü kendi obasında",
+    "english": "Let him die in his own room"
+  },
+  {
+    "seg_id": "seg_0298",
+    "text": "utanç içinde ahalisinin önünde olsun",
+    "english": "In shame let him be in front of his people."
+  },
+  {
+    "seg_id": "seg_0299",
+    "text": "Bitti gayri Tuğtekin Bey",
+    "english": "It's over, Mr. Tugtekin."
+  },
+  {
+    "seg_id": "seg_0300",
+    "text": "Bitti",
+    "english": "It's over."
+  },
+  {
+    "seg_id": "seg_0301",
+    "text": "Hepsi belalarını bulacak",
+    "english": "They'll all be in trouble."
+  },
+  {
+    "seg_id": "seg_0302",
+    "text": "Gel hele",
+    "english": "Come here."
+  },
+  {
+    "seg_id": "seg_0303",
+    "text": "Gel",
+    "english": "Come."
+  },
+  {
+    "seg_id": "seg_0304",
+    "text": "Topla kendini, gel",
+    "english": "Pull yourself together, come"
+  },
+  {
+    "seg_id": "seg_0305",
+    "text": "Goncagül",
+    "english": "Goncagül"
+  },
+  {
+    "seg_id": "seg_0306",
+    "text": "Ya önüme düşer mahkemenin babanla sana vereceği cezaya razı gelirsin",
+    "english": "Either you step in front of me and settle for the court's punishment with your father."
+  },
+  {
+    "seg_id": "seg_0307",
+    "text": "ya da buradan leşin çıkar",
+    "english": "Or you'll be dead from here."
+  },
+  {
+    "seg_id": "seg_0308",
+    "text": "Öleceğim",
+    "english": "I'm gonna die."
+  },
+  {
+    "seg_id": "seg_0309",
+    "text": "öleceğim belki ama",
+    "english": "Maybe I'll die, but..."
+  },
+  {
+    "seg_id": "seg_0310",
+    "text": "sen de benimle birlikte öleceksin",
+    "english": "You'll die with me."
+  },
+  {
+    "seg_id": "seg_0311",
+    "text": "Gökçe Hatun",
+    "english": "Gökçe Hatun"
+  },
+  {
+    "seg_id": "seg_0312",
+    "text": "İyi misin?",
+    "english": "Are you okay?"
+  },
+  {
+    "seg_id": "seg_0313",
+    "text": "İyiyim",
+    "english": "I'm fine."
+  },
+  {
+    "seg_id": "seg_0314",
+    "text": "Halime Sultan",
+    "english": "Halima Sultan"
+  },
+  {
+    "seg_id": "seg_0315",
+    "text": "Halime Sultan ölüyor",
+    "english": "Halima Sultan is dying."
+  },
+  {
+    "seg_id": "seg_0316",
+    "text": "Çabuk, çabuk obaya haber verin, yardım getirsinler",
+    "english": "Hurry, hurry, tell the oba to get help."
+  },
+  {
+    "seg_id": "seg_0317",
+    "text": "Korkut Bey'imin katillerini bulduk",
+    "english": "We found Mr. Scare's killers."
+  },
+  {
+    "seg_id": "seg_0318",
+    "text": "Neredeler Gökçe Hatun?",
+    "english": "Where are they, Gökçe Hatun?"
+  },
+  {
+    "seg_id": "seg_0319",
+    "text": "Dere yatağının oradalar",
+    "english": "By the creek bed"
+  },
+  {
+    "seg_id": "seg_0320",
+    "text": "Çabuk yardım getir",
+    "english": "Hurry up and get some help."
+  },
+  {
+    "seg_id": "seg_0321",
+    "text": "Acele et. Bir sedye getirsinler",
+    "english": "Hurry up and get a gurney."
+  },
+  {
+    "seg_id": "seg_0322",
+    "text": "Atı bana ver",
+    "english": "Give me the horse."
+  },
+  {
+    "seg_id": "seg_0323",
+    "text": "Yah",
+    "english": "Yah"
+  },
+  {
+    "seg_id": "seg_0324",
+    "text": "Gebertirim seni!",
+    "english": "I'll kill you!"
+  },
+  {
+    "seg_id": "seg_0325",
+    "text": "Öldür bakalım soysuz avrat",
+    "english": "Kill me, you bastard."
+  },
+  {
+    "seg_id": "seg_0326",
+    "text": "Öyle kolay değil",
+    "english": "It's not that easy."
+  },
+  {
+    "seg_id": "seg_0327",
+    "text": "Duru yengem gibi kolay lokma olmayacağım size",
+    "english": "I'm not going to be easy on you like my sister-in-law."
+  },
+  {
+    "seg_id": "seg_0328",
+    "text": "Can almak kolay mıymış göster bakalım",
+    "english": "Show me how easy it is to take a life."
+  },
+  {
+    "seg_id": "seg_0329",
+    "text": "Gel bakalım",
+    "english": "Come here."
+  },
+  {
+    "seg_id": "seg_0330",
+    "text": "Gel!",
+    "english": "Come!"
+  },
+  {
+    "seg_id": "seg_0331",
+    "text": "Gündoğdu'mun gözünün içine baka baka",
+    "english": "Looking into my sunrise's eyes"
+  },
+  {
+    "seg_id": "seg_0332",
+    "text": "sevdiğini söylemek kadar",
+    "english": "As much as saying you love me"
+  },
+  {
+    "seg_id": "seg_0333",
+    "text": "kolay mıymış can almak göster!",
+    "english": "Show me how easy it is to take a life!"
+  },
+  {
+    "seg_id": "seg_0334",
+    "text": "Hah",
+    "english": "Huh."
+  },
+  {
+    "seg_id": "seg_0335",
+    "text": "Hah. Haa",
+    "english": "Huh."
+  },
+  {
+    "seg_id": "seg_0336",
+    "text": "Hah",
+    "english": "Huh."
+  },
+  {
+    "seg_id": "seg_0337",
+    "text": "Onu çok sevdim ben",
+    "english": "I loved her very much."
+  },
+  {
+    "seg_id": "seg_0338",
+    "text": "Çok sevdim",
+    "english": "I love it."
+  },
+  {
+    "seg_id": "seg_0339",
+    "text": "Senin lanetli inadın olmayaydı",
+    "english": "To be your cursed stubbornness."
+  },
+  {
+    "seg_id": "seg_0340",
+    "text": "senin veremediğin bebeleri verecektim ona",
+    "english": "I was gonna give him the babies you couldn't give him."
+  },
+  {
+    "seg_id": "seg_0341",
+    "text": "Senin sevgin yere batsın",
+    "english": "May your love sink to the ground"
+  },
+  {
+    "seg_id": "seg_0342",
+    "text": "Şimdi kararını ver",
+    "english": "Now make up your mind."
+  },
+  {
+    "seg_id": "seg_0343",
+    "text": "Ya burada benim elimde öleceksin",
+    "english": "You will die here by my hand."
+  },
+  {
+    "seg_id": "seg_0344",
+    "text": "ya da obada Gündoğdu'nun elinde",
+    "english": "Or it's in the hands of Gündüz in the Obada."
+  },
+  {
+    "seg_id": "seg_0345",
+    "text": "Karar senin",
+    "english": "It's your call."
+  },
+  {
+    "seg_id": "seg_0346",
+    "text": "Halime",
+    "english": "Halima"
+  },
+  {
+    "seg_id": "seg_0347",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0348",
+    "text": "Allah'ım",
+    "english": "Oh, my God."
+  },
+  {
+    "seg_id": "seg_0349",
+    "text": "Allah'ım oğluma bu acıyı yaşatma yarabbim",
+    "english": "Oh, God, don't put my son through this pain."
+  },
+  {
+    "seg_id": "seg_0350",
+    "text": "Hah",
+    "english": "Huh."
+  },
+  {
+    "seg_id": "seg_0351",
+    "text": "Allah'ım",
+    "english": "Oh, my God."
+  },
+  {
+    "seg_id": "seg_0352",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0353",
+    "text": "Alpler birazdan burada olur Hayme Ana'm",
+    "english": "The Alps will be here soon, my Hayme Mother."
+  },
+  {
+    "seg_id": "seg_0354",
+    "text": "Tamam kızım",
+    "english": "All right, girl."
+  },
+  {
+    "seg_id": "seg_0355",
+    "text": "Halime",
+    "english": "Halima"
+  },
+  {
+    "seg_id": "seg_0356",
+    "text": "Halime yalvarırım aç gözlerini",
+    "english": "I beg you to open your eyes"
+  },
+  {
+    "seg_id": "seg_0357",
+    "text": "Allah'ım sen bize yardım et",
+    "english": "God help us."
+  },
+  {
+    "seg_id": "seg_0358",
+    "text": "Gebermeden evvel bir şey daha bilmen gerekiyor Goncagül",
+    "english": "One more thing you need to know before you die, Goncagül."
+  },
+  {
+    "seg_id": "seg_0359",
+    "text": "Karnımda Gündoğdu'mun evladını taşıyorum",
+    "english": "I carry the son of my sunshine in my belly"
+  },
+  {
+    "seg_id": "seg_0360",
+    "text": "Evladını taşıyorum",
+    "english": "I'm carrying your child."
+  },
+  {
+    "seg_id": "seg_0361",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0362",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0363",
+    "text": "Selcan Hatun",
+    "english": "Selcan Hatun"
+  },
+  {
+    "seg_id": "seg_0364",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0365",
+    "text": "Ah Ah",
+    "english": "Ah Ah"
+  },
+  {
+    "seg_id": "seg_0366",
+    "text": "Ah Ah",
+    "english": "Ah Ah"
+  },
+  {
+    "seg_id": "seg_0367",
+    "text": "Selcan Hatun",
+    "english": "Selcan Hatun"
+  },
+  {
+    "seg_id": "seg_0368",
+    "text": "Kaçtı hatun",
+    "english": "She's gone."
+  },
+  {
+    "seg_id": "seg_0369",
+    "text": "Nerede?",
+    "english": "Where?"
+  },
+  {
+    "seg_id": "seg_0370",
+    "text": "Kaçtı Hemen git",
+    "english": "He ran away. Go now."
+  },
+  {
+    "seg_id": "seg_0371",
+    "text": "İyiysen peşinden gidiyorum",
+    "english": "If you're all right, I'm going after him."
+  },
+  {
+    "seg_id": "seg_0372",
+    "text": "Git!",
+    "english": "Go!"
+  },
+  {
+    "seg_id": "seg_0373",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0374",
+    "text": "Ah. Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0375",
+    "text": "Rabbim sana şükürler olsun",
+    "english": "Thank you, Lord."
+  },
+  {
+    "seg_id": "seg_0376",
+    "text": "Gündoğdu'ma şifalı olacak mantar bunlar",
+    "english": "These are the mushrooms that will cure my sunshine."
+  },
+  {
+    "seg_id": "seg_0377",
+    "text": "Şükürler olsun",
+    "english": "Oh, thank God."
+  },
+  {
+    "seg_id": "seg_0378",
+    "text": "Hah",
+    "english": "Huh."
+  },
+  {
+    "seg_id": "seg_0379",
+    "text": "Aytolun ve Goncagül Hatun, Halime Sultan'ın canına kastetmiş derler",
+    "english": "Aytolun and Goncagül Hatun have claimed Sultan Halima's life."
+  },
+  {
+    "seg_id": "seg_0380",
+    "text": "İkisini de obadan çıkarken gördüm ben",
+    "english": "I saw them both coming out of the room."
+  },
+  {
+    "seg_id": "seg_0381",
+    "text": "Pusatlarını kuşanmışlardı",
+    "english": "They're all dressed up."
+  },
+  {
+    "seg_id": "seg_0382",
+    "text": "Demek bunun için hızlı hızlı giderlerdi",
+    "english": "That's why they'd go so fast."
+  },
+  {
+    "seg_id": "seg_0383",
+    "text": "Hainlere bak sen",
+    "english": "What a traitor."
+  },
+  {
+    "seg_id": "seg_0384",
+    "text": "Gümüştekin'le iş birliği içindelermiş",
+    "english": "They were in cahoots with Silverkin."
+  },
+  {
+    "seg_id": "seg_0385",
+    "text": "Alpler Halime Sultan'ı getirmeye gitmişler",
+    "english": "The Alps went to fetch Halima Sultan."
+  },
+  {
+    "seg_id": "seg_0386",
+    "text": "Öyleymiş",
+    "english": "So it is."
+  },
+  {
+    "seg_id": "seg_0387",
+    "text": "Meğer obaya nifak sokan bunlarmış",
+    "english": "Turns out they're the ones who caused the catacombs."
+  },
+  {
+    "seg_id": "seg_0388",
+    "text": "Ana",
+    "english": "Main"
+  },
+  {
+    "seg_id": "seg_0389",
+    "text": "Selcan",
+    "english": "Selcan"
+  },
+  {
+    "seg_id": "seg_0390",
+    "text": "Ana",
+    "english": "Main"
+  },
+  {
+    "seg_id": "seg_0391",
+    "text": "Nasıl, iyi mi?",
+    "english": "How's he doing?"
+  },
+  {
+    "seg_id": "seg_0392",
+    "text": "Hâlâ baygın",
+    "english": "He's still unconscious."
+  },
+  {
+    "seg_id": "seg_0393",
+    "text": "Goncagül nerede?",
+    "english": "Where's Goncagül?"
+  },
+  {
+    "seg_id": "seg_0394",
+    "text": "Kaçtı ana",
+    "english": "He ran away, Mother."
+  },
+  {
+    "seg_id": "seg_0395",
+    "text": "Abdurrahman peşinden gitti",
+    "english": "Abdurrahman went after him."
+  },
+  {
+    "seg_id": "seg_0396",
+    "text": "Lakin Gündoğdu'mun derdine derman olmaya vesile olan",
+    "english": "But it's a cure for my sunup's troubles."
+  },
+  {
+    "seg_id": "seg_0397",
+    "text": "bak beyimin şifası mantarlar",
+    "english": "Look, my lord's healing mushrooms"
+  },
+  {
+    "seg_id": "seg_0398",
+    "text": "Ben mantarları buldum, o da belasını bulacak",
+    "english": "I found the mushrooms, and he's gonna get his ass kicked."
+  },
+  {
+    "seg_id": "seg_0399",
+    "text": "Hemen git yetiştir kızım",
+    "english": "Go get 'em now, girl."
+  },
+  {
+    "seg_id": "seg_0400",
+    "text": "Hemen hadi",
+    "english": "Now, come on."
+  },
+  {
+    "seg_id": "seg_0401",
+    "text": "Tamam",
+    "english": "Okay."
+  },
+  {
+    "seg_id": "seg_0402",
+    "text": "Kumru gibi kaçtı Hayme Ana",
+    "english": "She ran away like a dove Hayme Ana"
+  },
+  {
+    "seg_id": "seg_0403",
+    "text": "İzini bulamadım",
+    "english": "I couldn't find a trace."
+  },
+  {
+    "seg_id": "seg_0404",
+    "text": "Hah",
+    "english": "Huh."
+  },
+  {
+    "seg_id": "seg_0405",
+    "text": "Aytolun'un namazını kılıp hemen gömün",
+    "english": "Say Aytolun's prayer and bury him now"
+  },
+  {
+    "seg_id": "seg_0406",
+    "text": "Obamı daha fazla kirletmesin",
+    "english": "I don't want my Oba to get any more dirty."
+  },
+  {
+    "seg_id": "seg_0407",
+    "text": "Emredersin Hayme Ana",
+    "english": "Yes, Mother Hayme."
+  },
+  {
+    "seg_id": "seg_0408",
+    "text": "Obaya dönünce yirmi, yirmi beş Alp'e vazife ver",
+    "english": "When you get back to Oba, give twenty, twenty-five to the Alps."
+  },
+  {
+    "seg_id": "seg_0409",
+    "text": "Goncagül'ün peşine düşsünler",
+    "english": "Let them go after Goncagül."
+  },
+  {
+    "seg_id": "seg_0410",
+    "text": "Emredersin Hayme Ana",
+    "english": "Yes, Mother Hayme."
+  },
+  {
+    "seg_id": "seg_0411",
+    "text": "Hadi çabuk olun. Hah",
+    "english": "Come on, hurry up."
+  },
+  {
+    "seg_id": "seg_0412",
+    "text": "Yavaş",
+    "english": "Slow"
+  },
+  {
+    "seg_id": "seg_0413",
+    "text": "Yavaş",
+    "english": "Slow"
+  },
+  {
+    "seg_id": "seg_0414",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0415",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0416",
+    "text": "Kaybedecek vakit yok Tuğtekin Bey",
+    "english": "There's no time to lose, Mr. Tugtekin."
+  },
+  {
+    "seg_id": "seg_0417",
+    "text": "Hemen obaya dönüp mahkeme kurmalıyız",
+    "english": "We need to get back to the office and set up a trial."
+  },
+  {
+    "seg_id": "seg_0418",
+    "text": "Her iki obanın da beyleri hakikati görmeli",
+    "english": "The gentlemen of both obans must see the truth."
+  },
+  {
+    "seg_id": "seg_0419",
+    "text": "Her şeyi bilmeliler",
+    "english": "They must know everything."
+  },
+  {
+    "seg_id": "seg_0420",
+    "text": "Gümüştekin'in uç beyliğini de tanıyan Türkmen obaları da",
+    "english": "Turkmen obas who recognize Silver's capacities"
+  },
+  {
+    "seg_id": "seg_0421",
+    "text": "mahkemenin verdiği kararın ardında durmalı",
+    "english": "He must stand behind the court's decision"
+  },
+  {
+    "seg_id": "seg_0422",
+    "text": "Aksi halde sadece Emir Saadettin'i değil",
+    "english": "Otherwise, it's not just Emir Saadettin."
+  },
+  {
+    "seg_id": "seg_0423",
+    "text": "Türkmen obalarını da karşımıza almış oluruz",
+    "english": "We'll be taking on the Turkmen Obas as well."
+  },
+  {
+    "seg_id": "seg_0424",
+    "text": "Turgut",
+    "english": "Turgut"
+  },
+  {
+    "seg_id": "seg_0425",
+    "text": "Buyur beyim",
+    "english": "Here you are, sir."
+  },
+  {
+    "seg_id": "seg_0426",
+    "text": "Uyandırın şu iti, gidiyoruz",
+    "english": "Wake that dog up. We're leaving."
+  },
+  {
+    "seg_id": "seg_0427",
+    "text": "Eyvallah",
+    "english": "Thanks."
+  },
+  {
+    "seg_id": "seg_0428",
+    "text": "Uyan bakalım çakal",
+    "english": "Wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey, wakey."
+  },
+  {
+    "seg_id": "seg_0429",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0430",
+    "text": "Hesap vakti geldi",
+    "english": "It's time to settle the score."
+  },
+  {
+    "seg_id": "seg_0431",
+    "text": "O soysuz kelleni obanın ortasında yuvarlanırken görür gibiyim",
+    "english": "I can see your degenerate head rolling in the middle of the obama."
+  },
+  {
+    "seg_id": "seg_0432",
+    "text": "Hepiniz belanızı bulacaksınız",
+    "english": "You'll all be in trouble."
+  },
+  {
+    "seg_id": "seg_0433",
+    "text": "Hı. Bak hele",
+    "english": "Well, well, well."
+  },
+  {
+    "seg_id": "seg_0434",
+    "text": "Boncuk gözlerin öyle demez ama",
+    "english": "That's not what your beady eyes say."
+  },
+  {
+    "seg_id": "seg_0435",
+    "text": "Korkudan gözünün feri gitmiştir",
+    "english": "He's scared out of his mind."
+  },
+  {
+    "seg_id": "seg_0436",
+    "text": "Sen hele bir düş önümüze",
+    "english": "Don't you ever get ahead of us."
+  },
+  {
+    "seg_id": "seg_0437",
+    "text": "de o devrilesice boyunu bir görelim",
+    "english": "Let's see how tall he is."
+  },
+  {
+    "seg_id": "seg_0438",
+    "text": "Hah",
+    "english": "Huh."
+  },
+  {
+    "seg_id": "seg_0439",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0440",
+    "text": "Ertuğrul",
+    "english": "Ertuğrul"
+  },
+  {
+    "seg_id": "seg_0441",
+    "text": "Bu it eğer konuşmazsa",
+    "english": "That's the bastard if he doesn't talk."
+  },
+  {
+    "seg_id": "seg_0442",
+    "text": "Emir Saadettin ile olan bağını ispatlayamayız",
+    "english": "We can't prove his connection to Emir Saadettin."
+  },
+  {
+    "seg_id": "seg_0443",
+    "text": "Bizim ispata değil",
+    "english": "Not our proof."
+  },
+  {
+    "seg_id": "seg_0444",
+    "text": "Emir Saadettin'i diz çöktürmeye ihtiyacımız var",
+    "english": "We need to bring Emir Saadettin to his knees."
+  },
+  {
+    "seg_id": "seg_0445",
+    "text": "O gün de er ya da geç gelecek",
+    "english": "That day will come sooner or later"
+  },
+  {
+    "seg_id": "seg_0446",
+    "text": "Eyvallah",
+    "english": "Thanks."
+  },
+  {
+    "seg_id": "seg_0447",
+    "text": "Hazırız beyim",
+    "english": "We're ready, sir."
+  },
+  {
+    "seg_id": "seg_0448",
+    "text": "Gidelim",
+    "english": "Let's go."
+  },
+  {
+    "seg_id": "seg_0449",
+    "text": "Buyur beyim",
+    "english": "Here you are, sir."
+  },
+  {
+    "seg_id": "seg_0450",
+    "text": "Gündoğdu'm",
+    "english": "♪ My sunup ♪"
+  },
+  {
+    "seg_id": "seg_0451",
+    "text": "Kurbanın olayım beyim",
+    "english": "I'll be your sacrifice, my lord."
+  },
+  {
+    "seg_id": "seg_0452",
+    "text": "Hadi ye şunu",
+    "english": "Come on, eat it."
+  },
+  {
+    "seg_id": "seg_0453",
+    "text": "Aç ağzını",
+    "english": "Open your mouth."
+  },
+  {
+    "seg_id": "seg_0454",
+    "text": "Hadi",
+    "english": "Come on."
+  },
+  {
+    "seg_id": "seg_0455",
+    "text": "Bir kaşık daha al",
+    "english": "Have another spoon."
+  },
+  {
+    "seg_id": "seg_0456",
+    "text": "Müsaade var mıdır beyim?",
+    "english": "May I, sir?"
+  },
+  {
+    "seg_id": "seg_0457",
+    "text": "Artuk Bey'im",
+    "english": "Mr. Artuk"
+  },
+  {
+    "seg_id": "seg_0458",
+    "text": "Halime Sultan'ı getirdiler",
+    "english": "They brought Halima Sultan."
+  },
+  {
+    "seg_id": "seg_0459",
+    "text": "İshak",
+    "english": "Isaac"
+  },
+  {
+    "seg_id": "seg_0460",
+    "text": "Sen burada Selcan Hatun'la kalasın",
+    "english": "You stay here with Selcan Hatun."
+  },
+  {
+    "seg_id": "seg_0461",
+    "text": "Bu ilacın tamamını Gündoğdu Bey'ime içiresin",
+    "english": "Make my Mr. Gündü drink all this medicine"
+  },
+  {
+    "seg_id": "seg_0462",
+    "text": "Merak etme beyim",
+    "english": "Don't worry, sir."
+  },
+  {
+    "seg_id": "seg_0463",
+    "text": "El Şafi yüzü suyu hürmetine",
+    "english": "El Shafi face, for the sake of water"
+  },
+  {
+    "seg_id": "seg_0464",
+    "text": "beyimin tek devası bu mantarlardır Selcan Hatun",
+    "english": "My master's only giant is these mushrooms Selcan Hatun"
+  },
+  {
+    "seg_id": "seg_0465",
+    "text": "İnşallah iyi olacaktır",
+    "english": "I hope he'll be all right."
+  },
+  {
+    "seg_id": "seg_0466",
+    "text": "İnşallah Artuk Bey'im",
+    "english": "I hope so, Mr. Artuk."
+  },
+  {
+    "seg_id": "seg_0467",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_0468",
+    "text": "Ya Allah",
+    "english": "O Allah!"
+  },
+  {
+    "seg_id": "seg_0469",
+    "text": "İnşallah yüce rabbim şifasını verecektir",
+    "english": "May the good Lord heal him."
+  },
+  {
+    "seg_id": "seg_0470",
+    "text": "Küllün min indillah",
+    "english": "I'll be damned."
+  },
+  {
+    "seg_id": "seg_0471",
+    "text": "Her şey Allah'tandır Selcan Hatun",
+    "english": "Everything is from God. Selcan Hatun."
+  },
+  {
+    "seg_id": "seg_0472",
+    "text": "İnşallah İshak derviş",
+    "english": "I hope Isaac Dervis"
+  },
+  {
+    "seg_id": "seg_0473",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_0474",
+    "text": "Hadi beyim",
+    "english": "Come on, sir."
+  },
+  {
+    "seg_id": "seg_0475",
+    "text": "Dayan Halime",
+    "english": "Hang in there, Halima."
+  },
+  {
+    "seg_id": "seg_0476",
+    "text": "Yalvarırım dayan Halime",
+    "english": "I beg you, hold on, Halima."
+  },
+  {
+    "seg_id": "seg_0477",
+    "text": "Sen de beben de iyi olacaksınız",
+    "english": "You'll be fine, and I'll be fine."
+  },
+  {
+    "seg_id": "seg_0478",
+    "text": "Ana",
+    "english": "Main"
+  },
+  {
+    "seg_id": "seg_0479",
+    "text": "Kızım",
+    "english": "My daughter."
+  },
+  {
+    "seg_id": "seg_0480",
+    "text": "Kızım tamam",
+    "english": "Girl, it's okay."
+  },
+  {
+    "seg_id": "seg_0481",
+    "text": "Tamam, geçecek",
+    "english": "It's okay. It's okay."
+  },
+  {
+    "seg_id": "seg_0482",
+    "text": "Geldik Halime, yalvarırım dayan",
+    "english": "We're here, Halima, I beg you. Hold on."
+  },
+  {
+    "seg_id": "seg_0483",
+    "text": "Geldik",
+    "english": "We're here."
+  },
+  {
+    "seg_id": "seg_0484",
+    "text": "Ah",
+    "english": "Ah."
+  },
+  {
+    "seg_id": "seg_0485",
+    "text": "Yavaş olasınız. Sakın ola sarsmayasınız",
+    "english": "Take it easy, don't shake it."
+  },
+  {
+    "seg_id": "seg_0486",
+    "text": "Yavaş",
+    "english": "Slow"
+  },
+  {
+    "seg_id": "seg_0487",
+    "text": "Gündoğdu nasıl Artuk Bey'im?",
+    "english": "How's the sunrise, Mr. Artuk?"
+  },
+  {
+    "seg_id": "seg_0488",
+    "text": "Selcan Hatun şifasıyla tam vaktiyle yetişmiştir Hayme Hatun",
+    "english": "Selcan Hatun has grown up just in time for her healing, Hayme Hatun."
+  },
+  {
+    "seg_id": "seg_0489",
+    "text": "İnşallah iyi olacaktır",
+    "english": "I hope he'll be all right."
+  },
+  {
+    "seg_id": "seg_0490",
+    "text": "Hay Allah'ım",
+    "english": "Oh, my God."
+  },
+  {
+    "seg_id": "seg_0491",
+    "text": "Katil Katil",
+    "english": "Killer"
+  },
+  {
+    "seg_id": "seg_0492",
+    "text": "Katil Cezanı çekeceksin",
+    "english": "Killer, you're going to pay for this."
+  },
+  {
+    "seg_id": "seg_0493",
+    "text": "Öldürün, Allah aşkına öldürün",
+    "english": "Kill him, kill him, for God's sake."
+  },
+  {
+    "seg_id": "seg_0494",
+    "text": "Beyimizin katilini bize verin beyim",
+    "english": "Give us our lord's murderer, my lord."
+  },
+  {
+    "seg_id": "seg_0495",
+    "text": "Verin onu bize",
+    "english": "Give it to us"
+  },
+  {
+    "seg_id": "seg_0496",
+    "text": "Katil Katil",
+    "english": "Killer"
+  },
+  {
+    "seg_id": "seg_0497",
+    "text": "Katil Öldürün onu",
+    "english": "Killer, kill him."
+  },
+  {
+    "seg_id": "seg_0498",
+    "text": "Ertuğrul",
+    "english": "Ertuğrul"
+  },
+  {
+    "seg_id": "seg_0499",
+    "text": "Merak etmeyesin Hayme Hatun",
+    "english": "Don't worry, Hayme Hatun"
+  },
+  {
+    "seg_id": "seg_0500",
+    "text": "Biz ilgileniriz",
+    "english": "We'll take care of it."
+  },
+  {
+    "seg_id": "seg_0501",
+    "text": "Katil. Onu bize verin",
+    "english": "Murderer, give him to us."
+  },
+  {
+    "seg_id": "seg_0502",
+    "text": "Katil Katil",
+    "english": "Killer"
+  },
+  {
+    "seg_id": "seg_0503",
+    "text": "Bundan gayri aldığınız her nefese lanet edeceksiniz",
+    "english": "You'll curse every breath you take out of it."
+  },
+  {
+    "seg_id": "seg_0504",
+    "text": "Beni öldürseniz de Emir Saadettin'in",
+    "english": "Even if you kill me, the Emir is Saadettin's."
+  },
+  {
+    "seg_id": "seg_0505",
+    "text": "öfkesinden kurtulamayacaksınız",
+    "english": "You won't be able to get rid of his anger."
+  },
+  {
+    "seg_id": "seg_0506",
+    "text": "Katil. Katil",
+    "english": "Murderer."
+  },
+  {
+    "seg_id": "seg_0507",
+    "text": "Katil. Katil",
+    "english": "Murderer."
+  },
+  {
+    "seg_id": "seg_0508",
+    "text": "Ben uç beyinizim",
+    "english": "♪ I'm the brains of the sky ♪"
+  },
+  {
+    "seg_id": "seg_0509",
+    "text": "Emir Saadettin'in öfkesinden",
+    "english": "From the anger of Emir Saadettin"
+  },
+  {
+    "seg_id": "seg_0510",
+    "text": "hiçbiriniz kurtulamayacaksınız",
+    "english": "None of you will survive."
+  },
+  {
+    "seg_id": "seg_0511",
+    "text": "Daha dün bir uç beyi olarak karşılanırdın bu obada",
+    "english": "Yesterday, you would have been welcomed as a flymaster on this Obada."
+  },
+  {
+    "seg_id": "seg_0512",
+    "text": "Şimdi de sefil bir it olarak karşılanırsın",
+    "english": "And now you'll be welcomed as a miserable bastard."
+  },
+  {
+    "seg_id": "seg_0513",
+    "text": "Sahibin de er ya da geç bu kutlu günden nasibini alacak. Merak etmeyesin",
+    "english": "Sooner or later, your master will get his share of this blessed day."
+  },
+  {
+    "seg_id": "seg_0514",
+    "text": "Aytolun öldü Gümüştekin",
+    "english": "Aytol's dead. Silver's dead."
+  },
+  {
+    "seg_id": "seg_0515",
+    "text": "Goncagül de kaçtı",
+    "english": "Goncagül ran away too."
+  },
+  {
+    "seg_id": "seg_0516",
+    "text": "Lakin bulunup getirildiğinde hak ettiği ceza verilecektir",
+    "english": "But when he is found and brought back, he will be requited for his deeds."
+  },
+  {
+    "seg_id": "seg_0517",
+    "text": "Sen de belanı bulacaksın",
+    "english": "You'll find trouble too"
+  },
+  {
+    "seg_id": "seg_0518",
+    "text": "Hayme Ana",
+    "english": "Hayme Ana"
+  },
+  {
+    "seg_id": "seg_0519",
+    "text": "sen de müsaade edersen",
+    "english": "If you'll excuse me."
+  },
+  {
+    "seg_id": "seg_0520",
+    "text": "iki obanın beylerinin mahkeme kurup bu iti yargılamasını isterim",
+    "english": "I'd like the gentlemen of the two obans to stand trial and judge this bastard."
+  },
+  {
+    "seg_id": "seg_0521",
+    "text": "Adaletin yerine gelmesi için ne gerekirse yapılacaktır Tuğtekin Bey'im",
+    "english": "Whatever it takes to get justice done, Mr. Tugtekin."
+  },
+  {
+    "seg_id": "seg_0522",
+    "text": "Kayılar, Dodurgalılar",
+    "english": "The recordings, the Dodurga."
+  },
+  {
+    "seg_id": "seg_0523",
+    "text": "bugün adalet günü",
+    "english": "Today is the day of justice."
+  },
+  {
+    "seg_id": "seg_0524",
+    "text": "Etimize yapışan bir ur gibi nice vakittir bu katilleri içimizde taşıdık",
+    "english": "How many times have we carried these killers in our midst, like a plant that clings to our flesh?"
+  },
+  {
+    "seg_id": "seg_0525",
+    "text": "Şifa niyetine akıttıkları kanlarla",
+    "english": "With the blood they shed as a cure"
+  },
+  {
+    "seg_id": "seg_0526",
+    "text": "kendimizi yuğduk Bu katilleri otağımıza aldık",
+    "english": "We've got ourselves down We've got these killers on board"
+  },
+  {
+    "seg_id": "seg_0527",
+    "text": "Toyumuza aldık Ağabey, kardeş, ana belledik",
+    "english": "We've got him, brother, brother, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him, we've got him"
+  },
+  {
+    "seg_id": "seg_0528",
+    "text": "Şimdi vakit, bu uru kesip atma vaktidir",
+    "english": "Now, it's time to cut this up."
+  },
+  {
+    "seg_id": "seg_0529",
+    "text": "Bilirim, bu yara geçmeyecek",
+    "english": "I know, this wound won't go away"
+  },
+  {
+    "seg_id": "seg_0530",
+    "text": "Bizler ölene dek bu yarayı içimizde taşıyacağız",
+    "english": "We will carry this wound inside us until we die."
+  },
+  {
+    "seg_id": "seg_0531",
+    "text": "İbretle taşıyacağız ki",
+    "english": "♪ We'll carry it with an example ♪"
+  },
+  {
+    "seg_id": "seg_0532",
+    "text": "bir daha böylesi utançlarla karşılaşmayalım",
+    "english": "Let's never face such shame again."
+  },
+  {
+    "seg_id": "seg_0533",
+    "text": "Rabbim bize böyle bir acı",
+    "english": "Lord, have mercy on us."
+  },
+  {
+    "seg_id": "seg_0534",
+    "text": "böyle bir utanç vermesin",
+    "english": "Don't let it embarrass you."
+  },
+  {
+    "seg_id": "seg_0535",
+    "text": "Âmin beyim",
+    "english": "Amen to that, my lord."
+  },
+  {
+    "seg_id": "seg_0536",
+    "text": "Hepiniz",
+    "english": "All of you."
+  },
+  {
+    "seg_id": "seg_0537",
+    "text": "Ertuğrul'un yalanlarına kandınız",
+    "english": "You fell for Ertugrul's lies."
+  },
+  {
+    "seg_id": "seg_0538",
+    "text": "Devlete isyana kalkışıp",
+    "english": "He tried to rebel against the government."
+  },
+  {
+    "seg_id": "seg_0539",
+    "text": "kardeşimi öldürdünüz",
+    "english": "You killed my brother."
+  },
+  {
+    "seg_id": "seg_0540",
+    "text": "İki obanın felaketi",
+    "english": "The disaster of two obans."
+  },
+  {
+    "seg_id": "seg_0541",
+    "text": "cümle aleme ders olacak",
+    "english": "The sentence will be a public lesson."
+  },
+  {
+    "seg_id": "seg_0542",
+    "text": "Devlete isyan edenin kanının helal olduğunu",
+    "english": "That the blood of those who rebel against the state is lawful"
+  },
+  {
+    "seg_id": "seg_0543",
+    "text": "herkes görecek",
+    "english": "Everyone will see"
+  },
+  {
+    "seg_id": "seg_0544",
+    "text": "Af dileseniz de",
+    "english": "Even if you ask for forgiveness"
+  },
+  {
+    "seg_id": "seg_0545",
+    "text": "kurtulamayacaksınız",
+    "english": "You're not gonna make it."
+  },
+  {
+    "seg_id": "seg_0546",
+    "text": "Turgut, yargı başlayana kadar Gümüştekin'i kafesli çadıra götürün",
+    "english": "Turgut, take Silverkin to the caged tent until the trial begins."
+  },
+  {
+    "seg_id": "seg_0547",
+    "text": "Emredersin Hayme Ana'm. Kalk! Kalk!",
+    "english": "Yes, Mother Hayme, get up!"
+  },
+  {
+    "seg_id": "seg_0548",
+    "text": "Hepiniz belanızı bulacaksınız",
+    "english": "You'll all be in trouble."
+  },
+  {
+    "seg_id": "seg_0549",
+    "text": "Konuşma soysuz!",
+    "english": "Don't talk, you bastard!"
+  },
+  {
+    "seg_id": "seg_0550",
+    "text": "Herkes iyi mi ana?",
+    "english": "Is everyone all right, Ma?"
+  },
+  {
+    "seg_id": "seg_0551",
+    "text": "Selcan'la",
+    "english": "With Selcan."
+  },
+  {
+    "seg_id": "seg_0552",
+    "text": "Selcan'la Halime'yi öldürmeye kalktılar",
+    "english": "They tried to kill Selcan and Halima."
+  },
+  {
+    "seg_id": "seg_0553",
+    "text": "Selcan iyi",
+    "english": "Selcan's fine."
+  },
+  {
+    "seg_id": "seg_0554",
+    "text": "Lakin Halime",
+    "english": "But Halima"
+  },
+  {
+    "seg_id": "seg_0555",
+    "text": "bir darbe aldı Artuk Bey yanında",
+    "english": "He took a hit. He's with Artuk Bey."
+  },
+  {
+    "seg_id": "seg_0556",
+    "text": "Artuk Bey",
+    "english": "Mr. Artuk"
+  },
+  {
+    "seg_id": "seg_0557",
+    "text": "Merak etmeyesin beyim",
+    "english": "Don't worry, sir."
+  },
+  {
+    "seg_id": "seg_0558",
+    "text": "Halime Sultan da evladı da çok iyidir maşallah",
+    "english": "Halima Sultan and his son are very good."
+  },
+  {
+    "seg_id": "seg_0559",
+    "text": "Eyvallah",
+    "english": "Thanks."
+  },
+  {
+    "seg_id": "seg_0560",
+    "text": "İçeri girebilir miyim?",
+    "english": "Can I come in?"
+  },
+  {
+    "seg_id": "seg_0561",
+    "text": "Gir elbet. Halime Sultan da dört gözle seni bekler",
+    "english": "Halima Sultan is looking forward to it."
+  },
+  {
+    "seg_id": "seg_0562",
+    "text": "Ertuğrul",
+    "english": "Ertuğrul"
+  },
+  {
+    "seg_id": "seg_0563",
+    "text": "Halime Sultan",
+    "english": "Halima Sultan"
+  },
+  {
+    "seg_id": "seg_0564",
+    "text": "Ertuğrul, evladımız iyi",
+    "english": "Ertuğrul, our child is fine."
+  },
+  {
+    "seg_id": "seg_0565",
+    "text": "Çok şükür sen de iyisin Halime Sultan",
+    "english": "Thank God you're all right, Halima Sultan."
+  },
+  {
+    "seg_id": "seg_0566",
+    "text": "Çok korktum Ertuğrul Onu koruyamamaktan çok korktum",
+    "english": "I was so scared that I couldn't protect him."
+  },
+  {
+    "seg_id": "seg_0567",
+    "text": "Allah'ın verdiği canı Allah alır Halime Sultan",
+    "english": "God will take the life of God, Sultan Halima."
+  },
+  {
+    "seg_id": "seg_0568",
+    "text": "Obamızın namusunu kurtardınız",
+    "english": "You saved our Oba's honor."
+  },
+  {
+    "seg_id": "seg_0569",
+    "text": "Evladımız da ben de bir ömür boyu seninle gurur duyacağız",
+    "english": "Our child and I will be proud of you for the rest of our lives."
+  },
+  {
+    "seg_id": "seg_0570",
+    "text": "Bırakın beni! Bırakın! Bırakın! Ben sizin uç beyinizim",
+    "english": "Let me go! Let me go! Let me go!"
+  },
+  {
+    "seg_id": "seg_0571",
+    "text": "Bana bunu yapamazsınız",
+    "english": "You can't do this to me."
+  },
+  {
+    "seg_id": "seg_0572",
+    "text": "Allah insana yaşarken de cehennem azabı verir derlerdi de",
+    "english": "And they used to say, \"Allah will punish man while he lives.\""
+  },
+  {
+    "seg_id": "seg_0573",
+    "text": "aha gözlerimle gördüm",
+    "english": "I saw it with my own eyes."
+  },
+  {
+    "seg_id": "seg_0574",
+    "text": "Gösteren rabbime şükürler olsun",
+    "english": "Praise the Lord who shows"
+  },
+  {
+    "seg_id": "seg_0575",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_0576",
+    "text": "Hadi gidelim",
+    "english": "Let's go."
+  },
+  {
+    "seg_id": "seg_0577",
+    "text": "Ertuğrul!",
+    "english": "Ertugrul!"
+  },
+  {
+    "seg_id": "seg_0578",
+    "text": "Ertuğrul!",
+    "english": "Ertugrul!"
+  },
+  {
+    "seg_id": "seg_0579",
+    "text": "Hem senin hem babamın canına kıyan hainler bulundu ana",
+    "english": "Mother, the traitors who killed both you and my father have been found."
+  },
+  {
+    "seg_id": "seg_0580",
+    "text": "Cezaları kesildi",
+    "english": "They've been fined."
+  },
+  {
+    "seg_id": "seg_0581",
+    "text": "İkilikler, fitneler sonunda bitti",
+    "english": "The doubles, the trials are finally over."
+  },
+  {
+    "seg_id": "seg_0582",
+    "text": "Rahat uyuyasın",
+    "english": "You can sleep well."
+  },
+  {
+    "seg_id": "seg_0583",
+    "text": "Şükür ki içine düştüğüm gafletten sonunda kurtuldum",
+    "english": "Thankfully, I'm finally free from the error of my ways."
+  },
+  {
+    "seg_id": "seg_0584",
+    "text": "Bundan böyle hem sana hem obama yaraşır bir bey olacağım",
+    "english": "From now on, I'll be a gentleman worthy of both you and my obama."
+  },
+  {
+    "seg_id": "seg_0585",
+    "text": "Hainler, zalimler, kansızlar bundan böyle Allah'ın izniyle obamızdan ırak olacak",
+    "english": "The betrayers, the wrongdoers, and the deprived will be far away from us by Allah's leave."
+  },
+  {
+    "seg_id": "seg_0586",
+    "text": "Beyim",
+    "english": "Sir"
+  },
+  {
+    "seg_id": "seg_0587",
+    "text": "Dodurga'ya yakışır bir bey olduğunu ispatladın",
+    "english": "You've proven yourself a gentleman worthy of Doduga."
+  },
+  {
+    "seg_id": "seg_0588",
+    "text": "Gayrı rahat olasın. Anan da baban da huzur içindedir",
+    "english": "Be at ease, your parents are at peace."
+  },
+  {
+    "seg_id": "seg_0589",
+    "text": "Beyim",
+    "english": "Sir"
+  },
+  {
+    "seg_id": "seg_0590",
+    "text": "Gayrı diri diri mezara koymayasın beni",
+    "english": "Don't put me in the grave alive"
+  },
+  {
+    "seg_id": "seg_0591",
+    "text": "Sana nasıl güvenebilirim Gökçe?",
+    "english": "How can I trust you, Gökçe?"
+  },
+  {
+    "seg_id": "seg_0592",
+    "text": "Sana inandım. Seni sevdim",
+    "english": "I believed you, I loved you."
+  },
+  {
+    "seg_id": "seg_0593",
+    "text": "Seni otağıma avrat yaptım",
+    "english": "I've made you my servant"
+  },
+  {
+    "seg_id": "seg_0594",
+    "text": "Beni otağıma diri diri gömdüğünü görmez misin?",
+    "english": "Can't you see he buried me alive in my tent?"
+  },
+  {
+    "seg_id": "seg_0595",
+    "text": "Destur",
+    "english": "Desturation"
+  },
+  {
+    "seg_id": "seg_0596",
+    "text": "Ağabeyim nasıl Selcan Hatun?",
+    "english": "How's my brother, Selcan Hatun?"
+  },
+  {
+    "seg_id": "seg_0597",
+    "text": "Dimdik ayağa kalkacak inşallah",
+    "english": "He'll stand up straight, I hope."
+  },
+  {
+    "seg_id": "seg_0598",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_0599",
+    "text": "Sungur, Ertuğrul, bitti mi?",
+    "english": "Sungur, Ertugrul, are you finished?"
+  },
+  {
+    "seg_id": "seg_0600",
+    "text": "Bitti ağabey. Gümüştekin'i obaya getirdik",
+    "english": "It's over, brother."
+  },
+  {
+    "seg_id": "seg_0601",
+    "text": "Peki, o iki yılan?",
+    "english": "And those two snakes?"
+  },
+  {
+    "seg_id": "seg_0602",
+    "text": "Aytolun öldü. Lakin Goncagül kaçtı ağabey",
+    "english": "Aytolun is dead, but Goncagül has escaped."
+  },
+  {
+    "seg_id": "seg_0603",
+    "text": "O soysuz da belasını bulacak beyim",
+    "english": "That bastard's gonna get his ass kicked, too, mister."
+  },
+  {
+    "seg_id": "seg_0604",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_0605",
+    "text": "Sizin gibi yiğit kardeşlerim oldukça",
+    "english": "As long as I have brave brothers and sisters like you"
+  },
+  {
+    "seg_id": "seg_0606",
+    "text": "Selcan gibi avradım oldukça",
+    "english": "As long as I've gone Selcan-like"
+  },
+  {
+    "seg_id": "seg_0607",
+    "text": "Kayıların sırtı yere gelmez",
+    "english": "Apricots don't fall on their backs."
+  },
+  {
+    "seg_id": "seg_0608",
+    "text": "Sözlerinize itibar etmedim",
+    "english": "I didn't honor your words."
+  },
+  {
+    "seg_id": "seg_0609",
+    "text": "Affedin beni",
+    "english": "Forgive me."
+  },
+  {
+    "seg_id": "seg_0610",
+    "text": "Ağabey!",
+    "english": "Brother!"
+  },
+  {
+    "seg_id": "seg_0611",
+    "text": "Artuk Bey istirahat etmesi gerektiğini söyledi",
+    "english": "Mr. Artuk says he needs to rest."
+  },
+  {
+    "seg_id": "seg_0612",
+    "text": "Gündoğdu'm iyi olacak. Merak etmeyin",
+    "english": "My sunrise will be fine, don't worry."
+  },
+  {
+    "seg_id": "seg_0613",
+    "text": "Gidip o soysuza hak ettiğini verin",
+    "english": "Go give that bastard what he deserves."
+  },
+  {
+    "seg_id": "seg_0614",
+    "text": "Eyvallah yenge",
+    "english": "Thank you, sister-in-law."
+  },
+  {
+    "seg_id": "seg_0615",
+    "text": "Allah sizden razı olsun Dodurga'yı bu beladan da kurtardınız",
+    "english": "God bless you, you've saved Dodurga from this trouble."
+  },
+  {
+    "seg_id": "seg_0616",
+    "text": "Gayrı obama huzur geldi",
+    "english": "My other Obama is at peace"
+  },
+  {
+    "seg_id": "seg_0617",
+    "text": "Biz ne ettik Çiçek Hatun?",
+    "english": "What did we do, Flower Chick?"
+  },
+  {
+    "seg_id": "seg_0618",
+    "text": "Asıl sen olmasaydın daha nice kan dökülecekti",
+    "english": "If it weren't for you, there'd be a lot more bloodshed."
+  },
+  {
+    "seg_id": "seg_0619",
+    "text": "Belki hakikat de ortaya çıkmayacaktı",
+    "english": "Maybe the truth won't come out."
+  },
+  {
+    "seg_id": "seg_0620",
+    "text": "Bir derdin olursa nerede olduğumu bilirsin",
+    "english": "If you have any problems, you know where I am."
+  },
+  {
+    "seg_id": "seg_0621",
+    "text": "Müsaadenle",
+    "english": "Excuse me."
+  },
+  {
+    "seg_id": "seg_0622",
+    "text": "Banı Çiçek Hatun",
+    "english": "BANI FLOWER LADIES"
+  },
+  {
+    "seg_id": "seg_0623",
+    "text": "Ya vakti gelip obalarımız ayrı yerlere göç ettiğinde?",
+    "english": "What if it's time for our obas to move to separate locations?"
+  },
+  {
+    "seg_id": "seg_0624",
+    "text": "O vakit seni nerede bulacağım?",
+    "english": "Then where will I find you?"
+  },
+  {
+    "seg_id": "seg_0625",
+    "text": "Her daim yüreğimde olduğunu bil",
+    "english": "Always know that it's in my heart"
+  },
+  {
+    "seg_id": "seg_0626",
+    "text": "Doğan Alp",
+    "english": "Born Alp"
+  },
+  {
+    "seg_id": "seg_0627",
+    "text": "Moğol belasından ve sefaletten beli bükülen Türkmen obaları",
+    "english": "Turkmen obamas bent from Mongol plague and misery"
+  },
+  {
+    "seg_id": "seg_0628",
+    "text": "Gümüştekin ve Köpek'in avuçlarında iyice ezilecekti",
+    "english": "He'd be crushed by the silver and the dog's palms."
+  },
+  {
+    "seg_id": "seg_0629",
+    "text": "Bu mahkemeyi ve mahkemenin akıbetini öğrenen Türkmen beyleri",
+    "english": "Türkmen gentlemen who have learned of this court and the outcome of the court"
+  },
+  {
+    "seg_id": "seg_0630",
+    "text": "nasıl bir beladan kurtulduklarını anlayacak ve bize hak vereceklerdir",
+    "english": "They'll know what trouble they're getting out of and they'll agree with us."
+  },
+  {
+    "seg_id": "seg_0631",
+    "text": "Mahkeme sonrası Saadettin Köpek azgın bir mahluk gibi üzerimize gelecek",
+    "english": "After the trial, the dog will come at us like a raging beast."
+  },
+  {
+    "seg_id": "seg_0632",
+    "text": "İşte o vakit Türkmen beylerinin desteği bizim için çok mühim olacaktır",
+    "english": "Then the support of the Turkmen gentlemen will be very important to us."
+  },
+  {
+    "seg_id": "seg_0633",
+    "text": "Mahkememizin adaleti aşikar olmuş hıyaneti bir bıçak gibi kesecektir",
+    "english": "The justice of our court will cut treason as if it were a knife."
+  },
+  {
+    "seg_id": "seg_0634",
+    "text": "Artuk Bey",
+    "english": "Mr. Artuk"
+  },
+  {
+    "seg_id": "seg_0635",
+    "text": "Tuğtekin Bey de uygun görürse toy mahkemesinin başında sen olasın isterim",
+    "english": "If Mr. Tugtekin agrees, I'd like you to be in charge of the juvenile court."
+  },
+  {
+    "seg_id": "seg_0636",
+    "text": "Hayme Ana doğru der Öfkem, adaletime mani olur",
+    "english": "Hayme says it's true My anger prevents my justice"
+  },
+  {
+    "seg_id": "seg_0637",
+    "text": "Sizler münasip gördüyseniz bana da vazifenin gereğini yapmak düşer",
+    "english": "If you think it's appropriate, it's up to me to do my duty."
+  },
+  {
+    "seg_id": "seg_0638",
+    "text": "O itin kellesini ben almak istemem",
+    "english": "I don't want to take that son of a bitch's head."
+  },
+  {
+    "seg_id": "seg_0639",
+    "text": "Eğer Ertuğrul Bey beni bu gaflet uykusundan uyandırmasaydı",
+    "english": "If Mr. Ertugrul hadn't woken me from this stupid sleep"
+  },
+  {
+    "seg_id": "seg_0640",
+    "text": "dizginlerim hâlâ o itin elinde olacaktı",
+    "english": "I still had my reins in that dog's hand."
+  },
+  {
+    "seg_id": "seg_0641",
+    "text": "Obamda, otağımda at koşturacaklardı",
+    "english": "They were going to ride in my bow, in my bow."
+  },
+  {
+    "seg_id": "seg_0642",
+    "text": "Bu sebeple",
+    "english": "That's why."
+  },
+  {
+    "seg_id": "seg_0643",
+    "text": "Gümüştekin'in kellesini almak Ertuğrul Bey'e düşer",
+    "english": "It's up to Mr. Ertugrul to take Silver's head."
+  },
+  {
+    "seg_id": "seg_0644",
+    "text": "Tuğtekin Bey, Gümüştekin'in kellesi sana helaldir",
+    "english": "Mr. Tugtekin, the head of Silverkin is lawful to you."
+  },
+  {
+    "seg_id": "seg_0645",
+    "text": "Ertuğrul Bey, ısrar ederim",
+    "english": "Mr. Ertugrul, I insist."
+  },
+  {
+    "seg_id": "seg_0646",
+    "text": "O it, kem ruhunu teslim ederken",
+    "english": "While that Mutt delivers his evil spirit"
+  },
+  {
+    "seg_id": "seg_0647",
+    "text": "gözlerinin içine bakıp cehennem ateşini yüreğine salmak isterim",
+    "english": "I'd like to look you in the eye and unleash the fire of hell into your heart."
+  },
+  {
+    "seg_id": "seg_0648",
+    "text": "Eyvallah Tuğtekin Bey. Eyvallah",
+    "english": "Thank you, Mr. Tuğtekin."
+  },
+  {
+    "seg_id": "seg_0649",
+    "text": "Emir Hazretleri, Ertuğrul uç beyimizi esir edip",
+    "english": "Your Highness, Ertugrul will capture our fly master"
+  },
+  {
+    "seg_id": "seg_0650",
+    "text": "obaya götürdü",
+    "english": "He took me to the oba."
+  },
+  {
+    "seg_id": "seg_0651",
+    "text": "Ne dersin be adam?",
+    "english": "What do you say, man?"
+  },
+  {
+    "seg_id": "seg_0652",
+    "text": "Tuğtekin Bey ve Sungur Tekin bir olup askerlerimle beni derdest ettiler",
+    "english": "Tuğtekin Bey and Sungur Tekin are one and they've made trouble with my soldiers."
+  },
+  {
+    "seg_id": "seg_0653",
+    "text": "Tuğtekin mi?",
+    "english": "Tugtekin?"
+  },
+  {
+    "seg_id": "seg_0654",
+    "text": "Evet Emir Hazretleri. Üçü bir olmuşlardı Gümüştekin Bey'imizin de",
+    "english": "Yes, Your Highness, the three of them were one and so was Mr. Silver."
+  },
+  {
+    "seg_id": "seg_0655",
+    "text": "sizin de hain olduğunuzu söylediler",
+    "english": "They said you were a traitor, too."
+  },
+  {
+    "seg_id": "seg_0656",
+    "text": "Demek sonunda devlete isyan ettiler ha?",
+    "english": "So they finally rebelled against the government, huh?"
+  },
+  {
+    "seg_id": "seg_0657",
+    "text": "Askerlerini topla. Kayı Obası'na gidiyoruz",
+    "english": "Gather your troops, we're going to the Abyssian Obama."
+  },
+  {
+    "seg_id": "seg_0658",
+    "text": "Emredersiniz efendim",
+    "english": "Yes, sir."
+  },
+  {
+    "seg_id": "seg_0659",
+    "text": "Korkut Bey'le kan bağım olmadığı için",
+    "english": "Since I'm not related to Mr. Scare"
+  },
+  {
+    "seg_id": "seg_0660",
+    "text": "iki obanın beyleri beni mahkemenin başına getirdiler Gümüştekin Bey",
+    "english": "The gentlemen of the two obans brought me to the head of the court, Mr. Silver."
+  },
+  {
+    "seg_id": "seg_0661",
+    "text": "Tek istediğimiz adalettir Bunu böyle belleyesin",
+    "english": "All we want is justice That's how you know it"
+  },
+  {
+    "seg_id": "seg_0662",
+    "text": "Beni yargılamak hiçbirinizin haddine değildir",
+    "english": "It is not for any of you to judge me."
+  },
+  {
+    "seg_id": "seg_0663",
+    "text": "Kurduğunuz bu çadır mahkemesinden",
+    "english": "From this tent court you set up"
+  },
+  {
+    "seg_id": "seg_0664",
+    "text": "adalet değil, Ertuğrul'un fitnelerinin galip geleceğini bilirim",
+    "english": "I know that Ertugrul's trials will prevail, not justice."
+  },
+  {
+    "seg_id": "seg_0665",
+    "text": "Ne bu mahkemeyi ne de bu mahkemenin vereceği kararı tanımayacağım",
+    "english": "I will not recognize this court or this court's decision."
+  },
+  {
+    "seg_id": "seg_0666",
+    "text": "Siz de bunu böyle belleyesiniz",
+    "english": "That's what you should think."
+  },
+  {
+    "seg_id": "seg_0667",
+    "text": "Mahkeme başlayacaktır. Söyleyeceğin varsa yargılanırken söylersin",
+    "english": "If you have something to say, say it while you're on trial."
+  },
+  {
+    "seg_id": "seg_0668",
+    "text": "Otur hele",
+    "english": "Sit down."
+  },
+  {
+    "seg_id": "seg_0669",
+    "text": "Hiç kimsenin huzurunda diz çökmem ben",
+    "english": "I don't kneel before anyone."
+  },
+  {
+    "seg_id": "seg_0670",
+    "text": "Ol deyince olduran, gönüllerimizi imanla dolduran",
+    "english": "The one who kills when he says, \"Be,\" and fills our hearts with faith."
+  },
+  {
+    "seg_id": "seg_0671",
+    "text": "yüce Allah'ın doksan dokuz adıyla Bismillahirrahmanirrahim",
+    "english": "In the name of Allah, the Most High, the Most Great, the Most Merciful, the Most Merciful,"
+  },
+  {
+    "seg_id": "seg_0672",
+    "text": "Selcan'ın tek başına şifalı mantar toplamaya gittiğini",
+    "english": "That Selcan alone went to get some herbs."
+  },
+  {
+    "seg_id": "seg_0673",
+    "text": "İshak Derviş'ten öğrenmiş Goncagül",
+    "english": "Isaac learned from Dervis Goncagül"
+  },
+  {
+    "seg_id": "seg_0674",
+    "text": "Belli ki Aytolun'a haber etmiş",
+    "english": "He obviously informed Aytolun."
+  },
+  {
+    "seg_id": "seg_0675",
+    "text": "Bu doğru mu İshak Derviş?",
+    "english": "Is that true, Isaac Dervis?"
+  },
+  {
+    "seg_id": "seg_0676",
+    "text": "Doğrudur Artuk Bey",
+    "english": "That's right, Mr. Artuk."
+  },
+  {
+    "seg_id": "seg_0677",
+    "text": "Peki, sonra ne oldu Hayme Hatun?",
+    "english": "So, what happened next, Hayme Hatun?"
+  },
+  {
+    "seg_id": "seg_0678",
+    "text": "Aytolun'la Goncagül gelinlerimi takip etmişler",
+    "english": "Aytolun and Goncagül followed my brides"
+  },
+  {
+    "seg_id": "seg_0679",
+    "text": "Yanıma Abdurrahman Alp'i alıp ben de peşlerinden gittim",
+    "english": "I took Abdurrahman Alp with me and went after them."
+  },
+  {
+    "seg_id": "seg_0680",
+    "text": "Gelinlerimi öldürmeye teşebbüs ederken buldum onları",
+    "english": "I found them attempting to kill my daughters-in-law."
+  },
+  {
+    "seg_id": "seg_0681",
+    "text": "Yalan",
+    "english": "It's a lie."
+  },
+  {
+    "seg_id": "seg_0682",
+    "text": "Bunların hepsi yalan",
+    "english": "It's all a lie."
+  },
+  {
+    "seg_id": "seg_0683",
+    "text": "Kardeşimle kızım masumdurlar",
+    "english": "My brother and my daughter are innocent."
+  },
+  {
+    "seg_id": "seg_0684",
+    "text": "Masumdurlar",
+    "english": "They're innocent."
+  },
+  {
+    "seg_id": "seg_0685",
+    "text": "Ben de Aytolun'u öldürtmek zorunda kaldım",
+    "english": "So I had to kill Aytolun."
+  },
+  {
+    "seg_id": "seg_0686",
+    "text": "Ya sen Selcan Hatun, Goncagül Hatun'u kaçarken takip ettiğini söyledin",
+    "english": "And you, Selcan Hatun, said you followed Goncagül Hatun on the run."
+  },
+  {
+    "seg_id": "seg_0687",
+    "text": "Sonra ne oldu?",
+    "english": "Then what happened?"
+  },
+  {
+    "seg_id": "seg_0688",
+    "text": "Onu yakaladım. Hançeriyle beni öldürmek istedi. Ben de kendimi korudum",
+    "english": "I caught him, he tried to kill me with his dagger, so I defended myself."
+  },
+  {
+    "seg_id": "seg_0689",
+    "text": "Lakin sonra elimden kaçtı Söyleyeceklerim bundan ibarettir",
+    "english": "But that's all I've got to say."
+  },
+  {
+    "seg_id": "seg_0690",
+    "text": "Sungur Tekin Bey",
+    "english": "Mr. Sungur Tekin"
+  },
+  {
+    "seg_id": "seg_0691",
+    "text": "Gümüştekin Bey askerleriyle Ertuğrul Bey'i",
+    "english": "Mr. Silver's men and Mr. Ertugrul"
+  },
+  {
+    "seg_id": "seg_0692",
+    "text": "ve Banı Çiçek'i yakaladığında ne oldu? Bir de senden dinlemek isterim",
+    "english": "I'd like to hear from you."
+  },
+  {
+    "seg_id": "seg_0693",
+    "text": "Ertuğrul Bey'le Tuğtekin Bey'in de anlattığı gibi her şeyi inkâr etti",
+    "english": "As Ertugrul Bey and Tuğtekin Bey said, he denied everything."
+  },
+  {
+    "seg_id": "seg_0694",
+    "text": "Lakin biz adalet istediğimiz için onu obaya",
+    "english": "But since we want justice, let's put him in the room."
+  },
+  {
+    "seg_id": "seg_0695",
+    "text": "beylerin huzuruna getirdik Takdir mahkemenizindir",
+    "english": "We've brought you to the gentlemen's court of appreciation."
+  },
+  {
+    "seg_id": "seg_0696",
+    "text": "Bir diyeceğin var mı Gümüştekin Bey?",
+    "english": "Do you have anything to say, Mr. Silver?"
+  },
+  {
+    "seg_id": "seg_0697",
+    "text": "Bu lanet oyunu bitirin de",
+    "english": "Let's finish this fucking game."
+  },
+  {
+    "seg_id": "seg_0698",
+    "text": "hepiniz belanızı bulun",
+    "english": "All of you, get in trouble."
+  },
+  {
+    "seg_id": "seg_0699",
+    "text": "Bunun hesabını vereceksiniz Vereceksiniz",
+    "english": "You're gonna pay for this. You're gonna pay for this."
+  },
+  {
+    "seg_id": "seg_0700",
+    "text": "Senin bir diyeceğin var mı Ertuğrul Bey?",
+    "english": "Do you have anything to say, Mr. Ertugrul?"
+  },
+  {
+    "seg_id": "seg_0701",
+    "text": "Keşke onu daha önce öldürseydim",
+    "english": "I wish I'd killed him sooner."
+  },
+  {
+    "seg_id": "seg_0702",
+    "text": "Bu işin bir ucu da başka kimselere gider Artuk Bey",
+    "english": "One end of this goes to someone else, Mr. Artuk."
+  },
+  {
+    "seg_id": "seg_0703",
+    "text": "Gümüştekin Bey'in suçu sabittir Mahkemenin huzurunda",
+    "english": "Mr. Silver's crime is stable before the court."
+  },
+  {
+    "seg_id": "seg_0704",
+    "text": "Saadettin Köpek'ten güç alarak cinayetlerini işlediğini",
+    "english": "You've done your killings by taking strength from the Dog."
+  },
+  {
+    "seg_id": "seg_0705",
+    "text": "itiraf etmesi için bir fırsat daha verilmesini isterim sizden",
+    "english": "I'd like to ask you to give him another chance to confess."
+  },
+  {
+    "seg_id": "seg_0706",
+    "text": "Devletimizi içeriden çürüten bir haini ifşa ederek",
+    "english": "By exposing a traitor who rotted inside our government."
+  },
+  {
+    "seg_id": "seg_0707",
+    "text": "ölmeden önce hayırlı bir iş yapmış olur",
+    "english": "He'll be doing a good job before he dies."
+  },
+  {
+    "seg_id": "seg_0708",
+    "text": "Doğru mu bu Gümüştekin? İtiraf edecek misin?",
+    "english": "Is that true, Silver?"
+  },
+  {
+    "seg_id": "seg_0709",
+    "text": "Senin yalanlarına boyun eğmeyeceğim Ertuğrul",
+    "english": "I will not yield to your lies, Ertugrul."
+  },
+  {
+    "seg_id": "seg_0710",
+    "text": "Eğmeyeceğim. Sadece sen değil",
+    "english": "I'm not gonna bend, not just you."
+  },
+  {
+    "seg_id": "seg_0711",
+    "text": "senin yalanlarına ortak olan bütün bu beyler",
+    "english": "All these gentlemen who share your lies."
+  },
+  {
+    "seg_id": "seg_0712",
+    "text": "belalarını bulacaklar",
+    "english": "They'll find their trouble"
+  },
+  {
+    "seg_id": "seg_0713",
+    "text": "Emir Saadettin sana kanan bütün bu ahmaklardan da bunun hesabını soracak",
+    "english": "Emir Saadetti's gonna pay for this from all these fools who've been bleeding on you."
+  },
+  {
+    "seg_id": "seg_0714",
+    "text": "Gümüştekin Bey, haddini bil!",
+    "english": "Mr. Silver, know your place!"
+  },
+  {
+    "seg_id": "seg_0715",
+    "text": "Hiçbirinizden zerrece korkum yoktur",
+    "english": "I have no fear of any of you."
+  },
+  {
+    "seg_id": "seg_0716",
+    "text": "Bunun hesabını vereceksiniz Vereceksiniz",
+    "english": "You're gonna pay for this. You're gonna pay for this."
+  },
+  {
+    "seg_id": "seg_0717",
+    "text": "Konur Alp oğlu Gümüştekin, tanıkların beyanlarından yola çıkılarak",
+    "english": "Speaking from the testimony of the witnesses, of Silver the son of Alp,"
+  },
+  {
+    "seg_id": "seg_0718",
+    "text": "suçun sabit görülmüştür",
+    "english": "Your crime has been seen to be stable."
+  },
+  {
+    "seg_id": "seg_0719",
+    "text": "Aytolun Hatun ve Goncagül Hatun'la bir olup",
+    "english": "With Aytolun Hatun and Goncagül Hatun"
+  },
+  {
+    "seg_id": "seg_0720",
+    "text": "bu cinayetleri işlediğin ispat olunmuştur",
+    "english": "You've been proven to have committed these murders."
+  },
+  {
+    "seg_id": "seg_0721",
+    "text": "Belanızı bulacaksınız",
+    "english": "You'll find trouble"
+  },
+  {
+    "seg_id": "seg_0722",
+    "text": "Tuğtekin Bey, senin infaz için bir diyeceğin var mıdır?",
+    "english": "Mr. Tugtekin, do you have anything to say for the execution?"
+  },
+  {
+    "seg_id": "seg_0723",
+    "text": "Kısas hakkındır",
+    "english": "It's your right to pay for it."
+  },
+  {
+    "seg_id": "seg_0724",
+    "text": "İnfazın Ertuğrul Bey tarafından yapılmasını isterim",
+    "english": "I'd like to be executed by Mr. Ertugrul"
+  },
+  {
+    "seg_id": "seg_0725",
+    "text": "İki obanın da şerefini o kurtarmıştır",
+    "english": "He saved the honor of both obans."
+  },
+  {
+    "seg_id": "seg_0726",
+    "text": "Ölürken gözlerini görmek isterim",
+    "english": "I'd like to see your eyes when you die."
+  },
+  {
+    "seg_id": "seg_0727",
+    "text": "Alpler, suçluyu infaz için otağın önüne götürün",
+    "english": "Alps, take the culprit to the front of the tent for execution."
+  },
+  {
+    "seg_id": "seg_0728",
+    "text": "Ahali, iftiraya uğradım!",
+    "english": "People, I've been framed!"
+  },
+  {
+    "seg_id": "seg_0729",
+    "text": "Ertuğrul'un yalanlarına inanmayın",
+    "english": "Don't believe Ertugrul's lies"
+  },
+  {
+    "seg_id": "seg_0730",
+    "text": "Bu yalanlara inanmayın İnanmayın",
+    "english": "Don't believe these lies Don't believe them"
+  },
+  {
+    "seg_id": "seg_0731",
+    "text": "Kardeşlerim yapmayın",
+    "english": "Brothers, don't."
+  },
+  {
+    "seg_id": "seg_0732",
+    "text": "Ertuğrul'un iftiralarına alet olmayın",
+    "english": "Don't let Ertugrul's slanders get in the way"
+  },
+  {
+    "seg_id": "seg_0733",
+    "text": "Ben masumum",
+    "english": "I'm innocent."
+  },
+  {
+    "seg_id": "seg_0734",
+    "text": "Aytolun Hatun da kızım da masumdurlar",
+    "english": "Aytolun Hatun and my daughter are innocent."
+  },
+  {
+    "seg_id": "seg_0735",
+    "text": "Masumların kanına girdiler Kardeşimi öldürdüler",
+    "english": "They're in the blood of the innocent They killed my brother"
+  },
+  {
+    "seg_id": "seg_0736",
+    "text": "Emir Saadettin bunların hepsinin hesabını sizlerden soracak",
+    "english": "Amir Saadetti will answer to you for all of this."
+  },
+  {
+    "seg_id": "seg_0737",
+    "text": "Ben uç beyinizim",
+    "english": "♪ I'm the brains of the sky ♪"
+  },
+  {
+    "seg_id": "seg_0738",
+    "text": "Yapmayın!",
+    "english": "Don't!"
+  },
+  {
+    "seg_id": "seg_0739",
+    "text": "Uç beyini öldürenlerin hepsinden hesap sorulacaktır",
+    "english": "Anyone who kills the extreme brain will be questioned."
+  },
+  {
+    "seg_id": "seg_0740",
+    "text": "Hepiniz devletin gadrine uğrayacaksınız",
+    "english": "You'll all go to the government's gadrine."
+  },
+  {
+    "seg_id": "seg_0741",
+    "text": "Hepiniz. Hepiniz",
+    "english": "All of you."
+  },
+  {
+    "seg_id": "seg_0742",
+    "text": "Sen Allah katında vereceğin hesabı düşün Gümüştekin Bey",
+    "english": "Consider your reckoning in the sight of God, Mr. Silver."
+  },
+  {
+    "seg_id": "seg_0743",
+    "text": "Şehadet getir",
+    "english": "Testify."
+  },
+  {
+    "seg_id": "seg_0744",
+    "text": "Emir Saadettin Köpek",
+    "english": "Amir Saadettin Dog"
+  },
+  {
+    "seg_id": "seg_0745",
+    "text": "Sultanımız Alaeddin Keykubat adına emrediyorum",
+    "english": "In the name of our Sultan Alaeddin Keykabat, I command you."
+  },
+  {
+    "seg_id": "seg_0746",
+    "text": "İnfazı durdurun",
+    "english": "Stop the execution"
+  },
+  {
+    "seg_id": "seg_0747",
+    "text": "Ertuğrul",
+    "english": "Ertuğrul"
+  },
+  {
+    "seg_id": "seg_0748",
+    "text": "o kılıcı yerine koy",
+    "english": "Put that sword back."
+  },
+  {
+    "seg_id": "seg_0749",
+    "text": "Uç beyim hakkındaki asılsız iddiaları öğrenmek",
+    "english": "To learn false claims about Master Fly"
+  },
+  {
+    "seg_id": "seg_0750",
+    "text": "ve gerçeği açığa çıkartmak için geldim buraya",
+    "english": "And I'm here to expose the truth."
+  },
+  {
+    "seg_id": "seg_0751",
+    "text": "İki obanın beyleri senin uç beyini değil",
+    "english": "The gentlemen of the two obans are not your extreme brain."
+  },
+  {
+    "seg_id": "seg_0752",
+    "text": "Korkut Bey ve Duru Hatun'un katilini yargıladılar",
+    "english": "Mr. Scare and Duru Hatun's killer are on trial"
+  },
+  {
+    "seg_id": "seg_0753",
+    "text": "İnfaz edilecektir",
+    "english": "He will be executed"
+  },
+  {
+    "seg_id": "seg_0754",
+    "text": "Ertuğrul",
+    "english": "Ertuğrul"
+  },
+  {
+    "seg_id": "seg_0755",
+    "text": "haddini aşma!",
+    "english": "Don't overstep!"
+  },
+  {
+    "seg_id": "seg_0756",
+    "text": "Asker!",
+    "english": "Soldier!"
+  },
+  {
+    "seg_id": "seg_0757",
+    "text": "Emir Saadettin Köpek",
+    "english": "Amir Saadettin Dog"
+  },
+  {
+    "seg_id": "seg_0758",
+    "text": "Aytolun'un ve Goncagül'ün, Korkut Bey'i ve karısı Duru Hatun'u öldürdüklerini",
+    "english": "That Aytolun and Goncagül killed Mr. Kork and his wife, Duru Hatun"
+  },
+  {
+    "seg_id": "seg_0759",
+    "text": "kulaklarımla işittim Bu olaya tanıklık ederim",
+    "english": "I've heard it with my ears. I'll witness it."
+  },
+  {
+    "seg_id": "seg_0760",
+    "text": "Kardeşini ve kızını kullandı",
+    "english": "He used his brother and daughter."
+  },
+  {
+    "seg_id": "seg_0761",
+    "text": "Cinayetleri uç beyi olmak için işledi",
+    "english": "He committed the murders to become a flymaster."
+  },
+  {
+    "seg_id": "seg_0762",
+    "text": "Kayıları ve Dodurgaları kendi emellerine alet etmek için kullandı",
+    "english": "He used the apricots and the Dodurga to use them for his own purposes."
+  },
+  {
+    "seg_id": "seg_0763",
+    "text": "İspatın var mı Ertuğrul Bey?",
+    "english": "Do you have proof, Mr. Ertugrul?"
+  },
+  {
+    "seg_id": "seg_0764",
+    "text": "Ben de tanıklık ederim Emir Saadettin",
+    "english": "I'll testify, too, Emir Saadettin."
+  },
+  {
+    "seg_id": "seg_0765",
+    "text": "Yalan. Hepsi yalan Emir Saadettin",
+    "english": "It's a lie. lt's all a lie."
+  },
+  {
+    "seg_id": "seg_0766",
+    "text": "Hayme Hatun'u da Tuğtekin Bey'i de yalanlarıyla zehirledi",
+    "english": "He poisoned Hayme Hatun and Tuğtekin Bey with his lies."
+  },
+  {
+    "seg_id": "seg_0767",
+    "text": "Hepsi yalan",
+    "english": "It's all a lie."
+  },
+  {
+    "seg_id": "seg_0768",
+    "text": "Hayme Hatun",
+    "english": "Hayme Hatun"
+  },
+  {
+    "seg_id": "seg_0769",
+    "text": "Tuğtekin Bey",
+    "english": "Mr. Tugtekin"
+  },
+  {
+    "seg_id": "seg_0770",
+    "text": "Şimdi Ertuğrul'u da Gümüştekin'i de alıp kervansaraya götüreceğim",
+    "english": "Now I'll take Ertugrul and Silverkin to the caravan."
+  },
+  {
+    "seg_id": "seg_0771",
+    "text": "Orada sorgulayacağım",
+    "english": "I'll question him there."
+  },
+  {
+    "seg_id": "seg_0772",
+    "text": "Gerçeği ortaya çıkarmak benim boynumun borcu olsun",
+    "english": "It's my duty to find out the truth."
+  },
+  {
+    "seg_id": "seg_0773",
+    "text": "Aksi takdirde her iki obanın da beyleri",
+    "english": "Otherwise, gentlemen of both obans"
+  },
+  {
+    "seg_id": "seg_0774",
+    "text": "benim gözümde devlete isyan etmiş demektir",
+    "english": "In my eyes, he has rebelled against the government."
+  },
+  {
+    "seg_id": "seg_0775",
+    "text": "Eh ben de gereğini yapmakta tereddüt etmem",
+    "english": "Well, I don't hesitate to do what's necessary."
+  },
+  {
+    "seg_id": "seg_0776",
+    "text": "Bu size son uyarım olsun",
+    "english": "This is your last warning."
+  },
+  {
+    "seg_id": "seg_0777",
+    "text": "Kendi kuyunu kazdın Ertuğrul Kendi kuyunu kazdın",
+    "english": "You've dug your own well, Ertugrul. You've dug your own well."
+  },
+  {
+    "seg_id": "seg_0778",
+    "text": "Yusuf'un yolunda kuyuda ölmekten korkmayız Elhamdülillah",
+    "english": "We are not afraid to die in the well in Joseph's way, Alhamdulillah."
+  },
+  {
+    "seg_id": "seg_0779",
+    "text": "Sen kez söylüyorum Ertuğrul",
+    "english": "I'm telling you this once, Ertugrul."
+  },
+  {
+    "seg_id": "seg_0780",
+    "text": "Uç beyimi bana ver",
+    "english": "Give me my fly master"
+  },
+  {
+    "seg_id": "seg_0781",
+    "text": "Asker!",
+    "english": "Soldier!"
+  },
+  {
+    "seg_id": "seg_0782",
+    "text": "Şimdi istersen alasın uç beyini",
+    "english": "Now you can take the brain if you want"
+  },
+  {
+    "seg_id": "seg_0783",
+    "text": "Sanma ki bunun hesabını vermeyeceksin Ertuğrul",
+    "english": "Don't think you won't pay for this, Ertugrul."
+  },
+  {
+    "seg_id": "seg_0784",
+    "text": "Bundan gayrı devlet düşmanına ne reva görülüyorsa",
+    "english": "No matter what happens to the enemy of the state"
+  },
+  {
+    "seg_id": "seg_0785",
+    "text": "sana da o reva görülecektir",
+    "english": "That will happen to you, too."
+  },
+  {
+    "seg_id": "seg_0786",
+    "text": "Yazıklar olsun sizlere de",
+    "english": "Shame on you, too."
+  },
+  {
+    "seg_id": "seg_0787",
+    "text": "Hepinize yazıklar olsun!",
+    "english": "Shame on all of you!"
+  },
+  {
+    "seg_id": "seg_0788",
+    "text": "Gayrı benden korkun",
+    "english": "Have fear of Me."
+  },
+  {
+    "seg_id": "seg_0789",
+    "text": "Devletin gazabından korkun",
+    "english": "Fear the wrath of the state"
+  },
+  {
+    "seg_id": "seg_0790",
+    "text": "Gayrı çadırlarınıza girdiğinizde huzuru",
+    "english": "When you enter your separate tents, the peace"
+  },
+  {
+    "seg_id": "seg_0791",
+    "text": "döşeğinize yattığınızda uykuyu unutacaksınız",
+    "english": "When you lie on your bed, you'll forget sleep."
+  },
+  {
+    "seg_id": "seg_0792",
+    "text": "Devletin emirine sadakati unutanlar",
+    "english": "Those who forget to obey the government's orders"
+  },
+  {
+    "seg_id": "seg_0793",
+    "text": "bu Ertuğrul alçağına biat edenler",
+    "english": "This is Ertugrül who swears to the scoundrel."
+  },
+  {
+    "seg_id": "seg_0794",
+    "text": "bedelini ödeyeceksiniz",
+    "english": "You'll pay the price."
+  },
+  {
+    "seg_id": "seg_0795",
+    "text": "Kayılar",
+    "english": "Apricots"
+  },
+  {
+    "seg_id": "seg_0796",
+    "text": "Dodurgalılar",
+    "english": "The Dodurgians"
+  },
+  {
+    "seg_id": "seg_0797",
+    "text": "siz Oğuz'un şanlı evlatları",
+    "english": "You glorious sons of Oğuz"
+  },
+  {
+    "seg_id": "seg_0798",
+    "text": "gözlerinizde hiçbir vakit görmediğim korkuyu gördüm",
+    "english": "I've seen the fear in your eyes that I've never seen."
+  },
+  {
+    "seg_id": "seg_0799",
+    "text": "Hiçbir felakette, hiçbir cenkte görmediğim korkuyu",
+    "english": "The fear I've never seen in any disaster, in any battle."
+  },
+  {
+    "seg_id": "seg_0800",
+    "text": "Bu korku bin yıllık devlet sevginizden",
+    "english": "This fear is from a thousand years of government love."
+  },
+  {
+    "seg_id": "seg_0801",
+    "text": "Emir-ül Emir'e itaatten gelir bunu bilirim",
+    "english": "I know it comes from obedience to the Emir."
+  },
+  {
+    "seg_id": "seg_0802",
+    "text": "Lakin",
+    "english": "But"
+  },
+  {
+    "seg_id": "seg_0803",
+    "text": "bu Emir müsveddesinden korkmayasınız",
+    "english": "Don't be afraid of this manuscript."
+  },
+  {
+    "seg_id": "seg_0804",
+    "text": "Yılgınlığa düşmeyesiniz",
+    "english": "Don't be discouraged"
+  },
+  {
+    "seg_id": "seg_0805",
+    "text": "Çünkü siz her daim devletinizin yanında oldunuz",
+    "english": "Because you've always been on the side of your government."
+  },
+  {
+    "seg_id": "seg_0806",
+    "text": "Her daim de olmaya devam edeceksiniz",
+    "english": "You'll always be there."
+  },
+  {
+    "seg_id": "seg_0807",
+    "text": "Devletin içine pusu kuran iblislerden korkmak değil",
+    "english": "It's not fear of demons lurking inside the government."
+  },
+  {
+    "seg_id": "seg_0808",
+    "text": "onların karşısında adaletle durmak bize farz kılınmıştır",
+    "english": "It is prescribed for Us to deal justly with them."
+  },
+  {
+    "seg_id": "seg_0809",
+    "text": "Şimdi gidin",
+    "english": "Now go."
+  },
+  {
+    "seg_id": "seg_0810",
+    "text": "bu uğursuz katillerin bizlerden aldıkları canlar için yas tutun",
+    "english": "Grieve for the lives these evil killers have taken from us."
+  },
+  {
+    "seg_id": "seg_0811",
+    "text": "Mekanları cennet olsun",
+    "english": "May their place be in heaven"
+  },
+  {
+    "seg_id": "seg_0812",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_0813",
+    "text": "Adil davrandık",
+    "english": "We've been fair."
+  },
+  {
+    "seg_id": "seg_0814",
+    "text": "Takvayı elden bırakmadık",
+    "english": "We didn't let go of the piety."
+  },
+  {
+    "seg_id": "seg_0815",
+    "text": "Allah'a karşı gelmekten sakındık",
+    "english": "And we feared Allah."
+  },
+  {
+    "seg_id": "seg_0816",
+    "text": "Şüphesiz ki Allah yaptıklarımızı görendir",
+    "english": "God is Well Aware of what we do."
+  },
+  {
+    "seg_id": "seg_0817",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0818",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0819",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0820",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0821",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0822",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0823",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0824",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0825",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0826",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0827",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0828",
+    "text": "Ateşi var mıdır hâlâ?",
+    "english": "Does he still have a fever?"
+  },
+  {
+    "seg_id": "seg_0829",
+    "text": "Hâlâ inmedi beyim",
+    "english": "He hasn't landed yet, sir."
+  },
+  {
+    "seg_id": "seg_0830",
+    "text": "Bize müsaade edesin Selcan Hatun",
+    "english": "You'll have to excuse us, Selcan Hatun."
+  },
+  {
+    "seg_id": "seg_0831",
+    "text": "Merak etmeyesin. Artuk Bey gereğini yapacaktır Selcan Hatun",
+    "english": "Don't worry, Mr. Aruk will take care of it Selcan Hatun."
+  },
+  {
+    "seg_id": "seg_0832",
+    "text": "Derine girip irini iyice çıkartacağım beyim",
+    "english": "I'm going to go deep and get the pus out of you, sir."
+  },
+  {
+    "seg_id": "seg_0833",
+    "text": "Çok canı yanacak Gündoğdu Bey'imin",
+    "english": "It's gonna hurt my Mr. Gündüz."
+  },
+  {
+    "seg_id": "seg_0834",
+    "text": "Sımsıkı tutasın",
+    "english": "Hold it tight."
+  },
+  {
+    "seg_id": "seg_0835",
+    "text": "Çok yaşa Ertuğrul Bey'im Çok yaşa Ertuğrul Bey'im",
+    "english": "Long live Mr. Ertugrul. Long live Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_0836",
+    "text": "Emir Saadettin'in itibarını iki paralık ettin beyim. Rahat durmayacaktır",
+    "english": "You've ruined Emir Saadettin's reputation, sir."
+  },
+  {
+    "seg_id": "seg_0837",
+    "text": "Saadettin Köpek iki obanın da peşine düşmeyecektir",
+    "english": "The dog won't go after either of the obans."
+  },
+  {
+    "seg_id": "seg_0838",
+    "text": "İtibarını korumak için tedbirler alacağı belli",
+    "english": "It's obvious he'll take precautions to protect his reputation."
+  },
+  {
+    "seg_id": "seg_0839",
+    "text": "Bu olayın üstünü örtecektir. Obalarımızı değil beni düşman belleyecektir",
+    "english": "He'll cover it up, he'll think I'm the enemy, not our Obas."
+  },
+  {
+    "seg_id": "seg_0840",
+    "text": "Senin istediğin de buydu zaten beyim",
+    "english": "That's what you wanted, sir."
+  },
+  {
+    "seg_id": "seg_0841",
+    "text": "O da tıpkı Gümüştekin gibi tuzak kurdukça batacaktır",
+    "english": "He'll sink as long as he's trapped, just like the silver one."
+  },
+  {
+    "seg_id": "seg_0842",
+    "text": "Beyim, yalnız bilmeni isterim ki gayrı Gündoğdu Bey'imin başalpliği bitmiştir",
+    "english": "Sir, I just want you to know that Mr. Gündüz is finished."
+  },
+  {
+    "seg_id": "seg_0843",
+    "text": "Sen ne dersin Artuk Bey?",
+    "english": "What do you think, Mr. Artuk?"
+  },
+  {
+    "seg_id": "seg_0844",
+    "text": "Ahvali iyi değildir",
+    "english": "People aren't good."
+  },
+  {
+    "seg_id": "seg_0845",
+    "text": "Obalarımızın selameti için gereğini yapmak mecburiyetindeyiz",
+    "english": "We must do what is necessary for the welfare of our Obas."
+  },
+  {
+    "seg_id": "seg_0846",
+    "text": "Ben vakti zamanı gelince Hayme Hatun'a anlatacaktım",
+    "english": "I was going to tell Hayme Hatun when the time came."
+  },
+  {
+    "seg_id": "seg_0847",
+    "text": "Lakin önce sen bil istedim",
+    "english": "But I wanted you to know first."
+  },
+  {
+    "seg_id": "seg_0848",
+    "text": "Eyvallah Artuk Bey",
+    "english": "Thank you, Mr. Artuk."
+  },
+  {
+    "seg_id": "seg_0849",
+    "text": "Beyim bilesin ki yalnız olmayacaksın",
+    "english": "Lord, know that you won't be alone."
+  },
+  {
+    "seg_id": "seg_0850",
+    "text": "Eyvallah Artuk Bey, eyvallah",
+    "english": "Thank you, Mr. Artuk. Thank you."
+  },
+  {
+    "seg_id": "seg_0851",
+    "text": "Başlayalım mı beyim?",
+    "english": "Shall we begin, sir?"
+  },
+  {
+    "seg_id": "seg_0852",
+    "text": "Gündoğdu!",
+    "english": "It's daylight!"
+  },
+  {
+    "seg_id": "seg_0853",
+    "text": "Abla, abla, abla, sakin olasın abla",
+    "english": "Sis, sis, sis, calm down, sis."
+  },
+  {
+    "seg_id": "seg_0854",
+    "text": "Az sabır Geçecek. Az sabır",
+    "english": "A little patience will pass."
+  },
+  {
+    "seg_id": "seg_0855",
+    "text": "Gel ablam",
+    "english": "Come, sister."
+  },
+  {
+    "seg_id": "seg_0856",
+    "text": "Gümüştekin Bey’im, andım olsun ki…",
+    "english": "In silver, my lord, by oath..."
+  },
+  {
+    "seg_id": "seg_0857",
+    "text": "…size bunları yapanların yanına koymayacağım",
+    "english": "I'm not gonna put you with the people who did this."
+  },
+  {
+    "seg_id": "seg_0858",
+    "text": "Gözün arkada kalmasın beyim İntikamınızı alana dek…",
+    "english": "Don't worry, sir, until you get your revenge..."
+  },
+  {
+    "seg_id": "seg_0859",
+    "text": "…ne bu obaya ne de Ertuğrul ve sevdiklerine rahat yüzü göstereceğim",
+    "english": "I'm not going to give this oba or Ertugrul and his loved ones any comfort."
+  },
+  {
+    "seg_id": "seg_0860",
+    "text": "Gel hele Tuğtekin Bey’im Hayırdır?",
+    "english": "What's the matter, Mr. Tuğtekin?"
+  },
+  {
+    "seg_id": "seg_0861",
+    "text": "Goncagül’ün peşinden giden Alpler geri döndü",
+    "english": "The Alps that went after Goncagül have returned"
+  },
+  {
+    "seg_id": "seg_0862",
+    "text": "İzini bulamamışlar",
+    "english": "They couldn't track him down."
+  },
+  {
+    "seg_id": "seg_0863",
+    "text": "Kaçacak yeri yoktur Elbet bulunacaktır",
+    "english": "There's no escape for him. He's bound to be found."
+  },
+  {
+    "seg_id": "seg_0864",
+    "text": "Alpler aramaya devam edecek",
+    "english": "The Alps will continue to search"
+  },
+  {
+    "seg_id": "seg_0865",
+    "text": "Hayme Ana, o avrat nefes aldığı sürece benim içim rahat etmeyecektir",
+    "english": "Mother Hayme, as long as she's breathing, I won't rest."
+  },
+  {
+    "seg_id": "seg_0866",
+    "text": "Ne edersin Turgut?",
+    "english": "What do you want, Turtle?"
+  },
+  {
+    "seg_id": "seg_0867",
+    "text": "Hoş geldin beyim",
+    "english": "Welcome, sir."
+  },
+  {
+    "seg_id": "seg_0868",
+    "text": "Turalı yarın Alpliğe ilk adımını atacak",
+    "english": "Headsy's taking his first step into the Alps tomorrow."
+  },
+  {
+    "seg_id": "seg_0869",
+    "text": "Sünnet olacak Ee, Alp pusatsız olur mu hiç?",
+    "english": "There's gonna be circumcision. Well, how can you be without the Alpine stroller?"
+  },
+  {
+    "seg_id": "seg_0870",
+    "text": "Demir babam olaydı…",
+    "english": "My iron father was..."
+  },
+  {
+    "seg_id": "seg_0871",
+    "text": "…Turalı’nın ilk pusatını o yapacaktı",
+    "english": "...he was going to make the first push of the Turk."
+  },
+  {
+    "seg_id": "seg_0872",
+    "text": "Şimdi bu görev bana düşer beyim",
+    "english": "Now it's up to me, sir."
+  },
+  {
+    "seg_id": "seg_0873",
+    "text": "Hey maşallah",
+    "english": "Hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey! hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey,"
+  },
+  {
+    "seg_id": "seg_0874",
+    "text": "Azrail’i olacağı düşmana acırım",
+    "english": "I pity the enemy who will be the reaper"
+  },
+  {
+    "seg_id": "seg_0875",
+    "text": "Senin gibi yiğidin elinde haksızlığın sesi olsun…",
+    "english": "Let a man like you have the voice of injustice..."
+  },
+  {
+    "seg_id": "seg_0876",
+    "text": "…gazabı olsun inşallah",
+    "english": "I hope he has a hard time."
+  },
+  {
+    "seg_id": "seg_0877",
+    "text": "Demiri terbiye eder…",
+    "english": "He disciplines iron..."
+  },
+  {
+    "seg_id": "seg_0878",
+    "text": "…ateşe ruh verirdi",
+    "english": "...the fire gave the soul."
+  },
+  {
+    "seg_id": "seg_0879",
+    "text": "Yaptığı pusatlar kefereye ölüm saçardı",
+    "english": "The pusats he made spread death on the shroud."
+  },
+  {
+    "seg_id": "seg_0880",
+    "text": "Hey gidi koca Deli Demir",
+    "english": "Hey, big Crazy Iron."
+  },
+  {
+    "seg_id": "seg_0881",
+    "text": "İyi o hâl Turgut Bakalım Deli Demir bize neler öğretmiş",
+    "english": "Well, let's see what Turgut Crazy Iron taught us."
+  },
+  {
+    "seg_id": "seg_0882",
+    "text": "Eyvallah beyim Başlayalım o halde",
+    "english": "Thank you, sir. Let's get started."
+  },
+  {
+    "seg_id": "seg_0883",
+    "text": "Başlayalım",
+    "english": "Let's get started."
+  },
+  {
+    "seg_id": "seg_0884",
+    "text": "Ya bismillah",
+    "english": "In the name of God."
+  },
+  {
+    "seg_id": "seg_0885",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_0886",
+    "text": "Haktır Allah!",
+    "english": "God is the Truth!"
+  },
+  {
+    "seg_id": "seg_0887",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_0888",
+    "text": "Haktır Allah!",
+    "english": "God is the Truth!"
+  },
+  {
+    "seg_id": "seg_0889",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_0890",
+    "text": "Haktır Allah!",
+    "english": "God is the Truth!"
+  },
+  {
+    "seg_id": "seg_0891",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_0892",
+    "text": "Haktır Allah!",
+    "english": "God is the Truth!"
+  },
+  {
+    "seg_id": "seg_0893",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_0894",
+    "text": "Haktır Allah!",
+    "english": "God is the Truth!"
+  },
+  {
+    "seg_id": "seg_0895",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_0896",
+    "text": "Haktır Allah!",
+    "english": "God is the Truth!"
+  },
+  {
+    "seg_id": "seg_0897",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_0898",
+    "text": "Haktır Allah!",
+    "english": "God is the Truth!"
+  },
+  {
+    "seg_id": "seg_0899",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_0900",
+    "text": "Haktır Allah!",
+    "english": "God is the Truth!"
+  },
+  {
+    "seg_id": "seg_0901",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_0902",
+    "text": "Haktır Allah!",
+    "english": "God is the Truth!"
+  },
+  {
+    "seg_id": "seg_0903",
+    "text": "“Güneş dolaşamaz kadar geniş çelik dağın”",
+    "english": "▪ A mountain of steel so wide that the sun can't move"
+  },
+  {
+    "seg_id": "seg_0904",
+    "text": "“Ay dolaşamaz altın dağın”",
+    "english": "The moon cannot roam the golden mountain"
+  },
+  {
+    "seg_id": "seg_0905",
+    "text": "“Balta kesmez ulu ağacın”",
+    "english": "The great tree does not cut through the honey."
+  },
+  {
+    "seg_id": "seg_0906",
+    "text": "“Aylı, güneşli, ayaz hakan”",
+    "english": "▪ Monthly, sunny, frosty hakan"
+  },
+  {
+    "seg_id": "seg_0907",
+    "text": "“Çaputlarla süslü bozkırın”",
+    "english": "▪ A decorated steppe with rags"
+  },
+  {
+    "seg_id": "seg_0908",
+    "text": "“Yapraklı mübarek kayın ağacın”",
+    "english": "The blessed father-in-law with the leaves"
+  },
+  {
+    "seg_id": "seg_0909",
+    "text": "“Alevli ateşin sahibi ak yayın”",
+    "english": "The owner of the fiery fire is a white publication."
+  },
+  {
+    "seg_id": "seg_0910",
+    "text": "“Ey Gök Tengri”",
+    "english": "\"O Sky Tengri\""
+  },
+  {
+    "seg_id": "seg_0911",
+    "text": "“Bin kulaklı yer suyum”",
+    "english": "My water with a thousand ears"
+  },
+  {
+    "seg_id": "seg_0912",
+    "text": "“Bulut gözlü buğra hakan”",
+    "english": "fucking bulut eyes."
+  },
+  {
+    "seg_id": "seg_0913",
+    "text": "“Buz ayaklı bey kişi”",
+    "english": "The man with the ice foot is the man."
+  },
+  {
+    "seg_id": "seg_0914",
+    "text": "“Bulut, tay, buğra”",
+    "english": "(Bulut, foy, bugra)"
+  },
+  {
+    "seg_id": "seg_0915",
+    "text": "Cenk edip dolaştığımız nice kan aldığımız…",
+    "english": "We've taken a lot of blood that we've been walking around with."
+  },
+  {
+    "seg_id": "seg_0916",
+    "text": "…nice kan döktüğümüz bu topraklar kutumuz olsun",
+    "english": "...the land where we shed blood is our box."
+  },
+  {
+    "seg_id": "seg_0917",
+    "text": "Kutumuz olsun!",
+    "english": "It's our box!"
+  },
+  {
+    "seg_id": "seg_0918",
+    "text": "Hanlar Hanı Cengiz Han’ın yolundan giden yiğit nökerlerim…",
+    "english": "I'm the brave ones who follow the path of Genghis Khan of Khans..."
+  },
+  {
+    "seg_id": "seg_0919",
+    "text": "…intikam için geldik bu topraklara",
+    "english": "...we came to this land for revenge."
+  },
+  {
+    "seg_id": "seg_0920",
+    "text": "İntikam için",
+    "english": "For revenge."
+  },
+  {
+    "seg_id": "seg_0921",
+    "text": "İntikam için!",
+    "english": "For revenge!"
+  },
+  {
+    "seg_id": "seg_0922",
+    "text": "Han için kanımız sana feda olsun!",
+    "english": "May our blood be on you for the Khan!"
+  },
+  {
+    "seg_id": "seg_0923",
+    "text": "İntikamımız kutlu olsun!",
+    "english": "Happy revenge!"
+  },
+  {
+    "seg_id": "seg_0924",
+    "text": "Emir Saadettin Köpek Hazretleri",
+    "english": "Emir Saadettin Doggy"
+  },
+  {
+    "seg_id": "seg_0925",
+    "text": "Safa geldiniz şairlerim",
+    "english": "You've come to the end of the line, my poets."
+  },
+  {
+    "seg_id": "seg_0926",
+    "text": "Buyurun oturun",
+    "english": "Have a seat."
+  },
+  {
+    "seg_id": "seg_0927",
+    "text": "Safalar sizinle gelir…",
+    "english": "Safas come with you..."
+  },
+  {
+    "seg_id": "seg_0928",
+    "text": "…yokluğunuzla çöl rüzgârları gibi savrulur Emir Saadettin",
+    "english": "...as the desert winds blow away in your absence. You've done your bidding."
+  },
+  {
+    "seg_id": "seg_0929",
+    "text": "Siz bir bahri ummansınız Sizin himmetinizle biz şair kullarınıza da…",
+    "english": "You are indeed the best of those who believe in Allah and His Noble Messengers."
+  },
+  {
+    "seg_id": "seg_0930",
+    "text": "…bahri ummanda bir damla olmak nasip olur",
+    "english": "...to be a drop in the marine hope."
+  },
+  {
+    "seg_id": "seg_0931",
+    "text": "Hakkınızda kıyamet koparmak için…",
+    "english": "To raise hell for you..."
+  },
+  {
+    "seg_id": "seg_0932",
+    "text": "…tebaanız hile ve desise mi yaparlar da…",
+    "english": "...do they cheat and cheat and..."
+  },
+  {
+    "seg_id": "seg_0933",
+    "text": "…böylesine öfkelisiniz Emir Hazretleri?",
+    "english": "...that you're so angry, Your Highness?"
+  },
+  {
+    "seg_id": "seg_0934",
+    "text": "Biliriz ki adaletinizin kılıcından nasiplerini alacaklardır",
+    "english": "We know they'll get their share from the sword of your justice."
+  },
+  {
+    "seg_id": "seg_0935",
+    "text": "Sizin ululuğunuz buradan gelir",
+    "english": "That's where your greatness comes from."
+  },
+  {
+    "seg_id": "seg_0936",
+    "text": "Adalet, ha?",
+    "english": "Justice, huh?"
+  },
+  {
+    "seg_id": "seg_0937",
+    "text": "Adalet",
+    "english": "Justice"
+  },
+  {
+    "seg_id": "seg_0938",
+    "text": "Adalet intikamla gelendir",
+    "english": "Justice is what comes with vengeance."
+  },
+  {
+    "seg_id": "seg_0939",
+    "text": "İntikamın gölgesidir adalet",
+    "english": "Justice is the shadow of vengeance"
+  },
+  {
+    "seg_id": "seg_0940",
+    "text": "Ululuk, mevki sahibi olmak değil",
+    "english": "Greatness, not rank."
+  },
+  {
+    "seg_id": "seg_0941",
+    "text": "ölümle yüz yüze yaşamak hiç değil",
+    "english": "To live face to face with death is not at all"
+  },
+  {
+    "seg_id": "seg_0942",
+    "text": "kazanmayı bilmektir",
+    "english": "It's knowing how to win."
+  },
+  {
+    "seg_id": "seg_0943",
+    "text": "İntikamının hakkını ver ki yücelesin",
+    "english": "Give him the credit for his vengeance."
+  },
+  {
+    "seg_id": "seg_0944",
+    "text": "\"İntikam\"",
+    "english": "\"Revenge.\""
+  },
+  {
+    "seg_id": "seg_0945",
+    "text": "\"İntikam\"",
+    "english": "\"Revenge.\""
+  },
+  {
+    "seg_id": "seg_0946",
+    "text": "\"Ah intikam\"",
+    "english": "\"Oh, revenge.\""
+  },
+  {
+    "seg_id": "seg_0947",
+    "text": "\"Ab-ı hayat\"",
+    "english": "\"My brother's life.\""
+  },
+  {
+    "seg_id": "seg_0948",
+    "text": "\"İntikam en tatlı aşığın nefesi kadar sıcak\"",
+    "english": "\"Revenge is as hot as the breath of the sweetest lover\""
+  },
+  {
+    "seg_id": "seg_0949",
+    "text": "\"Evladın omzuna başını koyması kadar masum intikam\"",
+    "english": "\"As innocent revenge as the child puts his head on his shoulder.\""
+  },
+  {
+    "seg_id": "seg_0950",
+    "text": "Daha önce hiç duymamıştım böyle muhteşem dizeleri",
+    "english": "I've never heard such wonderful lines"
+  },
+  {
+    "seg_id": "seg_0951",
+    "text": "Kim bu büyük şair Emir Hazretleri?",
+    "english": "Who is this great poet, Your Highness?"
+  },
+  {
+    "seg_id": "seg_0952",
+    "text": "Benim",
+    "english": "It's me."
+  },
+  {
+    "seg_id": "seg_0953",
+    "text": "Eyvallah Eyvallah",
+    "english": "Thank you. Thank you."
+  },
+  {
+    "seg_id": "seg_0954",
+    "text": "Hadi yiyin yemeğinizi Soğutmayın",
+    "english": "Come on, eat. Don't cool your food."
+  },
+  {
+    "seg_id": "seg_0955",
+    "text": "Çok şükür ateşin düşmüş beyim",
+    "english": "Thank God your fever's gone, sir."
+  },
+  {
+    "seg_id": "seg_0956",
+    "text": "İyi olacaksın inşallah",
+    "english": "I hope you'll be all right."
+  },
+  {
+    "seg_id": "seg_0957",
+    "text": "İnşallah hatun",
+    "english": "Let's hope so, girl."
+  },
+  {
+    "seg_id": "seg_0958",
+    "text": "Gümüştekin",
+    "english": "The one in the silver."
+  },
+  {
+    "seg_id": "seg_0959",
+    "text": "Ne oldu ona?",
+    "english": "What happened to him?"
+  },
+  {
+    "seg_id": "seg_0960",
+    "text": "Ertuğrul Bey’im kellesini obanın ortasında savurdu",
+    "english": "Ertuğrul Bey threw his head in the middle of the oban"
+  },
+  {
+    "seg_id": "seg_0961",
+    "text": "Hey maşallah",
+    "english": "Hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey! hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey,"
+  },
+  {
+    "seg_id": "seg_0962",
+    "text": "Gündoğdu’m, sana bir diyeceğim var",
+    "english": "It's dawn, I've got something to tell you"
+  },
+  {
+    "seg_id": "seg_0963",
+    "text": "Yüklüyüm",
+    "english": "I'm loaded."
+  },
+  {
+    "seg_id": "seg_0964",
+    "text": "Sana bir evlat vereceğim",
+    "english": "I'll give you a son"
+  },
+  {
+    "seg_id": "seg_0965",
+    "text": "Bunca acının üstüne rabbimin nasip ettiği bu evlat…",
+    "english": "On top of all this pain, this son of my Lord..."
+  },
+  {
+    "seg_id": "seg_0966",
+    "text": "…büyüyüp sana yaraşır bir yiğit olacak, bilirim",
+    "english": "I know he'll grow up to be a man worthy of you."
+  },
+  {
+    "seg_id": "seg_0967",
+    "text": "Olur mu öyle şey?",
+    "english": "No way."
+  },
+  {
+    "seg_id": "seg_0968",
+    "text": "Asıl senin gibi bir anaya yakışır evlat olacak",
+    "english": "He'll be the son of a mother like you."
+  },
+  {
+    "seg_id": "seg_0969",
+    "text": "Yahu kardeş ne düşünürsün böyle?",
+    "english": "Brother, what do you think?"
+  },
+  {
+    "seg_id": "seg_0970",
+    "text": "Derdimin dermanı sende ne arar kardeş?",
+    "english": "What's wrong with you, brother?"
+  },
+  {
+    "seg_id": "seg_0971",
+    "text": "Benim derdim gönül meselesidir dövülecek ayı meselesi değil",
+    "english": "My problem is a matter of heart, not a matter of the bear to be beaten."
+  },
+  {
+    "seg_id": "seg_0972",
+    "text": "Yahu kardeş, öyle kestirip atmayasın hemen Biz ilim ehliyizdir",
+    "english": "Brother, don't let it slip away. We're scholars."
+  },
+  {
+    "seg_id": "seg_0973",
+    "text": "Ne diyorsun kardeş ya? Ne ilimi, ne ehli?",
+    "english": "What are you talking about, brother?"
+  },
+  {
+    "seg_id": "seg_0974",
+    "text": "Kardeş sen anlat hele, anlat",
+    "english": "Brother, you tell me, you tell me."
+  },
+  {
+    "seg_id": "seg_0975",
+    "text": "Anlat hele kardeş bana",
+    "english": "Tell me about it, brother."
+  },
+  {
+    "seg_id": "seg_0976",
+    "text": "Banı Çiçek’e hatunum olur musun diyeceğim",
+    "english": "I'll tell Mr. Flower if you'll be my girl."
+  },
+  {
+    "seg_id": "seg_0977",
+    "text": "Diyeceğim de…",
+    "english": "I'll tell you what..."
+  },
+  {
+    "seg_id": "seg_0978",
+    "text": "…nasıl diyeceğim onu bilmiyorum",
+    "english": "I don't know how to say it."
+  },
+  {
+    "seg_id": "seg_0979",
+    "text": "Kardeş, ben de devlet kurup devlet yıkacaksın sandıydım",
+    "english": "Brother, I thought you were going to build a state and destroy a state."
+  },
+  {
+    "seg_id": "seg_0980",
+    "text": "Bak kardeş, diyeceksin ki…",
+    "english": "Look, brother, you're gonna say..."
+  },
+  {
+    "seg_id": "seg_0981",
+    "text": "…aha bu gönlüm alev aldı…",
+    "english": "...my heart is on fire..."
+  },
+  {
+    "seg_id": "seg_0982",
+    "text": "…intizarın beni yaktı kavurdu",
+    "english": "Your suicide burned me."
+  },
+  {
+    "seg_id": "seg_0983",
+    "text": "Anlamadım kardeş, ne diyeceğim?",
+    "english": "I'm sorry, bro, you know what?"
+  },
+  {
+    "seg_id": "seg_0984",
+    "text": "Bak, son kez söyleyeceğim",
+    "english": "Look, I'm gonna tell you one last time."
+  },
+  {
+    "seg_id": "seg_0985",
+    "text": "Gönlüm alev aldı, intizarın beni yaktı kavurdu",
+    "english": "My heart caught fire, your attacker burned me"
+  },
+  {
+    "seg_id": "seg_0986",
+    "text": "İyiymiş vallahi",
+    "english": "That's good."
+  },
+  {
+    "seg_id": "seg_0987",
+    "text": "Aha bu gönlüm alev aldı…",
+    "english": "Oh, that heart of mine is on fire..."
+  },
+  {
+    "seg_id": "seg_0988",
+    "text": "…intizarın beni yakıp kavurdu",
+    "english": "Your suicide burned me to the ground."
+  },
+  {
+    "seg_id": "seg_0989",
+    "text": "Heh",
+    "english": "Heh."
+  },
+  {
+    "seg_id": "seg_0990",
+    "text": "Başka ne diyeceğim?",
+    "english": "What else do I say?"
+  },
+  {
+    "seg_id": "seg_0991",
+    "text": "Şöyle devam edeceksin Diyeceksin ki…",
+    "english": "You're gonna go on and on and on and on and you're gonna say..."
+  },
+  {
+    "seg_id": "seg_0992",
+    "text": "…bakışların bir ok gibi gönlümü delip geçti",
+    "english": "Your gaze has pierced my heart like an arrow."
+  },
+  {
+    "seg_id": "seg_0993",
+    "text": "Güzelliğin bir kuyu, ben içine düşerim Yusuf misali",
+    "english": "Your beauty is a well, I fall into it like Joseph"
+  },
+  {
+    "seg_id": "seg_0994",
+    "text": "Issız bir çölde kuru bir yaprak gibiyim",
+    "english": "I'm like a dry leaf in a desert"
+  },
+  {
+    "seg_id": "seg_0995",
+    "text": "Kardeş, sen bunları nereden biliyorsun ya?",
+    "english": "Brother, how do you know all this?"
+  },
+  {
+    "seg_id": "seg_0996",
+    "text": "İlim kardeş, ilim",
+    "english": "Science brother, science"
+  },
+  {
+    "seg_id": "seg_0997",
+    "text": "İlim ehline sual olmaz",
+    "english": "No questions asked the scholar."
+  },
+  {
+    "seg_id": "seg_0998",
+    "text": "Hem Geyikli kardeşin dediği gibi…",
+    "english": "And like your brother with the deer said..."
+  },
+  {
+    "seg_id": "seg_0999",
+    "text": "…söyleyene değil kardeş söyletene bakacaksın",
+    "english": "...not the one who tells you, but the one who tells you."
+  },
+  {
+    "seg_id": "seg_1000",
+    "text": "Söyletene bakacaksın kardeş",
+    "english": "You'll see who's talking, brother."
+  },
+  {
+    "seg_id": "seg_1001",
+    "text": "Gönlüm alev aldı",
+    "english": "My heart is on fire"
+  },
+  {
+    "seg_id": "seg_1002",
+    "text": "İntizarın beni…",
+    "english": "I don't want you to..."
+  },
+  {
+    "seg_id": "seg_1003",
+    "text": "Bu şifayı yaraya iyice süreceksin Banı Çiçek Hatun",
+    "english": "You're going to put this healing into the wound."
+  },
+  {
+    "seg_id": "seg_1004",
+    "text": "Allah senden razı olsun Artuk Bey",
+    "english": "God bless you, Mr. Artuk."
+  },
+  {
+    "seg_id": "seg_1005",
+    "text": "Benim bakmam gereken hastalar vardır Sen dediklerimi yapasın",
+    "english": "I've got patients to take care of. You do as I say."
+  },
+  {
+    "seg_id": "seg_1006",
+    "text": "Allah şifanı versin",
+    "english": "May God heal you"
+  },
+  {
+    "seg_id": "seg_1007",
+    "text": "Yaran nasıldır Çiçek Hatun?",
+    "english": "How's your wound, Flower Girl?"
+  },
+  {
+    "seg_id": "seg_1008",
+    "text": "Sağ olasın Doğan Alp İyidir",
+    "english": "Thank you. Born Alpine is fine."
+  },
+  {
+    "seg_id": "seg_1009",
+    "text": "Artık Bey’in verdiği şifayla daha iyi olacak inşallah",
+    "english": "He'll be better off now with the healing of the Lord"
+  },
+  {
+    "seg_id": "seg_1010",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_1011",
+    "text": "İnşallah Çiçek Hatun İnşallah",
+    "english": "Let's hope so."
+  },
+  {
+    "seg_id": "seg_1012",
+    "text": "Çiçek Hatun gönlün beni yakmıştır",
+    "english": "The flower lady's heart has set me on fire"
+  },
+  {
+    "seg_id": "seg_1013",
+    "text": "Nasıl bir göz varsa artık sende…",
+    "english": "Whatever eyes you've got..."
+  },
+  {
+    "seg_id": "seg_1014",
+    "text": "…ok gibi kalbimi deldi",
+    "english": "...he pierced my heart like an ocean."
+  },
+  {
+    "seg_id": "seg_1015",
+    "text": "Sen bir kuyusun…",
+    "english": "You're a well..."
+  },
+  {
+    "seg_id": "seg_1016",
+    "text": "…ben de içine düştüm",
+    "english": "And I fell in it."
+  },
+  {
+    "seg_id": "seg_1017",
+    "text": "Sen bir çöl gibisin, ben de sende kayboldum",
+    "english": "You're like a desert, and I'm lost."
+  },
+  {
+    "seg_id": "seg_1018",
+    "text": "Sen neler dersin Doğan Alp?",
+    "english": "What do you think, Born Alpine?"
+  },
+  {
+    "seg_id": "seg_1019",
+    "text": "Vallahi ben de bilmiyorum ki ne diyorum",
+    "english": "I don't know what I'm talking about."
+  },
+  {
+    "seg_id": "seg_1020",
+    "text": "Ulan Bamsı!",
+    "english": "Yo, Bamsi!"
+  },
+  {
+    "seg_id": "seg_1021",
+    "text": "Aman!",
+    "english": "Oh, my!"
+  },
+  {
+    "seg_id": "seg_1022",
+    "text": "Haydi Allah!",
+    "english": "Come on, God!"
+  },
+  {
+    "seg_id": "seg_1023",
+    "text": "Ben böyle lafları bilmem Çiçek Hatun",
+    "english": "I don't know that kind of language, Flower Chick."
+  },
+  {
+    "seg_id": "seg_1024",
+    "text": "Banı Çiçek, hatunum ol isterim",
+    "english": "I want you to be my girl."
+  },
+  {
+    "seg_id": "seg_1025",
+    "text": "Beni erin kabul et isterim",
+    "english": "I'd like you to accept me as a private."
+  },
+  {
+    "seg_id": "seg_1026",
+    "text": "Madem öyle dersin…",
+    "english": "Well, if you say so..."
+  },
+  {
+    "seg_id": "seg_1027",
+    "text": "…o halde canına can gönlüne derman olurum",
+    "english": "...then I'll give you a heart-to-heart."
+  },
+  {
+    "seg_id": "seg_1028",
+    "text": "Bundan gayrı senin çadırın benim sarayım…",
+    "english": "Other than that, your tent is my palace..."
+  },
+  {
+    "seg_id": "seg_1029",
+    "text": "…hayatın, cennetim olur",
+    "english": "Your life will be my paradise."
+  },
+  {
+    "seg_id": "seg_1030",
+    "text": "Derdin azığım neşen baharım olur",
+    "english": "Your sorrows will be my joy and my spring"
+  },
+  {
+    "seg_id": "seg_1031",
+    "text": "Ömrüm, sana ömür olur",
+    "english": "My life will be your life"
+  },
+  {
+    "seg_id": "seg_1032",
+    "text": "Doğan Alp?",
+    "english": "Born Alpine?"
+  },
+  {
+    "seg_id": "seg_1033",
+    "text": "Doğan Alp?",
+    "english": "Born Alpine?"
+  },
+  {
+    "seg_id": "seg_1034",
+    "text": "Aha!",
+    "english": "Aha!"
+  },
+  {
+    "seg_id": "seg_1035",
+    "text": "Oh, şükür",
+    "english": "Oh, thank God."
+  },
+  {
+    "seg_id": "seg_1036",
+    "text": "Ben sana…",
+    "english": "I didn't mean to..."
+  },
+  {
+    "seg_id": "seg_1037",
+    "text": "Ben…",
+    "english": "I..."
+  },
+  {
+    "seg_id": "seg_1038",
+    "text": "…ben anlamadım",
+    "english": "I don't understand."
+  },
+  {
+    "seg_id": "seg_1039",
+    "text": "Sen şimdi bana hatunum olur musun dedim diye he dedin değil mi?",
+    "english": "You just said you'd be my girl, didn't you?"
+  },
+  {
+    "seg_id": "seg_1040",
+    "text": "He dedim",
+    "english": "I said, \"Yeah.\""
+  },
+  {
+    "seg_id": "seg_1041",
+    "text": "Ben hatunum…",
+    "english": "I'm a chick..."
+  },
+  {
+    "seg_id": "seg_1042",
+    "text": "…ben, hatunum olur musun dedim sen he dedin yani?",
+    "english": "I said, \"Will you be my girl?\" You said, \"Yeah\"?"
+  },
+  {
+    "seg_id": "seg_1043",
+    "text": "He dedin, hatunum olacaksın? Evet, Doğan Alp",
+    "english": "You said you'd be my girl?"
+  },
+  {
+    "seg_id": "seg_1044",
+    "text": "O vakit ben gidip beyime diyeyim böyle böyle diye",
+    "english": "Then I'll go and tell my master so."
+  },
+  {
+    "seg_id": "seg_1045",
+    "text": "Ki benim Ertuğrul Bey’im gelip seni Tuğtekin Bey’inden istesin o vakit",
+    "english": "That my Ertugrul Bey will come and ask for you from Tuğtekin Bey."
+  },
+  {
+    "seg_id": "seg_1046",
+    "text": "Hee, olur",
+    "english": "Yeah, okay."
+  },
+  {
+    "seg_id": "seg_1047",
+    "text": "He dedin değil mi?",
+    "english": "You said yes, didn't you?"
+  },
+  {
+    "seg_id": "seg_1048",
+    "text": "He dedim",
+    "english": "I said, \"Yeah.\""
+  },
+  {
+    "seg_id": "seg_1049",
+    "text": "He dedi",
+    "english": "He said yes."
+  },
+  {
+    "seg_id": "seg_1050",
+    "text": "Allah!",
+    "english": "Allah!"
+  },
+  {
+    "seg_id": "seg_1051",
+    "text": "Allah!",
+    "english": "Allah!"
+  },
+  {
+    "seg_id": "seg_1052",
+    "text": "Halime Sultan",
+    "english": "Halima Sultan"
+  },
+  {
+    "seg_id": "seg_1053",
+    "text": "Neden kalktın?",
+    "english": "What are you doing up?"
+  },
+  {
+    "seg_id": "seg_1054",
+    "text": "Artuk Bey dinlenmen gerektiğini söylemişti",
+    "english": "Mr. Artuk said you should rest."
+  },
+  {
+    "seg_id": "seg_1055",
+    "text": "Ben iyiyim Ertuğrul Bey’im",
+    "english": "I'm fine, Mr. Ertugrul."
+  },
+  {
+    "seg_id": "seg_1056",
+    "text": "Sen merak etmeyesin",
+    "english": "Don't worry about it."
+  },
+  {
+    "seg_id": "seg_1057",
+    "text": "Evladımız acıktım der durur",
+    "english": "Our child says he's hungry"
+  },
+  {
+    "seg_id": "seg_1058",
+    "text": "Acıkınca da tekmeleri pek bir sert oluyor",
+    "english": "And when he's hungry, his kicks are hard."
+  },
+  {
+    "seg_id": "seg_1059",
+    "text": "Hem böyle hayırlı bir günde sizinle birlikte olmak isterim",
+    "english": "Besides, I'd like to be with you on a good day like this."
+  },
+  {
+    "seg_id": "seg_1060",
+    "text": "Destur var mı beyim?",
+    "english": "Is there a sign, sir?"
+  },
+  {
+    "seg_id": "seg_1061",
+    "text": "Gel Abdurrahman",
+    "english": "Come Abdurrahman"
+  },
+  {
+    "seg_id": "seg_1062",
+    "text": "Ertuğrul Bey’im, Doğan Alp sizi görmek ister",
+    "english": "Ertuğrul Beyim, Doğan Alpine wants to see you."
+  },
+  {
+    "seg_id": "seg_1063",
+    "text": "Bir haller olmuş belli ki Yerinde duramaz",
+    "english": "There's been a situation where it can't be stopped."
+  },
+  {
+    "seg_id": "seg_1064",
+    "text": "Gelsin hele",
+    "english": "Let him come."
+  },
+  {
+    "seg_id": "seg_1065",
+    "text": "Beyim, müsaadenle bir dileğim olacak senden",
+    "english": "Sir, if you'll excuse me, I have a request for you."
+  },
+  {
+    "seg_id": "seg_1066",
+    "text": "De hele Doğan, nedir bu halin?",
+    "english": "What's wrong with you?"
+  },
+  {
+    "seg_id": "seg_1067",
+    "text": "Derdimin dermanı sendedir beyim",
+    "english": "You're the answer to my problem, my lord."
+  },
+  {
+    "seg_id": "seg_1068",
+    "text": "Bilirsin, Banı Çiçek’le ben…",
+    "english": "You know, me and Bani Flower..."
+  },
+  {
+    "seg_id": "seg_1069",
+    "text": "Ne vakit isteyelim Tuğtekin Bey’imizden Banı Çiçek Hatun'u?",
+    "english": "When should we ask for Bani Flower Hatun from Tuğtekin Bey?"
+  },
+  {
+    "seg_id": "seg_1070",
+    "text": "Hayme Ana’mla sen ne vakit dilersen beyim",
+    "english": "Whenever you and Hayme Ana wish, sir."
+  },
+  {
+    "seg_id": "seg_1071",
+    "text": "Biz hazırız",
+    "english": "We're ready."
+  },
+  {
+    "seg_id": "seg_1072",
+    "text": "İyi",
+    "english": "Good."
+  },
+  {
+    "seg_id": "seg_1073",
+    "text": "Yarın gece isteriz Tuğtekin Bey’den",
+    "english": "We'll ask Tuğtekin Bey for tomorrow night"
+  },
+  {
+    "seg_id": "seg_1074",
+    "text": "Bahara da iki aşığın kavuşmasıyla gireriz",
+    "english": "We'll enter the spring with two lovers."
+  },
+  {
+    "seg_id": "seg_1075",
+    "text": "Allah senden razı olsun beyim",
+    "english": "God bless you, sir."
+  },
+  {
+    "seg_id": "seg_1076",
+    "text": "Lam Elif",
+    "english": "(Alphabets of the Arabic language - Allah, and to whomever He reveals, know their precise meanings.)"
+  },
+  {
+    "seg_id": "seg_1077",
+    "text": "Çok şükür oba hainlerden temizlendi",
+    "english": "Thank God the Oba is free of traitors."
+  },
+  {
+    "seg_id": "seg_1078",
+    "text": "Bundan gayrı hey şey güzel olacak",
+    "english": "Other than that, hey, it's gonna be nice."
+  },
+  {
+    "seg_id": "seg_1079",
+    "text": "Değil mi Turalı?",
+    "english": "Right, Turalı?"
+  },
+  {
+    "seg_id": "seg_1080",
+    "text": "Doğru dersin Turgut Alp’im",
+    "english": "You're right, Turgut Alps."
+  },
+  {
+    "seg_id": "seg_1081",
+    "text": "Artuk Bey beni tez vakitte sünnet edecek ve bana ilk pusatımı verecek",
+    "english": "Mr. Artuk will soon have me circumcised and give me my first straw."
+  },
+  {
+    "seg_id": "seg_1082",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_1083",
+    "text": "Hay Turalı Alp’ime bak be!",
+    "english": "Look at my Tured Alpine!"
+  },
+  {
+    "seg_id": "seg_1084",
+    "text": "Aslan parçası mübarek Maşallah, maşallah",
+    "english": "The lion's piece is blessed Mashallah, a very good one."
+  },
+  {
+    "seg_id": "seg_1085",
+    "text": "Yahu kardeşler bu huzur güzel şeymiş vallahi",
+    "english": "Sisters, this peace is a beautiful thing."
+  },
+  {
+    "seg_id": "seg_1086",
+    "text": "Ben de bundan gayrı tahsilime daha fazla devam edeceğim",
+    "english": "I'm going to continue my education further than that."
+  },
+  {
+    "seg_id": "seg_1087",
+    "text": "Hmm",
+    "english": "Hmm."
+  },
+  {
+    "seg_id": "seg_1088",
+    "text": "Eyvallah Bamsı",
+    "english": "Thank you, Bamsi."
+  },
+  {
+    "seg_id": "seg_1089",
+    "text": "Söyle bakalım, yok mudur bize nasihatlerin?",
+    "english": "Tell me, don't you have any advice for us?"
+  },
+  {
+    "seg_id": "seg_1090",
+    "text": "İlminden faydalanmak isteriz",
+    "english": "We'd like to take advantage of your knowledge."
+  },
+  {
+    "seg_id": "seg_1091",
+    "text": "Kardeş, ilim ehline yakışan anlatarak değil…",
+    "english": "Brother, it's not like a scholar's tale..."
+  },
+  {
+    "seg_id": "seg_1092",
+    "text": "Hı?",
+    "english": "Huh?"
+  },
+  {
+    "seg_id": "seg_1093",
+    "text": "…tecrübe ederek nasihat vermektir",
+    "english": "...to give advice by procrastinating."
+  },
+  {
+    "seg_id": "seg_1094",
+    "text": "Eyvallah",
+    "english": "Thanks."
+  },
+  {
+    "seg_id": "seg_1095",
+    "text": "Bamsı Alp, biz garip dervişlerin duygusuna tercüman olmuştur",
+    "english": "Bamsik Alp has been able to translate into the feeling of us strange dervishes."
+  },
+  {
+    "seg_id": "seg_1096",
+    "text": "Kardeş, hakikati sindirmek zor iştir",
+    "english": "Brother, truth is hard to swallow"
+  },
+  {
+    "seg_id": "seg_1097",
+    "text": "Hakikate talip olan kişinin beti benzi soluktur",
+    "english": "The person who seeks the truth is pale"
+  },
+  {
+    "seg_id": "seg_1098",
+    "text": "İlim ehli için safa az, cefa boldur kardeşim",
+    "english": "For the people of knowledge there is little and much suffering, my brother."
+  },
+  {
+    "seg_id": "seg_1099",
+    "text": "Hı hı",
+    "english": "Mm-hmm."
+  },
+  {
+    "seg_id": "seg_1100",
+    "text": "Ben de Bamsı neden böyle bir deri bir kemik kaldı derim",
+    "english": "I'll tell you why Bamsu's so skinny."
+  },
+  {
+    "seg_id": "seg_1101",
+    "text": "Hay Allah Demek bundanmış",
+    "english": "Oh, my gosh, that's what this is about."
+  },
+  {
+    "seg_id": "seg_1102",
+    "text": "Öyle mi dersin kardeş?",
+    "english": "You think so, brother?"
+  },
+  {
+    "seg_id": "seg_1103",
+    "text": "Bu tahsil hayatı beni zafiyete düşürmüştür",
+    "english": "This collection life has left me weak."
+  },
+  {
+    "seg_id": "seg_1104",
+    "text": "Kardeş, benim yemem lazım",
+    "english": "Brother, I have to eat."
+  },
+  {
+    "seg_id": "seg_1105",
+    "text": "Kuzu yok mudur, kuzu?",
+    "english": "Isn't there lamb, lamb?"
+  },
+  {
+    "seg_id": "seg_1106",
+    "text": "Var kardeş, var",
+    "english": "There's a brother, there's a brother"
+  },
+  {
+    "seg_id": "seg_1107",
+    "text": "Merak etmeyesin sana koca bir kuzu keseceğim",
+    "english": "Don't worry. I'll cut you a big lamb."
+  },
+  {
+    "seg_id": "seg_1108",
+    "text": "Kes kardeşim, kes",
+    "english": "Cut, brother, cut."
+  },
+  {
+    "seg_id": "seg_1109",
+    "text": "Koç kes, kuzu kes",
+    "english": "Coach cut, lamb cut"
+  },
+  {
+    "seg_id": "seg_1110",
+    "text": "Bamsı Alp’im, sen neden ilim öğrenmek istersin?",
+    "english": "Why do you want to learn science?"
+  },
+  {
+    "seg_id": "seg_1111",
+    "text": "Kardeş, Allah bizi muhatap almıştır",
+    "english": "Brother, God has taken care of us."
+  },
+  {
+    "seg_id": "seg_1112",
+    "text": "Bize Kuranı Kerim indirmiştir",
+    "english": "It is He who has sent down to us the Qur'an."
+  },
+  {
+    "seg_id": "seg_1113",
+    "text": "Şimdi eğer ben onu okumazsam…",
+    "english": "Now, if I don't read it..."
+  },
+  {
+    "seg_id": "seg_1114",
+    "text": "…nankörlük etmiş olurum",
+    "english": "...I'd be ungrateful."
+  },
+  {
+    "seg_id": "seg_1115",
+    "text": "Eyvallah",
+    "english": "Thanks."
+  },
+  {
+    "seg_id": "seg_1116",
+    "text": "Eyvallah kardeş",
+    "english": "Thanks, bro."
+  },
+  {
+    "seg_id": "seg_1117",
+    "text": "Allah!",
+    "english": "Allah!"
+  },
+  {
+    "seg_id": "seg_1118",
+    "text": "Hayırdır Doğan?",
+    "english": "What's up, Dogan?"
+  },
+  {
+    "seg_id": "seg_1119",
+    "text": "Banı Çiçek hatunum olmayı kabul etti kardeşler",
+    "english": "The brothers agreed to be my flower girl."
+  },
+  {
+    "seg_id": "seg_1120",
+    "text": "Yarın Hayme Ana ile Ertuğrul Bey’im gidip Tuğtekin Bey’den isteyecekler",
+    "english": "Tomorrow, Mother Hayme and Mr. Ertugrul will go and ask Mr. Tuğtekin"
+  },
+  {
+    "seg_id": "seg_1121",
+    "text": "Hay aslanım benim be!",
+    "english": "Oh, my God!"
+  },
+  {
+    "seg_id": "seg_1122",
+    "text": "Heyt be koçum!",
+    "english": "Hey, man!"
+  },
+  {
+    "seg_id": "seg_1123",
+    "text": "Maşallah sana! Hayırlı olsun",
+    "english": "May God bless you!"
+  },
+  {
+    "seg_id": "seg_1124",
+    "text": "Kardeşim!",
+    "english": "Brother!"
+  },
+  {
+    "seg_id": "seg_1125",
+    "text": "Ayı, ayı!",
+    "english": "Bear, bear!"
+  },
+  {
+    "seg_id": "seg_1126",
+    "text": "Gel ulan buraya!",
+    "english": "Get the fuck over here!"
+  },
+  {
+    "seg_id": "seg_1127",
+    "text": "Heyt be!",
+    "english": "Oh, man!"
+  },
+  {
+    "seg_id": "seg_1128",
+    "text": "Bismillahirrahmanirrahim",
+    "english": "In the name of Allah, the Most Gracious, the Most Merciful."
+  },
+  {
+    "seg_id": "seg_1129",
+    "text": "Selamünaleyküm",
+    "english": "Salaam alaikum."
+  },
+  {
+    "seg_id": "seg_1130",
+    "text": "Aleykümselam Buyur ağabey",
+    "english": "Peace be upon you, brother."
+  },
+  {
+    "seg_id": "seg_1131",
+    "text": "Yok kardeşim Yahu…",
+    "english": "No, brother..."
+  },
+  {
+    "seg_id": "seg_1132",
+    "text": "Gel",
+    "english": "Come."
+  },
+  {
+    "seg_id": "seg_1133",
+    "text": "Anamın aşından yemeyen şifa bulamaz dediler…",
+    "english": "They said anyone who doesn't eat from my mother's vaccine can't find a cure."
+  },
+  {
+    "seg_id": "seg_1134",
+    "text": "…Sungur kardeşim iyi bilir, biz de kalktık geldik",
+    "english": "...Sungur knows my brother, so we're up and about."
+  },
+  {
+    "seg_id": "seg_1135",
+    "text": "Hoş gelmişsiniz",
+    "english": "Welcome."
+  },
+  {
+    "seg_id": "seg_1136",
+    "text": "Gel oğul",
+    "english": "Come on, son."
+  },
+  {
+    "seg_id": "seg_1137",
+    "text": "Hoş geldin",
+    "english": "Welcome."
+  },
+  {
+    "seg_id": "seg_1138",
+    "text": "Kızım, hoş geldin Hoş bulduk ana",
+    "english": "My daughter, welcome Welcome Mother"
+  },
+  {
+    "seg_id": "seg_1139",
+    "text": "Buyur yenge Sağ olasın",
+    "english": "Yes, sister-in-law. Thank you."
+  },
+  {
+    "seg_id": "seg_1140",
+    "text": "Otur Sungur",
+    "english": "Sit down, Sungur"
+  },
+  {
+    "seg_id": "seg_1141",
+    "text": "Haydi bakalım",
+    "english": "Let's go."
+  },
+  {
+    "seg_id": "seg_1142",
+    "text": "Buyur abi Sağ ol kardeşim",
+    "english": "Here you go. Thank you, brother."
+  },
+  {
+    "seg_id": "seg_1143",
+    "text": "Ana Sağ ol oğul",
+    "english": "Thank you, son."
+  },
+  {
+    "seg_id": "seg_1144",
+    "text": "Hadi bakalım Bismillahirrahmanirrahim",
+    "english": "Come on, Bismillah."
+  },
+  {
+    "seg_id": "seg_1145",
+    "text": "Destur var mı Hayme Ana?",
+    "english": "Do you have a sign, Hayme Ana?"
+  },
+  {
+    "seg_id": "seg_1146",
+    "text": "Gel Abdurrahman",
+    "english": "Come Abdurrahman"
+  },
+  {
+    "seg_id": "seg_1147",
+    "text": "Hayme Ana, Dündar Bey’im ve Yiğit Alp’ten haber getirdi bir ulak",
+    "english": "Hayme Ana, Dündar Beyim and Hero Alpine have brought news of a messenger"
+  },
+  {
+    "seg_id": "seg_1148",
+    "text": "Kısmetse birkaç güne kadar burada olacaklarmış",
+    "english": "Hopefully they'll be here in a few days."
+  },
+  {
+    "seg_id": "seg_1149",
+    "text": "Çok şükür",
+    "english": "Thank God."
+  },
+  {
+    "seg_id": "seg_1150",
+    "text": "Allah’ım sana şükürler olsun",
+    "english": "Thank you, God."
+  },
+  {
+    "seg_id": "seg_1151",
+    "text": "Evlatlarımla aynı sofraya oturacağım",
+    "english": "I'll sit at the table with my boys."
+  },
+  {
+    "seg_id": "seg_1152",
+    "text": "Göç vakti geldiğinde evlatlarımın yanımda olduğunu bilmek var ya…",
+    "english": "You know, when it's time to emigrate, knowing that I have my sons with me..."
+  },
+  {
+    "seg_id": "seg_1153",
+    "text": "…gayrı hiçbir şeyden çekinmem",
+    "english": "I'm not afraid of anything else."
+  },
+  {
+    "seg_id": "seg_1154",
+    "text": "Damarlarımızdaki kanı kurutan ihanet de bitmiştir gayrı",
+    "english": "The betrayal that dried the blood out of our veins is over."
+  },
+  {
+    "seg_id": "seg_1155",
+    "text": "Bu bahar bize huzur ve adalet getirsin inşallah",
+    "english": "May this spring bring us peace and justice"
+  },
+  {
+    "seg_id": "seg_1156",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_1157",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_1158",
+    "text": "Hadi buyurun",
+    "english": "Come on in."
+  },
+  {
+    "seg_id": "seg_1159",
+    "text": "Beyim",
+    "english": "Sir"
+  },
+  {
+    "seg_id": "seg_1160",
+    "text": "Gayrı aramızda bir sır kalsın istemem",
+    "english": "I don't want to keep a secret between us."
+  },
+  {
+    "seg_id": "seg_1161",
+    "text": "Her sır dönüp dolaşıp dağlanmış yaralarımızı daha da kanatır",
+    "english": "Every secret turns around and makes our cauterized wounds bleed even more."
+  },
+  {
+    "seg_id": "seg_1162",
+    "text": "Başka ne sırrın var Gökçe?",
+    "english": "What other secrets do you have, Gökçe?"
+  },
+  {
+    "seg_id": "seg_1163",
+    "text": "Kurdoğlu’nun bir adamı vardı",
+    "english": "Kurdoğlu had a man"
+  },
+  {
+    "seg_id": "seg_1164",
+    "text": "Gümüştekin gibi obaya lanet saçardı",
+    "english": "He'd curse the obama like in silver."
+  },
+  {
+    "seg_id": "seg_1165",
+    "text": "Ertuğrul Bey’im ağır yaralıydı",
+    "english": "Mr. Ertugrul was badly wounded."
+  },
+  {
+    "seg_id": "seg_1166",
+    "text": "Ölümle cebelleşirken bu adam onu öldürmeye geldi",
+    "english": "While he was struggling with death, this man came to kill him."
+  },
+  {
+    "seg_id": "seg_1167",
+    "text": "Ben de oradaydım",
+    "english": "I was there."
+  },
+  {
+    "seg_id": "seg_1168",
+    "text": "Ertuğrul Bey’imi korumak isterken…",
+    "english": "Ertugrul Bey wanted to protect my..."
+  },
+  {
+    "seg_id": "seg_1169",
+    "text": "…hançeriyle beni ağır yaraladı",
+    "english": "...he hurt me badly with his dagger."
+  },
+  {
+    "seg_id": "seg_1170",
+    "text": "Bu yaranın",
+    "english": "Of this wound"
+  },
+  {
+    "seg_id": "seg_1171",
+    "text": "benden kadınlığımı almasından korkarım beyim",
+    "english": "I'm afraid she'll take my womanhood, sir."
+  },
+  {
+    "seg_id": "seg_1172",
+    "text": "Sana bir evlat verememekten",
+    "english": "I can't give you a son"
+  },
+  {
+    "seg_id": "seg_1173",
+    "text": "Emir Hazretleri",
+    "english": "Your Highness"
+  },
+  {
+    "seg_id": "seg_1174",
+    "text": "Tüccar Abdullah, Tebriz’den gelmiş Size mühim haberleri varmış",
+    "english": "Trader Abdullah came from Tebriz. He has important news for you."
+  },
+  {
+    "seg_id": "seg_1175",
+    "text": "Tüccar Abdullah mı?",
+    "english": "Trader Abdullah?"
+  },
+  {
+    "seg_id": "seg_1176",
+    "text": "Al onu içeriye Ama üstünü iyice ara",
+    "english": "Take him in, but search him thoroughly."
+  },
+  {
+    "seg_id": "seg_1177",
+    "text": "Üzerinde pusat namına tek şey bırakma. Hadi",
+    "english": "Don't leave anything on it in the name of pusat."
+  },
+  {
+    "seg_id": "seg_1178",
+    "text": "Emredersiniz Emir Hazretleri",
+    "english": "Yes, Your Highness."
+  },
+  {
+    "seg_id": "seg_1179",
+    "text": "Bu kadar tedbire gerek yoktu Saadettin",
+    "english": "You didn't have to be so careful."
+  },
+  {
+    "seg_id": "seg_1180",
+    "text": "Geçmişte bana ettiklerini Amuderya’nın kutlu suyuna atıp öyle geldim",
+    "english": "I just threw what you've done to me in the holy water of Amuderia."
+  },
+  {
+    "seg_id": "seg_1181",
+    "text": "Ögeday’ın seni ordusundan attığını duydum",
+    "english": "I heard the item threw you out of his army."
+  },
+  {
+    "seg_id": "seg_1182",
+    "text": "Yetmemiş, bir de başına ödül koymuş",
+    "english": "It's not enough, he's got a bounty on his head."
+  },
+  {
+    "seg_id": "seg_1183",
+    "text": "Ben de Ertuğrul’un…",
+    "english": "I'm Ertugrul.."
+  },
+  {
+    "seg_id": "seg_1184",
+    "text": "…pek güvendiğin itinin kellesini alıp…",
+    "english": "...take the head of the dog you trust so much..."
+  },
+  {
+    "seg_id": "seg_1185",
+    "text": "…itibarını yerle bir ettiğini duydum",
+    "english": "I've heard that you've destroyed your reputation."
+  },
+  {
+    "seg_id": "seg_1186",
+    "text": "Ne istersin?",
+    "english": "What do you want?"
+  },
+  {
+    "seg_id": "seg_1187",
+    "text": "Ertuğrul’u",
+    "english": "Ertugruluu"
+  },
+  {
+    "seg_id": "seg_1188",
+    "text": "Tıpkı senin istediğin gibi",
+    "english": "Just like you wanted."
+  },
+  {
+    "seg_id": "seg_1189",
+    "text": "Seni öldürmemden korkmaz mısın?",
+    "english": "Aren't you afraid I'll kill you?"
+  },
+  {
+    "seg_id": "seg_1190",
+    "text": "Ah Saadettin ah",
+    "english": "Ah Saadettin ah"
+  },
+  {
+    "seg_id": "seg_1191",
+    "text": "Bugüne kadar bana yazdığın bütün mektuplar elimde",
+    "english": "I've got every letter you've ever written me."
+  },
+  {
+    "seg_id": "seg_1192",
+    "text": "O mektupları sultanın görürse ne olur dersin?",
+    "english": "What do you think will happen if the sultan sees those letters?"
+  },
+  {
+    "seg_id": "seg_1193",
+    "text": "Ne istersin?",
+    "english": "What do you want?"
+  },
+  {
+    "seg_id": "seg_1194",
+    "text": "Söyledim",
+    "english": "I told you."
+  },
+  {
+    "seg_id": "seg_1195",
+    "text": "Ertuğrul’u",
+    "english": "Ertugruluu"
+  },
+  {
+    "seg_id": "seg_1196",
+    "text": "Tek başına yapacaksın ha o işi?",
+    "english": "You're gonna do it on your own, huh?"
+  },
+  {
+    "seg_id": "seg_1197",
+    "text": "Yalnız değilim Saadettin",
+    "english": "I'm not alone. You're happy."
+  },
+  {
+    "seg_id": "seg_1198",
+    "text": "Duydum. Ögeday’ın ordusundan attığı birkaç çapulcuyla gezermişsin",
+    "english": "I heard you've been traveling with a few marauders who've been thrown out of the army."
+  },
+  {
+    "seg_id": "seg_1199",
+    "text": "Adamlarım Moğol ordusunun en acımasız katilleri",
+    "english": "My men are the most ruthless assassins in the Mongol army."
+  },
+  {
+    "seg_id": "seg_1200",
+    "text": "E bir de sen varsın",
+    "english": "And then there's you."
+  },
+  {
+    "seg_id": "seg_1201",
+    "text": "En çok da sana güvenirim",
+    "english": "I trust you most of all."
+  },
+  {
+    "seg_id": "seg_1202",
+    "text": "O kafandan ne geçiyor Noyan?",
+    "english": "What's going on in that head of yours, Noyan?"
+  },
+  {
+    "seg_id": "seg_1203",
+    "text": "Anlatayım",
+    "english": "I'll tell you."
+  },
+  {
+    "seg_id": "seg_1204",
+    "text": "Adamlarım çapul ister, ganimet ister",
+    "english": "My men want spoils, they want spoils"
+  },
+  {
+    "seg_id": "seg_1205",
+    "text": "Altın peşindeler",
+    "english": "They're after gold"
+  },
+  {
+    "seg_id": "seg_1206",
+    "text": "Sen de bu topraklarda huzurun bozulmasını istemezsin",
+    "english": "And you don't want to ruin the peace in this land."
+  },
+  {
+    "seg_id": "seg_1207",
+    "text": "Ne adamlarımın ganimet için obalara saldırmasını istersin…",
+    "english": "You don't want my men attacking the obas for the loot..."
+  },
+  {
+    "seg_id": "seg_1208",
+    "text": "…ne de Ertuğrul için gönderdiğin askerler yüzünden…",
+    "english": "Not because of the soldiers you sent for Ertuğrul."
+  },
+  {
+    "seg_id": "seg_1209",
+    "text": "…Kayılarla Dodurgaların isyan çıkarmasını istersin",
+    "english": "...you want the recordings and the Dodurga to revolt."
+  },
+  {
+    "seg_id": "seg_1210",
+    "text": "İkimiz de Ertuğrul’u isteriz",
+    "english": "We both want Ertugrul."
+  },
+  {
+    "seg_id": "seg_1211",
+    "text": "Sana onun kellesini getireceğim",
+    "english": "I'll bring you his head."
+  },
+  {
+    "seg_id": "seg_1212",
+    "text": "Nasıl?",
+    "english": "How?"
+  },
+  {
+    "seg_id": "seg_1213",
+    "text": "Ertuğrul’la yarım kalan hesabımı bitirmek isterim Emir Hazretleri",
+    "english": "I'd like to finish my unfinished business with Ertugrul."
+  },
+  {
+    "seg_id": "seg_1214",
+    "text": "Tabii senin yardımlarınla",
+    "english": "With your help, of course."
+  },
+  {
+    "seg_id": "seg_1215",
+    "text": "Adamların altın için değil…",
+    "english": "Your men are not for gold..."
+  },
+  {
+    "seg_id": "seg_1216",
+    "text": "…Ertuğrul’un kanı için savaşsınlar",
+    "english": "...Let them fight for Ertugrul's blood."
+  },
+  {
+    "seg_id": "seg_1217",
+    "text": "Onların gözünü her zaman doyururum",
+    "english": "I always feed them."
+  },
+  {
+    "seg_id": "seg_1218",
+    "text": "Yeter ki sen bana Ertuğrul’un kellesini getir",
+    "english": "As long as you bring me Ertugrul's head."
+  },
+  {
+    "seg_id": "seg_1219",
+    "text": "Bana düşen de iki obanın senin yüzünden birleşen yollarını kesmektir",
+    "english": "And it's up to me to cut off the two obans that are united because of you."
+  },
+  {
+    "seg_id": "seg_1220",
+    "text": "Onların üzerine karabasan gibi çökeceğim",
+    "english": "I'm gonna come down on them like a nightmare."
+  },
+  {
+    "seg_id": "seg_1221",
+    "text": "Yaşadıkları her gün onlara azap olacak",
+    "english": "Every day they will be punished."
+  },
+  {
+    "seg_id": "seg_1222",
+    "text": "Emir Hazretleri Ne var?",
+    "english": "Your Highness, what is it?"
+  },
+  {
+    "seg_id": "seg_1223",
+    "text": "Sizi görmek isteyen bir hanım var",
+    "english": "There's a lady here to see you."
+  },
+  {
+    "seg_id": "seg_1224",
+    "text": "Kimmiş?",
+    "english": "Who is it?"
+  },
+  {
+    "seg_id": "seg_1225",
+    "text": "Adının Goncagül olduğunu söyler Emir Hazretleri",
+    "english": "He says his name is Goncagül, Your Highness."
+  },
+  {
+    "seg_id": "seg_1226",
+    "text": "Güzel",
+    "english": "Good."
+  },
+  {
+    "seg_id": "seg_1227",
+    "text": "Beklesin",
+    "english": "Let him wait."
+  },
+  {
+    "seg_id": "seg_1228",
+    "text": "Sizin konuşacaklarınız vardır",
+    "english": "You have something to talk about."
+  },
+  {
+    "seg_id": "seg_1229",
+    "text": "Eğer haklıysan…",
+    "english": "If you're right..."
+  },
+  {
+    "seg_id": "seg_1230",
+    "text": "…sana bu altınlardan çok daha kıymetli bir hediye vereceğim Noyan",
+    "english": "I'll give you something far more precious than this gold, Noyan."
+  },
+  {
+    "seg_id": "seg_1231",
+    "text": "Şuraya git bekle",
+    "english": "Go over there and wait."
+  },
+  {
+    "seg_id": "seg_1232",
+    "text": "Gelsin",
+    "english": "Let him come."
+  },
+  {
+    "seg_id": "seg_1233",
+    "text": "Evladım, iyi misin?",
+    "english": "Son, are you all right?"
+  },
+  {
+    "seg_id": "seg_1234",
+    "text": "Halam ve babamın intikamını almak isterim Emir Hazretleri",
+    "english": "I'd like to avenge my aunt and father's death, Your Highness."
+  },
+  {
+    "seg_id": "seg_1235",
+    "text": "Gayrı sizden başka kimsem yoktur artık",
+    "english": "I don't have anyone but you anymore."
+  },
+  {
+    "seg_id": "seg_1236",
+    "text": "Ömrümün sonuna kadar sizin hizmetinizdeyim",
+    "english": "I'm at your service for the rest of my life."
+  },
+  {
+    "seg_id": "seg_1237",
+    "text": "Ah yavrum",
+    "english": "Oh, baby."
+  },
+  {
+    "seg_id": "seg_1238",
+    "text": "Gel evladım, gel",
+    "english": "Come, my child, come."
+  },
+  {
+    "seg_id": "seg_1239",
+    "text": "Saadettin Köpek bundan gayrı bize daha çok musallat olacaktır",
+    "english": "The dog will haunt us even more than that."
+  },
+  {
+    "seg_id": "seg_1240",
+    "text": "Bu sebepten ben derim ki…",
+    "english": "That's why I say..."
+  },
+  {
+    "seg_id": "seg_1241",
+    "text": "…önümüzdeki bahara kadar Dodurgalılarla birliğimize devam edelim",
+    "english": "...let's continue our union with the Dodrigans until the next spring."
+  },
+  {
+    "seg_id": "seg_1242",
+    "text": "Bu bizi daha güçlü kılacaktır",
+    "english": "It'll make us stronger."
+  },
+  {
+    "seg_id": "seg_1243",
+    "text": "Sürülerimizi büyütürüz",
+    "english": "We'll expand our packs."
+  },
+  {
+    "seg_id": "seg_1244",
+    "text": "Selcan Hatun ile Halime Hatun marifetlerini gösterir, kilimlerimizi satarız",
+    "english": "We'll show Selcan Hatun and Halima Hatun, sell our rugs."
+  },
+  {
+    "seg_id": "seg_1245",
+    "text": "Alp olma yaşına gelmiş yiğitlerimiz var, onları yetiştiririz",
+    "english": "We've got brave men of the age of the Alps, we'll raise them."
+  },
+  {
+    "seg_id": "seg_1246",
+    "text": "Bahar vakti geldiğinde de göçeriz",
+    "english": "And when it's springtime, we're gone."
+  },
+  {
+    "seg_id": "seg_1247",
+    "text": "Derim ki bunu da en kısa vakitte toyda istişare edelim",
+    "english": "I say we discuss this as soon as possible."
+  },
+  {
+    "seg_id": "seg_1248",
+    "text": "Ana, bu göç vakti geldiğinde senin aklında bir yer var mıdır göçmek için?",
+    "english": "Ana, when it's time for this migration, do you have a place in mind to migrate?"
+  },
+  {
+    "seg_id": "seg_1249",
+    "text": "Yoktur, oğul",
+    "english": "There isn't, son."
+  },
+  {
+    "seg_id": "seg_1250",
+    "text": "Ama tez vakitte beylerimle oturup bu meseleyi istişare etmek isterim",
+    "english": "But soon I'd like to sit down with my gentlemen and discuss this matter."
+  },
+  {
+    "seg_id": "seg_1251",
+    "text": "Eyvallah",
+    "english": "Thanks."
+  },
+  {
+    "seg_id": "seg_1252",
+    "text": "Ertuğrul kardeşim, senin aklında bir yer var mı?",
+    "english": "Brother Ertugrul, do you have a place in mind?"
+  },
+  {
+    "seg_id": "seg_1253",
+    "text": "Bu sofrada oturanlarla birlikte…",
+    "english": "With those who sit at this table..."
+  },
+  {
+    "seg_id": "seg_1254",
+    "text": "…Kayı’nın köklerinin salınacağı topraklara gitmek isterim ağabey",
+    "english": "I'd like to go to the land where the roots of the record will be released, brother."
+  },
+  {
+    "seg_id": "seg_1255",
+    "text": "Oğullarımızın, kızlarımızın arkamızdan Fatiha okuyabilecekleri…",
+    "english": "That our sons and daughters can read Fatihe behind our backs..."
+  },
+  {
+    "seg_id": "seg_1256",
+    "text": "…mezarlarımızın olduğu topraklara",
+    "english": "...to the land of our graves."
+  },
+  {
+    "seg_id": "seg_1257",
+    "text": "İnşallah o yere hep birlikte karar vereceğiz",
+    "english": "Let's hope we all decide that place together."
+  },
+  {
+    "seg_id": "seg_1258",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_1259",
+    "text": "İnşallah",
+    "english": "Inshallah."
+  },
+  {
+    "seg_id": "seg_1260",
+    "text": "Ne güzel dedin kardeşim İnşallah, inşallah",
+    "english": "That's a nice thing to say, brother. I hope so."
+  },
+  {
+    "seg_id": "seg_1261",
+    "text": "Hayme Ana’m, müsaaden olursa size birkaç şey söylemek isterim",
+    "english": "Hayme Ana, if you don't mind, I'd like to say a few words."
+  },
+  {
+    "seg_id": "seg_1262",
+    "text": "Söyle kızım",
+    "english": "Tell me, girl."
+  },
+  {
+    "seg_id": "seg_1263",
+    "text": "Obamız ne vakit nereye gider bilmem",
+    "english": "I don't know when our Oba goes where."
+  },
+  {
+    "seg_id": "seg_1264",
+    "text": "Lakin gittiğimiz topraklara sımsıkı tutunalım isterim",
+    "english": "But I want us to hold on to the land we're going to."
+  },
+  {
+    "seg_id": "seg_1265",
+    "text": "Tutunalım ki Halime de…",
+    "english": "Let's hold on to Halima..."
+  },
+  {
+    "seg_id": "seg_1266",
+    "text": "…ben de kendi yurdumuzda bebelerimizi büyütebilelim",
+    "english": "...and we can raise our babies in our own home."
+  },
+  {
+    "seg_id": "seg_1267",
+    "text": "Heyt be!",
+    "english": "Oh, man!"
+  },
+  {
+    "seg_id": "seg_1268",
+    "text": "Yüklüyüm ana",
+    "english": "♪ I'm loaded, mother ♪"
+  },
+  {
+    "seg_id": "seg_1269",
+    "text": "İnşallah bu sefer kucağına bebemizi vereceğim",
+    "english": "I hope this time I'll give you our baby."
+  },
+  {
+    "seg_id": "seg_1270",
+    "text": "Oğlum",
+    "english": "My son."
+  },
+  {
+    "seg_id": "seg_1271",
+    "text": "Allah’ım sana şükürler olsun",
+    "english": "Thank you, God."
+  },
+  {
+    "seg_id": "seg_1272",
+    "text": "Ölmeden bütün evlatlarımla bir arada olmayı nasip ettin",
+    "english": "You've allowed me to be with all my sons before I die."
+  },
+  {
+    "seg_id": "seg_1273",
+    "text": "Evlatlar",
+    "english": "Sons"
+  },
+  {
+    "seg_id": "seg_1274",
+    "text": "Yükümüz ağır, işimiz çetin",
+    "english": "♪ Our burden is heavy, our work is hard ♪"
+  },
+  {
+    "seg_id": "seg_1275",
+    "text": "Gücümüz ince bir kıla bağlı",
+    "english": "Our strength depends on a thin hair"
+  },
+  {
+    "seg_id": "seg_1276",
+    "text": "Allahüteala yardımcımız olsun",
+    "english": "May God help us."
+  },
+  {
+    "seg_id": "seg_1277",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_1278",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_1279",
+    "text": "Beyliğinizi daim kılsın",
+    "english": "May he keep you company."
+  },
+  {
+    "seg_id": "seg_1280",
+    "text": "Hak yolunda yararlı kılsın",
+    "english": "That it may be beneficial for him in the way of truth."
+  },
+  {
+    "seg_id": "seg_1281",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_1282",
+    "text": "Kayı’nın ışığını parıldatsın",
+    "english": "Let the light of the record shine"
+  },
+  {
+    "seg_id": "seg_1283",
+    "text": "Parıldatsın ki…",
+    "english": "Let it shine..."
+  },
+  {
+    "seg_id": "seg_1284",
+    "text": "…karanlıklardaki kimsesizlere ışık etsin",
+    "english": "...lit by the lonely in the darkness."
+  },
+  {
+    "seg_id": "seg_1285",
+    "text": "Gücümüzü, kuvvetimizi, aklımızı, kelamımızı eğriden uzak tutsun",
+    "english": "Keep our strength, our strength, our minds, our words away from the curve"
+  },
+  {
+    "seg_id": "seg_1286",
+    "text": "Hamlığın, hadsizliğin şerrinden bizleri korusun",
+    "english": "Let him protect us from the evil of doing what is right and wrong."
+  },
+  {
+    "seg_id": "seg_1287",
+    "text": "Dinimizden, töremizden bizi ayırmasın",
+    "english": "Let him not separate us from our religion, from our tradition."
+  },
+  {
+    "seg_id": "seg_1288",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_1289",
+    "text": "Nereden gelip nereye gideceğimizi unutturmasın",
+    "english": "Don't let him forget where we come from and where we go."
+  },
+  {
+    "seg_id": "seg_1290",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_1291",
+    "text": "Bizleri Atam Oğuz’un kutlu yolundan ayrı koymasın",
+    "english": "Let him not separate us from the holy way of Oğuz."
+  },
+  {
+    "seg_id": "seg_1292",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_1293",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_1294",
+    "text": "Âmin",
+    "english": "Amen."
+  },
+  {
+    "seg_id": "seg_1295",
+    "text": "Allah’ım sen bizi birbirimizden ayırma",
+    "english": "God, don't separate us from each other."
+  },
+  {
+    "seg_id": "seg_1296",
+    "text": "Sen bizi bir kıl",
+    "english": "You make us one"
+  },
+  {
+    "seg_id": "seg_1297",
+    "text": "İri kıl, diri kıl yarabbim",
+    "english": "Big hair, alive hair, for God's sake."
+  },
+  {
+    "seg_id": "seg_1298",
+    "text": "Sen bizi birbirimize sevgiyle, muhabbetle bağla yarabbim",
+    "english": "You connect us with each other with love and conversation, for God's sake."
+  },
+  {
+    "seg_id": "seg_1299",
+    "text": "Âmin",
+    "english": "Amen."
+  }
+]
