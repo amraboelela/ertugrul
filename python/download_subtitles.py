@@ -117,6 +117,10 @@ def download_subtitle(episode, language, youtube_id, build_dir):
     """
     Download VTT subtitle for a specific language
 
+    Downloads manual subtitles, auto-generated subtitles, or auto-translated subtitles.
+    For English, this includes YouTube's auto-translate feature which can translate
+    Turkish (or other available languages) to English.
+
     Args:
         episode (int): Episode number (1-150)
         language (str): Language code (en, tr)
@@ -134,7 +138,8 @@ def download_subtitle(episode, language, youtube_id, build_dir):
         print(f"   ✓ {language.upper()}: Already exists")
         return True
 
-    print(f"   📥 Downloading {language.upper()} subtitles...")
+    lang_name = "English (may be auto-translated)" if language == "en" else "Turkish"
+    print(f"   📥 Downloading {lang_name} subtitles...")
 
     # Construct YouTube URL
     url = f"https://www.youtube.com/watch?v={youtube_id}"
@@ -154,8 +159,8 @@ def download_subtitle(episode, language, youtube_id, build_dir):
         try:
             cmd = [
                 "yt-dlp",
-                "--write-sub",
-                "--write-auto-sub",
+                "--write-sub",          # Download manual subtitles
+                "--write-auto-sub",     # Download auto-generated/auto-translated subtitles
                 "--sub-lang", language,
                 "--sub-format", "vtt",
                 "--skip-download",
@@ -167,15 +172,22 @@ def download_subtitle(episode, language, youtube_id, build_dir):
             result = subprocess.run(cmd, check=True, capture_output=True, text=True)
 
             # Check if subtitle file was downloaded
-            # yt-dlp creates files like: 001.lang.vtt
+            # yt-dlp creates files like: 001.lang.vtt or 001.en-orig.vtt for auto-translated
             downloaded_files = list(build_dir.glob(f"{temp_prefix}*.vtt"))
 
             if downloaded_files:
                 # Rename to our standard format
                 for downloaded_file in downloaded_files:
+                    # Match files containing the language code
+                    # Examples: 001.en.vtt, 001.en-orig.vtt (auto-translated), 001.tr.vtt
                     if language in str(downloaded_file):
                         downloaded_file.rename(output_file)
-                        print(f"   ✓ {language.upper()}: Downloaded successfully")
+
+                        # Check if it was auto-translated
+                        if language == "en" and "-orig" in str(downloaded_file):
+                            print(f"   ✓ {language.upper()}: Downloaded (auto-translated from Turkish)")
+                        else:
+                            print(f"   ✓ {language.upper()}: Downloaded successfully")
                         success = True
                         break
 
