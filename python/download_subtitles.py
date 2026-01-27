@@ -28,6 +28,13 @@ from pathlib import Path
 # Import VTT to JSON conversion function
 from vtt_to_json import convert_vtt_to_json
 
+# Import translation function
+try:
+    from translate_subtitles import translate_vtt_file
+    TRANSLATOR_AVAILABLE = True
+except ImportError:
+    TRANSLATOR_AVAILABLE = False
+
 def load_episodes_json(dataset="ertugrul"):
     """
     Load episode YouTube IDs from JSON file
@@ -249,6 +256,30 @@ def download_subtitle(episode, language, youtube_id, build_dir):
 
     return True
 
+def count_vtt_segments(vtt_path):
+    """
+    Count the number of subtitle segments in a VTT file
+
+    Args:
+        vtt_path (Path): Path to VTT file
+
+    Returns:
+        int: Number of subtitle segments
+    """
+    if not vtt_path.exists():
+        return 0
+
+    try:
+        with open(vtt_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # Count timestamp lines (segments have format: HH:MM:SS.mmm --> HH:MM:SS.mmm)
+        import re
+        segments = re.findall(r'\d{2}:\d{2}:\d{2}\.\d{3}\s+-->\s+\d{2}:\d{2}:\d{2}\.\d{3}', content)
+        return len(segments)
+    except:
+        return 0
+
 def download_episode_subtitles(episode, youtube_id, dataset="ertugrul"):
     """
     Download both English and Turkish subtitles for an episode
@@ -296,6 +327,51 @@ def download_episode_subtitles(episode, youtube_id, dataset="ertugrul"):
     results = {}
     results["en"] = download_subtitle(episode, "en", youtube_id, build_dir)
     results["tr"] = download_subtitle(episode, "tr", youtube_id, build_dir)
+
+    # If English download failed but Turkish succeeded, try AI translation as fallback
+    if not results["en"] and results["tr"] and TRANSLATOR_AVAILABLE:
+        tr_vtt = build_dir / f"{episode:03d}-tr.vtt"
+        en_vtt = build_dir / f"{episode:03d}-en.vtt"
+
+        # Check for incomplete previous translation and clean up
+        if en_vtt.exists():
+            tr_count = count_vtt_segments(tr_vtt)
+            en_count = count_vtt_segments(en_vtt)
+
+            if en_count < tr_count:
+                print(f"   🧹 Detected incomplete translation ({en_count}/{tr_count} segments)")
+                print(f"   🗑️  Cleaning up partial files...")
+
+                # Delete partial English VTT
+                en_vtt.unlink()
+                print(f"      Deleted: {en_vtt.name}")
+
+                # Delete partial JSON files (with ~ suffix)
+                possible_paths_main = [
+                    Path(f"../{dataset}/subtitles"),  # From python/ directory
+                    Path(f"{dataset}/subtitles"),     # From project root
+                ]
+
+                for main_path in possible_paths_main:
+                    if main_path.exists():
+                        # Delete partial JSON with ~ suffix
+                        partial_json = main_path / f"{episode:03d}~.json"
+                        if partial_json.exists():
+                            partial_json.unlink()
+                            print(f"      Deleted: {partial_json.name}")
+
+                        # Delete final JSON if it exists
+                        final_json = main_path / f"{episode:03d}.json"
+                        if final_json.exists():
+                            final_json.unlink()
+                            print(f"      Deleted: {final_json.name}")
+                        break
+
+                print(f"   ✅ Ready to restart translation from scratch")
+
+        print(f"   🤖 YouTube auto-translate not available, using AI translation...")
+        if translate_vtt_file(tr_vtt, en_vtt):
+            results["en"] = True
 
     return results
 
