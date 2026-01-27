@@ -1,0 +1,41 @@
+#!/bin/bash
+
+cd "$(dirname "$0")/.."
+
+prefix=$1
+sourceLanguage=$2
+targetLanguage=$3
+
+mkdir -p build/$prefix/frames
+prefixFile="build/$prefix-$targetLanguage.ttml"
+
+echo build/$prefix-$targetLanguage.vtt
+if [ ! -f build/$prefix-$targetLanguage.vtt ] || [ ! -s build/$prefix-$targetLanguage.vtt ]; then
+    if [ $targetLanguage == "tr"  ]; then
+        python scripts/ttml2srt.py build/$prefix-$targetLanguage.ttml > build/$prefix-$targetLanguage.srt
+        ffmpeg -y -i build/$prefix-$targetLanguage.srt build/$prefix-$targetLanguage.vtt
+        rm build/$prefix-$targetLanguage.srt
+    else
+        echo "Translating $prefix-$sourceLanguage.vtt"
+        python scripts/translate.py build/$prefix-$sourceLanguage.vtt $targetLanguage > build/$prefix-$targetLanguage.vtt
+    fi
+fi
+#exit 0
+python3 scripts/dictionary.py $prefix $targetLanguage
+#exit 0
+python scripts/cut.py $prefix $targetLanguage
+#exit 0
+python3 scripts/video2frames.py $prefix $targetLanguage
+#exit 0
+python3 scripts/editframes.py $prefix $targetLanguage
+python3 scripts/frames2video.py $prefix $targetLanguage
+#exit 0
+#python3 scripts/sayWords.py $prefix 2 $targetLanguage
+#python3 scripts/video2image.py $prefix $targetLanguage
+#python3 scripts/audio2video.py $prefix $targetLanguage
+python scripts/combine.py $prefix $targetLanguage "c"
+#exit 0
+
+python3 scripts/subtitleWords.py $prefix $targetLanguage "c"
+#exit 0
+python3 scripts/subtitles.py $prefix $targetLanguage "c"

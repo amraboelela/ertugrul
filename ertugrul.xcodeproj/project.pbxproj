@@ -3,99 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5B1E5F123789A2F00BA1E1C /* audio2video in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5CB23789A2700BA1E1C /* audio2video */; };
-		C5B1E5F223789A2F00BA1E1C /* translation_key.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5CC23789A2700BA1E1C /* translation_key.py */; };
-		C5B1E5F323789A2F00BA1E1C /* translate.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5CD23789A2700BA1E1C /* translate.py */; };
-		C5B1E5F423789A2F00BA1E1C /* dictionary.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5CE23789A2700BA1E1C /* dictionary.py */; };
-		C5B1E5F523789A2F00BA1E1C /* clean.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5CF23789A2700BA1E1C /* clean.py */; };
 		C5B1E5F623789A2F00BA1E1C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D023789A2700BA1E1C /* LICENSE */; };
-		C5B1E5F723789A2F00BA1E1C /* concat in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D123789A2700BA1E1C /* concat */; };
-		C5B1E5F823789A2F00BA1E1C /* cleanFile.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D223789A2800BA1E1C /* cleanFile.py */; };
-		C5B1E5FA23789A2F00BA1E1C /* unicode.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D423789A2800BA1E1C /* unicode.py */; };
-		C5B1E5FB23789A2F00BA1E1C /* buildEpisode in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D523789A2800BA1E1C /* buildEpisode */; };
-		C5B1E5FC23789A2F00BA1E1C /* build.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D623789A2800BA1E1C /* build.py */; };
-		C5B1E5FD23789A2F00BA1E1C /* combine.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D723789A2800BA1E1C /* combine.py */; };
 		C5B1E5FF23789A2F00BA1E1C /* build in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D923789A2900BA1E1C /* build */; };
-		C5B1E60423789A2F00BA1E1C /* subtitles in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5DE23789A2A00BA1E1C /* subtitles */; };
 		C5B1E60523789A2F00BA1E1C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5DF23789A2A00BA1E1C /* README.md */; };
-		C5B1E60623789A2F00BA1E1C /* video in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E023789A2A00BA1E1C /* video */; };
-		C5B1E60823789A2F00BA1E1C /* video2image.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E223789A2B00BA1E1C /* video2image.py */; };
-		C5B1E60923789A2F00BA1E1C /* downloadVideo in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E323789A2B00BA1E1C /* downloadVideo */; };
-		C5B1E60B23789A2F00BA1E1C /* cleanEpisode in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E523789A2B00BA1E1C /* cleanEpisode */; };
-		C5B1E60C23789A2F00BA1E1C /* cut.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E623789A2B00BA1E1C /* cut.py */; };
-		C5B1E60E23789A2F00BA1E1C /* download in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5E823789A2C00BA1E1C /* download */; };
-		C5B1E61023789A2F00BA1E1C /* clean in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EA23789A2D00BA1E1C /* clean */; };
-		C5B1E61123789A2F00BA1E1C /* cut in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EB23789A2D00BA1E1C /* cut */; };
-		C5B1E61223789A2F00BA1E1C /* audio2video.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EC23789A2D00BA1E1C /* audio2video.py */; };
-		C5B1E61323789A2F00BA1E1C /* subtitles.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5ED23789A2E00BA1E1C /* subtitles.py */; };
-		C5B1E61423789A2F00BA1E1C /* ttml2srt.py in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5EE23789A2E00BA1E1C /* ttml2srt.py */; };
-		C5B7459D23823EA3006204F5 /* handbrake in Resources */ = {isa = PBXBuildFile; fileRef = C5B7459C23823EA2006204F5 /* handbrake */; };
-		C5CE05EA25D8531F00851799 /* durationLimit.py in Resources */ = {isa = PBXBuildFile; fileRef = C5CE05E925D8531F00851799 /* durationLimit.py */; };
-		F502F9ED25786933006B42B9 /* editFrames.py in Resources */ = {isa = PBXBuildFile; fileRef = F502F9EC25786933006B42B9 /* editFrames.py */; };
-		F502F9F125787925006B42B9 /* frames2video.py in Resources */ = {isa = PBXBuildFile; fileRef = F502F9EF25787925006B42B9 /* frames2video.py */; };
-		F502F9F225787925006B42B9 /* frames2video in Resources */ = {isa = PBXBuildFile; fileRef = F502F9F025787925006B42B9 /* frames2video */; };
-		F513090F2585483D00DAA5CB /* subtitleWords.py in Resources */ = {isa = PBXBuildFile; fileRef = F513090E2585483D00DAA5CB /* subtitleWords.py */; };
-		F534F80725703DB300333CEC /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = F534F80625703DB300333CEC /* build.sh */; };
-		F534F80E25708D7000333CEC /* sayLines.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F80C25708D7000333CEC /* sayLines.py */; };
-		F534F80F25708D7000333CEC /* sayWords.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F80D25708D7000333CEC /* sayWords.py */; };
-		F534F8122571ABBC00333CEC /* move.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F8112571ABBC00333CEC /* move.py */; };
-		F534F85D2576BBE700333CEC /* cleanSubtitles in Resources */ = {isa = PBXBuildFile; fileRef = F534F85C2576BBE600333CEC /* cleanSubtitles */; };
-		F534F8602576FCD600333CEC /* video2frames.py in Resources */ = {isa = PBXBuildFile; fileRef = F534F85F2576FCD600333CEC /* video2frames.py */; };
-		F534F863257818EC00333CEC /* video2frames in Resources */ = {isa = PBXBuildFile; fileRef = F534F862257818EC00333CEC /* video2frames */; };
-		F534F86725781B5700333CEC /* editImages in Resources */ = {isa = PBXBuildFile; fileRef = F534F86625781B5700333CEC /* editImages */; };
-		F5404F342724A9D200B428FC /* convert.sh in Resources */ = {isa = PBXBuildFile; fileRef = F5404F332724A9D200B428FC /* convert.sh */; };
-		F5A928E126DFEFDE000E8470 /* combine.sh in Resources */ = {isa = PBXBuildFile; fileRef = F5A928E026DFEFDD000E8470 /* combine.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C5B1E5B42378995F00BA1E1C /* ertugrul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ertugrul.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5B1E5CB23789A2700BA1E1C /* audio2video */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = audio2video; sourceTree = "<group>"; };
-		C5B1E5CC23789A2700BA1E1C /* translation_key.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = translation_key.py; sourceTree = "<group>"; };
-		C5B1E5CD23789A2700BA1E1C /* translate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = translate.py; sourceTree = "<group>"; };
-		C5B1E5CE23789A2700BA1E1C /* dictionary.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = dictionary.py; sourceTree = "<group>"; };
-		C5B1E5CF23789A2700BA1E1C /* clean.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = clean.py; sourceTree = "<group>"; };
 		C5B1E5D023789A2700BA1E1C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C5B1E5D123789A2700BA1E1C /* concat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = concat; sourceTree = "<group>"; };
-		C5B1E5D223789A2800BA1E1C /* cleanFile.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cleanFile.py; sourceTree = "<group>"; };
-		C5B1E5D423789A2800BA1E1C /* unicode.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = unicode.py; sourceTree = "<group>"; };
-		C5B1E5D523789A2800BA1E1C /* buildEpisode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = buildEpisode; sourceTree = "<group>"; };
-		C5B1E5D623789A2800BA1E1C /* build.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = build.py; sourceTree = "<group>"; };
-		C5B1E5D723789A2800BA1E1C /* combine.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = combine.py; sourceTree = "<group>"; };
 		C5B1E5D923789A2900BA1E1C /* build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build; sourceTree = "<group>"; };
-		C5B1E5DE23789A2A00BA1E1C /* subtitles */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = subtitles; sourceTree = "<group>"; };
 		C5B1E5DF23789A2A00BA1E1C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C5B1E5E023789A2A00BA1E1C /* video */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video; sourceTree = "<group>"; };
-		C5B1E5E223789A2B00BA1E1C /* video2image.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = video2image.py; sourceTree = "<group>"; };
-		C5B1E5E323789A2B00BA1E1C /* downloadVideo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = downloadVideo; sourceTree = "<group>"; };
-		C5B1E5E523789A2B00BA1E1C /* cleanEpisode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cleanEpisode; sourceTree = "<group>"; };
-		C5B1E5E623789A2B00BA1E1C /* cut.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cut.py; sourceTree = "<group>"; };
-		C5B1E5E823789A2C00BA1E1C /* download */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = download; sourceTree = "<group>"; };
-		C5B1E5EA23789A2D00BA1E1C /* clean */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = clean; sourceTree = "<group>"; };
-		C5B1E5EB23789A2D00BA1E1C /* cut */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cut; sourceTree = "<group>"; };
-		C5B1E5EC23789A2D00BA1E1C /* audio2video.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = audio2video.py; sourceTree = "<group>"; };
-		C5B1E5ED23789A2E00BA1E1C /* subtitles.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = subtitles.py; sourceTree = "<group>"; };
-		C5B1E5EE23789A2E00BA1E1C /* ttml2srt.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ttml2srt.py; sourceTree = "<group>"; };
-		C5B7459C23823EA2006204F5 /* handbrake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = handbrake; sourceTree = "<group>"; };
-		C5CE05E925D8531F00851799 /* durationLimit.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = durationLimit.py; sourceTree = "<group>"; };
-		F502F9EC25786933006B42B9 /* editFrames.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = editFrames.py; sourceTree = "<group>"; };
-		F502F9EF25787925006B42B9 /* frames2video.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = frames2video.py; sourceTree = "<group>"; };
-		F502F9F025787925006B42B9 /* frames2video */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frames2video; sourceTree = "<group>"; };
-		F513090E2585483D00DAA5CB /* subtitleWords.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = subtitleWords.py; sourceTree = "<group>"; };
-		F534F80625703DB300333CEC /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
-		F534F80C25708D7000333CEC /* sayLines.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayLines.py; sourceTree = "<group>"; };
-		F534F80D25708D7000333CEC /* sayWords.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sayWords.py; sourceTree = "<group>"; };
-		F534F8112571ABBC00333CEC /* move.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = move.py; sourceTree = "<group>"; };
-		F534F85C2576BBE600333CEC /* cleanSubtitles */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cleanSubtitles; sourceTree = "<group>"; };
-		F534F85F2576FCD600333CEC /* video2frames.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = video2frames.py; sourceTree = "<group>"; };
-		F534F862257818EC00333CEC /* video2frames */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video2frames; sourceTree = "<group>"; };
-		F534F86625781B5700333CEC /* editImages */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = editImages; sourceTree = "<group>"; };
-		F5404F332724A9D200B428FC /* convert.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = convert.sh; sourceTree = "<group>"; };
-		F5A928E026DFEFDD000E8470 /* combine.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = combine.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F51B4EF02F29461E0058D413 /* python */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = python; sourceTree = "<group>"; };
+		F51B4F3F2F2948110058D413 /* ertugrul */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ertugrul; sourceTree = "<group>"; };
+		F5E764302F29417F00A46D5F /* scripts */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = scripts; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C5B1E5B12378995F00BA1E1C /* Frameworks */ = {
@@ -111,48 +39,12 @@
 		C5B1E5AB2378995F00BA1E1C = {
 			isa = PBXGroup;
 			children = (
-				C5B1E5CB23789A2700BA1E1C /* audio2video */,
-				C5B1E5EC23789A2D00BA1E1C /* audio2video.py */,
+				F51B4F3F2F2948110058D413 /* ertugrul */,
+				F51B4EF02F29461E0058D413 /* python */,
+				F5E764302F29417F00A46D5F /* scripts */,
 				C5B1E5D923789A2900BA1E1C /* build */,
-				C5B1E5D523789A2800BA1E1C /* buildEpisode */,
-				F534F80625703DB300333CEC /* build.sh */,
-				C5B1E5D623789A2800BA1E1C /* build.py */,
-				C5B1E5EA23789A2D00BA1E1C /* clean */,
-				C5B1E5CF23789A2700BA1E1C /* clean.py */,
-				C5B1E5E523789A2B00BA1E1C /* cleanEpisode */,
-				F534F85C2576BBE600333CEC /* cleanSubtitles */,
-				C5B1E5D223789A2800BA1E1C /* cleanFile.py */,
-				C5B1E5D723789A2800BA1E1C /* combine.py */,
-				F5A928E026DFEFDD000E8470 /* combine.sh */,
-				F5404F332724A9D200B428FC /* convert.sh */,
-				C5B1E5D123789A2700BA1E1C /* concat */,
-				C5B1E5EB23789A2D00BA1E1C /* cut */,
-				C5B1E5E623789A2B00BA1E1C /* cut.py */,
-				C5B1E5CE23789A2700BA1E1C /* dictionary.py */,
-				C5CE05E925D8531F00851799 /* durationLimit.py */,
-				C5B1E5E823789A2C00BA1E1C /* download */,
-				C5B1E5E323789A2B00BA1E1C /* downloadVideo */,
-				F534F86625781B5700333CEC /* editImages */,
-				F502F9EC25786933006B42B9 /* editFrames.py */,
-				F502F9F025787925006B42B9 /* frames2video */,
-				F502F9EF25787925006B42B9 /* frames2video.py */,
-				C5B7459C23823EA2006204F5 /* handbrake */,
 				C5B1E5D023789A2700BA1E1C /* LICENSE */,
-				F534F8112571ABBC00333CEC /* move.py */,
 				C5B1E5DF23789A2A00BA1E1C /* README.md */,
-				F534F80C25708D7000333CEC /* sayLines.py */,
-				F534F80D25708D7000333CEC /* sayWords.py */,
-				C5B1E5DE23789A2A00BA1E1C /* subtitles */,
-				C5B1E5ED23789A2E00BA1E1C /* subtitles.py */,
-				F513090E2585483D00DAA5CB /* subtitleWords.py */,
-				C5B1E5CD23789A2700BA1E1C /* translate.py */,
-				C5B1E5CC23789A2700BA1E1C /* translation_key.py */,
-				C5B1E5EE23789A2E00BA1E1C /* ttml2srt.py */,
-				C5B1E5D423789A2800BA1E1C /* unicode.py */,
-				C5B1E5E023789A2A00BA1E1C /* video */,
-				C5B1E5E223789A2B00BA1E1C /* video2image.py */,
-				F534F862257818EC00333CEC /* video2frames */,
-				F534F85F2576FCD600333CEC /* video2frames.py */,
 				C5B1E5B52378995F00BA1E1C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,6 +71,11 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F51B4EF02F29461E0058D413 /* python */,
+				F51B4F3F2F2948110058D413 /* ertugrul */,
+				F5E764302F29417F00A46D5F /* scripts */,
 			);
 			name = ertugrul;
 			productName = ertugrul;
@@ -223,48 +120,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F534F80F25708D7000333CEC /* sayWords.py in Resources */,
-				C5B1E60823789A2F00BA1E1C /* video2image.py in Resources */,
-				C5B1E60623789A2F00BA1E1C /* video in Resources */,
-				C5B1E60923789A2F00BA1E1C /* downloadVideo in Resources */,
 				C5B1E5FF23789A2F00BA1E1C /* build in Resources */,
-				C5B1E5F723789A2F00BA1E1C /* concat in Resources */,
 				C5B1E5F623789A2F00BA1E1C /* LICENSE in Resources */,
-				F502F9F125787925006B42B9 /* frames2video.py in Resources */,
 				C5B1E60523789A2F00BA1E1C /* README.md in Resources */,
-				F502F9ED25786933006B42B9 /* editFrames.py in Resources */,
-				C5B1E61223789A2F00BA1E1C /* audio2video.py in Resources */,
-				C5B1E61023789A2F00BA1E1C /* clean in Resources */,
-				C5B1E5FB23789A2F00BA1E1C /* buildEpisode in Resources */,
-				C5B1E5F223789A2F00BA1E1C /* translation_key.py in Resources */,
-				C5B1E61323789A2F00BA1E1C /* subtitles.py in Resources */,
-				F502F9F225787925006B42B9 /* frames2video in Resources */,
-				C5B1E60423789A2F00BA1E1C /* subtitles in Resources */,
-				F534F86725781B5700333CEC /* editImages in Resources */,
-				C5B1E5F523789A2F00BA1E1C /* clean.py in Resources */,
-				F513090F2585483D00DAA5CB /* subtitleWords.py in Resources */,
-				C5B1E5F323789A2F00BA1E1C /* translate.py in Resources */,
-				F534F85D2576BBE700333CEC /* cleanSubtitles in Resources */,
-				C5B1E5F423789A2F00BA1E1C /* dictionary.py in Resources */,
-				C5B1E60B23789A2F00BA1E1C /* cleanEpisode in Resources */,
-				F5A928E126DFEFDE000E8470 /* combine.sh in Resources */,
-				C5B7459D23823EA3006204F5 /* handbrake in Resources */,
-				F534F8122571ABBC00333CEC /* move.py in Resources */,
-				C5B1E61123789A2F00BA1E1C /* cut in Resources */,
-				F534F8602576FCD600333CEC /* video2frames.py in Resources */,
-				C5CE05EA25D8531F00851799 /* durationLimit.py in Resources */,
-				C5B1E5FC23789A2F00BA1E1C /* build.py in Resources */,
-				F534F80725703DB300333CEC /* build.sh in Resources */,
-				F534F80E25708D7000333CEC /* sayLines.py in Resources */,
-				C5B1E5FA23789A2F00BA1E1C /* unicode.py in Resources */,
-				F5404F342724A9D200B428FC /* convert.sh in Resources */,
-				C5B1E60E23789A2F00BA1E1C /* download in Resources */,
-				C5B1E60C23789A2F00BA1E1C /* cut.py in Resources */,
-				C5B1E5F823789A2F00BA1E1C /* cleanFile.py in Resources */,
-				C5B1E5FD23789A2F00BA1E1C /* combine.py in Resources */,
-				C5B1E61423789A2F00BA1E1C /* ttml2srt.py in Resources */,
-				C5B1E5F123789A2F00BA1E1C /* audio2video in Resources */,
-				F534F863257818EC00333CEC /* video2frames in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

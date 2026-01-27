@@ -1,5 +1,11 @@
 # importing the requests library
-import sys, os 
+import sys, os
+from pathlib import Path
+
+# Get the project root directory (parent of scripts/)
+script_dir = Path(__file__).parent
+project_root = script_dir.parent
+os.chdir(project_root)
 
 if len(sys.argv) > 6:
     title = sys.argv[1]
@@ -12,11 +18,11 @@ else:
     print("please enter the title, season number, first episode number, last episode numer, source language, and the target language")
     exit(-1)
 
-os.system("./download " + title + " " + targetLanguage)
+os.system("scripts/download " + title + " " + targetLanguage)
 #exit(0)
 for n in range(a, b+1):
     if s == "2":
         prefix = title + "-" + s + "-" + str(n).zfill(3)
     else:
         prefix = title + "-" + s + "-" + str(n).zfill(2)
-    os.system("./buildEpisode " + prefix + " " + sourceLanguage + " " + targetLanguage)
+    os.system("scripts/buildEpisode " + prefix + " " + sourceLanguage + " " + targetLanguage)

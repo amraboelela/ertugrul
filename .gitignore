@@ -153,3 +153,4 @@ audioFiles.txt
 *.mp3
 *.srt
 durations.txt
+.claude

@@ -1,5 +1,11 @@
 # importing the requests library
-import sys, os 
+import sys, os
+from pathlib import Path
+
+# Get the project root directory (parent of scripts/)
+script_dir = Path(__file__).parent
+project_root = script_dir.parent
+os.chdir(project_root)
 
 if len(sys.argv) > 6:
     title = sys.argv[1]
@@ -17,5 +23,5 @@ for n in range(a, b+1):
         prefix = title + "-" + s + "-" + str(n).zfill(3)
     else:
         prefix = title + "-" + s + "-" + str(n).zfill(2)
-    os.system("./cleanEpisode " + prefix + " " + sourceLanguage + " " + targetLanguage)
+    os.system("scripts/cleanEpisode " + prefix + " " + sourceLanguage + " " + targetLanguage)
 
