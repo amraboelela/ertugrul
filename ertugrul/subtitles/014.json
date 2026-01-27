@@ -1,0 +1,6817 @@
+[
+  {
+    "id": "0001",
+    "text": "-(Dadı) Ertuğrul Beyim? -Dadı.",
+    "english": "-(Nanny) Mr. Ertuğrul? -Nanny."
+  },
+  {
+    "id": "0002",
+    "text": "(Dadı) Esma nerede?",
+    "english": "Where is (Nanny) Esma?"
+  },
+  {
+    "id": "0003",
+    "text": "Esma kendini yaktı.",
+    "english": "Esma set herself on fire. I need to"
+  },
+  {
+    "id": "0004",
+    "text": "El Aziz'i karşıma oturtup ona anlatmam lazım.",
+    "english": "sit El Aziz down opposite me and explain it to him."
+  },
+  {
+    "id": "0005",
+    "text": "Gerekirse kötek vakti gelmiş delişmen oğlan gibi yiyecek sopayı.",
+    "english": "If necessary, he'll get a beating, like a mischievous boy whose time for a beating has come."
+  },
+  {
+    "id": "0006",
+    "text": "(Adam) Ertuğrul!",
+    "english": "(Man) Ertuğrul!"
+  },
+  {
+    "id": "0007",
+    "text": "Siz gidin dadı. Çabuk olun.",
+    "english": "You go, nanny. Hurry up."
+  },
+  {
+    "id": "0008",
+    "text": "Kimsin?",
+    "english": "Who are you? The man"
+  },
+  {
+    "id": "0009",
+    "text": "Öldürdüğün Bisol'un ağabeyi.",
+    "english": "you killed is Bisol's older brother."
+  },
+  {
+    "id": "0010",
+    "text": "(Müzik - Gerilim) (Gök gürültüsü efekti)",
+    "english": "(Music - Suspense) (Thunder effect)"
+  },
+  {
+    "id": "0011",
+    "text": "Titus.",
+    "english": "Titus."
+  },
+  {
+    "id": "0012",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sound of swords)"
+  },
+  {
+    "id": "0013",
+    "text": "(Kılıç ve bağırma sesleri)",
+    "english": "(Sounds of swords and shouting)"
+  },
+  {
+    "id": "0014",
+    "text": "Ah!",
+    "english": "Ah! Ah! Ah!"
+  },
+  {
+    "id": "0015",
+    "text": "Ah!",
+    "english": ""
+  },
+  {
+    "id": "0016",
+    "text": "Ah!",
+    "english": ""
+  },
+  {
+    "id": "0017",
+    "text": "(Müzik - Aksiyon)",
+    "english": "(Music - Action)"
+  },
+  {
+    "id": "0018",
+    "text": "(Kılıç ve bağırma sesleri)",
+    "english": "(Sword and shouting sounds)"
+  },
+  {
+    "id": "0019",
+    "text": "Ah!",
+    "english": "Ah!"
+  },
+  {
+    "id": "0020",
+    "text": "(Kılıç ve bağırma sesleri)",
+    "english": "(Sounds of swords and shouting)"
+  },
+  {
+    "id": "0021",
+    "text": "Ah!",
+    "english": "Ah!"
+  },
+  {
+    "id": "0022",
+    "text": "(Müzik - Aksiyon)",
+    "english": "(Music - Action)"
+  },
+  {
+    "id": "0023",
+    "text": "(Ok fırlatma sesi)",
+    "english": "(Sound of an arrow being launched)"
+  },
+  {
+    "id": "0024",
+    "text": "Beyim.",
+    "english": "My lord."
+  },
+  {
+    "id": "0025",
+    "text": "(Ok sesleri)",
+    "english": "(Sound of arrows)"
+  },
+  {
+    "id": "0026",
+    "text": "Aa aa!",
+    "english": "Aa aa! To save"
+  },
+  {
+    "id": "0027",
+    "text": "Obanı da...",
+    "english": "both the tribe and"
+  },
+  {
+    "id": "0028",
+    "text": "...devleti de bu tehlikeden kurtarmak için...",
+    "english": "the state from this danger, let"
+  },
+  {
+    "id": "0029",
+    "text": "...birlikte hareket edelim.",
+    "english": "us act together. I have nothing to say to"
+  },
+  {
+    "id": "0030",
+    "text": "Eline Alplerimin kanı bulaşmış bir adamla konuşacak bir şeyim olmaz benim.",
+    "english": "a man whose hands are stained with the blood of my Alps ."
+  },
+  {
+    "id": "0031",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0032",
+    "text": "Mektuplarınız gayet başarılı ve ikna edici, Şehzadem.",
+    "english": "Your letters are very successful and persuasive, Prince."
+  },
+  {
+    "id": "0033",
+    "text": "Gerek İslam, gerekse kefere memleketlerin idarecilerinden…",
+    "english": ""
+  },
+  {
+    "id": "0034",
+    "text": "…büyük destek alacağınız muhakkak.",
+    "english": "You will certainly receive great support from both Islamic and non-Muslim rulers."
+  },
+  {
+    "id": "0035",
+    "text": "Eğer babam hakkı olanı alıp sultan olursa…",
+    "english": "If my father gets what is rightfully his and becomes sultan…"
+  },
+  {
+    "id": "0036",
+    "text": "…bu sizin sayenizde.",
+    "english": "…it will be thanks to you."
+  },
+  {
+    "id": "0037",
+    "text": "Onun tek varisi ben olacağım.",
+    "english": "I will be his only heir."
+  },
+  {
+    "id": "0038",
+    "text": "Elbette Şehzadem.",
+    "english": "Of course, Prince."
+  },
+  {
+    "id": "0039",
+    "text": "O halde...",
+    "english": "So"
+  },
+  {
+    "id": "0040",
+    "text": "...neden bize destek olan Türkmenlerin yanında ben de yokum?",
+    "english": "... why am I not alongside the Turkmen who are supporting us?"
+  },
+  {
+    "id": "0041",
+    "text": "Neden bunlar benden saklanıyor?",
+    "english": "Why are they hiding this from me?"
+  },
+  {
+    "id": "0042",
+    "text": "Yarın Selahattin Kervansarayı'ndaki buluşmaya...",
+    "english": "Tomorrow,"
+  },
+  {
+    "id": "0043",
+    "text": "...sizi bizzat ben kendi ellerimle götüreceğim.",
+    "english": "I will personally take you to the meeting at the Selahattin Caravanserai."
+  },
+  {
+    "id": "0044",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0045",
+    "text": "Yeni bir haber öğrendim.",
+    "english": "I learned some new news. You need to"
+  },
+  {
+    "id": "0046",
+    "text": "Ertuğrul ağabeyime haber vermeniz gerekiyor. Hemen!",
+    "english": "inform my older brother Ertuğrul . Immediately!"
+  },
+  {
+    "id": "0047",
+    "text": "Ne haberi Şehzadem? Söyle.",
+    "english": "What's the news, Prince? Like this."
+  },
+  {
+    "id": "0048",
+    "text": "Nasır, Türkmenleri kullanıp yeni bir savaş açmayı planlıyor.",
+    "english": "Nasser is planning to use the Turkmen to start a new war."
+  },
+  {
+    "id": "0049",
+    "text": "İhtiyar.",
+    "english": "Old."
+  },
+  {
+    "id": "0050",
+    "text": "Emir Hazretleri, Müslüman kanı dökmek istemez.",
+    "english": "His Highness the Emir does not wish to shed Muslim blood."
+  },
+  {
+    "id": "0051",
+    "text": "Bunu bilesin.",
+    "english": "You should know this."
+  },
+  {
+    "id": "0052",
+    "text": "Lakin...",
+    "english": "But... she wants"
+  },
+  {
+    "id": "0053",
+    "text": "...hain dayısını ve Ertuğrul Bey’i ister.",
+    "english": "her treacherous uncle and Ertuğrul Bey."
+  },
+  {
+    "id": "0054",
+    "text": "Sonra da Sultan Alaeddin’e karşı…",
+    "english": "Then, against Sultan Alaeddin…"
+  },
+  {
+    "id": "0055",
+    "text": "…tüm göçebe Türkmenler gibi onun sancağı altında birleşmenizi.",
+    "english": "… you should unite under his banner, like all the nomadic Turkmen."
+  },
+  {
+    "id": "0056",
+    "text": "Önce konuşma adabını öğren komutan.",
+    "english": "First, learn some manners, commander."
+  },
+  {
+    "id": "0057",
+    "text": "El Aziz’e de ki…",
+    "english": "Tell El Aziz…"
+  },
+  {
+    "id": "0058",
+    "text": "…Süleyman Şah obasından ona bir keçi bile vermez.",
+    "english": "…Suleiman Shah will not give him even a goat from his tribe. Tell me."
+  },
+  {
+    "id": "0059",
+    "text": "Söyle diyorum. Söylesene ödlek.",
+    "english": "Tell me, you coward. It's easy to talk behind my back like"
+  },
+  {
+    "id": "0060",
+    "text": "Öyle adi bir yosma gibi ardımdan konuşmak kolay.",
+    "english": "such a vile hussy ."
+  },
+  {
+    "id": "0061",
+    "text": "Hadi, hadi şimdi yüzüme söyle.",
+    "english": "Come on, come on, tell me to my face now."
+  },
+  {
+    "id": "0062",
+    "text": "Ha? Kim bana nereden geldiğimi hatırlatacakmış?",
+    "english": "Ha? Who's going to remind me where I came from?"
+  },
+  {
+    "id": "0063",
+    "text": "Yoksa babanla Süleyman Şah’ın bir olup babamı öldürmesinden mi bahsedersin?",
+    "english": "Or are you talking about how your father and Suleiman Shah conspired together to kill my father? Like this"
+  },
+  {
+    "id": "0064",
+    "text": "Söyle!",
+    "english": "! If you ever try to hit"
+  },
+  {
+    "id": "0065",
+    "text": "Bir daha bana vurmaya kalkarsan seni…",
+    "english": "me again, I'll..."
+  },
+  {
+    "id": "0066",
+    "text": "Ne yaparsın ha?",
+    "english": "what will I do to you, huh?"
+  },
+  {
+    "id": "0067",
+    "text": "Ne yaparsın beni ha?",
+    "english": "What are you going to do to me?"
+  },
+  {
+    "id": "0068",
+    "text": "Aaaa!",
+    "english": "Aaaa!"
+  },
+  {
+    "id": "0069",
+    "text": "Aaaa!",
+    "english": "Aaaa!"
+  },
+  {
+    "id": "0070",
+    "text": "(Aykız) Selcan!",
+    "english": "(Aykız) Selcan!"
+  },
+  {
+    "id": "0071",
+    "text": "(İnleme sesleri)",
+    "english": "(Groaning sounds)"
+  },
+  {
+    "id": "0072",
+    "text": "(Darp sesleri)",
+    "english": "(Sounds of hitting)"
+  },
+  {
+    "id": "0073",
+    "text": "Bu işin inceliğini öğrenmeliyiz.",
+    "english": "We need to learn the intricacies of this."
+  },
+  {
+    "id": "0074",
+    "text": "Sanmıyorum.",
+    "english": "I don't think so."
+  },
+  {
+    "id": "0075",
+    "text": "Müslümanlar buna iman gücü diyorlar amcacığım.",
+    "english": "Muslims call it the power of faith, uncle."
+  },
+  {
+    "id": "0076",
+    "text": "İmanlarını da alacağız ellerinden.",
+    "english": "We will take their faith away from them as well. We will do it"
+  },
+  {
+    "id": "0077",
+    "text": "Tıpkı Turgut’un Alp giysilerini çıkarıp…",
+    "english": "just like we took off Turgut's Alpine clothes and..."
+  },
+  {
+    "id": "0078",
+    "text": "…yerine şövalye giysilerini giydirdiğimiz gibi yapacağız bunu.",
+    "english": "... dressed him in knight's attire."
+  },
+  {
+    "id": "0079",
+    "text": "(Darp sesleri)",
+    "english": "(Sounds of beating)"
+  },
+  {
+    "id": "0080",
+    "text": "(Darp sesleri)",
+    "english": "(Sounds of beating)"
+  },
+  {
+    "id": "0081",
+    "text": "Kurdoğlu.",
+    "english": "Kurdoğlu."
+  },
+  {
+    "id": "0082",
+    "text": "Numan...",
+    "english": "Numan..."
+  },
+  {
+    "id": "0083",
+    "text": "...Türkmenleri isyana teşvik etmek için davet etmiş.",
+    "english": "...invited them to incite the Turkmen to revolt ."
+  },
+  {
+    "id": "0084",
+    "text": "Böyle olacağı belliydi.",
+    "english": "It was obvious this would happen."
+  },
+  {
+    "id": "0085",
+    "text": "Neredeymiş bu davet?",
+    "english": "Where was this invitation? We don't know"
+  },
+  {
+    "id": "0086",
+    "text": "Henüz bilmiyoruz.",
+    "english": "yet."
+  },
+  {
+    "id": "0087",
+    "text": "Demek Şehzade Numan...",
+    "english": "So Prince Numan..."
+  },
+  {
+    "id": "0088",
+    "text": "...Nasır’la iş birliğini kabul etti ha?",
+    "english": "...agreed to cooperate with Nasser, huh?"
+  },
+  {
+    "id": "0089",
+    "text": "Alaeddin bunu duyduğunda…",
+    "english": "When Alaeddin hears this… he will not hesitate to"
+  },
+  {
+    "id": "0090",
+    "text": "…ordusuyla Halep’e yürümekte tereddüt etmeyecektir.",
+    "english": "march on Aleppo with his army . There"
+  },
+  {
+    "id": "0091",
+    "text": "Çok kan akacak Afşin.",
+    "english": "will be a lot of bloodshed, Afşin. No matter"
+  },
+  {
+    "id": "0092",
+    "text": "Ne ceza istesem, bebemin acısını unutturamaz baba.",
+    "english": "what punishment I ask for, it can't make me forget the pain of losing my baby, father."
+  },
+  {
+    "id": "0093",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings)"
+  },
+  {
+    "id": "0094",
+    "text": "Bu yüzdendir ki...",
+    "english": "That is why..."
+  },
+  {
+    "id": "0095",
+    "text": "...kırbaçlansın.",
+    "english": "...he should be whipped."
+  },
+  {
+    "id": "0096",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion) Any"
+  },
+  {
+    "id": "0097",
+    "text": "Bir haber var mıdır beyim?",
+    "english": "news, sir? Yes. The"
+  },
+  {
+    "id": "0098",
+    "text": "Var.",
+    "english": ""
+  },
+  {
+    "id": "0099",
+    "text": "Türkmen aşiretleri Numan'ın etrafında toparlanıp...",
+    "english": "Turkmen tribes were gathering around Numan and planning to"
+  },
+  {
+    "id": "0100",
+    "text": "...Selçuk Bey'e savaş çıkaracaklarmış.",
+    "english": "wage war against Selçuk Bey."
+  },
+  {
+    "id": "0101",
+    "text": "Kara Toygar haklıymış demek.",
+    "english": "So Kara Toygar was right after all. If"
+  },
+  {
+    "id": "0102",
+    "text": "Şehzade Numan, Nasır'ın tezgâhına gelmeseydi...",
+    "english": "Prince Numan hadn't fallen for Nasser's scheme..."
+  },
+  {
+    "id": "0103",
+    "text": "...Türkmenlere bu daveti yapamazlardı.",
+    "english": "...they wouldn't have been able to extend this invitation to the Turkmen."
+  },
+  {
+    "id": "0104",
+    "text": "Demek ki Numan, Selçuklu tahtına aday.",
+    "english": "So Numan is a candidate for the Seljuk throne."
+  },
+  {
+    "id": "0105",
+    "text": "(Doğan) Şimdi ne edeceğiz beyim?",
+    "english": "(Dogan) What are we going to do now, sir? We're going to"
+  },
+  {
+    "id": "0106",
+    "text": "Gidip bu savaşa engel olacağız Doğan.",
+    "english": "go and stop this war, Doğan."
+  },
+  {
+    "id": "0107",
+    "text": "(Ertuğrul) Ne yapıp edip...",
+    "english": "(Ertuğrul) We will do whatever it takes..."
+  },
+  {
+    "id": "0108",
+    "text": "...Numan'ı oradan çıkarıp alacağız.",
+    "english": "...to get Numan out of there."
+  },
+  {
+    "id": "0109",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings)"
+  },
+  {
+    "id": "0110",
+    "text": "(Kırbaç sesi) -Ah!",
+    "english": "(Whip sound) - Ah!"
+  },
+  {
+    "id": "0111",
+    "text": "(Kırbaç sesi) -Ah!",
+    "english": "(Whip sound) -Ah!"
+  },
+  {
+    "id": "0112",
+    "text": "(Kırbaç sesi) -Ah!",
+    "english": "(Whip sound) -Ah!"
+  },
+  {
+    "id": "0113",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0114",
+    "text": "(Kırbaç sesi) -Ah!",
+    "english": "(Whip sound) - Ah!"
+  },
+  {
+    "id": "0115",
+    "text": "(Kırbaç sesi) -Ah!",
+    "english": "(Whip sound) -Ah!"
+  },
+  {
+    "id": "0116",
+    "text": "(Kırbaç sesi) -Ah!",
+    "english": "(Whip sound) -Ah!"
+  },
+  {
+    "id": "0117",
+    "text": "(Kılıç sesi)",
+    "english": "(Sword sound)"
+  },
+  {
+    "id": "0118",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0119",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0120",
+    "text": "Sizi buradan çıkaracağım Şehzadem.",
+    "english": "I will get you out of here, Prince."
+  },
+  {
+    "id": "0121",
+    "text": "Şimdi beni babanın yanına götür.",
+    "english": "Now take me to your father."
+  },
+  {
+    "id": "0122",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0123",
+    "text": "Anlaşılan Emir Hazretleri...",
+    "english": "Apparently, His Highness the Emir..."
+  },
+  {
+    "id": "0124",
+    "text": "...sadece ateşle oynamayıp...",
+    "english": "...has not only decided to play with fire..."
+  },
+  {
+    "id": "0125",
+    "text": "...ateşle gerdeğe girmeyi kafasına koymuştur.",
+    "english": "...but also to consummate his marriage with fire ."
+  },
+  {
+    "id": "0126",
+    "text": "Korkut Beyim.",
+    "english": "Mr. Korkut."
+  },
+  {
+    "id": "0127",
+    "text": "Gerdeğe kim girecekse...",
+    "english": ""
+  },
+  {
+    "id": "0128",
+    "text": "...gelip o aşı yesin dersin yani.",
+    "english": "So you're saying that whoever is going to have sex with you... ...should come and get that vaccination. Now let"
+  },
+  {
+    "id": "0129",
+    "text": "Gelelim ikinci meseleye.",
+    "english": "'s move on to the second issue. Why isn't Süleyman Shah, the"
+  },
+  {
+    "id": "0130",
+    "text": "Kayı Boyunun...",
+    "english": ""
+  },
+  {
+    "id": "0131",
+    "text": "...güngörmüş beyi...",
+    "english": "wise and experienced bey of the Kayı tribe,"
+  },
+  {
+    "id": "0132",
+    "text": "...Süleyman Şah...",
+    "english": ""
+  },
+  {
+    "id": "0133",
+    "text": "...neden aramızda değiller?",
+    "english": "among us anymore?"
+  },
+  {
+    "id": "0134",
+    "text": "Süleyman Şah aramızda değiller.",
+    "english": "Suleiman Shah is no longer with us."
+  },
+  {
+    "id": "0135",
+    "text": "Çünkü...",
+    "english": "Because..."
+  },
+  {
+    "id": "0136",
+    "text": "...verdikleri sözü tutmadıkları gibi...",
+    "english": "...not only did they break their promise..."
+  },
+  {
+    "id": "0137",
+    "text": "...kefere Haçlılarla da iş birliği yapmıştır.",
+    "english": "...they also collaborated with the infidel Crusaders ."
+  },
+  {
+    "id": "0138",
+    "text": "Yalan!",
+    "english": "Lie!"
+  },
+  {
+    "id": "0139",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0140",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0141",
+    "text": "Ertuğrul.",
+    "english": "Ertuğrul."
+  },
+  {
+    "id": "0142",
+    "text": "(Hoca) Melik Zahir oğlu Aziz...",
+    "english": "(Teacher) Melik Zahir's son Aziz..."
+  },
+  {
+    "id": "0143",
+    "text": "...Numan kızı Halime'yi...",
+    "english": "...Halime, daughter of Numan"
+  },
+  {
+    "id": "0144",
+    "text": "...zevceliğe kabul ettin mi?",
+    "english": "... ...did you accept her as your wife? I did"
+  },
+  {
+    "id": "0145",
+    "text": "Ettim.",
+    "english": ". Did you"
+  },
+  {
+    "id": "0146",
+    "text": "(Hoca) Ettin mi?",
+    "english": "(the teacher) do it? I did"
+  },
+  {
+    "id": "0147",
+    "text": "Ettim.",
+    "english": ". Did you"
+  },
+  {
+    "id": "0148",
+    "text": "(Hoca) Ettin mi?",
+    "english": "(the teacher) do it? I did"
+  },
+  {
+    "id": "0149",
+    "text": "Ettim.",
+    "english": "."
+  },
+  {
+    "id": "0150",
+    "text": "(Müzik - Vurmalılar ve ney)",
+    "english": "(Music - Percussion and ney)"
+  },
+  {
+    "id": "0151",
+    "text": "(Hoca) Numan kızı Halime...",
+    "english": "(Teacher) Halime, daughter of Numan..."
+  },
+  {
+    "id": "0152",
+    "text": "...Halep'e tabi iki kasaba...",
+    "english": "...in exchange for giving two towns subject to Aleppo..."
+  },
+  {
+    "id": "0153",
+    "text": "...bağlar ve Halep çarşısını...",
+    "english": "...vineyards and the Aleppo market... ..."
+  },
+  {
+    "id": "0154",
+    "text": "...mihr olarak vermesi mukabilinde...",
+    "english": "as dowry... ...did you accept the marriage"
+  },
+  {
+    "id": "0155",
+    "text": "...Melik Zahir oğlu Melik Aziz'in...",
+    "english": "of Malik Aziz, son of Malik Zahir"
+  },
+  {
+    "id": "0156",
+    "text": "...nikâhını kabul ettin mi?",
+    "english": "?"
+  },
+  {
+    "id": "0157",
+    "text": "(Müzik - Jenerik)",
+    "english": "(Music - Opening Credits)"
+  },
+  {
+    "id": "0158",
+    "text": "(Müzik - Jenerik)",
+    "english": "(Music - Opening Credits) ("
+  },
+  {
+    "id": "0159",
+    "text": "(Müzik - Jenerik)",
+    "english": "Music - Opening Credits"
+  },
+  {
+    "id": "0160",
+    "text": "(Müzik - Jenerik)",
+    "english": ")"
+  },
+  {
+    "id": "0161",
+    "text": "(Müzik - Jenerik)",
+    "english": "(Music - Opening Credits)"
+  },
+  {
+    "id": "0162",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0163",
+    "text": "(Müzik - Vurmalılar ve ney)",
+    "english": "(Music - Percussion and Flute) Thank God we are reunited, my"
+  },
+  {
+    "id": "0164",
+    "text": "Şükür kavuşturana Şehzadem.",
+    "english": "Prince."
+  },
+  {
+    "id": "0165",
+    "text": "Eyvallah Afşin Bey.",
+    "english": "Thank you, Mr. Afşin."
+  },
+  {
+    "id": "0166",
+    "text": "Yiğit'im.",
+    "english": "My brave one. We have some things to"
+  },
+  {
+    "id": "0167",
+    "text": "Bizim Afşin Bey'le konuşacaklarımız var.",
+    "english": "discuss with Mr. Afşin."
+  },
+  {
+    "id": "0168",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings) Aren't you going to"
+  },
+  {
+    "id": "0169",
+    "text": "Halime Sultan'ın nikâhına gitmiyor musunuz Şehzadem?",
+    "english": "Halime Sultan's wedding, Prince?"
+  },
+  {
+    "id": "0170",
+    "text": "Birazdan geçeceğim Afşin Bey.",
+    "english": "I'll be passing by shortly, Mr. Afşin."
+  },
+  {
+    "id": "0171",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings) I would rather die a thousand times"
+  },
+  {
+    "id": "0172",
+    "text": "Senin zevcen olmaktansa...",
+    "english": "than be your wife"
+  },
+  {
+    "id": "0173",
+    "text": "...bin kere ölmeyi yeğlerim.",
+    "english": "."
+  },
+  {
+    "id": "0174",
+    "text": "Halime.",
+    "english": "Halime."
+  },
+  {
+    "id": "0175",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0176",
+    "text": "Halime.",
+    "english": "Halime."
+  },
+  {
+    "id": "0177",
+    "text": "Halime.",
+    "english": "Halime."
+  },
+  {
+    "id": "0178",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0179",
+    "text": "Sizi dinliyorum Şehzadem.",
+    "english": "I am listening, Prince."
+  },
+  {
+    "id": "0180",
+    "text": "Ben bir Selçuklu Şehzadesi olarak...",
+    "english": "As a Seljuk prince... I"
+  },
+  {
+    "id": "0181",
+    "text": "...El Aziz'le ittifak ettim.",
+    "english": "formed an alliance with Al-Aziz."
+  },
+  {
+    "id": "0182",
+    "text": "Selçuklu Devleti'ndeki payımı almak için...",
+    "english": "To claim my share in the Seljuk State... I"
+  },
+  {
+    "id": "0183",
+    "text": "...artık mücadele edeceğim.",
+    "english": "will now fight."
+  },
+  {
+    "id": "0184",
+    "text": "Eğer böyle yaparsanız...",
+    "english": "If you do this..."
+  },
+  {
+    "id": "0185",
+    "text": "...Selçuklu Devleti parçalanır.",
+    "english": "...the Seljuk Empire will disintegrate."
+  },
+  {
+    "id": "0186",
+    "text": "Kılıçlara kardeş kanı bulaşır Şehzadem.",
+    "english": "Brotherly blood will stain the swords, my Prince."
+  },
+  {
+    "id": "0187",
+    "text": "Ben yıllardır...",
+    "english": "For years, I have"
+  },
+  {
+    "id": "0188",
+    "text": "...evlatlarımı kaybetmenin korkusuyla yaşadım Afşin.",
+    "english": "lived in fear of losing my children, Afşin."
+  },
+  {
+    "id": "0189",
+    "text": "Artık...",
+    "english": "Now..."
+  },
+  {
+    "id": "0190",
+    "text": "...onlar korksun.",
+    "english": "...let them be afraid."
+  },
+  {
+    "id": "0191",
+    "text": "Kararım kesin.",
+    "english": "My decision is final."
+  },
+  {
+    "id": "0192",
+    "text": "Karar sizin Şehzadem.",
+    "english": "The decision is yours, Prince."
+  },
+  {
+    "id": "0193",
+    "text": "Seni de yanımda görmek isterim Afşin.",
+    "english": "I'd like to see you by my side too, Afşin. Let's work"
+  },
+  {
+    "id": "0194",
+    "text": "Beraber Selçuklu Devleti'ni yeniden ayağa kaldıralım.",
+    "english": "together to revive the Seljuk Empire ."
+  },
+  {
+    "id": "0195",
+    "text": "Eğer benimle beraber hareket edersen...",
+    "english": "If you act with me..."
+  },
+  {
+    "id": "0196",
+    "text": "...devletten ne istersen...",
+    "english": "...whatever you ask from the state..."
+  },
+  {
+    "id": "0197",
+    "text": "...sana onu bahşederim.",
+    "english": "...I will grant it to you."
+  },
+  {
+    "id": "0198",
+    "text": "Sen de yıllardır...",
+    "english": "You too have been"
+  },
+  {
+    "id": "0199",
+    "text": "...meczup gibi kaçarsın.",
+    "english": "running away like a madman for years. I would be"
+  },
+  {
+    "id": "0200",
+    "text": "Şeref duyarım Şehzadem.",
+    "english": "honored, Prince. Do you have"
+  },
+  {
+    "id": "0201",
+    "text": "Benden bir arzunuz, talebiniz var mı?",
+    "english": "any requests or demands from me?"
+  },
+  {
+    "id": "0202",
+    "text": "Bütün Türk boylarına...",
+    "english": ""
+  },
+  {
+    "id": "0203",
+    "text": "...haber ulaştırmanı isterim.",
+    "english": "I want you to deliver the news to all the Turkic tribes..."
+  },
+  {
+    "id": "0204",
+    "text": "Onların gönlünü kazanmak için...",
+    "english": "To win their hearts..."
+  },
+  {
+    "id": "0205",
+    "text": "...bir servet bahşedeceğim.",
+    "english": "I will bestow a fortune upon them."
+  },
+  {
+    "id": "0206",
+    "text": "Bu serveti nereden bulacağız Şehzadem?",
+    "english": "Where will we find this fortune, Prince?"
+  },
+  {
+    "id": "0207",
+    "text": "El Aziz her türlü desteği verecek.",
+    "english": "El Aziz will provide all the necessary support."
+  },
+  {
+    "id": "0208",
+    "text": "Sen şimdi harekete geçesin.",
+    "english": "You should act now."
+  },
+  {
+    "id": "0209",
+    "text": "Ben sana haber ulaştırırım.",
+    "english": "I'll get the message to you."
+  },
+  {
+    "id": "0210",
+    "text": "Halep çarşıda, Türkmen halıcıda bulabilirsiniz beni Şehzadem.",
+    "english": "You can find me, Prince, in the Aleppo market, at the Turkmen carpet shop."
+  },
+  {
+    "id": "0211",
+    "text": "Varol.",
+    "english": "Varol."
+  },
+  {
+    "id": "0212",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0213",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0214",
+    "text": "Siz...",
+    "english": "You... ...the"
+  },
+  {
+    "id": "0215",
+    "text": "...Oğuz'un yiğit beyleri.",
+    "english": "valiant lords of Oghuz. Will"
+  },
+  {
+    "id": "0216",
+    "text": "Bu hainin lafına mı itibar edeceksiniz...",
+    "english": "you give credence to the word of this traitor..."
+  },
+  {
+    "id": "0217",
+    "text": "...yoksa Halep Emiri El Aziz'in mi?",
+    "english": "...or that of the Emir of Aleppo, Al-Aziz?"
+  },
+  {
+    "id": "0218",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0219",
+    "text": "Benim de sözüm bunlardan ibarettir Oğuz'un soylu beyleri.",
+    "english": "My words are also limited to these, noble lords of Oğuz."
+  },
+  {
+    "id": "0220",
+    "text": "Obamızın içine kadar sızıp veba illetini obamıza bulaştırmak isteyenler...",
+    "english": "Those who sought to infiltrate our community and spread the plague... those who sowed seeds of"
+  },
+  {
+    "id": "0221",
+    "text": "...İslam alemine nifak tohumlarını sokanlar...",
+    "english": "discord in the Islamic world"
+  },
+  {
+    "id": "0222",
+    "text": "...Kudüs'te başımızın secdeye değmesine mani olmak isteyenler...",
+    "english": "... those who wanted to prevent us from bowing our heads in prayer in Jerusalem"
+  },
+  {
+    "id": "0223",
+    "text": "...şimdi de Oğuzları birbirine düşürüp...",
+    "english": "... are now trying to turn the Oghuz against each other and destroy the"
+  },
+  {
+    "id": "0224",
+    "text": "...Selçuklu Devleti'ni yıkmaya çalışmaktadırlar.",
+    "english": "Seljuk State ."
+  },
+  {
+    "id": "0225",
+    "text": "Bu öyle bir ihanettir ki...",
+    "english": "This is such a betrayal... ...that it defies the imagination of"
+  },
+  {
+    "id": "0226",
+    "text": "...şerefli bir insanın...",
+    "english": "an honorable man"
+  },
+  {
+    "id": "0227",
+    "text": "...tahayyül sınırlarını zorlamaktadır.",
+    "english": "."
+  },
+  {
+    "id": "0228",
+    "text": "Bunun...",
+    "english": ""
+  },
+  {
+    "id": "0229",
+    "text": "...en bariz misali...",
+    "english": "The most obvious example of this... ..."
+  },
+  {
+    "id": "0230",
+    "text": "...karşınızda duruyor.",
+    "english": "is standing right in front of you."
+  },
+  {
+    "id": "0231",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0232",
+    "text": "(Kılıç sesi)",
+    "english": "(Sword sound)"
+  },
+  {
+    "id": "0233",
+    "text": "(Kılıç sesi)",
+    "english": "(Sword sound) This wretched man, to whom the"
+  },
+  {
+    "id": "0234",
+    "text": "Selahattin Eyyubi’nin torunlarının...",
+    "english": "descendants of Saladin"
+  },
+  {
+    "id": "0235",
+    "text": "...ordularını emanet ettikleri bu adam müsveddesi...",
+    "english": "entrusted their armies, stands"
+  },
+  {
+    "id": "0236",
+    "text": "...bir Haçlı köpeği olarak karşınızdadır.",
+    "english": "before you as a Crusader dog."
+  },
+  {
+    "id": "0237",
+    "text": "Ertuğrul'a inananlar gaflet ve dalalet içine düşenlerdir.",
+    "english": "Those who believe in Ertuğrul are those who have fallen into heedlessness and delusion."
+  },
+  {
+    "id": "0238",
+    "text": "Buna tevessül edenler bedelini en ağır şekilde öderler.",
+    "english": "Those who attempt this will pay the price in the harshest way possible. You"
+  },
+  {
+    "id": "0239",
+    "text": "Bre soysuzun dölü!",
+    "english": "son of a bitch! Should"
+  },
+  {
+    "id": "0240",
+    "text": "Süleyman Şah'ın evladına mı inanacağız...",
+    "english": "we believe the son of Suleiman Shah"
+  },
+  {
+    "id": "0241",
+    "text": "...senin gibi ne idüğü belirsiz uğursuza mı?",
+    "english": "... or some unknown, ill-omened person like you ? With such a despicable"
+  },
+  {
+    "id": "0242",
+    "text": "Ula senin suratında meymenetin esamesi okunmazken...",
+    "english": "face of yours ..."
+  },
+  {
+    "id": "0243",
+    "text": "...sözünden ne hayır gelir?",
+    "english": "what good can come from your words?"
+  },
+  {
+    "id": "0244",
+    "text": "Görüyorum ki...",
+    "english": "I see that..."
+  },
+  {
+    "id": "0245",
+    "text": "...dayın Korkut'la bir olup...",
+    "english": "...you and your uncle Korkut have"
+  },
+  {
+    "id": "0246",
+    "text": "...bana tuzak kurmuşsunuz.",
+    "english": "conspired to set a trap for me. Ah!"
+  },
+  {
+    "id": "0247",
+    "text": "Ah!",
+    "english": ""
+  },
+  {
+    "id": "0248",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword sounds)"
+  },
+  {
+    "id": "0249",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0250",
+    "text": "Ah!",
+    "english": "Ah!"
+  },
+  {
+    "id": "0251",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sound of swords)"
+  },
+  {
+    "id": "0252",
+    "text": "Ah!",
+    "english": "Ah!"
+  },
+  {
+    "id": "0253",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword sounds)"
+  },
+  {
+    "id": "0254",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0255",
+    "text": "Bundan gayri...",
+    "english": "Furthermore..."
+  },
+  {
+    "id": "0256",
+    "text": "...Kızıl Keçeliler de Eyyubilerin düşmanıdır.",
+    "english": "...the Red Felt-wearing are also enemies of the Ayyubids."
+  },
+  {
+    "id": "0257",
+    "text": "Halep Emiri El Aziz'e ihanet edenler...",
+    "english": "Those who betrayed Emir Al-Aziz of Aleppo..."
+  },
+  {
+    "id": "0258",
+    "text": "...buradan sağ çıkamayacaklar.",
+    "english": "...will not get out of here alive."
+  },
+  {
+    "id": "0259",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0260",
+    "text": "Yürü!",
+    "english": "Walk!"
+  },
+  {
+    "id": "0261",
+    "text": "Eğer güvendiğin askerlerin...",
+    "english": "If these are the soldiers you trust..."
+  },
+  {
+    "id": "0262",
+    "text": "...ve başları buysa...",
+    "english": "...and their leaders..."
+  },
+  {
+    "id": "0263",
+    "text": "...kendini eşeklere teptir daha iyi, Nasır.",
+    "english": "...you'd be better off being trampled by donkeys, Nasser."
+  },
+  {
+    "id": "0264",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0265",
+    "text": "Ah!",
+    "english": "Ah! Ah!"
+  },
+  {
+    "id": "0266",
+    "text": "Ah!",
+    "english": ""
+  },
+  {
+    "id": "0267",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0268",
+    "text": "Abi.",
+    "english": "Bro. I ca"
+  },
+  {
+    "id": "0269",
+    "text": "Bunu yapmasına izin veremem.",
+    "english": "n't let him do that."
+  },
+  {
+    "id": "0270",
+    "text": "Emir Hazretleri Allah aşkına durun.",
+    "english": "Your Highness, please stop for God's sake."
+  },
+  {
+    "id": "0271",
+    "text": "Sonradan vicdan azabı çekeceğiniz bir şey yapmayın, lütfen yalvarırım size.",
+    "english": "Please, I beg you, don't do anything you'll regret later."
+  },
+  {
+    "id": "0272",
+    "text": "Burada ne işin var Halime?",
+    "english": "What are you doing here, Halime?"
+  },
+  {
+    "id": "0273",
+    "text": "Av köşküne gidecektiniz?",
+    "english": "Were you going to the hunting lodge?"
+  },
+  {
+    "id": "0274",
+    "text": "Bu iş bitti baba.",
+    "english": "This is over, Dad. The"
+  },
+  {
+    "id": "0275",
+    "text": "Nikâh olmadı.",
+    "english": "marriage did not take place."
+  },
+  {
+    "id": "0276",
+    "text": "Sen ne diyorsun Halime?",
+    "english": "What are you saying, Halime? If"
+  },
+  {
+    "id": "0277",
+    "text": "İhanetini devam ettireceksen...",
+    "english": "you continue your betrayal..."
+  },
+  {
+    "id": "0278",
+    "text": "...bundan sonra beni kullanamayacaksın baba.",
+    "english": "...you won't be able to use me anymore, father."
+  },
+  {
+    "id": "0279",
+    "text": "Halime, sen ne yaptın?",
+    "english": "Halime, what have you done?"
+  },
+  {
+    "id": "0280",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0281",
+    "text": "Yazıklar olsun size!",
+    "english": "Shame on you!"
+  },
+  {
+    "id": "0282",
+    "text": "Bana söz vermiştiniz.",
+    "english": "You promised me. I"
+  },
+  {
+    "id": "0283",
+    "text": "Bütün taleplerinizi yerine getirdim.",
+    "english": "have fulfilled all your requests."
+  },
+  {
+    "id": "0284",
+    "text": "Hiçbir kadına nasip olmayacak çeyizler, mihrler verdim.",
+    "english": "I gave her dowries and bridal gifts that no other woman would ever receive."
+  },
+  {
+    "id": "0285",
+    "text": "Niçin?",
+    "english": "Why?"
+  },
+  {
+    "id": "0286",
+    "text": "Küçücük bir umut için.",
+    "english": "For a tiny glimmer of hope."
+  },
+  {
+    "id": "0287",
+    "text": "Belki Halime Sultan günün birinde lütfedip...",
+    "english": "Perhaps one day Halime Sultan will be kind enough to..."
+  },
+  {
+    "id": "0288",
+    "text": "...beni sever umuduyla.",
+    "english": "...love me, with that hope."
+  },
+  {
+    "id": "0289",
+    "text": "Ama o ne yaptı?",
+    "english": "But what did he do?"
+  },
+  {
+    "id": "0290",
+    "text": "Herkesin önünde beni aşağıladı.",
+    "english": "He humiliated me in front of everyone. He humiliated her"
+  },
+  {
+    "id": "0291",
+    "text": "Küçük düşürdü.",
+    "english": ". He trampled the"
+  },
+  {
+    "id": "0292",
+    "text": "Selahattin Eyyubi’nin soyunu ayaklarının altına aldı.",
+    "english": "lineage of Saladin under his feet."
+  },
+  {
+    "id": "0293",
+    "text": "Niçin?",
+    "english": "Why?"
+  },
+  {
+    "id": "0294",
+    "text": "Ertuğrul denen o keçi çobanı için.",
+    "english": "For that goat shepherd named Ertuğrul."
+  },
+  {
+    "id": "0295",
+    "text": "-Abi... -Leyla sus!",
+    "english": "-Brother... -Leyla, be quiet!"
+  },
+  {
+    "id": "0296",
+    "text": "Şehzadem...",
+    "english": "My Prince..."
+  },
+  {
+    "id": "0297",
+    "text": "...alnıma çaldığınız bu aşağılanmanın lekesini temizleyeceksiniz.",
+    "english": "you will cleanse the stain of this humiliation you have inflicted upon my forehead."
+  },
+  {
+    "id": "0298",
+    "text": "Yoksa bunun bedelini hepiniz ödersiniz.",
+    "english": "Otherwise, you will all pay the price."
+  },
+  {
+    "id": "0299",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and Strings)"
+  },
+  {
+    "id": "0300",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and Strings)"
+  },
+  {
+    "id": "0301",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings)"
+  },
+  {
+    "id": "0302",
+    "text": "Yanına en iyi iki Alpi al.",
+    "english": "Take your two best Alpi instruments with you."
+  },
+  {
+    "id": "0303",
+    "text": "Pusatlanıp yola koyulacaksınız.",
+    "english": "You will get armed and set off. Yes sir"
+  },
+  {
+    "id": "0304",
+    "text": "Başüstüne beyim.",
+    "english": "."
+  },
+  {
+    "id": "0305",
+    "text": "Tapınakçıların kalesini gözleyeceksiniz.",
+    "english": "You will be observing the Templars' fortress. You will keep us informed of everything: the"
+  },
+  {
+    "id": "0306",
+    "text": "Uçan kuştan...",
+    "english": "birds flying by, the wind blowing, and those entering and"
+  },
+  {
+    "id": "0307",
+    "text": "...esen yelden...",
+    "english": ""
+  },
+  {
+    "id": "0308",
+    "text": "...kaleye girip çıkandan haberdar eyleyeceksiniz.",
+    "english": "leaving the fortress . There's"
+  },
+  {
+    "id": "0309",
+    "text": "Bundan gayri durmak yok.",
+    "english": "no stopping now."
+  },
+  {
+    "id": "0310",
+    "text": "Madem onlar savaş açtı...",
+    "english": "Since they declared war..."
+  },
+  {
+    "id": "0311",
+    "text": "...biz de kara bulut gibi üzerlerine çökeceğiz.",
+    "english": "...we will descend upon them like a dark cloud. Yes sir,"
+  },
+  {
+    "id": "0312",
+    "text": "Emriniz olur beyim.",
+    "english": "your wish is my command. No one will know about"
+  },
+  {
+    "id": "0313",
+    "text": "Bu vazifenden...",
+    "english": "this mission"
+  },
+  {
+    "id": "0314",
+    "text": "...sen ve o iki Alpin dışında...",
+    "english": "... except you and those two Alpins."
+  },
+  {
+    "id": "0315",
+    "text": "...kimsenin malumatı olmayacak.",
+    "english": ""
+  },
+  {
+    "id": "0316",
+    "text": "Diline sahip olanları seç.",
+    "english": "Choose those who understand the language."
+  },
+  {
+    "id": "0317",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0318",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0319",
+    "text": "Alamut'tan geçerken de böyle bir kale gördüm.",
+    "english": "I saw a similar castle when passing through Alamut. I"
+  },
+  {
+    "id": "0320",
+    "text": "İçine girmek nasip olmamıştı.",
+    "english": "never had the chance to go inside. It seems fate led me to"
+  },
+  {
+    "id": "0321",
+    "text": "Kısmet bu kaleyeymiş.",
+    "english": "this castle. I don't know if you'll get in and come out"
+  },
+  {
+    "id": "0322",
+    "text": "Girersin de içeriden sağ çıkar mısın bilemem Türk.",
+    "english": "alive, Turk. May whatever is"
+  },
+  {
+    "id": "0323",
+    "text": "Hakkımızda hayırlısı ne ise o olsun şövalyem.",
+    "english": "best for us happen, my knight ."
+  },
+  {
+    "id": "0324",
+    "text": "Madem dilimizi bu kadar iyi biliyorsun...",
+    "english": "Since you know our language so well..."
+  },
+  {
+    "id": "0325",
+    "text": "...neredensin şövalyem?",
+    "english": "...where are you from, my knight? I'm"
+  },
+  {
+    "id": "0326",
+    "text": "Sakson'um. Annem de Bröton.",
+    "english": "Saxon. My mother is also Breton."
+  },
+  {
+    "id": "0327",
+    "text": "Ha.",
+    "english": "Ha."
+  },
+  {
+    "id": "0328",
+    "text": "Güzel.",
+    "english": "Beautiful."
+  },
+  {
+    "id": "0329",
+    "text": "Ah, ah!",
+    "english": "Oh, oh! Ah! There's"
+  },
+  {
+    "id": "0330",
+    "text": "Ah!",
+    "english": ""
+  },
+  {
+    "id": "0331",
+    "text": "Bunun haçı maçı yok.",
+    "english": "no cross match here."
+  },
+  {
+    "id": "0332",
+    "text": "Bunun ne haçı, ne hilali var karındaşım.",
+    "english": "This has neither a cross nor a crescent, my friend."
+  },
+  {
+    "id": "0333",
+    "text": "Sen ne ayaksın bre gavat?",
+    "english": "What kind of person are you, you pimp? Did"
+  },
+  {
+    "id": "0334",
+    "text": "Yüzüğünü aldınız mı?",
+    "english": "you get the ring? We"
+  },
+  {
+    "id": "0335",
+    "text": "Çıkardık beyim.",
+    "english": "took it out, sir."
+  },
+  {
+    "id": "0336",
+    "text": "Dediğin gibi içi zehirliydi.",
+    "english": "As you said, it was poisoned inside."
+  },
+  {
+    "id": "0337",
+    "text": "Ama kellesine dövme mövme yaptırmamış bu beyim.",
+    "english": "But this gentleman hasn't gotten any tattoos or anything like that on his head. If it"
+  },
+  {
+    "id": "0338",
+    "text": "Haçlı değilse...",
+    "english": "'s not a crusader..."
+  },
+  {
+    "id": "0339",
+    "text": "...o vakit satılıktır.",
+    "english": "...then it's for sale."
+  },
+  {
+    "id": "0340",
+    "text": "Çözün onu.",
+    "english": "Solve it."
+  },
+  {
+    "id": "0341",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings) Well, now we're alone,"
+  },
+  {
+    "id": "0342",
+    "text": "Ee baş başa kaldık Nasır.",
+    "english": "Nasser."
+  },
+  {
+    "id": "0343",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0344",
+    "text": "(Kılıç sesi)",
+    "english": "(Sword sound)"
+  },
+  {
+    "id": "0345",
+    "text": "Aa aa!",
+    "english": "Aa aa! Ah! Ah! Oh oh! I wo"
+  },
+  {
+    "id": "0346",
+    "text": "Aa!",
+    "english": ""
+  },
+  {
+    "id": "0347",
+    "text": "Aa!",
+    "english": ""
+  },
+  {
+    "id": "0348",
+    "text": "Aa aa!",
+    "english": ""
+  },
+  {
+    "id": "0349",
+    "text": "Kendini öldürmene izin vermeyeceğim Nasır.",
+    "english": "n't let you kill yourself, Nasser."
+  },
+  {
+    "id": "0350",
+    "text": "(Kılıç sesi)",
+    "english": "(Sword sound)"
+  },
+  {
+    "id": "0351",
+    "text": "Aa aa!",
+    "english": "Aa aa!"
+  },
+  {
+    "id": "0352",
+    "text": "(Nasır) Aa! Aa!",
+    "english": "(Nasir) Aa! Ah!"
+  },
+  {
+    "id": "0353",
+    "text": "(Nasır) Ne öğrenmek istiyorsun?",
+    "english": "(Nasir) What do you want to learn?"
+  },
+  {
+    "id": "0354",
+    "text": "(Nasır) Ha! Ha!",
+    "english": "(Nasir) Ha! Ha!"
+  },
+  {
+    "id": "0355",
+    "text": "Hiç.",
+    "english": "None."
+  },
+  {
+    "id": "0356",
+    "text": "Bilmem gereken her şeyi biliyorum zaten.",
+    "english": "I already know everything I need to know."
+  },
+  {
+    "id": "0357",
+    "text": "Benden ne istiyorsun o zaman?",
+    "english": "What do you want from me then?"
+  },
+  {
+    "id": "0358",
+    "text": "Seni obaya götüreceğim.",
+    "english": "I will take you to the village. Just"
+  },
+  {
+    "id": "0359",
+    "text": "Düşünsene.",
+    "english": "imagine. An army whose"
+  },
+  {
+    "id": "0360",
+    "text": "Bir komutanı Kayılara esir düşmüş...",
+    "english": "one commander was captured by the Kayi tribe..."
+  },
+  {
+    "id": "0361",
+    "text": "...öbür komutanı Kayılara sığınmış bir ordu.",
+    "english": "...and whose other commander sought refuge with the Kayi tribe . Do"
+  },
+  {
+    "id": "0362",
+    "text": "Sence savaşa girebilir mi?",
+    "english": "you think they can go to war?"
+  },
+  {
+    "id": "0363",
+    "text": "Aşağılık herif!",
+    "english": "Douchebag! Ah!"
+  },
+  {
+    "id": "0364",
+    "text": "Ah!",
+    "english": ""
+  },
+  {
+    "id": "0365",
+    "text": "Doğan, Bamsı.",
+    "english": "Doğan, Bamsı."
+  },
+  {
+    "id": "0366",
+    "text": "Hazırlayın.",
+    "english": "Prepare it. Ah!"
+  },
+  {
+    "id": "0367",
+    "text": "Ah!",
+    "english": ""
+  },
+  {
+    "id": "0368",
+    "text": "(Nasır) Ah! Ah!",
+    "english": "(Nasir) Ah! Ah!"
+  },
+  {
+    "id": "0369",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword clash)"
+  },
+  {
+    "id": "0370",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword clash)"
+  },
+  {
+    "id": "0371",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword clash)"
+  },
+  {
+    "id": "0372",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword clash)"
+  },
+  {
+    "id": "0373",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword clash)"
+  },
+  {
+    "id": "0374",
+    "text": "Ah!",
+    "english": "Ah!"
+  },
+  {
+    "id": "0375",
+    "text": "Turgut?",
+    "english": "Turgut?"
+  },
+  {
+    "id": "0376",
+    "text": "Yürü Türk. Bu taraftan.",
+    "english": "Go on, Turk. This way."
+  },
+  {
+    "id": "0377",
+    "text": "(Müzik - Kilise müziği)",
+    "english": "(Music - Church music)"
+  },
+  {
+    "id": "0378",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword sounds)"
+  },
+  {
+    "id": "0379",
+    "text": "Efendim, size misafirinizi getirdim.",
+    "english": "Sir, I have brought your guest to you."
+  },
+  {
+    "id": "0380",
+    "text": "Hoş geldin Kurdoğlu.",
+    "english": "Welcome, Kurdoğlu. Thank you"
+  },
+  {
+    "id": "0381",
+    "text": "Hoş bulduk.",
+    "english": "."
+  },
+  {
+    "id": "0382",
+    "text": "Siz Üstad olmalısınız?",
+    "english": "You must be the Master?"
+  },
+  {
+    "id": "0383",
+    "text": "Maşallah, burada herkes dilimizi biliyor.",
+    "english": "Mashallah, everyone here speaks our language."
+  },
+  {
+    "id": "0384",
+    "text": "Sizin kadar güler yüzlü olmasa da...",
+    "english": "Although not as cheerful as you..."
+  },
+  {
+    "id": "0385",
+    "text": "...şövalyenizle yol boyunca sohbet ettik.",
+    "english": "we chatted with your knight along the way."
+  },
+  {
+    "id": "0386",
+    "text": "Düşmanının dilini bilmek en büyük silahtır Kurdoğlu.",
+    "english": "Knowing your enemy's language is your greatest weapon, Kurdoğlu. Are"
+  },
+  {
+    "id": "0387",
+    "text": "Hâlâ düşman mıyız?",
+    "english": "we still enemies? We"
+  },
+  {
+    "id": "0388",
+    "text": "Bizimle iş birliği yapan...",
+    "english": ""
+  },
+  {
+    "id": "0389",
+    "text": "...herkese kucağımızı açmayı da biliriz.",
+    "english": "also know how to welcome everyone who cooperates with us."
+  },
+  {
+    "id": "0390",
+    "text": "Müslümanlara bile mi?",
+    "english": "Even Muslims?"
+  },
+  {
+    "id": "0391",
+    "text": "İsa'nın çarmıha gerildiği haçın gölgesi...",
+    "english": "The shadow of the cross on which Jesus was crucified..."
+  },
+  {
+    "id": "0392",
+    "text": "...azap dolu hayatın ateşinde...",
+    "english": "...in the fire of a life full of torment..."
+  },
+  {
+    "id": "0393",
+    "text": "...hepimizi serin tutar Kurdoğlu.",
+    "english": "...keeps us all cool, Kurdoğlu."
+  },
+  {
+    "id": "0394",
+    "text": "Dilimizin ne önemi var?",
+    "english": "What is the importance of our language? The"
+  },
+  {
+    "id": "0395",
+    "text": "Önemli olan çıkarlarımızın ortak olması, öyle değil mi?",
+    "english": "important thing is that our interests are shared, isn't it?"
+  },
+  {
+    "id": "0396",
+    "text": "Zeki insanlar her zaman yüreğime su serpmiştir.",
+    "english": "Intelligent people have always been a source of comfort to me ."
+  },
+  {
+    "id": "0397",
+    "text": "Senin için çok güzel bir yemek hazırlattım.",
+    "english": "I had a delicious meal prepared for you."
+  },
+  {
+    "id": "0398",
+    "text": "Damak zevkinizi bildiğim için...",
+    "english": "Knowing your taste preferences..."
+  },
+  {
+    "id": "0399",
+    "text": "...özel hazırlattığımı söyleyebilirim.",
+    "english": "I can say that I had it specially prepared."
+  },
+  {
+    "id": "0400",
+    "text": "Titus çok övdü yemeklerinizi.",
+    "english": "Titus highly praised your food."
+  },
+  {
+    "id": "0401",
+    "text": "Özellikle de senin misafirperverliğini.",
+    "english": "Especially your hospitality."
+  },
+  {
+    "id": "0402",
+    "text": "Eyvallah.",
+    "english": "Thanks. Here"
+  },
+  {
+    "id": "0403",
+    "text": "Buyurun.",
+    "english": "you go."
+  },
+  {
+    "id": "0404",
+    "text": "(Kılıç sesleri)",
+    "english": "(Swords clashing)"
+  },
+  {
+    "id": "0405",
+    "text": "(Kılıç sesleri)",
+    "english": "(Swords clashing)"
+  },
+  {
+    "id": "0406",
+    "text": "(Kurdoğlu) Vay canına yandığımın.",
+    "english": "(Kurdoğlu) Oh my god!"
+  },
+  {
+    "id": "0407",
+    "text": "Devletlu olmak böyle bir şey olsa gerek ha.",
+    "english": "Being a powerful person must be something like this, huh?"
+  },
+  {
+    "id": "0408",
+    "text": "Her sürüye bir çoban lazım olduğu aşikar.",
+    "english": "It's obvious that every flock needs a shepherd."
+  },
+  {
+    "id": "0409",
+    "text": "Bizim sürüden bir ayran aşı bile olmaz beyim.",
+    "english": "Our flock wouldn't even make good yogurt soup, sir."
+  },
+  {
+    "id": "0410",
+    "text": "Tek bildikleri hayvan gütmek.",
+    "english": "All they know is herding animals. All they do is"
+  },
+  {
+    "id": "0411",
+    "text": "Varsa yoksa elin adamlarıyla hırlaşmak.",
+    "english": "quarrel with other people."
+  },
+  {
+    "id": "0412",
+    "text": "Bu kez ipin ucunu fazla kaçırdılar.",
+    "english": "This time they went too far. On"
+  },
+  {
+    "id": "0413",
+    "text": "Bir yanda Alaeddin...",
+    "english": "one side, Alaeddin..."
+  },
+  {
+    "id": "0414",
+    "text": "...bir yanda Eyyubiler.",
+    "english": "...on the other, the Ayyubids. On"
+  },
+  {
+    "id": "0415",
+    "text": "Bir yanda Haçlılar.",
+    "english": "one side were the Crusaders."
+  },
+  {
+    "id": "0416",
+    "text": "İki münasebetsiz musibetin halt etmesi.",
+    "english": "Two unfortunate misfortunes making a mess of things."
+  },
+  {
+    "id": "0417",
+    "text": "Süleyman Şah ve oğlu Ertuğrul.",
+    "english": "Suleyman Shah and his son Ertugrul. Unless"
+  },
+  {
+    "id": "0418",
+    "text": "Birileri yediklerini burunlarından getirmezse...",
+    "english": "someone makes them pay for what they've done ..."
+  },
+  {
+    "id": "0419",
+    "text": "...çok canları yanacak Kurdoğlu.",
+    "english": "...they're going to suffer a lot, Kurdoğlu."
+  },
+  {
+    "id": "0420",
+    "text": "En çok da senin obanın.",
+    "english": "Especially your tribe."
+  },
+  {
+    "id": "0421",
+    "text": "İsodora.",
+    "english": "Isodora."
+  },
+  {
+    "id": "0422",
+    "text": "Amcacığım.",
+    "english": "Uncle."
+  },
+  {
+    "id": "0423",
+    "text": "Aristoteles kitabınızı aldım.",
+    "english": "I received your book on Aristotle."
+  },
+  {
+    "id": "0424",
+    "text": "Müsaadenizle.",
+    "english": "With your permission."
+  },
+  {
+    "id": "0425",
+    "text": "Güzel kız.",
+    "english": "Beautiful girl. Isn't it"
+  },
+  {
+    "id": "0426",
+    "text": "Değil mi?",
+    "english": "? All"
+  },
+  {
+    "id": "0427",
+    "text": "Bize ancak...",
+    "english": "we can say is..."
+  },
+  {
+    "id": "0428",
+    "text": "...Allah sahibine bağışlasın demek düşer.",
+    "english": "...May God grant it to its owner."
+  },
+  {
+    "id": "0429",
+    "text": "Mario.",
+    "english": "Mario."
+  },
+  {
+    "id": "0430",
+    "text": "Hayırlı günler hanımım.",
+    "english": "Good day, madam."
+  },
+  {
+    "id": "0431",
+    "text": "Daha ne kadar benden kaçacaksın?",
+    "english": "How much longer are you going to avoid me?"
+  },
+  {
+    "id": "0432",
+    "text": "Yarın sabah...",
+    "english": ""
+  },
+  {
+    "id": "0433",
+    "text": "...beni görmeye gelin.",
+    "english": "Come see me tomorrow morning."
+  },
+  {
+    "id": "0434",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0435",
+    "text": "Eftelya?",
+    "english": "Eftelya?"
+  },
+  {
+    "id": "0436",
+    "text": "Titus.",
+    "english": "Titus."
+  },
+  {
+    "id": "0437",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0438",
+    "text": "Bu...",
+    "english": "This..."
+  },
+  {
+    "id": "0439",
+    "text": "...bu mümkün değil.",
+    "english": "...this is impossible."
+  },
+  {
+    "id": "0440",
+    "text": "Yanmış bedenini kendi gözlerimle gördüm.",
+    "english": "I saw his burned body with my own eyes."
+  },
+  {
+    "id": "0441",
+    "text": "Titus.",
+    "english": "Titus."
+  },
+  {
+    "id": "0442",
+    "text": "Beni hafife alıyorsun.",
+    "english": "You're underestimating me."
+  },
+  {
+    "id": "0443",
+    "text": "O gördüğün benim cesedim değildi.",
+    "english": "That wasn't my body you saw."
+  },
+  {
+    "id": "0444",
+    "text": "(Kapı sesi)",
+    "english": "(Door sound)"
+  },
+  {
+    "id": "0445",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0446",
+    "text": "Ah!",
+    "english": "Ah! Put this on"
+  },
+  {
+    "id": "0447",
+    "text": "Giy şunu.",
+    "english": ". Ah! Ah! Oh oh!"
+  },
+  {
+    "id": "0448",
+    "text": "Ah!",
+    "english": ""
+  },
+  {
+    "id": "0449",
+    "text": "Ah!",
+    "english": ""
+  },
+  {
+    "id": "0450",
+    "text": "Aa aa!",
+    "english": ""
+  },
+  {
+    "id": "0451",
+    "text": "El Aziz'le Halime'nin evlenme planının suya düştüğünü biliyorum.",
+    "english": "I know that El Aziz and Halime's wedding plans fell through. So, the"
+  },
+  {
+    "id": "0452",
+    "text": "Selçuklu, Eyyubi savaşı hayal oldu ha?",
+    "english": "Seljuk-Ayyubid war is just a fantasy now? Do you now hold my"
+  },
+  {
+    "id": "0453",
+    "text": "Bir zamanlar aşkla tuttuğun kollarımı şimdi hınçla mı tutuyorsun?",
+    "english": "arms, which you once held with love, with hatred?"
+  },
+  {
+    "id": "0454",
+    "text": "Olanların sorumlusu ben değilim.",
+    "english": "I am not responsible for what happened."
+  },
+  {
+    "id": "0455",
+    "text": "Kendine gel.",
+    "english": "Come to your senses."
+  },
+  {
+    "id": "0456",
+    "text": "Affedersin Eftelya.",
+    "english": "Excuse me, Eftelya. I did"
+  },
+  {
+    "id": "0457",
+    "text": "Seni sinirlendirmek istemedim.",
+    "english": "n't mean to upset you."
+  },
+  {
+    "id": "0458",
+    "text": "Bu olanların tek bir sorumlusu var Titus.",
+    "english": "There is only one person responsible for all of this: Titus."
+  },
+  {
+    "id": "0459",
+    "text": "O da Ertuğrul.",
+    "english": "That's Ertuğrul too."
+  },
+  {
+    "id": "0460",
+    "text": "Ertuğrul ve Halime...",
+    "english": "Ertuğrul and Halime..."
+  },
+  {
+    "id": "0461",
+    "text": "...birbirlerine deli gibi âşık.",
+    "english": "...are madly in love with each other."
+  },
+  {
+    "id": "0462",
+    "text": "Bir erkeğin başarısız olmasının iki sebebi vardır Titus.",
+    "english": "There are two reasons why a man fails, Titus."
+  },
+  {
+    "id": "0463",
+    "text": "Biri dizginlenemez hırsı...",
+    "english": "One is unbridled ambition..."
+  },
+  {
+    "id": "0464",
+    "text": "...diğeri de aşk.",
+    "english": "...the other is love. You"
+  },
+  {
+    "id": "0465",
+    "text": "Hâlâ şansın var.",
+    "english": "still have a chance. If you exploit the"
+  },
+  {
+    "id": "0466",
+    "text": "Bu iki aptal âşığın zayıf tarafını kullanırsan...",
+    "english": "weaknesses of these two foolish lovers ..."
+  },
+  {
+    "id": "0467",
+    "text": "...istediğini elde edebilirsin.",
+    "english": "...you can get what you want."
+  },
+  {
+    "id": "0468",
+    "text": "Kaleye git.",
+    "english": "Go to the castle."
+  },
+  {
+    "id": "0469",
+    "text": "Bir süre ortalıkta gözükme.",
+    "english": "Stay out of sight for a while. Once"
+  },
+  {
+    "id": "0470",
+    "text": "Bu iş bitince seni tekrar saraya sokmanın yollarını buluruz.",
+    "english": "this is over, we'll find a way to get you back into the palace . What about"
+  },
+  {
+    "id": "0471",
+    "text": "Ya Nasır?",
+    "english": "Nasser?"
+  },
+  {
+    "id": "0472",
+    "text": "Hı, Nasır.",
+    "english": "Yes, Nasser. He is busy inciting"
+  },
+  {
+    "id": "0473",
+    "text": "Türkmenleri Sultan Alaeddin'e karşı...",
+    "english": "the Turkmen to revolt against Sultan Alaeddin"
+  },
+  {
+    "id": "0474",
+    "text": "...isyana teşvik etmekle uğraşıyor.",
+    "english": "."
+  },
+  {
+    "id": "0475",
+    "text": "Hı.",
+    "english": "Hi."
+  },
+  {
+    "id": "0476",
+    "text": "Sen ne yapacaksın?",
+    "english": "What are you going to do?"
+  },
+  {
+    "id": "0477",
+    "text": "Bu nikâh olacak.",
+    "english": "This wedding will happen."
+  },
+  {
+    "id": "0478",
+    "text": "Ertuğrul da ölecek.",
+    "english": "Ertuğrul will die too."
+  },
+  {
+    "id": "0479",
+    "text": "Bu da benim işim.",
+    "english": "This is my job."
+  },
+  {
+    "id": "0480",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings) I"
+  },
+  {
+    "id": "0481",
+    "text": "Sana da şarap ikram etmek isterdim.",
+    "english": "would like to offer you some wine as well."
+  },
+  {
+    "id": "0482",
+    "text": "Bağlarımda kendi ellerimle yetiştiriyorum.",
+    "english": "I grow them myself in my vineyards."
+  },
+  {
+    "id": "0483",
+    "text": "Ama dininiz hakkı için...",
+    "english": "But for the sake of your religion..."
+  },
+  {
+    "id": "0484",
+    "text": "...uygun olmaz diye düşündüm.",
+    "english": "I thought it wouldn't be appropriate."
+  },
+  {
+    "id": "0485",
+    "text": "Eyvallah.",
+    "english": "Thanks."
+  },
+  {
+    "id": "0486",
+    "text": "Dediğim gibi...",
+    "english": "As I said..."
+  },
+  {
+    "id": "0487",
+    "text": "...obanıza yardım etmek çok isterdim ama...",
+    "english": "I would very much like to help your tribe, but... I don't want to"
+  },
+  {
+    "id": "0488",
+    "text": "...El Aziz'in ordularını durduk yerde karşıma almak istemem.",
+    "english": "unnecessarily confront El Aziz's armies ."
+  },
+  {
+    "id": "0489",
+    "text": "Hepimizin arzuladığı tek şey...",
+    "english": "All we desire is..."
+  },
+  {
+    "id": "0490",
+    "text": "...birazcık huzur, öyle değil mi?",
+    "english": "...a little peace, isn't it? Wo"
+  },
+  {
+    "id": "0491",
+    "text": "Hiç mi yardımcı olmayacaksınız?",
+    "english": "n't you help at all? I ca"
+  },
+  {
+    "id": "0492",
+    "text": "Yardım edemem.",
+    "english": "n't help."
+  },
+  {
+    "id": "0493",
+    "text": "Çünkü Haçlı dünyasının çıkarları buna el vermez.",
+    "english": "Because the interests of the Crusader world do not allow it."
+  },
+  {
+    "id": "0494",
+    "text": "Ama en nihayetinde...",
+    "english": "But ultimately..."
+  },
+  {
+    "id": "0495",
+    "text": "...ikimiz de bu işten kazançlı çıkabilecek kadar zeki insanlarız, değil mi Kurdoğlu?",
+    "english": "we're both smart enough to come out of this, aren't we, Kurdoğlu?"
+  },
+  {
+    "id": "0496",
+    "text": "Nasıl olacak bu iş?",
+    "english": "How is this going to work? If you"
+  },
+  {
+    "id": "0497",
+    "text": "Süleyman Şah'ı öldürüp yerine geçersen...",
+    "english": "kill Suleiman Shah and take his place..."
+  },
+  {
+    "id": "0498",
+    "text": "...yalnız bizden değil...",
+    "english": "...you will receive great support, not only from us..."
+  },
+  {
+    "id": "0499",
+    "text": "...kontrolümüzdeki Antakya Haçlı Kontluğundan...",
+    "english": "...but from the Crusader County of Antioch, which is under our control ..."
+  },
+  {
+    "id": "0500",
+    "text": "...El Aziz'in sarayından, herkesten...",
+    "english": "...from the palace of Al-Aziz, from everyone..."
+  },
+  {
+    "id": "0501",
+    "text": "...büyük destek görürsün.",
+    "english": "...you will receive great support."
+  },
+  {
+    "id": "0502",
+    "text": "Sadece manevi bir destekten bahsetmiyorum.",
+    "english": "I'm not just talking about moral support."
+  },
+  {
+    "id": "0503",
+    "text": "Bereketli otlaklar...",
+    "english": "Fertile pastures... ..."
+  },
+  {
+    "id": "0504",
+    "text": "...Ortodoks kafirlerinin üzerine yapacağınız akınlardan elde edeceğiniz ganimetler.",
+    "english": "the spoils you will obtain from your raids on the Orthodox infidels."
+  },
+  {
+    "id": "0505",
+    "text": "Elin rahat etsin.",
+    "english": "Make your hand feel comfortable."
+  },
+  {
+    "id": "0506",
+    "text": "Obanda yeni müttefikler bul isterim.",
+    "english": "I'd like to find new allies in Obanda. Entice"
+  },
+  {
+    "id": "0507",
+    "text": "Altınlarla onları kendine bağlamaya teşvik et.",
+    "english": "them to join you with gold ."
+  },
+  {
+    "id": "0508",
+    "text": "Sana küçük bir hediye.",
+    "english": "A small gift for you. Is"
+  },
+  {
+    "id": "0509",
+    "text": "Başka bir sorun var mı Kurdoğlu?",
+    "english": "there another problem, Kurdoğlu?"
+  },
+  {
+    "id": "0510",
+    "text": "Avluda gördüğüm şövalye.",
+    "english": "The knight I saw in the courtyard."
+  },
+  {
+    "id": "0511",
+    "text": "Ertuğrul'un Alpi...",
+    "english": "Ertuğrul's Alpi..."
+  },
+  {
+    "id": "0512",
+    "text": "...Turgut değil miydi o?",
+    "english": "...wasn't that Turgut?"
+  },
+  {
+    "id": "0513",
+    "text": "Biz artık ona Yehuda diyoruz.",
+    "english": "We now call him Judah."
+  },
+  {
+    "id": "0514",
+    "text": "Vakti geldiğinde...",
+    "english": "When the time comes..."
+  },
+  {
+    "id": "0515",
+    "text": "...obana gelirse...",
+    "english": "...if he comes to your village..."
+  },
+  {
+    "id": "0516",
+    "text": "...senin en yakın yardımcın olacak.",
+    "english": "...he will be your closest helper. He's my"
+  },
+  {
+    "id": "0517",
+    "text": "Benim de elçim.",
+    "english": "ambassador too."
+  },
+  {
+    "id": "0518",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0519",
+    "text": "Yehuda.",
+    "english": "Yehuda."
+  },
+  {
+    "id": "0520",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0521",
+    "text": "Ben hemen yola koyulup Konya'ya gideceğim.",
+    "english": "I'll set off immediately and go to Konya."
+  },
+  {
+    "id": "0522",
+    "text": "Sultan Alaeddin'e olanları anlatacağım.",
+    "english": "I will tell you what happened to Sultan Alaeddin."
+  },
+  {
+    "id": "0523",
+    "text": "Ertuğrul...",
+    "english": "Ertuğrul..."
+  },
+  {
+    "id": "0524",
+    "text": "...burada daha fazla vakit kaybetmeyelim.",
+    "english": "...let's not waste any more time here. It's best to set off as soon as possible"
+  },
+  {
+    "id": "0525",
+    "text": "Bir an evvel yola koyulmakta fayda var.",
+    "english": "."
+  },
+  {
+    "id": "0526",
+    "text": "Gözünüzü üzerinden ayırmayın.",
+    "english": "Keep your eyes on it. Let's hope she doesn't try to"
+  },
+  {
+    "id": "0527",
+    "text": "Bu da kendini öldürmeye kalkmasın Eftelya gibi.",
+    "english": "kill herself like Eftelya did. Don't worry, sir"
+  },
+  {
+    "id": "0528",
+    "text": "Meraklanma beyim.",
+    "english": ". What"
+  },
+  {
+    "id": "0529",
+    "text": "Ya obaya götürdüğünde...",
+    "english": "if, when he takes him to the camp..."
+  },
+  {
+    "id": "0530",
+    "text": "...lafı çevirir...",
+    "english": "...he twists the words..."
+  },
+  {
+    "id": "0531",
+    "text": "...askerlerine yalan derse deyyus?",
+    "english": "...he lies to his soldiers, the scoundrel?"
+  },
+  {
+    "id": "0532",
+    "text": "Nasır ve Şahabettin obada olduğu sürece...",
+    "english": "As long as Nasir and Sahabuddin are in the camp..."
+  },
+  {
+    "id": "0533",
+    "text": "...adamlarını üzerimize salmaya cesaret edemeyecektir dayı.",
+    "english": "...they won't dare send their men against us, uncle. Are"
+  },
+  {
+    "id": "0534",
+    "text": "Onu rehin mi tutacaksınız?",
+    "english": "you going to hold him hostage?"
+  },
+  {
+    "id": "0535",
+    "text": "El Aziz bizi dinlemek zorunda kalacak.",
+    "english": "El Aziz will have to listen to us."
+  },
+  {
+    "id": "0536",
+    "text": "El Aziz o kadar basiretsiz bir adam ki...",
+    "english": "El Aziz is such an incompetent man..."
+  },
+  {
+    "id": "0537",
+    "text": "...onlar olmadan ülkeyi yönetemeyeceğini çok iyi biliyor.",
+    "english": "... he knows very well that he cannot govern the country without them. May"
+  },
+  {
+    "id": "0538",
+    "text": "Allah hepimizin yardımcısı olsun.",
+    "english": "God help us all."
+  },
+  {
+    "id": "0539",
+    "text": "Amin.",
+    "english": "Amine."
+  },
+  {
+    "id": "0540",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0541",
+    "text": "Kederiniz bütün sarayı esir almış Emir Hazretleri.",
+    "english": "Your grief has taken the entire palace captive, Your Highness."
+  },
+  {
+    "id": "0542",
+    "text": "Büyük bir ihanete uğradım Ebu Hişam.",
+    "english": "I have been betrayed in a great way, Abu Hisham."
+  },
+  {
+    "id": "0543",
+    "text": "Halime...",
+    "english": "Halime"
+  },
+  {
+    "id": "0544",
+    "text": "...âşık olduğum kadın...",
+    "english": "... the woman I loved..."
+  },
+  {
+    "id": "0545",
+    "text": "...herkesin ortasında beni küçük düşürüp...",
+    "english": "humiliated me in front of everyone and"
+  },
+  {
+    "id": "0546",
+    "text": "...nikâhı terk etti.",
+    "english": "... abandoned the wedding."
+  },
+  {
+    "id": "0547",
+    "text": "Ne diyeceğimi bilemiyorum Emir Hazretleri.",
+    "english": "I don't know what to say, Your Highness."
+  },
+  {
+    "id": "0548",
+    "text": "Halbuki ne kadar da heyecanlıydınız.",
+    "english": "But you were so excited. You were going to go to the hunting lodge with"
+  },
+  {
+    "id": "0549",
+    "text": "Sevdiğiniz kadınla...",
+    "english": "the woman you loved and spend the"
+  },
+  {
+    "id": "0550",
+    "text": "...av köşküne gidip hayatınızın...",
+    "english": ""
+  },
+  {
+    "id": "0551",
+    "text": "...en tatlı, en mesut günlerini yaşayacaktınız.",
+    "english": "sweetest, happiest days of your life."
+  },
+  {
+    "id": "0552",
+    "text": "Ne kadar üzüldüğümü anlatamam.",
+    "english": "I can't tell you how upset I am."
+  },
+  {
+    "id": "0553",
+    "text": "Desene Ebu Hişam...",
+    "english": "It seems Abu Hisham..."
+  },
+  {
+    "id": "0554",
+    "text": "...mutsuzluk benim kaderimde varmış.",
+    "english": "...unhappiness was my destiny."
+  },
+  {
+    "id": "0555",
+    "text": "Böyle kederli bir gününüzde sizi daha fazla sıkmak istemem ama...",
+    "english": "I don't want to burden you further on such a sad day, but..."
+  },
+  {
+    "id": "0556",
+    "text": "...öğrendiğim bir şeyi size söylersem...",
+    "english": "...if I tell you something I've learned..."
+  },
+  {
+    "id": "0557",
+    "text": "...belki faydası olur.",
+    "english": "...perhaps it will help."
+  },
+  {
+    "id": "0558",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0559",
+    "text": "Buyurun, sizi dinliyorum.",
+    "english": "Please, I'm listening."
+  },
+  {
+    "id": "0560",
+    "text": "Halime Sultan'la...",
+    "english": ""
+  },
+  {
+    "id": "0561",
+    "text": "...av köşküne doğru yola çıkarsanız eğer...",
+    "english": "If you set off towards the hunting lodge with Halime Sultan... ..."
+  },
+  {
+    "id": "0562",
+    "text": "...peşinizden gelecek birini biliyorum.",
+    "english": "I know someone who will follow you."
+  },
+  {
+    "id": "0563",
+    "text": "Ertuğrul.",
+    "english": "Ertuğrul."
+  },
+  {
+    "id": "0564",
+    "text": "Sen bunu nereden biliyorsun?",
+    "english": "How do you know this?"
+  },
+  {
+    "id": "0565",
+    "text": "Kardeşiniz ve dadınızın...",
+    "english": "Your brother and your governess... ...made a secret visit to"
+  },
+  {
+    "id": "0566",
+    "text": "...benim çok sevdiğim tüccar dostuma yaptıkları gizli ziyaretten...",
+    "english": "my dear merchant friend, Your"
+  },
+  {
+    "id": "0567",
+    "text": "...Emir Hazretleri.",
+    "english": "Highness."
+  },
+  {
+    "id": "0568",
+    "text": "Daha açık konuş Ebu Hişam.",
+    "english": "Speak more clearly, Abu Hisham."
+  },
+  {
+    "id": "0569",
+    "text": "Leyla ile dadınız...",
+    "english": "Leyla and your nanny..."
+  },
+  {
+    "id": "0570",
+    "text": "...Ertuğrul ile...",
+    "english": "...and Ertuğrul..."
+  },
+  {
+    "id": "0571",
+    "text": "...Efraim'in dükkânında buluşuyorlar.",
+    "english": "...are meeting at Efraim's shop. Ertuğrul learns"
+  },
+  {
+    "id": "0572",
+    "text": "Sarayda olup biten her şeyi...",
+    "english": "everything that happens in the palace from"
+  },
+  {
+    "id": "0573",
+    "text": "...Ertuğrul onlardan öğreniyor.",
+    "english": "them."
+  },
+  {
+    "id": "0574",
+    "text": "Yok.",
+    "english": "No. Is"
+  },
+  {
+    "id": "0575",
+    "text": "Yalan değil mi?",
+    "english": "n't it a lie?"
+  },
+  {
+    "id": "0576",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0577",
+    "text": "(El Aziz) Askerler, gelin benimle.",
+    "english": "(El Aziz) Soldiers, come with me."
+  },
+  {
+    "id": "0578",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0579",
+    "text": "Komutan Günhan'a söyle...",
+    "english": "Tell Commander Günhan..."
+  },
+  {
+    "id": "0580",
+    "text": "...daha fazla beklemesin.",
+    "english": "...not to wait any longer. I never want to hear the"
+  },
+  {
+    "id": "0581",
+    "text": "Kayıların bir daha ismini bile duymak istemiyorum.",
+    "english": "name of the Kayı tribe again ."
+  },
+  {
+    "id": "0582",
+    "text": "Karşı koyan herkesi gözünün yaşına bakmadan ezip geçin.",
+    "english": "Crush anyone who resists without showing them any mercy. Are"
+  },
+  {
+    "id": "0583",
+    "text": "Sen hâlâ burada mısın?",
+    "english": "you still here?"
+  },
+  {
+    "id": "0584",
+    "text": "Çabuk!",
+    "english": "Quick!"
+  },
+  {
+    "id": "0585",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0586",
+    "text": "(Müzik - Vurmalılar ve yaylılar)",
+    "english": "(Music - Percussion and strings)"
+  },
+  {
+    "id": "0587",
+    "text": "Seni anam gibi sevdim.",
+    "english": "I loved you like my mother."
+  },
+  {
+    "id": "0588",
+    "text": "Kardeşim Leyla'nın süt anası oldun.",
+    "english": "You became my sister Leyla's wet nurse."
+  },
+  {
+    "id": "0589",
+    "text": "Sütün o kadar zehirliymiş ki...",
+    "english": "The milk was so poisonous..."
+  },
+  {
+    "id": "0590",
+    "text": "...kardeşimi de zehirledin.",
+    "english": "you poisoned my brother too."
+  },
+  {
+    "id": "0591",
+    "text": "El Aziz, oğlum bunlar nasıl sözler böyle?",
+    "english": "El Aziz, my son, what kind of words are these? All the schemes you and my"
+  },
+  {
+    "id": "0592",
+    "text": "Aptal kardeşimle arkamdan çevirdiğiniz dolapları...",
+    "english": "stupid brother have been plotting behind my back ... ..."
+  },
+  {
+    "id": "0593",
+    "text": "...Efraim’in dükkânında Ertuğrul'la buluşmanızı...",
+    "english": "your meeting with Ertuğrul at Efraim's shop..."
+  },
+  {
+    "id": "0594",
+    "text": "Ben her şeyi biliyorum dadı artık.",
+    "english": "I know everything now, nanny."
+  },
+  {
+    "id": "0595",
+    "text": "Abi...",
+    "english": "Brother..."
+  },
+  {
+    "id": "0596",
+    "text": "Abi!",
+    "english": "Brother!"
+  },
+  {
+    "id": "0597",
+    "text": "(Tokat sesi)",
+    "english": "(Slap sound)"
+  },
+  {
+    "id": "0598",
+    "text": "Bir daha bu odadan asla dışarı çıkamayacaksın Leyla.",
+    "english": "You will never be able to leave this room again, Leyla. As for"
+  },
+  {
+    "id": "0599",
+    "text": "Sana gelince dadı...",
+    "english": "you, nanny..."
+  },
+  {
+    "id": "0600",
+    "text": "...muhafızlar...",
+    "english": "...guards..."
+  },
+  {
+    "id": "0601",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Thriller)"
+  },
+  {
+    "id": "0602",
+    "text": "Bu kadını alın...",
+    "english": "Take this woman..."
+  },
+  {
+    "id": "0603",
+    "text": "...ve zindana götürün.",
+    "english": "...and bring her to the dungeon."
+  },
+  {
+    "id": "0604",
+    "text": "Ölene kadar oradan dışarıya çıkmayacak.",
+    "english": "He won't leave there until he dies."
+  },
+  {
+    "id": "0605",
+    "text": "Hayır!",
+    "english": "No!"
+  },
+  {
+    "id": "0606",
+    "text": "El Aziz, oğlum niye yapıyorsun bunu bize?",
+    "english": "El Aziz, my son, why are you doing this to us?"
+  },
+  {
+    "id": "0607",
+    "text": "Götürün şu kadını.",
+    "english": "Take this woman away."
+  },
+  {
+    "id": "0608",
+    "text": "Abi yapma. Yapma ne olursun.",
+    "english": "Brother, don't do that. Please don't do it."
+  },
+  {
+    "id": "0609",
+    "text": "Yapma abi. Yapma.",
+    "english": "Come on, man. Don't do that."
+  },
+  {
+    "id": "0610",
+    "text": "Abi!",
+    "english": "Brother!"
+  },
+  {
+    "id": "0611",
+    "text": "Abi lütfen!",
+    "english": "Brother, please!"
+  },
+  {
+    "id": "0612",
+    "text": "Abi.",
+    "english": "Brother."
+  },
+  {
+    "id": "0613",
+    "text": "Abi.",
+    "english": "Brother."
+  },
+  {
+    "id": "0614",
+    "text": "Ben artık senin yüzünü görmek istemiyorum.",
+    "english": "I don't want to see your face anymore."
+  },
+  {
+    "id": "0615",
+    "text": "Ne senin, ne de onun.",
+    "english": "Neither yours, nor his. To"
+  },
+  {
+    "id": "0616",
+    "text": "Benim için artık ikiniz de ölüsünüz.",
+    "english": "me, you're both dead now."
+  },
+  {
+    "id": "0617",
+    "text": "(Müzik - Yaylılar ve dombra)",
+    "english": "(Music - Strings and dombra)"
+  },
+  {
+    "id": "0618",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Tension)"
+  },
+  {
+    "id": "0619",
+    "text": "Hazırlanın.",
+    "english": "Get ready. We"
+  },
+  {
+    "id": "0620",
+    "text": "Yola çıkıyoruz Halime Sultan.",
+    "english": "are setting off, Halime Sultan."
+  },
+  {
+    "id": "0621",
+    "text": "Nereye?",
+    "english": "To where?"
+  },
+  {
+    "id": "0622",
+    "text": "Daha evvel kararlaştırdığımız gibi av köşküne.",
+    "english": "To the hunting lodge, as we previously agreed."
+  },
+  {
+    "id": "0623",
+    "text": "Sizinle hiçbir yere gelmiyorum Emir Hazretleri.",
+    "english": "I'm not going anywhere with you, Your Highness."
+  },
+  {
+    "id": "0624",
+    "text": "Geleceksiniz.",
+    "english": "You will come. If you want to see"
+  },
+  {
+    "id": "0625",
+    "text": "Bir daha babanızı ve kardeşinizi görmek istiyorsanız geleceksiniz.",
+    "english": "your father and brother again, you will come."
+  },
+  {
+    "id": "0626",
+    "text": "Cariyeler...",
+    "english": "Concubines..."
+  },
+  {
+    "id": "0627",
+    "text": "...Halime Sultan'ı hazırlayın.",
+    "english": "...prepare Halime Sultan."
+  },
+  {
+    "id": "0628",
+    "text": "Yarın yola çıkıyoruz.",
+    "english": "We're leaving tomorrow."
+  },
+  {
+    "id": "0629",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Thriller)"
+  },
+  {
+    "id": "0630",
+    "text": "(Müzik - Yaylılar ve vurmalılar)",
+    "english": "(Music - Strings and Percussion)"
+  },
+  {
+    "id": "0631",
+    "text": "Beni Ertuğrul Beyim gönderdi.",
+    "english": "My Lord Ertuğrul sent me."
+  },
+  {
+    "id": "0632",
+    "text": "Söylesene be evladım. Yüreğime indirdin.",
+    "english": "Tell me, my son. You gave me a heart attack."
+  },
+  {
+    "id": "0633",
+    "text": "Eyvallah Efraim Usta. Korkuttuysam bağışla.",
+    "english": "Thanks, Master Efraim. Please forgive me if I scared you."
+  },
+  {
+    "id": "0634",
+    "text": "Aşk bu evladım. Anlarım.",
+    "english": "This is love, my child. I understand."
+  },
+  {
+    "id": "0635",
+    "text": "Aşk her şeyi haklı kılar.",
+    "english": "Love justifies everything."
+  },
+  {
+    "id": "0636",
+    "text": "Bu pusulayı Leyla Sultanım yolladı.",
+    "english": "This note was sent by my mother, Leyla."
+  },
+  {
+    "id": "0637",
+    "text": "(Müzik - Vurmalılar ve dombra)",
+    "english": "(Music - Percussion and dombra) Shall we"
+  },
+  {
+    "id": "0638",
+    "text": "Ertuğrul'un Alpini alalım mı efendim?",
+    "english": "take Ertuğrul's Alpin, sir?"
+  },
+  {
+    "id": "0639",
+    "text": "Hayır. O bize Ertuğrul'u getirecek.",
+    "english": "No. He will bring Ertuğrul to us."
+  },
+  {
+    "id": "0640",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Suspense)"
+  },
+  {
+    "id": "0641",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword sounds)"
+  },
+  {
+    "id": "0642",
+    "text": "(Ok sesleri)",
+    "english": "(Arrow sounds)"
+  },
+  {
+    "id": "0643",
+    "text": "(Kılıç sesleri)",
+    "english": "(Sword sounds)"
+  },
+  {
+    "id": "0644",
+    "text": "(Ok sesleri)",
+    "english": "(Arrow sounds)"
+  },
+  {
+    "id": "0645",
+    "text": "(Kılıç ve dövüş sesleri)",
+    "english": "(Sounds of sword fighting)"
+  },
+  {
+    "id": "0646",
+    "text": "(Müzik - Vurmalılar ve dombra)",
+    "english": "(Music - Percussion and dombra)"
+  },
+  {
+    "id": "0647",
+    "text": "Artık hiçbir şey eskisi gibi olmayacak baba.",
+    "english": "Nothing will ever be the same again, father."
+  },
+  {
+    "id": "0648",
+    "text": "Allah'ın izniyle her şey çok güzel olacak kızım.",
+    "english": "With God's permission, everything will be fine, my daughter."
+  },
+  {
+    "id": "0649",
+    "text": "Bak nevruz da geldi.",
+    "english": "Look, Nevruz has arrived too. It's"
+  },
+  {
+    "id": "0650",
+    "text": "Her yer bahar.",
+    "english": "spring everywhere."
+  },
+  {
+    "id": "0651",
+    "text": "Hayat gibi umutlarımız da yeşerecek.",
+    "english": "Our hopes, like life itself, will blossom."
+  },
+  {
+    "id": "0652",
+    "text": "Umutsuz olmak bize yakışmaz kızım.",
+    "english": "Despair doesn't suit us, my daughter."
+  },
+  {
+    "id": "0653",
+    "text": "Yaratana sığınıp her doğan güne bahar dalı gibi başlamak farzdır, ibadettir bize.",
+    "english": "Seeking refuge in the Creator and beginning each new day like a blossoming spring branch is our duty, an act of worship."
+  },
+  {
+    "id": "0654",
+    "text": "(Müzik - Ney ve dombra)",
+    "english": "(Music - Ney and dombra)"
+  },
+  {
+    "id": "0655",
+    "text": "Vay benim Aykız'ım...",
+    "english": "Oh my Aykız..."
+  },
+  {
+    "id": "0656",
+    "text": "...akça kızım...",
+    "english": "...my fair-haired girl..."
+  },
+  {
+    "id": "0657",
+    "text": "...pak kızım.",
+    "english": "...my pure girl."
+  },
+  {
+    "id": "0658",
+    "text": "İnşallah kaderin de...",
+    "english": "Hopefully your destiny"
+  },
+  {
+    "id": "0659",
+    "text": "...yüzün gibi güzel olur.",
+    "english": "will be as beautiful as your face."
+  },
+  {
+    "id": "0660",
+    "text": "(Müzik - Ney ve dombra)",
+    "english": "(Music - Ney and dombra)"
+  },
+  {
+    "id": "0661",
+    "text": "(Gökçe) Destur var mıdır Demir Usta?",
+    "english": "(Gökçe) Is there permission, Master Demir?"
+  },
+  {
+    "id": "0662",
+    "text": "Gel kızım.",
+    "english": "Come here, my daughter."
+  },
+  {
+    "id": "0663",
+    "text": "Nasıl diye bakmaya geldim.",
+    "english": "I came to see how it was."
+  },
+  {
+    "id": "0664",
+    "text": "Bir ihtiyacınız varsa...",
+    "english": "If you need anything... I'm"
+  },
+  {
+    "id": "0665",
+    "text": "Allah'ın izniyle iyidir kızım.",
+    "english": "fine, God willing, my daughter. Their"
+  },
+  {
+    "id": "0666",
+    "text": "Yaraları da gelip geçecek. Ama şimdi biraz yorgun.",
+    "english": "wounds will heal too. But now he's a little tired. Let"
+  },
+  {
+    "id": "0667",
+    "text": "Dinlensin ha.",
+    "english": "him rest."
+  },
+  {
+    "id": "0668",
+    "text": "Ben...",
+    "english": "I..."
+  },
+  {
+    "id": "0669",
+    "text": "...her şey için çok üzgünüm Demir Usta.",
+    "english": "I'm so sorry for everything, Master Demir."
+  },
+  {
+    "id": "0670",
+    "text": "Böyle olsun istemezdim.",
+    "english": "I didn't want it to be like this."
+  },
+  {
+    "id": "0671",
+    "text": "Bilirim kızım, bilirim.",
+    "english": "I know, my daughter, I know."
+  },
+  {
+    "id": "0672",
+    "text": "Kalbin de yüzün gibi tertemizdir.",
+    "english": "Your heart is as pure as your face."
+  },
+  {
+    "id": "0673",
+    "text": "Allah, kimin günahı varsa hesabını görecektir.",
+    "english": "God will hold accountable everyone who has committed sins."
+  },
+  {
+    "id": "0674",
+    "text": "Bunu da bilirim.",
+    "english": "I know that too. Be my guest"
+  },
+  {
+    "id": "0675",
+    "text": "Buyur.",
+    "english": "."
+  },
+  {
+    "id": "0676",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion)"
+  },
+  {
+    "id": "0677",
+    "text": "(Müzik - Vurmalılar ve dombra)",
+    "english": "(Music - Percussion and dombra)"
+  },
+  {
+    "id": "0678",
+    "text": "Eğer kelam edersen...",
+    "english": "If you utter a word..."
+  },
+  {
+    "id": "0679",
+    "text": "...o dilini şu pusatımla kıtır kıtır keserim Nasır.",
+    "english": "...I will cut your tongue to pieces with this weapon of mine, Nasir."
+  },
+  {
+    "id": "0680",
+    "text": "Yürü. Yürü! Yürü.",
+    "english": "Walk. Walk! Walk."
+  },
+  {
+    "id": "0681",
+    "text": "(Müzik - Duygusal)",
+    "english": "(Music - Emotional)"
+  },
+  {
+    "id": "0682",
+    "text": "-(Gündoğdu) Selamünaleyküm baba. -(Ertuğrul) Selamünaleyküm.",
+    "english": "-(Gündoğdu) Assalamu alaikum, father. -(Ertuğrul) Peace be upon you."
+  },
+  {
+    "id": "0683",
+    "text": "Ve aleykümselam aslan parçaları.",
+    "english": "And peace be upon you, my brave ones."
+  },
+  {
+    "id": "0684",
+    "text": "Şükür kavuşturana.",
+    "english": "Thank God we're reunited."
+  },
+  {
+    "id": "0685",
+    "text": "(Müzik - Duygusal)",
+    "english": "(Music - Emotional)"
+  },
+  {
+    "id": "0686",
+    "text": "Nedir vaziyet? Anlatın bakalım.",
+    "english": "How are things? Tell me about it."
+  },
+  {
+    "id": "0687",
+    "text": "Halep'te durumlar karışık baba.",
+    "english": "Things are complicated in Aleppo, Dad."
+  },
+  {
+    "id": "0688",
+    "text": "Halep emiri El Aziz, Halime Hatun'la evlenip...",
+    "english": "The Emir of Aleppo, Al-Aziz, wants to marry Halima Hatun and..."
+  },
+  {
+    "id": "0689",
+    "text": "...babası Şehzade Numan'ı...",
+    "english": "...drag her father, Prince Numan..."
+  },
+  {
+    "id": "0690",
+    "text": "...Sultan Alaeddin'e karşı cenk meydanına sürüklemek ister.",
+    "english": "...to the battlefield against Sultan Alaeddin ."
+  },
+  {
+    "id": "0691",
+    "text": "Böyle olursa...",
+    "english": "If this happens..."
+  },
+  {
+    "id": "0692",
+    "text": "...tek ümit kaynağımız Selçuklu Devleti de...",
+    "english": "...our only source of hope, the Seljuk State,"
+  },
+  {
+    "id": "0693",
+    "text": "...Azrail’in pençesine düşer.",
+    "english": "will also fall into the clutches of death. We"
+  },
+  {
+    "id": "0694",
+    "text": "Selçuklu'ya kalkan olmak gerek.",
+    "english": "need to be a shield for the Seljuks."
+  },
+  {
+    "id": "0695",
+    "text": "Şimdilik oyunlarını bozduk baba.",
+    "english": "We've disrupted their plans for now, Dad."
+  },
+  {
+    "id": "0696",
+    "text": "El Aziz bize saldıramayacaktır.",
+    "english": "El Aziz will not be able to attack us."
+  },
+  {
+    "id": "0697",
+    "text": "Neden?",
+    "english": "From where? Nasser,"
+  },
+  {
+    "id": "0698",
+    "text": "El Aziz'in komutanı, aynı zamanda Tapınakçıların adamı Nasır...",
+    "english": "El Aziz's commander and also a Templar's man..."
+  },
+  {
+    "id": "0699",
+    "text": "...onu esir edip obamıza getirdik.",
+    "english": "...we captured him and brought him to our camp."
+  },
+  {
+    "id": "0700",
+    "text": "Beni bahtiyar ettiniz.",
+    "english": "You have made me very happy."
+  },
+  {
+    "id": "0701",
+    "text": "Gururlandırdınız.",
+    "english": "You made us proud. May"
+  },
+  {
+    "id": "0702",
+    "text": "İki dünyada aziz olun.",
+    "english": "you be blessed in both worlds."
+  },
+  {
+    "id": "0703",
+    "text": "(Süleyman Şah) Birliğiniz, dirliğiniz bozulmasın.",
+    "english": "(Suleiman Shah) May your unity and solidarity remain unbroken."
+  },
+  {
+    "id": "0704",
+    "text": "Halil İbrahim bereketiyle şereflenesiniz.",
+    "english": "May you be blessed with the bounty of Halil İbrahim. If we can"
+  },
+  {
+    "id": "0705",
+    "text": "Halime Sultan'ı da elinden alabilirsek...",
+    "english": "also take Halime Sultan from him..."
+  },
+  {
+    "id": "0706",
+    "text": "...Selçuklu'yu rahatlatırız baba.",
+    "english": "...we'll relieve the Seljuk Empire, father."
+  },
+  {
+    "id": "0707",
+    "text": "Beyim...",
+    "english": "Sir..."
+  },
+  {
+    "id": "0708",
+    "text": "...anam nerededir? Kardeşim Dündar nerededir?",
+    "english": "...where is my mother? Where is my brother Dündar?"
+  },
+  {
+    "id": "0709",
+    "text": "Kardeşiniz Dündar...",
+    "english": "Your brother Dündar..."
+  },
+  {
+    "id": "0710",
+    "text": "...içeride Azrail’e cenk ediyor.",
+    "english": "...is fighting the Angel of Death inside."
+  },
+  {
+    "id": "0711",
+    "text": "(Müzik - Vurmalılar ve dombra)",
+    "english": "(Music - Percussion and dombra)"
+  },
+  {
+    "id": "0712",
+    "text": "(Müzik - Dombra)",
+    "english": "(Music - Dombra)"
+  },
+  {
+    "id": "0713",
+    "text": "Ana.",
+    "english": "Main. My"
+  },
+  {
+    "id": "0714",
+    "text": "Anam.",
+    "english": "mother."
+  },
+  {
+    "id": "0715",
+    "text": "(Gündoğdu) Anam.",
+    "english": "(Gündoğdu) My mother."
+  },
+  {
+    "id": "0716",
+    "text": "Aslanlarım.",
+    "english": "My lions."
+  },
+  {
+    "id": "0717",
+    "text": "Aslanlarım geri döndünüz.",
+    "english": "My lions, you're back! Thank you,"
+  },
+  {
+    "id": "0718",
+    "text": "Yarabbim şükürler olsun sana.",
+    "english": "Lord."
+  },
+  {
+    "id": "0719",
+    "text": "Geldiniz.",
+    "english": "You've arrived."
+  },
+  {
+    "id": "0720",
+    "text": "Ahvali nasıldır?",
+    "english": "How is he/she doing?"
+  },
+  {
+    "id": "0721",
+    "text": "(Süleyman Şah) Akçakoca...",
+    "english": "(Suleiman Shah) Akçakoca..."
+  },
+  {
+    "id": "0722",
+    "text": "...çıkmadık candan ümit kesilmez dedi.",
+    "english": "...he said, \"As long as there is life, there is hope.\""
+  },
+  {
+    "id": "0723",
+    "text": "Ama iyileşirse bile akli melekeleri...",
+    "english": "But even if he recovers, his mental faculties..."
+  },
+  {
+    "id": "0724",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings)"
+  },
+  {
+    "id": "0725",
+    "text": "Kim yapmış bunu?",
+    "english": "Who did this?"
+  },
+  {
+    "id": "0726",
+    "text": "Bilmiyoruz oğul.",
+    "english": "We don't know, son. Whatever happened when"
+  },
+  {
+    "id": "0727",
+    "text": "O tüccar mallarımızı almaya obaya geldiğinde ne olduysa...",
+    "english": "that merchant came to the encampment to buy our goods ..."
+  },
+  {
+    "id": "0728",
+    "text": "Ebu Hişam...",
+    "english": "Abu Hisham..."
+  },
+  {
+    "id": "0729",
+    "text": "(Müzik - Vurmalılar)",
+    "english": "(Music - Percussion) The"
+  },
+  {
+    "id": "0730",
+    "text": "Ebu Hişam diye bildiğimiz adamın gerçek adı Titus'tur.",
+    "english": "real name of the man we know as Abu Hisham is Titus. A Knight Templar has been after me ever"
+  },
+  {
+    "id": "0731",
+    "text": "Kardeşi Bisol'u öldürdüğümden beri peşimde olan bir Tapınak Şövalyesi.",
+    "english": "since I killed his brother Bisol ."
+  },
+  {
+    "id": "0732",
+    "text": "(Müzik - Dombra)",
+    "english": "(Music - Dombra) I bear the"
+  },
+  {
+    "id": "0733",
+    "text": "Bütün bu olanların vebali benim boynumadır.",
+    "english": "responsibility for all that has happened. Please forgive me"
+  },
+  {
+    "id": "0734",
+    "text": "Hakkınızı helal edin.",
+    "english": ". It is"
+  },
+  {
+    "id": "0735",
+    "text": "Takdir-i İlahi evlat.",
+    "english": "God's will, my child."
+  },
+  {
+    "id": "0736",
+    "text": "Takdir-i İlahi.",
+    "english": "Divine Providence."
+  },
+  {
+    "id": "0737",
+    "text": "Aslan kardeşimiz ayağa kalkacak inşallah.",
+    "english": "Our brother Aslan will get back on his feet, God willing."
+  },
+  {
+    "id": "0738",
+    "text": "Evladım...",
+    "english": "My son... there is"
+  },
+  {
+    "id": "0739",
+    "text": "...Dündar için hâlâ bir umut var.",
+    "english": "still hope for Dündar."
+  },
+  {
+    "id": "0740",
+    "text": "Lakin...",
+    "english": "But... we"
+  },
+  {
+    "id": "0741",
+    "text": "...daha başka büyük bir ıstırabımız vardır.",
+    "english": "have another, greater suffering."
+  },
+  {
+    "id": "0742",
+    "text": "Hayırdır ana?",
+    "english": "What's wrong, Mom?"
+  },
+  {
+    "id": "0743",
+    "text": "-Selcan... -Ne olmuş Selcan'a?",
+    "english": "-Selcan... -What happened to Selcan?"
+  },
+  {
+    "id": "0744",
+    "text": "Selcan gelin...",
+    "english": "Selcan, the bride..."
+  },
+  {
+    "id": "0745",
+    "text": "...bebeğini kaybetti.",
+    "english": "...lost her baby."
+  },
+  {
+    "id": "0746",
+    "text": "(Müzik - Duygusal)",
+    "english": "(Music - Emotional)"
+  },
+  {
+    "id": "0747",
+    "text": "-Oğul... -Gündoğdu...",
+    "english": "-Son... -Gündoğdu..."
+  },
+  {
+    "id": "0748",
+    "text": "(Müzik - Duygusal)",
+    "english": "(Music - Emotional)"
+  },
+  {
+    "id": "0749",
+    "text": "Selcan...",
+    "english": "Selcan..."
+  },
+  {
+    "id": "0750",
+    "text": "Hatun olup sana bir evlat veremedim.",
+    "english": "I couldn't give you a child as a wife."
+  },
+  {
+    "id": "0751",
+    "text": "Boynunu büktüm. Gururunu kırdım.",
+    "english": "I bowed my head. I hurt his pride. Is that even"
+  },
+  {
+    "id": "0752",
+    "text": "Olur mu hatun öyle şey?",
+    "english": "possible, woman? What"
+  },
+  {
+    "id": "0753",
+    "text": "O nasıl kelam?",
+    "english": "kind of language is that? It is"
+  },
+  {
+    "id": "0754",
+    "text": "Alan da veren de Allah’tır.",
+    "english": "God who gives and takes. Let me see"
+  },
+  {
+    "id": "0755",
+    "text": "Sen hele bana bir de bakayım, nasıl oldu bu iş?",
+    "english": "how this all went."
+  },
+  {
+    "id": "0756",
+    "text": "Kardeşin yüzünden girdiğimiz savaş için talim ederken...",
+    "english": "While training for the war we entered because of your brother... ..."
+  },
+  {
+    "id": "0757",
+    "text": "...Deli Demir'in Aykız, bebeğimi düşürdü.",
+    "english": "Crazy Demir's daughter, Aykız, caused me to miscarry my baby."
+  },
+  {
+    "id": "0758",
+    "text": "Ben sana demiştim bu Halep bize yaramayacak diye Gündoğdu.",
+    "english": "I told you, Gündoğdu, this Aleppo wouldn't be good for us."
+  },
+  {
+    "id": "0759",
+    "text": "Doğru dölek anlat kadın. Aykız mı düşürdü bebeğini?",
+    "english": "Tell the truth, woman. Did Aykız miscarry her baby?"
+  },
+  {
+    "id": "0760",
+    "text": "Bu yüklü halimle bana saldırdı.",
+    "english": "He attacked me while I was in this state of distress. Before I"
+  },
+  {
+    "id": "0761",
+    "text": "Ne olduğunu anlamadan kendimi yerde yuvarlanırken buldum.",
+    "english": "knew what was happening, I found myself rolling on the ground."
+  },
+  {
+    "id": "0762",
+    "text": "O düşürdü bebeğimi.",
+    "english": "She miscarried my baby. Then"
+  },
+  {
+    "id": "0763",
+    "text": "Ben de onların yuvasına ateş düşürürüm o vakit.",
+    "english": "I will set fire to their nests . Please, for God"
+  },
+  {
+    "id": "0764",
+    "text": "Kurbanın olayım bir şey yapmayasın Gündoğdu.",
+    "english": "'s sake, don't do anything, Gündoğdu. It"
+  },
+  {
+    "id": "0765",
+    "text": "Geçecek kızım.",
+    "english": "will pass, my daughter."
+  },
+  {
+    "id": "0766",
+    "text": "Geçecek.",
+    "english": "It will pass."
+  },
+  {
+    "id": "0767",
+    "text": "(Deli Demir) Bu kötü günler geçecek.",
+    "english": "(Crazy Demir) These bad days will pass."
+  },
+  {
+    "id": "0768",
+    "text": "Bu acılar geçecek.",
+    "english": "These pains will pass."
+  },
+  {
+    "id": "0769",
+    "text": "Unutma ki yüce Allah...",
+    "english": "Remember that Almighty God is the"
+  },
+  {
+    "id": "0770",
+    "text": "...merhamet edenlerin en merhametlisidir.",
+    "english": "Most Merciful of those who show mercy."
+  },
+  {
+    "id": "0771",
+    "text": "Ve o yüce Allah bizi...",
+    "english": "And Almighty God"
+  },
+  {
+    "id": "0772",
+    "text": "...sabırla, tevekkülle sınamaktadır.",
+    "english": "tests us with patience and reliance on Him."
+  },
+  {
+    "id": "0773",
+    "text": "Bu da bizden vazgeçmediğinin delaletidir.",
+    "english": "This shows that he hasn't given up on us. May"
+  },
+  {
+    "id": "0774",
+    "text": "Allah bizi nifak tohumu ekip...",
+    "english": "God protect us from those who sow seeds of discord and spread"
+  },
+  {
+    "id": "0775",
+    "text": "...iftira edenlerden saklasın.",
+    "english": "slander."
+  },
+  {
+    "id": "0776",
+    "text": "(Gündoğdu) Destur var mı Deli Demir?",
+    "english": "(Gündoğdu) Is there permission, Crazy Demir? Here"
+  },
+  {
+    "id": "0777",
+    "text": "Buyur Gündoğdu.",
+    "english": "you go, Gündoğdu."
+  },
+  {
+    "id": "0778",
+    "text": "(Müzik - Dombra)",
+    "english": "(Music - Dombra)"
+  },
+  {
+    "id": "0779",
+    "text": "Aykız!",
+    "english": "Aykız! The"
+  },
+  {
+    "id": "0780",
+    "text": "Benim doğmamış bebeğimin katili!",
+    "english": "murderer of my unborn baby!"
+  },
+  {
+    "id": "0781",
+    "text": "Yahu ne istedin günahsızdan?",
+    "english": "What did you want from an innocent person? We"
+  },
+  {
+    "id": "0782",
+    "text": "Acın var dedik...",
+    "english": "told them they were in pain..."
+  },
+  {
+    "id": "0783",
+    "text": "...her türlü deliliğine katlandık.",
+    "english": "...we endured all their madness."
+  },
+  {
+    "id": "0784",
+    "text": "Ama er ya da geç bunun bedelini ödeyeceksin.",
+    "english": "But sooner or later you will pay the price."
+  },
+  {
+    "id": "0785",
+    "text": "Edep bey oğlu, edep!",
+    "english": "Respect, my dear son, respect! Do"
+  },
+  {
+    "id": "0786",
+    "text": "Can mı istersin? Kısasa kısas mı istersin?",
+    "english": "you want a life? Do you want an eye for an eye?"
+  },
+  {
+    "id": "0787",
+    "text": "Buyur, al canımı.",
+    "english": "Go ahead, take my life."
+  },
+  {
+    "id": "0788",
+    "text": "Ama şunu da unutma...",
+    "english": "But don't forget..."
+  },
+  {
+    "id": "0789",
+    "text": "...senin o yılan gözlü karın...",
+    "english": "...your snake-eyed wife..."
+  },
+  {
+    "id": "0790",
+    "text": "...kızıma iftira attı.",
+    "english": "...slandered my daughter."
+  },
+  {
+    "id": "0791",
+    "text": "Ne iftirası Deli Demir? Ne iftirası?",
+    "english": "What slander are you talking about, Crazy Demir? What slander?"
+  },
+  {
+    "id": "0792",
+    "text": "Senin kızın yol bilmez, had bilmez oldu.",
+    "english": "Your daughter has become clueless and disrespectful."
+  },
+  {
+    "id": "0793",
+    "text": "Yetmezmiş gibi benim ocağıma incir ağacı dikti.",
+    "english": "As if that wasn't enough, he planted a fig tree in my hearth."
+  },
+  {
+    "id": "0794",
+    "text": "Er ya da geç bunun bedelini ödeyecek.",
+    "english": "Sooner or later, they will pay the price for this."
+  },
+  {
+    "id": "0795",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Suspense)"
+  },
+  {
+    "id": "0796",
+    "text": "(At yürüme sesi)",
+    "english": "(Sound of horses galloping)"
+  },
+  {
+    "id": "0797",
+    "text": "(At yürüme sesi)",
+    "english": "(Sound of horses galloping)"
+  },
+  {
+    "id": "0798",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Suspense)"
+  },
+  {
+    "id": "0799",
+    "text": "(Bıçak sesi)",
+    "english": "(Sound of a knife)"
+  },
+  {
+    "id": "0800",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Suspense)"
+  },
+  {
+    "id": "0801",
+    "text": "Madem ordu hakkında istihbarat toplamaya çıktın...",
+    "english": "Since you've gone out to gather intelligence about the army..."
+  },
+  {
+    "id": "0802",
+    "text": "...bilmen gerekenleri söyleyeyim sana.",
+    "english": "...let me tell you what you need to know."
+  },
+  {
+    "id": "0803",
+    "text": "El Aziz'in obaya gönderdiği ordu üç bin altı yüz atlı birlikten oluşuyor.",
+    "english": "The army that El Aziz sent to the camp consisted of three thousand six hundred cavalrymen."
+  },
+  {
+    "id": "0804",
+    "text": "(Üstad-ı Azam) Yaya ve destek kuvvetleriyle birlikte bu sayı yedi bin civarında.",
+    "english": "(The Grand Master) Including infantry and support forces, this number is around seven thousand. That's a difference incomparable to"
+  },
+  {
+    "id": "0805",
+    "text": "Sizin iki bin Alpinizle mukayese edilmeyecek bir fark.",
+    "english": "your two thousand Alpines ."
+  },
+  {
+    "id": "0806",
+    "text": "Siz bunu nereden biliyorsunuz?",
+    "english": "How do you know this? Do you think"
+  },
+  {
+    "id": "0807",
+    "text": "El Aziz'in ordusu benden habersiz hareket eder mi sanıyorsun?",
+    "english": "El Aziz's army would act without my knowledge?"
+  },
+  {
+    "id": "0808",
+    "text": "(Kilise müziği)",
+    "english": "(Church music)"
+  },
+  {
+    "id": "0809",
+    "text": "(Ok sesi)",
+    "english": "(Arrow sound)"
+  },
+  {
+    "id": "0810",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings)"
+  },
+  {
+    "id": "0811",
+    "text": "Senin ne işin var burada hain?",
+    "english": "What are you doing here, traitor?"
+  },
+  {
+    "id": "0812",
+    "text": "Kim bu adam Kurdoğlu?",
+    "english": "Who is this man Kurdoğlu?"
+  },
+  {
+    "id": "0813",
+    "text": "Süleyman Şah'ın Alplerinden biri.",
+    "english": "One of Suleyman Shah's Alps (warriors)."
+  },
+  {
+    "id": "0814",
+    "text": "İki Türk daha vardı. Artık yoklar.",
+    "english": "There were two other Turks. They're gone now. Did"
+  },
+  {
+    "id": "0815",
+    "text": "Süleyman Şah seni takip mi ettirmiş?",
+    "english": "Suleyman Shah have you followed?"
+  },
+  {
+    "id": "0816",
+    "text": "Sanmam.",
+    "english": "I don't think so."
+  },
+  {
+    "id": "0817",
+    "text": "Kaleyi gözetlemesi için yollamıştır.",
+    "english": "He sent him to keep watch over the castle. It would be best if he didn't"
+  },
+  {
+    "id": "0818",
+    "text": "Obaya dönmemesinde fayda var.",
+    "english": "return to the camp."
+  },
+  {
+    "id": "0819",
+    "text": "Şüphesiz.",
+    "english": "No doubt."
+  },
+  {
+    "id": "0820",
+    "text": "Nasıl yaptın bunu beyimize Kurdoğlu?",
+    "english": "How did you do this to our lord, Kurdoğlu? Damn it"
+  },
+  {
+    "id": "0821",
+    "text": "Beyin batsın. Ben ne yaptıysam obam için yaptım.",
+    "english": ". Everything I did, I did for Obama."
+  },
+  {
+    "id": "0822",
+    "text": "Turgut!",
+    "english": "Turgut!"
+  },
+  {
+    "id": "0823",
+    "text": "(Ok sesi)",
+    "english": "(Arrow sound)"
+  },
+  {
+    "id": "0824",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Suspense)"
+  },
+  {
+    "id": "0825",
+    "text": "(Üstad-ı Azam) Hoş geldin Claudius.",
+    "english": "(Grand Master) Welcome, Claudius."
+  },
+  {
+    "id": "0826",
+    "text": "Kardinal Hazretleri seni bekliyor.",
+    "english": "His Royal Highness the Cardinal is waiting for you."
+  },
+  {
+    "id": "0827",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Suspense)"
+  },
+  {
+    "id": "0828",
+    "text": "(Ok sesi)",
+    "english": "(Arrow sound)"
+  },
+  {
+    "id": "0829",
+    "text": "(Müzik - Hareketli)",
+    "english": "(Music - Upbeat)"
+  },
+  {
+    "id": "0830",
+    "text": "(Baykuş sesi)",
+    "english": "(Owl sound)"
+  },
+  {
+    "id": "0831",
+    "text": "Haberlerimi almışsın. Bu güzel.",
+    "english": "You've received my news. This is good. I'm"
+  },
+  {
+    "id": "0832",
+    "text": "Çok merak ettim beyim. Nerede kaldın?",
+    "english": "very curious, sir. Where have you been?"
+  },
+  {
+    "id": "0833",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Thriller)"
+  },
+  {
+    "id": "0834",
+    "text": "Bu altınları iyi sakla Alpargu.",
+    "english": "Keep these gold coins safe, Alpargu. The"
+  },
+  {
+    "id": "0835",
+    "text": "Artık vakit geldi.",
+    "english": "time has come."
+  },
+  {
+    "id": "0836",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Suspense)"
+  },
+  {
+    "id": "0837",
+    "text": "(Gülme sesi)",
+    "english": "(Laughter)"
+  },
+  {
+    "id": "0838",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Suspense)"
+  },
+  {
+    "id": "0839",
+    "text": "Ah...",
+    "english": "Ah..."
+  },
+  {
+    "id": "0840",
+    "text": "Ah...",
+    "english": "Ah..."
+  },
+  {
+    "id": "0841",
+    "text": "(Aykız) Ah...",
+    "english": "(Aykız) Ah..."
+  },
+  {
+    "id": "0842",
+    "text": "Dur, dur, dur...",
+    "english": "Stop, stop, stop..."
+  },
+  {
+    "id": "0843",
+    "text": "(Müzik - Dombra)",
+    "english": "(Music - Dombra)"
+  },
+  {
+    "id": "0844",
+    "text": "(Müzik - Ney ve dombra)",
+    "english": "(Music - Ney and dombra)"
+  },
+  {
+    "id": "0845",
+    "text": "Baban gelme dedi ama...",
+    "english": "Your father said not to come, but..."
+  },
+  {
+    "id": "0846",
+    "text": "...ben dayanamadım.",
+    "english": "...I couldn't resist. It's"
+  },
+  {
+    "id": "0847",
+    "text": "Senin suçun yok Gökçe.",
+    "english": "not your fault, Gökçe."
+  },
+  {
+    "id": "0848",
+    "text": "Babam, ablanla ters düşmeyesin diye demiştir bunu.",
+    "english": "My father said that so you wouldn't fall out with your sister."
+  },
+  {
+    "id": "0849",
+    "text": "O gün ne oldu Aykız?",
+    "english": "What happened that day, Aykız?"
+  },
+  {
+    "id": "0850",
+    "text": "Geçmişin defterleri açıldı nasıl olduysa.",
+    "english": "The books of the past have been opened, somehow."
+  },
+  {
+    "id": "0851",
+    "text": "Babandan bahsetti.",
+    "english": "He talked about your father."
+  },
+  {
+    "id": "0852",
+    "text": "Benim babamdan...",
+    "english": "From my father..."
+  },
+  {
+    "id": "0853",
+    "text": "...Süleyman Şah'tan.",
+    "english": "...Suleiman Shah. Are"
+  },
+  {
+    "id": "0854",
+    "text": "Anlatılanlar doğru mu?",
+    "english": "the things being said true? Was"
+  },
+  {
+    "id": "0855",
+    "text": "Babam öldüğünde...",
+    "english": ""
+  },
+  {
+    "id": "0856",
+    "text": "...Süleyman Şah'ın yanında mıymış baban?",
+    "english": "your father with Suleiman Shah when your father died? He was right there with her"
+  },
+  {
+    "id": "0857",
+    "text": "Yanındaymış.",
+    "english": "."
+  },
+  {
+    "id": "0858",
+    "text": "Süleyman Şah'ı korumak için çatışmaya girmiş babam da.",
+    "english": "My father also got into the fight to protect Suleyman Shah."
+  },
+  {
+    "id": "0859",
+    "text": "Öyle duydum.",
+    "english": "That's what I heard."
+  },
+  {
+    "id": "0860",
+    "text": "Babam hiç konuşmaz bunu.",
+    "english": "My father never talks about this."
+  },
+  {
+    "id": "0861",
+    "text": "Obaya...",
+    "english": ""
+  },
+  {
+    "id": "0862",
+    "text": "...toya...",
+    "english": ""
+  },
+  {
+    "id": "0863",
+    "text": "...beylere karşı geldiyse eğer babam...",
+    "english": "If my father went against the Obaya... ...toya... ...the beys, then the necessary action"
+  },
+  {
+    "id": "0864",
+    "text": "...gereği yapılmıştır.",
+    "english": "was taken. May"
+  },
+  {
+    "id": "0865",
+    "text": "Allah günahlarını affetsin.",
+    "english": "God forgive his sins."
+  },
+  {
+    "id": "0866",
+    "text": "Sen iyi bir kızsın Gökçe.",
+    "english": "You're a good girl, Gökçe. May"
+  },
+  {
+    "id": "0867",
+    "text": "Allah da seni sevdiklerine kavuştursun.",
+    "english": "God reunite you with your loved ones."
+  },
+  {
+    "id": "0868",
+    "text": "Seni de Aykız.",
+    "english": "You too, Aykız."
+  },
+  {
+    "id": "0869",
+    "text": "Turgut'unun düğününde telli duvaklı gelinlikle görürüm inşallah seni.",
+    "english": "I hope to see you in a wedding dress with a veil at Turgut's wedding."
+  },
+  {
+    "id": "0870",
+    "text": "Ben yine gelirim.",
+    "english": "I'll come again."
+  },
+  {
+    "id": "0871",
+    "text": "(Su sesi)",
+    "english": "(Sound of water)"
+  },
+  {
+    "id": "0872",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings)"
+  },
+  {
+    "id": "0873",
+    "text": "(Rüzgâr sesi)",
+    "english": "(Sound of wind)"
+  },
+  {
+    "id": "0874",
+    "text": "(Süleyman Şah) Sen ne dersin Kurdoğlu?",
+    "english": "(Suleyman Shah) What do you say, Kurdoglu? If"
+  },
+  {
+    "id": "0875",
+    "text": "El Aziz'in ordusu yarın saldırırsa kaç gün dayanabiliriz?",
+    "english": "al-Aziz's army attacks tomorrow, how many days can we hold out? We won't let"
+  },
+  {
+    "id": "0876",
+    "text": "Üç gün onları hazırladığımız mevzilerin içine sokmayız.",
+    "english": "them into the positions we've prepared for three days . On"
+  },
+  {
+    "id": "0877",
+    "text": "Dördüncü gün...",
+    "english": "the fourth day... they"
+  },
+  {
+    "id": "0878",
+    "text": "...mevzileri de pusuları da aşarlar.",
+    "english": "overcome both the trenches and the ambushes."
+  },
+  {
+    "id": "0879",
+    "text": "(Kurdoğlu) Beşinci gün...",
+    "english": "(Kurdoğlu) On the fifth day..."
+  },
+  {
+    "id": "0880",
+    "text": "...çoluk çocuğun hali komutanlarının insafına kalır.",
+    "english": "...the fate of the women and children is left to the mercy of their commanders. It is highly unlikely that"
+  },
+  {
+    "id": "0881",
+    "text": "Tek bir Alpin bile sağ kalması imkân dahilinde değildir.",
+    "english": "even a single Alpine would survive . I'd like to discuss"
+  },
+  {
+    "id": "0882",
+    "text": "Verdiğin bu kararı seninle toyda tartışmak isterim.",
+    "english": "this decision with you at the wedding."
+  },
+  {
+    "id": "0883",
+    "text": "Tartışacak ne var?",
+    "english": "What is there to discuss? Should I discuss with my lords whether to"
+  },
+  {
+    "id": "0884",
+    "text": "Oğlum Ertuğrul'la Atabey Şahabettin'in kafasını kesip...",
+    "english": "cut off the heads of my son Ertuğrul and Atabey Şahabettin and hand them over"
+  },
+  {
+    "id": "0885",
+    "text": "...ellerimle vermeyi mi tartışacağım beylerimle?",
+    "english": "with my own hands ?"
+  },
+  {
+    "id": "0886",
+    "text": "İstişareden kimseye zarar gelmez beyim.",
+    "english": "Consultation doesn't hurt anyone, sir. Is"
+  },
+  {
+    "id": "0887",
+    "text": "Toy dediğin Oğuz töresi değil midir?",
+    "english": "n't a wedding a tradition of the Oghuz Turks? Isn't"
+  },
+  {
+    "id": "0888",
+    "text": "Töre diye diye bu hale gelmedik mi?",
+    "english": "this what we've become by constantly invoking tradition?"
+  },
+  {
+    "id": "0889",
+    "text": "Toy, Oğuz töresinin ta kendisidir.",
+    "english": "Toy is the very essence of Oğuz tradition. There"
+  },
+  {
+    "id": "0890",
+    "text": "Bu hale düşmemizin...",
+    "english": ""
+  },
+  {
+    "id": "0891",
+    "text": "...elbet bedeli vardır.",
+    "english": "is certainly a price to pay for us falling into this situation."
+  },
+  {
+    "id": "0892",
+    "text": "Bu bedel de ödenmelidir.",
+    "english": "This price must also be paid."
+  },
+  {
+    "id": "0893",
+    "text": "Yeter!",
+    "english": "Enough!"
+  },
+  {
+    "id": "0894",
+    "text": "Bu ne densizlik?",
+    "english": "What insolence!"
+  },
+  {
+    "id": "0895",
+    "text": "Ben seninle beyim olarak değil...",
+    "english": "I speak to you not as your lord, Suleyman... but as"
+  },
+  {
+    "id": "0896",
+    "text": "...eski dostun, kan kardeşin olarak konuşurum Süleyman.",
+    "english": "your old friend, your blood brother ."
+  },
+  {
+    "id": "0897",
+    "text": "Bu, sen ben meselesi değildir Süleyman.",
+    "english": "This isn't a matter of you and me, Suleyman. The"
+  },
+  {
+    "id": "0898",
+    "text": "Obanın istikbali mevzu bahistir.",
+    "english": "future of the tribe is at stake."
+  },
+  {
+    "id": "0899",
+    "text": "(Kurdoğlu) Binlerce can.",
+    "english": "(Kurdoğlu) Thousands of lives. I'd like to discuss"
+  },
+  {
+    "id": "0900",
+    "text": "Bu meseleyi seninle toyda tartışmak isterim.",
+    "english": "this matter with you at the wedding . If you gather"
+  },
+  {
+    "id": "0901",
+    "text": "Cuma namazından sonra toyu toplarsan istişare ederiz.",
+    "english": "the assembly after Friday prayers, we can consult with each other."
+  },
+  {
+    "id": "0902",
+    "text": "Şimdi müsaadenle gidip biraz dinlenmek isterim.",
+    "english": "Now, if you'll excuse me, I'd like to go and rest for a while."
+  },
+  {
+    "id": "0903",
+    "text": "Hoş gelmişsin Ertuğrul Beyim.",
+    "english": "Welcome, Ertuğrul Bey."
+  },
+  {
+    "id": "0904",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Thriller)"
+  },
+  {
+    "id": "0905",
+    "text": "Sen beni içeride bekle evlat.",
+    "english": "You wait for me inside, son. There's something I"
+  },
+  {
+    "id": "0906",
+    "text": "Seninle konuşmak istediğim bir mesele var.",
+    "english": "want to talk to you about."
+  },
+  {
+    "id": "0907",
+    "text": "(Müzik - Balaban)",
+    "english": "(Music - Balaban)"
+  },
+  {
+    "id": "0908",
+    "text": "(Müzik - Balaban ve yaylılar)",
+    "english": "(Music - Balaban and strings)"
+  },
+  {
+    "id": "0909",
+    "text": "Konuştuklarınızı duydum.",
+    "english": "I heard what you were saying."
+  },
+  {
+    "id": "0910",
+    "text": "Sen ne dersin bu işe hanım?",
+    "english": "What do you think about this, madam?"
+  },
+  {
+    "id": "0911",
+    "text": "Sen düşmanı hep dışarıda aradın beyim.",
+    "english": "You always looked for the enemy outside, sir."
+  },
+  {
+    "id": "0912",
+    "text": "O içimizdeydi.",
+    "english": "He was among us."
+  },
+  {
+    "id": "0913",
+    "text": "Ama bir türlü görmek istemedin.",
+    "english": "But you just didn't want to see it."
+  },
+  {
+    "id": "0914",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings)"
+  },
+  {
+    "id": "0915",
+    "text": "(Altın sesleri)",
+    "english": "(Golden sounds)"
+  },
+  {
+    "id": "0916",
+    "text": "Yarın cuma namazından sonra toy istedim.",
+    "english": "I asked for a wedding feast tomorrow after Friday prayers. The"
+  },
+  {
+    "id": "0917",
+    "text": "Süleyman'la hesaplaşma vakti geldi artık.",
+    "english": "time has come to settle accounts with Suleiman."
+  },
+  {
+    "id": "0918",
+    "text": "Bunca altınla ne yapacağız beyim?",
+    "english": "What are we going to do with all this gold, sir? We're"
+  },
+  {
+    "id": "0919",
+    "text": "Obanın geleceğini satın alacağız Alpargu.",
+    "english": "buying the future of the tribe, Alpargu. The"
+  },
+  {
+    "id": "0920",
+    "text": "Obanın geleceğini.",
+    "english": "future of the tribe."
+  },
+  {
+    "id": "0921",
+    "text": "(Müzik - Duygusal)",
+    "english": "(Music - Emotional)"
+  },
+  {
+    "id": "0922",
+    "text": "Seninle vasiyetimi konuşmak isterim.",
+    "english": "I would like to discuss my will with you."
+  },
+  {
+    "id": "0923",
+    "text": "Bilirsin ki...",
+    "english": "You know that... I have nothing but"
+  },
+  {
+    "id": "0924",
+    "text": "...pusatlarımdan ve üç beş hayvanımdan gayrı bir şeyim yoktur.",
+    "english": "my weapons and a few animals. We have never even bothered to covet a"
+  },
+  {
+    "id": "0925",
+    "text": "Bu dünyanın tek bir çöpüne bile tenezzül edip...",
+    "english": "single piece of trash in this world ..."
+  },
+  {
+    "id": "0926",
+    "text": "...arkasından gitmedik elhamdülillah.",
+    "english": "...thank God."
+  },
+  {
+    "id": "0927",
+    "text": "(Süleyman Şah) Demek istediğim bu değildir zaten.",
+    "english": "(Suleiman Shah) That's not what I meant at all ."
+  },
+  {
+    "id": "0928",
+    "text": "Lakin...",
+    "english": "But... we have burdens that we carry on"
+  },
+  {
+    "id": "0929",
+    "text": "...cehennem azabı gibi sırtımızda taşıdığımız yüklerimiz vardır.",
+    "english": "our backs, like the torments of hell ."
+  },
+  {
+    "id": "0930",
+    "text": "El Aziz'in ordusu her an saldırabilir.",
+    "english": "El Aziz's army could attack at any moment. We don't even know if we'll make it to tomorrow"
+  },
+  {
+    "id": "0931",
+    "text": "Yarına çıkıp çıkmayacağımız da belli değildir.",
+    "english": "."
+  },
+  {
+    "id": "0932",
+    "text": "Ölümlü dünya.",
+    "english": "Mortal world. It's a"
+  },
+  {
+    "id": "0933",
+    "text": "Gelimli gidimli dünya.",
+    "english": "world of comings and goings."
+  },
+  {
+    "id": "0934",
+    "text": "Baban olarak sana sırtımdaki bu yüklerden birini vasiyet etmek isterim.",
+    "english": "As your father, I would like to bequeath to you one of the burdens I carry on my shoulders."
+  },
+  {
+    "id": "0935",
+    "text": "Tıpkı birini de ağabeyine ettiğim gibi.",
+    "english": "Just like I did to one of them, to his older brother. I'd say"
+  },
+  {
+    "id": "0936",
+    "text": "Gökçe'yi derim evlat.",
+    "english": "Gökçe, son."
+  },
+  {
+    "id": "0937",
+    "text": "Halime Sultan'ı da bilirim.",
+    "english": "I also know Halime Sultan. Don't think I'll"
+  },
+  {
+    "id": "0938",
+    "text": "Yüreğine düşen ateşi görmezden gelirim sanmayasın.",
+    "english": "ignore the fire burning in your heart ."
+  },
+  {
+    "id": "0939",
+    "text": "Oban için yaptığın her şeyi ve fedakârlıkları da bilirim.",
+    "english": "I know about everything you've done and the sacrifices you've made for Oban. The"
+  },
+  {
+    "id": "0940",
+    "text": "Halep'e gönderdiğim Ertuğrul yok karşımda.",
+    "english": "Ertuğrul I sent to Aleppo is not here in front of me."
+  },
+  {
+    "id": "0941",
+    "text": "O Ertuğrul gitti, yerine obanın geleceği geldi.",
+    "english": "Ertuğrul is gone, and the future of the tribe has arrived in his place."
+  },
+  {
+    "id": "0942",
+    "text": "Bunu da çok iyi biliyorum.",
+    "english": "I know this very well too."
+  },
+  {
+    "id": "0943",
+    "text": "Baba...",
+    "english": "Father... This is why I haven't discussed"
+  },
+  {
+    "id": "0944",
+    "text": "Bu müşkül anda bu meseleyi konuşmamamın sebebi budur.",
+    "english": "this matter with you at this difficult time ."
+  },
+  {
+    "id": "0945",
+    "text": "Eğer bu belalardan kurtulup düzlüğe çıkarsak...",
+    "english": "If we can get rid of these troubles and get back on track..."
+  },
+  {
+    "id": "0946",
+    "text": "...Gökçe'yle evleneceksin Ertuğrul.",
+    "english": "...you will marry Gökçe, Ertuğrul."
+  },
+  {
+    "id": "0947",
+    "text": "(Müzik - Duygusal)",
+    "english": "(Music - Emotional)"
+  },
+  {
+    "id": "0948",
+    "text": "Gökçe artık bacın değil, avradındır.",
+    "english": "Gökçe is no longer your sister, she is your wife."
+  },
+  {
+    "id": "0949",
+    "text": "Eğer ölür gidersem...",
+    "english": "If I die..."
+  },
+  {
+    "id": "0950",
+    "text": "...sana vasiyetim Gökçe'dir.",
+    "english": "...my last will and testament to you is Gökçe."
+  },
+  {
+    "id": "0951",
+    "text": "(Müzik - Duygusal)",
+    "english": "(Music - Emotional)"
+  },
+  {
+    "id": "0952",
+    "text": "(Müzik - Yaylılar)",
+    "english": "(Music - Strings)"
+  },
+  {
+    "id": "0953",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Suspense)"
+  },
+  {
+    "id": "0954",
+    "text": "(Müzik - Duygusal)",
+    "english": "(Music - Emotional)"
+  },
+  {
+    "id": "0955",
+    "text": "(Halime iç ses) Yarabbim...",
+    "english": "(Halime's inner voice) Oh God..."
+  },
+  {
+    "id": "0956",
+    "text": "...hayallerimi gerçek kıl.",
+    "english": "...make my dreams come true."
+  },
+  {
+    "id": "0957",
+    "text": "(Müzik - Duygusal)",
+    "english": "(Music - Emotional)"
+  },
+  {
+    "id": "0958",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Thriller)"
+  },
+  {
+    "id": "0959",
+    "text": "Sok hançeri kınına emmi. Henüz vaktin gelmemiştir.",
+    "english": "Put the dagger back in its sheath, uncle. The time has not yet come."
+  },
+  {
+    "id": "0960",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Thriller)"
+  },
+  {
+    "id": "0961",
+    "text": "Lakin eli kulağındadır, merak etmeyesin.",
+    "english": "But it's coming soon, don't worry. So, when is that,"
+  },
+  {
+    "id": "0962",
+    "text": "O vakit, ne vakittir yeğen?",
+    "english": "nephew?"
+  },
+  {
+    "id": "0963",
+    "text": "Açık verene kadar emmi.",
+    "english": "Until you give away a secret, uncle."
+  },
+  {
+    "id": "0964",
+    "text": "Kaçacak delik bulamayana kadar.",
+    "english": "Until they can't find a place to hide."
+  },
+  {
+    "id": "0965",
+    "text": "Günahların, gölgeni parlatana kadar emin ellerdesin.",
+    "english": "You are in safe hands until your sins make your shadow shine."
+  },
+  {
+    "id": "0966",
+    "text": "O vakte kadar...",
+    "english": "Until then... you can comfortably nestle in the"
+  },
+  {
+    "id": "0967",
+    "text": "...babamın dost gölgesine rahat rahat sinebilirsin.",
+    "english": "friendly shadow of my father ."
+  },
+  {
+    "id": "0968",
+    "text": "Lakin...",
+    "english": "But..."
+  },
+  {
+    "id": "0969",
+    "text": "...gözüm üzerindedir bilesin.",
+    "english": "...know that I'm keeping an eye on you."
+  },
+  {
+    "id": "0970",
+    "text": "Kuyumuzu kazmana izin vereceğimi sanırsan...",
+    "english": "If you think I'm going to let you dig our well..."
+  },
+  {
+    "id": "0971",
+    "text": "...aldanırsın emmi.",
+    "english": "...you're mistaken, uncle. Just because you brought"
+  },
+  {
+    "id": "0972",
+    "text": "El Aziz'in komutanını obaya getirdin diye...",
+    "english": "El Aziz's commander to the camp... don't assume the"
+  },
+  {
+    "id": "0973",
+    "text": "...beyliğin emin ellerde sanmayasın Ertuğrul.",
+    "english": "principality is in safe hands, Ertuğrul."
+  },
+  {
+    "id": "0974",
+    "text": "Bugünün yarını da vardır.",
+    "english": "There is a tomorrow after today."
+  },
+  {
+    "id": "0975",
+    "text": "Elbet ettiklerini bilip, soranı da çok olur.",
+    "english": "Of course, many will know what they did and ask about it."
+  },
+  {
+    "id": "0976",
+    "text": "Hem bilirsin, töremizde bey olmak için...",
+    "english": "And as you know, in our tradition, to become a bey (lord)..."
+  },
+  {
+    "id": "0977",
+    "text": "...ne olduğunun, kim olduğunun zerrece önemi yoktur.",
+    "english": "...it doesn't matter at all what you are or who you are."
+  },
+  {
+    "id": "0978",
+    "text": "Şehzade kızını alıp obaya gelsen de...",
+    "english": "Even if you bring the prince's daughter to the tribe..."
+  },
+  {
+    "id": "0979",
+    "text": "...bu sana otağın yolunu açmaz.",
+    "english": "...that won't open the way to the tent for you."
+  },
+  {
+    "id": "0980",
+    "text": "Bilesin ki beylikte gözüm yoktur Kurdoğlu.",
+    "english": "Know this, Kurdoğlu, I have no desire for the throne. There are plenty of men who will not"
+  },
+  {
+    "id": "0981",
+    "text": "Obayı sonu gelmez maceralara sürükleyip...",
+    "english": "drag the tribe into endless adventures and leave them to be devoured by"
+  },
+  {
+    "id": "0982",
+    "text": "...tekinsiz yerlerde kurda kuşa yem ettirmeyecek çok adam vardır Ertuğrul.",
+    "english": "wolves and birds in dangerous places, Ertuğrul."
+  },
+  {
+    "id": "0983",
+    "text": "İstesen de senin gibi maceracılara teveccüh etmezler.",
+    "english": "Even if you wanted to, they wouldn't show any interest in adventurers like you."
+  },
+  {
+    "id": "0984",
+    "text": "Hele ki obada Gündoğdu gibi makul bey adayları varken.",
+    "english": "Especially since there are reasonable candidates for the leadership like Gündoğdu in the tribe . And"
+  },
+  {
+    "id": "0985",
+    "text": "Ya sen Kurdoğlu?",
+    "english": "you, Kurdoğlu? Are you"
+  },
+  {
+    "id": "0986",
+    "text": "Kendini Ebu Hişam diye tanıtan keferelerle kucak...",
+    "english": ""
+  },
+  {
+    "id": "0987",
+    "text": "...kucağa yaşayarak mı açacaksın kendine beylik yolunu?",
+    "english": "going to pave the way to power for yourself by embracing those infidels who introduce themselves as Abu Hisham? I know there are many who respect people"
+  },
+  {
+    "id": "0988",
+    "text": "Senin gibi...",
+    "english": "like you... who"
+  },
+  {
+    "id": "0989",
+    "text": "...insanı arkasından vuranlara itibar edenler çoktur bilirim.",
+    "english": "stab others in the back ."
+  },
+  {
+    "id": "0990",
+    "text": "Lakin ağabeyim onlardan biri değildir.",
+    "english": "But my older brother is not one of them."
+  },
+  {
+    "id": "0991",
+    "text": "(Kurdoğlu) Kendin gibi tekinsizlerle bir araya gelip...",
+    "english": "(Kurdoğlu) Don't think I don't know what kind of shady things you're plotting behind my back, uncle, just because you're associating with shady characters like yourself. Ever since I"
+  },
+  {
+    "id": "0992",
+    "text": "...arkamdan ne haltlar çevirdiğini bilmiyorum sanmayasın emmi.",
+    "english": ""
+  },
+  {
+    "id": "0993",
+    "text": "Halep'e gittiğim günden beri yediğin her halttan haberim vardır.",
+    "english": "went to Aleppo, I've known about every single thing you've been up to ."
+  },
+  {
+    "id": "0994",
+    "text": "Lakin ispatlayacak delilim yoktur.",
+    "english": "But I have no evidence to prove it."
+  },
+  {
+    "id": "0995",
+    "text": "O delili bulduğun gün...",
+    "english": "The day you find that evidence..."
+  },
+  {
+    "id": "0996",
+    "text": "...canım senindir Ertuğrul.",
+    "english": "...my life is yours, Ertuğrul."
+  },
+  {
+    "id": "0997",
+    "text": "Ama bulamazsan...",
+    "english": "But if you can't find it..."
+  },
+  {
+    "id": "0998",
+    "text": "...bu iftiraların bedelini ödetirim.",
+    "english": "...I'll make you pay for these slanders. It's"
+  },
+  {
+    "id": "0999",
+    "text": "Hep vesvese, hep kuru iftira.",
+    "english": "all suspicion, all baseless slander. I don't know whether to be"
+  },
+  {
+    "id": "1000",
+    "text": "Sana kızsam mı bilemem Ertuğrul.",
+    "english": "angry with you, Ertuğrul. Should I"
+  },
+  {
+    "id": "1001",
+    "text": "Çocukken yaptığım gibi dizime yatırıp dövsem mi yoksa kulağını mı çeksem?",
+    "english": "lay him on my lap and spank him like I used to when he was a child, or should I pull his ear?"
+  },
+  {
+    "id": "1002",
+    "text": "Seninle ne yapacağım ben Ertuğrul?",
+    "english": "What am I going to do with you, Ertuğrul?"
+  },
+  {
+    "id": "1003",
+    "text": "Hiç emmi. Hiç.",
+    "english": "No uncle at all. None."
+  },
+  {
+    "id": "1004",
+    "text": "Ama ben...",
+    "english": "But I..."
+  },
+  {
+    "id": "1005",
+    "text": "...seninle ne yapacağımı çok iyi bilirim.",
+    "english": "...know exactly what I'm going to do with you."
+  },
+  {
+    "id": "1006",
+    "text": "Günü geldiğinde görürsün emmi.",
+    "english": "You'll see when the time comes, uncle."
+  },
+  {
+    "id": "1007",
+    "text": "(Müzik - Hareketli)",
+    "english": "(Music - Upbeat)"
+  },
+  {
+    "id": "1008",
+    "text": "Oğul...",
+    "english": "Son..."
+  },
+  {
+    "id": "1009",
+    "text": "Bir kardeşim ölüm döşeğinde…",
+    "english": "One of my brothers is on his deathbed..."
+  },
+  {
+    "id": "1010",
+    "text": "…bir kardeşim kim bilir nerede?",
+    "english": "...and who knows where another brother is?"
+  },
+  {
+    "id": "1011",
+    "text": "Bir kardeşim evladını kaybetmiş, acılıdır.",
+    "english": "A sibling of mine has lost their child and is in pain."
+  },
+  {
+    "id": "1012",
+    "text": "Ben de yaralıyım.",
+    "english": "I am injured too."
+  },
+  {
+    "id": "1013",
+    "text": "Bu otağın derdi, ne bitmek tükenmez dertmiş ana.",
+    "english": "This tent has endless troubles, mother."
+  },
+  {
+    "id": "1014",
+    "text": "Senin derdin, ne yıkılmaz bir dertmiş.",
+    "english": "Your problem is an insurmountable one."
+  },
+  {
+    "id": "1015",
+    "text": "Gün yüzü görsek…",
+    "english": "If we ever see the light of day…"
+  },
+  {
+    "id": "1016",
+    "text": "…kem söze geliriz.",
+    "english": "we’ll be subjected to harsh words. If"
+  },
+  {
+    "id": "1017",
+    "text": "İçimiz ağlasa, dışımız gülse…",
+    "english": "we cry on the inside but smile on the outside..."
+  },
+  {
+    "id": "1018",
+    "text": "…nazara geliriz.",
+    "english": "we'll attract the evil eye. Once"
+  },
+  {
+    "id": "1019",
+    "text": "Bey otağına bir defa düşen…",
+    "english": "one falls into the lord's tent..."
+  },
+  {
+    "id": "1020",
+    "text": "…kurtuluşu kara toprakta arar.",
+    "english": "...he seeks salvation in the dark earth."
+  },
+  {
+    "id": "1021",
+    "text": "Ne yapalım? Bizim kaderimiz de böyle yazılmıştır, oğul.",
+    "english": "What should we do? This is how our destiny was written, son. What about"
+  },
+  {
+    "id": "1022",
+    "text": "Ya benim kaderim?",
+    "english": "my fate?"
+  },
+  {
+    "id": "1023",
+    "text": "Gönlüm Kınık soyundan sevdiceğini…",
+    "english": "My heart, with its beloved from the Kınık clan, ...has"
+  },
+  {
+    "id": "1024",
+    "text": "…yelesi kara kazuluk atına bindirmiş dörtnala gider.",
+    "english": "mounted her on a black-maned, goose-like horse and galloped away."
+  },
+  {
+    "id": "1025",
+    "text": "Lakin babamız...",
+    "english": "But our father..."
+  },
+  {
+    "id": "1026",
+    "text": "…beyimiz Kayı’nın ala gözlü kızını uygun görmüştür.",
+    "english": "...our lord Kayı has deemed the fair-eyed daughter of the family suitable. There is only one saddle on the horse"
+  },
+  {
+    "id": "1027",
+    "text": "Benim gönlümdeki atta sadece bir tane eyer vardır ana.",
+    "english": "in my heart, mother. When a"
+  },
+  {
+    "id": "1028",
+    "text": "Bey sözü, atasözü söylendikte…",
+    "english": "wise man speaks, when a proverb is uttered… …it is only fitting for a brave man to"
+  },
+  {
+    "id": "1029",
+    "text": "…yiğide zebun olmak düşer. Vakit gelip bey olduğunda…",
+    "english": "become submissive. When the time comes and you become a lord…"
+  },
+  {
+    "id": "1030",
+    "text": "…yüreğin de otağın kadar büyük olmalı.",
+    "english": "…your heart should be as big as your tent."
+  },
+  {
+    "id": "1031",
+    "text": "Gönlünün atında bir eyer varsa oraya avradını değil…",
+    "english": "If your heart has a saddle,"
+  },
+  {
+    "id": "1032",
+    "text": "…kendini oturtmalısın.",
+    "english": "you should place yourself on it, not your wife. If your heart and your mind"
+  },
+  {
+    "id": "1033",
+    "text": "Gönlünün dediğinle beyinin dediğinin…",
+    "english": ""
+  },
+  {
+    "id": "1034",
+    "text": "…gerçekte sende gönülleri varsa…",
+    "english": "truly have a heart within you, then"
+  },
+  {
+    "id": "1035",
+    "text": "…ikisi bir olup peşinden gelmeyi bilirler.",
+    "english": "they will know how to unite and follow each other."
+  },
+  {
+    "id": "1036",
+    "text": "Sen ne dersin anam?",
+    "english": "What do you say, Mom?"
+  },
+  {
+    "id": "1037",
+    "text": "Yaslandığın yer eskiyip dağılmalı mı?",
+    "english": "Should the place you lean against grow old and fall apart? Should the"
+  },
+  {
+    "id": "1038",
+    "text": "Giydiğin kürk eskiyip dağılmalı mı?",
+    "english": "fur coat you wear become old and tattered?"
+  },
+  {
+    "id": "1039",
+    "text": "Yaban hayvanı da olsa tüylü olur.",
+    "english": "Even wild animals have fur. Wasn't it you, Mom, who"
+  },
+  {
+    "id": "1040",
+    "text": "İnsanın bir eşi olur diyen sen değil miydin anam?",
+    "english": "said that a person only has one partner ?"
+  },
+  {
+    "id": "1041",
+    "text": "(Doğan) Ertuğrul Beyim, destur var mıdır?",
+    "english": "(Dogan) Ertugrul Bey, is there permission? I had it"
+  },
+  {
+    "id": "1042",
+    "text": "İlyas Fakı’ya okuttum beyim.",
+    "english": "read by İlyas Fakı, sir."
+  },
+  {
+    "id": "1043",
+    "text": "Ne yazıyor?",
+    "english": "What does it say?"
+  },
+  {
+    "id": "1044",
+    "text": "El Aziz…",
+    "english": "El Aziz…"
+  },
+  {
+    "id": "1045",
+    "text": "…Halime Sultan’ı av köşküne götürüyormuş.",
+    "english": "…was taking Halime Sultan to the hunting lodge."
+  },
+  {
+    "id": "1046",
+    "text": "Lakin nikâh kıyılmamış. El Aziz onu zorla götürüyormuş.",
+    "english": "But the marriage ceremony hasn't taken place. El Aziz was taking her away by force."
+  },
+  {
+    "id": "1047",
+    "text": "(Gök gürültüsü efekti)",
+    "english": "(Thunder sound effect)"
+  },
+  {
+    "id": "1048",
+    "text": "Beyim!",
+    "english": "My lord!"
+  },
+  {
+    "id": "1049",
+    "text": "Doğan, ne oldu evladım?",
+    "english": "Doğan, what happened, my son?"
+  },
+  {
+    "id": "1050",
+    "text": "Hayme Ana…",
+    "english": "Hayme Ana…"
+  },
+  {
+    "id": "1051",
+    "text": "…Ertuğrul Beyim gitti.",
+    "english": "…My Ertuğrul Bey is gone."
+  },
+  {
+    "id": "1052",
+    "text": "Nereye gitti?",
+    "english": "Where did he go? He"
+  },
+  {
+    "id": "1053",
+    "text": "Halime Sultan’ı almaya gitti.",
+    "english": "went to pick up Halime Sultan."
+  },
+  {
+    "id": "1054",
+    "text": "(Müzik)",
+    "english": "(Music)"
+  },
+  {
+    "id": "1055",
+    "text": "(Öksürük sesleri)",
+    "english": "(Coughing sounds)"
+  },
+  {
+    "id": "1056",
+    "text": "Beyim! Müsaade et biz de gelelim.",
+    "english": "Sir! Please let us come too. The saddle is"
+  },
+  {
+    "id": "1057",
+    "text": "Eyer hazır değil beyim. Tamir olmadı daha.",
+    "english": "n't ready yet, sir. It hasn't been repaired yet. It'll do"
+  },
+  {
+    "id": "1058",
+    "text": "İşimi görür, Bamsı.",
+    "english": "the job, Bamsi."
+  },
+  {
+    "id": "1059",
+    "text": "Yalnız gideceğim.",
+    "english": "I'll go alone."
+  },
+  {
+    "id": "1060",
+    "text": "Savaş kapıda, oba iki Alp eksik kalmasın.",
+    "english": "War is at the door, let the tribe not be missing two Alps."
+  },
+  {
+    "id": "1061",
+    "text": "Beyim…",
+    "english": "My lord…"
+  },
+  {
+    "id": "1062",
+    "text": "(Boğulma sesleri)",
+    "english": "(Choking sounds) May"
+  },
+  {
+    "id": "1063",
+    "text": "Ellerin dert görmesin kardeşim.",
+    "english": "your hands be blessed, my brother."
+  },
+  {
+    "id": "1064",
+    "text": "Ne halt edeceğiz şimdi?",
+    "english": "What the hell are we going to do now?"
+  },
+  {
+    "id": "1065",
+    "text": "(Gök gürültüsü sesi)",
+    "english": "(Sound of thunder)"
+  },
+  {
+    "id": "1066",
+    "text": "(Yağmur sesleri)",
+    "english": "(Sound of rain)"
+  },
+  {
+    "id": "1067",
+    "text": "Şahım.",
+    "english": "My Shah."
+  },
+  {
+    "id": "1068",
+    "text": "Bir isteğiniz var mı diye soracaktım.",
+    "english": "I was going to ask if you had any requests."
+  },
+  {
+    "id": "1069",
+    "text": "Yok kızım.",
+    "english": "No, my daughter."
+  },
+  {
+    "id": "1070",
+    "text": "(Gök gürültüsü ve yağmur sesi)",
+    "english": "(Sound of thunder and rain) May"
+  },
+  {
+    "id": "1071",
+    "text": "Allah rahatlık versin kızım.",
+    "english": "God grant you peace, my daughter."
+  },
+  {
+    "id": "1072",
+    "text": "Allah rahatlık versin demek istedim, Hayme Ana.",
+    "english": "I meant to say, \"May God grant you peace,\" Hayme Ana."
+  },
+  {
+    "id": "1073",
+    "text": "Sana da kızım.",
+    "english": "To you too, my daughter."
+  },
+  {
+    "id": "1074",
+    "text": "Ertuğrul’u soracaktın, değil mi?",
+    "english": "You were going to ask about Ertuğrul, weren't you?"
+  },
+  {
+    "id": "1075",
+    "text": "Gel, oturalım şöyle.",
+    "english": "Come, let's sit down."
+  },
+  {
+    "id": "1076",
+    "text": "Ertuğrul, Halime’yi almaya gitti.",
+    "english": "Ertuğrul went to pick up Halime."
+  },
+  {
+    "id": "1077",
+    "text": "(Gök gürültüsü sesi)",
+    "english": "(Thunder)"
+  },
+  {
+    "id": "1078",
+    "text": "Doğan, ben gideceğim.",
+    "english": "Doğan, I'm leaving."
+  },
+  {
+    "id": "1079",
+    "text": "Oğlum nereye gidiyorsun? Beyimiz demedi mi bu benim meselem diye?",
+    "english": "Son, where are you going? Didn't our leader say this is his problem? So"
+  },
+  {
+    "id": "1080",
+    "text": "Siz oturun oturduğunuz yerde diye?",
+    "english": "you're saying, \"Stay where you are\"?"
+  },
+  {
+    "id": "1081",
+    "text": "Yok kardeş. Otura otura bir taraflarım şeyla şeyla oldu.",
+    "english": "No, brother. As I sat down, parts of me went crazy. If"
+  },
+  {
+    "id": "1082",
+    "text": "Beyim bir şey derse Bamsı kışkırttı derim.",
+    "english": "my husband says anything, I'll say Bamsi instigated it. So"
+  },
+  {
+    "id": "1083",
+    "text": "Hemen satarsın yani.",
+    "english": "you sell it right away."
+  },
+  {
+    "id": "1084",
+    "text": "Besili süt danası gibisin. Pazara götürür satarım seni, hiç acımam.",
+    "english": "You're like a well-fed calf. I'll take you to the market and sell you, I won't feel any pity."
+  },
+  {
+    "id": "1085",
+    "text": "Heyt! Savulun bre imansızlar!",
+    "english": "Hey! Get out of the way, you faithless ones! We're"
+  },
+  {
+    "id": "1086",
+    "text": "Halime bacımı almaya gideceğiz.",
+    "english": "going to pick up my sister Halime."
+  },
+  {
+    "id": "1087",
+    "text": "Onu seviyorsun, değil mi?",
+    "english": "You love him, don't you?"
+  },
+  {
+    "id": "1088",
+    "text": "Evet ana.",
+    "english": "Yes, Mom."
+  },
+  {
+    "id": "1089",
+    "text": "Çocukluğumdan beri sevdim.",
+    "english": "I've loved it since childhood."
+  },
+  {
+    "id": "1090",
+    "text": "İlk ablan Selcan açmıştı bu meseleyi.",
+    "english": "Selcan, your older sister, was the first to bring up this issue."
+  },
+  {
+    "id": "1091",
+    "text": "Ben de Süleyman Şah’a söylemiştim.",
+    "english": "I had told Suleyman Shah the same thing."
+  },
+  {
+    "id": "1092",
+    "text": "Biliyorum ana.",
+    "english": "I know, Mom."
+  },
+  {
+    "id": "1093",
+    "text": "Peki bu mesele hiç açılmasaydı?",
+    "english": "What if this issue had never been raised? It never"
+  },
+  {
+    "id": "1094",
+    "text": "Hiçbir vakit açılmazdı o zaman.",
+    "english": "opened back then. I would live on with"
+  },
+  {
+    "id": "1095",
+    "text": "İçimde sevgimle yaşar giderdim.",
+    "english": "my love inside me."
+  },
+  {
+    "id": "1096",
+    "text": "Kim bilir belki başka bir adamla evlenirdim.",
+    "english": "Who knows, maybe I would have married another man. I would have"
+  },
+  {
+    "id": "1097",
+    "text": "Başka bir hayatım olurdu.",
+    "english": "a different life. So what"
+  },
+  {
+    "id": "1098",
+    "text": "Peki ya şimdi?",
+    "english": "now? Is"
+  },
+  {
+    "id": "1099",
+    "text": "Bundan sonra başkası mümkün müdür ana?",
+    "english": "anyone else possible after this, mother? If"
+  },
+  {
+    "id": "1100",
+    "text": "Ertuğrul’u gerçekten seviyorsan…",
+    "english": "you truly loved Ertuğrul"
+  },
+  {
+    "id": "1101",
+    "text": "…onun için her şeyi yapar mıydın?",
+    "english": "… would you do anything for him?"
+  },
+  {
+    "id": "1102",
+    "text": "Yaparım ana.",
+    "english": "I'll do it, Mom."
+  },
+  {
+    "id": "1103",
+    "text": "Peki ondan vazgeçmeyi göze alırsın, değil mi?",
+    "english": "So you're willing to give it up, right?"
+  },
+  {
+    "id": "1104",
+    "text": "(Müzik - Aksiyon)",
+    "english": "(Music - Action)"
+  },
+  {
+    "id": "1105",
+    "text": "(Güvercin sesleri)",
+    "english": "(Pigeon sounds)"
+  },
+  {
+    "id": "1106",
+    "text": "Mario.",
+    "english": "Mario."
+  },
+  {
+    "id": "1107",
+    "text": "(Ayak sesleri)",
+    "english": "(Footsteps)"
+  },
+  {
+    "id": "1108",
+    "text": "Benimle konuşmak istediğin nedir?",
+    "english": "What do you want to talk to me about?"
+  },
+  {
+    "id": "1109",
+    "text": "Konuş Mario.",
+    "english": "Speak, Mario."
+  },
+  {
+    "id": "1110",
+    "text": "Affet beni kızım. Ben çok büyük bir günah işledim.",
+    "english": "Forgive me, my daughter. I have committed a very grave sin."
+  },
+  {
+    "id": "1111",
+    "text": "Bu yükü daha fazla taşıyamayacağım.",
+    "english": "I can't carry this burden any longer. Just"
+  },
+  {
+    "id": "1112",
+    "text": "Ne söyleyeceksen söyle artık.",
+    "english": "say whatever you have to say."
+  },
+  {
+    "id": "1113",
+    "text": "Baban yaşıyor kızım.",
+    "english": "Your father is alive, my daughter. It"
+  },
+  {
+    "id": "1114",
+    "text": "Her şey İbnül Arabi’nin onun aklını çelmesiyle başladı.",
+    "english": "all started when Ibn al-Arabi swayed his mind. By"
+  },
+  {
+    "id": "1115",
+    "text": "Dinimizden çıkıp Müslüman olmasıyla.",
+    "english": "leaving our religion and becoming a Muslim."
+  },
+  {
+    "id": "1116",
+    "text": "Söyleyin bana Kardinal Hazretleri…",
+    "english": "Tell me, Your Honor…"
+  },
+  {
+    "id": "1117",
+    "text": "…ellerim böylesine kan içindeyken…",
+    "english": "…with my hands so stained with blood…"
+  },
+  {
+    "id": "1118",
+    "text": "…yüce babamız bana krallığında yer verecek mi?",
+    "english": "…will our great Father grant me a place in His kingdom? I have lost"
+  },
+  {
+    "id": "1119",
+    "text": "Yüreğimde İsa’nın sözünü…",
+    "english": "the word of Jesus in my heart… …the"
+  },
+  {
+    "id": "1120",
+    "text": "…İsa’nın merhametini yitirdim.",
+    "english": "mercy of Jesus."
+  },
+  {
+    "id": "1121",
+    "text": "Korkuyorum.",
+    "english": "I am scared."
+  },
+  {
+    "id": "1122",
+    "text": "Ellerindeki kan…",
+    "english": "The blood on your hands…"
+  },
+  {
+    "id": "1123",
+    "text": "…Tanrı'nın krallığındaki çiçekleri sulamak için değil mi Claudius?",
+    "english": "…isn’t it to water the flowers in God’s kingdom, Claudius?"
+  },
+  {
+    "id": "1124",
+    "text": "O kan ki Tanrı'nın krallığını cennete çevirir.",
+    "english": "That blood will transform God's kingdom into heaven."
+  },
+  {
+    "id": "1125",
+    "text": "Kafirlerin sonunu getirir.",
+    "english": "It will bring an end to the unbelievers. The screams of the"
+  },
+  {
+    "id": "1126",
+    "text": "Öldürdüğüm masum kadınların…",
+    "english": "innocent women and children I killed still echo"
+  },
+  {
+    "id": "1127",
+    "text": "…çocukların çığlıkları gitmiyor kulağımdan efendim.",
+    "english": "in my ears, sir."
+  },
+  {
+    "id": "1128",
+    "text": "Geceleri uyuyamıyorum.",
+    "english": "I can't sleep at night."
+  },
+  {
+    "id": "1129",
+    "text": "Bir an gözlerim kapansa o çığlıklarla uyanıyorum.",
+    "english": "The moment I close my eyes, I wake up to those screams."
+  },
+  {
+    "id": "1130",
+    "text": "Kabuslar, dinmek bilmeyen vicdan azabı…",
+    "english": "Nightmares, relentless guilt…"
+  },
+  {
+    "id": "1131",
+    "text": "Yalvarırım beni azat edin.",
+    "english": "Please, set me free. Allow me to"
+  },
+  {
+    "id": "1132",
+    "text": "Bir şapele gidip ölene kadar keşiş hayatı yaşamama müsaade edin.",
+    "english": "go to a chapel and live a monastic life until I die."
+  },
+  {
+    "id": "1133",
+    "text": "Ah evet, sana söz vermiştim, değil mi? Seni azat edecektim.",
+    "english": "Oh yes, I promised you, did n't I? I was going to set you free. I"
+  },
+  {
+    "id": "1134",
+    "text": "Yalnız senden bir ricam daha var, Claudius.",
+    "english": "have one more request, Claudius."
+  },
+  {
+    "id": "1135",
+    "text": "Ne isterseniz yapacağım efendim.",
+    "english": "I will do whatever you wish, sir."
+  },
+  {
+    "id": "1136",
+    "text": "İbnül Arabi’nin yerini öğren.",
+    "english": "Find out where Ibn al-Arabi is."
+  },
+  {
+    "id": "1137",
+    "text": "Onu öldürüp sandığındaki kutsal emaneti almanı istiyorum.",
+    "english": "I want you to kill him and take the sacred relic from his chest."
+  },
+  {
+    "id": "1138",
+    "text": "Yalnız bunu yaparken en büyük düşmanın Üstad ve Titus olacaktır.",
+    "english": "However, your greatest enemies in doing so will be the Master and Titus."
+  },
+  {
+    "id": "1139",
+    "text": "Dikkatli ol. Bunu yalnız ikimiz bileceğiz.",
+    "english": "Be careful. Only the two of us will know this. It"
+  },
+  {
+    "id": "1140",
+    "text": "İkimizin sırrı olacak.",
+    "english": "will be our secret. As"
+  },
+  {
+    "id": "1141",
+    "text": "Emredersiniz Kardinal Hazretleri.",
+    "english": "you command, Your Honor. May"
+  },
+  {
+    "id": "1142",
+    "text": "Tanrı günahlarını bağışlasın çocuğum.",
+    "english": "God forgive your sins, my child. May"
+  },
+  {
+    "id": "1143",
+    "text": "Allah cezalarını versin.",
+    "english": "God punish them."
+  },
+  {
+    "id": "1144",
+    "text": "Böyle bir şey olabilir mi?",
+    "english": "Could something like this really happen? May"
+  },
+  {
+    "id": "1145",
+    "text": "Rabbimiz cezasız bırakmasın inşallah.",
+    "english": "our Lord not leave them unpunished, inshallah. Oh"
+  },
+  {
+    "id": "1146",
+    "text": "Tez zamanda yarabbi…",
+    "english": "Lord,"
+  },
+  {
+    "id": "1147",
+    "text": "Bedduamızı duy!",
+    "english": "hear our curse soon!"
+  },
+  {
+    "id": "1148",
+    "text": "Duy bedduamızı ya rabbim duy.",
+    "english": "Hear our curse, oh Lord, hear it!"
+  },
+  {
+    "id": "1149",
+    "text": "Efendim, Nasır tüm dervişlerimize vahşice kıymış.",
+    "english": "Sir, Nasser brutally murdered all of our dervishes. Would"
+  },
+  {
+    "id": "1150",
+    "text": "Bir Müslüman, bir Müslümana zulmeder mi?",
+    "english": "a Muslim oppress another Muslim? All we can do is curse and utter imprecations"
+  },
+  {
+    "id": "1151",
+    "text": "Sabah akşam lanet okumaktan…",
+    "english": "morning and evening"
+  },
+  {
+    "id": "1152",
+    "text": "…beddua etmekten başka bir şey gelmiyor elimizden.",
+    "english": ". A"
+  },
+  {
+    "id": "1153",
+    "text": "Müslüman, Müslümana zulmetmez.",
+    "english": "Muslim does not oppress another Muslim. He does"
+  },
+  {
+    "id": "1154",
+    "text": "Nahak yere cana kastetmez.",
+    "english": "not take a life without reason."
+  },
+  {
+    "id": "1155",
+    "text": "Ama zulmün gönlümüze nefret tohumu ekmesine de müsaade etmeyeceğiz.",
+    "english": "But we will not allow oppression to sow seeds of hatred in our hearts ."
+  },
+  {
+    "id": "1156",
+    "text": "Kendimizi zalim olmaktan muhafaza edeceğiz.",
+    "english": "We will protect ourselves from being cruel. When"
+  },
+  {
+    "id": "1157",
+    "text": "Bir kavim kendilerine dini anlatmak için tebliğci talep ettiklerinde…",
+    "english": "a people requested a preacher to explain their religion to them …"
+  },
+  {
+    "id": "1158",
+    "text": "…Hazreti Peygamber büyük bir aşkla…",
+    "english": "…the Prophet Muhammad (peace and blessings be upon him) responded with great love."
+  },
+  {
+    "id": "1159",
+    "text": "Sallallâhu aleyhi ve sellem.",
+    "english": ""
+  },
+  {
+    "id": "1160",
+    "text": "…yetmiş genci o beldeye tebliğci gönderdi.",
+    "english": "...he sent seventy young men to that town as preachers."
+  },
+  {
+    "id": "1161",
+    "text": "Medine sevinç haberleri beklerken…",
+    "english": "While Medina awaited news of joy…"
+  },
+  {
+    "id": "1162",
+    "text": "…haberlerin en acısı geldi şehre.",
+    "english": "…the most heartbreaking news arrived in the city."
+  },
+  {
+    "id": "1163",
+    "text": "Göklerden yıldırımlar şehre yağdı.",
+    "english": "Lightning struck the city from the sky."
+  },
+  {
+    "id": "1164",
+    "text": "Her eve ateşler düştü.",
+    "english": "Fires broke out in every house."
+  },
+  {
+    "id": "1165",
+    "text": "Hazreti Peygamber'in gönderdiği yetmiş sahabi…",
+    "english": "Seventy companions sent by the Prophet Muhammad were martyred in an ambush set up in"
+  },
+  {
+    "id": "1166",
+    "text": "…Bir-i maune denilen bir yerde kurulan pusuyla şehit edilmişti.",
+    "english": "a place called Bir-i Maune . The"
+  },
+  {
+    "id": "1167",
+    "text": "Hazreti Peygamber bu hadise karşısında çok müteessir oldu.",
+    "english": "Prophet was deeply saddened by this incident."
+  },
+  {
+    "id": "1168",
+    "text": "Enes Bin Malik, Hazreti Peygamber hiçbir hadise karşısında…",
+    "english": "Anas ibn Malik said, \"The Prophet (peace be upon him) was never so saddened by any event.\" For"
+  },
+  {
+    "id": "1169",
+    "text": "…bu kadar üzülmemişti der.",
+    "english": ""
+  },
+  {
+    "id": "1170",
+    "text": "Bir müddet sabah namazından sonra o zalim müşriklere beddua etti.",
+    "english": "a while, after the morning prayer, he cursed those wicked polytheists."
+  },
+  {
+    "id": "1171",
+    "text": "Sonra ne oldu efendim?",
+    "english": "What happened next, sir?"
+  },
+  {
+    "id": "1172",
+    "text": "Sonra şu ayet-i kerime nazil oldu.",
+    "english": "Then this verse was revealed."
+  },
+  {
+    "id": "1173",
+    "text": "“Ey Peygamber, biz seni alemlere rahmet olarak gönderdik.”",
+    "english": "\"O Prophet, We have sent you as a mercy to all creation.\""
+  },
+  {
+    "id": "1174",
+    "text": "Hıh.",
+    "english": "Hmph."
+  },
+  {
+    "id": "1175",
+    "text": "Bunun üzerine Hazreti Peygamber bedduayı bıraktı.",
+    "english": "Upon this, the Prophet stopped cursing. The"
+  },
+  {
+    "id": "1176",
+    "text": "Hazreti Peygamber müşriklere dahi beddua etmedi.",
+    "english": "Prophet Muhammad did not even curse the polytheists. We"
+  },
+  {
+    "id": "1177",
+    "text": "Biz günahkar ve zalim olsalar bile…",
+    "english": ""
+  },
+  {
+    "id": "1178",
+    "text": "…müminlere beddua etmeyeceğiz.",
+    "english": "will not curse believers, even if they are sinners and oppressors."
+  },
+  {
+    "id": "1179",
+    "text": "Kardeşlerimiz şehit olmuşken içimizi kin ve nefretle doldurmayacağız.",
+    "english": "We will not fill our hearts with hatred and resentment while our brothers have been martyred."
+  },
+  {
+    "id": "1180",
+    "text": "Tedbirli olacağız.",
+    "english": "We will be cautious. We"
+  },
+  {
+    "id": "1181",
+    "text": "Bütün gücümüzle zulme mani olacağız.",
+    "english": "will use all our strength to prevent oppression."
+  },
+  {
+    "id": "1182",
+    "text": "Lakin zulmün bizi zalim kılmasına izin vermeyeceğiz.",
+    "english": "But we will not allow oppression to make us oppressors . We will not allow the"
+  },
+  {
+    "id": "1183",
+    "text": "Şeytanın gönlümüze yerleşmesine izin vermeyeceğiz.",
+    "english": "devil to enter our hearts ."
+  },
+  {
+    "id": "1184",
+    "text": "(Müzik - Aksiyon)",
+    "english": "(Music - Action)"
+  },
+  {
+    "id": "1185",
+    "text": "Efendim, her işte bir hayır var diyorsunuz.",
+    "english": "Sir, you say there's a silver lining in every cloud."
+  },
+  {
+    "id": "1186",
+    "text": "Bu işteki hayır nerededir?",
+    "english": "Where is the good in this?"
+  },
+  {
+    "id": "1187",
+    "text": "Masum bir insanın öldürülmesindeki hayır nerededir pirim?",
+    "english": "Where is the good in killing an innocent person, my friend?"
+  },
+  {
+    "id": "1188",
+    "text": "Evladım, evet, her işte bir hayır vardır.",
+    "english": "My child, yes, there is a silver lining in every cloud."
+  },
+  {
+    "id": "1189",
+    "text": "Bir insanın mazlum olarak şehit edilmesindeki hayır…",
+    "english": "The good in a person being martyred as an innocent victim…"
+  },
+  {
+    "id": "1190",
+    "text": "…onun zalim olarak ölmemiş olmasındadır.",
+    "english": "…is that he did not die as an oppressor. It is"
+  },
+  {
+    "id": "1191",
+    "text": "Mazlum ve zayıf düşmek ayıp değil mümine.",
+    "english": "not shameful for a believer to be oppressed and weak. The"
+  },
+  {
+    "id": "1192",
+    "text": "İnsanı iki cihanda rüsva eden şey zulüm ve hıyanettir.",
+    "english": "things that disgrace a person in both this world and the hereafter are oppression and treachery."
+  },
+  {
+    "id": "1193",
+    "text": "Kardeşlerimizi zalim olmaktan muhafaza eden Allah’a hamdolsun.",
+    "english": "Praise be to God, who protects our brothers from becoming oppressors."
+  },
+  {
+    "id": "1194",
+    "text": "Hamdolsun.",
+    "english": "Thank God."
+  },
+  {
+    "id": "1195",
+    "text": "Hah!",
+    "english": "Ha!"
+  },
+  {
+    "id": "1196",
+    "text": "Hah!",
+    "english": "Ha!"
+  },
+  {
+    "id": "1197",
+    "text": "Numan yaşadığı sürece devlet tehdit altında demektir Afşin.",
+    "english": "As long as Numan is alive, the state is under threat, Afşin."
+  },
+  {
+    "id": "1198",
+    "text": "Ne yapacağız şimdi?",
+    "english": "What are we going to do now? You had to kill both"
+  },
+  {
+    "id": "1199",
+    "text": "Numan’ı da Yiğit’i de öldürmek zorundaydın.",
+    "english": "Numan and Yiğit ."
+  },
+  {
+    "id": "1200",
+    "text": "Zayıf davrandın.",
+    "english": "You acted weakly."
+  },
+  {
+    "id": "1201",
+    "text": "Bak Afşin, şehzadelere olan duygularını biliyorum.",
+    "english": "Look Afşin, I know your feelings for the princes."
+  },
+  {
+    "id": "1202",
+    "text": "Ama başka çaremiz yok.",
+    "english": "But we have no other choice. If you have any suggestions, tell us and"
+  },
+  {
+    "id": "1203",
+    "text": "Varsa söyle yapalım.",
+    "english": "we'll do it."
+  },
+  {
+    "id": "1204",
+    "text": "İktidar ateşi bir kez yanmaya görsün…",
+    "english": "Once the flames of power are ignited…"
+  },
+  {
+    "id": "1205",
+    "text": "…söndürmenin tek yolu…",
+    "english": "…the only way to extinguish them…"
+  },
+  {
+    "id": "1206",
+    "text": "…oluk gibi akan kandan geçer.",
+    "english": "…is through rivers of blood. May"
+  },
+  {
+    "id": "1207",
+    "text": "Allah günahlarını affetsin.",
+    "english": "God forgive his sins."
+  },
+  {
+    "id": "1208",
+    "text": "Bunca yıldır diyar diyar gezeriz. Ne için beyler?",
+    "english": "We have been traveling from place to place for all these years. For what, gentlemen? So that our"
+  },
+  {
+    "id": "1209",
+    "text": "Oğlanlarımız, kızlarımız şen olsun diye.",
+    "english": "boys and girls may be happy. So that"
+  },
+  {
+    "id": "1210",
+    "text": "Keçilerimiz, koyunlarımız can bulsun diye.",
+    "english": "our goats and sheep can come back to life. Instead"
+  },
+  {
+    "id": "1211",
+    "text": "Şu fani dünyada huzur bulacakken…",
+    "english": "of finding peace in this mortal world…"
+  },
+  {
+    "id": "1212",
+    "text": "…uzun vakittir bela bulmaktayız.",
+    "english": "…we have been finding trouble for a long time."
+  },
+  {
+    "id": "1213",
+    "text": "Peki ne için?",
+    "english": "But for what purpose?"
+  },
+  {
+    "id": "1214",
+    "text": "Ne için olacak? Beyimizin evlatları obamızı bir eyleyeceğine…",
+    "english": "What will it be for? Instead of uniting our tribe, our lord's sons"
+  },
+  {
+    "id": "1215",
+    "text": "…bela üstüne bela getiriyorlar da ondan.",
+    "english": "are bringing one calamity after another, that's why. Having"
+  },
+  {
+    "id": "1216",
+    "text": "Kara Toygar belasından kurtulup geldiğimiz bu topraklarda…",
+    "english": "escaped the scourge of Kara Toygar, we now find ourselves surrounded by enemies on all sides in these lands. Instead"
+  },
+  {
+    "id": "1217",
+    "text": "…her yanımız düşmanla sarılmış.",
+    "english": ""
+  },
+  {
+    "id": "1218",
+    "text": "Biz belayı savuşturacağımıza…",
+    "english": "of averting disaster… we’ll bring"
+  },
+  {
+    "id": "1219",
+    "text": "…ateşi obaya taşırız, Süleyman Şah!",
+    "english": "the fire to the camp, Suleyman Shah!"
+  },
+  {
+    "id": "1220",
+    "text": "Beylerim…",
+    "english": "My lords…"
+  },
+  {
+    "id": "1221",
+    "text": "…obamın uluları…",
+    "english": "…the elders of my tribe…"
+  },
+  {
+    "id": "1222",
+    "text": "…gördüm ki yitesiye mücadelemizden usanmışsınız.",
+    "english": "…I see that you have grown weary of our desperate struggle."
+  },
+  {
+    "id": "1223",
+    "text": "Ve de düşmandan korkar hâle gelmişsiniz.",
+    "english": "And you have become afraid of the enemy. What was the pact we made before setting out on our journey"
+  },
+  {
+    "id": "1224",
+    "text": "Biz Ötüken’in ulu dağlarında…",
+    "english": "in the majestic mountains of Ötüken"
+  },
+  {
+    "id": "1225",
+    "text": "…yola koyulmadan evvel ne diye ahitleşmiştik?",
+    "english": "?"
+  },
+  {
+    "id": "1226",
+    "text": "Düşman ejderha gibi üzerimize gelse de…",
+    "english": "Even if the enemy came upon us like dragons… even if"
+  },
+  {
+    "id": "1227",
+    "text": "…her türlü bela etrafımızı cehennem gibi sarsa da yılmayacaktık.",
+    "english": "all kinds of calamities surrounded us like hell, we would not give up. Was"
+  },
+  {
+    "id": "1228",
+    "text": "Böyle değil miydi ahdimiz?",
+    "english": "n't this our promise?"
+  },
+  {
+    "id": "1229",
+    "text": "Ama gördüm ki yılmışsınız.",
+    "english": "But I see you're discouraged."
+  },
+  {
+    "id": "1230",
+    "text": "Gördüm ki korkmuşsunuz.",
+    "english": "I see you're scared."
+  },
+  {
+    "id": "1231",
+    "text": "Bundan gayri cenk ederken ben size nasıl güvenirim?",
+    "english": "How can I trust you when we are fighting after this?"
+  },
+  {
+    "id": "1232",
+    "text": "Ben size nasıl pusat verip er diye cenk meydanlarına gönderirim?",
+    "english": "How can I give you weapons and send you as warriors to the battlefield?"
+  },
+  {
+    "id": "1233",
+    "text": "Bu ne hâldir böyle?",
+    "english": "What kind of situation is this?"
+  },
+  {
+    "id": "1234",
+    "text": "Beyim!",
+    "english": "My lord!"
+  },
+  {
+    "id": "1235",
+    "text": "Biz ne Ötüken’de verdiğimiz sözü unuttuk…",
+    "english": "We have not forgotten the promise we made in Ötüken…"
+  },
+  {
+    "id": "1236",
+    "text": "…ne de cenkteki erliğimizi.",
+    "english": "…nor our bravery in battle."
+  },
+  {
+    "id": "1237",
+    "text": "Lakin sen ve evlatların beyliğin asaletini unuttu.",
+    "english": "But you and your children have forgotten the nobility of the principality."
+  },
+  {
+    "id": "1238",
+    "text": "Kurdoğlu!",
+    "english": "Kurdoglu!"
+  },
+  {
+    "id": "1239",
+    "text": "Ve taifesi.",
+    "english": "And his people."
+  },
+  {
+    "id": "1240",
+    "text": "Evlat babanın sırrıdır, sırrı!",
+    "english": "A child is a father's secret, his secret!"
+  },
+  {
+    "id": "1241",
+    "text": "Aslandan aslan…",
+    "english": "From one lion comes a lion…"
+  },
+  {
+    "id": "1242",
+    "text": "…çakaldan çakal zuhur eder.",
+    "english": "…from one jackal comes a jackal."
+  },
+  {
+    "id": "1243",
+    "text": "Haddinizi bilin be!",
+    "english": "Know your place! Get out of here"
+  },
+  {
+    "id": "1244",
+    "text": "Haddinizi!",
+    "english": "!"
+  },
+  {
+    "id": "1245",
+    "text": "(Gök gürültüsü efekti)",
+    "english": "(Thunder sound effect)"
+  },
+  {
+    "id": "1246",
+    "text": "Elçi var beyim.",
+    "english": "There's an envoy, sir. Let"
+  },
+  {
+    "id": "1247",
+    "text": "Gelsin.",
+    "english": "him come."
+  },
+  {
+    "id": "1248",
+    "text": "Süleyman, artık vakit tamamdır.",
+    "english": "Suleyman, the time has come."
+  },
+  {
+    "id": "1249",
+    "text": "El Aziz obanızı başınıza yıkma kararını verdi.",
+    "english": "El Aziz has decided to destroy your village."
+  },
+  {
+    "id": "1250",
+    "text": "Bir Oğuz Türk’ü olarak size son defa eman vermeye geldim.",
+    "english": "As an Oghuz Turk, I have come to entrust myself to you for the last time ."
+  },
+  {
+    "id": "1251",
+    "text": "Ertuğrul’u ve Şehabettin’i teslim edin.",
+    "english": "Hand over Ertuğrul and Şehabettin."
+  },
+  {
+    "id": "1252",
+    "text": "Üzerimize yağmur gibi gelseniz de…",
+    "english": "Even if you come down upon us like rain…"
+  },
+  {
+    "id": "1253",
+    "text": "…ancak canımı veririm…",
+    "english": "I would only give my life"
+  },
+  {
+    "id": "1254",
+    "text": "…ama size obamdan bir keçi yavrusu bile vermem.",
+    "english": "… but I will not give you even a baby goat from my tribe. That's enough,"
+  },
+  {
+    "id": "1255",
+    "text": "Yetti artık beyim!",
+    "english": "sir! That's"
+  },
+  {
+    "id": "1256",
+    "text": "Yetti.",
+    "english": "enough."
+  },
+  {
+    "id": "1257",
+    "text": "Biz ne isteriz, sen ne edersin?",
+    "english": "What do we want, and what do you do? Should the village be set ablaze"
+  },
+  {
+    "id": "1258",
+    "text": "Halep’in çakalları için oba ateşe mi atılır?",
+    "english": "for the sake of the jackals of Aleppo ?"
+  },
+  {
+    "id": "1259",
+    "text": "Kurdoğlu!",
+    "english": "Kurdoglu! I'll be the one to"
+  },
+  {
+    "id": "1260",
+    "text": "Senin kelleni ben alacağım Süleyman.",
+    "english": "take your head, Suleyman."
+  },
+  {
+    "id": "1261",
+    "text": "Komutan!",
+    "english": "Commander!"
+  },
+  {
+    "id": "1262",
+    "text": "Siz evvela kendi kellelerinize sahip çıkın.",
+    "english": "First, you should protect your own heads."
+  },
+  {
+    "id": "1263",
+    "text": "Bu ne hâldir komutanım?",
+    "english": "What's going on, commander?"
+  },
+  {
+    "id": "1264",
+    "text": "Sen evvela Süleyman Şah’la nasıl konuşulacağını öğreneceksin.",
+    "english": "First, you will learn how to speak to Suleiman Shah. If"
+  },
+  {
+    "id": "1265",
+    "text": "Kayı obasında destursuz laflar edersen…",
+    "english": "you dare speak disrespectfully in the Kayı tribe…"
+  },
+  {
+    "id": "1266",
+    "text": "…ilk önce senin kelleni alırım, bilmiş ol.",
+    "english": "…I’ll take your head first, just so you know."
+  },
+  {
+    "id": "1267",
+    "text": "Şimdi var git El Aziz’e de ki…",
+    "english": "Now go and tell El Aziz…"
+  },
+  {
+    "id": "1268",
+    "text": "…Şahabettin ve kardeşim Ertuğrul’u bu kadar isterse…",
+    "english": "…if he wants Şahabettin and my brother Ertuğrul so much…"
+  },
+  {
+    "id": "1269",
+    "text": "…buyursun gelsin, kendi alsın.",
+    "english": "…let him come and take them himself."
+  },
+  {
+    "id": "1270",
+    "text": "Şimdi topla adamlarını, var git.",
+    "english": "Now gather your men and go."
+  },
+  {
+    "id": "1271",
+    "text": "Yoksa bu herifin kellesini eline tutuştururum.",
+    "english": "Otherwise, I'll hand this guy his head . At"
+  },
+  {
+    "id": "1272",
+    "text": "O vakit Halep’te hiç kimse size er demez.",
+    "english": "that time, no one in Aleppo will call you a soldier. Come on"
+  },
+  {
+    "id": "1273",
+    "text": "De haydi!",
+    "english": "!"
+  },
+  {
+    "id": "1274",
+    "text": "Bunlar nedir Şehzadem?",
+    "english": "What are these, Prince? You will distribute"
+  },
+  {
+    "id": "1275",
+    "text": "Bu altınları tüm Türkmen obalarına dağıtacaksın Afşin Bey.",
+    "english": "this gold to all the Turkmen tribes, Afşin Bey. So that"
+  },
+  {
+    "id": "1276",
+    "text": "Şehzade Numan’la birlikte olarak…",
+    "english": ""
+  },
+  {
+    "id": "1277",
+    "text": "…neler elde ettiklerini anlasınlar diye.",
+    "english": "they can understand what they have achieved by being with Prince Numan… What if they don't want to"
+  },
+  {
+    "id": "1278",
+    "text": "Ya sizinle birlikte olmayı istemezlerse Şehzadem?",
+    "english": "be with you, Prince?"
+  },
+  {
+    "id": "1279",
+    "text": "İsteyecekler, Afşin. İsteyecekler.",
+    "english": "They'll want it, Afşin. They will want to. We have"
+  },
+  {
+    "id": "1280",
+    "text": "Bundan gayri yolumuz yok.",
+    "english": "no other option. It's"
+  },
+  {
+    "id": "1281",
+    "text": "Onları ikna etmek bundan sonra senin vazifen.",
+    "english": "your job to convince them from now on. Is"
+  },
+  {
+    "id": "1282",
+    "text": "Son kararın bu mudur Şehzadem?",
+    "english": "this your final decision, Prince?"
+  },
+  {
+    "id": "1283",
+    "text": "Evet Afşin Bey.",
+    "english": "Yes, Mr. Afşin. Come here"
+  },
+  {
+    "id": "1284",
+    "text": "Buraya gelin.",
+    "english": "."
+  },
+  {
+    "id": "1285",
+    "text": "Aaaa!",
+    "english": "Aaaa!"
+  },
+  {
+    "id": "1286",
+    "text": "Ahh!",
+    "english": "Ah!"
+  },
+  {
+    "id": "1287",
+    "text": "Aaaa!",
+    "english": "Aaaa!"
+  },
+  {
+    "id": "1288",
+    "text": "Aaaa!",
+    "english": "Aaaa!"
+  },
+  {
+    "id": "1289",
+    "text": "Ahh!",
+    "english": "Ah!"
+  },
+  {
+    "id": "1290",
+    "text": "Aaaaa!",
+    "english": "Aaaa!"
+  },
+  {
+    "id": "1291",
+    "text": "Hainler!",
+    "english": "Traitors!"
+  },
+  {
+    "id": "1292",
+    "text": "Şehzade Numan!",
+    "english": "Prince Numan!"
+  },
+  {
+    "id": "1293",
+    "text": "Devlet, bunu affetmez.",
+    "english": "The state will not forgive this."
+  },
+  {
+    "id": "1294",
+    "text": "Devlet, kendine ortak koşanı sevmez.",
+    "english": "The state does not like those who associate partners with it."
+  },
+  {
+    "id": "1295",
+    "text": "Devlet, hırsıyla tahta geçmeye çalışanı kabul etmez!",
+    "english": "The state will not accept those who try to seize the throne out of ambition !"
+  },
+  {
+    "id": "1296",
+    "text": "Devlet, vazifeyi Sultan Alaeddin’e verdi ve sultan odur!",
+    "english": "The state entrusted the task to Sultan Alaeddin, and he is the sultan!"
+  },
+  {
+    "id": "1297",
+    "text": "(İnilti sesleri)",
+    "english": "(Groaning sounds)"
+  },
+  {
+    "id": "1298",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Thriller)"
+  },
+  {
+    "id": "1299",
+    "text": "(Müzik - Aksiyon)",
+    "english": "(Music - Action)"
+  },
+  {
+    "id": "1300",
+    "text": "(Halime ses) Ertuğrul, babam beni El Aziz’le evlenmeye mecbur ediyor.",
+    "english": "(Halime's voice) Ertuğrul, my father is forcing me to marry El Aziz."
+  },
+  {
+    "id": "1301",
+    "text": "Eğer beni El Aziz’in elinden alırsan…",
+    "english": "If you take me from El Aziz's hands..."
+  },
+  {
+    "id": "1302",
+    "text": "…onun öfkesi tüm Kayı Obasını yakar kül eder Ertuğrul.",
+    "english": "...his wrath will burn the entire Kayı tribe to ashes, Ertuğrul."
+  },
+  {
+    "id": "1303",
+    "text": "Her ne pahasına olursa olsun o adamla evlenmeyeceğim.",
+    "english": "I will not marry that man, no matter what."
+  },
+  {
+    "id": "1304",
+    "text": "Sen gelip kurtarana kadar seni bekleyeceğim Ertuğrul.",
+    "english": "I will wait for you, Ertuğrul, until you come and rescue me."
+  },
+  {
+    "id": "1305",
+    "text": "Eğer gelemezsem bil ki Azrail canımı almıştır.",
+    "english": "If I don't come, know that the Angel of Death has taken my soul. Then"
+  },
+  {
+    "id": "1306",
+    "text": "O vakit bil ki ben de ölmüş olurum.",
+    "english": "know that I too will be dead."
+  },
+  {
+    "id": "1307",
+    "text": "Bunu hak edecek ne yaptım ben?",
+    "english": "What did I do to deserve this? In"
+  },
+  {
+    "id": "1308",
+    "text": "Bu dünyada yalnızca seni sevdim.",
+    "english": "this world, I've only ever loved you."
+  },
+  {
+    "id": "1309",
+    "text": "Dünyayı senin ayaklarının altına serdim.",
+    "english": "I laid the world at your feet. I"
+  },
+  {
+    "id": "1310",
+    "text": "Babana itibarını geri verdim.",
+    "english": "restored your father's reputation. Didn't I personally rescue"
+  },
+  {
+    "id": "1311",
+    "text": "Kardeşini Tapınakçıların elinden bizzat ben kurtarıp sana getirmedim mi?",
+    "english": "your brother from the Templars and bring him to you? I gave"
+  },
+  {
+    "id": "1312",
+    "text": "Sana ömrümü, sana aşkımı, sana her şeyimi verdim.",
+    "english": "you my life, my love, everything. And"
+  },
+  {
+    "id": "1313",
+    "text": "Ya sen?",
+    "english": "you?"
+  },
+  {
+    "id": "1314",
+    "text": "Sen ne yaptın Halime Sultan?",
+    "english": "What have you done, Halime Sultan?"
+  },
+  {
+    "id": "1315",
+    "text": "Bir yılan, bir çıyan gibi ezip geçtin beni.",
+    "english": "You crushed me like a snake, like a centipede."
+  },
+  {
+    "id": "1316",
+    "text": "(Müzik - Gerilim)",
+    "english": "(Music - Thriller)"
+  },
+  {
+    "id": "1317",
+    "text": "(Müzik - Aksiyon)",
+    "english": "(Music - Action)"
+  },
+  {
+    "id": "1318",
+    "text": "(Halime) Size hiçbir vakit ümit vermedim Emir Hazretleri.",
+    "english": "(Halime) I never gave you any hope, Your Highness."
+  },
+  {
+    "id": "1319",
+    "text": "(Halime) Sizi teselli edecek tek bir söz bile söylemedim.",
+    "english": "(Halime) I didn't say a single word to comfort you."
+  },
+  {
+    "id": "1320",
+    "text": "Bari gözlerinin içine bakıp…",
+    "english": "At least look him in the eye and don't lie to"
+  },
+  {
+    "id": "1321",
+    "text": "…acımadan ezip geçtiğiniz bu adama yalan söylemeyin.",
+    "english": "this man you mercilessly crushed . You told"
+  },
+  {
+    "id": "1322",
+    "text": "Kardeşimi getirdiğiniz vakit sizinle evlenirim dediniz bana.",
+    "english": "me you would marry me if I brought your brother."
+  },
+  {
+    "id": "1323",
+    "text": "(Halime) Kardeşimi, onu kaçıran Tapınakçılar getirdi Emir Hazretleri.",
+    "english": "(Halime) My sister was brought back by the Templars who kidnapped her, Your Highness."
+  },
+  {
+    "id": "1324",
+    "text": "(Halime) Aynı zamanda sizi İslam dünyasını tehlikeye atacak bir ateşin içine çektiler.",
+    "english": "(Halima) They also dragged you into a fire that will endanger the Islamic world. Please, for"
+  },
+  {
+    "id": "1325",
+    "text": "Yapmayın Allah aşkına Halime Sultan.",
+    "english": "God's sake, Halime Sultan, don't do this."
+  },
+  {
+    "id": "1326",
+    "text": "Ben böyle şeytani oyunları Bin Bir Gece Masalları’nda bile okumadım.",
+    "english": "I've never read about such devilish games, not even in the Arabian Nights ."
+  },
+  {
+    "id": "1327",
+    "text": "(Halime) Şeytanın en büyük oyunu nedir bilir misiniz Emir Hazretleri?",
+    "english": "(Halime) Do you know what the devil's greatest trick is, Your Highness?"
+  },
+  {
+    "id": "1328",
+    "text": "(Halime) Kendine hizmetkâr olarak seçtiklerine aynada bir oyun oynar.",
+    "english": "(Halime) plays a trick on those she has chosen as her servants in the mirror."
+  },
+  {
+    "id": "1329",
+    "text": "Neymiş bu oyun Halime Sultan?",
+    "english": "What is this game, Halime Sultan?"
+  },
+  {
+    "id": "1330",
+    "text": "(Halime) Hizmetkârlarının aynaya baktıklarında…",
+    "english": "(Halima) makes her servants see themselves as angels when they look in the mirror"
+  },
+  {
+    "id": "1331",
+    "text": "…kendilerini melek gibi görmelerini sağlar.",
+    "english": "."
+  },
+  {
+    "id": "1332",
+    "text": "(Halime) Saf, mağdur, temiz kalpli.",
+    "english": "(Halime) Innocent, wronged, pure-hearted."
+  },
+  {
+    "id": "1333",
+    "text": "(Halime) Oysa şeytanın en büyük hizmetkârıdır onlar.",
+    "english": "(Halima) Yet they are the devil's greatest servants."
+  },
+  {
+    "id": "1334",
+    "text": "(Halime) Öyle saf, öyle kibirlidirler ki…",
+    "english": "(Halime) They are so naive, so arrogant"
+  },
+  {
+    "id": "1335",
+    "text": "…içine düştükleri cehennem ateşini tatlı bir vaha olarak karşılarlar.",
+    "english": "... they regard the hellfire they've fallen into as a sweet oasis. Since you"
+  },
+  {
+    "id": "1336",
+    "text": "Duygularımla alay etme cüretini kendinizde bulduğunuza göre…",
+    "english": "dare to mock my feelings …"
+  },
+  {
+    "id": "1337",
+    "text": "(Halime) Asla!",
+    "english": "(Halime) Never!"
+  },
+  {
+    "id": "1338",
+    "text": "(Halime) Alay etmek değil benimki.",
+    "english": "(Halime) I wasn't trying to mock you."
+  },
+  {
+    "id": "1339",
+    "text": "(Halime) Bilakis sizin gibilere…",
+    "english": "(Halime) On the contrary, people like you…"
+  },
+  {
+    "id": "1340",
+    "text": "…sırf mağdur, temiz kalpli ve iyi niyetli oldukları için…",
+    "english": "…simply because you are victims, pure-hearted and well-intentioned…"
+  },
+  {
+    "id": "1341",
+    "text": "…birinin haddini bildirmesi gerekir.",
+    "english": "…someone needs to put you in your place."
+  },
+  {
+    "id": "1342",
+    "text": "(Halime) Emir Hazretleri, maalesef o koca sarayınızda…",
+    "english": "(Halime) Your Highness, unfortunately, in your vast palace…"
+  },
+  {
+    "id": "1343",
+    "text": "…size gerçekleri söyleyecek tek bir dostunuz bile yokmuş.",
+    "english": "…it seems you don’t even have a single friend who will tell you the truth."
+  },
+  {
+    "id": "1344",
+    "text": "Hah!",
+    "english": "Ha! Goo"
+  },
+  {
+    "id": "1345",
+    "text": "Deh!",
+    "english": "!"
+  },
+  {
+    "id": "1346",
+    "text": "Bu evlilik er ya da geç olacak.",
+    "english": "This marriage will happen sooner or later. It's"
+  },
+  {
+    "id": "1347",
+    "text": "Artık bir aşk evliliği olmayacağı kesin.",
+    "english": "certain that it won't be a love marriage anymore."
+  },
+  {
+    "id": "1348",
+    "text": "Siyasi olarak yaptığım bu evlilikten en büyük faydayı sağlayacağıma eminim.",
+    "english": "I am confident that I will benefit most from this politically motivated marriage. And then there's"
+  },
+  {
+    "id": "1349",
+    "text": "Ha bir de Ertuğrul…",
+    "english": "Ertuğrul…"
+  },
+  {
+    "id": "1350",
+    "text": "(Halime) Ne olmuş Ertuğrul’a?",
+    "english": "(Halime) What happened to Ertuğrul?"
+  },
+  {
+    "id": "1351",
+    "text": "Yakında göreceksiniz ne olduğunu Halime Sultan.",
+    "english": "You will soon see what happens, Halime Sultan."
+  },
+  {
+    "id": "1352",
+    "text": "(Müzik - Aksiyon)",
+    "english": "(Music - Action)"
+  },
+  {
+    "id": "1353",
+    "text": "Ahh!",
+    "english": "Ahh!"
+  },
+  {
+    "id": "1354",
+    "text": "Ahh!",
+    "english": "Ah!"
+  },
+  {
+    "id": "1355",
+    "text": "(Müzik - Aksiyon)",
+    "english": "(Music - Action)"
+  },
+  {
+    "id": "1356",
+    "text": "Ahh!",
+    "english": "Ahh!"
+  },
+  {
+    "id": "1357",
+    "text": "Ahh!",
+    "english": "Ah!"
+  },
+  {
+    "id": "1358",
+    "text": "Aaaa!",
+    "english": "Aaaa!"
+  },
+  {
+    "id": "1359",
+    "text": "Haaa!",
+    "english": "Haa!"
+  },
+  {
+    "id": "1360",
+    "text": "Ahh!",
+    "english": "Ah!"
+  },
+  {
+    "id": "1361",
+    "text": "Ahh!",
+    "english": "Ah!"
+  },
+  {
+    "id": "1362",
+    "text": "Ahh!",
+    "english": "Ah!"
+  },
+  {
+    "id": "1363",
+    "text": "(Müzik - Jenerik)",
+    "english": "(Music - Opening Credits)"
+  }
+]
