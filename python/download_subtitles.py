@@ -194,21 +194,45 @@ def download_subtitle(episode, language, youtube_id, build_dir):
 
             if downloaded_files:
                 # Rename to our standard format
-                for downloaded_file in downloaded_files:
-                    # Match files containing the language code
-                    # Examples: 001.en.vtt (auto-translated), 001.tr.vtt
-                    if language in str(downloaded_file) and downloaded_file.suffix == ".vtt":
-                        downloaded_file.rename(output_file)
+                # Prefer en-TR variant over plain en for better alignment
+                target_file = None
 
-                        # Report success
-                        if language == "en":
-                            print(f"   ✓ {language.upper()}: Downloaded (auto-translated from Turkish)")
-                        else:
-                            print(f"   ✓ {language.upper()}: Downloaded successfully")
-                        success = True
-                        break
+                if language == "en":
+                    # First try to find en-tr variant (better alignment)
+                    for downloaded_file in downloaded_files:
+                        if "en-tr" in str(downloaded_file).lower():
+                            target_file = downloaded_file
+                            break
 
-                if success:
+                    # Fallback to any en file
+                    if not target_file:
+                        for downloaded_file in downloaded_files:
+                            if "en" in str(downloaded_file).lower():
+                                target_file = downloaded_file
+                                break
+                else:
+                    # For Turkish, just find the tr file
+                    for downloaded_file in downloaded_files:
+                        if language in str(downloaded_file):
+                            target_file = downloaded_file
+                            break
+
+                if target_file:
+                    target_file.rename(output_file)
+
+                    # Clean up yt-dlp temporary files with dot notation (e.g., 006.en.vtt)
+                    # Keep our renamed files with dash notation (e.g., 006-en.vtt)
+                    for leftover_file in downloaded_files:
+                        # Only delete files with dots before the language code (yt-dlp format)
+                        if leftover_file != target_file and '.' in leftover_file.stem and leftover_file.exists():
+                            leftover_file.unlink()
+
+                    # Report success
+                    if language == "en":
+                        print(f"   ✓ {language.upper()}: Downloaded (auto-translated from Turkish)")
+                    else:
+                        print(f"   ✓ {language.upper()}: Downloaded successfully")
+                    success = True
                     break
 
         except subprocess.CalledProcessError as e:
