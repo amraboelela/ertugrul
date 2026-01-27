@@ -25,6 +25,9 @@ import subprocess
 import json
 from pathlib import Path
 
+# Import VTT to JSON conversion function
+from vtt_to_json import convert_vtt_to_json
+
 def load_episodes_json(dataset="ertugrul"):
     """
     Load episode YouTube IDs from JSON file
@@ -157,34 +160,48 @@ def download_subtitle(episode, language, youtube_id, build_dir):
 
     for cookie_option in cookie_options:
         try:
-            cmd = [
-                "yt-dlp",
-                "--write-sub",          # Download manual subtitles
-                "--write-auto-sub",     # Download auto-generated/auto-translated subtitles
-                "--sub-lang", language,
-                "--sub-format", "vtt",
-                "--skip-download",
-                "--output", str(build_dir / temp_prefix),
-                "--user-agent", "Mozilla/5.0",
-                "--sleep-requests", "1",
-            ] + cookie_option + [url]
+            # For English: Try to download any English subtitle variant
+            # This includes auto-translated versions
+            if language == "en":
+                cmd = [
+                    "yt-dlp",
+                    "--write-auto-sub",
+                    "--sub-langs", "en.*",        # Match any English variant using regex
+                    "--sub-format", "vtt",
+                    "--skip-download",
+                    "--output", str(build_dir / temp_prefix),
+                    "--user-agent", "Mozilla/5.0",
+                    "--sleep-requests", "1",
+                ] + cookie_option + [url]
+            else:
+                cmd = [
+                    "yt-dlp",
+                    "--write-sub",
+                    "--write-auto-sub",
+                    "--sub-langs", language,
+                    "--sub-format", "vtt",
+                    "--skip-download",
+                    "--output", str(build_dir / temp_prefix),
+                    "--user-agent", "Mozilla/5.0",
+                    "--sleep-requests", "1",
+                ] + cookie_option + [url]
 
-            result = subprocess.run(cmd, check=True, capture_output=True, text=True)
+            result = subprocess.run(cmd, capture_output=True, text=True)
 
             # Check if subtitle file was downloaded
-            # yt-dlp creates files like: 001.lang.vtt or 001.en-orig.vtt for auto-translated
+            # yt-dlp creates files like: 001.en.vtt (auto-translated), 001.tr.vtt
             downloaded_files = list(build_dir.glob(f"{temp_prefix}*.vtt"))
 
             if downloaded_files:
                 # Rename to our standard format
                 for downloaded_file in downloaded_files:
                     # Match files containing the language code
-                    # Examples: 001.en.vtt, 001.en-orig.vtt (auto-translated), 001.tr.vtt
-                    if language in str(downloaded_file):
+                    # Examples: 001.en.vtt (auto-translated), 001.tr.vtt
+                    if language in str(downloaded_file) and downloaded_file.suffix == ".vtt":
                         downloaded_file.rename(output_file)
 
-                        # Check if it was auto-translated
-                        if language == "en" and "-orig" in str(downloaded_file):
+                        # Report success
+                        if language == "en":
                             print(f"   ✓ {language.upper()}: Downloaded (auto-translated from Turkish)")
                         else:
                             print(f"   ✓ {language.upper()}: Downloaded successfully")
@@ -220,23 +237,23 @@ def download_episode_subtitles(episode, youtube_id, dataset="ertugrul"):
     Returns:
         dict: Results for each language
     """
-    # Create output directory in dataset/subtitles
+    # Create output directory in dataset/subtitles/temp
     # Try both from project root and from python/ directory
     possible_paths = [
-        Path(f"../{dataset}/subtitles"),  # From python/ directory
-        Path(f"{dataset}/subtitles"),     # From project root
+        Path(f"../{dataset}/subtitles/temp"),  # From python/ directory
+        Path(f"{dataset}/subtitles/temp"),     # From project root
     ]
 
     build_dir = None
     for path in possible_paths:
         # Check if parent dataset directory exists
-        if path.parent.exists():
+        if path.parent.parent.exists():
             build_dir = path
             break
 
     if build_dir is None:
         # Default to project root if neither exists
-        build_dir = Path(f"../{dataset}/subtitles")
+        build_dir = Path(f"../{dataset}/subtitles/temp")
 
     build_dir.mkdir(parents=True, exist_ok=True)
 
@@ -258,6 +275,101 @@ def download_episode_subtitles(episode, youtube_id, dataset="ertugrul"):
 
     return results
 
+def process_episode(dataset, episode, episodes_data):
+    """
+    Process a single episode: download and convert to JSON
+
+    Args:
+        dataset (str): Dataset name
+        episode (int): Episode number
+        episodes_data (dict): Episodes data from JSON
+
+    Returns:
+        bool: True if successful, False otherwise
+    """
+    # Check if JSON already exists
+    possible_paths_main = [
+        Path(f"../{dataset}/subtitles"),  # From python/ directory
+        Path(f"{dataset}/subtitles"),     # From project root
+    ]
+
+    main_dir = None
+    for path in possible_paths_main:
+        if path.exists():
+            main_dir = path
+            break
+
+    if main_dir:
+        output_json = main_dir / f"{episode:03d}.json"
+        if output_json.exists():
+            print(f"⏭️  Episode {episode:03d} already exists, skipping...")
+            return True
+
+    youtube_id = get_youtube_id(episodes_data, episode)
+    if not youtube_id:
+        print(f"❌ No YouTube ID found for Episode {episode}")
+        return False
+
+    print(f"🎯 Using YouTube ID: {youtube_id}")
+
+    # Download subtitles
+    results = download_episode_subtitles(episode, youtube_id, dataset)
+
+    # Show summary
+    print(f"\n📊 Download Summary for Episode {episode:03d}:")
+    if results["en"]:
+        print(f"   ✅ English subtitles: {dataset}/subtitles/temp/{episode:03d}-en.vtt")
+    else:
+        print(f"   ❌ English subtitles: Not available")
+
+    if results["tr"]:
+        print(f"   ✅ Turkish subtitles: {dataset}/subtitles/temp/{episode:03d}-tr.vtt")
+    else:
+        print(f"   ❌ Turkish subtitles: Not available")
+
+    # Convert to JSON if both subtitles are available
+    if results["en"] and results["tr"]:
+        # Find subtitle directory
+        possible_paths_temp = [
+            Path(f"../{dataset}/subtitles/temp"),  # From python/ directory
+            Path(f"{dataset}/subtitles/temp"),     # From project root
+        ]
+        possible_paths_main = [
+            Path(f"../{dataset}/subtitles"),  # From python/ directory
+            Path(f"{dataset}/subtitles"),     # From project root
+        ]
+
+        temp_dir = None
+        for path in possible_paths_temp:
+            if path.exists():
+                temp_dir = path
+                break
+
+        main_dir = None
+        for path in possible_paths_main:
+            if path.exists():
+                main_dir = path
+                break
+
+        if temp_dir and main_dir:
+            tr_vtt = temp_dir / f"{episode:03d}-tr.vtt"
+            en_vtt = temp_dir / f"{episode:03d}-en.vtt"
+            output_json = main_dir / f"{episode:03d}.json"
+
+            try:
+                convert_vtt_to_json(tr_vtt, en_vtt, output_json)
+                print(f"   ✅ JSON format: {dataset}/subtitles/{episode:03d}.json")
+            except Exception as e:
+                print(f"   ⚠️  JSON conversion failed: {e}")
+                return False
+
+    if results["en"] or results["tr"]:
+        print(f"\n🎉 Episode {episode:03d} completed!")
+        return True
+    else:
+        print(f"\n❌ Failed to download any subtitles for Episode {episode:03d}")
+        return False
+
 def main():
     print("📥 Subtitle Downloader for Ertugrul Language Learning")
     print("=" * 60)
@@ -265,11 +377,13 @@ def main():
     print("⚠️  This tool is for educational and research purposes only")
     print("=" * 60)
 
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print("\nUsage:")
-        print("  ./download_subtitles.py <dataset> <episode>          # Download from episodes.json")
+        print("  ./download_subtitles.py <dataset>                    # Download ALL episodes")
+        print("  ./download_subtitles.py <dataset> <episode>          # Download specific episode")
         print("\nExamples:")
-        print("  ./download_subtitles.py ertugrul 3                   # Download Episode 3 from JSON")
+        print("  ./download_subtitles.py ertugrul                     # Download all 150 episodes")
+        print("  ./download_subtitles.py ertugrul 3                   # Download Episode 3 only")
         print("\nNote: Downloads both English (en) and Turkish (tr) subtitles")
         sys.exit(1)
 
@@ -281,45 +395,64 @@ def main():
         print("Supported datasets: ertugrul")
         sys.exit(1)
 
-    try:
-        episode = int(sys.argv[2])
-    except (ValueError, IndexError):
-        print("❌ Episode must be a number")
-        sys.exit(1)
-
     # Load episodes data from JSON
     episodes_data = load_episodes_json(dataset)
     if not episodes_data:
         sys.exit(1)
 
-    youtube_id = get_youtube_id(episodes_data, episode)
-    if not youtube_id:
-        print(f"❌ No YouTube ID found for Episode {episode}")
-        print(f"   Please add it to {dataset}/episodes.json")
-        sys.exit(1)
+    # Check if specific episode or all episodes
+    if len(sys.argv) >= 3:
+        # Single episode mode
+        try:
+            episode = int(sys.argv[2])
+        except ValueError:
+            print("❌ Episode must be a number")
+            sys.exit(1)
 
-    print(f"🎯 Using YouTube ID from episodes.json: {youtube_id}")
-
-    # Download subtitles
-    results = download_episode_subtitles(episode, youtube_id, dataset)
-
-    # Show summary
-    print(f"\n📊 Download Summary for Episode {episode:03d}:")
-    if results["en"]:
-        print(f"   ✅ English subtitles: {dataset}/subtitles/{episode:03d}-en.vtt")
+        success = process_episode(dataset, episode, episodes_data)
+        if not success:
+            sys.exit(1)
     else:
-        print(f"   ❌ English subtitles: Not available")
+        # Batch mode - process all episodes
+        print(f"\n🚀 Batch Mode: Processing ALL episodes from {dataset}/episodes.json")
 
-    if results["tr"]:
-        print(f"   ✅ Turkish subtitles: {dataset}/subtitles/{episode:03d}-tr.vtt")
-    else:
-        print(f"   ❌ Turkish subtitles: Not available")
+        # Get all episode numbers from JSON
+        if "episodes" not in episodes_data:
+            print("❌ No episodes found in episodes.json")
+            sys.exit(1)
 
-    if results["en"] or results["tr"]:
-        print(f"\n🎉 Episode {episode:03d} completed!")
-    else:
-        print(f"\n❌ Failed to download any subtitles for Episode {episode:03d}")
-        sys.exit(1)
+        episode_numbers = sorted([int(ep) for ep in episodes_data["episodes"].keys()])
+        total_episodes = len(episode_numbers)
+
+        print(f"📋 Found {total_episodes} episodes to process (Episodes {episode_numbers[0]}-{episode_numbers[-1]})")
+        print()
+
+        # Process each episode
+        success_count = 0
+        failed_episodes = []
+
+        for i, episode in enumerate(episode_numbers, 1):
+            print(f"\n{'='*60}")
+            print(f"Processing Episode {episode:03d} ({i}/{total_episodes})")
+            print(f"{'='*60}")
+
+            success = process_episode(dataset, episode, episodes_data)
+            if success:
+                success_count += 1
+            else:
+                failed_episodes.append(episode)
+
+        # Final summary
+        print(f"\n{'='*60}")
+        print(f"🏁 BATCH PROCESSING COMPLETE")
+        print(f"{'='*60}")
+        print(f"✅ Successful: {success_count}/{total_episodes} episodes")
+        if failed_episodes:
+            print(f"❌ Failed: {len(failed_episodes)} episodes")
+            print(f"   Failed episodes: {', '.join(map(str, failed_episodes))}")
+        else:
+            print(f"🎉 All episodes processed successfully!")
+        print(f"{'='*60}")
 
 if __name__ == "__main__":
     main()

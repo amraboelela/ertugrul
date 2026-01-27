@@ -10,6 +10,8 @@ Downloads VTT subtitle files from YouTube for language learning.
 
 **Features:**
 - Downloads both English and Turkish subtitles automatically
+- Supports YouTube's auto-translate feature for English subtitles
+  - If native English subtitles aren't available, downloads auto-translated English from Turkish
 - Reads YouTube IDs from `ertugrul/episodes.json`
 - Follows project naming conventions
 - Uses yt-dlp with fallback cookie options
@@ -35,8 +37,8 @@ pip install yt-dlp
   - Episode 100 → `ertugrul/subtitles/100-en.vtt`, `ertugrul/subtitles/100-tr.vtt`
 
 **Supported Languages:**
-- `en` - English (automatically downloaded)
-- `tr` - Turkish (automatically downloaded)
+- `en` - English (native, auto-generated, or auto-translated from Turkish)
+- `tr` - Turkish (native or auto-generated)
 
 ## Directory Structure
 

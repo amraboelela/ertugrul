@@ -121,6 +121,8 @@ python3 python/download_subtitles.py ertugrul 3
 **Note:**
 - Episode numbers are absolute (1-150), not season-based
 - Both English and Turkish subtitles are downloaded automatically
+- English subtitles support YouTube's auto-translate feature
+  - Downloads native English, auto-generated English, or auto-translated English from Turkish
 - Downloaded files use simple format: `001-en.vtt`, `001-tr.vtt`, `100-en.vtt`, etc.
 - YouTube IDs must be in `ertugrul/episodes.json`
 
@@ -215,3 +217,6 @@ The project uses two numbering systems:
 The `python/download_subtitles.py` script uses simple absolute numbering (001, 002, etc.) for downloaded files.
 
 Created by Amr Aboelela
+
+## Rules
+- Do not run download_subtitles.py by yourself

@@ -10,6 +10,7 @@
 		C5B1E5F623789A2F00BA1E1C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D023789A2700BA1E1C /* LICENSE */; };
 		C5B1E5FF23789A2F00BA1E1C /* build in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5D923789A2900BA1E1C /* build */; };
 		C5B1E60523789A2F00BA1E1C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E5DF23789A2A00BA1E1C /* README.md */; };
+		F51B50F72F2951040058D413 /* CLAUDE.md in Resources */ = {isa = PBXBuildFile; fileRef = F51B50F62F2951040058D413 /* CLAUDE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		C5B1E5D023789A2700BA1E1C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C5B1E5D923789A2900BA1E1C /* build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build; sourceTree = "<group>"; };
 		C5B1E5DF23789A2A00BA1E1C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F51B50F62F2951040058D413 /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +41,7 @@
 		C5B1E5AB2378995F00BA1E1C = {
 			isa = PBXGroup;
 			children = (
+				F51B50F62F2951040058D413 /* CLAUDE.md */,
 				F51B4F3F2F2948110058D413 /* ertugrul */,
 				F51B4EF02F29461E0058D413 /* python */,
 				F5E764302F29417F00A46D5F /* scripts */,
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B1E5FF23789A2F00BA1E1C /* build in Resources */,
+				F51B50F72F2951040058D413 /* CLAUDE.md in Resources */,
 				C5B1E5F623789A2F00BA1E1C /* LICENSE in Resources */,
 				C5B1E60523789A2F00BA1E1C /* README.md in Resources */,
 			);
