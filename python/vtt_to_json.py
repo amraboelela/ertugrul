@@ -88,6 +88,19 @@ def clean_subtitle_text(text):
 
     return text
 
+def timestamp_to_hms(timestamp):
+    """
+    Convert VTT timestamp from HH:MM:SS.mmm to HH:MM:SS format
+
+    Args:
+        timestamp (str): Timestamp in format "HH:MM:SS.mmm"
+
+    Returns:
+        str: Timestamp in format "HH:MM:SS"
+    """
+    # Remove milliseconds (everything after the dot)
+    return timestamp.split('.')[0]
+
 def convert_vtt_to_json(tr_vtt, en_vtt, output_json):
     """
     Convert Turkish and English VTT files to JSON format
@@ -118,7 +131,6 @@ def convert_vtt_to_json(tr_vtt, en_vtt, output_json):
 
     # Match Turkish subtitles with English by timestamp overlap
     for i, tr_sub in enumerate(tr_subs):
-        seg_id = f"{i+1:04d}"
         tr_text = clean_subtitle_text(tr_sub['text'])
 
         # Find matching English subtitle by timestamp
@@ -136,7 +148,7 @@ def convert_vtt_to_json(tr_vtt, en_vtt, output_json):
         # Only add if we have Turkish text
         if tr_text:
             segments.append({
-                "id": seg_id,
+                "time": timestamp_to_hms(tr_start),
                 "text": tr_text,
                 "english": en_text if en_text else ""
             })
@@ -167,27 +179,43 @@ def main():
 
     # Find subtitle files
     # Try both from project root and from python/ directory
-    possible_paths = [
+    possible_paths_temp = [
+        Path(f"../{dataset}/subtitles/temp"),  # From python/ directory
+        Path(f"{dataset}/subtitles/temp"),     # From project root
+    ]
+
+    temp_dir = None
+    for path in possible_paths_temp:
+        if path.exists():
+            temp_dir = path
+            break
+
+    if temp_dir is None:
+        print(f"❌ Subtitles temp directory not found: {dataset}/subtitles/temp")
+        sys.exit(1)
+
+    # Find output directory (parent of temp)
+    possible_paths_main = [
         Path(f"../{dataset}/subtitles"),  # From python/ directory
         Path(f"{dataset}/subtitles"),     # From project root
     ]
 
-    subtitles_dir = None
-    for path in possible_paths:
+    main_dir = None
+    for path in possible_paths_main:
         if path.exists():
-            subtitles_dir = path
+            main_dir = path
             break
 
-    if subtitles_dir is None:
+    if main_dir is None:
         print(f"❌ Subtitles directory not found: {dataset}/subtitles")
         sys.exit(1)
 
-    # Input files
-    tr_vtt = subtitles_dir / f"{episode:03d}-tr.vtt"
-    en_vtt = subtitles_dir / f"{episode:03d}-en.vtt"
+    # Input files (from temp directory)
+    tr_vtt = temp_dir / f"{episode:03d}-tr.vtt"
+    en_vtt = temp_dir / f"{episode:03d}-en.vtt"
 
-    # Output file (same directory)
-    output_json = subtitles_dir / f"{episode:03d}.json"
+    # Output file (main subtitles directory)
+    output_json = main_dir / f"{episode:03d}.json"
 
     # Check if input files exist
     if not tr_vtt.exists():
