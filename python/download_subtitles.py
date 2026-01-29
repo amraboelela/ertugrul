@@ -12,9 +12,11 @@ This tool is for EDUCATIONAL and RESEARCH purposes only. Users must:
 Downloads VTT subtitle files for language learning:
 - English subtitles (source language)
 - Turkish subtitles (target language)
+- Automatic fallback to VAD + Whisper if YouTube subtitles unavailable
 
 Usage: ./download_subtitles.py <dataset> <episode>
        ./download_subtitles.py ertugrul 3              # Download Episode 3 from JSON
+       ./download_subtitles.py ertugrul 16             # Falls back to generate_subtitles.py if YouTube subtitles not available
 
 Created by Amr Aboelela
 """
@@ -467,8 +469,26 @@ def process_episode(dataset, episode, episodes_data):
         print(f"\n🎉 Episode {episode:03d} completed!")
         return True
     else:
-        print(f"\n❌ Failed to download any subtitles for Episode {episode:03d}")
-        return False
+        # Automatic fallback to VAD + Whisper subtitle generation
+        print(f"\n⚠️  YouTube subtitles not available for Episode {episode:03d}")
+        print(f"🤖 Automatically falling back to VAD + Whisper subtitle generation...")
+
+        try:
+            # Call generate_subtitles.py
+            cmd = ["python3", "generate_subtitles.py", dataset, str(episode)]
+            print(f"   Running: {' '.join(cmd)}")
+
+            result = subprocess.run(cmd, cwd=Path(__file__).parent)
+
+            if result.returncode == 0:
+                print(f"✅ Successfully generated subtitles using VAD + Whisper")
+                return True
+            else:
+                print(f"❌ Subtitle generation failed with exit code {result.returncode}")
+                return False
+        except Exception as e:
+            print(f"❌ Failed to run generate_subtitles.py: {e}")
+            return False
 
 def main():
     print("📥 Subtitle Downloader for Ertugrul Language Learning")

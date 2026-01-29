@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-Subtitle Generator using Whisper for Ertugrul Language Learning Project
+Subtitle Generator using VAD + Whisper for Ertugrul Language Learning Project
 
 For episodes where YouTube subtitles are unavailable, this script:
 1. Downloads the video from YouTube
-2. Uses VAD (Voice Activity Detection) + Whisper Large to generate subtitles
-3. Creates both Turkish and English VTT files
-4. Converts to JSON format
+2. Extracts audio from video
+3. Uses VAD (Voice Activity Detection) to segment speech
+4. Uses Whisper Large (from Hugging Face) to transcribe segments
+5. Creates both Turkish and English VTT files
+6. Converts to JSON format
 
 IMPORTANT COPYRIGHT NOTICE:
 This tool is for EDUCATIONAL and RESEARCH purposes only. Users must:
@@ -19,7 +21,7 @@ Usage: ./generate_subtitles.py <dataset> <episode>
        ./generate_subtitles.py ertugrul 16
 
 Requirements:
-    pip install openai-whisper yt-dlp torch
+    pip install transformers torch torchaudio yt-dlp
 
 Created by Amr Aboelela
 """
@@ -28,11 +30,13 @@ import os
 import sys
 import subprocess
 import json
+import torch
+import torchaudio
 from pathlib import Path
 
-# Try to import Whisper
+# Try to import Hugging Face transformers
 try:
-    import whisper
+    from transformers import WhisperProcessor, WhisperForConditionalGeneration
     WHISPER_AVAILABLE = True
 except ImportError:
     WHISPER_AVAILABLE = False
@@ -42,6 +46,21 @@ try:
     from vtt_to_json import convert_vtt_to_json
 except ImportError:
     convert_vtt_to_json = None
+
+def load_vad_model():
+    """Load Silero VAD model (cached by torch.hub)
+
+    Returns:
+        tuple: (vad_model, vad_utils)
+    """
+    model, utils = torch.hub.load(
+        repo_or_dir='snakers4/silero-vad',
+        model='silero_vad',
+        force_reload=False,
+        onnx=False
+    )
+    return model, utils
+
 
 def download_video(youtube_id, output_path, episode):
     """
@@ -138,26 +157,156 @@ def extract_audio(video_file, audio_file):
         print(f"   ❌ Error: {e}")
         return False
 
-def transcribe_with_whisper(audio_file, language, episode, output_dir):
+def get_speech_timestamps(audio_file, vad_model, vad_utils):
     """
-    Transcribe audio using Whisper Large model
+    Use Silero VAD to detect speech segments in audio
+
+    Args:
+        audio_file (Path): Input audio file (16kHz mono WAV)
+        vad_model: Pre-loaded VAD model
+        vad_utils: Pre-loaded VAD utilities
+
+    Returns:
+        list: List of speech segments as (start_time, end_time) tuples in seconds
+    """
+    print(f"\n🎯 Detecting speech segments using VAD...")
+
+    try:
+        (get_speech_timestamps_func,
+         save_audio,
+         read_audio,
+         VADIterator,
+         collect_chunks) = vad_utils
+
+        # Read audio file
+        wav = read_audio(str(audio_file), sampling_rate=16000)
+
+        # Get speech timestamps
+        speech_timestamps = get_speech_timestamps_func(
+            wav,
+            vad_model,
+            sampling_rate=16000,
+            threshold=0.5,
+            min_speech_duration_ms=250,
+            max_speech_duration_s=float('inf'),
+            min_silence_duration_ms=100,
+            window_size_samples=512,
+            speech_pad_ms=30
+        )
+
+        # Convert from samples to seconds
+        segments = []
+        for ts in speech_timestamps:
+            start = ts['start'] / 16000.0  # Convert samples to seconds
+            end = ts['end'] / 16000.0
+            segments.append((start, end))
+
+        print(f"   ✅ Detected {len(segments)} speech segments")
+
+        # Merge segments that are very close together (< 1 second apart)
+        merged_segments = []
+        if segments:
+            current_start, current_end = segments[0]
+
+            for start, end in segments[1:]:
+                if start - current_end < 1.0:  # Less than 1 second gap
+                    current_end = end  # Extend current segment
+                else:
+                    merged_segments.append((current_start, current_end))
+                    current_start, current_end = start, end
+
+            merged_segments.append((current_start, current_end))
+
+        print(f"   ✅ Merged into {len(merged_segments)} segments for transcription")
+        return merged_segments
+
+    except Exception as e:
+        print(f"   ⚠️  VAD failed: {e}")
+        print(f"   ℹ️  Falling back to full audio transcription")
+        return None
+
+def load_audio_segment(audio_file, start_time, end_time):
+    """
+    Load a segment of audio file
 
     Args:
         audio_file (Path): Input audio file
+        start_time (float): Start time in seconds
+        end_time (float): End time in seconds
+
+    Returns:
+        numpy.ndarray: Audio samples
+    """
+    waveform, sample_rate = torchaudio.load(str(audio_file))
+
+    # Convert to mono if stereo
+    if waveform.shape[0] > 1:
+        waveform = torch.mean(waveform, dim=0, keepdim=True)
+
+    # Calculate sample indices
+    start_sample = int(start_time * sample_rate)
+    end_sample = int(end_time * sample_rate)
+
+    # Extract segment
+    segment = waveform[:, start_sample:end_sample]
+
+    # Convert to numpy and flatten
+    return segment.squeeze().numpy()
+
+def transcribe_with_whisper(audio_file, start_time, end_time, language, whisper_model, whisper_processor):
+    """
+    Transcribe audio segment with Whisper using Hugging Face
+
+    Args:
+        audio_file (Path): Input audio file
+        start_time (float): Start time in seconds
+        end_time (float): End time in seconds
+        language (str): Language code ("tr" or "en")
+        whisper_model: Pre-loaded Whisper model
+        whisper_processor: Pre-loaded Whisper processor
+
+    Returns:
+        str: Transcribed text
+    """
+    # Load audio segment
+    audio_array = load_audio_segment(audio_file, start_time, end_time)
+
+    # Process audio
+    input_features = whisper_processor(audio_array, sampling_rate=16000, return_tensors="pt").input_features
+
+    # Set language and task
+    whisper_lang = "turkish" if language == "tr" else "english"
+    task = "transcribe" if language == "tr" else "translate"
+
+    # Generate transcription
+    forced_decoder_ids = whisper_processor.get_decoder_prompt_ids(language=whisper_lang, task=task)
+    generated_ids = whisper_model.generate(input_features, forced_decoder_ids=forced_decoder_ids)
+    text = whisper_processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
+
+    return text
+
+def transcribe_segments_with_whisper(audio_file, segments, language, episode, output_dir, whisper_model, whisper_processor):
+    """
+    Transcribe audio segments using Whisper Large model from Hugging Face
+
+    Args:
+        audio_file (Path): Input audio file
+        segments (list): List of (start, end) tuples in seconds, or None for full audio
         language (str): Language code ("tr" for Turkish, "en" for English)
         episode (int): Episode number
         output_dir (Path): Output directory for VTT files
+        whisper_model: Pre-loaded Whisper model (reused)
+        whisper_processor: Pre-loaded Whisper processor (reused)
 
     Returns:
         Path: Path to VTT file, or None if failed
     """
     if not WHISPER_AVAILABLE:
-        print(f"   ❌ Whisper not installed. Install with: pip install openai-whisper")
+        print(f"   ❌ Whisper not installed. Install with: pip install transformers torch")
         return None
 
     lang_name = "Turkish" if language == "tr" else "English"
     print(f"\n🤖 Transcribing audio to {lang_name} using Whisper Large...")
-    print(f"   ⚠️  This may take 10-30 minutes depending on episode length")
 
     # Output VTT file
     vtt_file = output_dir / f"{episode:03d}-{language}.vtt"
@@ -168,31 +317,79 @@ def transcribe_with_whisper(audio_file, language, episode, output_dir):
         return vtt_file
 
     try:
-        # Load Whisper large model
-        print(f"   📦 Loading Whisper large model (first time may take a while)...")
-        model = whisper.load_model("large")
+        all_segments = []
 
-        # Transcribe with language-specific settings
-        whisper_lang = "tr" if language == "tr" else "en"
+        if segments:
+            print(f"   🎙️  Transcribing {len(segments)} speech segments...")
+            # Transcribe each VAD segment
+            for i, (start, end) in enumerate(segments, 1):
+                print(f"      Segment {i}/{len(segments)}: {format_time(start)} - {format_time(end)}")
 
-        print(f"   🎙️  Transcribing... (this will take several minutes)")
-        result = model.transcribe(
-            str(audio_file),
-            language=whisper_lang,
-            task="transcribe" if language == "tr" else "translate",  # Translate to English for en
-            verbose=False,
-            word_timestamps=True  # Better timing accuracy
-        )
+                # Transcribe segment
+                transcription = transcribe_with_whisper(audio_file, start, end, language, whisper_model, whisper_processor)
+
+                if transcription.strip():
+                    all_segments.append({
+                        'start': start,
+                        'end': end,
+                        'text': transcription.strip()
+                    })
+
+        else:
+            # Transcribe full audio without VAD segmentation
+            print(f"   🎙️  Transcribing full audio (this will take 10-30 minutes)...")
+
+            # Load full audio
+            waveform, sample_rate = torchaudio.load(str(audio_file))
+            if waveform.shape[0] > 1:
+                waveform = torch.mean(waveform, dim=0, keepdim=True)
+            audio_array = waveform.squeeze().numpy()
+
+            # Process in chunks (30 second chunks)
+            chunk_length = 30 * 16000  # 30 seconds at 16kHz
+            import numpy as np
+            num_chunks = int(np.ceil(len(audio_array) / chunk_length))
+
+            for i in range(num_chunks):
+                start_sample = i * chunk_length
+                end_sample = min((i + 1) * chunk_length, len(audio_array))
+                chunk = audio_array[start_sample:end_sample]
+
+                start_time = start_sample / 16000
+                end_time = end_sample / 16000
+
+                print(f"      Chunk {i+1}/{num_chunks}: {format_time(start_time)} - {format_time(end_time)}")
+
+                # Process audio chunk
+                input_features = whisper_processor(chunk, sampling_rate=16000, return_tensors="pt").input_features
+
+                # Set language and task
+                whisper_lang = "turkish" if language == "tr" else "english"
+                task = "transcribe" if language == "tr" else "translate"
+
+                # Generate transcription
+                forced_decoder_ids = whisper_processor.get_decoder_prompt_ids(language=whisper_lang, task=task)
+                generated_ids = whisper_model.generate(input_features, forced_decoder_ids=forced_decoder_ids)
+                transcription = whisper_processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+                if transcription.strip():
+                    all_segments.append({
+                        'start': start_time,
+                        'end': end_time,
+                        'text': transcription.strip()
+                    })
 
         # Write VTT file
-        print(f"   💾 Writing VTT file...")
-        write_vtt(result, vtt_file)
+        print(f"   💾 Writing VTT file with {len(all_segments)} segments...")
+        write_vtt({'segments': all_segments}, vtt_file)
 
         print(f"   ✅ Created: {vtt_file.name}")
         return vtt_file
 
     except Exception as e:
         print(f"   ❌ Transcription failed: {e}")
+        import traceback
+        traceback.print_exc()
         return None
 
 def write_vtt(whisper_result, output_file):
@@ -213,8 +410,9 @@ def write_vtt(whisper_result, output_file):
             end_time = format_timestamp(segment['end'])
             text = segment['text'].strip()
 
-            f.write(f"{start_time} --> {end_time}\n")
-            f.write(f"{text}\n\n")
+            if text:  # Only write non-empty segments
+                f.write(f"{start_time} --> {end_time}\n")
+                f.write(f"{text}\n\n")
 
 def format_timestamp(seconds):
     """
@@ -233,13 +431,29 @@ def format_timestamp(seconds):
 
     return f"{hours:02d}:{minutes:02d}:{secs:02d}.{millis:03d}"
 
+def format_time(seconds):
+    """
+    Format seconds to readable time format (HH:MM:SS)
+
+    Args:
+        seconds (float): Time in seconds
+
+    Returns:
+        str: Formatted time
+    """
+    hours = int(seconds // 3600)
+    minutes = int((seconds % 3600) // 60)
+    secs = int(seconds % 60)
+
+    return f"{hours:02d}:{minutes:02d}:{secs:02d}"
+
 def main():
     if len(sys.argv) < 3:
         print("\nUsage:")
         print("  ./generate_subtitles.py <dataset> <episode>")
         print("\nExamples:")
         print("  ./generate_subtitles.py ertugrul 16")
-        print("\nNote: Generates subtitles using Whisper for episodes without YouTube subtitles")
+        print("\nNote: Generates subtitles using VAD + Whisper for episodes without YouTube subtitles")
         sys.exit(1)
 
     dataset = sys.argv[1]
@@ -325,6 +539,17 @@ def main():
 
     temp_dir.mkdir(parents=True, exist_ok=True)
 
+    # Load VAD model once (cached by torch.hub)
+    print(f"\n🔍 Loading VAD model...")
+    vad_model, vad_utils = load_vad_model()
+    print(f"✓ VAD model loaded (cached for reuse)")
+
+    # Load Whisper model once (cached by Hugging Face)
+    print(f"\n🤖 Loading Whisper large-v3 model from Hugging Face...")
+    whisper_processor = WhisperProcessor.from_pretrained("openai/whisper-large-v3")
+    whisper_model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-large-v3")
+    print(f"✓ Whisper model loaded (cached for reuse)")
+
     # Step 1: Download video
     video_file = download_video(youtube_id, video_dir, episode)
     if not video_file:
@@ -335,19 +560,22 @@ def main():
     if not extract_audio(video_file, audio_file):
         sys.exit(1)
 
-    # Step 3: Transcribe to Turkish
-    tr_vtt = transcribe_with_whisper(audio_file, "tr", episode, temp_dir)
+    # Step 3: Detect speech segments using VAD
+    speech_segments = get_speech_timestamps(audio_file, vad_model, vad_utils)
+
+    # Step 4: Transcribe to Turkish
+    tr_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "tr", episode, temp_dir, whisper_model, whisper_processor)
     if not tr_vtt:
         print(f"\n❌ Failed to generate Turkish subtitles")
         sys.exit(1)
 
-    # Step 4: Transcribe/translate to English
-    en_vtt = transcribe_with_whisper(audio_file, "en", episode, temp_dir)
+    # Step 5: Transcribe/translate to English
+    en_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "en", episode, temp_dir, whisper_model, whisper_processor)
     if not en_vtt:
         print(f"\n❌ Failed to generate English subtitles")
         sys.exit(1)
 
-    # Step 5: Convert to JSON
+    # Step 6: Convert to JSON
     if convert_vtt_to_json:
         print(f"\n📄 Converting to JSON format...")
 
