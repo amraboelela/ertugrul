@@ -32,6 +32,7 @@ import subprocess
 import json
 import torch
 import torchaudio
+import shutil
 from pathlib import Path
 
 # Try to import Hugging Face transformers
@@ -47,19 +48,14 @@ try:
 except ImportError:
     convert_vtt_to_json = None
 
-def load_vad_model():
-    """Load Silero VAD model (cached by torch.hub)
-
-    Returns:
-        tuple: (vad_model, vad_utils)
-    """
-    model, utils = torch.hub.load(
-        repo_or_dir='snakers4/silero-vad',
-        model='silero_vad',
-        force_reload=False,
-        onnx=False
-    )
-    return model, utils
+# Import utility functions
+from common.utils import (
+    format_timestamp,
+    format_time,
+    load_audio_segment,
+    write_vtt,
+    load_vad_model
+)
 
 
 def download_video(youtube_id, output_path, episode):
@@ -225,34 +221,6 @@ def get_speech_timestamps(audio_file, vad_model, vad_utils):
         print(f"   ℹ️  Falling back to full audio transcription")
         return None
 
-def load_audio_segment(audio_file, start_time, end_time):
-    """
-    Load a segment of audio file
-
-    Args:
-        audio_file (Path): Input audio file
-        start_time (float): Start time in seconds
-        end_time (float): End time in seconds
-
-    Returns:
-        numpy.ndarray: Audio samples
-    """
-    waveform, sample_rate = torchaudio.load(str(audio_file))
-
-    # Convert to mono if stereo
-    if waveform.shape[0] > 1:
-        waveform = torch.mean(waveform, dim=0, keepdim=True)
-
-    # Calculate sample indices
-    start_sample = int(start_time * sample_rate)
-    end_sample = int(end_time * sample_rate)
-
-    # Extract segment
-    segment = waveform[:, start_sample:end_sample]
-
-    # Convert to numpy and flatten
-    return segment.squeeze().numpy()
-
 def transcribe_with_whisper(audio_file, start_time, end_time, language, whisper_model, whisper_processor):
     """
     Transcribe audio segment with Whisper using Hugging Face
@@ -285,7 +253,7 @@ def transcribe_with_whisper(audio_file, start_time, end_time, language, whisper_
 
     return text
 
-def transcribe_segments_with_whisper(audio_file, segments, language, episode, output_dir, whisper_model, whisper_processor):
+def transcribe_segments_with_whisper(audio_file, segments, language, episode, output_dir, whisper_model, whisper_processor, videos_dir=None, audio_segments_dir=None):
     """
     Transcribe audio segments using Whisper Large model from Hugging Face
 
@@ -297,6 +265,8 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
         output_dir (Path): Output directory for VTT files
         whisper_model: Pre-loaded Whisper model (reused)
         whisper_processor: Pre-loaded Whisper processor (reused)
+        videos_dir (Path): Optional additional directory to save VTT files
+        audio_segments_dir (Path): Optional directory to save audio segment files
 
     Returns:
         Path: Path to VTT file, or None if failed
@@ -321,9 +291,22 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
 
         if segments:
             print(f"   🎙️  Transcribing {len(segments)} speech segments...")
+            if audio_segments_dir and language == "tr":
+                print(f"   💾 Saving audio segments to: {audio_segments_dir}/")
             # Transcribe each VAD segment
             for i, (start, end) in enumerate(segments, 1):
-                print(f"      Segment {i}/{len(segments)}: {format_time(start)} - {format_time(end)}")
+                # Only print progress every 50 segments to reduce verbosity
+                if i % 50 == 0 or i == 1 or i == len(segments):
+                    print(f"      Progress: {i}/{len(segments)} segments ({i*100//len(segments)}%)")
+
+                # Load audio segment
+                audio_array = load_audio_segment(audio_file, start, end)
+
+                # Save audio segment if directory provided and this is Turkish transcription
+                if audio_segments_dir and language == "tr":
+                    segment_file = audio_segments_dir / f"segment_{i:04d}.wav"
+                    segment_tensor = torch.from_numpy(audio_array).unsqueeze(0)
+                    torchaudio.save(str(segment_file), segment_tensor, 16000)
 
                 # Transcribe segment
                 transcription = transcribe_with_whisper(audio_file, start, end, language, whisper_model, whisper_processor)
@@ -358,7 +341,9 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
                 start_time = start_sample / 16000
                 end_time = end_sample / 16000
 
-                print(f"      Chunk {i+1}/{num_chunks}: {format_time(start_time)} - {format_time(end_time)}")
+                # Only print progress every 10 chunks to reduce verbosity
+                if i % 10 == 0 or i == 0 or i == num_chunks - 1:
+                    print(f"      Progress: Chunk {i+1}/{num_chunks} ({(i+1)*100//num_chunks}%)")
 
                 # Process audio chunk
                 input_features = whisper_processor(chunk, sampling_rate=16000, return_tensors="pt").input_features
@@ -384,6 +369,13 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
         write_vtt({'segments': all_segments}, vtt_file)
 
         print(f"   ✅ Created: {vtt_file.name}")
+
+        # Also copy to videos directory if provided
+        if videos_dir:
+            videos_vtt = videos_dir / vtt_file.name
+            shutil.copy2(vtt_file, videos_vtt)
+            print(f"   📋 Copied to: {videos_vtt}")
+
         return vtt_file
 
     except Exception as e:
@@ -391,61 +383,6 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
         import traceback
         traceback.print_exc()
         return None
-
-def write_vtt(whisper_result, output_file):
-    """
-    Write Whisper transcription result to VTT format
-
-    Args:
-        whisper_result: Whisper transcription result
-        output_file (Path): Output VTT file path
-    """
-    with open(output_file, 'w', encoding='utf-8') as f:
-        # Write VTT header
-        f.write("WEBVTT\n\n")
-
-        # Write each segment
-        for segment in whisper_result['segments']:
-            start_time = format_timestamp(segment['start'])
-            end_time = format_timestamp(segment['end'])
-            text = segment['text'].strip()
-
-            if text:  # Only write non-empty segments
-                f.write(f"{start_time} --> {end_time}\n")
-                f.write(f"{text}\n\n")
-
-def format_timestamp(seconds):
-    """
-    Format seconds to VTT timestamp format (HH:MM:SS.mmm)
-
-    Args:
-        seconds (float): Time in seconds
-
-    Returns:
-        str: Formatted timestamp
-    """
-    hours = int(seconds // 3600)
-    minutes = int((seconds % 3600) // 60)
-    secs = int(seconds % 60)
-    millis = int((seconds % 1) * 1000)
-
-    return f"{hours:02d}:{minutes:02d}:{secs:02d}.{millis:03d}"
-
-def format_time(seconds):
-    """
-    Format seconds to readable time format (HH:MM:SS)
-
-    Args:
-        seconds (float): Time in seconds
-
-    Returns:
-        str: Formatted time
-    """
-    hours = int(seconds // 3600)
-    minutes = int((seconds % 3600) // 60)
-    secs = int(seconds % 60)
-
-    return f"{hours:02d}:{minutes:02d}:{secs:02d}"
 
 def main():
     if len(sys.argv) < 3:
@@ -539,6 +476,27 @@ def main():
 
     temp_dir.mkdir(parents=True, exist_ok=True)
 
+    # Videos directory (for VTT file copies)
+    possible_video_paths = [
+        Path(f"../{dataset}/videos"),  # From python/ directory
+        Path(f"{dataset}/videos"),     # From project root
+    ]
+
+    videos_dir = None
+    for path in possible_video_paths:
+        if path.parent.exists():
+            videos_dir = path
+            break
+
+    if videos_dir is None:
+        videos_dir = Path(f"../{dataset}/videos")
+
+    videos_dir.mkdir(parents=True, exist_ok=True)
+
+    # Audio segments directory (for saving VAD-detected speech segments)
+    audio_segments_dir = videos_dir / "audio" / f"{episode:03d}"
+    audio_segments_dir.mkdir(parents=True, exist_ok=True)
+
     # Load VAD model once (cached by torch.hub)
     print(f"\n🔍 Loading VAD model...")
     vad_model, vad_utils = load_vad_model()
@@ -564,13 +522,13 @@ def main():
     speech_segments = get_speech_timestamps(audio_file, vad_model, vad_utils)
 
     # Step 4: Transcribe to Turkish
-    tr_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "tr", episode, temp_dir, whisper_model, whisper_processor)
+    tr_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "tr", episode, temp_dir, whisper_model, whisper_processor, videos_dir, audio_segments_dir)
     if not tr_vtt:
         print(f"\n❌ Failed to generate Turkish subtitles")
         sys.exit(1)
 
     # Step 5: Transcribe/translate to English
-    en_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "en", episode, temp_dir, whisper_model, whisper_processor)
+    en_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "en", episode, temp_dir, whisper_model, whisper_processor, videos_dir)
     if not en_vtt:
         print(f"\n❌ Failed to generate English subtitles")
         sys.exit(1)
@@ -604,9 +562,13 @@ def main():
     print(f"{'=' * 60}")
     print(f"📁 Files created:")
     print(f"   Video:   {video_file}")
-    print(f"   Turkish: {tr_vtt}")
-    print(f"   English: {en_vtt}")
-    print(f"\n💡 You can now watch the video with English subtitles!")
+    print(f"   Turkish VTT: {tr_vtt}")
+    print(f"   English VTT: {en_vtt}")
+    if videos_dir:
+        print(f"   VTT copies: {videos_dir}/{episode:03d}-{{tr,en}}.vtt")
+    if speech_segments:
+        print(f"   Audio segments: {audio_segments_dir}/ ({len(speech_segments)} segments)")
+    print(f"\n💡 You can now watch the video with subtitles!")
 
 if __name__ == "__main__":
     main()
