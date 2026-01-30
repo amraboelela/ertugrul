@@ -26,9 +26,19 @@ Requirements:
 Created by Amr Aboelela
 """
 
-import os
 import sys
-import subprocess
+import os
+
+# Auto-caffeinate to prevent sleep during processing (macOS only)
+if sys.platform == 'darwin' and 'CAFFEINATED' not in os.environ:
+    try:
+        print("🔋 Restarting with caffeinate to prevent sleep during processing...")
+        os.environ['CAFFEINATED'] = '1'
+        os.execvp('caffeinate', ['caffeinate', '-i', sys.executable] + sys.argv)
+    except Exception as e:
+        print(f"⚠️  Could not start caffeinate: {e}")
+        pass
+
 import json
 import torch
 import torchaudio
@@ -50,112 +60,19 @@ except ImportError:
 
 # Import utility functions
 from common.utils import (
-    format_timestamp,
-    format_time,
     load_audio_segment,
     write_vtt,
-    load_vad_model
+    load_vad_model,
+    download_video,
+    extract_audio,
+    find_path
 )
+from common.vad_utils import detect_speech_segments_streaming
 
-
-def download_video(youtube_id, output_path, episode):
-    """
-    Download video from YouTube
-
-    Args:
-        youtube_id (str): YouTube video ID
-        output_path (Path): Output directory path
-        episode (int): Episode number
-
-    Returns:
-        Path: Path to downloaded video file, or None if failed
-    """
-    print(f"\n📥 Downloading video from YouTube...")
-    url = f"https://www.youtube.com/watch?v={youtube_id}"
-
-    # Output filename
-    video_file = output_path / f"{episode:03d}.mp4"
-
-    # Check if already downloaded
-    if video_file.exists():
-        print(f"   ✓ Video already exists: {video_file.name}")
-        return video_file
-
-    # Try different cookie sources
-    cookie_options = [
-        ["--cookies-from-browser", "chrome"],
-        ["--cookies-from-browser", "safari"],
-        ["--cookies-from-browser", "firefox"],
-        []  # No cookies as fallback
-    ]
-
-    for cookie_option in cookie_options:
-        try:
-            cmd = [
-                "yt-dlp",
-                "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
-                "--merge-output-format", "mp4",
-                "-o", str(video_file),
-                "--user-agent", "Mozilla/5.0",
-            ] + cookie_option + [url]
-
-            result = subprocess.run(cmd, capture_output=True, text=True)
-
-            if video_file.exists():
-                print(f"   ✅ Downloaded: {video_file.name}")
-                return video_file
-
-        except subprocess.CalledProcessError:
-            continue
-
-    print(f"   ❌ Failed to download video")
-    return None
-
-def extract_audio(video_file, audio_file):
-    """
-    Extract audio from video using ffmpeg
-
-    Args:
-        video_file (Path): Input video file
-        audio_file (Path): Output audio file
-
-    Returns:
-        bool: True if successful
-    """
-    print(f"\n🔊 Extracting audio from video...")
-
-    # Check if already extracted
-    if audio_file.exists():
-        print(f"   ✓ Audio already exists: {audio_file.name}")
-        return True
-
-    try:
-        cmd = [
-            "ffmpeg",
-            "-i", str(video_file),
-            "-vn",  # No video
-            "-acodec", "pcm_s16le",  # PCM 16-bit for Whisper
-            "-ar", "16000",  # 16kHz sample rate
-            "-ac", "1",  # Mono
-            str(audio_file)
-        ]
-
-        result = subprocess.run(cmd, capture_output=True, text=True)
-
-        if audio_file.exists():
-            print(f"   ✅ Extracted: {audio_file.name}")
-            return True
-        else:
-            print(f"   ❌ Failed to extract audio")
-            return False
-
-    except Exception as e:
-        print(f"   ❌ Error: {e}")
-        return False
 
 def get_speech_timestamps(audio_file, vad_model, vad_utils):
     """
-    Use Silero VAD to detect speech segments in audio
+    Use Silero VAD to detect speech segments in audio with proper parameters
 
     Args:
         audio_file (Path): Input audio file (16kHz mono WAV)
@@ -168,24 +85,19 @@ def get_speech_timestamps(audio_file, vad_model, vad_utils):
     print(f"\n🎯 Detecting speech segments using VAD...")
 
     try:
-        (get_speech_timestamps_func,
-         save_audio,
-         read_audio,
-         VADIterator,
-         collect_chunks) = vad_utils
+        (get_speech_timestamps_func, _, read_audio, _, _) = vad_utils
 
         # Read audio file
         wav = read_audio(str(audio_file), sampling_rate=16000)
 
-        # Get speech timestamps
+        # Get speech timestamps with proper parameters (matching Turkish2English)
         speech_timestamps = get_speech_timestamps_func(
             wav,
             vad_model,
             sampling_rate=16000,
-            threshold=0.5,
-            min_speech_duration_ms=250,
-            max_speech_duration_s=float('inf'),
-            min_silence_duration_ms=100,
+            threshold=0.45,                    # Lower threshold for better detection
+            min_speech_duration_ms=700,        # 0.7 seconds minimum
+            min_silence_duration_ms=500,       # 0.5 seconds silence between segments
             window_size_samples=512,
             speech_pad_ms=30
         )
@@ -193,33 +105,28 @@ def get_speech_timestamps(audio_file, vad_model, vad_utils):
         # Convert from samples to seconds
         segments = []
         for ts in speech_timestamps:
-            start = ts['start'] / 16000.0  # Convert samples to seconds
+            start = ts['start'] / 16000.0
             end = ts['end'] / 16000.0
-            segments.append((start, end))
+            duration = end - start
+
+            # Split segments longer than 15 seconds
+            if duration > 15.0:
+                current_start = start
+                while current_start < end:
+                    current_end = min(current_start + 14.9, end)
+                    segments.append((current_start, current_end))
+                    current_start = current_end
+            else:
+                segments.append((start, end))
 
         print(f"   ✅ Detected {len(segments)} speech segments")
-
-        # Merge segments that are very close together (< 1 second apart)
-        merged_segments = []
-        if segments:
-            current_start, current_end = segments[0]
-
-            for start, end in segments[1:]:
-                if start - current_end < 1.0:  # Less than 1 second gap
-                    current_end = end  # Extend current segment
-                else:
-                    merged_segments.append((current_start, current_end))
-                    current_start, current_end = start, end
-
-            merged_segments.append((current_start, current_end))
-
-        print(f"   ✅ Merged into {len(merged_segments)} segments for transcription")
-        return merged_segments
+        return segments
 
     except Exception as e:
         print(f"   ⚠️  VAD failed: {e}")
         print(f"   ℹ️  Falling back to full audio transcription")
         return None
+
 
 def transcribe_with_whisper(audio_file, start_time, end_time, language, whisper_model, whisper_processor):
     """
@@ -295,8 +202,8 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
                 print(f"   💾 Saving audio segments to: {audio_segments_dir}/")
             # Transcribe each VAD segment
             for i, (start, end) in enumerate(segments, 1):
-                # Only print progress every 50 segments to reduce verbosity
-                if i % 50 == 0 or i == 1 or i == len(segments):
+                # Only print progress every 100 segments to reduce verbosity
+                if i % 100 == 0 or i == 1 or i == len(segments):
                     print(f"      Progress: {i}/{len(segments)} segments ({i*100//len(segments)}%)")
 
                 # Load audio segment
@@ -439,61 +346,27 @@ def main():
     print(f"\n🔗 YouTube ID: {youtube_id}")
 
     # Setup directories
-    possible_video_paths = [
+    video_dir = find_path([
         Path(f"../{dataset}/videos"),
         Path(f"{dataset}/videos"),
-    ]
-
-    video_dir = None
-    for path in possible_video_paths:
-        if path.parent.exists():
-            video_dir = path
-            break
-
-    if video_dir is None:
-        video_dir = Path(f"../{dataset}/videos")
-
+    ])
     video_dir.mkdir(parents=True, exist_ok=True)
 
-    # Audio directory
     audio_dir = video_dir / "audio"
     audio_dir.mkdir(exist_ok=True)
 
-    # Subtitles temp directory
-    possible_temp_paths = [
+    temp_dir = find_path([
         Path(f"../{dataset}/subtitles/temp"),
         Path(f"{dataset}/subtitles/temp"),
-    ]
-
-    temp_dir = None
-    for path in possible_temp_paths:
-        if path.parent.exists():
-            temp_dir = path
-            break
-
-    if temp_dir is None:
-        temp_dir = Path(f"../{dataset}/subtitles/temp")
-
+    ])
     temp_dir.mkdir(parents=True, exist_ok=True)
 
-    # Videos directory (for VTT file copies)
-    possible_video_paths = [
-        Path(f"../{dataset}/videos"),  # From python/ directory
-        Path(f"{dataset}/videos"),     # From project root
-    ]
-
-    videos_dir = None
-    for path in possible_video_paths:
-        if path.parent.exists():
-            videos_dir = path
-            break
-
-    if videos_dir is None:
-        videos_dir = Path(f"../{dataset}/videos")
-
+    videos_dir = find_path([
+        Path(f"../{dataset}/videos"),
+        Path(f"{dataset}/videos"),
+    ])
     videos_dir.mkdir(parents=True, exist_ok=True)
 
-    # Audio segments directory (for saving VAD-detected speech segments)
     audio_segments_dir = videos_dir / "audio" / f"{episode:03d}"
     audio_segments_dir.mkdir(parents=True, exist_ok=True)
 
@@ -536,20 +409,12 @@ def main():
     # Step 6: Convert to JSON
     if convert_vtt_to_json:
         print(f"\n📄 Converting to JSON format...")
-
-        # Find main subtitles directory
-        possible_main_paths = [
+        main_dir = find_path([
             Path(f"../{dataset}/subtitles"),
             Path(f"{dataset}/subtitles"),
-        ]
+        ])
 
-        main_dir = None
-        for path in possible_main_paths:
-            if path.exists():
-                main_dir = path
-                break
-
-        if main_dir:
+        if main_dir.exists():
             output_json = main_dir / f"{episode:03d}.json"
             try:
                 convert_vtt_to_json(tr_vtt, en_vtt, output_json)

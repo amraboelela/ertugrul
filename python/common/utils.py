@@ -5,8 +5,10 @@ Common utility functions for Ertugrul Language Learning Project
 Created by Amr Aboelela
 """
 
+import subprocess
 import torch
 import torchaudio
+from pathlib import Path
 
 
 def format_timestamp(seconds):
@@ -109,3 +111,112 @@ def load_vad_model():
         onnx=False
     )
     return model, utils
+
+
+def download_video(youtube_id, output_path, episode):
+    """
+    Download video from YouTube
+
+    Args:
+        youtube_id (str): YouTube video ID
+        output_path (Path): Output directory path
+        episode (int): Episode number
+
+    Returns:
+        Path: Path to downloaded video file, or None if failed
+    """
+    print(f"\n📥 Downloading video from YouTube...")
+    url = f"https://www.youtube.com/watch?v={youtube_id}"
+    video_file = output_path / f"{episode:03d}.mp4"
+
+    if video_file.exists():
+        print(f"   ✓ Video already exists: {video_file.name}")
+        return video_file
+
+    cookie_options = [
+        ["--cookies-from-browser", "chrome"],
+        ["--cookies-from-browser", "safari"],
+        ["--cookies-from-browser", "firefox"],
+        []
+    ]
+
+    for cookie_option in cookie_options:
+        try:
+            cmd = [
+                "yt-dlp",
+                "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
+                "--merge-output-format", "mp4",
+                "-o", str(video_file),
+                "--user-agent", "Mozilla/5.0",
+            ] + cookie_option + [url]
+
+            subprocess.run(cmd, capture_output=True, text=True)
+
+            if video_file.exists():
+                print(f"   ✅ Downloaded: {video_file.name}")
+                return video_file
+
+        except subprocess.CalledProcessError:
+            continue
+
+    print(f"   ❌ Failed to download video")
+    return None
+
+
+def extract_audio(video_file, audio_file):
+    """
+    Extract audio from video using ffmpeg
+
+    Args:
+        video_file (Path): Input video file
+        audio_file (Path): Output audio file
+
+    Returns:
+        bool: True if successful
+    """
+    print(f"\n🔊 Extracting audio from video...")
+
+    if audio_file.exists():
+        print(f"   ✓ Audio already exists: {audio_file.name}")
+        return True
+
+    try:
+        cmd = [
+            "ffmpeg",
+            "-i", str(video_file),
+            "-vn",
+            "-acodec", "pcm_s16le",
+            "-ar", "16000",
+            "-ac", "1",
+            str(audio_file)
+        ]
+
+        subprocess.run(cmd, capture_output=True, text=True)
+
+        if audio_file.exists():
+            print(f"   ✅ Extracted: {audio_file.name}")
+            return True
+        else:
+            print(f"   ❌ Failed to extract audio")
+            return False
+
+    except Exception as e:
+        print(f"   ❌ Error: {e}")
+        return False
+
+
+def find_path(possible_paths):
+    """
+    Find first existing path from a list of possible paths
+
+    Args:
+        possible_paths (list): List of Path objects to try
+
+    Returns:
+        Path: First existing path, or last path if none exist
+    """
+    for path in possible_paths:
+        if path.parent.exists():
+            return path
+    return possible_paths[-1]
+

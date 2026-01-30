@@ -21,8 +21,19 @@ Usage: ./download_subtitles.py <dataset> <episode>
 Created by Amr Aboelela
 """
 
-import os
 import sys
+import os
+
+# Auto-caffeinate to prevent sleep during processing (macOS only)
+if sys.platform == 'darwin' and 'CAFFEINATED' not in os.environ:
+    try:
+        print("🔋 Restarting with caffeinate to prevent sleep during processing...")
+        os.environ['CAFFEINATED'] = '1'
+        os.execvp('caffeinate', ['caffeinate', '-i', sys.executable] + sys.argv)
+    except Exception as e:
+        print(f"⚠️  Could not start caffeinate: {e}")
+        pass
+
 import subprocess
 import json
 from pathlib import Path
