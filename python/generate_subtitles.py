@@ -228,8 +228,8 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
                 # Save progress every 100 segments
                 if i % 100 == 0:
                     print(f"      💾 Saving progress: {len(all_segments)} transcriptions...")
-                    # Save with ~ suffix to indicate partial
-                    partial_vtt = output_dir / f"{episode:03d}-{language}~.vtt"
+                    # Save with ~ suffix to indicate partial (to videos directory)
+                    partial_vtt = videos_dir / f"{episode:03d}-{language}~.vtt"
                     write_vtt({'segments': all_segments}, partial_vtt)
 
 
@@ -382,8 +382,8 @@ def main():
     en_vtt_temp = temp_dir / f"{episode:03d}-en.vtt"
     tr_vtt_videos = videos_dir / f"{episode:03d}-tr.vtt"
     en_vtt_videos = videos_dir / f"{episode:03d}-en.vtt"
-    tr_vtt_partial = temp_dir / f"{episode:03d}-tr~.vtt"
-    en_vtt_partial = temp_dir / f"{episode:03d}-en~.vtt"
+    tr_vtt_partial = videos_dir / f"{episode:03d}-tr~.vtt"
+    en_vtt_partial = videos_dir / f"{episode:03d}-en~.vtt"
 
     # If audio segments exist but VTT files don't, it's partial - delete everything
     has_audio_segments = audio_segments_dir.exists() and len(list(audio_segments_dir.glob("segment_*.wav"))) > 0
