@@ -160,7 +160,7 @@ def transcribe_with_whisper(audio_file, start_time, end_time, language, whisper_
 
     return text
 
-def transcribe_segments_with_whisper(audio_file, segments, language, episode, output_dir, whisper_model, whisper_processor, videos_dir=None, audio_segments_dir=None):
+def transcribe_segments_with_whisper(audio_file, segments, language, episode, output_dir, whisper_model, whisper_processor, episode_dir=None, audio_segments_dir=None):
     """
     Transcribe audio segments using Whisper Large model from Hugging Face
 
@@ -172,7 +172,7 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
         output_dir (Path): Output directory for VTT files
         whisper_model: Pre-loaded Whisper model (reused)
         whisper_processor: Pre-loaded Whisper processor (reused)
-        videos_dir (Path): Optional additional directory to save VTT files
+        episode_dir (Path): Optional episode directory to save VTT files and progress
         audio_segments_dir (Path): Optional directory to save audio segment files
 
     Returns:
@@ -228,9 +228,10 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
                 # Save progress every 100 segments
                 if i % 100 == 0:
                     print(f"      💾 Saving progress: {len(all_segments)} transcriptions...")
-                    # Save with ~ suffix to indicate partial (to videos directory)
-                    partial_vtt = videos_dir / f"{episode:03d}-{language}~.vtt"
-                    write_vtt({'segments': all_segments}, partial_vtt)
+                    # Save with ~ suffix to indicate partial (to episode directory)
+                    if episode_dir:
+                        partial_vtt = episode_dir / f"{episode:03d}-{language}~.vtt"
+                        write_vtt({'segments': all_segments}, partial_vtt)
 
 
         else:
@@ -285,11 +286,11 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
 
         print(f"   ✅ Created: {vtt_file.name}")
 
-        # Also copy to videos directory if provided
-        if videos_dir:
-            videos_vtt = videos_dir / vtt_file.name
-            shutil.copy2(vtt_file, videos_vtt)
-            print(f"   📋 Copied to: {videos_vtt}")
+        # Also copy to episode directory if provided
+        if episode_dir:
+            episode_vtt = episode_dir / vtt_file.name
+            shutil.copy2(vtt_file, episode_vtt)
+            print(f"   📋 Copied to: {episode_vtt}")
 
         return vtt_file
 
@@ -360,6 +361,10 @@ def main():
     ])
     video_dir.mkdir(parents=True, exist_ok=True)
 
+    # Episode-specific directory for videos and VTT files
+    episode_dir = video_dir / f"{episode:03d}"
+    episode_dir.mkdir(parents=True, exist_ok=True)
+
     audio_dir = video_dir / "audio"
     audio_dir.mkdir(exist_ok=True)
 
@@ -369,25 +374,19 @@ def main():
     ])
     temp_dir.mkdir(parents=True, exist_ok=True)
 
-    videos_dir = find_path([
-        Path(f"../{dataset}/videos"),
-        Path(f"{dataset}/videos"),
-    ])
-    videos_dir.mkdir(parents=True, exist_ok=True)
-
-    audio_segments_dir = videos_dir / "audio" / f"{episode:03d}"
+    audio_segments_dir = episode_dir / "audio"
 
     # Check for partial/incomplete processing and clean up
     tr_vtt_temp = temp_dir / f"{episode:03d}-tr.vtt"
     en_vtt_temp = temp_dir / f"{episode:03d}-en.vtt"
-    tr_vtt_videos = videos_dir / f"{episode:03d}-tr.vtt"
-    en_vtt_videos = videos_dir / f"{episode:03d}-en.vtt"
-    tr_vtt_partial = videos_dir / f"{episode:03d}-tr~.vtt"
-    en_vtt_partial = videos_dir / f"{episode:03d}-en~.vtt"
+    tr_vtt_episode = episode_dir / f"{episode:03d}-tr.vtt"
+    en_vtt_episode = episode_dir / f"{episode:03d}-en.vtt"
+    tr_vtt_partial = episode_dir / f"{episode:03d}-tr~.vtt"
+    en_vtt_partial = episode_dir / f"{episode:03d}-en~.vtt"
 
     # If audio segments exist but VTT files don't, it's partial - delete everything
     has_audio_segments = audio_segments_dir.exists() and len(list(audio_segments_dir.glob("segment_*.wav"))) > 0
-    has_vtt_files = (tr_vtt_temp.exists() and en_vtt_temp.exists()) or (tr_vtt_videos.exists() and en_vtt_videos.exists())
+    has_vtt_files = (tr_vtt_temp.exists() and en_vtt_temp.exists()) or (tr_vtt_episode.exists() and en_vtt_episode.exists())
 
     if has_audio_segments and not has_vtt_files:
         num_segments = len(list(audio_segments_dir.glob("segment_*.wav")))
@@ -402,7 +401,7 @@ def main():
 
         # Delete any partial VTT files (including ~ suffix)
         deleted_vtts = []
-        for vtt_file in [tr_vtt_temp, en_vtt_temp, tr_vtt_videos, en_vtt_videos, tr_vtt_partial, en_vtt_partial]:
+        for vtt_file in [tr_vtt_temp, en_vtt_temp, tr_vtt_episode, en_vtt_episode, tr_vtt_partial, en_vtt_partial]:
             if vtt_file.exists():
                 vtt_file.unlink()
                 deleted_vtts.append(vtt_file.name)
@@ -415,8 +414,8 @@ def main():
         print(f"\n⏭️  Episode {episode:03d} already fully processed, skipping...")
         print(f"   Turkish VTT: {tr_vtt_temp}")
         print(f"   English VTT: {en_vtt_temp}")
-        if tr_vtt_videos.exists():
-            print(f"   VTT copies in videos directory exist")
+        if tr_vtt_episode.exists():
+            print(f"   VTT copies in episode directory exist")
         sys.exit(0)
 
     # Create audio segments directory
@@ -434,7 +433,7 @@ def main():
     print(f"✓ Whisper model loaded (cached for reuse)")
 
     # Step 1: Download video
-    video_file = download_video(youtube_id, video_dir, episode)
+    video_file = download_video(youtube_id, episode_dir, episode)
     if not video_file:
         sys.exit(1)
 
@@ -447,13 +446,13 @@ def main():
     speech_segments = get_speech_timestamps(audio_file, vad_model, vad_utils)
 
     # Step 4: Transcribe to Turkish
-    tr_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "tr", episode, temp_dir, whisper_model, whisper_processor, videos_dir, audio_segments_dir)
+    tr_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "tr", episode, temp_dir, whisper_model, whisper_processor, episode_dir, audio_segments_dir)
     if not tr_vtt:
         print(f"\n❌ Failed to generate Turkish subtitles")
         sys.exit(1)
 
     # Step 5: Transcribe/translate to English
-    en_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "en", episode, temp_dir, whisper_model, whisper_processor, videos_dir)
+    en_vtt = transcribe_segments_with_whisper(audio_file, speech_segments, "en", episode, temp_dir, whisper_model, whisper_processor, episode_dir)
     if not en_vtt:
         print(f"\n❌ Failed to generate English subtitles")
         sys.exit(1)
@@ -479,12 +478,15 @@ def main():
     print(f"{'=' * 60}")
     print(f"📁 Files created:")
     print(f"   Video:   {video_file}")
+    print(f"   Audio:   {audio_file}")
     print(f"   Turkish VTT: {tr_vtt}")
     print(f"   English VTT: {en_vtt}")
-    if videos_dir:
-        print(f"   VTT copies: {videos_dir}/{episode:03d}-{{tr,en}}.vtt")
-    if speech_segments:
-        print(f"   Audio segments: {audio_segments_dir}/ ({len(speech_segments)} segments)")
+    if episode_dir:
+        print(f"   Episode directory: {episode_dir}/")
+        print(f"     - {episode:03d}.mp4 (video)")
+        print(f"     - {episode:03d}-tr.vtt (Turkish subtitles)")
+        print(f"     - {episode:03d}-en.vtt (English subtitles)")
+        print(f"     - audio/ ({len(speech_segments)} segments)" if speech_segments else "")
     print(f"\n💡 You can now watch the video with subtitles!")
 
 if __name__ == "__main__":
