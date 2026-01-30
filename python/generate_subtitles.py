@@ -225,6 +225,14 @@ def transcribe_segments_with_whisper(audio_file, segments, language, episode, ou
                         'text': transcription.strip()
                     })
 
+                # Save progress every 100 segments
+                if i % 100 == 0:
+                    print(f"      💾 Saving progress: {len(all_segments)} transcriptions...")
+                    # Save with ~ suffix to indicate partial
+                    partial_vtt = output_dir / f"{episode:03d}-{language}~.vtt"
+                    write_vtt({'segments': all_segments}, partial_vtt)
+
+
         else:
             # Transcribe full audio without VAD segmentation
             print(f"   🎙️  Transcribing full audio (this will take 10-30 minutes)...")
@@ -368,6 +376,50 @@ def main():
     videos_dir.mkdir(parents=True, exist_ok=True)
 
     audio_segments_dir = videos_dir / "audio" / f"{episode:03d}"
+
+    # Check for partial/incomplete processing and clean up
+    tr_vtt_temp = temp_dir / f"{episode:03d}-tr.vtt"
+    en_vtt_temp = temp_dir / f"{episode:03d}-en.vtt"
+    tr_vtt_videos = videos_dir / f"{episode:03d}-tr.vtt"
+    en_vtt_videos = videos_dir / f"{episode:03d}-en.vtt"
+    tr_vtt_partial = temp_dir / f"{episode:03d}-tr~.vtt"
+    en_vtt_partial = temp_dir / f"{episode:03d}-en~.vtt"
+
+    # If audio segments exist but VTT files don't, it's partial - delete everything
+    has_audio_segments = audio_segments_dir.exists() and len(list(audio_segments_dir.glob("segment_*.wav"))) > 0
+    has_vtt_files = (tr_vtt_temp.exists() and en_vtt_temp.exists()) or (tr_vtt_videos.exists() and en_vtt_videos.exists())
+
+    if has_audio_segments and not has_vtt_files:
+        num_segments = len(list(audio_segments_dir.glob("segment_*.wav")))
+        print(f"\n⚠️  Episode {episode:03d} has partial data")
+        print(f"   Found: {num_segments} audio segments without complete VTT files")
+        print(f"   Deleting incomplete data and starting fresh...")
+
+        # Delete audio segments directory
+        if audio_segments_dir.exists():
+            shutil.rmtree(audio_segments_dir)
+            print(f"   🗑️  Deleted: {num_segments} audio segments from {audio_segments_dir}")
+
+        # Delete any partial VTT files (including ~ suffix)
+        deleted_vtts = []
+        for vtt_file in [tr_vtt_temp, en_vtt_temp, tr_vtt_videos, en_vtt_videos, tr_vtt_partial, en_vtt_partial]:
+            if vtt_file.exists():
+                vtt_file.unlink()
+                deleted_vtts.append(vtt_file.name)
+
+        if deleted_vtts:
+            print(f"   🗑️  Deleted partial VTT files: {', '.join(deleted_vtts)}")
+
+        print(f"   ✅ Ready to start from scratch\n")
+    elif tr_vtt_temp.exists() and en_vtt_temp.exists():
+        print(f"\n⏭️  Episode {episode:03d} already fully processed, skipping...")
+        print(f"   Turkish VTT: {tr_vtt_temp}")
+        print(f"   English VTT: {en_vtt_temp}")
+        if tr_vtt_videos.exists():
+            print(f"   VTT copies in videos directory exist")
+        sys.exit(0)
+
+    # Create audio segments directory
     audio_segments_dir.mkdir(parents=True, exist_ok=True)
 
     # Load VAD model once (cached by torch.hub)
