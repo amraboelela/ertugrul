@@ -476,12 +476,15 @@ def process_episode(dataset, episode, episodes_data):
                 print(f"   ⚠️  JSON conversion failed: {e}")
                 return False
 
-    if results["en"] or results["tr"]:
-        print(f"\n🎉 Episode {episode:03d} completed!")
-        return True
-    else:
-        # Automatic fallback to VAD + Whisper subtitle generation
-        print(f"\n⚠️  YouTube subtitles not available for Episode {episode:03d}")
+    # If Turkish OR English is missing, use VAD + Whisper to generate both
+    if not results["tr"] or not results["en"]:
+        missing = []
+        if not results["tr"]:
+            missing.append("Turkish")
+        if not results["en"]:
+            missing.append("English")
+
+        print(f"\n⚠️  {' and '.join(missing)} subtitles not available from YouTube for Episode {episode:03d}")
         print(f"🤖 Automatically falling back to VAD + Whisper subtitle generation...")
 
         try:
@@ -492,7 +495,43 @@ def process_episode(dataset, episode, episodes_data):
             result = subprocess.run(cmd, cwd=Path(__file__).parent)
 
             if result.returncode == 0:
-                print(f"✅ Successfully generated subtitles using VAD + Whisper")
+                print(f"✅ Successfully generated {' and '.join(missing)} subtitles using VAD + Whisper")
+
+                # Now convert to JSON since we have both subtitles
+                possible_paths_temp = [
+                    Path(f"../{dataset}/subtitles/temp"),  # From python/ directory
+                    Path(f"{dataset}/subtitles/temp"),     # From project root
+                ]
+                possible_paths_main = [
+                    Path(f"../{dataset}/subtitles"),  # From python/ directory
+                    Path(f"{dataset}/subtitles"),     # From project root
+                ]
+
+                temp_dir = None
+                for path in possible_paths_temp:
+                    if path.exists():
+                        temp_dir = path
+                        break
+
+                main_dir = None
+                for path in possible_paths_main:
+                    if path.exists():
+                        main_dir = path
+                        break
+
+                if temp_dir and main_dir:
+                    tr_vtt = temp_dir / f"{episode:03d}-tr.vtt"
+                    en_vtt = temp_dir / f"{episode:03d}-en.vtt"
+                    output_json = main_dir / f"{episode:03d}.json"
+
+                    try:
+                        convert_vtt_to_json(tr_vtt, en_vtt, output_json)
+                        print(f"   ✅ JSON format: {dataset}/subtitles/{episode:03d}.json")
+                    except Exception as e:
+                        print(f"   ⚠️  JSON conversion failed: {e}")
+                        return False
+
+                print(f"\n🎉 Episode {episode:03d} completed!")
                 return True
             else:
                 print(f"❌ Subtitle generation failed with exit code {result.returncode}")
@@ -500,6 +539,13 @@ def process_episode(dataset, episode, episodes_data):
         except Exception as e:
             print(f"❌ Failed to run generate_subtitles.py: {e}")
             return False
+
+    if results["en"] or results["tr"]:
+        print(f"\n🎉 Episode {episode:03d} completed!")
+        return True
+    else:
+        print(f"\n❌ No subtitles available for Episode {episode:03d}")
+        return False
 
 def main():
     print("📥 Subtitle Downloader for Ertugrul Language Learning")

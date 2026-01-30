@@ -252,6 +252,18 @@ def main():
             deleted_count += 1
             print(f"   🗑️  Deleted: {partial_vtt.name}")
 
+    # Delete episode audio directory (contains full audio + segments)
+    if audio_dir.exists() and audio_dir.is_dir():
+        # Count segments before deletion
+        segment_count = 0
+        if audio_segments_dir.exists():
+            segment_count = len(list(audio_segments_dir.glob("segment_*.wav")))
+
+        # Delete entire audio directory
+        shutil.rmtree(audio_dir)
+        deleted_count += 1
+        print(f"   🗑️  Deleted: {audio_dir.name}/ ({episode:03d}.wav + {segment_count} segments)")
+
     # Delete old shared audio directory if it exists (legacy from old structure)
     old_audio_dir = video_dir / "audio"
     if old_audio_dir.exists() and old_audio_dir.is_dir():
@@ -277,7 +289,6 @@ def main():
     print(f"{'=' * 60}")
     print(f"📁 Files created:")
     print(f"   Video:   {video_file}")
-    print(f"   Audio:   {audio_file}")
     print(f"   Turkish VTT: {tr_vtt}")
     print(f"   English VTT: {en_vtt}")
     if episode_dir:
@@ -285,9 +296,6 @@ def main():
         print(f"     - {episode:03d}.mp4 (video)")
         print(f"     - {episode:03d}-tr.vtt (Turkish subtitles)")
         print(f"     - {episode:03d}-en.vtt (English subtitles)")
-        print(f"     - audio/{episode:03d}.wav (full audio)")
-        if speech_segments:
-            print(f"     - audio/segments/ ({len(speech_segments)} segments)")
     print(f"\n💡 You can now watch the video with subtitles!")
 
 if __name__ == "__main__":
