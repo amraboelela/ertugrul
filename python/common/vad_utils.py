@@ -22,6 +22,64 @@ def _get_vad_utils():
     return _vad_utils_cache
 
 
+def get_speech_timestamps(audio_file, vad_model, vad_utils):
+    """
+    Use Silero VAD to detect speech segments in audio with proper parameters
+
+    Args:
+        audio_file (Path): Input audio file (16kHz mono WAV)
+        vad_model: Pre-loaded VAD model
+        vad_utils: Pre-loaded VAD utilities
+
+    Returns:
+        list: List of speech segments as (start_time, end_time) tuples in seconds
+    """
+    print(f"\n🎯 Detecting speech segments using VAD...")
+
+    try:
+        (get_speech_timestamps_func, _, read_audio, _, _) = vad_utils
+
+        # Read audio file
+        wav = read_audio(str(audio_file), sampling_rate=16000)
+
+        # Get speech timestamps with proper parameters (matching Turkish2English)
+        speech_timestamps = get_speech_timestamps_func(
+            wav,
+            vad_model,
+            sampling_rate=16000,
+            threshold=0.45,                    # Lower threshold for better detection
+            min_speech_duration_ms=700,        # 0.7 seconds minimum
+            min_silence_duration_ms=500,       # 0.5 seconds silence between segments
+            window_size_samples=512,
+            speech_pad_ms=30
+        )
+
+        # Convert from samples to seconds
+        segments = []
+        for ts in speech_timestamps:
+            start = ts['start'] / 16000.0
+            end = ts['end'] / 16000.0
+            duration = end - start
+
+            # Split segments longer than 15 seconds
+            if duration > 15.0:
+                current_start = start
+                while current_start < end:
+                    current_end = min(current_start + 14.9, end)
+                    segments.append((current_start, current_end))
+                    current_start = current_end
+            else:
+                segments.append((start, end))
+
+        print(f"   ✅ Detected {len(segments)} speech segments")
+        return segments
+
+    except Exception as e:
+        print(f"   ⚠️  VAD failed: {e}")
+        print(f"   ℹ️  Falling back to full audio transcription")
+        return None
+
+
 def detect_speech_segments_streaming(audio_path, vad_model, device,
                                      increment_seconds=0.5,
                                      min_speech_duration=0.7,

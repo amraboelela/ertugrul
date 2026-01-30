@@ -60,245 +60,14 @@ except ImportError:
 
 # Import utility functions
 from common.utils import (
-    load_audio_segment,
-    write_vtt,
     load_vad_model,
     download_video,
     extract_audio,
     find_path
 )
-from common.vad_utils import detect_speech_segments_streaming
+from common.vad_utils import get_speech_timestamps
+from common.whisper_utils import transcribe_segments_with_whisper
 
-
-def get_speech_timestamps(audio_file, vad_model, vad_utils):
-    """
-    Use Silero VAD to detect speech segments in audio with proper parameters
-
-    Args:
-        audio_file (Path): Input audio file (16kHz mono WAV)
-        vad_model: Pre-loaded VAD model
-        vad_utils: Pre-loaded VAD utilities
-
-    Returns:
-        list: List of speech segments as (start_time, end_time) tuples in seconds
-    """
-    print(f"\n🎯 Detecting speech segments using VAD...")
-
-    try:
-        (get_speech_timestamps_func, _, read_audio, _, _) = vad_utils
-
-        # Read audio file
-        wav = read_audio(str(audio_file), sampling_rate=16000)
-
-        # Get speech timestamps with proper parameters (matching Turkish2English)
-        speech_timestamps = get_speech_timestamps_func(
-            wav,
-            vad_model,
-            sampling_rate=16000,
-            threshold=0.45,                    # Lower threshold for better detection
-            min_speech_duration_ms=700,        # 0.7 seconds minimum
-            min_silence_duration_ms=500,       # 0.5 seconds silence between segments
-            window_size_samples=512,
-            speech_pad_ms=30
-        )
-
-        # Convert from samples to seconds
-        segments = []
-        for ts in speech_timestamps:
-            start = ts['start'] / 16000.0
-            end = ts['end'] / 16000.0
-            duration = end - start
-
-            # Split segments longer than 15 seconds
-            if duration > 15.0:
-                current_start = start
-                while current_start < end:
-                    current_end = min(current_start + 14.9, end)
-                    segments.append((current_start, current_end))
-                    current_start = current_end
-            else:
-                segments.append((start, end))
-
-        print(f"   ✅ Detected {len(segments)} speech segments")
-        return segments
-
-    except Exception as e:
-        print(f"   ⚠️  VAD failed: {e}")
-        print(f"   ℹ️  Falling back to full audio transcription")
-        return None
-
-
-def transcribe_with_whisper(audio_file, start_time, end_time, language, whisper_model, whisper_processor):
-    """
-    Transcribe audio segment with Whisper using Hugging Face
-
-    Args:
-        audio_file (Path): Input audio file
-        start_time (float): Start time in seconds
-        end_time (float): End time in seconds
-        language (str): Language code ("tr" or "en")
-        whisper_model: Pre-loaded Whisper model
-        whisper_processor: Pre-loaded Whisper processor
-
-    Returns:
-        str: Transcribed text
-    """
-    # Load audio segment
-    audio_array = load_audio_segment(audio_file, start_time, end_time)
-
-    # Process audio
-    input_features = whisper_processor(audio_array, sampling_rate=16000, return_tensors="pt").input_features
-
-    # Set language and task
-    whisper_lang = "turkish" if language == "tr" else "english"
-    task = "transcribe" if language == "tr" else "translate"
-
-    # Generate transcription
-    forced_decoder_ids = whisper_processor.get_decoder_prompt_ids(language=whisper_lang, task=task)
-    generated_ids = whisper_model.generate(input_features, forced_decoder_ids=forced_decoder_ids)
-    text = whisper_processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
-
-    return text
-
-def transcribe_segments_with_whisper(audio_file, segments, language, episode, output_dir, whisper_model, whisper_processor, episode_dir=None, audio_segments_dir=None):
-    """
-    Transcribe audio segments using Whisper Large model from Hugging Face
-
-    Args:
-        audio_file (Path): Input audio file
-        segments (list): List of (start, end) tuples in seconds, or None for full audio
-        language (str): Language code ("tr" for Turkish, "en" for English)
-        episode (int): Episode number
-        output_dir (Path): Output directory for VTT files
-        whisper_model: Pre-loaded Whisper model (reused)
-        whisper_processor: Pre-loaded Whisper processor (reused)
-        episode_dir (Path): Optional episode directory to save VTT files and progress
-        audio_segments_dir (Path): Optional directory to save audio segment files
-
-    Returns:
-        Path: Path to VTT file, or None if failed
-    """
-    if not WHISPER_AVAILABLE:
-        print(f"   ❌ Whisper not installed. Install with: pip install transformers torch")
-        return None
-
-    lang_name = "Turkish" if language == "tr" else "English"
-    print(f"\n🤖 Transcribing audio to {lang_name} using Whisper Large...")
-
-    # Output VTT file
-    vtt_file = output_dir / f"{episode:03d}-{language}.vtt"
-
-    # Check if already transcribed
-    if vtt_file.exists():
-        print(f"   ✓ VTT already exists: {vtt_file.name}")
-        return vtt_file
-
-    try:
-        all_segments = []
-
-        if segments:
-            print(f"   🎙️  Transcribing {len(segments)} speech segments...")
-            if audio_segments_dir and language == "tr":
-                print(f"   💾 Saving audio segments to: {audio_segments_dir}/")
-            # Transcribe each VAD segment
-            for i, (start, end) in enumerate(segments, 1):
-                # Only print progress every 100 segments to reduce verbosity
-                if i % 100 == 0 or i == 1 or i == len(segments):
-                    print(f"      Progress: {i}/{len(segments)} segments ({i*100//len(segments)}%)")
-
-                # Load audio segment
-                audio_array = load_audio_segment(audio_file, start, end)
-
-                # Save audio segment if directory provided and this is Turkish transcription
-                if audio_segments_dir and language == "tr":
-                    segment_file = audio_segments_dir / f"segment_{i:04d}.wav"
-                    segment_tensor = torch.from_numpy(audio_array).unsqueeze(0)
-                    torchaudio.save(str(segment_file), segment_tensor, 16000)
-
-                # Transcribe segment
-                transcription = transcribe_with_whisper(audio_file, start, end, language, whisper_model, whisper_processor)
-
-                if transcription.strip():
-                    all_segments.append({
-                        'start': start,
-                        'end': end,
-                        'text': transcription.strip()
-                    })
-
-                # Save progress every 100 segments
-                if i % 100 == 0:
-                    print(f"      💾 Saving progress: {len(all_segments)} transcriptions...")
-                    # Save with ~ suffix to indicate partial (to episode directory)
-                    if episode_dir:
-                        partial_vtt = episode_dir / f"{episode:03d}-{language}~.vtt"
-                        write_vtt({'segments': all_segments}, partial_vtt)
-
-
-        else:
-            # Transcribe full audio without VAD segmentation
-            print(f"   🎙️  Transcribing full audio (this will take 10-30 minutes)...")
-
-            # Load full audio
-            waveform, sample_rate = torchaudio.load(str(audio_file))
-            if waveform.shape[0] > 1:
-                waveform = torch.mean(waveform, dim=0, keepdim=True)
-            audio_array = waveform.squeeze().numpy()
-
-            # Process in chunks (30 second chunks)
-            chunk_length = 30 * 16000  # 30 seconds at 16kHz
-            import numpy as np
-            num_chunks = int(np.ceil(len(audio_array) / chunk_length))
-
-            for i in range(num_chunks):
-                start_sample = i * chunk_length
-                end_sample = min((i + 1) * chunk_length, len(audio_array))
-                chunk = audio_array[start_sample:end_sample]
-
-                start_time = start_sample / 16000
-                end_time = end_sample / 16000
-
-                # Only print progress every 10 chunks to reduce verbosity
-                if i % 10 == 0 or i == 0 or i == num_chunks - 1:
-                    print(f"      Progress: Chunk {i+1}/{num_chunks} ({(i+1)*100//num_chunks}%)")
-
-                # Process audio chunk
-                input_features = whisper_processor(chunk, sampling_rate=16000, return_tensors="pt").input_features
-
-                # Set language and task
-                whisper_lang = "turkish" if language == "tr" else "english"
-                task = "transcribe" if language == "tr" else "translate"
-
-                # Generate transcription
-                forced_decoder_ids = whisper_processor.get_decoder_prompt_ids(language=whisper_lang, task=task)
-                generated_ids = whisper_model.generate(input_features, forced_decoder_ids=forced_decoder_ids)
-                transcription = whisper_processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
-
-                if transcription.strip():
-                    all_segments.append({
-                        'start': start_time,
-                        'end': end_time,
-                        'text': transcription.strip()
-                    })
-
-        # Write VTT file
-        print(f"   💾 Writing VTT file with {len(all_segments)} segments...")
-        write_vtt({'segments': all_segments}, vtt_file)
-
-        print(f"   ✅ Created: {vtt_file.name}")
-
-        # Also copy to episode directory if provided
-        if episode_dir:
-            episode_vtt = episode_dir / vtt_file.name
-            shutil.copy2(vtt_file, episode_vtt)
-            print(f"   📋 Copied to: {episode_vtt}")
-
-        return vtt_file
-
-    except Exception as e:
-        print(f"   ❌ Transcription failed: {e}")
-        import traceback
-        traceback.print_exc()
-        return None
 
 def main():
     if len(sys.argv) < 3:
@@ -365,7 +134,8 @@ def main():
     episode_dir = video_dir / f"{episode:03d}"
     episode_dir.mkdir(parents=True, exist_ok=True)
 
-    audio_dir = video_dir / "audio"
+    # Audio directory within episode
+    audio_dir = episode_dir / "audio"
     audio_dir.mkdir(exist_ok=True)
 
     temp_dir = find_path([
@@ -374,7 +144,7 @@ def main():
     ])
     temp_dir.mkdir(parents=True, exist_ok=True)
 
-    audio_segments_dir = episode_dir / "audio"
+    audio_segments_dir = audio_dir / "segments"
 
     # Check for partial/incomplete processing and clean up
     tr_vtt_temp = temp_dir / f"{episode:03d}-tr.vtt"
@@ -473,6 +243,35 @@ def main():
             except Exception as e:
                 print(f"   ⚠️  JSON conversion failed: {e}")
 
+    # Cleanup: Delete partial VTT files with ~ suffix
+    print(f"\n🧹 Cleaning up temporary files...")
+    deleted_count = 0
+    for partial_vtt in [tr_vtt_partial, en_vtt_partial]:
+        if partial_vtt.exists():
+            partial_vtt.unlink()
+            deleted_count += 1
+            print(f"   🗑️  Deleted: {partial_vtt.name}")
+
+    # Delete old shared audio directory if it exists (legacy from old structure)
+    old_audio_dir = video_dir / "audio"
+    if old_audio_dir.exists() and old_audio_dir.is_dir():
+        # Only delete if it's empty or contains episode-specific WAV files
+        old_audio_files = list(old_audio_dir.glob(f"{episode:03d}.wav"))
+        if old_audio_files:
+            for old_file in old_audio_files:
+                old_file.unlink()
+                deleted_count += 1
+                print(f"   🗑️  Deleted: {old_file}")
+            # Try to remove the directory if empty
+            try:
+                old_audio_dir.rmdir()
+                print(f"   🗑️  Deleted empty directory: {old_audio_dir}")
+            except OSError:
+                pass  # Directory not empty, keep it
+
+    if deleted_count > 0:
+        print(f"   ✅ Cleaned up {deleted_count} temporary file(s)")
+
     print(f"\n{'=' * 60}")
     print(f"🎉 Episode {episode:03d} completed!")
     print(f"{'=' * 60}")
@@ -486,7 +285,9 @@ def main():
         print(f"     - {episode:03d}.mp4 (video)")
         print(f"     - {episode:03d}-tr.vtt (Turkish subtitles)")
         print(f"     - {episode:03d}-en.vtt (English subtitles)")
-        print(f"     - audio/ ({len(speech_segments)} segments)" if speech_segments else "")
+        print(f"     - audio/{episode:03d}.wav (full audio)")
+        if speech_segments:
+            print(f"     - audio/segments/ ({len(speech_segments)} segments)")
     print(f"\n💡 You can now watch the video with subtitles!")
 
 if __name__ == "__main__":
